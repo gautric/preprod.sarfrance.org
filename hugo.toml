@@ -1,0 +1,4 @@
+baseURL = 'https://preprod.sarfrance.org/'
+languageCode = 'en-us'
+title = 'SAR France Preprod'
+theme = 'ananke'
