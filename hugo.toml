@@ -1,4 +1,164 @@
 baseURL = 'https://preprod.sarfrance.org/'
-languageCode = 'en-us'
-title = 'SAR France Preprod'
-theme = 'ananke'
+languageCode = 'fr-FR'
+title = 'S.A.R. France - Les Fils de la Révolution Américaine'
+theme = 'sarfrance-theme'
+
+[params]
+  description = "SAR France - Société en France des Fils de la Révolution Américaine"
+  author = "SAR France"
+  heroTitle = "S.A.R. FRANCE"
+  heroSubtitle = "Les Fils de la Révolution Américaine – The Sons of the American Revolution"
+  footerText = "© 2026 SAR France – Association reconnue d'utilité publique (décret du 31 décembre 2013, JO du 3 janvier 2014)"
+
+[menus]
+  # Main Menu - 5 items
+  [[menus.main]]
+    identifier = "accueil"
+    name = "Accueil"
+    url = "/"
+    weight = 1
+
+  [[menus.main]]
+    identifier = "organisation"
+    name = "Organisation"
+    url = "/organisation/"
+    weight = 2
+
+  [[menus.main]]
+    identifier = "histoire"
+    name = "Histoire"
+    url = "/histoire/"
+    weight = 3
+
+  [[menus.main]]
+    identifier = "activites"
+    name = "Activités"
+    url = "/activites/"
+    weight = 4
+
+  [[menus.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
+
+  # Submenus - Organisation (4 items)
+  [[menus.main]]
+    identifier = "nssar"
+    name = "NSSAR"
+    url = "/organisation/nssar/"
+    parent = "organisation"
+    weight = 1
+
+  [[menus.main]]
+    identifier = "statuts"
+    name = "Statuts & Règlement"
+    url = "/organisation/statuts/"
+    parent = "organisation"
+    weight = 2
+
+  [[menus.main]]
+    identifier = "societes"
+    name = "Sociétés françaises"
+    url = "/organisation/societes/"
+    parent = "organisation"
+    weight = 3
+
+  [[menus.main]]
+    identifier = "secretariat"
+    name = "Secrétariat"
+    url = "/organisation/secretariat/"
+    parent = "organisation"
+    weight = 4
+
+  # Submenus - Histoire (4 items)
+  [[menus.main]]
+    identifier = "chronologie"
+    name = "Chronologie"
+    url = "/histoire/chronologie/"
+    parent = "histoire"
+    weight = 1
+
+  [[menus.main]]
+    identifier = "operations"
+    name = "Opérations militaires"
+    url = "/histoire/operations/"
+    parent = "histoire"
+    weight = 2
+
+  [[menus.main]]
+    identifier = "chefs"
+    name = "Chefs militaires"
+    url = "/histoire/chefs-militaires/"
+    parent = "histoire"
+    weight = 3
+
+  [[menus.main]]
+    identifier = "hauts-lieux"
+    name = "Hauts lieux en France"
+    url = "/histoire/hauts-lieux/"
+    parent = "histoire"
+    weight = 4
+
+  # Submenus - Activités (4 items)
+  [[menus.main]]
+    identifier = "agenda"
+    name = "Agenda"
+    url = "/activites/agenda-2026/"
+    parent = "activites"
+    weight = 1
+
+  [[menus.main]]
+    identifier = "evenements"
+    name = "Événements"
+    url = "/activites/evenements/"
+    parent = "activites"
+    weight = 2
+
+  [[menus.main]]
+    identifier = "bulletins"
+    name = "Bulletins"
+    url = "/activites/bulletins/"
+    parent = "activites"
+    weight = 3
+
+  [[menus.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/activites/publications/"
+    parent = "activites"
+    weight = 4
+
+  # Submenus - Contact (4 items)
+  [[menus.main]]
+    identifier = "nous-rejoindre"
+    name = "Nous rejoindre"
+    url = "/contact/nous-rejoindre/"
+    parent = "contact"
+    weight = 1
+
+  [[menus.main]]
+    identifier = "admission"
+    name = "Conditions d'admission"
+    url = "/contact/admission/"
+    parent = "contact"
+    weight = 2
+
+  [[menus.main]]
+    identifier = "cotisation"
+    name = "Cotisation"
+    url = "/contact/cotisation/"
+    parent = "contact"
+    weight = 3
+
+  [[menus.main]]
+    identifier = "formulaire"
+    name = "Formulaire"
+    url = "/contact/formulaire/"
+    parent = "contact"
+    weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

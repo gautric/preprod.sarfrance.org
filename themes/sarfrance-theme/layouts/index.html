@@ -1,0 +1,94 @@
+{{ define "main" }}
+<section class="hero">
+    <div class="hero-content">
+        <h1>{{ .Site.Params.heroTitle }}</h1>
+        <p class="hero-subtitle">{{ .Site.Params.heroSubtitle }}</p>
+        <p class="hero-desc">La Société en France réunit des descendants directs de personnes ayant contribué à donner l'indépendance aux colonies anglaises d'Amérique.</p>
+        <a href="/contact/nous-rejoindre/" class="btn btn-primary">Nous rejoindre</a>
+    </div>
+</section>
+
+<!-- <section class="intro">
+    <div class="container">
+        <div class="intro-content">
+            <h2>Objet de la Société</h2>
+            <ul class="objet-list">
+                <li>Aimer et conserver le souvenir de ceux qui, pendant la Révolution américaine, travaillèrent à établir l'indépendance du peuple américain.</li>
+                <li>Favoriser des relations cordiales entre leurs descendants.</li>
+                <li>Encourager les recherches historiques se rapportant à la Guerre de l'Indépendance américaine.</li>
+                <li>Maintenir les liens d'amitié qui se sont formés entre les peuples français et américain, au moment de la naissance de la nation américaine.</li>
+            </ul>
+            <a href="/organisation/" class="btn btn-secondary">Découvrir la Société</a>
+        </div>
+    </div>
+</section> -->
+
+<section class="features">
+    <div class="container">
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🌍</div>
+                <h3>Transatlantique</h3>
+                <p>Cultiver l'amitié franco-américaine, faciliter les échanges culturels et professionnels avec les États-Unis.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📜</div>
+                <h3>Historique</h3>
+                <p>Étudier cette guerre mondiale du XVIIIe siècle et le rôle déterminant de la France dans l'indépendance américaine.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🏛️</div>
+                <h3>Culturelle</h3>
+                <p>Conférences, voyages en Amérique, réunions locales et manifestations commémoratives à Paris et en province.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="events">
+    <div class="container">
+        <h2>Actualités</h2>
+        <div class="events-grid">
+            <article class="event-card">
+                <div class="event-date">
+                    <span class="day">17</span>
+                    <span class="month">Jan</span>
+                </div>
+                <div class="event-info">
+                    <h3>Conférence de Patrick Villiers</h3>
+                    <p>Conférence à Versailles dans le cadre du 400e anniversaire de la Marine nationale.</p>
+                </div>
+            </article>
+            <article class="event-card">
+                <div class="event-date">
+                    <span class="day">06</span>
+                    <span class="month">Fév</span>
+                </div>
+                <div class="event-info">
+                    <h3>Assemblée générale</h3>
+                    <p>Assemblée générale de SAR France et dîner au Palais du Luxembourg.</p>
+                </div>
+            </article>
+            <article class="event-card">
+                <div class="event-date">
+                    <span class="day">17</span>
+                    <span class="month">Mar</span>
+                </div>
+                <div class="event-info">
+                    <h3>Conférence Stéphane Meffre</h3>
+                    <p>Conférence dans le cadre du 400e anniversaire de la Marine nationale.</p>
+                </div>
+            </article>
+        </div>
+        <a href="/activites/evenements/" class="btn btn-secondary">Tous les événements</a>
+    </div>
+</section>
+
+<section class="cta">
+    <div class="container">
+        <h2>Rejoignez SAR France</h2>
+        <p>Vous descendez d'un combattant de la Guerre d'Amérique (1778-1783) ? Rassemblez les preuves de votre ascendance et contactez notre archiviste.</p>
+        <a href="/contact/admission/" class="btn btn-primary">Conditions d'admission</a>
+    </div>
+</section>
+{{ end }}

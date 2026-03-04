@@ -1,0 +1,28 @@
+<header class="site-header">
+    <nav class="main-nav">
+        <div class="container">
+            <a href="/" class="logo">
+                <img src="https://sarfrance.org/wp-content/uploads/2023/01/cropped-cropped-banniere-1-copy.jpg" alt="SAR FRANCE" class="logo-img">
+            </a>
+            <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                {{ range .Site.Menus.main }}
+                    {{ if .HasChildren }}
+                    <li class="has-submenu">
+                        <a href="{{ .URL }}">{{ .Name }}</a>
+                        <ul class="submenu">
+                            {{ range .Children }}
+                            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                            {{ end }}
+                        </ul>
+                    </li>
+                    {{ else if not .Parent }}
+                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                {{ end }}
+            </ul>
+        </div>
+    </nav>
+</header>

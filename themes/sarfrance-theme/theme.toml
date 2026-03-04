@@ -1,0 +1,12 @@
+name = "SAR France Theme"
+license = "MIT"
+licenselink = "https://github.com/sarfrance/theme/blob/master/LICENSE"
+description = "Theme institutionnel pour SAR FRANCE"
+homepage = "https://sarfrance.org/"
+tags = ["institutional", "french", "sar"]
+features = ["responsive", "multilevel-menu"]
+min_version = "0.100.0"
+
+[author]
+  name = "SAR FRANCE"
+  homepage = "https://sarfrance.org/"

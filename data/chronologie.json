@@ -1,0 +1,115 @@
+{
+  "periodes": [
+    {
+      "nom": "Les Colonies (1607-1763)",
+      "events": [
+        {"date": "24 mai 1607", "annee": 1607, "titre": "Première colonie anglaise à Jamestown", "description": "Virginie : première colonie anglaise à Jamestown (Chesapeake).", "tags": ["amérique", "colonies"]},
+        {"date": "26 déc. 1620", "annee": 1620, "titre": "Le Mayflower au Massachusetts", "description": "Arrivée du Mayflower : fondation du Massachusetts.", "tags": ["amérique", "colonies"]},
+        {"date": "9 avr. 1682", "annee": 1682, "titre": "Les Français créent la Louisiane", "description": "La France établit la Louisiane en Amérique du Nord.", "tags": ["france", "colonies"]},
+        {"date": "22 fév. 1732", "annee": 1732, "titre": "Naissance de George Washington", "description": "Naissance de George Washington, futur commandant en chef et premier président.", "tags": ["amérique", "personnalité"]},
+        {"date": "10 mai 1745", "annee": 1745, "titre": "Bataille de Fontenoy", "description": "Victoire française à Fontenoy.", "tags": ["france", "bataille"]},
+        {"date": "27 mai 1754", "annee": 1754, "titre": "Washington en Ohio – Jumonville assassiné", "description": "Le lieutenant-colonel Washington en Ohio. L'officier français Jumonville est assassiné.", "tags": ["amérique", "france", "bataille"]},
+        {"date": "6 sept. 1757", "annee": 1757, "titre": "Naissance de La Fayette", "description": "Naissance de Marie-Joseph Paul Yves Roch Gilbert du Motier, marquis de La Fayette.", "tags": ["france", "personnalité"]},
+        {"date": "16 sept. 1759", "annee": 1759, "titre": "Chute de Québec – Mort de Montcalm", "description": "Chute de Québec et mort du marquis de Montcalm.", "tags": ["france", "bataille"]},
+        {"date": "10 fév. 1763", "annee": 1763, "titre": "Traité de Paris", "description": "Traité de Paris mettant fin à la Guerre de Sept Ans. La France perd le Canada.", "tags": ["france", "angleterre", "diplomatie"]}
+      ]
+    },
+    {
+      "nom": "Les Préludes (1764-1775)",
+      "events": [
+        {"date": "1764", "annee": 1764, "titre": "Sugar Act", "description": "Le Parlement britannique impose le Sugar Act aux colonies.", "tags": ["angleterre", "colonies", "taxation"]},
+        {"date": "mars 1765", "annee": 1765, "titre": "Stamp Act", "description": "Le Stamp Act provoque la colère des colons américains.", "tags": ["angleterre", "colonies", "taxation"]},
+        {"date": "19 oct. 1765", "annee": 1765, "titre": "Déclaration des droits et griefs", "description": "Déclaration des droits et griefs à New York.", "tags": ["amérique", "politique"]},
+        {"date": "5 mars 1770", "annee": 1770, "titre": "Massacre de Boston", "description": "Des soldats britanniques tirent sur la foule à Boston.", "tags": ["amérique", "angleterre"]},
+        {"date": "16 déc. 1773", "annee": 1773, "titre": "Boston Tea Party", "description": "Les colons jettent le thé britannique dans le port de Boston.", "tags": ["amérique", "révolte"]},
+        {"date": "12 mai 1774", "annee": 1774, "titre": "Avènement de Louis XVI", "description": "Louis XVI monte sur le trône de France.", "tags": ["france", "politique"]},
+        {"date": "21 juil. 1774", "annee": 1774, "titre": "Vergennes aux Affaires étrangères", "description": "Le comte de Vergennes est nommé aux Affaires étrangères.", "tags": ["france", "diplomatie"]},
+        {"date": "5 sept. 1774", "annee": 1774, "titre": "Premier Congrès continental", "description": "Premier Congrès continental à Philadelphie.", "tags": ["amérique", "politique"]},
+        {"date": "18 avr. 1775", "annee": 1775, "titre": "Combat de Lexington", "description": "Premier combat de la Guerre d'Indépendance à Lexington.", "tags": ["amérique", "angleterre", "bataille"]},
+        {"date": "10 mai 1775", "annee": 1775, "titre": "Second Congrès continental", "description": "Ouverture du Second Congrès continental.", "tags": ["amérique", "politique"]},
+        {"date": "15 juin 1775", "annee": 1775, "titre": "Washington Commandant en Chef", "description": "George Washington est nommé Commandant en Chef de l'armée continentale.", "tags": ["amérique", "personnalité"]},
+        {"date": "17 juin 1775", "annee": 1775, "titre": "Bataille de Bunker Hill", "description": "Combat de Bunker Hill près de Boston.", "tags": ["amérique", "angleterre", "bataille"]}
+      ]
+    },
+    {
+      "nom": "L'Indépendance et l'aide secrète (1776-1777)",
+      "events": [
+        {"date": "4 juil. 1776", "annee": 1776, "titre": "Déclaration d'Indépendance", "description": "Les Treize Colonies déclarent leur indépendance. Vergennes finance Beaumarchais pour l'aide secrète.", "tags": ["amérique", "france", "politique"]},
+        {"date": "11 oct. 1776", "annee": 1776, "titre": "Bataille de Valcour Island", "description": "Bataille de Valcour Island. Les insurgents sont stoppés au Canada.", "tags": ["amérique", "angleterre", "bataille"]},
+        {"date": "16 nov. 1776", "annee": 1776, "titre": "Lord Howe prend New York", "description": "Les Britanniques s'emparent de New York.", "tags": ["angleterre", "bataille"]},
+        {"date": "2 janv. 1777", "annee": 1777, "titre": "Washington victorieux à Trenton", "description": "Victoire de Washington à Trenton.", "tags": ["amérique", "bataille"]},
+        {"date": "13 avr. 1777", "annee": 1777, "titre": "La Rouërie en Amérique", "description": "Le marquis de La Rouërie arrive en Amérique.", "tags": ["france", "volontaires"]},
+        {"date": "15 juin 1777", "annee": 1777, "titre": "La Fayette et Kalb en Amérique", "description": "La Fayette et le baron de Kalb débarquent en Amérique.", "tags": ["france", "volontaires", "personnalité"]},
+        {"date": "31 juil. 1777", "annee": 1777, "titre": "La Fayette major général", "description": "La Fayette est nommé major général de l'armée continentale.", "tags": ["france", "amérique", "personnalité"]},
+        {"date": "11 sept. 1777", "annee": 1777, "titre": "Échec à Brandywine", "description": "Échec des insurgents à Brandywine.", "tags": ["amérique", "angleterre", "bataille"]},
+        {"date": "17 oct. 1777", "annee": 1777, "titre": "Capitulation de Saratoga", "description": "Capitulation de Burgoyne à Saratoga. Tournant de la guerre.", "tags": ["amérique", "angleterre", "bataille"]}
+      ]
+    },
+    {
+      "nom": "L'Alliance franco-américaine (1778-1779)",
+      "events": [
+        {"date": "6 fév. 1778", "annee": 1778, "titre": "Traité d'Alliance", "description": "Signature du Traité d'amitié et de commerce et du Traité d'alliance entre la France et les États-Unis.", "tags": ["france", "amérique", "diplomatie"]},
+        {"date": "13 avr. 1778", "annee": 1778, "titre": "D'Estaing appareille de Toulon", "description": "L'amiral d'Estaing appareille de Toulon avec la première escadre française.", "tags": ["france", "marine"]},
+        {"date": "12 mai 1778", "annee": 1778, "titre": "Steuben à Valley Forge", "description": "Le baron de Steuben devient inspecteur à Valley Forge, réorganisant l'armée continentale.", "tags": ["amérique", "volontaires"]},
+        {"date": "27 juil. 1778", "annee": 1778, "titre": "Combat d'Ouessant", "description": "Premier combat naval majeur entre les flottes française et britannique.", "tags": ["france", "angleterre", "marine", "bataille"]},
+        {"date": "7 sept. 1778", "annee": 1778, "titre": "Bouillé prend La Dominique", "description": "Le marquis de Bouillé s'empare de La Dominique aux Antilles.", "tags": ["france", "bataille"]},
+        {"date": "6 fév. 1779", "annee": 1779, "titre": "Retour de La Fayette à Brest", "description": "La Fayette rentre en France pour plaider la cause américaine.", "tags": ["france", "personnalité"]},
+        {"date": "19 avr. 1779", "annee": 1779, "titre": "Traité d'Aranjuez", "description": "Traité d'Aranjuez : l'Espagne entre en guerre aux côtés de la France.", "tags": ["france", "diplomatie"]},
+        {"date": "4 juil. 1779", "annee": 1779, "titre": "Prise de La Grenade", "description": "Victoire française à La Grenade.", "tags": ["france", "bataille"]},
+        {"date": "9 oct. 1779", "annee": 1779, "titre": "Échec à Savannah", "description": "Échec du siège de Savannah. D'Estaing est blessé.", "tags": ["france", "amérique", "bataille"]}
+      ]
+    },
+    {
+      "nom": "Le Corps Expéditionnaire (1780)",
+      "events": [
+        {"date": "3 fév. 1780", "annee": 1780, "titre": "Guichen appareille de Brest", "description": "L'amiral de Guichen appareille de Brest pour les Antilles.", "tags": ["france", "marine"]},
+        {"date": "27 avr. 1780", "annee": 1780, "titre": "Second séjour de La Fayette", "description": "La Fayette repart en Amérique pour son second séjour.", "tags": ["france", "personnalité"]},
+        {"date": "2 mai 1780", "annee": 1780, "titre": "Ternay et le Corps Expéditionnaire", "description": "Le chevalier de Ternay et le Corps Expéditionnaire de Rochambeau appareillent de Brest.", "tags": ["france", "marine", "corps-expéditionnaire"]},
+        {"date": "12 mai 1780", "annee": 1780, "titre": "Clinton prend Charleston", "description": "Les Britanniques s'emparent de Charleston.", "tags": ["angleterre", "bataille"]},
+        {"date": "14 juil. 1780", "annee": 1780, "titre": "Rochambeau à Newport", "description": "Le Corps Expéditionnaire de Rochambeau débarque à Newport, Rhode Island.", "tags": ["france", "amérique", "corps-expéditionnaire"]},
+        {"date": "16 août 1780", "annee": 1780, "titre": "Défaite de Camden – Mort de Kalb", "description": "Cornwallis défait Gates à Camden. Le baron de Kalb est tué au combat.", "tags": ["amérique", "angleterre", "france", "bataille"]},
+        {"date": "20 sept. 1780", "annee": 1780, "titre": "Rochambeau rencontre Washington", "description": "Première rencontre entre Rochambeau et Washington pour planifier la campagne.", "tags": ["france", "amérique", "personnalité"]}
+      ]
+    },
+    {
+      "nom": "Yorktown et la victoire (1781)",
+      "events": [
+        {"date": "16 mars 1781", "annee": 1781, "titre": "Première Chesapeake", "description": "Premier combat naval dans la baie de Chesapeake.", "tags": ["france", "angleterre", "marine", "bataille"]},
+        {"date": "22 mars 1781", "annee": 1781, "titre": "De Grasse appareille de Brest", "description": "L'amiral de Grasse appareille de Brest avec sa flotte.", "tags": ["france", "marine"]},
+        {"date": "29 avr. 1781", "annee": 1781, "titre": "De Grasse dégage Fort Royal", "description": "De Grasse dégage Fort Royal à la Martinique.", "tags": ["france", "marine", "bataille"]},
+        {"date": "1er juin 1781", "annee": 1781, "titre": "De Grasse prend Tobago", "description": "L'amiral de Grasse s'empare de Tobago.", "tags": ["france", "bataille"]},
+        {"date": "19 août 1781", "annee": 1781, "titre": "Rochambeau franchit l'Hudson", "description": "Les armées française et américaine se mettent en marche vers le sud.", "tags": ["france", "amérique", "corps-expéditionnaire"]},
+        {"date": "6 sept. 1781", "annee": 1781, "titre": "Bataille de la Chesapeake", "description": "De Grasse engage et repousse la flotte anglaise au large de la Chesapeake. Victoire navale décisive.", "tags": ["france", "angleterre", "marine", "bataille"]},
+        {"date": "19 oct. 1781", "annee": 1781, "titre": "Capitulation de Yorktown", "description": "Cornwallis capitule à Yorktown. 6 000 Anglais et 2 000 Allemands désarmés. Victoire décisive de Rochambeau, de Grasse et La Fayette.", "tags": ["france", "amérique", "angleterre", "bataille", "corps-expéditionnaire"]}
+      ]
+    },
+    {
+      "nom": "La Paix (1782-1789)",
+      "events": [
+        {"date": "26 janv. 1782", "annee": 1782, "titre": "Prise de Saint-Christophe", "description": "Bouillé et de Grasse prennent Saint-Christophe aux Antilles.", "tags": ["france", "bataille"]},
+        {"date": "12 avr. 1782", "annee": 1782, "titre": "Défaite des Saintes", "description": "Rodney défait de Grasse à la bataille des Saintes.", "tags": ["france", "angleterre", "marine", "bataille"]},
+        {"date": "1782-1783", "annee": 1782, "titre": "Victoires de Suffren", "description": "Dans l'Océan Indien, le bailli de Suffren enchaîne les victoires navales.", "tags": ["france", "marine", "bataille"]},
+        {"date": "24 nov. 1782", "annee": 1782, "titre": "Rembarquement du Corps Expéditionnaire", "description": "Le Corps Expéditionnaire français rembarque à Boston.", "tags": ["france", "corps-expéditionnaire"]},
+        {"date": "3 sept. 1783", "annee": 1783, "titre": "Paix de Versailles", "description": "Traité de Versailles. L'Angleterre reconnaît l'indépendance des États-Unis.", "tags": ["france", "amérique", "angleterre", "diplomatie"]},
+        {"date": "17 sept. 1787", "annee": 1787, "titre": "Constitution des États-Unis", "description": "Adoption de la Constitution des États-Unis d'Amérique.", "tags": ["amérique", "politique"]},
+        {"date": "30 avr. 1789", "annee": 1789, "titre": "Washington Président", "description": "George Washington est élu premier président des États-Unis.", "tags": ["amérique", "personnalité", "politique"]},
+        {"date": "5 mai 1789", "annee": 1789, "titre": "Ouverture des États Généraux", "description": "Ouverture des États Généraux à Versailles. Début de la Révolution Française.", "tags": ["france", "politique"]}
+      ]
+    }
+  ],
+  "tags": {
+    "france": {"label": "France", "color": "#2c5282"},
+    "amérique": {"label": "Amérique", "color": "#744210"},
+    "angleterre": {"label": "Angleterre", "color": "#9b2c2c"},
+    "bataille": {"label": "Bataille", "color": "#6b2737"},
+    "marine": {"label": "Marine", "color": "#2a4365"},
+    "diplomatie": {"label": "Diplomatie", "color": "#5a6a3a"},
+    "colonies": {"label": "Colonies", "color": "#7b6d3a"},
+    "politique": {"label": "Politique", "color": "#4a5568"},
+    "personnalité": {"label": "Personnalité", "color": "#6b4c8a"},
+    "volontaires": {"label": "Volontaires", "color": "#3a6a6a"},
+    "corps-expéditionnaire": {"label": "Corps Expéditionnaire", "color": "#1a3a5c"},
+    "taxation": {"label": "Taxation", "color": "#8a5a3a"},
+    "révolte": {"label": "Révolte", "color": "#8b4513"}
+  }
+}

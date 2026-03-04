@@ -1,29 +1,46 @@
-# SAR France Preprod Website
+# SAR FRANCE - Site Web Institutionnel
 
-Hugo website for preprod.sarfrance.org
+Site web institutionnel pour SAR FRANCE (Société des Fils de la Révolution Américaine - Chapitre France), construit avec Hugo.
 
-## Local Development
+## Prérequis
+
+- Hugo v0.100.0 ou supérieur
+
+## Développement
 
 ```bash
+# Lancer le serveur de développement
 hugo server -D
+
+# Construire le site
+hugo
 ```
 
-Visit http://localhost:1313
+## Structure des Menus
 
-## Deployment
+Le site dispose d'une navigation à deux niveaux :
 
-The site automatically deploys to GitHub Pages when you push to the `main` branch.
+### Menu Principal (5 items)
+1. Accueil
+2. Organisation
+3. Histoire
+4. Activités
+5. Contact
 
-## Setup GitHub Pages
+### Sous-menus (4 items chacun)
+- Organisation : Bureau, Membres, Statuts, Adhésion
+- Histoire : La Révolution, Lafayette, Rochambeau, Alliance Franco-Américaine
+- Activités : Événements, Commémorations, Conférences, Publications
+- Contact : Coordonnées, Formulaire, Presse, Partenaires
 
-1. Push this repository to GitHub
-2. Go to repository Settings > Pages
-3. Under "Build and deployment", select "GitHub Actions" as the source
-4. Configure your custom domain `preprod.sarfrance.org` in the Pages settings
-5. Add a CNAME record in your DNS pointing to `<username>.github.io`
+## Palette de Couleurs
 
-## Adding Content
+Inspirée de sar.org :
+- Bleu marine : #1a2a4a
+- Rouge : #b22234
+- Crème : #f5f3e8
+- Or : #c9a227
 
-```bash
-hugo new content/posts/my-post.md
-```
+## Déploiement
+
+Le site généré se trouve dans le dossier `public/`.

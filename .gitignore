@@ -14,3 +14,8 @@ Thumbs.db
 *.swp
 *.swo
 *~
+sarfrance/*
+.gitignore
+.hugo_build.lock
+deploy.sh
+sarfrance.zip
