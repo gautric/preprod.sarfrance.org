@@ -22,8 +22,14 @@
                 <div class="timeline-item" data-tags="{{ delimit .tags "," }}">
                     <div class="timeline-dot"></div>
                     <div class="timeline-card">
-                        <span class="timeline-date">{{ .date }}</span>
-                        <h3 class="timeline-title">{{ .titre }}</h3>
+                        <span class="timeline-date" data-iso-date="{{ .date }}">{{ .date }}</span>
+                        <h3 class="timeline-title">
+                            {{ if .wikipedia }}
+                            <a href="{{ .wikipedia }}" target="_blank" rel="noopener noreferrer" class="timeline-link">{{ .titre }}</a>
+                            {{ else }}
+                            {{ .titre }}
+                            {{ end }}
+                        </h3>
                         <p class="timeline-desc">{{ .description }}</p>
                         <div class="timeline-tags">
                             {{ range .tags }}
@@ -166,6 +172,23 @@
     font-family: 'Playfair Display', Georgia, serif;
 }
 
+.timeline-link {
+    color: #2d3748;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.timeline-link:hover {
+    color: #4a5568;
+    text-decoration: underline;
+}
+
+.timeline-link::after {
+    content: ' 🔗';
+    font-size: 0.75em;
+    opacity: 0.5;
+}
+
 .timeline-desc {
     font-size: 0.9rem;
     color: #4a5568;
@@ -224,6 +247,24 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+    // Format dates in local timezone
+    const dateElements = document.querySelectorAll('.timeline-date[data-iso-date]');
+    dateElements.forEach(function(el) {
+        const isoDate = el.getAttribute('data-iso-date');
+        if (isoDate) {
+            try {
+                const date = new Date(isoDate);
+                const options = { year: 'numeric', month: 'long', day: 'numeric' };
+                const formattedDate = date.toLocaleDateString(undefined, options);
+                el.textContent = formattedDate;
+            } catch (e) {
+                // Keep original date if parsing fails
+                console.warn('Failed to parse date:', isoDate);
+            }
+        }
+    });
+
+    // Filter functionality
     const filters = document.querySelectorAll('.tag-filter');
     const items = document.querySelectorAll('.timeline-item');
 
