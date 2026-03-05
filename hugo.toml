@@ -37,10 +37,16 @@ theme = 'sarfrance-theme'
     weight = 4
 
   [[menus.main]]
+    identifier = "membres"
+    name = "Membres"
+    url = "/membres/"
+    weight = 5
+
+  [[menus.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
-    weight = 5
+    weight = 6
 
   # Submenus - Organisation (4 items)
   [[menus.main]]
@@ -157,6 +163,28 @@ theme = 'sarfrance-theme'
     url = "/contact/formulaire/"
     parent = "contact"
     weight = 4
+
+  # Submenus - Membres (3 items)
+  [[menus.main]]
+    identifier = "annuaire"
+    name = "Annuaire"
+    url = "/membres/annuaire/"
+    parent = "membres"
+    weight = 1
+
+  [[menus.main]]
+    identifier = "pv-reunions"
+    name = "PV de réunions"
+    url = "/membres/pv-reunions/"
+    parent = "membres"
+    weight = 2
+
+  [[menus.main]]
+    identifier = "documents"
+    name = "Documents"
+    url = "/membres/documents/"
+    parent = "membres"
+    weight = 3
 
 [markup]
   [markup.goldmark]
