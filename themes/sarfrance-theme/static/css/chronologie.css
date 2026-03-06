@@ -42,7 +42,7 @@
     padding: 15px 0 10px 0;
     margin: 40px 0 10px 0;
     border-bottom: 2px solid #e2e8f0;
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: 'Cormorant Garamond', Georgia, serif;
 }
 
 /* Timeline */
@@ -120,7 +120,7 @@
     font-size: 1.05rem;
     color: #2d3748;
     margin: 4px 0 6px 0;
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: 'Cormorant Garamond', Georgia, serif;
 }
 
 .timeline-link {
