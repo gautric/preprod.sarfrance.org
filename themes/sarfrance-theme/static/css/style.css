@@ -244,6 +244,11 @@ a:hover {
     top: 8px;
 }
 
+/* Gold Accent Border */
+.gold-accent {
+    border-top: 4px solid var(--gold);
+}
+
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, rgba(26, 42, 74, 0.92) 0%, rgba(15, 26, 46, 0.95) 100%);
@@ -252,7 +257,6 @@ a:hover {
     text-align: center;
     position: relative;
     overflow: hidden;
-    border-top: 4px solid var(--gold);
 
 }
 
