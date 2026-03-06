@@ -221,7 +221,7 @@ a:hover {
     display: block;
     width: 25px;
     height: 3px;
-    background-color: var(--white);
+    background-color: var(--navy-blue);
     position: relative;
     transition: all 0.3s ease;
 }
@@ -232,7 +232,7 @@ a:hover {
     position: absolute;
     width: 25px;
     height: 3px;
-    background-color: var(--white);
+    background-color: var(--navy-blue);
     transition: all 0.3s ease;
 }
 
@@ -677,6 +677,7 @@ a:hover {
     
     .nav-menu > li > a {
         padding: 15px 20px;
+        color: var(--white);
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
     
@@ -696,7 +697,7 @@ a:hover {
     }
     
     .submenu li a {
-        color: var(--cream);
+        color: var(--white);
         padding-left: 40px;
         border-bottom-color: rgba(255, 255, 255, 0.1);
     }
