@@ -7,11 +7,41 @@
     </div>
 </section>
 
-<section class="cta-join">
-    <div class="container" style="text-align: center; padding: 40px 0;">
-        <a href="/contact/nous-rejoindre/" class="btn btn-primary">Nous rejoindre</a>
+
+{{ $today := now.Format "2006-01-02" }}
+{{ $upcoming := slice }}
+{{ range .Site.Data.agenda.events }}
+  {{ $compareDate := cond (and .dateEnd (ne .dateEnd "")) .dateEnd .date }}
+  {{ if ge $compareDate $today }}
+    {{ $upcoming = $upcoming | append . }}
+  {{ end }}
+{{ end }}
+{{ $upcoming = sort $upcoming "date" }}
+{{ $months := dict "01" "Jan" "02" "Fév" "03" "Mar" "04" "Avr" "05" "Mai" "06" "Juin" "07" "Juil" "08" "Août" "09" "Sep" "10" "Oct" "11" "Nov" "12" "Déc" }}
+{{ if gt (len $upcoming) 0 }}
+<section class="events">
+    <div class="container">
+        <h2>Prochains événements</h2>
+        <div class="events-grid">
+            {{ range first 3 $upcoming }}
+            {{ $parts := split .date "-" }}
+            {{ $day := index $parts 2 }}
+            {{ $month := index $months (index $parts 1) }}
+            <article class="event-card">
+                <div class="event-date">
+                    <span class="day">{{ $day }}</span>
+                    <span class="month">{{ $month }}</span>
+                </div>
+                <div class="event-info">
+                    <h3>{{ .titre }}</h3>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+        <a href="/activites/agenda-2026/" class="btn btn-secondary">Voir l'agenda complet</a>
     </div>
 </section>
+{{ end }}
 
 <section class="features">
     <div class="container">
@@ -32,45 +62,6 @@
                 <p>Participer à des conférences, voyages en Amérique, réunions locales et manifestations commémoratives à Paris et en régions.</p>
             </div>
         </div>
-    </div>
-</section>
-
-<section class="events">
-    <div class="container">
-        <h2>Actualités</h2>
-        <div class="events-grid">
-            <article class="event-card">
-                <div class="event-date">
-                    <span class="day">17</span>
-                    <span class="month">Jan</span>
-                </div>
-                <div class="event-info">
-                    <h3>Conférence de Patrick Villiers</h3>
-                    <p>Conférence à Versailles dans le cadre du 400e anniversaire de la Marine nationale.</p>
-                </div>
-            </article>
-            <article class="event-card">
-                <div class="event-date">
-                    <span class="day">06</span>
-                    <span class="month">Fév</span>
-                </div>
-                <div class="event-info">
-                    <h3>Assemblée générale</h3>
-                    <p>Assemblée générale de SAR France et dîner au Palais du Luxembourg.</p>
-                </div>
-            </article>
-            <article class="event-card">
-                <div class="event-date">
-                    <span class="day">17</span>
-                    <span class="month">Mar</span>
-                </div>
-                <div class="event-info">
-                    <h3>Conférence de Stéphane Meffre</h3>
-                    <p>Conférence dans le cadre du 400e anniversaire de la Marine nationale.</p>
-                </div>
-            </article>
-        </div>
-        <a href="/activites/evenements/" class="btn btn-secondary">Tous les événements</a>
     </div>
 </section>
 

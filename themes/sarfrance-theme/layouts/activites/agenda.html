@@ -1,11 +1,12 @@
 {{ define "main" }}
 {{ $year := .Params.year | default "2026" }}
-{{ $agendaData := index .Site.Data.agenda $year }}
 {{ $types := .Site.Data.agenda.types }}
+{{ $events := where .Site.Data.agenda.events "date" "ge" (printf "%s-01-01" $year) }}
+{{ $events = where $events "date" "le" (printf "%s-12-31" $year) }}
 <section class="page-content">
     <div class="page-header">
         <div class="container">
-            <h1>{{ $agendaData.titre }}</h1>
+            <h1>Agenda {{ $year }}</h1>
             <p class="page-description">Événements et manifestations de la Société</p>
         </div>
     </div>
@@ -30,7 +31,7 @@
         </div>
         <div class="agenda-timeline">
             {{ $currentMonth := "" }}
-            {{ range $agendaData.events }}
+            {{ range $events }}
                 {{ $month := substr .date 5 2 }}
                 {{ if ne $month $currentMonth }}
                     {{ $currentMonth = $month }}
