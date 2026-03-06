@@ -8,17 +8,6 @@
     </div>
     <div class="container">
         {{ .Content }}
-        {{ if .Pages }}
-        <div class="page-list">
-            {{ range .Pages }}
-            <article class="list-item">
-                <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-                {{ if .Summary }}<p>{{ .Summary }}</p>{{ end }}
-                <a href="{{ .Permalink }}" class="read-more">Lire la suite →</a>
-            </article>
-            {{ end }}
-        </div>
-        {{ end }}
     </div>
 </section>
 {{ end }}
