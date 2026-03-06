@@ -9,7 +9,7 @@ description: "Lieux de mémoire de la Guerre d'Indépendance américaine en Fran
 - **Place des États-Unis** – Monument commémorant la rencontre de Washington et de La Fayette.
 - Lire « Paris, Birthplace of the U.S.A. » par Daniel Jouve (éditions Gründ, 1996), décrivant 23 lieux parisiens ayant joué un rôle marquant dans la Révolution Américaine.
 
-## En province
+## En régions
 
 - **Château de La Grange-Bléneau** – Où La Fayette a passé les trente dernières années de sa vie.
 - **Rochefort** – D'où La Fayette repartit sur l'Hermione en 1779. Voir la Corderie royale.

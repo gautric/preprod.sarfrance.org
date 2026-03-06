@@ -9,13 +9,13 @@ Le secrétariat de la Société, situé dans nos locaux du 20 rue Bosquet, est l
 
 ## Missions
 
-La secrétaire prépare toutes les manifestations et conférences et en assure le bon déroulement. Elle est présente à toutes celles-ci, dans la mesure du possible, et favorise les échanges entre les membres à cette occasion.
+Le Secrétariat prépare toutes les manifestations et conférences et en assure le bon déroulement. Il est présent à toutes celles-ci, dans la mesure du possible, et favorise les échanges entre les membres à cette occasion.
 
-Elle assure toutes les formalités liées à l'adhésion des membres, leur renouvellement et le recueil de toutes les informations nécessaires à leur agrément par la commission des preuves ainsi que leur formalisation.
+Il assure toutes les formalités liées à l'adhésion des membres, leur renouvellement et le recueil de toutes les informations nécessaires à leur agrément par la commission des preuves ainsi que leur formalisation.
 
-Elle est aussi le lien permanent entre le siège parisien et les différentes délégations régionales pour diffuser toutes les annonces de manifestations locales.
+Il est aussi le lien permanent entre le siège parisien et les différentes délégations régionales pour diffuser toutes les annonces de manifestations locales.
 
-Enfin, elle assiste à tous les conseils d'administration ; elle aide le secrétaire général dans la préparation des séances et la mise en œuvre des décisions prises.
+Enfin, il assiste à tous les conseils d'administration ; il aide le secrétaire général dans la préparation des séances et la mise en œuvre des décisions prises.
 
 ## Conseil consultatif d'histoire
 

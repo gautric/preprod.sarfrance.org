@@ -16,7 +16,7 @@ La Société en France des Fils de la Révolution Américaine est la première s
 
 - **1897** : Création d'un chapitre des SAR américains résidant en France, président Walter J. Sears de l'US Navy.
 - **1926** : Le comité pour la création d'une Société d'État autonome est approuvé par la NSSAR.
-- **4 février 1927** : L'assemblée constitutive vote les statuts : la Société en France des S.A.R. est née.
+- **4 février 1927** : L'assemblée constitutive vote les statuts : la Société en France des SAR est née.
 - **31 décembre 2013** : La Société est reconnue d'utilité publique (JO du 3 janvier 2014).
 
 SAR France est une association sans but lucratif reconnue d'utilité publique par décret du 31 décembre 2013 publié au JO du 3 janvier 2014.

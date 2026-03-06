@@ -246,12 +246,14 @@ a:hover {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, var(--navy-blue) 0%, var(--navy-dark) 100%);
+    background: linear-gradient(135deg, rgba(26, 42, 74, 0.92) 0%, rgba(15, 26, 46, 0.95) 100%),
+                url('/images/hero-bg.jpg') center/cover no-repeat;
     color: var(--white);
-    padding: 120px 20px;
+    padding: 140px 20px;
     text-align: center;
     position: relative;
     overflow: hidden;
+    border-bottom: 4px solid var(--gold);
 }
 
 .hero::before {
@@ -283,6 +285,14 @@ a:hover {
 .hero-subtitle {
     font-size: 1.3rem;
     margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.hero-desc {
+    font-size: 1.15rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
     opacity: 0.9;
 }
 
@@ -710,4 +720,72 @@ a:hover {
         left: 50%;
         transform: translateX(-50%);
     }
+}
+
+/* Contact Form */
+.contact-form {
+    max-width: 600px;
+    margin: 30px 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: var(--navy-blue);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--navy-blue);
+    box-shadow: 0 0 0 2px rgba(26, 42, 74, 0.1);
+}
+
+/* Page content alignment consistency */
+.page-content .content h2,
+.page-content .content h3,
+.list-page .container h2,
+.list-page .container h3 {
+    text-align: left;
+}
+
+.page-content .content,
+.list-page .container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Objet list styling */
+.objet-list {
+    list-style: none;
+    padding: 0;
+}
+
+.objet-list li {
+    padding: 10px 0 10px 25px;
+    position: relative;
+}
+
+.objet-list li::before {
+    content: '★';
+    position: absolute;
+    left: 0;
+    color: var(--gold);
 }

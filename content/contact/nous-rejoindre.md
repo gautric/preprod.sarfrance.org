@@ -12,26 +12,25 @@ description: "Rejoignez SAR France"
 
 ### Historique : la France a donné l'indépendance aux États-Unis
 - Étudier cette guerre mondiale du XVIIIe siècle
-- Constituer une bibliothèque virtuelle pour les membres
+- Développer nos ressources historiques
 
-### Culturelle : nous aimons nous souvenir et mettre en valeur
-- Par les réunions locales
+### Culturelle : nous aimons nous souvenir et mettre en valeur notre histoire
+- Lors de conférences, à Paris et en régions
 - Au cours de voyages en Amérique
-- Lors de conférences, à Paris et en province
 
 ## Vous descendez d'un combattant de la Guerre d'Amérique (1778-1783) ?
 
-**Vous n'êtes pas encore membre** : rassemblez les preuves de votre ascendance, soit directement, soit par rapport à un membre déjà admis, et contactez notre archiviste.
+**Vous n'êtes pas encore membre** : rassemblez les preuves de votre ascendance, soit directement, soit par rapport à un membre déjà admis, et contactez notre association.
 
 **Vous êtes déjà membre** et vous voulez une Société toujours plus vivante :
 - Faites adhérer aux « Sons » les hommes de votre famille
-- Pourquoi pas les dames aux D.A.R. (Daughters of the American Revolution)
-- Pour les plus jeunes aux C.A.R. (Children of the American Revolution)
+- Pourquoi pas les dames aux DAR (Daughters of the American Revolution)
+- Pour les plus jeunes aux CAR (Children of the American Revolution)
 
-## Participez dans nos commissions
+## Participez à nos commissions
 
 - Études et recherches en histoire
 - Développement régional
 - Préparation des manifestations et voyages
-- Recrutement : contact des membres potentiels
-- Enrichissement du site Internet
+- Recrutement : contacter des membres potentiels
+- Communication : site internet, revue annuelle, newsletters, réseaux sociaux
