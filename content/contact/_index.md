@@ -15,7 +15,8 @@ Contactez-nous en mentionnant vos nom et prénom, votre email et l'objet de votr
 
 ### Formulaire de contact
 
-<form class="contact-form" action="https://formspree.io/f/secretariat@sarfrance.org" method="POST">
+<form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+<input type="hidden" name="access_key" value="29cee0a1-6737-4155-bfb6-4b80d4e2f687">
   <div class="form-group">
     <label for="name">Nom et prénom</label>
     <input type="text" id="name" name="name" required>
