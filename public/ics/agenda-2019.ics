@@ -1,0 +1,179 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SAR France//Agenda//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SAR France - Agenda 2019
+X-WR-TIMEZONE:Europe/Paris
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190228
+DTEND;VALUE=DATE:20190304
+DTSTAMP:20260227T164718Z
+UID:c00df9facba2fe45@sarfrance.org
+SUMMARY:Spring leadership meeting de la NSSAR à Louisville (KY)
+DESCRIPTION:Type: nssar
+URL:https://sarfrance.org/activites/agenda-2019/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190315
+DTEND;VALUE=DATE:20190316
+DTSTAMP:20260227T164718Z
+UID:2af12f2c776da083@sarfrance.org
+SUMMARY:Assemblée générale de SAR France à l'École militaire suivie d'un dîner dans la Rotonde Gabriel
+DESCRIPTION:Type: assemblée
+URL:https://sarfrance.org/activites/agenda-2019/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190323
+DTEND;VALUE=DATE:20190325
+DTSTAMP:20260227T164718Z
+UID:4a45885654259462@sarfrance.org
+SUMMARY:Week-end en Belgique – Conférence de P. Villiers à Ostende\, visites de Bruges et Damme
+DESCRIPTION:Type: visite
+URL:https://sarfrance.org/activites/agenda-2019/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190427
+DTEND;VALUE=DATE:20190428
+DTSTAMP:20260227T164718Z
+UID:8cf119cda07d47d1@sarfrance.org
+SUMMARY:Départ de l'Hermione de Rochefort pour son voyage en Normandie
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2019/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190518
+DTEND;VALUE=DATE:20190519
+DTSTAMP:20260227T164718Z
+UID:e032866f3629ae6a@sarfrance.org
+SUMMARY:Inauguration de l'exposition « La France et l'indépendance américaine » au château de Berzé
+DESCRIPTION:Type: exposition
+URL:https://sarfrance.org/activites/agenda-2019/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190523
+DTEND;VALUE=DATE:20190528
+DTSTAMP:20260227T164718Z
+UID:824fd4195870d18d@sarfrance.org
+SUMMARY:Debord de Loire à Saint-Nazaire et Nantes
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2019/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190526
+DTEND;VALUE=DATE:20190527
+DTSTAMP:20260227T164718Z
+UID:c49052c10a1ed7d5@sarfrance.org
+SUMMARY:Cérémonies du Memorial Day en province et en région parisienne
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2019/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190606
+DTEND;VALUE=DATE:20190617
+DTSTAMP:20260227T164718Z
+UID:f730738a82f4c175@sarfrance.org
+SUMMARY:Armada de Rouen avec la participation de l'Hermione
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2019/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190626
+DTEND;VALUE=DATE:20190627
+DTSTAMP:20260227T164718Z
+UID:e8bc2bf5cd972fe4@sarfrance.org
+SUMMARY:Cérémonie au cimetière de Picpus
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2019/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190628
+DTEND;VALUE=DATE:20190629
+DTSTAMP:20260227T164718Z
+UID:7b0135cba3d0b3da@sarfrance.org
+SUMMARY:Cérémonie devant les statues rénovées de Pershing et La Fayette à Versailles
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2019/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190704
+DTEND;VALUE=DATE:20190705
+DTSTAMP:20260227T164718Z
+UID:44148717853a92c8@sarfrance.org
+SUMMARY:Independence Day
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2019/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190705
+DTEND;VALUE=DATE:20190712
+DTSTAMP:20260227T164718Z
+UID:99ecb0c58ed0748a@sarfrance.org
+SUMMARY:Congrès de la NSSAR à Costa Mesa (CA)
+DESCRIPTION:Type: nssar
+URL:https://sarfrance.org/activites/agenda-2019/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190907
+DTEND;VALUE=DATE:20190908
+DTSTAMP:20260227T164718Z
+UID:c7663b477b6514aa@sarfrance.org
+SUMMARY:Vernissage de l'exposition de Sanary sur les marins et la guerre d'indépendance
+DESCRIPTION:Type: exposition
+URL:https://sarfrance.org/activites/agenda-2019/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190919
+DTEND;VALUE=DATE:20190922
+DTSTAMP:20260227T164718Z
+UID:83d0aa29dc0dfcd4@sarfrance.org
+SUMMARY:Fall leadership meeting de la NSSAR à Louisville (KY)
+DESCRIPTION:Type: nssar
+URL:https://sarfrance.org/activites/agenda-2019/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20190930
+DTEND;VALUE=DATE:20191001
+DTSTAMP:20260227T164718Z
+UID:1e6ad959e9bc6616@sarfrance.org
+SUMMARY:Conférence du Prof. F. David « La Conférence de la Paix de Paris et le Wilsonisme » à France-Amériques
+DESCRIPTION:Type: conférence
+URL:https://sarfrance.org/activites/agenda-2019/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20191002
+DTEND;VALUE=DATE:20191003
+DTSTAMP:20260227T164718Z
+UID:eba131d7ba223acb@sarfrance.org
+SUMMARY:Ravivage de la Flamme sous l'Arc de Triomphe
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2019/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20191113
+DTEND;VALUE=DATE:20191114
+DTSTAMP:20260227T164718Z
+UID:ccce291850945ee5@sarfrance.org
+SUMMARY:Conférence du Prof. A. Gaillard sur l'Amiral du Chaffault à Nantes
+DESCRIPTION:Type: conférence
+URL:https://sarfrance.org/activites/agenda-2019/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20191120
+DTEND;VALUE=DATE:20191121
+DTSTAMP:20260227T164718Z
+UID:2b5c6b3dfbd502a7@sarfrance.org
+SUMMARY:Conférence du Prof. P. Villiers sur les corsaires de l'océan Indien à Paris
+DESCRIPTION:Type: conférence
+URL:https://sarfrance.org/activites/agenda-2019/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20191212
+DTEND;VALUE=DATE:20191213
+DTSTAMP:20260227T164718Z
+UID:bb17d89f8e7d3a83@sarfrance.org
+SUMMARY:Conférence de J-Y de Trogoff sur l'artillerie américaine dans la 1re guerre mondiale à Nantes
+DESCRIPTION:Type: conférence
+URL:https://sarfrance.org/activites/agenda-2019/
+END:VEVENT
+END:VCALENDAR

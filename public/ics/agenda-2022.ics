@@ -1,0 +1,125 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SAR France//Agenda//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SAR France - Agenda 2022
+X-WR-TIMEZONE:Europe/Paris
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20220226
+DTEND;VALUE=DATE:20220227
+DTSTAMP:20260227T164718Z
+UID:afb4e4cd780860a3@sarfrance.org
+SUMMARY:Soutenance de la thèse de M. Le Pottier sur Duportail
+DESCRIPTION:Type: conférence
+URL:https://sarfrance.org/activites/agenda-2022/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20220303
+DTEND;VALUE=DATE:20220305
+DTSTAMP:20260227T164718Z
+UID:8413de61960e55a5@sarfrance.org
+SUMMARY:Spring leadership meeting de la NSSAR à Louisville (KY)
+DESCRIPTION:Type: nssar
+URL:https://sarfrance.org/activites/agenda-2022/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20220325
+DTEND;VALUE=DATE:20220326
+DTSTAMP:20260227T164718Z
+UID:25c13e2d5d3d3dd3@sarfrance.org
+SUMMARY:Assemblée générale de SAR France à Paris
+DESCRIPTION:Type: assemblée
+URL:https://sarfrance.org/activites/agenda-2022/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20220530
+DTEND;VALUE=DATE:20220531
+DTSTAMP:20260227T164718Z
+UID:2e7db05669de0f47@sarfrance.org
+SUMMARY:Cérémonies du Memorial Day
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2022/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20220702
+DTEND;VALUE=DATE:20220703
+DTSTAMP:20260227T164718Z
+UID:67a87b2016278e0e@sarfrance.org
+SUMMARY:240e anniversaire de la victoire de Yorktown à Rochambeau
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2022/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20220705
+DTEND;VALUE=DATE:20220706
+DTSTAMP:20260227T164718Z
+UID:1cf12321383b4f09@sarfrance.org
+SUMMARY:Cérémonie au cimetière de Picpus
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2022/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20220710
+DTEND;VALUE=DATE:20220716
+DTSTAMP:20260227T164718Z
+UID:d4b513316e435717@sarfrance.org
+SUMMARY:Congrès de la NSSAR à Savannah (GE)
+DESCRIPTION:Type: nssar
+URL:https://sarfrance.org/activites/agenda-2022/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20220912
+DTEND;VALUE=DATE:20220919
+DTSTAMP:20260227T164718Z
+UID:fc34914f7281d25e@sarfrance.org
+SUMMARY:Exposition sur l'amiral de Grasse à Grasse
+DESCRIPTION:Type: exposition
+URL:https://sarfrance.org/activites/agenda-2022/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20220920
+DTEND;VALUE=DATE:20220921
+DTSTAMP:20260227T164718Z
+UID:50c7abafd0d48a1f@sarfrance.org
+SUMMARY:300e anniversaire de la naissance de l'Amiral de Grasse
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2022/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20220929
+DTEND;VALUE=DATE:20221002
+DTSTAMP:20260227T164718Z
+UID:86b03fbca90771c5@sarfrance.org
+SUMMARY:Fall leadership meeting à Louisville
+DESCRIPTION:Type: nssar
+URL:https://sarfrance.org/activites/agenda-2022/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20221005
+DTEND;VALUE=DATE:20221006
+DTSTAMP:20260227T164718Z
+UID:35562b5e2ae46366@sarfrance.org
+SUMMARY:Ravivage de la Flamme sous l'Arc de Triomphe avec les CAR
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2022/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20221111
+DTEND;VALUE=DATE:20221112
+DTSTAMP:20260227T164718Z
+UID:b3efa290d2b76302@sarfrance.org
+SUMMARY:Participation aux cérémonies à Suresnes et Versailles
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2022/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20221208
+DTEND;VALUE=DATE:20221209
+DTSTAMP:20260227T164718Z
+UID:1b2ff33df57af666@sarfrance.org
+SUMMARY:Conférence avec « Les Amis de Mahé de la Bourdonnais »
+DESCRIPTION:Type: conférence
+URL:https://sarfrance.org/activites/agenda-2022/
+END:VEVENT
+END:VCALENDAR

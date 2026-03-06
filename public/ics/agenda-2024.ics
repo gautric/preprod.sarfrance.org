@@ -1,0 +1,170 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SAR France//Agenda//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SAR France - Agenda 2024
+X-WR-TIMEZONE:Europe/Paris
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240229
+DTEND;VALUE=DATE:20240301
+DTSTAMP:20260227T164718Z
+UID:c781e25e94df0aeb@sarfrance.org
+SUMMARY:Spring leadership meeting de la NSSAR à Louisville (KY)
+DESCRIPTION:Type: nssar
+URL:https://sarfrance.org/activites/agenda-2024/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240322
+DTEND;VALUE=DATE:20240323
+DTSTAMP:20260227T164718Z
+UID:b29134025a136e86@sarfrance.org
+SUMMARY:Assemblée générale de SAR France à l'Institut Catholique de Paris
+DESCRIPTION:Type: assemblée
+URL:https://sarfrance.org/activites/agenda-2024/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240322
+DTEND;VALUE=DATE:20240323
+DTSTAMP:20260227T164718Z
+UID:a7bd01024047c3dc@sarfrance.org
+SUMMARY:Dîner annuel de SAR France au Palais du Luxembourg
+DESCRIPTION:Type: assemblée
+URL:https://sarfrance.org/activites/agenda-2024/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240406
+DTEND;VALUE=DATE:20240421
+DTSTAMP:20260227T164718Z
+UID:d65e89b9e5277fe4@sarfrance.org
+SUMMARY:Voyage en France du President General de la NSSAR
+DESCRIPTION:Type: nssar
+URL:https://sarfrance.org/activites/agenda-2024/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240415
+DTEND;VALUE=DATE:20240416
+DTSTAMP:20260227T164718Z
+UID:e98cc5b3fd7ade3f@sarfrance.org
+SUMMARY:Réunion des délégués régionaux de SAR France
+DESCRIPTION:Type: réunion
+URL:https://sarfrance.org/activites/agenda-2024/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240516
+DTEND;VALUE=DATE:20240517
+DTSTAMP:20260227T164718Z
+UID:512b303fac610ac1@sarfrance.org
+SUMMARY:Conférence d'Hervé du Boisbaudry à la mairie du 7e arrondissement
+DESCRIPTION:Type: conférence
+URL:https://sarfrance.org/activites/agenda-2024/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240525
+DTEND;VALUE=DATE:20240527
+DTSTAMP:20260227T164718Z
+UID:0144b062c8621aee@sarfrance.org
+SUMMARY:Cérémonies du Memorial Day en France et en Belgique
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2024/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240703
+DTEND;VALUE=DATE:20240704
+DTSTAMP:20260227T164718Z
+UID:2de040d81d9b2828@sarfrance.org
+SUMMARY:Cérémonie au cimetière de Picpus
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2024/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240704
+DTEND;VALUE=DATE:20240705
+DTSTAMP:20260227T164718Z
+UID:5f8178668017bc1e@sarfrance.org
+SUMMARY:Independence Day – Cérémonie au monument Pershing La Fayette de Versailles
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2024/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240710
+DTEND;VALUE=DATE:20240717
+DTSTAMP:20260227T164718Z
+UID:182c115f168e2fd6@sarfrance.org
+SUMMARY:Congrès de la NSSAR à Lancaster (PA)
+DESCRIPTION:Type: nssar
+URL:https://sarfrance.org/activites/agenda-2024/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240905
+DTEND;VALUE=DATE:20240906
+DTSTAMP:20260227T164718Z
+UID:cf8c15c434b390e2@sarfrance.org
+SUMMARY:242e anniversaire de la bataille de Chesapeake par la Marine Nationale
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2024/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240907
+DTEND;VALUE=DATE:20240908
+DTSTAMP:20260227T164718Z
+UID:31956b98bc10ad9e@sarfrance.org
+SUMMARY:243e anniversaire de la Bataille des Caps en Virginie
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2024/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240915
+DTEND;VALUE=DATE:20240916
+DTSTAMP:20260227T164718Z
+UID:bcc92b5fc3da8d8c@sarfrance.org
+SUMMARY:62e Journée Franco-Américaine Amiral de Grasse
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2024/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241002
+DTEND;VALUE=DATE:20241003
+DTSTAMP:20260227T164718Z
+UID:c8ea6f6409842a25@sarfrance.org
+SUMMARY:Ravivage de la Flamme sous l'Arc de Triomphe
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2024/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241009
+DTEND;VALUE=DATE:20241010
+DTSTAMP:20260227T164718Z
+UID:4f00aee74d9ba3df@sarfrance.org
+SUMMARY:Assemblée générale extraordinaire (validation des nouveaux statuts)
+DESCRIPTION:Type: assemblée
+URL:https://sarfrance.org/activites/agenda-2024/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241012
+DTEND;VALUE=DATE:20241014
+DTSTAMP:20260227T164718Z
+UID:ffbccc7c033ba0cb@sarfrance.org
+SUMMARY:Week-end SAR France dans le Bordelais
+DESCRIPTION:Type: visite
+URL:https://sarfrance.org/activites/agenda-2024/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241107
+DTEND;VALUE=DATE:20241226
+DTSTAMP:20260227T164718Z
+UID:a1e5b190cec1a6e3@sarfrance.org
+SUMMARY:Exposition « Les Bourbonnais aux Amériques » à Moulins
+DESCRIPTION:Type: exposition
+URL:https://sarfrance.org/activites/agenda-2024/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241109
+DTEND;VALUE=DATE:20241110
+DTSTAMP:20260227T164718Z
+UID:b10bcf7e5d4d08b3@sarfrance.org
+SUMMARY:Journée à Versailles sur les pas du général Dentzel
+DESCRIPTION:Type: visite
+URL:https://sarfrance.org/activites/agenda-2024/
+END:VEVENT
+END:VCALENDAR

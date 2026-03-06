@@ -1,0 +1,116 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SAR France//Agenda//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SAR France - Agenda 2020
+X-WR-TIMEZONE:Europe/Paris
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20200107
+DTEND;VALUE=DATE:20200108
+DTSTAMP:20260227T164718Z
+UID:2079107ae894c071@sarfrance.org
+SUMMARY:Conférence du Prof. A. Gaillard sur La Motte-Picquet à Nantes
+DESCRIPTION:Type: conférence
+URL:https://sarfrance.org/activites/agenda-2020/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20200116
+DTEND;VALUE=DATE:20200117
+DTSTAMP:20260227T164718Z
+UID:a2a6264e6df5e5e4@sarfrance.org
+SUMMARY:Réunion de travail des associations franco-américaines à Paris
+DESCRIPTION:Type: réunion
+URL:https://sarfrance.org/activites/agenda-2020/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20200227
+DTEND;VALUE=DATE:20200301
+DTSTAMP:20260227T164718Z
+UID:c4c3d1d479e1a3f5@sarfrance.org
+SUMMARY:Spring leadership meeting à Louisville (KY)
+DESCRIPTION:Type: nssar
+URL:https://sarfrance.org/activites/agenda-2020/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20200306
+DTEND;VALUE=DATE:20200307
+DTSTAMP:20260227T164718Z
+UID:9dced00c7c41e34a@sarfrance.org
+SUMMARY:Assemblée générale de SAR France suivie d'un dîner à l'École militaire
+DESCRIPTION:Type: assemblée
+URL:https://sarfrance.org/activites/agenda-2020/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20200307
+DTEND;VALUE=DATE:20200308
+DTSTAMP:20260227T164718Z
+UID:dc0793e58b0963b9@sarfrance.org
+SUMMARY:Réunion des délégués régionaux de SAR France à Paris
+DESCRIPTION:Type: réunion
+URL:https://sarfrance.org/activites/agenda-2020/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20200525
+DTEND;VALUE=DATE:20200526
+DTSTAMP:20260227T164718Z
+UID:337790802d531b61@sarfrance.org
+SUMMARY:Memorial Day aux États-Unis
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2020/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20200704
+DTEND;VALUE=DATE:20200705
+DTSTAMP:20260227T164718Z
+UID:135fd32d32f1d032@sarfrance.org
+SUMMARY:Independence Day
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2020/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20200708
+DTEND;VALUE=DATE:20200709
+DTSTAMP:20260227T164718Z
+UID:870abf0b81eaf42d@sarfrance.org
+SUMMARY:Cérémonie au cimetière de Picpus sur la tombe de La Fayette (en petit comité)
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2020/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20200822
+DTEND;VALUE=DATE:20200824
+DTSTAMP:20260227T164718Z
+UID:813bb9d67012c2eb@sarfrance.org
+SUMMARY:3e édition de la reconstitution du camp de Vaussieux (Calvados)
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2020/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20200908
+DTEND;VALUE=DATE:20200909
+DTSTAMP:20260227T164718Z
+UID:7fbaffd6a0ab710e@sarfrance.org
+SUMMARY:Conférence de P. Villiers sur les combats de Jean Bart à Saint-Malo
+DESCRIPTION:Type: conférence
+URL:https://sarfrance.org/activites/agenda-2020/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20200923
+DTEND;VALUE=DATE:20200924
+DTSTAMP:20260227T164718Z
+UID:415a5af5e03e855b@sarfrance.org
+SUMMARY:Ravivage de la Flamme sous l'Arc de Triomphe
+DESCRIPTION:Type: commémoration
+URL:https://sarfrance.org/activites/agenda-2020/
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20201220
+DTEND;VALUE=DATE:20201221
+DTSTAMP:20260227T164718Z
+UID:3ff15f5030471092@sarfrance.org
+SUMMARY:Remise du prix Jacques de Trentinian à Mme Florence Prudhomme
+DESCRIPTION:Type: conférence
+URL:https://sarfrance.org/activites/agenda-2020/
+END:VEVENT
+END:VCALENDAR

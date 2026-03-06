@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Membres on S.A.R. France - Les Fils de la Révolution Américaine</title>
+    <link>http://localhost:1313/membres/</link>
+    <description>Recent content in Membres on S.A.R. France - Les Fils de la Révolution Américaine</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <atom:link href="http://localhost:1313/membres/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Annuaire</title>
+      <link>http://localhost:1313/membres/annuaire/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/membres/annuaire/</guid>
+      <description>&lt;h2 id=&#34;annuaire-des-membres&#34;&gt;Annuaire des membres&lt;/h2&gt;&#xA;&lt;p&gt;Annuaire des membres de la Société en France des Fils de la Révolution Américaine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Documents</title>
+      <link>http://localhost:1313/membres/documents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/membres/documents/</guid>
+      <description>&lt;h2 id=&#34;documents-membres&#34;&gt;Documents membres&lt;/h2&gt;&#xA;&lt;p&gt;Documents et ressources réservés aux membres de la Société.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PV de réunions</title>
+      <link>http://localhost:1313/membres/pv-reunions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/membres/pv-reunions/</guid>
+      <description>&lt;h2 id=&#34;procès-verbaux-de-réunions&#34;&gt;Procès-verbaux de réunions&lt;/h2&gt;&#xA;&lt;p&gt;Procès-verbaux des réunions du conseil d&amp;rsquo;administration et des assemblées générales.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
