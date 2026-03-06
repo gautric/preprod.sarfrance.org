@@ -267,7 +267,6 @@ a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="%23ffffff" stroke-width="0.5" opacity="0.1"/></svg>');
     background-size: 200px;
     opacity: 0.3;
 }
@@ -326,7 +325,7 @@ a:hover {
 
 /* Features Section */
 .features {
-    padding: 80px 0;
+    padding: 40px 0;
     background-color: #ffffff;
 }
 
@@ -366,7 +365,7 @@ a:hover {
 
 /* Events Section */
 .events {
-    padding: 80px 0;
+    padding: 40px 0;
     background-color: var(--white);
     text-align: center;
 }
@@ -432,7 +431,7 @@ a:hover {
 
 /* CTA Section */
 .cta {
-    padding: 80px 0;
+    padding: 40px 0;
     background: linear-gradient(135deg, var(--red-primary) 0%, var(--red-dark) 100%);
     color: var(--white);
     text-align: center;
