@@ -24,3 +24,5 @@ Les traités d'alliance, d'amitié et de commerce du 6 février 1778 prirent la 
 L'aide française fut militaire (Corps expéditionnaire de Rochambeau, flotte de l'amiral de Grasse), financière (prêts et subventions) et diplomatique (reconnaissance internationale, pression sur la Grande-Bretagne).
 
 Selon l'étude de Warrington Dawson (1936), 2 112 Français ont perdu la vie sur le sol ou dans les eaux américaines.
+
+Test
