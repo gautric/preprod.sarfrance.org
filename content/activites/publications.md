@@ -1,6 +1,6 @@
 ---
-title: "Publications"
-description: "Publications de SAR France"
+title: "Autres Publications"
+description: "Ouvrages et autres publications de SAR France"
 ---
 
 ## Ouvrages

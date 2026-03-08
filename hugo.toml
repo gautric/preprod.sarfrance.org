@@ -124,7 +124,7 @@ theme = 'sarfrance-theme'
 
   [[menus.main]]
     identifier = "publications"
-    name = "Publications"
+    name = "Autres publications"
     url = "/activites/publications/"
     parent = "activites"
     weight = 4
