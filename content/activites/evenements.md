@@ -23,4 +23,4 @@ description: "Calendrier des événements SAR France"
 
 ## Participer
 
-Pour participer à nos événements, contactez le secrétariat ou inscrivez-vous via l'espace membres.
+Pour participer à nos événements, contactez le secrétariat.
