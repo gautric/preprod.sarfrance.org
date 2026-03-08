@@ -117,7 +117,7 @@ theme = 'sarfrance-theme'
 
   [[menus.main]]
     identifier = "bulletins"
-    name = "Bulletins"
+    name = "Publications"
     url = "/activites/bulletins/"
     parent = "activites"
     weight = 3

@@ -1,6 +1,6 @@
 ---
-title: "Bulletins"
-description: "Bulletins de la Société – L'Alliance Franco-Américaine"
+title: "Publications"
+description: "L'Alliance Franco-Américaine"
 ---
 
 ## L'Alliance Franco-Américaine
