@@ -14,7 +14,7 @@ Contactez-nous en mentionnant vos nom et prénom, votre email et l'objet de votr
 
 ### Par courrier électronique
 
-Pour toute demande d'information, d'adhésion ou de participation à nos activités, veuillez nous écrire en précisant :
+Pour toute information, adhésion ou participation à nos activités, veuillez adresser votre demande à sarfrance.sons@gmail.com en précisant :
 
 - Vos nom et prénom
 - Votre adresse email
