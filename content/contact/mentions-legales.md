@@ -9,10 +9,6 @@ La Société en France des Fils de la Révolution Américaine (SAR France) est u
 
 **Adresse postale** : 20 rue Bosquet, 75007 Paris, France
 
-**Email** : sarfrance.sons@gmail.com
-
-**Téléphone** : 01 40 62 97 19
-
 ## Directeur de la publication
 
 Le Président en exercice de l'association, représentant légal.
@@ -23,4 +19,6 @@ Site hébergé par GitHub Pages.
 
 ## Conception et développement du site
 
-Webmaster : Grégory Music
+Pour toute question technique relative au site (erreur d'affichage, lien cassé, suggestion d'amélioration, demande de modification de contenu, signalement de problème d'accessibilité ou de sécurité), vous pouvez contacter le webmaster à l'adresse suivante :
+
+**Email** : [webmaster@sarfrance.org](mailto:webmaster@sarfrance.org)
