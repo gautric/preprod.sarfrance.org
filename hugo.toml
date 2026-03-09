@@ -137,13 +137,13 @@ theme = 'sarfrance-theme'
     weight = 4
 
   # Submenus - Contact
+    # Submenus - Contact
   [[menus.main]]
     identifier = "formulaire"
     name = "Nous contacter"
-    url = "/contact/formulaire/"
+    url = "/contact"
     parent = "contact"
     weight = 1
-
   [[menus.main]]
     identifier = "nous-rejoindre"
     name = "Nous rejoindre"
