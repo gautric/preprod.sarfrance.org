@@ -51,7 +51,7 @@ Pour toute information, adhésion ou participation à nos activités, veuillez r
 
 ### Par courrier électronique
 
-Pour toute information, adhésion ou participation à nos activités, veuillez adresser votre demande à sarfrance.sons@gmail.com en précisant :
+Pour toute information, adhésion ou participation à nos activités, veuillez adresser votre demande à [sarfrance.sons@gmail.com](mailto:sarfrance.sons@gmail.com) en précisant :
 
 - Vos nom et prénom
 - Votre adresse email
