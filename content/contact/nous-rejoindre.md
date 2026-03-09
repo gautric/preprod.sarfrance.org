@@ -51,9 +51,9 @@ En France, la plupart des archives d'état civil sont numérisées et disponible
 
 ## Frais d'admission
 
-Les frais d'admission se montent à 130 € correspondant à 20 € de frais de chancellerie et 110 € de cotisation pour la première année. Les cotisations sont réduites de moitié pour les moins de 35 ans et les résidents étrangers.
+Les frais d'admission se montent à {{< param "premiere_inscription" >}} € correspondant à {{< param "chancellerie" >}} € de frais de chancellerie et {{< param "cotisation" >}} € de cotisation pour la première année. Les cotisations sont réduites de moitié pour les moins de 35 ans et les résidents étrangers.
 
-Une réduction d'impôt de 66 % de ces montants est accordée aux contribuables français.
+Une réduction d'impôt de {{< param "avantage_fiscal_pct" >}}% de ces montants est accordée aux contribuables français.
 
 ---
 

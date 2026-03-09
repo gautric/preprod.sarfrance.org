@@ -10,6 +10,13 @@ theme = 'sarfrance-theme'
   heroSubtitle = "Les Fils de la Révolution Américaine – The Sons of the American Revolution (SAR)"
   footerText = "© 2026 SAR France – Association reconnue d'utilité publique (décret du 31 décembre 2013, JO du 3 janvier 2014)"
 
+  [params.fees]
+    cotisation = 110
+    chancellerie = 20
+    premiere_inscription = 130
+    reduction_pct = 50
+    avantage_fiscal_pct = 66
+
 [menus]
   # Main Menu - 5 items
   [[menus.main]]
