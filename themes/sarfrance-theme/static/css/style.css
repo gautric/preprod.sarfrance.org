@@ -261,12 +261,17 @@ a:hover {
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, var(--hero-gradient-start) 0%, var(--hero-gradient-end) 100%);
+    background-size: cover;
+    background-position: center;
     color: var(--white);
-    padding: 40px 20px;
+    padding: 60px 20px;
     text-align: center;
     position: relative;
     overflow: hidden;
-
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero::before {
@@ -276,8 +281,15 @@ a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background-size: 200px;
-    opacity: 0.3;
+    background: linear-gradient(135deg, rgba(26, 42, 74, 0.82) 0%, rgba(15, 26, 46, 0.88) 100%);
+    z-index: 0;
+}
+
+.hero[style*="background-image"] {
+    background-blend-mode: normal;
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-content {
@@ -285,6 +297,22 @@ a:hover {
     z-index: 1;
     max-width: 800px;
     margin: 0 auto;
+}
+
+.hero-caption {
+    margin-top: 25px;
+    font-size: 1rem;
+    opacity: 0.85;
+}
+
+.hero-caption a {
+    color: var(--gold);
+    text-decoration: underline;
+    font-size: 0.95rem;
+}
+
+.hero-caption a:hover {
+    color: var(--white);
 }
 
 .hero h1 {

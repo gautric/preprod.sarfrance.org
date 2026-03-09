@@ -1,9 +1,13 @@
 {{ define "main" }}
-<section class="hero">
+{{ $hero := .Site.Data.hero }}
+<section class="hero" style="background-image: url('{{ $hero.image }}');">
     <div class="hero-content">
         <h1>{{ .Site.Params.heroTitle }}</h1>
         <p class="hero-subtitle">{{ .Site.Params.heroSubtitle }}</p>
         <p class="hero-desc">La Société en France des Fils de la Révolution Américaine (SAR France) réunit des descendants directs de personnes ayant contribué à donner l'indépendance aux colonies anglaises d'Amérique. SAR France a une triple vocation : transatlantique, historique et culturelle.</p>
+        <div class="hero-caption">
+            {{ with $hero.link }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $hero.caption }} — {{ $hero.subtitle }}</a>{{ else }}<p>{{ $hero.caption }} — {{ $hero.subtitle }}</p>{{ end }}
+        </div>
     </div>
 </section>
 
