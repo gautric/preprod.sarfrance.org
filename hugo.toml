@@ -58,25 +58,32 @@ theme = 'sarfrance-theme'
     weight = 1
 
   [[menus.main]]
+    identifier = "objet"
+    name = "Objet de SAR France"
+    url = "/organisation/objet/"
+    parent = "organisation"
+    weight = 2
+
+  [[menus.main]]
     identifier = "statuts"
     name = "Statuts & Règlement"
     url = "/organisation/statuts/"
     parent = "organisation"
-    weight = 2
+    weight = 3
 
   [[menus.main]]
     identifier = "societes"
     name = "Sociétés françaises"
     url = "/organisation/societes/"
     parent = "organisation"
-    weight = 3
+    weight = 4
 
   [[menus.main]]
     identifier = "secretariat"
     name = "Secrétariat"
     url = "/organisation/secretariat/"
     parent = "organisation"
-    weight = 4
+    weight = 5
 
   # Submenus - Histoire (4 items)
   [[menus.main]]

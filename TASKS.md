@@ -7,3 +7,4 @@
 - [x] 5. Activités > Bulletins > L'Alliance Franco-Américaine : texte remplacé par la version revue annuelle
 - [x] 6. Activités > Publications : renommé en « Autres publications » / « Ouvrages et autres publications de SAR France »
 - [x] 7. Contact > Formulaire > Par courrier électronique : texte remplacé avec adresse sarfrance.sons@gmail.com
+- [x] 8. Organisation > Ajout rubrique « Objet de SAR France » entre NSSAR et Statuts avec page dédiée et entrée menu
