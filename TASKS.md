@@ -8,3 +8,4 @@
 - [x] 6. Activités > Publications : renommé en « Autres publications » / « Ouvrages et autres publications de SAR France »
 - [x] 7. Contact > Formulaire > Par courrier électronique : texte remplacé avec adresse sarfrance.sons@gmail.com
 - [x] 8. Organisation > Ajout rubrique « Objet de SAR France » entre NSSAR et Statuts avec page dédiée et entrée menu
+- [x] 9. Activités > Dictionnaire biographique : remplacement du texte par la version proposée (collection de notices, consultation sur demande) et ajout dans le menu Activités

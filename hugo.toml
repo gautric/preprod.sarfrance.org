@@ -130,18 +130,25 @@ theme = 'sarfrance-theme'
     weight = 2
 
   [[menus.main]]
+    identifier = "dictionnaire"
+    name = "Dictionnaire biographique"
+    url = "/activites/dictionnaire/"
+    parent = "activites"
+    weight = 3
+
+  [[menus.main]]
     identifier = "bulletins"
     name = "Publications"
     url = "/activites/bulletins/"
     parent = "activites"
-    weight = 3
+    weight = 4
 
   [[menus.main]]
     identifier = "publications"
     name = "Autres publications"
     url = "/activites/publications/"
     parent = "activites"
-    weight = 4
+    weight = 5
 
   # Submenus - Contact
     # Submenus - Contact
