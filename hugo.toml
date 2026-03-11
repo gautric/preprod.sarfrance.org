@@ -173,11 +173,18 @@ theme = 'sarfrance-theme'
     weight = 3
 
   [[menus.main]]
+    identifier = "donateur"
+    name = "Faites un don"
+    url = "/contact/donateur/"
+    parent = "contact"
+    weight = 4
+
+  [[menus.main]]
     identifier = "mentions-legales"
     name = "Mentions légales"
     url = "/contact/mentions-legales/"
     parent = "contact"
-    weight = 4
+    weight = 5
 
 [markup]
   [markup.goldmark]
