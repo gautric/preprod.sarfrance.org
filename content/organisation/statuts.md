@@ -1,5 +1,5 @@
 ---
-title: "Statuts & Règlement intérieur"
+title: "Statuts & Règlement intérieur (extrait)"
 description: "Statuts et règlement intérieur de SAR France"
 ---
 
@@ -11,7 +11,7 @@ La décision de modifier les statuts a été motivée par le souci de pouvoir g�
 
 Le ministère de l'intérieur a demandé que les statuts soient mis en conformité avec les statuts types validés par le Conseil d'État. Il a été décidé de modifier le mode de désignation des administrateurs qui sont désormais élus en une fois, et non par moitié, mais toujours pour deux ans, par l'assemblée générale.
 
-## Règlement intérieur
+## Règlement intérieur (extrait)
 
 ### Article 1 – Admission des membres
 Tout candidat désireux de faire partie de la Société doit faire parvenir les preuves de son éligibilité. Celles-ci sont étudiées par le commissaire aux preuves. Le conseil d'administration vote sur cette demande d'adhésion avec une majorité des 2/3 de votes positifs.

@@ -66,7 +66,7 @@ theme = 'sarfrance-theme'
 
   [[menus.main]]
     identifier = "statuts"
-    name = "Statuts & Règlement"
+    name = "Statuts & Règlement (extrait)"
     url = "/organisation/statuts/"
     parent = "organisation"
     weight = 3

@@ -11,3 +11,4 @@
 - [x] 9. Activités > Dictionnaire biographique : remplacement du texte par la version proposée (collection de notices, consultation sur demande) et ajout dans le menu Activités
 - [x] 10. Activités > Événements : remplacement du contenu par un texte intemporel (conférences, cérémonies, voyages d'étude)
 - [x] 11. Contact > Ajout rubrique « Faites un don à SAR France » après Cotisation avec page dédiée et entrée menu
+- [x] 12. Organisation > Statuts : remplacement du titre « Règlement intérieur » par « Règlement intérieur (extrait) »
