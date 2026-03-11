@@ -12,3 +12,4 @@
 - [x] 10. Activités > Événements : remplacement du contenu par un texte intemporel (conférences, cérémonies, voyages d'étude)
 - [x] 11. Contact > Ajout rubrique « Faites un don à SAR France » après Cotisation avec page dédiée et entrée menu
 - [x] 12. Organisation > Statuts : remplacement du titre « Règlement intérieur » par « Règlement intérieur (extrait) »
+- [x] 13. Organisation > Statuts > Règlement intérieur (extrait) : remplacement complet des articles par les nouveaux articles du règlement intérieur (art. 1, 9, 25, 32, 39)
