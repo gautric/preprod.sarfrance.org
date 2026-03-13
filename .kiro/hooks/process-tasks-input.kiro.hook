@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "name": "Process Tasks from Input",
+  "description": "Reads user input, splits it into items, creates tasks in TASKS.md, modifies Hugo website content for each item, and creates individual git commits with French comments. Skipped items are explained in French.",
+  "version": "1",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Ask the user for their input. Once received, split the input into individual items. For each item:\n\n1. Evaluate whether a modification is needed for the Hugo website content.\n2. If you decide to skip an item, explain clearly in French why it is being skipped.\n3. For each item you process:\n   a. Add a corresponding task entry in TASKS.md describing the work.\n   b. Make the appropriate modification to the Hugo website content files (under the content/ directory).\n   c. Stage the changed files and create a git commit with a descriptive comment written in French.\n4. Process items one by one, committing each individually before moving to the next.\n\nAll commit messages and skip explanations must be written in French. Task descriptions in TASKS.md should also be in French."
+  }
+}
