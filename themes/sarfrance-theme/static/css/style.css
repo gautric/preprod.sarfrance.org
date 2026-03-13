@@ -9,34 +9,9 @@
    15% tint background: #f3dfdb
    ============================================================ */
 
+/* Colors are defined in colors.css */
+
 :root {
-    /* Charter colors */
-    --primary: #ad2c11;           /* C22 M80 J92 N13 */
-    --primary-dark: #8b2310;
-    --primary-tint-15: #f3dfdb;   /* 15% tint of primary */
-    --black: #1a1a1a;
-    --white: #ffffff;
-    --cream: #f5f3e8;
-    --text-dark: #1a1a1a;
-    --text-light: #555555;
-    --gray-light: #f5f5f5;
-    --gray-border: #c8c8c8;
-    --gray-placeholder: #aaa;
-
-    /* Legacy SAR colors kept for nav/footer */
-    --navy-blue: #1a2a4a;
-    --navy-dark: #0f1a2e;
-    --gold: #c9a227;
-
-    /* Shadows */
-    --shadow: rgba(0, 0, 0, 0.1);
-    --shadow-dark: rgba(0, 0, 0, 0.3);
-    --overlay-light: rgba(255, 255, 255, 0.1);
-
-    /* Hero */
-    --hero-gradient-start: rgba(26, 42, 74, 0.82);
-    --hero-gradient-end: rgba(15, 26, 46, 0.88);
-
     /* Fonts — mapped from charter */
     --font-centennial: 'Libre Bodoni', 'Georgia', serif;   /* Linotype Centennial */
     --font-janson: 'EB Garamond', 'Georgia', serif;        /* JansonText */
@@ -356,7 +331,7 @@ a:hover {
     font-family: var(--font-janson);
     font-size: 1.05rem;
     line-height: 1.7;
-    color: rgba(255, 255, 255, 0.85);
+    color: var(--white-85);
 }
 
 /* ---- Intro Section ---- */
@@ -925,7 +900,7 @@ a:hover {
 .form-group select:focus {
     outline: none;
     border-color: var(--primary);
-    box-shadow: 0 0 0 3px rgba(173, 44, 17, 0.15);
+    box-shadow: 0 0 0 3px var(--focus-ring);
 }
 
 .form-group textarea {

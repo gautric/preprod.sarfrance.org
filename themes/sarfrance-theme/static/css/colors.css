@@ -1,0 +1,58 @@
+/* ============================================================
+   SAR FRANCE — Palette de couleurs centralisée
+   
+   Toutes les couleurs du site sont définies ici.
+   Utiliser uniquement des var(--xxx) dans les autres fichiers CSS.
+   ============================================================ */
+
+:root {
+    /* Charter colors */
+    --primary: #ad2c11;           /* C22 M80 J92 N13 */
+    --primary-dark: #8b2310;
+    --primary-tint-15: #f3dfdb;   /* 15% tint of primary */
+
+    /* Navy */
+    --navy-blue: #1a2a4a;
+    --navy-dark: #0f1a2e;
+
+    /* Gold */
+    --gold: #c9a227;
+
+    /* Neutrals */
+    --black: #1a1a1a;
+    --white: #ffffff;
+    --cream: #f5f3e8;
+
+    /* Text */
+    --text-dark: #1a1a1a;
+    --text-light: #555555;
+    --text-muted: #718096;
+
+    /* Grays */
+    --gray-light: #f5f5f5;
+    --gray-border: #c8c8c8;
+    --gray-placeholder: #aaa;
+    --gray-border-light: #e2e8f0;
+    --gray-border-medium: #d1d5db;
+    --gray-border-hover: #a0aec0;
+    --gray-timeline: #cbd5e0;
+
+    /* Shadows & overlays */
+    --shadow: rgba(0, 0, 0, 0.1);
+    --shadow-dark: rgba(0, 0, 0, 0.3);
+    --shadow-subtle: rgba(0, 0, 0, 0.06);
+    --overlay-light: rgba(255, 255, 255, 0.1);
+    --overlay-dark-40: rgba(0, 0, 0, 0.4);
+    --overlay-dark-70: rgba(0, 0, 0, 0.7);
+    --overlay-caption: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+
+    /* Hero */
+    --hero-gradient-start: rgba(26, 42, 74, 0.82);
+    --hero-gradient-end: rgba(15, 26, 46, 0.88);
+
+    /* Focus ring */
+    --focus-ring: rgba(173, 44, 17, 0.15);
+
+    /* Text on dark backgrounds */
+    --white-85: rgba(255, 255, 255, 0.85);
+}
