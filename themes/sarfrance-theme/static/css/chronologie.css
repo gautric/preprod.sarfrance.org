@@ -42,7 +42,7 @@
     padding: 15px 0 10px 0;
     margin: 40px 0 10px 0;
     border-bottom: 2px solid #e2e8f0;
-    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-family: var(--font-centennial, 'Libre Bodoni'), Georgia, serif;
 }
 
 /* Timeline */
@@ -100,11 +100,11 @@
     border-radius: 6px;
     padding: 18px 22px;
     transition: all 0.2s ease;
-    border-left: 3px solid #cbd5e0;
+    border-left: 3px solid var(--primary, #ad2c11);
 }
 
 .timeline-item:hover .timeline-card {
-    border-left-color: #4a5568;
+    border-left-color: var(--primary-dark, #8b2310);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
@@ -120,7 +120,7 @@
     font-size: 1.05rem;
     color: #2d3748;
     margin: 4px 0 6px 0;
-    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-family: var(--font-centennial, 'Libre Bodoni'), Georgia, serif;
 }
 
 .timeline-link {

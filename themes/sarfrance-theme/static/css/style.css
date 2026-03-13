@@ -1,27 +1,51 @@
-/* SAR FRANCE Theme - Color Scheme inspired by sar.org */
+/* ============================================================
+   SAR FRANCE — Charte typographique & gabarit
+   
+   Fonts mapping (from Gabarit PDF):
+     Linotype Centennial → Libre Bodoni (headings, titles, rubrics)
+     JansonText → EB Garamond (body, captions, author lines)
+   
+   Primary color: CMYK C22 M80 J92 N13 → #ad2c11
+   15% tint background: #f3dfdb
+   ============================================================ */
+
 :root {
-    --navy-blue: #1a2a4a;
-    --navy-dark: #0f1a2e;
-    --red-primary: #b22234;
-    --red-dark: #8b1a28;
-    --cream: #f5f3e8;
-    --gold: #c9a227;
+    /* Charter colors */
+    --primary: #ad2c11;           /* C22 M80 J92 N13 */
+    --primary-dark: #8b2310;
+    --primary-tint-15: #f3dfdb;   /* 15% tint of primary */
+    --black: #1a1a1a;
     --white: #ffffff;
-    --text-dark: #2c2c2c;
-    --text-light: #666666;
+    --cream: #f5f3e8;
+    --text-dark: #1a1a1a;
+    --text-light: #555555;
     --gray-light: #f5f5f5;
     --gray-border: #c8c8c8;
     --gray-placeholder: #aaa;
-    --shadow: #0000001a;
-    --shadow-dark: #0000004d;
-    --overlay-light: #ffffff1a;
-    --hero-gradient-start: #1a2a4aeb;
-    --hero-gradient-end: #0f1a2ef2;
-    --font-heading: 'Cormorant Garamond', Georgia, serif;
-    --font-body: 'Cormorant Garamond', Georgia, serif;
+
+    /* Legacy SAR colors kept for nav/footer */
+    --navy-blue: #1a2a4a;
+    --navy-dark: #0f1a2e;
+    --gold: #c9a227;
+
+    /* Shadows */
+    --shadow: rgba(0, 0, 0, 0.1);
+    --shadow-dark: rgba(0, 0, 0, 0.3);
+    --overlay-light: rgba(255, 255, 255, 0.1);
+
+    /* Hero */
+    --hero-gradient-start: rgba(26, 42, 74, 0.82);
+    --hero-gradient-end: rgba(15, 26, 46, 0.88);
+
+    /* Fonts — mapped from charter */
+    --font-centennial: 'Libre Bodoni', 'Georgia', serif;   /* Linotype Centennial */
+    --font-janson: 'EB Garamond', 'Georgia', serif;        /* JansonText */
+    --font-heading: var(--font-centennial);
+    --font-body: var(--font-janson);
 }
 
-* {
+/* ---- Reset ---- */
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -34,7 +58,8 @@ html {
 body {
     font-family: var(--font-body);
     color: var(--text-dark);
-    line-height: 1.6;
+    font-size: 1rem;       /* ~16px base, maps to JansonText 10.5pt body */
+    line-height: 1.6;      /* ~13pt leading at 10.5pt */
     background-color: var(--white);
 }
 
@@ -44,10 +69,33 @@ body {
     padding: 0 20px;
 }
 
+/* ---- Typography from charter ---- */
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
     color: var(--navy-blue);
-    line-height: 1.3;
+    line-height: 1.22;     /* ~22/18 ratio from charter */
+}
+
+/* Article title: Centennial Black 18/22, horizontal scale 98% */
+h1 {
+    font-weight: 900;
+    letter-spacing: -0.02em;  /* horizontal scale 98% approximation */
+}
+
+/* Section title */
+h2 {
+    font-weight: 900;
+    letter-spacing: -0.02em;
+}
+
+/* Intertitre: Centennial Roman 14/16, horizontal scale 92%, primary color */
+h3 {
+    font-family: var(--font-centennial);
+    font-weight: 400;
+    color: var(--primary);
+    letter-spacing: -0.08em;  /* horizontal scale 92% approximation */
+    line-height: 1.14;        /* 16/14 */
 }
 
 a {
@@ -57,16 +105,17 @@ a {
 }
 
 a:hover {
-    color: var(--red-primary);
+    color: var(--primary);
 }
 
-/* Buttons */
+/* ---- Buttons ---- */
 .btn {
     display: inline-block;
     padding: 12px 30px;
-    font-weight: 600;
+    font-family: var(--font-centennial);
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.08em;
     border-radius: 4px;
     transition: all 0.3s ease;
     cursor: pointer;
@@ -75,12 +124,12 @@ a:hover {
 }
 
 .btn-primary {
-    background-color: var(--red-primary);
+    background-color: var(--primary);
     color: var(--white);
 }
 
 .btn-primary:hover {
-    background-color: var(--red-dark);
+    background-color: var(--primary-dark);
     color: var(--white);
 }
 
@@ -94,7 +143,7 @@ a:hover {
     color: var(--white);
 }
 
-/* Header */
+/* ---- Header ---- */
 .site-header {
     position: sticky;
     top: 0;
@@ -107,6 +156,7 @@ a:hover {
     padding: 8px 0;
     font-size: 0.85rem;
     text-align: center;
+    font-family: var(--font-janson);
 }
 
 .top-bar .tagline {
@@ -123,6 +173,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--white);
 }
 
 .logo {
@@ -141,12 +192,7 @@ a:hover {
     opacity: 0.9;
 }
 
-.main-nav .container {
-    background-color: var(--white);
-}
-
-
-/* Navigation Menu */
+/* ---- Navigation Menu ---- */
 .nav-menu {
     display: flex;
     list-style: none;
@@ -157,20 +203,22 @@ a:hover {
     position: relative;
 }
 
+/* Rubric style for nav: Centennial Light 14pt, letter-spacing 20 */
 .nav-menu > li > a {
     display: block;
     padding: 20px 18px;
     color: var(--navy-blue);
-    font-weight: 600;
+    font-family: var(--font-centennial);
+    font-weight: 300;
     text-transform: uppercase;
     font-size: 0.9rem;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.12em;   /* approche de lettre 20 */
     transition: all 0.3s ease;
 }
 
 .nav-menu > li > a:hover,
 .nav-menu > li:hover > a {
-    background-color: var(--red-primary);
+    background-color: var(--primary);
     color: var(--white);
 }
 
@@ -187,7 +235,7 @@ a:hover {
     visibility: hidden;
     transform: translateY(10px);
     transition: all 0.3s ease;
-    border-top: 3px solid var(--red-primary);
+    border-top: 3px solid var(--primary);
 }
 
 .has-submenu:hover .submenu {
@@ -200,6 +248,7 @@ a:hover {
     display: block;
     padding: 12px 20px;
     color: var(--navy-blue);
+    font-family: var(--font-janson);
     font-size: 0.9rem;
     border-bottom: 1px solid var(--cream);
     transition: all 0.3s ease;
@@ -210,8 +259,8 @@ a:hover {
 }
 
 .submenu li a:hover {
-    background-color: var(--cream);
-    color: var(--red-primary);
+    background-color: var(--primary-tint-15);
+    color: var(--primary);
     padding-left: 25px;
 }
 
@@ -245,20 +294,15 @@ a:hover {
     transition: all 0.3s ease;
 }
 
-.hamburger::before {
-    top: -8px;
-}
-
-.hamburger::after {
-    top: 8px;
-}
+.hamburger::before { top: -8px; }
+.hamburger::after  { top: 8px; }
 
 /* Gold Accent Border */
 .gold-accent {
     border-top: 4px solid var(--gold);
 }
 
-/* Hero Section */
+/* ---- Hero Section ---- */
 .hero {
     background: linear-gradient(135deg, var(--hero-gradient-start) 0%, var(--hero-gradient-end) 100%);
     background-size: cover;
@@ -277,10 +321,7 @@ a:hover {
 .hero::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    top: 0; left: 0; right: 0; bottom: 0;
     background: linear-gradient(135deg, rgba(26, 42, 74, 0.82) 0%, rgba(15, 26, 46, 0.88) 100%);
     z-index: 0;
 }
@@ -299,8 +340,41 @@ a:hover {
     margin: 0 auto;
 }
 
+/* Cover title: Centennial Bold 30/32, letter-spacing -2 */
+.hero h1 {
+    font-family: var(--font-centennial);
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 20px;
+    letter-spacing: -0.02em;
+    line-height: 1.07;     /* 32/30 */
+    text-shadow: 2px 2px 4px var(--shadow-dark);
+}
+
+/* Subtitle: Centennial Bold 16/24, vertical scale 90%, letter-spacing 15 */
+.hero-subtitle {
+    font-family: var(--font-centennial);
+    font-weight: 700;
+    font-size: 1.15rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 30px;
+    opacity: 0.9;
+    line-height: 1.5;
+}
+
+.hero-desc {
+    font-family: var(--font-janson);
+    font-size: 1.15rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+    opacity: 0.9;
+}
+
 .hero-caption {
     margin-top: 25px;
+    font-family: var(--font-janson);
     font-size: 1rem;
     opacity: 0.85;
 }
@@ -315,28 +389,7 @@ a:hover {
     color: var(--white);
 }
 
-.hero h1 {
-    font-size: 3.5rem;
-    color: var(--white);
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 4px var(--shadow-dark);
-}
-
-.hero-subtitle {
-    font-size: 1.3rem;
-    margin-bottom: 30px;
-    opacity: 0.9;
-}
-
-.hero-desc {
-    font-size: 1.15rem;
-    max-width: 700px;
-    margin: 0 auto;
-    line-height: 1.8;
-    opacity: 0.9;
-}
-
-/* Intro Section */
+/* ---- Intro Section ---- */
 .intro {
     padding: 80px 0;
     background-color: var(--white);
@@ -359,8 +412,7 @@ a:hover {
     margin-bottom: 30px;
 }
 
-
-/* Features Section */
+/* ---- Features Section ---- */
 .features {
     padding: 30px 0;
     background-color: var(--white);
@@ -379,6 +431,7 @@ a:hover {
     border-radius: 8px;
     box-shadow: 0 4px 15px var(--shadow);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-bottom: 3px solid var(--primary);
 }
 
 .feature-card:hover {
@@ -391,16 +444,23 @@ a:hover {
     margin-bottom: 20px;
 }
 
+/* Card title: Centennial Black */
 .feature-card h3 {
+    font-family: var(--font-centennial);
+    font-weight: 900;
     font-size: 1.4rem;
     margin-bottom: 15px;
+    color: var(--navy-blue);
+    letter-spacing: -0.02em;
 }
 
 .feature-card p {
+    font-family: var(--font-janson);
     color: var(--text-light);
+    line-height: 1.6;
 }
 
-/* Events Section */
+/* ---- Events Section ---- */
 .events {
     padding: 30px 0;
     background-color: var(--white);
@@ -434,8 +494,9 @@ a:hover {
     transform: translateY(-3px);
 }
 
+/* Event date badge uses primary color */
 .event-date {
-    background-color: var(--red-primary);
+    background-color: var(--primary);
     color: var(--white);
     padding: 15px;
     border-radius: 8px;
@@ -445,6 +506,7 @@ a:hover {
 
 .event-date .day {
     display: block;
+    font-family: var(--font-centennial);
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 1;
@@ -452,35 +514,43 @@ a:hover {
 
 .event-date .month {
     display: block;
+    font-family: var(--font-centennial);
     font-size: 0.85rem;
     text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
 .event-info h3 {
+    font-family: var(--font-centennial);
+    font-weight: 900;
     font-size: 1.1rem;
     margin-bottom: 8px;
+    color: var(--navy-blue);
 }
 
 .event-info p {
+    font-family: var(--font-janson);
     font-size: 0.9rem;
     color: var(--text-light);
 }
 
-/* CTA Section */
+/* ---- CTA Section ---- */
 .cta {
     padding: 30px 0;
-    background: linear-gradient(135deg, var(--red-primary) 0%, var(--red-dark) 100%);
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
     color: var(--white);
     text-align: center;
 }
 
 .cta h2 {
+    font-family: var(--font-centennial);
     font-size: 2.5rem;
     color: var(--white);
     margin-bottom: 20px;
 }
 
 .cta p {
+    font-family: var(--font-janson);
     font-size: 1.1rem;
     margin-bottom: 30px;
     max-width: 600px;
@@ -491,14 +561,14 @@ a:hover {
 
 .cta .btn-primary {
     background-color: var(--white);
-    color: var(--red-primary);
+    color: var(--primary);
 }
 
 .cta .btn-primary:hover {
     background-color: var(--cream);
 }
 
-/* Page Header */
+/* ---- Page Header ---- */
 .page-header {
     background: linear-gradient(135deg, var(--navy-blue) 0%, var(--navy-dark) 100%);
     color: var(--white);
@@ -506,47 +576,179 @@ a:hover {
     text-align: center;
 }
 
+/* Page title: Centennial Bold */
 .page-header h1 {
+    font-family: var(--font-centennial);
     color: var(--white);
     font-size: 2.5rem;
+    font-weight: 700;
     margin-bottom: 10px;
+    letter-spacing: -0.02em;
 }
 
 .page-description {
+    font-family: var(--font-janson);
     font-size: 1.1rem;
     opacity: 0.9;
 }
 
-/* Page Content */
+/* ---- Page Content ---- */
+/* Body text: JansonText 10.5/13, horizontal scale 92% */
 .page-content .content,
 .list-page .container {
     padding: 60px 0;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.page-content .content h2,
+.page-content .content h3,
+.list-page .container h2,
+.list-page .container h3 {
+    text-align: left;
+}
+
+/* Article title in content: Centennial Black 18/22 */
 .content h2 {
+    font-family: var(--font-centennial);
+    font-weight: 900;
     font-size: 1.8rem;
     margin: 30px 0 15px;
+    letter-spacing: -0.02em;
+    line-height: 1.22;
 }
 
+/* Intertitre: Centennial Roman 14/16, primary color */
 .content h3 {
+    font-family: var(--font-centennial);
+    font-weight: 400;
     font-size: 1.4rem;
     margin: 25px 0 12px;
+    color: var(--primary);
+    letter-spacing: -0.08em;
+    line-height: 1.14;
 }
 
 .content p {
+    font-family: var(--font-janson);
     margin-bottom: 15px;
+    line-height: 1.6;
 }
 
 .content ul, .content ol {
     margin: 15px 0 15px 30px;
+    font-family: var(--font-janson);
 }
 
 .content li {
     margin-bottom: 8px;
+    line-height: 1.6;
 }
 
+/* Bullet: primary color dot (∅ 3.71 from charter) */
+.content ul {
+    list-style: none;
+}
 
-/* List Page */
+.content ul li {
+    position: relative;
+    padding-left: 20px;
+}
+
+.content ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.6em;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--primary);
+}
+
+/* Drop cap: Centennial Black, 2 lines, primary color */
+.content > p:first-of-type::first-letter {
+    font-family: var(--font-centennial);
+    font-weight: 900;
+    color: var(--primary);
+    float: left;
+    font-size: 3.2em;
+    line-height: 0.85;
+    padding-right: 8px;
+    padding-top: 4px;
+}
+
+/* Chapô / lead paragraph: JansonText Bold 12/16, primary color */
+.content .chapo,
+.content > p:first-of-type {
+    font-family: var(--font-janson);
+    font-weight: 700;
+    font-size: 1.15rem;
+    line-height: 1.33;
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+/* Reset color for subsequent paragraphs */
+.content > p:nth-of-type(n+2) {
+    color: var(--text-dark);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+/* Author line: JansonText 14/22 */
+.content .author {
+    font-family: var(--font-janson);
+    font-style: normal;
+    font-size: 1.05rem;
+    line-height: 1.57;
+    color: var(--text-dark);
+}
+
+/* Caption: JansonText Italic, small caps, 10.5/12 */
+.content figcaption,
+.content .caption {
+    font-family: var(--font-janson);
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 0.85rem;
+    line-height: 1.14;
+    color: var(--text-dark);
+}
+
+/* Rubric label: Centennial Light 14pt, letter-spacing 20 */
+.content .rubric,
+.rubric-label {
+    font-family: var(--font-centennial);
+    font-weight: 300;
+    font-size: 0.9rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-dark);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+/* Rubric bullet */
+.rubric-label::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    flex-shrink: 0;
+}
+
+/* ---- Background tint section (Vie de la Société style) ---- */
+.section-tinted {
+    background-color: var(--primary-tint-15);
+}
+
+/* ---- List Page ---- */
 .page-list {
     display: grid;
     gap: 30px;
@@ -557,9 +759,12 @@ a:hover {
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 2px 10px var(--shadow);
+    border-left: 4px solid var(--primary);
 }
 
 .list-item h2 {
+    font-family: var(--font-centennial);
+    font-weight: 900;
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
@@ -569,28 +774,33 @@ a:hover {
 }
 
 .list-item h2 a:hover {
-    color: var(--red-primary);
+    color: var(--primary);
 }
 
 .list-item p {
+    font-family: var(--font-janson);
     color: var(--text-light);
     margin-bottom: 15px;
 }
 
 .read-more {
-    color: var(--red-primary);
-    font-weight: 600;
+    color: var(--primary);
+    font-family: var(--font-centennial);
+    font-weight: 700;
+    letter-spacing: 0.05em;
 }
 
 .read-more:hover {
-    color: var(--red-dark);
+    color: var(--primary-dark);
 }
 
-/* Footer */
+/* ---- Footer ---- */
+/* Pied de page: JansonText Roman 7pt, letter-spacing 20 */
 .site-footer {
     background-color: var(--navy-dark);
     color: var(--cream);
     padding: 60px 0 0;
+    font-family: var(--font-janson);
 }
 
 .footer-grid {
@@ -602,8 +812,10 @@ a:hover {
 }
 
 .footer-col h3 {
+    font-family: var(--font-centennial);
     color: var(--white);
     font-size: 1.1rem;
+    font-weight: 700;
     margin-bottom: 20px;
     position: relative;
     padding-bottom: 10px;
@@ -616,7 +828,7 @@ a:hover {
     left: 0;
     width: 40px;
     height: 2px;
-    background-color: var(--red-primary);
+    background-color: var(--primary);
 }
 
 .footer-col p {
@@ -665,13 +877,15 @@ a:hover {
 }
 
 .social-links a:hover {
-    background-color: var(--red-primary);
+    background-color: var(--primary);
 }
 
+/* Folio: JansonText Roman 7pt, letter-spacing 20 */
 .footer-bottom {
     padding: 25px 0;
     text-align: center;
     font-size: 0.85rem;
+    letter-spacing: 0.12em;
     opacity: 0.75;
 }
 
@@ -679,96 +893,12 @@ a:hover {
     color: var(--gold);
 }
 
-/* Responsive Design */
-@media (max-width: 992px) {
-    .features-grid,
-    .events-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
-    .footer-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 768px) {
-    .menu-toggle {
-        display: block;
-    }
-    
-    .nav-menu {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: var(--navy-blue);
-        flex-direction: column;
-        display: none;
-        border-top: 1px solid var(--overlay-light);
-    }
-    
-    .nav-menu.active {
-        display: flex;
-    }
-    
-    .nav-menu > li > a {
-        padding: 15px 20px;
-        color: var(--white);
-        border-bottom: 1px solid var(--overlay-light);
-    }
-    
-    .submenu {
-        position: static;
-        opacity: 1;
-        visibility: visible;
-        transform: none;
-        box-shadow: none;
-        border-top: none;
-        background-color: var(--navy-dark);
-        display: none;
-    }
-    
-    .has-submenu.active .submenu {
-        display: block;
-    }
-    
-    .submenu li a {
-        color: var(--white);
-        padding-left: 40px;
-        border-bottom-color: var(--overlay-light);
-    }
-    
-    .submenu li a:hover {
-        background-color: var(--overlay-light);
-        color: var(--gold);
-    }
-    
-    .hero h1 {
-        font-size: 2.5rem;
-    }
-    
-    .features-grid,
-    .events-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .footer-grid {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-    
-    .footer-col h3::after {
-        left: 50%;
-        transform: translateX(-50%);
-    }
-}
-
-/* Contact Form */
+/* ---- Contact Form ---- */
 .contact-form {
     max-width: 640px;
     margin: 30px 0;
     padding: 35px 30px;
-    background-color: var(--cream);
+    background-color: var(--primary-tint-15);
     border-radius: 8px;
     box-shadow: 0 2px 12px var(--shadow);
 }
@@ -786,13 +916,14 @@ a:hover {
 .form-group label {
     display: block;
     margin-bottom: 6px;
+    font-family: var(--font-centennial);
     font-weight: 700;
     font-size: 0.95rem;
     color: var(--navy-blue);
 }
 
 .form-group .required {
-    color: var(--red-primary);
+    color: var(--primary);
 }
 
 .form-group input,
@@ -802,7 +933,7 @@ a:hover {
     padding: 11px 14px;
     border: 1px solid var(--gray-border);
     border-radius: 5px;
-    font-family: var(--font-body);
+    font-family: var(--font-janson);
     font-size: 1rem;
     color: var(--text-dark);
     background-color: var(--white);
@@ -824,8 +955,8 @@ a:hover {
 .form-group textarea:focus,
 .form-group select:focus {
     outline: none;
-    border-color: var(--navy-blue);
-    box-shadow: 0 0 0 3px var(--shadow);
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(173, 44, 17, 0.15);
 }
 
 .form-group textarea {
@@ -843,36 +974,10 @@ a:hover {
     width: 100%;
     padding: 14px;
     font-size: 1rem;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.1em;
 }
 
-@media (max-width: 600px) {
-    .form-row {
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
-
-    .contact-form {
-        padding: 25px 18px;
-    }
-}
-
-/* Page content alignment consistency */
-.page-content .content h2,
-.page-content .content h3,
-.list-page .container h2,
-.list-page .container h3 {
-    text-align: left;
-}
-
-.page-content .content,
-.list-page .container {
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Objet list styling */
+/* ---- Objet list styling ---- */
 .objet-list {
     list-style: none;
     padding: 0;
@@ -888,4 +993,99 @@ a:hover {
     position: absolute;
     left: 0;
     color: var(--gold);
+}
+
+/* ---- Responsive Design ---- */
+@media (max-width: 992px) {
+    .features-grid,
+    .events-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: var(--navy-blue);
+        flex-direction: column;
+        display: none;
+        border-top: 1px solid var(--overlay-light);
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu > li > a {
+        padding: 15px 20px;
+        color: var(--white);
+        border-bottom: 1px solid var(--overlay-light);
+    }
+
+    .submenu {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        box-shadow: none;
+        border-top: none;
+        background-color: var(--navy-dark);
+        display: none;
+    }
+
+    .has-submenu.active .submenu {
+        display: block;
+    }
+
+    .submenu li a {
+        color: var(--white);
+        padding-left: 40px;
+        border-bottom-color: var(--overlay-light);
+    }
+
+    .submenu li a:hover {
+        background-color: var(--overlay-light);
+        color: var(--gold);
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .features-grid,
+    .events-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-col h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 600px) {
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .contact-form {
+        padding: 25px 18px;
+    }
 }
