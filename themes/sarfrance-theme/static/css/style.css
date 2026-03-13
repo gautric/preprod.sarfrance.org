@@ -77,24 +77,21 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.22;     /* ~22/18 ratio from charter */
 }
 
-/* Article title: Centennial Black 18/22, horizontal scale 98% */
+/* Article title: Centennial Black 18/22 */
 h1 {
     font-weight: 900;
-    letter-spacing: -0.02em;  /* horizontal scale 98% approximation */
 }
 
 /* Section title */
 h2 {
     font-weight: 900;
-    letter-spacing: -0.02em;
 }
 
-/* Intertitre: Centennial Roman 14/16, horizontal scale 92%, primary color */
+/* Intertitre: Centennial Roman 14/16, primary color */
 h3 {
     font-family: var(--font-centennial);
     font-weight: 400;
     color: var(--primary);
-    letter-spacing: -0.08em;  /* horizontal scale 92% approximation */
     line-height: 1.14;        /* 16/14 */
 }
 
@@ -115,7 +112,6 @@ a:hover {
     font-family: var(--font-centennial);
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
     border-radius: 4px;
     transition: all 0.3s ease;
     cursor: pointer;
@@ -202,7 +198,7 @@ a:hover {
     position: relative;
 }
 
-/* Rubric style for nav: Centennial Light 14pt, letter-spacing 20 */
+/* Rubric style for nav: Centennial Light 14pt */
 .nav-menu > li > a {
     display: block;
     padding: 20px 18px;
@@ -211,7 +207,6 @@ a:hover {
     font-weight: 300;
     text-transform: uppercase;
     font-size: 0.9rem;
-    letter-spacing: 0.12em;   /* approche de lettre 20 */
     transition: all 0.3s ease;
 }
 
@@ -303,89 +298,66 @@ a:hover {
 
 /* ---- Hero Section ---- */
 .hero {
-    background: linear-gradient(135deg, var(--hero-gradient-start) 0%, var(--hero-gradient-end) 100%);
-    background-size: cover;
-    background-position: center;
+    background-color: var(--navy-blue);
     color: var(--white);
     padding: 60px 20px;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
     min-height: 420px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.hero::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: linear-gradient(135deg, rgba(26, 42, 74, 0.82) 0%, rgba(15, 26, 46, 0.88) 100%);
-    z-index: 0;
-}
-
-.hero[style*="background-image"] {
-    background-blend-mode: normal;
-    background-color: transparent;
-    background-size: cover;
-    background-position: center;
-}
-
 .hero-content {
-    position: relative;
-    z-index: 1;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
 }
 
-/* Cover title: Centennial Bold 30/32, letter-spacing -2 */
+.hero-logo {
+    flex-shrink: 0;
+}
+
+.hero-logo img {
+    width: 220px;
+    height: auto;
+    display: block;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+/* Cover title: Centennial Bold, color #ad2c11 (C22 M80 J92 N13) */
 .hero h1 {
     font-family: var(--font-centennial);
     font-size: 3.5rem;
     font-weight: 700;
-    color: var(--white);
-    margin-bottom: 20px;
-    letter-spacing: -0.02em;
-    line-height: 1.07;     /* 32/30 */
-    text-shadow: 2px 2px 4px var(--shadow-dark);
+    color: var(--primary);
+    margin-bottom: 15px;
+    line-height: 1.07;
 }
 
-/* Subtitle: Centennial Bold 16/24, vertical scale 90%, letter-spacing 15 */
+/* Subtitle: Centennial Bold 16/24, vertical scale 90% */
 .hero-subtitle {
     font-family: var(--font-centennial);
     font-weight: 700;
     font-size: 1.15rem;
-    letter-spacing: 0.1em;
-    margin-bottom: 30px;
-    opacity: 0.9;
+    margin-bottom: 25px;
+    color: var(--white);
+    transform: scaleY(0.9);
+    transform-origin: center;
     line-height: 1.5;
+    opacity: 0.9;
 }
 
+/* Description */
 .hero-desc {
     font-family: var(--font-janson);
-    font-size: 1.15rem;
-    max-width: 700px;
-    margin: 0 auto;
-    line-height: 1.8;
-    opacity: 0.9;
-}
-
-.hero-caption {
-    margin-top: 25px;
-    font-family: var(--font-janson);
-    font-size: 1rem;
-    opacity: 0.85;
-}
-
-.hero-caption a {
-    color: var(--gold);
-    text-decoration: underline;
-    font-size: 0.95rem;
-}
-
-.hero-caption a:hover {
-    color: var(--white);
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.85);
 }
 
 /* ---- Intro Section ---- */
@@ -450,7 +422,6 @@ a:hover {
     font-size: 1.4rem;
     margin-bottom: 15px;
     color: var(--navy-blue);
-    letter-spacing: -0.02em;
 }
 
 .feature-card p {
@@ -516,7 +487,6 @@ a:hover {
     font-family: var(--font-centennial);
     font-size: 0.85rem;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
 }
 
 .event-info h3 {
@@ -582,7 +552,6 @@ a:hover {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 10px;
-    letter-spacing: -0.02em;
 }
 
 .page-description {
@@ -614,7 +583,6 @@ a:hover {
     font-weight: 900;
     font-size: 1.8rem;
     margin: 30px 0 15px;
-    letter-spacing: -0.02em;
     line-height: 1.22;
 }
 
@@ -625,7 +593,6 @@ a:hover {
     font-size: 1.4rem;
     margin: 25px 0 12px;
     color: var(--primary);
-    letter-spacing: -0.08em;
     line-height: 1.14;
 }
 
@@ -723,13 +690,12 @@ a:hover {
     color: var(--text-dark);
 }
 
-/* Rubric label: Centennial Light 14pt, letter-spacing 20 */
+/* Rubric label: Centennial Light 14pt */
 .content .rubric,
 .rubric-label {
     font-family: var(--font-centennial);
     font-weight: 300;
     font-size: 0.9rem;
-    letter-spacing: 0.12em;
     text-transform: uppercase;
     color: var(--text-dark);
     display: flex;
@@ -793,7 +759,6 @@ a:hover {
     color: var(--primary);
     font-family: var(--font-centennial);
     font-weight: 700;
-    letter-spacing: 0.05em;
 }
 
 .read-more:hover {
@@ -886,12 +851,11 @@ a:hover {
     background-color: var(--primary);
 }
 
-/* Folio: JansonText Roman 7pt, letter-spacing 20 */
+/* Folio: JansonText Roman 7pt */
 .footer-bottom {
     padding: 25px 0;
     text-align: center;
     font-size: 0.85rem;
-    letter-spacing: 0.12em;
     opacity: 0.75;
 }
 
@@ -980,7 +944,6 @@ a:hover {
     width: 100%;
     padding: 14px;
     font-size: 1rem;
-    letter-spacing: 0.1em;
 }
 
 /* ---- Objet list styling ---- */
@@ -1063,6 +1026,17 @@ a:hover {
     .submenu li a:hover {
         background-color: var(--overlay-light);
         color: var(--gold);
+    }
+
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .hero-logo img {
+        width: 160px;
+        margin: 0 auto;
     }
 
     .hero h1 {
