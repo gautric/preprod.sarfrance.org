@@ -19,3 +19,4 @@ sarfrance/*
 .hugo_build.lock
 deploy.sh
 sarfrance.zip
+**.pdf
