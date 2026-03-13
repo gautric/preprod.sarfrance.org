@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  SAR France — Logo principal V1
+  Variante classique : emblème à gauche, texte à droite centré verticalement
+  Max 130px de haut, texte = ~1/3 de la hauteur
+  Police : Libre Bodoni (Centennial mapping)
+  Couleurs : #ad2c11 (rouge SAR), #555555 (gris officiel)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 400 130" width="400" height="130">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;700&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Emblème SAR (cercle avec étoile stylisée et couronne) -->
+  <g transform="translate(65, 65)">
+    <!-- Cercle extérieur -->
+    <circle cx="0" cy="0" r="58" fill="none" stroke="#ad2c11" stroke-width="3"/>
+    <!-- Cercle intérieur -->
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#ad2c11" stroke-width="1.5"/>
+    
+    <!-- Étoile à 5 branches (symbole SAR) -->
+    <polygon points="0,-38 8.9,-11.7 37.2,-11.7 14.4,4.5 22.3,30.9 0,14.7 -22.3,30.9 -14.4,4.5 -37.2,-11.7 -8.9,-11.7"
+             fill="#ad2c11" opacity="0.9"/>
+    
+    <!-- Cercle central -->
+    <circle cx="0" cy="0" r="12" fill="#1a2a4a"/>
+    
+    <!-- Lettres SAR au centre -->
+    <text x="0" y="1" text-anchor="middle" dominant-baseline="central"
+          font-family="'Libre Bodoni', Georgia, serif" font-weight="700"
+          font-size="11" fill="#ffffff" letter-spacing="0.5">SAR</text>
+    
+    <!-- Couronne stylisée au sommet -->
+    <g transform="translate(0, -46)">
+      <path d="M-8,0 L-6,-6 L-3,-2 L0,-8 L3,-2 L6,-6 L8,0 Z" fill="#ad2c11"/>
+    </g>
+    
+    <!-- Texte circulaire "SONS OF THE AMERICAN REVOLUTION" -->
+    <path id="textArcTop" d="M-42,0 A42,42 0 0,1 42,0" fill="none"/>
+    <text font-family="'Libre Bodoni', Georgia, serif" font-size="5.5" fill="#ad2c11"
+          letter-spacing="1.2" font-weight="400">
+      <textPath xlink:href="#textArcTop" startOffset="50%" text-anchor="middle">SONS OF THE AMERICAN</textPath>
+    </text>
+    
+    <path id="textArcBottom" d="M42,6 A42,42 0 0,1 -42,6" fill="none"/>
+    <text font-family="'Libre Bodoni', Georgia, serif" font-size="5.5" fill="#ad2c11"
+          letter-spacing="1.5" font-weight="400">
+      <textPath xlink:href="#textArcBottom" startOffset="50%" text-anchor="middle">REVOLUTION</textPath>
+    </text>
+  </g>
+
+  <!-- Texte "SARFrance" + ".org" à droite, centré verticalement -->
+  <!-- Texte fait ~1/3 de 130px = ~43px de haut max -->
+  <g transform="translate(145, 65)">
+    <!-- "SARFrance" en rouge SAR, Libre Bodoni Bold -->
+    <text x="0" y="0" dominant-baseline="central" text-anchor="start"
+          font-family="'Libre Bodoni', Georgia, serif" font-weight="700"
+          font-size="38" fill="#ad2c11" letter-spacing="-0.5">SAR<tspan font-weight="400">France</tspan></text>
+    <!-- ".org" en gris officiel, même police, plus petit -->
+    <text x="248" y="0" dominant-baseline="central" text-anchor="start"
+          font-family="'Libre Bodoni', Georgia, serif" font-weight="400"
+          font-size="28" fill="#555555">.org</text>
+  </g>
+</svg>

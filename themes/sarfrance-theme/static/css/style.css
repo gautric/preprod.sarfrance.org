@@ -182,10 +182,9 @@ a:hover {
 }
 
 .logo-img {
-    height: 70px;
+    height: 50px;
     width: auto;
     display: block;
-    background-color: var(--white);
 }
 
 .logo:hover .logo-img {
@@ -646,23 +645,30 @@ a:hover {
     line-height: 1.6;
 }
 
-/* Bullet: primary color dot (∅ 3.71 from charter) */
+/* Bullet: SAR icon on white backgrounds, primary dot fallback */
 .content ul {
     list-style: none;
 }
 
 .content ul li {
     position: relative;
-    padding-left: 20px;
+    padding-left: 28px;
 }
 
 .content ul li::before {
     content: '';
     position: absolute;
     left: 0;
-    top: 0.6em;
+}
+
+/* Fallback to dot on tinted/colored backgrounds */
+.section-tinted .content ul li::before,
+.cta .content ul li::before,
+.page-header .content ul li::before {
+    background-image: none;
     width: 8px;
     height: 8px;
+    top: 0.6em;
     border-radius: 50%;
     background-color: var(--primary);
 }
