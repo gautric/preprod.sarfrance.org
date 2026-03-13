@@ -10,6 +10,29 @@
             <p class="hero-desc">La Société en France des Fils de la Révolution Américaine (SAR France) réunit des descendants directs de personnes ayant contribué à donner l'indépendance aux colonies anglaises d'Amérique. SAR France a une triple vocation : transatlantique, historique et culturelle.</p>
         </div>
     </div>
+    {{ $slides := .Site.Data.carousel.slides }}
+    {{ if $slides }}
+    <div class="hero-carousel">
+        <div class="carousel-track">
+            {{ range $slides }}
+            <div class="carousel-slide">
+                <img src="{{ .image }}" alt="{{ .alt }}" loading="lazy">
+                <div class="carousel-caption">
+                    <p class="carousel-caption-title">{{ .caption }}</p>
+                    <p class="carousel-caption-credit">{{ .credit }}</p>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        <button class="carousel-btn carousel-prev" aria-label="Image précédente">&#10094;</button>
+        <button class="carousel-btn carousel-next" aria-label="Image suivante">&#10095;</button>
+        <div class="carousel-dots">
+            {{ range $i, $s := $slides }}
+            <button class="carousel-dot{{ if eq $i 0 }} active{{ end }}" aria-label="Aller à l'image {{ add $i 1 }}" data-index="{{ $i }}"></button>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
 </section>
 
 
