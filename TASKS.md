@@ -14,3 +14,4 @@
 - [x] 12. Organisation > Statuts : remplacement du titre « Règlement intérieur » par « Règlement intérieur (extrait) »
 - [x] 13. Organisation > Statuts > Règlement intérieur (extrait) : remplacement complet des articles par les nouveaux articles du règlement intérieur (art. 1, 9, 25, 32, 39)
 - [x] 14. Organisation > Sociétés françaises > Cincinnati : ajout du lien vers le site officiel de la Société des Cincinnati de France (https://www.cincinnatidefrance.fr/)
+- [x] 15. Activités > Dictionnaire biographique : précision du nombre de notices (environ 150) pour inciter les candidats potentiels
