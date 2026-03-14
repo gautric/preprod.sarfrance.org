@@ -11,10 +11,16 @@ description: "Ouvrages et autres publications de SAR France"
 
 - **« La France au secours de l'Amérique »** – Autopsie de l'Expédition particulière du général comte de Rochambeau et du chevalier de Ternay, par Jacques de Trentinian (Éd. SPM, juin 2016), avec la collaboration des membres du Comité d'Histoire.
 
-## Éphémérides
+## Bibliothèque
 
-Les Éphémérides, mises en ligne sur le site, mettent en exergue tel ou tel événement de la guerre d'indépendance.
+La Société dispose d'une bibliothèque consultable au secrétariat, rassemblant ouvrages, documents et archives relatifs à la Guerre d'Amérique et à l'histoire des relations franco-américaines.
 
 ## Prix Jacques de Trentinian
 
-Afin d'encourager la recherche historique et de renforcer l'intérêt du public pour l'histoire de la Guerre d'Amérique, la Société décerne le Prix Jacques de Trentinian.
+Afin d'encourager la recherche historique et de renforcer l'intérêt du public pour l'histoire de la Guerre d'Amérique, la Société décerne le Prix Jacques de Trentinian. Ce prix récompense un travail de recherche universitaire (thèse ou mémoire) portant sur la Guerre d'Indépendance américaine ou sur les relations franco-américaines de cette époque. Le maintien de ce prix est essentiel à la mission d'utilité publique de la Société.
+
+## Éphémérides
+
+Les Éphémérides mettent en exergue tel ou tel événement de la guerre d'indépendance, jour après jour.
+
+<!-- TODO : les éphémérides sont à relancer — rubrique à enrichir -->
