@@ -14,9 +14,3 @@ description: "Ouvrages et autres publications de SAR France"
 ## Bibliothèque
 
 La Société dispose d'une bibliothèque consultable au secrétariat, rassemblant ouvrages, documents et archives relatifs à la Guerre d'Amérique et à l'histoire des relations franco-américaines.
-
-## Éphémérides
-
-Les Éphémérides mettent en exergue tel ou tel événement de la guerre d'indépendance, jour après jour.
-
-<!-- TODO : les éphémérides sont à relancer — rubrique à enrichir -->

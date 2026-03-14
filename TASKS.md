@@ -20,3 +20,4 @@
 - [x] 18. Contact > Mentions légales : ajout d'un paragraphe sur la conformité RGPD (protection des données personnelles, droits des membres)
 - [x] 19. Point de forme : détachement typographique de « Prix » et « Jacques de Trentinian » — guillemets ajoutés autour du nom propre pour distinguer le type (Prix) du nom (Jacques de Trentinian)
 - [x] 20. Activités > Prix « Jacques de Trentinian » : création d'une page dédiée et ajout dans le menu Activités — rubrique extraite de la page Autres publications compte tenu de l'importance de ce prix pour la RUP
+- [x] 21. Éphémérides : déplacement de la rubrique Activités > Autres publications vers Histoire, avec note demandant à l'historien de revoir et actualiser cette partie

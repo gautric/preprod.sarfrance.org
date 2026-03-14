@@ -21,7 +21,6 @@ Interventions pour faire mieux connaître à nos membres et à nos amis américa
 
 - Bulletin « L'Alliance Franco-Américaine »
 - Ouvrages collectifs et films éducatifs
-- Éphémérides mettant en exergue les événements de la guerre d'indépendance
 
 ### Événements récents
 
