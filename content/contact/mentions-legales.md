@@ -23,6 +23,8 @@ Pour toute question technique relative au site (erreur d'affichage, lien cassé,
 
 **Email** : [webmaster@sarfrance.org](mailto:webmaster@sarfrance.org)
 
+Vous pouvez également signaler un problème ou proposer une amélioration directement sur notre espace de gestion du site : [créer une demande sur GitHub](https://github.com/gautric/preprod.sarfrance.org/issues/new/choose).
+
 ## Protection des données personnelles (RGPD)
 
 Conformément au Règlement Général sur la Protection des Données (RGPD – Règlement UE 2016/679), SAR France s'engage à protéger les données personnelles de ses membres, donateurs et visiteurs de son site internet.
