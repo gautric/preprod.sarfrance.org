@@ -167,7 +167,7 @@ theme = 'sarfrance-theme'
 
   [[menus.main]]
     identifier = "cotisation"
-    name = "Cotisation"
+    name = "Paiement en ligne"
     url = "/contact/cotisation/"
     parent = "contact"
     weight = 3

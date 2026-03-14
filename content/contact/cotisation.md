@@ -1,11 +1,11 @@
 ---
-title: "Cotisation"
-description: "Payer votre cotisation SAR France"
+title: "Paiement en ligne"
+description: "Paiement en ligne : cotisation, don et autres achats — SAR France"
 ---
 
-## Payer votre cotisation
+## Paiement en ligne
 
-Vous pouvez faire un don à la Société, régler votre cotisation ou votre participation à l'une de nos activités via le service sécurisé Payasso à l'aide du lien suivant :
+Vous pouvez régler votre cotisation, faire un don à la Société ou régler votre participation à l'une de nos activités via le service sécurisé Payasso à l'aide du lien suivant :
 
 **[https://www.payasso.fr/revolution-americaine/cotisation](https://www.payasso.fr/revolution-americaine/cotisation)**
 

@@ -16,3 +16,4 @@
 - [x] 14. Organisation > Sociétés françaises > Cincinnati : ajout du lien vers le site officiel de la Société des Cincinnati de France (https://www.cincinnatidefrance.fr/)
 - [x] 15. Activités > Dictionnaire biographique : précision du nombre de notices (environ 150) pour inciter les candidats potentiels
 - [x] 16. Activités > Autres publications : ajout rubrique Bibliothèque, enrichissement du Prix Jacques de Trentinian (importance pour la RUP), note sur les éphémérides à relancer
+- [x] 17. Contact > Cotisation : renommé en « Paiement en ligne » (don, cotisation et autres achats) — page et menu mis à jour
