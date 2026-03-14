@@ -18,3 +18,4 @@
 - [x] 16. Activités > Autres publications : ajout rubrique Bibliothèque, enrichissement du Prix Jacques de Trentinian (importance pour la RUP), note sur les éphémérides à relancer
 - [x] 17. Contact > Cotisation : renommé en « Paiement en ligne » (don, cotisation et autres achats) — page et menu mis à jour
 - [x] 18. Contact > Mentions légales : ajout d'un paragraphe sur la conformité RGPD (protection des données personnelles, droits des membres)
+- [x] 19. Point de forme : détachement typographique de « Prix » et « Jacques de Trentinian » — guillemets ajoutés autour du nom propre pour distinguer le type (Prix) du nom (Jacques de Trentinian)

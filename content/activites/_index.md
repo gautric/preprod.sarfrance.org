@@ -14,7 +14,7 @@ Interventions pour faire mieux connaître à nos membres et à nos amis américa
 ### Recherche historique
 
 - Recueil et exploitation d'archives familiales méconnues
-- Prix de Thèse des SAR « Prix Jacques de Trentinian » pour encourager la recherche historique
+- Prix de Thèse des SAR — Prix « Jacques de Trentinian » — pour encourager la recherche historique
 - Dictionnaire biographique des ancêtres SAR France
 
 ### Publications
