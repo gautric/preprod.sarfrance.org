@@ -13,3 +13,4 @@
 - [x] 11. Contact > Ajout rubrique « Faites un don à SAR France » après Cotisation avec page dédiée et entrée menu
 - [x] 12. Organisation > Statuts : remplacement du titre « Règlement intérieur » par « Règlement intérieur (extrait) »
 - [x] 13. Organisation > Statuts > Règlement intérieur (extrait) : remplacement complet des articles par les nouveaux articles du règlement intérieur (art. 1, 9, 25, 32, 39)
+- [x] 14. Organisation > Sociétés françaises > Cincinnati : ajout du lien vers le site officiel de la Société des Cincinnati de France (https://www.cincinnatidefrance.fr/)

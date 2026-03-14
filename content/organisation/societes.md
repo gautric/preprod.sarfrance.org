@@ -33,4 +33,5 @@ Les frais d'inscription auprès de la NSCAR sont de 23 euros. La cotisation annu
 Issue en 1784 de la société d'amis créée autour de Washington dès mai 1783 par les officiers de son armée, sur une initiative du général Knox, la Société des Cincinnati de France a été dispersée en 1792 par la tourmente révolutionnaire. Restaurée en 1922, après la nouvelle fraternité d'armes de la Guerre de 1914-18, elle admet un représentant, mais un seul, l'aîné, par famille d'un officier d'origine.
 
 **Liens utiles :**
+- [Société des Cincinnati de France](https://www.cincinnatidefrance.fr/)
 - [The Society of the Cincinnati (USA)](https://www.societyofthecincinnati.org/)
