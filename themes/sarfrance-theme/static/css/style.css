@@ -1070,3 +1070,38 @@ a:hover {
         padding: 25px 18px;
     }
 }
+
+/* ---- 404 Page ---- */
+.error-404 {
+    text-align: center;
+    padding: 80px 0;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error-404 .error-lead {
+    font-family: var(--font-janson);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 12px;
+}
+
+.error-404 p {
+    font-family: var(--font-janson);
+    font-size: 1.05rem;
+    color: var(--text-light);
+    margin-bottom: 12px;
+}
+
+.error-404 .error-hint {
+    margin-bottom: 30px;
+}
+
+.error-actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
