@@ -1,0 +1,18 @@
+# Propriétaires du code — ces personnes sont automatiquement sollicitées
+# pour relire les Pull Requests touchant les fichiers correspondants.
+#
+# Documentation : https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Contenu éditorial — validation par le webmaster et le secrétariat
+content/     @gautric
+data/        @gautric
+
+# Diaporama
+data/carousel.json @gautric
+
+# Configuration du site et thème
+hugo.toml    @gautric
+layouts/     @gautric
+
+# Workflows CI/CD
+.github/     @gautric

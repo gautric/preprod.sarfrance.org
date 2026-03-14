@@ -1,0 +1,77 @@
+name: "📝 Demande de modification de contenu"
+description: "Demander une modification de texte, d'image ou de page sur le site"
+title: "[Contenu] "
+labels: ["contenu", "en attente"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Demande de modification de contenu
+        Merci de remplir ce formulaire pour demander une modification sur le site SAR France.
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: "Rubrique concernée"
+      description: "Dans quelle partie du site se trouve la modification ?"
+      options:
+        - Accueil (diaporama)
+        - Organisation
+        - Histoire
+        - Activités
+        - Contact
+        - Autre
+    validations:
+      required: true
+
+  - type: input
+    id: page
+    attributes:
+      label: "Page concernée"
+      description: "Nom de la page à modifier (ex : Événements, Sociétés françaises, etc.)"
+      placeholder: "ex : Événements"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: "Type de modification"
+      options:
+        - Correction de texte (faute, mise à jour)
+        - Ajout de contenu
+        - Suppression de contenu
+        - Modification d'image ou du diaporama
+        - Ajout d'un lien
+        - Autre
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description de la modification"
+      description: "Décrivez précisément ce qui doit être modifié. Si possible, fournissez le texte exact souhaité."
+      placeholder: "Remplacer le paragraphe ... par le texte suivant : ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: fichiers
+    attributes:
+      label: "Fichiers joints"
+      description: "Si vous avez des images ou documents à ajouter, glissez-les ici ou décrivez-les."
+      placeholder: "Glissez vos fichiers ici ou décrivez les documents à fournir"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: urgence
+    attributes:
+      label: "Urgence"
+      options:
+        - Normale (dans la semaine)
+        - Importante (sous 48h)
+        - Urgente (dans la journée)
+    validations:
+      required: true

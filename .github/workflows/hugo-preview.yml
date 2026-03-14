@@ -1,0 +1,123 @@
+# Workflow de prévisualisation pour les Pull Requests
+# Vérifie que le site compile correctement avant de fusionner les modifications
+name: Prévisualisation Hugo (Pull Request)
+
+on:
+  pull_request:
+    branches: ["main"]
+    paths:
+      - 'content/**'
+      - 'data/**'
+      - 'static/**'
+      - 'layouts/**'
+      - 'hugo.toml'
+      - 'assets/**'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build-preview:
+    name: Vérification du build Hugo
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.157.0
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Install Node.js dependencies
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+
+      - name: Build with Hugo
+        env:
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          HUGO_ENVIRONMENT: production
+        run: |
+          hugo \
+            --minify \
+            --baseURL "https://preprod.sarfrance.org/" 2>&1 | tee build-output.txt
+
+      - name: Résumé du build
+        if: always()
+        run: |
+          echo "## 🏗️ Résultat du build Hugo" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ $? -eq 0 ]; then
+            echo "✅ Le site compile correctement." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ Erreur de compilation. Vérifiez les logs ci-dessus." >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          PAGES=$(grep -oP 'Pages\s+\|\s+\K\d+' build-output.txt || echo "?")
+          echo "- **Pages générées** : $PAGES" >> $GITHUB_STEP_SUMMARY
+
+  validate-content:
+    name: Validation du contenu
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Vérifier le front matter des fichiers Markdown
+        run: |
+          echo "## 📝 Vérification du contenu" >> $GITHUB_STEP_SUMMARY
+          ERRORS=0
+          for f in $(find content -name '*.md'); do
+            # Vérifier que le fichier commence par ---
+            if ! head -1 "$f" | grep -q '^---'; then
+              echo "❌ $f : en-tête front matter manquant (doit commencer par ---)" >> $GITHUB_STEP_SUMMARY
+              ERRORS=$((ERRORS + 1))
+            fi
+            # Vérifier que le front matter contient un title
+            if ! sed -n '/^---$/,/^---$/p' "$f" | grep -q 'title:'; then
+              echo "⚠️ $f : champ 'title' manquant dans le front matter" >> $GITHUB_STEP_SUMMARY
+              ERRORS=$((ERRORS + 1))
+            fi
+          done
+          if [ $ERRORS -eq 0 ]; then
+            echo "✅ Tous les fichiers de contenu sont valides." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**$ERRORS problème(s) détecté(s)**" >> $GITHUB_STEP_SUMMARY
+            exit 1
+          fi
+
+      - name: Vérifier le format JSON des fichiers data
+        run: |
+          ERRORS=0
+          for f in $(find data -name '*.json' 2>/dev/null); do
+            if ! python3 -m json.tool "$f" > /dev/null 2>&1; then
+              echo "❌ $f : JSON invalide" >> $GITHUB_STEP_SUMMARY
+              ERRORS=$((ERRORS + 1))
+            fi
+          done
+          if [ $ERRORS -eq 0 ]; then
+            echo "✅ Tous les fichiers JSON sont valides." >> $GITHUB_STEP_SUMMARY
+          fi
+          if [ $ERRORS -gt 0 ]; then
+            exit 1
+          fi

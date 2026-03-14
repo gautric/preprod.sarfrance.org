@@ -1,0 +1,50 @@
+name: "📄 Demande de nouvelle page"
+description: "Demander la création d'une nouvelle page ou rubrique sur le site"
+title: "[Nouvelle page] "
+labels: ["contenu", "nouvelle page", "en attente"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Demande de création de page
+        Merci de remplir ce formulaire pour demander la création d'une nouvelle page sur le site SAR France.
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: "Rubrique de destination"
+      description: "Dans quelle partie du site doit apparaître cette nouvelle page ?"
+      options:
+        - Organisation
+        - Histoire
+        - Activités
+        - Contact
+        - Nouvelle rubrique
+    validations:
+      required: true
+
+  - type: input
+    id: titre
+    attributes:
+      label: "Titre de la page"
+      placeholder: "ex : Organisation France"
+    validations:
+      required: true
+
+  - type: textarea
+    id: contenu
+    attributes:
+      label: "Contenu souhaité"
+      description: "Fournissez le texte de la page, même sous forme de brouillon."
+      placeholder: "Texte de la nouvelle page..."
+    validations:
+      required: true
+
+  - type: input
+    id: position-menu
+    attributes:
+      label: "Position dans le menu"
+      description: "Après quelle page existante doit-elle apparaître ?"
+      placeholder: "ex : après Secrétariat"
+    validations:
+      required: false

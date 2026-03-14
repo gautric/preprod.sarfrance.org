@@ -1,0 +1,49 @@
+name: "🐛 Signaler un problème sur le site"
+description: "Signaler un lien cassé, un problème d'affichage ou une erreur"
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Signalement de problème
+        Merci de décrire le problème rencontré sur le site SAR France.
+
+  - type: input
+    id: page-url
+    attributes:
+      label: "Adresse de la page concernée"
+      description: "Copiez l'adresse (URL) de la page depuis votre navigateur"
+      placeholder: "https://preprod.sarfrance.org/..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: "Type de problème"
+      options:
+        - Lien cassé
+        - Problème d'affichage
+        - Faute de frappe ou erreur dans le texte
+        - Image manquante ou incorrecte
+        - Autre
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description du problème"
+      description: "Décrivez ce que vous voyez et ce que vous attendiez."
+      placeholder: "En cliquant sur le lien ..., j'obtiens une page d'erreur au lieu de ..."
+    validations:
+      required: true
+
+  - type: input
+    id: navigateur
+    attributes:
+      label: "Navigateur utilisé"
+      placeholder: "ex : Chrome, Safari, Firefox"
+    validations:
+      required: false
