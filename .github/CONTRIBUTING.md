@@ -2,6 +2,42 @@
 
 Ce document explique pas à pas comment proposer des modifications sur le site, directement depuis votre navigateur internet. Aucun logiciel à installer.
 
+Deux méthodes sont possibles :
+
+1. **Édition rapide** — modifier un fichier directement sur GitHub (crayon ✏️), idéal pour une correction ponctuelle.
+2. **Éditeur complet github.dev** — ouvrir un véritable environnement d'édition dans le navigateur, idéal pour modifier plusieurs fichiers, prévisualiser ses changements et tout valider en une seule fois.
+
+---
+
+## Utiliser github.dev (éditeur complet dans le navigateur)
+
+GitHub propose un éditeur en ligne complet, accessible sans rien installer. Il fonctionne comme un vrai logiciel de développement, directement dans votre navigateur.
+
+### Comment y accéder
+
+1. Allez sur la page du projet : [https://github.com/gautric/preprod.sarfrance.org](https://github.com/gautric/preprod.sarfrance.org)
+2. Appuyez sur la touche **`.`** (point) de votre clavier — l'éditeur s'ouvre automatiquement
+3. Vous pouvez aussi remplacer `github.com` par `github.dev` dans la barre d'adresse :
+   [https://github.dev/gautric/preprod.sarfrance.org](https://github.dev/gautric/preprod.sarfrance.org)
+
+### Ce que vous pouvez faire avec github.dev
+
+- Naviguer dans tous les dossiers et fichiers du site (panneau de gauche)
+- Modifier plusieurs fichiers avant de valider
+- Voir un aperçu Markdown en temps réel (clic droit sur un fichier `.md` → *Open Preview*)
+- Rechercher du texte dans tout le projet (🔍 ou `Ctrl+Shift+F` / `Cmd+Shift+F`)
+- Annuler vos modifications fichier par fichier si besoin
+
+### Enregistrer ses modifications depuis github.dev
+
+1. Cliquez sur l'icône **Source Control** dans la barre latérale gauche (icône avec des branches, ou `Ctrl+Shift+G` / `Cmd+Shift+G`)
+2. Vous voyez la liste des fichiers modifiés
+3. Écrivez un court résumé de vos modifications dans le champ de texte en haut (par exemple : *Mise à jour agenda et page événements*)
+4. Cliquez sur **Commit & Push** (si vous êtes webmaster) ou **Commit & Create Pull Request** (si vous êtes auteur/rédacteur)
+5. Dans le cas d'une Pull Request, le webmaster sera notifié pour relecture
+
+> **Astuce** : github.dev est particulièrement pratique quand vous devez modifier plusieurs pages en même temps, ou quand vous voulez relire l'ensemble de vos changements avant de les soumettre.
+
 ---
 
 ## Rôles
