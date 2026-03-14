@@ -19,3 +19,4 @@
 - [x] 17. Contact > Cotisation : renommé en « Paiement en ligne » (don, cotisation et autres achats) — page et menu mis à jour
 - [x] 18. Contact > Mentions légales : ajout d'un paragraphe sur la conformité RGPD (protection des données personnelles, droits des membres)
 - [x] 19. Point de forme : détachement typographique de « Prix » et « Jacques de Trentinian » — guillemets ajoutés autour du nom propre pour distinguer le type (Prix) du nom (Jacques de Trentinian)
+- [x] 20. Activités > Prix « Jacques de Trentinian » : création d'une page dédiée et ajout dans le menu Activités — rubrique extraite de la page Autres publications compte tenu de l'importance de ce prix pour la RUP

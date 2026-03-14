@@ -150,6 +150,13 @@ theme = 'sarfrance-theme'
     parent = "activites"
     weight = 5
 
+  [[menus.main]]
+    identifier = "prix-trentinian"
+    name = "Prix « Jacques de Trentinian »"
+    url = "/activites/prix-trentinian/"
+    parent = "activites"
+    weight = 6
+
   # Submenus - Contact
     # Submenus - Contact
   [[menus.main]]
