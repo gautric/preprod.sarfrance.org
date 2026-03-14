@@ -73,4 +73,4 @@ Faites vivre la Société :
 
 ---
 
-Pour toute question ou pour déposer votre candidature, [contactez-nous](/contact/formulaire/).
+Pour toute question ou pour déposer votre candidature, [contactez-nous](/contact/contact/).
