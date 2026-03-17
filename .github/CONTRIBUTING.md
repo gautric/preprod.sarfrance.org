@@ -9,34 +9,20 @@ Deux méthodes sont possibles :
 
 ---
 
-## Utiliser github.dev (éditeur complet dans le navigateur)
+## Sommaire
 
-GitHub propose un éditeur en ligne complet, accessible sans rien installer. Il fonctionne comme un vrai logiciel de développement, directement dans votre navigateur.
-
-### Comment y accéder
-
-1. Allez sur la page du projet : [https://github.com/gautric/preprod.sarfrance.org](https://github.com/gautric/preprod.sarfrance.org)
-2. Appuyez sur la touche **`.`** (point) de votre clavier — l'éditeur s'ouvre automatiquement
-3. Vous pouvez aussi remplacer `github.com` par `github.dev` dans la barre d'adresse :
-   [https://github.dev/gautric/preprod.sarfrance.org](https://github.dev/gautric/preprod.sarfrance.org)
-
-### Ce que vous pouvez faire avec github.dev
-
-- Naviguer dans tous les dossiers et fichiers du site (panneau de gauche)
-- Modifier plusieurs fichiers avant de valider
-- Voir un aperçu Markdown en temps réel (clic droit sur un fichier `.md` → *Open Preview*)
-- Rechercher du texte dans tout le projet (🔍 ou `Ctrl+Shift+F` / `Cmd+Shift+F`)
-- Annuler vos modifications fichier par fichier si besoin
-
-### Enregistrer ses modifications depuis github.dev
-
-1. Cliquez sur l'icône **Source Control** dans la barre latérale gauche (icône avec des branches, ou `Ctrl+Shift+G` / `Cmd+Shift+G`)
-2. Vous voyez la liste des fichiers modifiés
-3. Écrivez un court résumé de vos modifications dans le champ de texte en haut (par exemple : *Mise à jour agenda et page événements*)
-4. Cliquez sur **Commit & Push** (si vous êtes webmaster) ou **Commit & Create Pull Request** (si vous êtes auteur/rédacteur)
-5. Dans le cas d'une Pull Request, le webmaster sera notifié pour relecture
-
-> **Astuce** : github.dev est particulièrement pratique quand vous devez modifier plusieurs pages en même temps, ou quand vous voulez relire l'ensemble de vos changements avant de les soumettre.
+1. [Rôles](#rôles)
+2. [Se connecter à GitHub](#se-connecter-à-github)
+3. [Accéder au projet du site](#accéder-au-projet-du-site)
+4. [Où se trouvent les pages du site](#où-se-trouvent-les-pages-du-site)
+5. [Aide rapide sur le format Markdown](#aide-rapide-sur-le-format-markdown)
+6. [Modifier une page du site (texte)](#modifier-une-page-du-site-texte)
+7. [Utiliser github.dev (éditeur complet dans le navigateur)](#utiliser-githubdev-éditeur-complet-dans-le-navigateur)
+8. [Modifier le diaporama de la page d'accueil](#modifier-le-diaporama-de-la-page-daccueil)
+9. [Signaler un problème ou demander une modification](#signaler-un-problème-ou-demander-une-modification)
+10. [Vérification automatique](#vérification-automatique)
+11. [En cas de problème](#en-cas-de-problème)
+12. [Contact](#contact)
 
 ---
 
@@ -130,6 +116,21 @@ Sa modification est expliquée plus bas dans la section « Modifier le diaporama
 
 ---
 
+## Aide rapide sur le format Markdown
+
+Les pages du site utilisent le format Markdown. Voici les mises en forme les plus courantes :
+
+| Ce que vous écrivez | Ce qui s'affiche |
+|---|---|
+| `## Mon titre` | Un titre de section |
+| `### Mon sous-titre` | Un sous-titre |
+| `**texte en gras**` | **texte en gras** |
+| `*texte en italique*` | *texte en italique* |
+| `- élément de liste` | • élément de liste |
+| `[texte du lien](https://exemple.com)` | Un lien cliquable |
+
+---
+
 ## Modifier une page du site (texte)
 
 ### Étape 1 — Trouver le fichier
@@ -167,6 +168,37 @@ Deux cas possibles selon vos droits d'accès :
 4. Cliquez sur **Propose changes**
 5. Sur la page suivante, cliquez sur **Create pull request**
 6. Le webmaster sera automatiquement notifié et relira votre proposition avant de la publier
+
+---
+
+## Utiliser github.dev (éditeur complet dans le navigateur)
+
+GitHub propose un éditeur en ligne complet, accessible sans rien installer. Il fonctionne comme un vrai logiciel de développement, directement dans votre navigateur.
+
+### Comment y accéder
+
+1. Allez sur la page du projet : [https://github.com/gautric/preprod.sarfrance.org](https://github.com/gautric/preprod.sarfrance.org)
+2. Appuyez sur la touche **`.`** (point) de votre clavier — l'éditeur s'ouvre automatiquement
+3. Vous pouvez aussi remplacer `github.com` par `github.dev` dans la barre d'adresse :
+   [https://github.dev/gautric/preprod.sarfrance.org](https://github.dev/gautric/preprod.sarfrance.org)
+
+### Ce que vous pouvez faire avec github.dev
+
+- Naviguer dans tous les dossiers et fichiers du site (panneau de gauche)
+- Modifier plusieurs fichiers avant de valider
+- Voir un aperçu Markdown en temps réel (clic droit sur un fichier `.md` → *Open Preview*)
+- Rechercher du texte dans tout le projet (🔍 ou `Ctrl+Shift+F` / `Cmd+Shift+F`)
+- Annuler vos modifications fichier par fichier si besoin
+
+### Enregistrer ses modifications depuis github.dev
+
+1. Cliquez sur l'icône **Source Control** dans la barre latérale gauche (icône avec des branches, ou `Ctrl+Shift+G` / `Cmd+Shift+G`)
+2. Vous voyez la liste des fichiers modifiés
+3. Écrivez un court résumé de vos modifications dans le champ de texte en haut (par exemple : *Mise à jour agenda et page événements*)
+4. Cliquez sur **Commit & Push** (si vous êtes webmaster) ou **Commit & Create Pull Request** (si vous êtes auteur/rédacteur)
+5. Dans le cas d'une Pull Request, le webmaster sera notifié pour relecture
+
+> **Astuce** : github.dev est particulièrement pratique quand vous devez modifier plusieurs pages en même temps, ou quand vous voulez relire l'ensemble de vos changements avant de les soumettre.
 
 ---
 
@@ -216,21 +248,6 @@ Si vous préférez ne pas modifier le fichier vous-même, vous pouvez créer une
    - 🐛 **Signaler un problème** — pour un lien cassé, un problème d'affichage, etc.
 5. Remplissez le formulaire et cliquez sur **Submit new issue**
 6. Le webmaster sera notifié et prendra en charge votre demande
-
----
-
-## Aide rapide sur le format Markdown
-
-Les pages du site utilisent le format Markdown. Voici les mises en forme les plus courantes :
-
-| Ce que vous écrivez | Ce qui s'affiche |
-|---|---|
-| `## Mon titre` | Un titre de section |
-| `### Mon sous-titre` | Un sous-titre |
-| `**texte en gras**` | **texte en gras** |
-| `*texte en italique*` | *texte en italique* |
-| `- élément de liste` | • élément de liste |
-| `[texte du lien](https://exemple.com)` | Un lien cliquable |
 
 ---
 
