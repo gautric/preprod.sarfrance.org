@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "name": "Create English page from new French page",
+  "description": "When a new French content page (content/fr/**/*.md) is created, automatically creates the corresponding English translation under content/en/.",
+  "version": "1",
+  "when": {
+    "type": "fileCreated",
+    "patterns": [
+      "content/fr/**/*.md"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A new French content page was just created. Create its English counterpart:\n\n1. Identify the new file path under `content/fr/` and derive the matching English path under `content/en/` (same relative path, just replace `fr` with `en`).\n2. Read the new French file.\n3. Translate the content into English, preserving:\n   - The exact same YAML front matter structure (translate field values like `title`, `description`, `subtitle`, etc.)\n   - The same Markdown structure, shortcodes, and links\n   - Any Hugo-specific syntax (params, shortcodes, front matter keys) must remain unchanged\n   - Only translate the human-readable text, not the keys or technical markup\n4. Create the English file at the derived path.\n5. Do NOT modify the French file.\n6. Do NOT commit — just write the English file."
+  }
+}

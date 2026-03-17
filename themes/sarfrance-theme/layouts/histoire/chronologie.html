@@ -6,12 +6,12 @@
     <div class="page-header">
         <div class="container">
             <h1>{{ .Title }}</h1>
-            <p class="page-description">Présentation synoptique de l'histoire américaine et européenne</p>
+            <p class="page-description">{{ i18n "chronologie_desc" }}</p>
         </div>
     </div>
     <div class="container">
-        <div class="timeline-filters" role="group" aria-label="Filtrer par catégorie">
-            <button class="tag-filter active" data-tag="all">Tout</button>
+        <div class="timeline-filters" role="group" aria-label="{{ i18n "filter_by_category" }}">
+            <button class="tag-filter active" data-tag="all">{{ i18n "filter_all" }}</button>
             {{ range $key, $val := .Site.Data.chronologie.tags }}
             <button class="tag-filter" data-tag="{{ $key }}" style="--tag-color: {{ $val.color }}">{{ $val.label }}</button>
             {{ end }}
@@ -53,7 +53,9 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // Format dates in local timezone
+    var lang = document.documentElement.lang || 'fr-FR';
+    var locale = (lang === 'en-US' || lang === 'en') ? 'en-US' : 'fr-FR';
+
     const dateElements = document.querySelectorAll('.timeline-date[data-iso-date]');
     dateElements.forEach(function(el) {
         const isoDate = el.getAttribute('data-iso-date');
@@ -61,16 +63,14 @@ document.addEventListener('DOMContentLoaded', function() {
             try {
                 const date = new Date(isoDate);
                 const options = { year: 'numeric', month: 'long', day: 'numeric' };
-                const formattedDate = date.toLocaleDateString(undefined, options);
+                const formattedDate = date.toLocaleDateString(locale, options);
                 el.textContent = formattedDate;
             } catch (e) {
-                // Keep original date if parsing fails
                 console.warn('Failed to parse date:', isoDate);
             }
         }
     });
 
-    // Filter functionality
     const filters = document.querySelectorAll('.tag-filter');
     const items = document.querySelectorAll('.timeline-item');
 
@@ -94,7 +94,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             });
 
-            // Hide empty periods
             document.querySelectorAll('.timeline-period').forEach(function(period) {
                 var visible = period.querySelectorAll('.timeline-item:not(.hidden)');
                 period.style.display = visible.length === 0 ? 'none' : '';

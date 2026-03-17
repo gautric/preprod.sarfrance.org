@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "name": "Sync French edits to English",
+  "description": "When a French content page (content/fr/**/*.md) is edited, translates the changes into the corresponding English page under content/en/.",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "content/fr/**/*.md"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A French content page was just edited. Sync the changes to its English counterpart:\n\n1. Identify the edited file path under `content/fr/` and derive the matching English path under `content/en/` (same relative path, just replace `fr` with `en`).\n2. Read both the French file and the English file.\n3. Translate the modified French content into English, preserving:\n   - The exact same YAML front matter structure (translate field values like `title`, `description`, `subtitle`, etc.)\n   - The same Markdown structure, shortcodes, and links\n   - Any Hugo-specific syntax (params, shortcodes, front matter keys) must remain unchanged\n   - Only translate the human-readable text, not the keys or technical markup\n4. If the English file already exists, update it with the translated content. If it does not exist, create it.\n5. Do NOT modify the French file.\n6. Do NOT commit — just write the English file."
+  }
+}

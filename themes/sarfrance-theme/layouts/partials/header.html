@@ -1,7 +1,7 @@
 <header class="site-header">
     <nav class="main-nav">
         <div class="container">
-            <a href="/" class="logo">
+            <a href="{{ .Site.Home.RelPermalink }}" class="logo">
                 <img src="/images/icons/sar-logo-nav.png" alt="SAR FRANCE" class="logo-img">
             </a>
             <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
@@ -24,6 +24,21 @@
                     <li><a href="{{ .URL }}">{{ .Name }}</a></li>
                     {{ end }}
                 {{ end }}
+                {{ $frURL := "/" }}
+                {{ $enURL := "/en/" }}
+                {{ if .IsTranslated }}
+                    {{ range .Translations }}
+                        {{ if eq .Lang "fr" }}{{ $frURL = .RelPermalink }}{{ end }}
+                        {{ if eq .Lang "en" }}{{ $enURL = .RelPermalink }}{{ end }}
+                    {{ end }}
+                {{ end }}
+                <li class="has-submenu">
+                    <a href="#">{{ if eq .Lang "fr" }}🇫🇷{{ else }}🇺🇸{{ end }}</a>
+                    <ul class="submenu">
+                        <li{{ if eq .Lang "fr" }} class="active"{{ end }}><a href="{{ $frURL }}" lang="fr" hreflang="fr">🇫🇷 Français</a></li>
+                        <li{{ if eq .Lang "en" }} class="active"{{ end }}><a href="{{ $enURL }}" lang="en" hreflang="en">🇺🇸 English</a></li>
+                    </ul>
+                </li>
             </ul>
         </div>
     </nav>

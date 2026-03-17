@@ -1,15 +1,375 @@
 baseURL = 'https://preprod.sarfrance.org/'
-languageCode = 'fr-FR'
-title = 'SAR France - Les Fils de la Révolution Américaine'
+title = 'SAR France'
 theme = 'sarfrance-theme'
+defaultContentLanguage = 'fr'
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.fr]
+    languageCode = 'fr-FR'
+    languageName = 'Français'
+    title = 'SAR France - Les Fils de la Révolution Américaine'
+    weight = 1
+    contentDir = 'content/fr'
+
+    [languages.fr.params]
+      description = "SAR France - Société en France des Fils de la Révolution Américaine"
+      author = "SAR France"
+      heroTitle = "SAR France"
+      heroSubtitle = "Les Fils de la Révolution Américaine – The Sons of the American Revolution (SAR)"
+      heroDesc = "La Société en France des Fils de la Révolution Américaine (SAR France) réunit des descendants directs de personnes ayant contribué à donner l'indépendance aux colonies anglaises d'Amérique. SAR France a une triple vocation : transatlantique, historique et culturelle."
+      footerText = "© 2026 SAR France – Association reconnue d'utilité publique (décret du 31 décembre 2013, JO du 3 janvier 2014)"
+
+    [[languages.fr.menus.main]]
+      identifier = "accueil"
+      name = "Accueil"
+      url = "/"
+      weight = 1
+
+    [[languages.fr.menus.main]]
+      identifier = "organisation"
+      name = "Organisation"
+      url = "/organisation/"
+      weight = 2
+
+    [[languages.fr.menus.main]]
+      identifier = "histoire"
+      name = "Histoire"
+      url = "/histoire/"
+      weight = 3
+
+    [[languages.fr.menus.main]]
+      identifier = "activites"
+      name = "Activités"
+      url = "/activites/"
+      weight = 4
+
+    [[languages.fr.menus.main]]
+      identifier = "contact"
+      name = "Contact"
+      url = "/contact/"
+      weight = 5
+
+    # Submenus - Organisation
+    [[languages.fr.menus.main]]
+      identifier = "nssar"
+      name = "NSSAR"
+      url = "/organisation/nssar/"
+      parent = "organisation"
+      weight = 1
+
+    [[languages.fr.menus.main]]
+      identifier = "objet"
+      name = "Objet de SAR France"
+      url = "/organisation/objet/"
+      parent = "organisation"
+      weight = 2
+
+    [[languages.fr.menus.main]]
+      identifier = "statuts"
+      name = "Statuts & Règlement (extrait)"
+      url = "/organisation/statuts/"
+      parent = "organisation"
+      weight = 3
+
+    [[languages.fr.menus.main]]
+      identifier = "societes"
+      name = "Sociétés françaises"
+      url = "/organisation/societes/"
+      parent = "organisation"
+      weight = 4
+
+    [[languages.fr.menus.main]]
+      identifier = "secretariat"
+      name = "Secrétariat"
+      url = "/organisation/secretariat/"
+      parent = "organisation"
+      weight = 5
+
+    # Submenus - Histoire
+    [[languages.fr.menus.main]]
+      identifier = "chronologie"
+      name = "Chronologie"
+      url = "/histoire/chronologie/"
+      parent = "histoire"
+      weight = 1
+
+    [[languages.fr.menus.main]]
+      identifier = "operations"
+      name = "Opérations militaires"
+      url = "/histoire/operations/"
+      parent = "histoire"
+      weight = 2
+
+    [[languages.fr.menus.main]]
+      identifier = "chefs"
+      name = "Chefs militaires"
+      url = "/histoire/chefs-militaires/"
+      parent = "histoire"
+      weight = 3
+
+    [[languages.fr.menus.main]]
+      identifier = "hauts-lieux"
+      name = "Hauts lieux en France"
+      url = "/histoire/hauts-lieux/"
+      parent = "histoire"
+      weight = 4
+
+    # Submenus - Activités
+    [[languages.fr.menus.main]]
+      identifier = "agenda"
+      name = "Agenda"
+      url = "/activites/agenda-2026/"
+      parent = "activites"
+      weight = 1
+
+    [[languages.fr.menus.main]]
+      identifier = "evenements"
+      name = "Événements"
+      url = "/activites/evenements/"
+      parent = "activites"
+      weight = 2
+
+    [[languages.fr.menus.main]]
+      identifier = "dictionnaire"
+      name = "Dictionnaire biographique"
+      url = "/activites/dictionnaire/"
+      parent = "activites"
+      weight = 3
+
+    [[languages.fr.menus.main]]
+      identifier = "bulletins"
+      name = "Publications"
+      url = "/activites/bulletins/"
+      parent = "activites"
+      weight = 4
+
+    [[languages.fr.menus.main]]
+      identifier = "prix-trentinian"
+      name = "Prix « Jacques de Trentinian »"
+      url = "/activites/prix-trentinian/"
+      parent = "activites"
+      weight = 5
+
+    # Submenus - Contact
+    [[languages.fr.menus.main]]
+      identifier = "formulaire"
+      name = "Nous contacter"
+      url = "/contact"
+      parent = "contact"
+      weight = 1
+
+    [[languages.fr.menus.main]]
+      identifier = "nous-rejoindre"
+      name = "Nous rejoindre"
+      url = "/contact/nous-rejoindre/"
+      parent = "contact"
+      weight = 2
+
+    [[languages.fr.menus.main]]
+      identifier = "cotisation"
+      name = "Paiement en ligne"
+      url = "/contact/cotisation/"
+      parent = "contact"
+      weight = 3
+
+    [[languages.fr.menus.main]]
+      identifier = "donateur"
+      name = "Faites un don"
+      url = "/contact/donateur/"
+      parent = "contact"
+      weight = 4
+
+    [[languages.fr.menus.main]]
+      identifier = "mentions-legales"
+      name = "Mentions légales"
+      url = "/contact/mentions-legales/"
+      parent = "contact"
+      weight = 5
+
+  [languages.en]
+    languageCode = 'en-US'
+    languageName = 'English'
+    title = 'SAR France - The Sons of the American Revolution'
+    weight = 2
+    contentDir = 'content/en'
+
+    [languages.en.params]
+      description = "SAR France - The Society in France of the Sons of the American Revolution"
+      author = "SAR France"
+      heroTitle = "SAR France"
+      heroSubtitle = "The Sons of the American Revolution – Les Fils de la Révolution Américaine (SAR)"
+      heroDesc = "The Society in France of the Sons of the American Revolution (SAR France) brings together direct descendants of those who contributed to the independence of the American colonies. SAR France has a threefold mission: transatlantic, historical, and cultural."
+      footerText = "© 2026 SAR France – Association recognized as being of public benefit (decree of December 31, 2013, Official Journal of January 3, 2014)"
+
+    [[languages.en.menus.main]]
+      identifier = "accueil"
+      name = "Home"
+      url = "/en/"
+      weight = 1
+
+    [[languages.en.menus.main]]
+      identifier = "organisation"
+      name = "Organization"
+      url = "/en/organisation/"
+      weight = 2
+
+    [[languages.en.menus.main]]
+      identifier = "histoire"
+      name = "History"
+      url = "/en/histoire/"
+      weight = 3
+
+    [[languages.en.menus.main]]
+      identifier = "activites"
+      name = "Activities"
+      url = "/en/activites/"
+      weight = 4
+
+    [[languages.en.menus.main]]
+      identifier = "contact"
+      name = "Contact"
+      url = "/en/contact/"
+      weight = 5
+
+    # Submenus - Organization
+    [[languages.en.menus.main]]
+      identifier = "nssar"
+      name = "NSSAR"
+      url = "/en/organisation/nssar/"
+      parent = "organisation"
+      weight = 1
+
+    [[languages.en.menus.main]]
+      identifier = "objet"
+      name = "Mission of SAR France"
+      url = "/en/organisation/objet/"
+      parent = "organisation"
+      weight = 2
+
+    [[languages.en.menus.main]]
+      identifier = "statuts"
+      name = "Bylaws & Rules (excerpt)"
+      url = "/en/organisation/statuts/"
+      parent = "organisation"
+      weight = 3
+
+    [[languages.en.menus.main]]
+      identifier = "societes"
+      name = "French Societies"
+      url = "/en/organisation/societes/"
+      parent = "organisation"
+      weight = 4
+
+    [[languages.en.menus.main]]
+      identifier = "secretariat"
+      name = "Secretariat"
+      url = "/en/organisation/secretariat/"
+      parent = "organisation"
+      weight = 5
+
+    # Submenus - History
+    [[languages.en.menus.main]]
+      identifier = "chronologie"
+      name = "Timeline"
+      url = "/en/histoire/chronologie/"
+      parent = "histoire"
+      weight = 1
+
+    [[languages.en.menus.main]]
+      identifier = "operations"
+      name = "Military Operations"
+      url = "/en/histoire/operations/"
+      parent = "histoire"
+      weight = 2
+
+    [[languages.en.menus.main]]
+      identifier = "chefs"
+      name = "Military Leaders"
+      url = "/en/histoire/chefs-militaires/"
+      parent = "histoire"
+      weight = 3
+
+    [[languages.en.menus.main]]
+      identifier = "hauts-lieux"
+      name = "Historic Sites in France"
+      url = "/en/histoire/hauts-lieux/"
+      parent = "histoire"
+      weight = 4
+
+    # Submenus - Activities
+    [[languages.en.menus.main]]
+      identifier = "agenda"
+      name = "Calendar"
+      url = "/en/activites/agenda-2026/"
+      parent = "activites"
+      weight = 1
+
+    [[languages.en.menus.main]]
+      identifier = "evenements"
+      name = "Events"
+      url = "/en/activites/evenements/"
+      parent = "activites"
+      weight = 2
+
+    [[languages.en.menus.main]]
+      identifier = "dictionnaire"
+      name = "Biographical Dictionary"
+      url = "/en/activites/dictionnaire/"
+      parent = "activites"
+      weight = 3
+
+    [[languages.en.menus.main]]
+      identifier = "bulletins"
+      name = "Publications"
+      url = "/en/activites/bulletins/"
+      parent = "activites"
+      weight = 4
+
+    [[languages.en.menus.main]]
+      identifier = "prix-trentinian"
+      name = "\"Jacques de Trentinian\" Award"
+      url = "/en/activites/prix-trentinian/"
+      parent = "activites"
+      weight = 5
+
+    # Submenus - Contact
+    [[languages.en.menus.main]]
+      identifier = "formulaire"
+      name = "Contact Us"
+      url = "/en/contact"
+      parent = "contact"
+      weight = 1
+
+    [[languages.en.menus.main]]
+      identifier = "nous-rejoindre"
+      name = "Join Us"
+      url = "/en/contact/nous-rejoindre/"
+      parent = "contact"
+      weight = 2
+
+    [[languages.en.menus.main]]
+      identifier = "cotisation"
+      name = "Online Payment"
+      url = "/en/contact/cotisation/"
+      parent = "contact"
+      weight = 3
+
+    [[languages.en.menus.main]]
+      identifier = "donateur"
+      name = "Make a Donation"
+      url = "/en/contact/donateur/"
+      parent = "contact"
+      weight = 4
+
+    [[languages.en.menus.main]]
+      identifier = "mentions-legales"
+      name = "Legal Notice"
+      url = "/en/contact/mentions-legales/"
+      parent = "contact"
+      weight = 5
 
 [params]
-  description = "SAR France - Société en France des Fils de la Révolution Américaine"
-  author = "SAR France"
-  heroTitle = "SAR France"
-  heroSubtitle = "Les Fils de la Révolution Américaine – The Sons of the American Revolution (SAR)"
-  footerText = "© 2026 SAR France – Association reconnue d'utilité publique (décret du 31 décembre 2013, JO du 3 janvier 2014)"
-
   [params.address]
     street = "20 rue Bosquet"
     zipCode = "75007"
@@ -23,175 +383,6 @@ theme = 'sarfrance-theme'
     premiere_inscription = 130
     reduction_pct = 50
     avantage_fiscal_pct = 66
-
-[menus]
-  # Main Menu - 5 items
-  [[menus.main]]
-    identifier = "accueil"
-    name = "Accueil"
-    url = "/"
-    weight = 1
-
-  [[menus.main]]
-    identifier = "organisation"
-    name = "Organisation"
-    url = "/organisation/"
-    weight = 2
-
-  [[menus.main]]
-    identifier = "histoire"
-    name = "Histoire"
-    url = "/histoire/"
-    weight = 3
-
-  [[menus.main]]
-    identifier = "activites"
-    name = "Activités"
-    url = "/activites/"
-    weight = 4
-
-  [[menus.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 5
-
-  # Submenus - Organisation (4 items)
-  [[menus.main]]
-    identifier = "nssar"
-    name = "NSSAR"
-    url = "/organisation/nssar/"
-    parent = "organisation"
-    weight = 1
-
-  [[menus.main]]
-    identifier = "objet"
-    name = "Objet de SAR France"
-    url = "/organisation/objet/"
-    parent = "organisation"
-    weight = 2
-
-  [[menus.main]]
-    identifier = "statuts"
-    name = "Statuts & Règlement (extrait)"
-    url = "/organisation/statuts/"
-    parent = "organisation"
-    weight = 3
-
-  [[menus.main]]
-    identifier = "societes"
-    name = "Sociétés françaises"
-    url = "/organisation/societes/"
-    parent = "organisation"
-    weight = 4
-
-  [[menus.main]]
-    identifier = "secretariat"
-    name = "Secrétariat"
-    url = "/organisation/secretariat/"
-    parent = "organisation"
-    weight = 5
-
-  # Submenus - Histoire (4 items)
-  [[menus.main]]
-    identifier = "chronologie"
-    name = "Chronologie"
-    url = "/histoire/chronologie/"
-    parent = "histoire"
-    weight = 1
-
-  [[menus.main]]
-    identifier = "operations"
-    name = "Opérations militaires"
-    url = "/histoire/operations/"
-    parent = "histoire"
-    weight = 2
-
-  [[menus.main]]
-    identifier = "chefs"
-    name = "Chefs militaires"
-    url = "/histoire/chefs-militaires/"
-    parent = "histoire"
-    weight = 3
-
-  [[menus.main]]
-    identifier = "hauts-lieux"
-    name = "Hauts lieux en France"
-    url = "/histoire/hauts-lieux/"
-    parent = "histoire"
-    weight = 4
-
-  # Submenus - Activités (4 items)
-  [[menus.main]]
-    identifier = "agenda"
-    name = "Agenda"
-    url = "/activites/agenda-2026/"
-    parent = "activites"
-    weight = 1
-
-  [[menus.main]]
-    identifier = "evenements"
-    name = "Événements"
-    url = "/activites/evenements/"
-    parent = "activites"
-    weight = 2
-
-  [[menus.main]]
-    identifier = "dictionnaire"
-    name = "Dictionnaire biographique"
-    url = "/activites/dictionnaire/"
-    parent = "activites"
-    weight = 3
-
-  [[menus.main]]
-    identifier = "bulletins"
-    name = "Publications"
-    url = "/activites/bulletins/"
-    parent = "activites"
-    weight = 4
-
-  [[menus.main]]
-    identifier = "prix-trentinian"
-    name = "Prix « Jacques de Trentinian »"
-    url = "/activites/prix-trentinian/"
-    parent = "activites"
-    weight = 5
-
-  # Submenus - Contact
-    # Submenus - Contact
-  [[menus.main]]
-    identifier = "formulaire"
-    name = "Nous contacter"
-    url = "/contact"
-    parent = "contact"
-    weight = 1
-  [[menus.main]]
-    identifier = "nous-rejoindre"
-    name = "Nous rejoindre"
-    url = "/contact/nous-rejoindre/"
-    parent = "contact"
-    weight = 2
-
-  [[menus.main]]
-    identifier = "cotisation"
-    name = "Paiement en ligne"
-    url = "/contact/cotisation/"
-    parent = "contact"
-    weight = 3
-
-  [[menus.main]]
-    identifier = "donateur"
-    name = "Faites un don"
-    url = "/contact/donateur/"
-    parent = "contact"
-    weight = 4
-
-  [[menus.main]]
-    identifier = "mentions-legales"
-    name = "Mentions légales"
-    url = "/contact/mentions-legales/"
-    parent = "contact"
-    weight = 5
 
 [outputFormats]
   [outputFormats.ics]

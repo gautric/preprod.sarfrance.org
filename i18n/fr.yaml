@@ -1,0 +1,58 @@
+- id: upcoming_events
+  translation: "Prochains événements"
+- id: view_full_calendar
+  translation: "Voir l'agenda complet"
+- id: transatlantic
+  translation: "Transatlantique"
+- id: transatlantic_desc
+  translation: "Cultiver l'amitié franco-américaine, faciliter les échanges culturels et professionnels avec les États-Unis."
+- id: historical
+  translation: "Historique"
+- id: historical_desc
+  translation: "Étudier cette guerre mondiale du XVIIIe siècle et le rôle déterminant de la France dans l'indépendance américaine."
+- id: cultural
+  translation: "Culturelle"
+- id: cultural_desc
+  translation: "Participer à des conférences, voyages en Amérique, réunions locales et manifestations commémoratives à Paris et en régions."
+- id: join_sar
+  translation: "Rejoignez SAR France"
+- id: join_sar_desc
+  translation: "Vous descendez d'un combattant de la Guerre d'Amérique (1778-1783) ? Rassemblez les preuves de votre ascendance et contactez notre association."
+- id: admission_conditions
+  translation: "Conditions d'admission"
+- id: footer_description
+  translation: "Société en France des Fils de la Révolution Américaine. Association reconnue d'utilité publique (décret du 31 décembre 2013)."
+- id: quick_links
+  translation: "Liens Rapides"
+- id: secretariat
+  translation: "Secrétariat"
+- id: office_hours
+  translation: "Permanences : mardi et jeudi, 09h30 – 18h00"
+- id: affiliations
+  translation: "Affiliations"
+- id: prev_image
+  translation: "Image précédente"
+- id: next_image
+  translation: "Image suivante"
+- id: go_to_image
+  translation: "Aller à l'image"
+- id: agenda_title
+  translation: "Agenda"
+- id: agenda_desc
+  translation: "Événements et manifestations de la Société"
+- id: download_calendar
+  translation: "Télécharger le calendrier"
+- id: ics_hint
+  translation: "Compatible Google Agenda, Apple Calendar, Outlook"
+- id: filter_all
+  translation: "Tout"
+- id: year_nav
+  translation: "Navigation par année"
+- id: filter_by_type
+  translation: "Filtrer par type"
+- id: chronologie_desc
+  translation: "Présentation synoptique de l'histoire américaine et européenne"
+- id: filter_by_category
+  translation: "Filtrer par catégorie"
+- id: language_switch
+  translation: "English"

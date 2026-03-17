@@ -7,7 +7,7 @@
         <div class="hero-text">
             <h1>{{ .Site.Params.heroTitle }}</h1>
             <p class="hero-subtitle">{{ .Site.Params.heroSubtitle }}</p>
-            <p class="hero-desc">La Société en France des Fils de la Révolution Américaine (SAR France) réunit des descendants directs de personnes ayant contribué à donner l'indépendance aux colonies anglaises d'Amérique. SAR France a une triple vocation : transatlantique, historique et culturelle.</p>
+            <p class="hero-desc">{{ .Site.Params.heroDesc }}</p>
         </div>
     </div>
     {{ $slides := .Site.Data.carousel }}
@@ -24,17 +24,16 @@
             </div>
             {{ end }}
         </div>
-        <button class="carousel-btn carousel-prev" aria-label="Image précédente">&#10094;</button>
-        <button class="carousel-btn carousel-next" aria-label="Image suivante">&#10095;</button>
+        <button class="carousel-btn carousel-prev" aria-label="{{ i18n "prev_image" }}">&#10094;</button>
+        <button class="carousel-btn carousel-next" aria-label="{{ i18n "next_image" }}">&#10095;</button>
         <div class="carousel-dots">
             {{ range $i, $s := $slides }}
-            <button class="carousel-dot{{ if eq $i 0 }} active{{ end }}" aria-label="Aller à l'image {{ add $i 1 }}" data-index="{{ $i }}"></button>
+            <button class="carousel-dot{{ if eq $i 0 }} active{{ end }}" aria-label="{{ i18n "go_to_image" }} {{ add $i 1 }}" data-index="{{ $i }}"></button>
             {{ end }}
         </div>
     </div>
     {{ end }}
 </section>
-
 
 {{ $today := now.Format "2006-01-02" }}
 {{ $upcoming := slice }}
@@ -46,15 +45,20 @@
 {{ end }}
 {{ $upcoming = sort $upcoming "date" }}
 {{ $months := dict "01" "Jan" "02" "Fév" "03" "Mar" "04" "Avr" "05" "Mai" "06" "Juin" "07" "Juil" "08" "Août" "09" "Sep" "10" "Oct" "11" "Nov" "12" "Déc" }}
+{{ $monthsEn := dict "01" "Jan" "02" "Feb" "03" "Mar" "04" "Apr" "05" "May" "06" "Jun" "07" "Jul" "08" "Aug" "09" "Sep" "10" "Oct" "11" "Nov" "12" "Dec" }}
+{{ $lang := .Lang }}
+{{ $monthMap := cond (eq $lang "en") $monthsEn $months }}
+{{ $prefix := "" }}
+{{ if eq $lang "en" }}{{ $prefix = "/en" }}{{ end }}
 {{ if gt (len $upcoming) 0 }}
 <section class="events">
     <div class="container">
-        <h2>Prochains événements</h2>
+        <h2>{{ i18n "upcoming_events" }}</h2>
         <div class="events-grid">
             {{ range first 3 $upcoming }}
             {{ $parts := split .date "-" }}
             {{ $day := index $parts 2 }}
-            {{ $month := index $months (index $parts 1) }}
+            {{ $month := index $monthMap (index $parts 1) }}
             <article class="event-card">
                 <div class="event-date">
                     <span class="day">{{ $day }}</span>
@@ -66,7 +70,7 @@
             </article>
             {{ end }}
         </div>
-        <a href="/activites/agenda-2026/" class="btn btn-secondary">Voir l'agenda complet</a>
+        <a href="{{ $prefix }}/activites/agenda-2026/" class="btn btn-secondary">{{ i18n "view_full_calendar" }}</a>
     </div>
 </section>
 {{ end }}
@@ -76,18 +80,18 @@
         <div class="features-grid">
             <div class="feature-card">
                 <div class="feature-icon">🌍</div>
-                <h3>Transatlantique</h3>
-                <p>Cultiver l'amitié franco-américaine, faciliter les échanges culturels et professionnels avec les États-Unis.</p>
+                <h3>{{ i18n "transatlantic" }}</h3>
+                <p>{{ i18n "transatlantic_desc" }}</p>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">📜</div>
-                <h3>Historique</h3>
-                <p>Étudier cette guerre mondiale du XVIIIe siècle et le rôle déterminant de la France dans l'indépendance américaine.</p>
+                <h3>{{ i18n "historical" }}</h3>
+                <p>{{ i18n "historical_desc" }}</p>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">🏛️</div>
-                <h3>Culturelle</h3>
-                <p>Participer à des conférences, voyages en Amérique, réunions locales et manifestations commémoratives à Paris et en régions.</p>
+                <h3>{{ i18n "cultural" }}</h3>
+                <p>{{ i18n "cultural_desc" }}</p>
             </div>
         </div>
     </div>
@@ -95,9 +99,9 @@
 
 <section class="cta">
     <div class="container">
-        <h2>Rejoignez SAR France</h2>
-        <p>Vous descendez d'un combattant de la Guerre d'Amérique (1778-1783) ? Rassemblez les preuves de votre ascendance et contactez notre association.</p>
-        <a href="/contact/nous-rejoindre/#qui-peut-adhérer-" class="btn btn-primary">Conditions d'admission</a>
+        <h2>{{ i18n "join_sar" }}</h2>
+        <p>{{ i18n "join_sar_desc" }}</p>
+        <a href="{{ $prefix }}/contact/nous-rejoindre/#qui-peut-adhérer-" class="btn btn-primary">{{ i18n "admission_conditions" }}</a>
     </div>
 </section>
 {{ end }}

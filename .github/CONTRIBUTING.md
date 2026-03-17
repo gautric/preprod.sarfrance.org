@@ -93,6 +93,7 @@ Dossier : `content/activites/`
 | Dictionnaire biographique | `dictionnaire.md` |
 | Publications (revue annuelle) | `bulletins.md` |
 | Autres publications | `publications.md` |
+| Prix Jacques de Trentinian | `prix-trentinian.md` |
 
 ### Rubrique « Contact »
 
@@ -105,6 +106,54 @@ Dossier : `content/contact/`
 | Paiement en ligne | `cotisation.md` |
 | Faites un don | `donateur.md` |
 | Mentions légales | `mentions-legales.md` |
+
+### Pages en anglais — « Organisation »
+
+Dossier : `content/en/organisation/`
+
+| Page sur le site | Fichier à modifier |
+|---|---|
+| NSSAR | `nssar.md` |
+| Purpose of SAR France | `objet.md` |
+| Bylaws & Rules | `statuts.md` |
+| French Societies | `societes.md` |
+| Secretariat | `secretariat.md` |
+
+### Pages en anglais — « Histoire »
+
+Dossier : `content/en/histoire/`
+
+| Page sur le site | Fichier à modifier |
+|---|---|
+| Chronology | `chronologie.md` |
+| Military Operations | `operations.md` |
+| Military Leaders | `chefs-militaires.md` |
+| Historic Sites in France | `hauts-lieux.md` |
+
+### Pages en anglais — « Activités »
+
+Dossier : `content/en/activites/`
+
+| Page sur le site | Fichier à modifier |
+|---|---|
+| Agenda 2026 | `agenda-2026.md` |
+| Events | `evenements.md` |
+| Biographical Dictionary | `dictionnaire.md` |
+| Publications (bulletin) | `bulletins.md` |
+| Other Publications | `publications.md` |
+| "Jacques de Trentinian" Award | `prix-trentinian.md` |
+
+### Pages en anglais — « Contact »
+
+Dossier : `content/en/contact/`
+
+| Page sur le site | Fichier à modifier |
+|---|---|
+| Contact Us (form) | `_index.md` |
+| Join Us | `nous-rejoindre.md` |
+| Online Payment | `cotisation.md` |
+| Make a Donation | `donateur.md` |
+| Legal Notice | `mentions-legales.md` |
 
 ### Diaporama de la page d'accueil
 

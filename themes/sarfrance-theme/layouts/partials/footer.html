@@ -3,28 +3,32 @@
         <div class="footer-grid">
             <div class="footer-col">
                 <h3>SAR France</h3>
-                <p>Société en France des Fils de la Révolution Américaine. Association reconnue d'utilité publique (décret du 31 décembre 2013).</p>
+                <p>{{ i18n "footer_description" }}</p>
             </div>
             <div class="footer-col">
-                <h3>Liens Rapides</h3>
+                <h3>{{ i18n "quick_links" }}</h3>
                 <ul>
-                    <li><a href="/organisation/">Organisation</a></li>
-                    <li><a href="/histoire/">Histoire</a></li>
-                    <li><a href="/activites/">Activités</a></li>
-                    <li><a href="/contact/nous-rejoindre/">Nous rejoindre</a></li>
+                    {{ $prefix := "" }}
+                    {{ if eq .Lang "en" }}{{ $prefix = "/en" }}{{ end }}
+                    <li><a href="{{ $prefix }}/organisation/">{{ if eq .Lang "en" }}Organization{{ else }}Organisation{{ end }}</a></li>
+                    <li><a href="{{ $prefix }}/histoire/">{{ if eq .Lang "en" }}History{{ else }}Histoire{{ end }}</a></li>
+                    <li><a href="{{ $prefix }}/activites/">{{ if eq .Lang "en" }}Activities{{ else }}Activités{{ end }}</a></li>
+                    <li><a href="{{ $prefix }}/contact/nous-rejoindre/">{{ if eq .Lang "en" }}Join Us{{ else }}Nous rejoindre{{ end }}</a></li>
                 </ul>
             </div>
             <div class="footer-col">
-                <h3>Secrétariat</h3>
+                <h3>{{ i18n "secretariat" }}</h3>
                 <p>{{ .Site.Params.address.street }}, {{ .Site.Params.address.zipCode }} {{ .Site.Params.address.city }}</p>
-                <p>Permanences : mardi et jeudi, 09h30 – 18h00</p>
+                <p>{{ i18n "office_hours" }}</p>
             </div>
             <div class="footer-col">
-                <h3>Affiliations</h3>
+                <h3>{{ i18n "affiliations" }}</h3>
                 <ul>
+                    {{ $prefix := "" }}
+                    {{ if eq .Lang "en" }}{{ $prefix = "/en" }}{{ end }}
                     <li><a href="https://www.sar.org" target="_blank" rel="noopener">NSSAR</a></li>
-                    <li><a href="/organisation/societes/">DAR, Chapitre Rochambeau</a></li>
-                    <li><a href="/organisation/societes/">CAR Royal Auvergne</a></li>
+                    <li><a href="{{ $prefix }}/organisation/societes/">DAR, {{ if eq .Lang "en" }}Rochambeau Chapter{{ else }}Chapitre Rochambeau{{ end }}</a></li>
+                    <li><a href="{{ $prefix }}/organisation/societes/">CAR Royal Auvergne</a></li>
                 </ul>
             </div>
         </div>

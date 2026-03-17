@@ -1,0 +1,58 @@
+- id: upcoming_events
+  translation: "Upcoming Events"
+- id: view_full_calendar
+  translation: "View full calendar"
+- id: transatlantic
+  translation: "Transatlantic"
+- id: transatlantic_desc
+  translation: "Fostering Franco-American friendship, facilitating cultural and professional exchanges with the United States."
+- id: historical
+  translation: "Historical"
+- id: historical_desc
+  translation: "Studying this 18th-century world war and France's decisive role in American independence."
+- id: cultural
+  translation: "Cultural"
+- id: cultural_desc
+  translation: "Attending conferences, trips to America, local meetings, and commemorative events in Paris and across France."
+- id: join_sar
+  translation: "Join SAR France"
+- id: join_sar_desc
+  translation: "Are you a descendant of a combatant of the American War of Independence (1778–1783)? Gather proof of your lineage and contact our association."
+- id: admission_conditions
+  translation: "Admission requirements"
+- id: footer_description
+  translation: "The Society in France of the Sons of the American Revolution. Association recognized as being of public benefit (decree of December 31, 2013)."
+- id: quick_links
+  translation: "Quick Links"
+- id: secretariat
+  translation: "Secretariat"
+- id: office_hours
+  translation: "Office hours: Tuesday and Thursday, 9:30 AM – 6:00 PM"
+- id: affiliations
+  translation: "Affiliations"
+- id: prev_image
+  translation: "Previous image"
+- id: next_image
+  translation: "Next image"
+- id: go_to_image
+  translation: "Go to image"
+- id: agenda_title
+  translation: "Calendar"
+- id: agenda_desc
+  translation: "Events and activities of the Society"
+- id: download_calendar
+  translation: "Download calendar"
+- id: ics_hint
+  translation: "Compatible with Google Calendar, Apple Calendar, Outlook"
+- id: filter_all
+  translation: "All"
+- id: year_nav
+  translation: "Browse by year"
+- id: filter_by_type
+  translation: "Filter by type"
+- id: chronologie_desc
+  translation: "A synoptic overview of American and European history"
+- id: filter_by_category
+  translation: "Filter by category"
+- id: language_switch
+  translation: "Français"
