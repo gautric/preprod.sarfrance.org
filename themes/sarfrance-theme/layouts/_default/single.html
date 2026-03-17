@@ -4,6 +4,7 @@
         <div class="container">
             <h1>{{ .Title }}</h1>
             {{ if .Description }}<p class="page-description">{{ .Description }}</p>{{ end }}
+            {{ if .File }}{{- partial "page-contribute.html" . -}}{{ end }}
         </div>
     </div>
     <div class="container">

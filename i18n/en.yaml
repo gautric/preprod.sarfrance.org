@@ -56,3 +56,18 @@
   translation: "Filter by category"
 - id: language_switch
   translation: "Français"
+
+- id: contribute_label
+  translation: "Contribute to this page"
+- id: contribute_heading
+  translation: "Found an error or have a suggestion?"
+- id: contribute_error
+  translation: "Report an error"
+- id: contribute_error_prefix
+  translation: "Error on page: "
+- id: contribute_comment
+  translation: "Add a comment"
+- id: contribute_comment_prefix
+  translation: "Comment on page: "
+- id: contribute_edit
+  translation: "Suggest an update"

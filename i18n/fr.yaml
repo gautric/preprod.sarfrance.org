@@ -56,3 +56,18 @@
   translation: "Filtrer par catégorie"
 - id: language_switch
   translation: "English"
+
+- id: contribute_label
+  translation: "Contribuer à cette page"
+- id: contribute_heading
+  translation: "Une erreur, une remarque sur cette page ?"
+- id: contribute_error
+  translation: "Signaler une erreur"
+- id: contribute_error_prefix
+  translation: "Erreur sur la page : "
+- id: contribute_comment
+  translation: "Ajouter un commentaire"
+- id: contribute_comment_prefix
+  translation: "Commentaire sur la page : "
+- id: contribute_edit
+  translation: "Proposer une mise à jour"
