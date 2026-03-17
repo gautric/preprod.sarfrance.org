@@ -9,7 +9,7 @@ Contactez-nous en mentionnant vos nom et prénom, votre email et l'objet de votr
 
 ### Secrétariat
 
-**Adresse** : 20 rue Bosquet, Paris  
+**Adresse** : {{< address >}}  
 **Permanences** : le mardi et le jeudi de 09h30 à 18h00  
 **Email** : secretariat@sarfrance.org
 

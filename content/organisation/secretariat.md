@@ -5,7 +5,7 @@ description: "Le secrétariat de SAR France"
 
 **Permanences** : le mardi et le jeudi de 09h30 à 18h00.
 
-Le secrétariat de la Société, situé dans nos locaux du 20 rue Bosquet, est le lien entre le Conseil d'administration, son Bureau et tous nos membres.
+Le secrétariat de la Société, situé dans nos locaux du {{< address "street" >}}, est le lien entre le Conseil d'administration, son Bureau et tous nos membres.
 
 ## Missions
 

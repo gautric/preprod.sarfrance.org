@@ -7,7 +7,7 @@ description: "Mentions légales du site sarfrance.org"
 
 La Société en France des Fils de la Révolution Américaine (SAR France) est une association reconnue d'utilité publique (décret du 31 décembre 2013, publié au JO du 3 janvier 2014).
 
-**Adresse postale** : 20 rue Bosquet, 75007 Paris, France
+**Adresse postale** : {{< address >}}
 
 ## Directeur de la publication
 
