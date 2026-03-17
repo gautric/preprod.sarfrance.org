@@ -5,15 +5,18 @@
 .btn-ics svg { flex-shrink: 0; }
 .ics-hint { font-size: 0.8rem; color: var(--text-muted); font-style: italic; }
 
-.agenda-years { display: flex; flex-wrap: wrap; gap: 8px; padding: 30px 0 15px; justify-content: center; }
-.year-link { padding: 8px 20px; border: 1px solid var(--gray-border-medium); border-radius: 4px; color: var(--navy-blue); font-weight: 600; font-size: 0.95rem; transition: all 0.2s ease; }
-.year-link:hover { border-color: var(--primary); color: var(--primary); }
-.year-link.active { background: var(--primary); color: var(--white); border-color: var(--primary); }
+/* Shared pill style for year links and type filters */
+.agenda-years,
+.agenda-filters { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.agenda-years { padding: 30px 0 15px; }
+.agenda-filters { padding: 10px 0 25px; }
 
-.agenda-filters { display: flex; flex-wrap: wrap; gap: 6px; padding: 10px 0 25px; justify-content: center; }
-.type-filter { padding: 5px 14px; border: 1px solid var(--gray-border-light); border-radius: 16px; background: var(--white); color: var(--navy-blue); font-size: 0.82rem; cursor: pointer; transition: all 0.2s ease; }
-.type-filter:hover { border-color: var(--gray-border-hover); }
-.type-filter.active { background: var(--navy-blue); color: var(--white); border-color: var(--navy-blue); }
+.year-link,
+.type-filter { padding: 8px 20px; border: 1px solid var(--gray-border-medium); border-radius: 4px; color: var(--navy-blue); font-family: var(--font-body); font-weight: 600; font-size: 0.95rem; background: var(--white); cursor: pointer; transition: all 0.2s ease; }
+.year-link:hover,
+.type-filter:hover { border-color: var(--primary); color: var(--primary); }
+.year-link.active,
+.type-filter.active { background: var(--primary); color: var(--white); border-color: var(--primary); }
 
 .agenda-timeline { position: relative; padding: 10px 0 40px 50px; }
 .agenda-timeline::before { content: ''; position: absolute; left: 20px; top: 0; bottom: 0; width: 2px; background: var(--gray-border-light); }
@@ -45,5 +48,6 @@
     .agenda-dot { left: -29px; width: 8px; height: 8px; }
     .agenda-card-header { flex-direction: column; align-items: flex-start; gap: 4px; }
     .agenda-years { gap: 5px; }
-    .year-link { padding: 6px 14px; font-size: 0.85rem; }
+    .year-link,
+    .type-filter { padding: 6px 14px; font-size: 0.85rem; }
 }
