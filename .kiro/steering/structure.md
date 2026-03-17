@@ -9,10 +9,10 @@
 │   ├── histoire/              # History section (chronologie, operations, etc.)
 │   ├── activites/             # Activities section (agenda, events, publications)
 │   └── contact/               # Contact section (forms, dues, donations, legal)
-├── data/                      # JSON data files consumed by templates
-│   ├── agenda.json            # Events with types, dates, titles
-│   ├── carousel.json          # Homepage carousel images
-│   └── chronologie.json       # Historical timeline with periods and events
+├── data/                      # YAML data files consumed by templates
+│   ├── agenda.yaml            # Events with types, dates, titles
+│   ├── carousel.yaml          # Homepage carousel images
+│   └── chronologie.yaml       # Historical timeline with periods and events
 ├── themes/sarfrance-theme/    # Custom Hugo theme (git submodule)
 │   ├── layouts/               # All HTML templates
 │   │   ├── _default/          # baseof.html, list.html, single.html
@@ -44,4 +44,4 @@
 - Custom layouts exist only for `activites/agenda` and `histoire/chronologie`; all other pages use `_default/single.html`
 - The theme is a git submodule — changes to templates/CSS/JS go in `themes/sarfrance-theme/`
 - The root `layouts/` directory is empty and reserved for theme overrides if needed
-- Data files in `data/` use structured JSON with typed entries (event types, tags, periods)
+- Data files in `data/` use structured YAML with typed entries (event types, tags, periods)

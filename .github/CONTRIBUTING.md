@@ -108,9 +108,9 @@ Dossier : `content/contact/`
 
 ### Diaporama de la page d'accueil
 
-Le diaporama n'est pas un fichier texte classique. C'est un fichier de données au format JSON situé à un endroit différent :
+Le diaporama n'est pas un fichier texte classique. C'est un fichier de données au format YAML situé à un endroit différent :
 
-`data/carousel.json`
+`data/carousel.yaml`
 
 Sa modification est expliquée plus bas dans la section « Modifier le diaporama ».
 
@@ -205,18 +205,16 @@ GitHub propose un éditeur en ligne complet, accessible sans rien installer. Il 
 ## Modifier le diaporama de la page d'accueil
 
 1. Allez directement à cette adresse :
-   [https://github.com/gautric/preprod.sarfrance.org/blob/main/data/carousel.json](https://github.com/gautric/preprod.sarfrance.org/blob/main/data/carousel.json)
+   [https://github.com/gautric/preprod.sarfrance.org/blob/main/data/carousel.yaml](https://github.com/gautric/preprod.sarfrance.org/blob/main/data/carousel.yaml)
 2. Cliquez sur le **crayon** ✏️ pour modifier
 
 Le fichier contient la liste des images du diaporama. Chaque image est décrite par un bloc comme celui-ci :
 
-```json
-{
-  "image": "/images/carousel-yorktown.jpg",
-  "alt": "Bataille de Yorktown",
-  "caption": "Bataille de Yorktown",
-  "credit": "Auguste Couder, 1836"
-}
+```yaml
+- image: /images/carousel-yorktown.jpg
+  alt: "Bataille de Yorktown, Auguste Couder (1836)"
+  caption: Bataille de Yorktown
+  credit: "Auguste Couder, 1836 — Galerie des Batailles, Versailles, domaine public"
 ```
 
 | Champ | Signification |
@@ -229,7 +227,6 @@ Le fichier contient la liste des images du diaporama. Chaque image est décrite 
 - Pour **changer l'ordre** : déplacez un bloc entier avant ou après un autre
 - Pour **supprimer une image** : supprimez le bloc correspondant
 - Pour **ajouter une image** : demandez d'abord au webmaster de déposer l'image sur le site, puis ajoutez un nouveau bloc
-- **Attention aux virgules** : chaque bloc est séparé par une virgule, sauf le dernier
 
 Enregistrez comme pour une page (bouton **Commit changes**).
 
@@ -256,7 +253,7 @@ Si vous préférez ne pas modifier le fichier vous-même, vous pouvez créer une
 Quand vous proposez une modification via une Pull Request, deux vérifications se lancent automatiquement :
 
 - ✅ **Build Hugo** : vérifie que le site compile sans erreur
-- ✅ **Validation du contenu** : vérifie que les fichiers sont bien formés (en-têtes, format JSON)
+- ✅ **Validation du contenu** : vérifie que les fichiers sont bien formés (en-têtes, format YAML)
 
 Si un contrôle échoue, vous verrez une croix rouge ❌ sur votre Pull Request. Consultez l'onglet **Checks** pour comprendre le problème, ou contactez le webmaster.
 

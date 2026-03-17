@@ -1,0 +1,19 @@
+- image: /images/carousel-crossing.jpg
+  alt: "Washington Crossing the Delaware, Emanuel Leutze (1851)"
+  caption: Washington Crossing the Delaware
+  credit: "Emanuel Leutze, 1851 — Metropolitan Museum of Art, domaine public"
+
+- image: /images/carousel-yorktown.jpg
+  alt: "Bataille de Yorktown, Auguste Couder (1836)"
+  caption: Bataille de Yorktown
+  credit: "Auguste Couder, 1836 — Galerie des Batailles, Versailles, domaine public"
+
+- image: /images/carousel-declaration.jpg
+  alt: "Déclaration d'Indépendance, John Trumbull (1819)"
+  caption: "Déclaration d'Indépendance"
+  credit: "John Trumbull, 1819 — Capitole des États-Unis, domaine public"
+
+- image: /images/carousel-cornwallis.jpg
+  alt: "Reddition de Lord Cornwallis, John Trumbull (1820)"
+  caption: Reddition de Lord Cornwallis
+  credit: "John Trumbull, 1820 — Capitole des États-Unis, domaine public"

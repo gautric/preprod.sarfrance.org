@@ -12,7 +12,7 @@
 - No frontend framework, no npm dependencies in production
 
 ## Data
-- JSON files in `data/` drive dynamic content (agenda, carousel, chronologie)
+- YAML files in `data/` drive dynamic content (agenda, carousel, chronologie)
 - Content pages use Markdown with YAML front matter
 
 ## Hosting & Deployment
@@ -23,7 +23,7 @@
 ## CI/CD
 - On push to `main`: build + deploy to GitHub Pages
 - Daily rebuild at 06:00 UTC (cron) to keep upcoming events current
-- On PR: preview build + content validation (front matter check, JSON validation)
+- On PR: preview build + content validation (front matter check, YAML validation)
 
 ## Common Commands
 
@@ -44,4 +44,4 @@ hugo --gc --cleanDestinationDir
 ## Content Validation Rules (enforced in CI)
 - Every `.md` file in `content/` must start with `---` (YAML front matter)
 - Every front matter block must contain a `title:` field
-- All `.json` files in `data/` must be valid JSON
+- All `.yaml` files in `data/` must be valid YAML

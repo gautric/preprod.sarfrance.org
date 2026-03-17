@@ -1,13 +1,13 @@
 {
   "enabled": true,
   "name": "Sync CONTRIBUTING.md with content structure",
-  "description": "When content files (.md in content/), data files (.json in data/), or hugo.toml change, asks the agent to update the \"Où se trouvent les pages du site\" section in .github/CONTRIBUTING.md so the documentation stays in sync with the actual site structure.",
+  "description": "When content files (.md in content/), data files (.yaml in data/), or hugo.toml change, asks the agent to update the \"Où se trouvent les pages du site\" section in .github/CONTRIBUTING.md so the documentation stays in sync with the actual site structure.",
   "version": "1",
   "when": {
     "type": "fileEdited",
     "patterns": [
       "content/**/*.md",
-      "data/*.json",
+      "data/*.yaml",
       "hugo.toml"
     ]
   },

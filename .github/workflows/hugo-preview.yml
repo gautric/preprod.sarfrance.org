@@ -106,17 +106,17 @@ jobs:
             exit 1
           fi
 
-      - name: Vérifier le format JSON des fichiers data
+      - name: Vérifier le format YAML des fichiers data
         run: |
           ERRORS=0
-          for f in $(find data -name '*.json' 2>/dev/null); do
-            if ! python3 -m json.tool "$f" > /dev/null 2>&1; then
-              echo "❌ $f : JSON invalide" >> $GITHUB_STEP_SUMMARY
+          for f in $(find data -name '*.yaml' -o -name '*.yml' 2>/dev/null); do
+            if ! python3 -c "import yaml, sys; yaml.safe_load(open(sys.argv[1]))" "$f" 2>/dev/null; then
+              echo "❌ $f : YAML invalide" >> $GITHUB_STEP_SUMMARY
               ERRORS=$((ERRORS + 1))
             fi
           done
           if [ $ERRORS -eq 0 ]; then
-            echo "✅ Tous les fichiers JSON sont valides." >> $GITHUB_STEP_SUMMARY
+            echo "✅ Tous les fichiers YAML sont valides." >> $GITHUB_STEP_SUMMARY
           fi
           if [ $ERRORS -gt 0 ]; then
             exit 1
