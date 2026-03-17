@@ -233,6 +233,14 @@ a:hover {
     padding-left: 25px;
 }
 
+/* Active submenu item (current page) */
+.submenu li.active a {
+    background-color: var(--primary-tint-15);
+    color: var(--primary);
+    font-weight: 700;
+    padding-left: 25px;
+}
+
 /* Mobile Menu Toggle */
 .menu-toggle {
     display: none;
@@ -1027,6 +1035,12 @@ a:hover {
     .submenu li a:hover {
         background-color: var(--overlay-light);
         color: var(--gold);
+    }
+
+    .submenu li.active a {
+        background-color: var(--overlay-light);
+        color: var(--gold);
+        padding-left: 45px;
     }
 
     .hero-content {

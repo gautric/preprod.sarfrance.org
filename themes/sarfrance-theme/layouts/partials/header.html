@@ -8,13 +8,15 @@
                 <span class="hamburger"></span>
             </button>
             <ul class="nav-menu">
+                {{ $currentURL := .RelPermalink }}
                 {{ range .Site.Menus.main }}
                     {{ if .HasChildren }}
                     <li class="has-submenu">
                         <a href="{{ .URL }}">{{ .Name }}</a>
                         <ul class="submenu">
                             {{ range .Children }}
-                            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                            {{ $childActive := eq .URL $currentURL }}
+                            <li{{ if $childActive }} class="active"{{ end }}><a href="{{ .URL }}">{{ .Name }}</a></li>
                             {{ end }}
                         </ul>
                     </li>
