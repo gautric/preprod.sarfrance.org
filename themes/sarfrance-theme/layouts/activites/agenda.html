@@ -14,13 +14,13 @@
         </div>
     </div>
     <div class="container">
-        <!-- <div class="agenda-ics-bar">
-            <a href="/ics/agenda-{{ $year }}.ics" class="btn-ics" download>
+        <div class="agenda-ics-bar">
+            <a href="/activites/agenda-{{ $year }}/index.ics" class="btn-ics" download>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
                 Télécharger le calendrier {{ $year }} (.ics)
             </a>
             <span class="ics-hint">Compatible Google Agenda, Apple Calendar, Outlook</span>
-        </div> -->
+        </div>
         <nav class="agenda-years" aria-label="Navigation par année">
             {{ range $y := slice "2026" "2025" "2024" "2023" "2022" "2021" "2020" "2019" "2018" }}
             <a href="/activites/agenda-{{ $y }}/" class="year-link{{ if eq $y $year }} active{{ end }}">{{ $y }}</a>

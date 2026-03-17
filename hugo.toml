@@ -193,6 +193,17 @@ theme = 'sarfrance-theme'
     parent = "contact"
     weight = 5
 
+[outputFormats]
+  [outputFormats.ics]
+    mediaType = "text/calendar"
+    baseName = "index"
+    isPlainText = true
+    notAlternative = true
+
+[mediaTypes]
+  [mediaTypes."text/calendar"]
+    suffixes = ["ics"]
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

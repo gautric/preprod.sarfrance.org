@@ -1,0 +1,27 @@
+{{- $year := .Params.year | default "2026" -}}
+{{- $events := where .Site.Data.agenda.events "date" "ge" (printf "%s-01-01" $year) -}}
+{{- $events = where $events "date" "le" (printf "%s-12-31" $year) -}}
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SAR France//Agenda//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SAR France – Agenda {{ $year }}
+X-WR-TIMEZONE:Europe/Paris
+{{ range $events -}}
+{{- $dateClean := replace .date "-" "" -}}
+{{- $titleLower := .titre | lower | replaceRE "[^a-z0-9]+" "-" | replaceRE "^-+|-+$" "" -}}
+{{- $uid := printf "%s-%s@sarfrance.org" $dateClean $titleLower -}}
+BEGIN:VEVENT
+UID:{{ $uid }}
+DTSTART;VALUE=DATE:{{ $dateClean }}
+{{- if and .dateEnd (ne .dateEnd "") }}
+{{- $endTime := time.AsTime (printf "%sT00:00:00Z" .dateEnd) }}
+{{- $endPlusOne := $endTime.AddDate 0 0 1 }}
+DTEND;VALUE=DATE:{{ $endPlusOne.Format "20060102" }}
+{{- end }}
+SUMMARY:{{ .titre }}
+DESCRIPTION:{{ .titre }} – SAR France
+END:VEVENT
+{{ end -}}
+END:VCALENDAR
