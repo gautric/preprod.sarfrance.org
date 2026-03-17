@@ -15,6 +15,11 @@
 - YAML files in `data/` drive dynamic content (agenda, carousel, chronologie)
 - Content pages use Markdown with YAML front matter
 
+## Internationalization (i18n)
+- UI string files: `i18n/fr.yaml` (French) and `i18n/en.yaml` (English)
+- Templates call `{{ i18n "key" }}` to render translated labels
+- When adding a new UI string, always add the key to both `i18n/fr.yaml` and `i18n/en.yaml`
+
 ## Hosting & Deployment
 - Primary: GitHub Pages via GitHub Actions (`.github/workflows/hugo.yml`)
 - Alternative: S3 + CloudFront (`deploy.sh`, `infrastructure/deploy.sh`)

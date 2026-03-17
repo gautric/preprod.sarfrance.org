@@ -14,7 +14,12 @@ SAR France (Société en France des Fils de la Révolution Américaine) is the F
 - The general French-speaking public
 
 ## Language
-All content is in French. The site language code is `fr-FR`. All content files, commit messages, and UI labels should be written in French.
+- The site is bilingual: French (default) and English
+- French (`fr-FR`) is the primary language, served at root `/`
+- English (`en-US`) is the secondary language, served under `/en/`
+- All content files exist in both `content/fr/` and `content/en/`
+- UI labels are translated via `i18n/fr.yaml` and `i18n/en.yaml`
+- Commit messages and contributor-facing documentation are written in French
 
 ## Domain
 - Production: `sarfrance.org`
