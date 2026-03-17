@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "name": "Sync CONTRIBUTING.md with content structure",
+  "description": "When content files (.md in content/), data files (.json in data/), or hugo.toml change, asks the agent to update the \"Où se trouvent les pages du site\" section in .github/CONTRIBUTING.md so the documentation stays in sync with the actual site structure.",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "content/**/*.md",
+      "data/*.json",
+      "hugo.toml"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A source file in the repository was just edited. Check whether the \"Où se trouvent les pages du site\" section in `.github/CONTRIBUTING.md` needs to be updated to reflect this change.\n\nSpecifically:\n1. Read the current list of files under `content/` and `data/` to understand the actual site structure.\n2. Compare it with the tables in the \"Où se trouvent les pages du site\" section of `.github/CONTRIBUTING.md`.\n3. If a content page was added, renamed, or removed, update the corresponding table in CONTRIBUTING.md (add a row, remove a row, or fix the filename).\n4. If a new section folder appeared under `content/`, add a new subsection with its own table.\n5. If a data file was added or removed, update the relevant mention in CONTRIBUTING.md.\n6. If nothing changed structurally (e.g. only text inside an existing page was edited), do NOT modify CONTRIBUTING.md.\n\nThe source of truth is always the actual files on disk — CONTRIBUTING.md is the documentation that must follow."
+  }
+}
