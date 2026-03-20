@@ -546,7 +546,7 @@ a:hover {
 /* Body text: JansonText 10.5/13, horizontal scale 92% */
 .page-content .content,
 .list-page .container {
-    padding: 60px 0;
+    padding: 20px 0;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
