@@ -1,25 +1,18 @@
 types:
   conférence:
     label: Conférence
-    icon: "🎤"
   assemblée:
     label: Assemblée
-    icon: "🏛️"
   commémoration:
     label: Commémoration
-    icon: "🎖️"
   nssar:
     label: NSSAR
-    icon: "🇺🇸"
   réunion:
     label: Réunion
-    icon: "🤝"
   visite:
     label: Visite
-    icon: "🏰"
   exposition:
     label: Exposition
-    icon: "🖼️"
 
 events:
   - date: "2018-03-16"

@@ -43,6 +43,22 @@
 .agenda-item__type { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.7rem; color: var(--white); font-weight: 600; white-space: nowrap; }
 .agenda-item__title { font-size: 0.95rem; color: var(--navy-blue); font-family: var(--font-centennial, 'Libre Bodoni'), Georgia, serif; font-weight: 600; line-height: 1.4; }
 
+/* Type icons — rendered via CSS instead of YAML emoji */
+.agenda-item__type.type-conference::before,
+.filter-btn.type-conference::before      { content: "🎤 "; }
+.agenda-item__type.type-assemblee::before,
+.filter-btn.type-assemblee::before       { content: "🏛️ "; }
+.agenda-item__type.type-commemoration::before,
+.filter-btn.type-commemoration::before   { content: "🎖️ "; }
+.agenda-item__type.type-nssar::before,
+.filter-btn.type-nssar::before           { content: "🇺🇸 "; }
+.agenda-item__type.type-reunion::before,
+.filter-btn.type-reunion::before         { content: "🤝 "; }
+.agenda-item__type.type-visite::before,
+.filter-btn.type-visite::before          { content: "🏰 "; }
+.agenda-item__type.type-exposition::before,
+.filter-btn.type-exposition::before      { content: "🖼️ "; }
+
 @media (max-width: 768px) {
     .agenda-export { flex-direction: column; align-items: flex-start; gap: 8px; }
     .agenda-export__btn { font-size: 0.82rem; padding: 8px 16px; }

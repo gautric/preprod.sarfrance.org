@@ -36,7 +36,7 @@
             <button class="filter-btn active" data-type="all">{{ i18n "filter_all" }}</button>
             {{ range $key, $val := $types }}
             {{ if in $usedTypes $key }}
-            <button class="filter-btn type-{{ $key | urlize }}" data-type="{{ $key }}">{{ $val.icon }} {{ $val.label }}</button>
+            <button class="filter-btn type-{{ $key | urlize }}" data-type="{{ $key }}">{{ $val.label }}</button>
             {{ end }}
             {{ end }}
         </div>
@@ -57,7 +57,7 @@
                     <div class="agenda-item__card">
                         <div class="agenda-item__header">
                             <span class="agenda-item__date" data-date="{{ .date }}"{{ with .dateEnd }} data-date-end="{{ . }}"{{ end }}></span>
-                            <span class="agenda-item__type type-{{ .type | urlize }}">{{ $typeData.icon }} {{ $typeData.label }}</span>
+                            <span class="agenda-item__type type-{{ .type | urlize }}">{{ $typeData.label }}</span>
                         </div>
                         <h3 class="agenda-item__title">{{ .titre }}</h3>
                     </div>
