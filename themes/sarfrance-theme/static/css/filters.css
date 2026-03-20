@@ -1,0 +1,47 @@
+/* ============================================================
+   Shared filter pill styles — used by agenda, chronologie, notices
+   ============================================================ */
+
+/* Base filter button */
+.filter-btn {
+    padding: 6px 16px;
+    border: 1px solid var(--gray-border-medium);
+    border-radius: 20px;
+    background-color: var(--white);
+    color: var(--navy-blue);
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+    border-color: var(--navy-blue);
+    color: var(--navy-blue);
+}
+
+/* Active state — default "all" uses primary red */
+.filter-btn.active {
+    background-color: var(--primary);
+    color: var(--white);
+    border-color: var(--primary);
+}
+
+/* Tag/type pills inside cards */
+.tag {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.72rem;
+    color: var(--white);
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    opacity: 0.85;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .filter-btn {
+        padding: 5px 12px;
+        font-size: 0.8rem;
+    }
+}

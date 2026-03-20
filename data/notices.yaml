@@ -4,46 +4,32 @@ count: 150
 tags:
   officier-marine:
     label: "Officier de Marine"
-    color: "#2a4365"
   officier-terre:
     label: "Officier de Terre"
-    color: "#2c5282"
   soldat:
     label: "Soldat / Sous-officier"
-    color: "#6b4c8a"
   artillerie:
     label: "Artillerie"
-    color: "#8a5a3a"
   genie:
     label: "Génie"
-    color: "#5a6a3a"
   chirurgien:
     label: "Chirurgien / Médecin"
-    color: "#3a6a6a"
   armateur-corsaire:
     label: "Armateur / Corsaire"
-    color: "#744210"
   diplomate:
     label: "Diplomate / Administrateur"
-    color: "#4a5568"
   aide-de-camp:
     label: "Aide de camp / État-major"
-    color: "#1a3a5c"
   volontaire:
     label: "Volontaire / Milice"
-    color: "#6b2737"
   chapelain:
     label: "Chapelain"
-    color: "#9b2c2c"
   corps-expeditionnaire:
     label: "Corps Expéditionnaire"
-    color: "#1a3a5c"
   legion-lauzun:
     label: "Légion de Lauzun"
-    color: "#5a3a6a"
   americain:
     label: "Américain"
-    color: "#744210"
 
 notices:
   - nom: "ABOVILLE"

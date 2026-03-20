@@ -2,31 +2,24 @@ types:
   conférence:
     label: Conférence
     icon: "🎤"
-    color: "#5a6a3a"
   assemblée:
     label: Assemblée
     icon: "🏛️"
-    color: "#2c5282"
   commémoration:
     label: Commémoration
     icon: "🎖️"
-    color: "#6b2737"
   nssar:
     label: NSSAR
     icon: "🇺🇸"
-    color: "#744210"
   réunion:
     label: Réunion
     icon: "🤝"
-    color: "#4a5568"
   visite:
     label: Visite
     icon: "🏰"
-    color: "#6b4c8a"
   exposition:
     label: Exposition
     icon: "🖼️"
-    color: "#2a4365"
 
 events:
   - date: "2018-03-16"

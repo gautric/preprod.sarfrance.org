@@ -328,40 +328,27 @@ periodes:
 tags:
   france:
     label: France
-    color: "#2c5282"
   amérique:
     label: Amérique
-    color: "#744210"
   angleterre:
     label: Angleterre
-    color: "#9b2c2c"
   bataille:
     label: Bataille
-    color: "#6b2737"
   marine:
     label: Marine
-    color: "#2a4365"
   diplomatie:
     label: Diplomatie
-    color: "#5a6a3a"
   colonies:
     label: Colonies
-    color: "#7b6d3a"
   politique:
     label: Politique
-    color: "#4a5568"
   personnalité:
     label: Personnalité
-    color: "#6b4c8a"
   volontaires:
     label: Volontaires
-    color: "#3a6a6a"
   corps-expéditionnaire:
     label: Corps Expéditionnaire
-    color: "#1a3a5c"
   taxation:
     label: Taxation
-    color: "#8a5a3a"
   révolte:
     label: Révolte
-    color: "#8b4513"

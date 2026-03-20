@@ -3,6 +3,7 @@ title = 'SAR France'
 theme = 'sarfrance-theme'
 defaultContentLanguage = 'fr'
 defaultContentLanguageInSubdir = false
+removePathAccents = true
 
 [languages]
   [languages.fr]

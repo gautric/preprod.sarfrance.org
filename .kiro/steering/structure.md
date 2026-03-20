@@ -34,7 +34,7 @@
 │   │   ├── index.html         # Homepage template
 │   │   ├── 404.html           # Error page
 │   │   └── robots.txt         # Robots template
-│   ├── static/css/            # style.css, colors.css, agenda.css, carousel.css, chronologie.css
+│   ├── static/css/            # style.css, colors.css, filters.css, agenda.css, carousel.css, chronologie.css, notices.css
 │   ├── static/js/             # main.js, carousel.js
 │   └── static/images/         # Theme images (carousel photos)
 ├── static/                    # Static assets copied as-is (site images, icons, favicons)
@@ -59,6 +59,10 @@
 - The theme is a git submodule — changes to templates/CSS/JS go in `themes/sarfrance-theme/`
 - The root `layouts/` directory is empty and reserved for theme overrides if needed
 - Data files in `data/` use structured YAML with typed entries (event types, tags, periods)
+- Tag/type colors are defined as CSS classes in `colors.css`, named `tag-{key}` or `type-{key}` where `{key}` is the urlized YAML key (e.g., YAML key `révolte` → CSS class `tag-revolte`). Templates derive the class name via `{{ $key | urlize }}`. The `removePathAccents = true` setting in `hugo.toml` ensures `urlize` strips accents. Never use inline `style=` or `color:` fields in YAML — add a new CSS class in `colors.css` instead.
+- Filter buttons across agenda, chronologie, and notices share a common `filter-btn` class defined in `filters.css` (pill shape, font size, padding, hover/active states). Page-specific CSS files should not duplicate filter base styles.
+- Active filter color overrides (`.filter-btn.active.tag-xxx` / `.filter-btn.active.type-xxx`) are defined at the bottom of `colors.css`, keeping all color definitions in one place.
+- CSS load order in `baseof.html`: `colors.css` → `style.css` → `filters.css` → page-specific CSS. This ensures variables are available, then base styles, then shared filter styles, then page overrides.
 
 ## Multilanguage Architecture
 

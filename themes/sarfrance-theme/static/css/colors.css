@@ -55,4 +55,113 @@
 
     /* Text on dark backgrounds */
     --white-85: rgba(255, 255, 255, 0.85);
+
+    /* --------------------------------------------------------
+       Tag & type palette — named colors shared across
+       agenda (type-), chronologie (tag-), and notices (tag-).
+       Each color is reused across templates but never within
+       the same template.
+       -------------------------------------------------------- */
+    --color-olive:        #557a22;
+    --color-royal-blue:   #2660b0;
+    --color-burgundy:     #9a1a3a;
+    --color-brown:        #96590e;
+    --color-slate:        #4a6070;
+    --color-purple:       #8040a8;
+    --color-dark-blue:    #1c5590;
+    --color-crimson:      #c42828;
+    --color-khaki:        #9a8018;
+    --color-teal:         #18857a;
+    --color-navy:         #143d78;
+    --color-copper:       #b86218;
+    --color-sienna:       #b85510;
+    --color-plum:         #783090;
 }
+
+/* ============================================================
+   Tag & type colors — agenda, chronologie, notices
+   Class names mirror YAML keys: type-xxx for agenda, tag-xxx for others
+   ============================================================ */
+
+/* Agenda types  (7 items — max hue spread) */
+.type-conference      { background-color: var(--color-teal); }
+.type-assemblee       { background-color: var(--color-navy); }
+.type-commemoration   { background-color: var(--color-crimson); }
+.type-nssar           { background-color: var(--color-khaki); }
+.type-reunion         { background-color: var(--color-slate); }
+.type-visite          { background-color: var(--color-plum); }
+.type-exposition      { background-color: var(--color-copper); }
+
+/* Chronologie tags  (13 items — full palette minus navy) */
+.tag-france           { background-color: var(--color-royal-blue); }
+.tag-amerique         { background-color: var(--color-sienna); }
+.tag-angleterre       { background-color: var(--color-burgundy); }
+.tag-bataille         { background-color: var(--color-dark-blue); }
+.tag-marine           { background-color: var(--color-teal); }
+.tag-diplomatie       { background-color: var(--color-purple); }
+.tag-colonies         { background-color: var(--color-brown); }
+.tag-politique        { background-color: var(--color-slate); }
+.tag-personnalite     { background-color: var(--color-olive); }
+.tag-volontaires      { background-color: var(--color-crimson); }
+.tag-corps-expeditionnaire { background-color: var(--color-plum); }
+.tag-taxation         { background-color: var(--color-copper); }
+.tag-revolte          { background-color: var(--color-khaki); }
+
+/* Notices tags  (13 items — full palette minus olive) */
+.tag-officier-marine  { background-color: var(--color-navy); }
+.tag-officier-terre   { background-color: var(--color-olive); }
+.tag-soldat           { background-color: var(--color-burgundy); }
+.tag-artillerie       { background-color: var(--color-sienna); }
+.tag-genie            { background-color: var(--color-teal); }
+.tag-chirurgien       { background-color: var(--color-purple); }
+.tag-armateur-corsaire { background-color: var(--color-copper); }
+.tag-diplomate        { background-color: var(--color-dark-blue); }
+.tag-aide-de-camp     { background-color: var(--color-khaki); }
+.tag-volontaire       { background-color: var(--color-crimson); }
+.tag-chapelain        { background-color: var(--color-plum); }
+.tag-legion-lauzun    { background-color: var(--color-brown); }
+.tag-americain        { background-color: var(--color-royal-blue); }
+
+/* ============================================================
+   Active filter button overrides — per tag/type
+   When a filter pill is selected, it takes its tag/type color
+   ============================================================ */
+
+/* Agenda types — active filters */
+.filter-btn.active.type-conference      { background-color: var(--color-teal); border-color: var(--color-teal); }
+.filter-btn.active.type-assemblee       { background-color: var(--color-navy); border-color: var(--color-navy); }
+.filter-btn.active.type-commemoration   { background-color: var(--color-crimson); border-color: var(--color-crimson); }
+.filter-btn.active.type-nssar           { background-color: var(--color-khaki); border-color: var(--color-khaki); }
+.filter-btn.active.type-reunion         { background-color: var(--color-slate); border-color: var(--color-slate); }
+.filter-btn.active.type-visite          { background-color: var(--color-plum); border-color: var(--color-plum); }
+.filter-btn.active.type-exposition      { background-color: var(--color-copper); border-color: var(--color-copper); }
+
+/* Chronologie tags — active filters */
+.filter-btn.active.tag-france           { background-color: var(--color-royal-blue); border-color: var(--color-royal-blue); }
+.filter-btn.active.tag-amerique         { background-color: var(--color-sienna); border-color: var(--color-sienna); }
+.filter-btn.active.tag-angleterre       { background-color: var(--color-burgundy); border-color: var(--color-burgundy); }
+.filter-btn.active.tag-bataille         { background-color: var(--color-dark-blue); border-color: var(--color-dark-blue); }
+.filter-btn.active.tag-marine           { background-color: var(--color-teal); border-color: var(--color-teal); }
+.filter-btn.active.tag-diplomatie       { background-color: var(--color-purple); border-color: var(--color-purple); }
+.filter-btn.active.tag-colonies         { background-color: var(--color-brown); border-color: var(--color-brown); }
+.filter-btn.active.tag-politique        { background-color: var(--color-slate); border-color: var(--color-slate); }
+.filter-btn.active.tag-personnalite     { background-color: var(--color-olive); border-color: var(--color-olive); }
+.filter-btn.active.tag-volontaires      { background-color: var(--color-crimson); border-color: var(--color-crimson); }
+.filter-btn.active.tag-corps-expeditionnaire { background-color: var(--color-plum); border-color: var(--color-plum); }
+.filter-btn.active.tag-taxation         { background-color: var(--color-copper); border-color: var(--color-copper); }
+.filter-btn.active.tag-revolte          { background-color: var(--color-khaki); border-color: var(--color-khaki); }
+
+/* Notices tags — active filters */
+.filter-btn.active.tag-officier-marine  { background-color: var(--color-navy); border-color: var(--color-navy); }
+.filter-btn.active.tag-officier-terre   { background-color: var(--color-olive); border-color: var(--color-olive); }
+.filter-btn.active.tag-soldat           { background-color: var(--color-burgundy); border-color: var(--color-burgundy); }
+.filter-btn.active.tag-artillerie       { background-color: var(--color-sienna); border-color: var(--color-sienna); }
+.filter-btn.active.tag-genie            { background-color: var(--color-teal); border-color: var(--color-teal); }
+.filter-btn.active.tag-chirurgien       { background-color: var(--color-purple); border-color: var(--color-purple); }
+.filter-btn.active.tag-armateur-corsaire { background-color: var(--color-copper); border-color: var(--color-copper); }
+.filter-btn.active.tag-diplomate        { background-color: var(--color-dark-blue); border-color: var(--color-dark-blue); }
+.filter-btn.active.tag-aide-de-camp     { background-color: var(--color-khaki); border-color: var(--color-khaki); }
+.filter-btn.active.tag-volontaire       { background-color: var(--color-crimson); border-color: var(--color-crimson); }
+.filter-btn.active.tag-chapelain        { background-color: var(--color-plum); border-color: var(--color-plum); }
+.filter-btn.active.tag-legion-lauzun    { background-color: var(--color-brown); border-color: var(--color-brown); }
+.filter-btn.active.tag-americain        { background-color: var(--color-royal-blue); border-color: var(--color-royal-blue); }

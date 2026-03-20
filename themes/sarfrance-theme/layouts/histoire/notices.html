@@ -21,9 +21,9 @@
         </div>
 
         <div class="notices-filters" role="group" aria-label="{{ i18n "filter_by_category" }}">
-            <button class="tag-filter active" data-tag="all">{{ i18n "filter_all" }}</button>
+            <button class="filter-btn active" data-tag="all">{{ i18n "filter_all" }}</button>
             {{ range $key, $val := .Site.Data.notices.tags }}
-            <button class="tag-filter" data-tag="{{ $key }}" style="--tag-color: {{ $val.color }}">{{ $val.label }}</button>
+            <button class="filter-btn tag-{{ $key | urlize }}" data-tag="{{ $key }}">{{ $val.label }}</button>
             {{ end }}
         </div>
 
@@ -43,7 +43,7 @@
                     {{ range .tags }}
                     {{ $tagData := index $.Site.Data.notices.tags . }}
                     {{ if $tagData }}
-                    <span class="tag" style="background-color: {{ $tagData.color }}">{{ $tagData.label }}</span>
+                    <span class="tag tag-{{ . | urlize }}">{{ $tagData.label }}</span>
                     {{ end }}
                     {{ end }}
                 </div>
@@ -57,7 +57,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     var searchInput = document.getElementById('notices-search');
     var cards = document.querySelectorAll('.notice-card');
-    var filters = document.querySelectorAll('.tag-filter');
+    var filters = document.querySelectorAll('.filter-btn[data-tag]');
     var noResult = document.getElementById('notices-no-result');
     var activeTag = 'all';
 

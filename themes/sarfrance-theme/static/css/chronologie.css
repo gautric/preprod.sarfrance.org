@@ -1,34 +1,12 @@
 /* Chronologie Page Styles */
 
-/* Timeline Filters */
+/* Filters */
 .timeline-filters {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    padding: 30px 0;
+    padding: 16px 0 24px;
     justify-content: center;
-}
-
-.tag-filter {
-    padding: 6px 16px;
-    border: 1px solid var(--gray-border-medium);
-    border-radius: 20px;
-    background: var(--white);
-    color: var(--navy-blue);
-    font-size: 0.85rem;
-    cursor: pointer;
-    transition: all 0.2s ease;
-}
-
-.tag-filter:hover {
-    border-color: var(--navy-blue);
-    color: var(--navy-blue);
-}
-
-.tag-filter.active {
-    background: var(--navy-blue);
-    color: var(--white);
-    border-color: var(--navy-blue);
 }
 
 /* Period Title */
@@ -153,17 +131,6 @@
     gap: 5px;
 }
 
-.tag {
-    display: inline-block;
-    padding: 2px 10px;
-    border-radius: 12px;
-    font-size: 0.72rem;
-    color: var(--white);
-    font-weight: 600;
-    letter-spacing: 0.3px;
-    opacity: 0.85;
-}
-
 /* Responsive */
 @media (max-width: 768px) {
     .timeline {
@@ -188,7 +155,7 @@
         gap: 6px;
     }
 
-    .tag-filter {
+    .timeline-filters .filter-btn {
         padding: 5px 12px;
         font-size: 0.8rem;
     }

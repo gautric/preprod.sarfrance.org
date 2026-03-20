@@ -20,3 +20,5 @@ sarfrance/*
 deploy.sh
 sarfrance.zip
 **.pdf
+mail-notices-biographiques.txt
+.gitignore

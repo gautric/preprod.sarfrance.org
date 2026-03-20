@@ -26,13 +26,13 @@
         </div>
         <nav class="agenda-years" aria-label="{{ i18n "year_nav" }}">
             {{ range $y := slice "2026" "2025" "2024" "2023" "2022" "2021" "2020" "2019" "2018" }}
-            <a href="{{ $prefix }}/activites/agenda-{{ $y }}/" class="year-link{{ if eq $y $year }} active{{ end }}">{{ $y }}</a>
+            <a href="{{ $prefix }}/activites/agenda-{{ $y }}/" class="filter-btn year-link{{ if eq $y $year }} active{{ end }}">{{ $y }}</a>
             {{ end }}
         </nav>
         <div class="agenda-filters" role="group" aria-label="{{ i18n "filter_by_type" }}">
-            <button class="type-filter active" data-type="all">{{ i18n "filter_all" }}</button>
+            <button class="filter-btn active" data-type="all">{{ i18n "filter_all" }}</button>
             {{ range $key, $val := $types }}
-            <button class="type-filter" data-type="{{ $key }}">{{ $val.icon }} {{ $val.label }}</button>
+            <button class="filter-btn type-{{ $key | urlize }}" data-type="{{ $key }}">{{ $val.icon }} {{ $val.label }}</button>
             {{ end }}
         </div>
         <div class="agenda-timeline">
@@ -47,11 +47,11 @@
                 {{ end }}
                 {{ $typeData := index $types .type }}
                 <div class="agenda-item" data-type="{{ .type }}">
-                    <div class="agenda-dot" style="background-color: {{ $typeData.color }}"></div>
+                    <div class="agenda-dot type-{{ .type | urlize }}"></div>
                     <div class="agenda-card">
                         <div class="agenda-card-header">
                             <span class="agenda-date" data-date="{{ .date }}"{{ with .dateEnd }} data-date-end="{{ . }}"{{ end }}></span>
-                            <span class="agenda-type" style="background-color: {{ $typeData.color }}">{{ $typeData.icon }} {{ $typeData.label }}</span>
+                            <span class="agenda-type type-{{ .type | urlize }}">{{ $typeData.icon }} {{ $typeData.label }}</span>
                         </div>
                         <h3 class="agenda-title">{{ .titre }}</h3>
                     </div>
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
             el.textContent = dateFmt.format(start);
         }
     });
-    var filters = document.querySelectorAll('.type-filter');
+    var filters = document.querySelectorAll('.filter-btn[data-type]');
     var items = document.querySelectorAll('.agenda-item');
     filters.forEach(function(btn) {
         btn.addEventListener('click', function() {
