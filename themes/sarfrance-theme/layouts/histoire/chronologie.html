@@ -19,13 +19,29 @@
 
         {{ range .Site.Data.chronologie.periodes }}
         <div class="timeline-period">
-            <h2 class="period-title">{{ .nom }}</h2>
+            <div class="timeline timeline--period-header">
+                <div class="timeline-item" style="margin-bottom: 0;">
+                    <div class="timeline-period-dot"></div>
+                    <h2 class="period-title">{{ .nom }}</h2>
+                </div>
+            </div>
             <div class="timeline">
                 {{ range .events }}
+                {{ $firstTag := index .tags 0 }}
                 <div class="timeline-item" data-tags="{{ delimit .tags "," }}">
-                    <div class="timeline-dot"></div>
+                    <div class="timeline-dot tag-{{ $firstTag | urlize }}"></div>
                     <div class="timeline-card">
-                        <span class="timeline-date" data-iso-date="{{ .date }}">{{ .date }}</span>
+                        <div class="timeline-card-header">
+                            <span class="timeline-date" data-iso-date="{{ .date }}">{{ .date }}</span>
+                            <div class="timeline-tags">
+                                {{ range .tags }}
+                                {{ $tagData := index $.Site.Data.chronologie.tags . }}
+                                {{ if $tagData }}
+                                <span class="tag tag-{{ . | urlize }}">{{ $tagData.label }}</span>
+                                {{ end }}
+                                {{ end }}
+                            </div>
+                        </div>
                         <h3 class="timeline-title">
                             {{ if .wikipedia }}
                             <a href="{{ .wikipedia }}" target="_blank" rel="noopener noreferrer" class="timeline-link">{{ .titre }}</a>
@@ -34,14 +50,6 @@
                             {{ end }}
                         </h3>
                         <p class="timeline-desc">{{ .description }}</p>
-                        <div class="timeline-tags">
-                            {{ range .tags }}
-                            {{ $tagData := index $.Site.Data.chronologie.tags . }}
-                            {{ if $tagData }}
-                            <span class="tag tag-{{ . | urlize }}">{{ $tagData.label }}</span>
-                            {{ end }}
-                            {{ end }}
-                        </div>
                     </div>
                 </div>
                 {{ end }}
@@ -56,23 +64,23 @@ document.addEventListener('DOMContentLoaded', function() {
     var lang = document.documentElement.lang || 'fr-FR';
     var locale = (lang === 'en-US' || lang === 'en') ? 'en-US' : 'fr-FR';
 
-    const dateElements = document.querySelectorAll('.timeline-date[data-iso-date]');
+    var dateElements = document.querySelectorAll('.timeline-date[data-iso-date]');
     dateElements.forEach(function(el) {
-        const isoDate = el.getAttribute('data-iso-date');
+        var isoDate = el.getAttribute('data-iso-date');
         if (isoDate) {
             try {
-                const date = new Date(isoDate);
-                const options = { year: 'numeric', month: 'long', day: 'numeric' };
-                const formattedDate = date.toLocaleDateString(locale, options);
-                el.textContent = formattedDate;
+                var p = isoDate.split('-');
+                var date = new Date(parseInt(p[0]), parseInt(p[1]) - 1, parseInt(p[2]));
+                var options = { year: 'numeric', month: 'long', day: 'numeric' };
+                el.textContent = date.toLocaleDateString(locale, options);
             } catch (e) {
                 console.warn('Failed to parse date:', isoDate);
             }
         }
     });
 
-    const filters = document.querySelectorAll('.filter-btn[data-tag]');
-    const items = document.querySelectorAll('.timeline-item');
+    var filters = document.querySelectorAll('.filter-btn[data-tag]');
+    var items = document.querySelectorAll('.timeline-item[data-tags]');
 
     filters.forEach(function(btn) {
         btn.addEventListener('click', function() {
@@ -95,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
 
             document.querySelectorAll('.timeline-period').forEach(function(period) {
-                var visible = period.querySelectorAll('.timeline-item:not(.hidden)');
+                var visible = period.querySelectorAll('.timeline-item[data-tags]:not(.hidden)');
                 period.style.display = visible.length === 0 ? 'none' : '';
             });
         });

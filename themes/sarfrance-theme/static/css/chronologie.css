@@ -1,48 +1,59 @@
-/* Chronologie Page Styles */
+/* Chronologie Page Styles
+   Aligned with agenda.css patterns */
 
 /* Filters */
 .timeline-filters {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    padding: 16px 0 24px;
+    padding: 10px 0 25px;
     justify-content: center;
 }
 
-/* Period Title */
+/* Period Title — styled like agenda month labels on the timeline */
 .timeline-period {
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .period-title {
-    font-size: 1.4rem;
-    color: var(--navy-blue);
-    padding: 15px 0 10px 0;
-    margin: 40px 0 10px 0;
-    border-bottom: 2px solid var(--gray-border-light);
     font-family: var(--font-centennial, 'Libre Bodoni'), Georgia, serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy-blue);
+    background: var(--white);
+    padding: 4px 16px 4px 0;
+    display: inline-block;
+    position: relative;
+    margin-top: 18px;
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+.timeline-period:first-of-type .period-title {
+    margin-top: 0;
 }
 
 /* Timeline */
 .timeline {
     position: relative;
-    padding: 20px 0 20px 40px;
+    padding: 10px 0 10px 50px;
+    --timeline-axis: 21px;
 }
 
 .timeline::before {
     content: '';
     position: absolute;
-    left: 15px;
+    left: 20px;
     top: 0;
     bottom: 0;
     width: 2px;
-    background: var(--gray-timeline);
+    background: var(--gray-border-light);
 }
 
 /* Timeline Item */
 .timeline-item {
     position: relative;
-    margin-bottom: 24px;
+    margin-bottom: 12px;
     transition: opacity 0.3s ease;
 }
 
@@ -50,54 +61,77 @@
     display: none;
 }
 
-/* Timeline Dot */
+/* Timeline Dot — colored by first tag, like agenda type dots */
 .timeline-dot {
     position: absolute;
-    left: -33px;
-    top: 18px;
-    width: 12px;
-    height: 12px;
+    left: calc(var(--timeline-axis) - 50px);
+    top: 16px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
-    background: var(--primary);
     border: 2px solid var(--white);
-    box-shadow: 0 0 0 2px var(--primary);
+    box-shadow: 0 0 0 1px var(--gray-timeline);
     z-index: 1;
-    transition: all 0.2s ease;
+    transition: transform 0.2s ease;
+    transform: translateX(-50%);
 }
 
 .timeline-item:hover .timeline-dot {
-    background: var(--primary-dark);
-    box-shadow: 0 0 0 2px var(--primary-dark);
+    transform: translateX(-50%) scale(1.4);
 }
 
-/* Timeline Card */
+/* Period dot — bigger variant on the timeline axis */
+.timeline-period-dot {
+    position: absolute;
+    left: calc(var(--timeline-axis) - 50px);
+    top: 50%;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--navy-blue);
+    border: 3px solid var(--white);
+    box-shadow: 0 0 0 2px var(--navy-blue);
+    z-index: 2;
+    transform: translate(-50%, -50%);
+}
+
+/* Timeline Card — matches agenda card style */
 .timeline-card {
     background: var(--white);
     border: 1px solid var(--gray-border-light);
     border-radius: 6px;
-    padding: 18px 22px;
+    padding: 14px 18px;
     transition: all 0.2s ease;
-    border-left: 3px solid var(--primary);
 }
 
 .timeline-item:hover .timeline-card {
-    border-left-color: var(--primary-dark);
     box-shadow: 0 2px 8px var(--shadow-subtle);
+    border-color: var(--gray-timeline);
+}
+
+/* Card header — date + tags on same row, like agenda header */
+.timeline-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+    gap: 10px;
 }
 
 .timeline-date {
     font-size: 0.8rem;
     color: var(--text-muted);
     font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+    white-space: nowrap;
 }
 
 .timeline-title {
-    font-size: 1.05rem;
+    font-size: 0.95rem;
     color: var(--navy-blue);
-    margin: 4px 0 6px 0;
+    margin: 0;
     font-family: var(--font-centennial, 'Libre Bodoni'), Georgia, serif;
+    font-weight: 600;
+    line-height: 1.4;
 }
 
 .timeline-link {
@@ -118,45 +152,83 @@
 }
 
 .timeline-desc {
-    font-size: 0.9rem;
-    color: var(--navy-blue);
+    font-size: 0.88rem;
+    color: var(--text-light);
     line-height: 1.5;
-    margin-bottom: 10px;
+    margin: 4px 0 8px 0;
 }
 
-/* Tags */
+/* Tags row */
 .timeline-tags {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
 }
 
+/* Tag emojis — CSS-only, mirrors agenda type icons */
+.timeline-tags .tag-france::before           { content: '🇫🇷 '; }
+.timeline-tags .tag-amerique::before         { content: '🇺🇸 '; }
+.timeline-tags .tag-angleterre::before       { content: '🇬🇧 '; }
+.timeline-tags .tag-bataille::before         { content: '⚔️ '; }
+.timeline-tags .tag-marine::before           { content: '⚓ '; }
+.timeline-tags .tag-diplomatie::before       { content: '📜 '; }
+.timeline-tags .tag-colonies::before         { content: '🏴 '; }
+.timeline-tags .tag-politique::before        { content: '🏛️ '; }
+.timeline-tags .tag-personnalite::before     { content: '👤 '; }
+.timeline-tags .tag-volontaires::before      { content: '🎖️ '; }
+.timeline-tags .tag-corps-expeditionnaire::before { content: '🪖 '; }
+.timeline-tags .tag-taxation::before         { content: '💰 '; }
+.timeline-tags .tag-revolte::before          { content: '🔥 '; }
+
+/* Same emojis on filter buttons */
+.timeline-filters .tag-france::before           { content: '🇫🇷 '; }
+.timeline-filters .tag-amerique::before         { content: '🇺🇸 '; }
+.timeline-filters .tag-angleterre::before       { content: '🇬🇧 '; }
+.timeline-filters .tag-bataille::before         { content: '⚔️ '; }
+.timeline-filters .tag-marine::before           { content: '⚓ '; }
+.timeline-filters .tag-diplomatie::before       { content: '📜 '; }
+.timeline-filters .tag-colonies::before         { content: '🏴 '; }
+.timeline-filters .tag-politique::before        { content: '🏛️ '; }
+.timeline-filters .tag-personnalite::before     { content: '👤 '; }
+.timeline-filters .tag-volontaires::before      { content: '🎖️ '; }
+.timeline-filters .tag-corps-expeditionnaire::before { content: '🪖 '; }
+.timeline-filters .tag-taxation::before         { content: '💰 '; }
+.timeline-filters .tag-revolte::before          { content: '🔥 '; }
+
 /* Responsive */
 @media (max-width: 768px) {
     .timeline {
-        padding: 20px 0 20px 30px;
+        padding-left: 35px;
+        --timeline-axis: 13px;
     }
 
     .timeline::before {
-        left: 10px;
+        left: 12px;
     }
 
     .timeline-dot {
-        left: -27px;
-        width: 10px;
-        height: 10px;
+        left: calc(var(--timeline-axis) - 35px);
+        width: 8px;
+        height: 8px;
+    }
+
+    .timeline-period-dot {
+        left: calc(var(--timeline-axis) - 35px);
+        width: 12px;
+        height: 12px;
     }
 
     .timeline-card {
-        padding: 14px 16px;
+        padding: 12px 14px;
+    }
+
+    .timeline-card-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
     }
 
     .timeline-filters {
         gap: 6px;
-    }
-
-    .timeline-filters .filter-btn {
-        padding: 5px 12px;
-        font-size: 0.8rem;
     }
 }
