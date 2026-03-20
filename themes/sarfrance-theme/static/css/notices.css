@@ -116,6 +116,36 @@
     gap: 5px;
 }
 
+/* Tag icons — rendered via CSS */
+.tag.tag-officier-marine::before,
+.filter-btn.tag-officier-marine::before       { content: "⚓ "; }
+.tag.tag-officier-terre::before,
+.filter-btn.tag-officier-terre::before        { content: "⚔️ "; }
+.tag.tag-soldat::before,
+.filter-btn.tag-soldat::before                { content: "🪖 "; }
+.tag.tag-artillerie::before,
+.filter-btn.tag-artillerie::before            { content: "💣 "; }
+.tag.tag-genie::before,
+.filter-btn.tag-genie::before                 { content: "🏗️ "; }
+.tag.tag-chirurgien::before,
+.filter-btn.tag-chirurgien::before            { content: "⚕️ "; }
+.tag.tag-armateur-corsaire::before,
+.filter-btn.tag-armateur-corsaire::before     { content: "🏴‍☠️ "; }
+.tag.tag-diplomate::before,
+.filter-btn.tag-diplomate::before             { content: "📜 "; }
+.tag.tag-aide-de-camp::before,
+.filter-btn.tag-aide-de-camp::before          { content: "🎖️ "; }
+.tag.tag-volontaire::before,
+.filter-btn.tag-volontaire::before            { content: "🙋 "; }
+.tag.tag-chapelain::before,
+.filter-btn.tag-chapelain::before             { content: "✝️ "; }
+.tag.tag-corps-expeditionnaire::before,
+.filter-btn.tag-corps-expeditionnaire::before { content: "🦅 "; }
+.tag.tag-legion-lauzun::before,
+.filter-btn.tag-legion-lauzun::before         { content: "🐴 "; }
+.tag.tag-americain::before,
+.filter-btn.tag-americain::before             { content: "🇺🇸 "; }
+
 /* Responsive */
 @media (max-width: 768px) {
     .notices-grid {
