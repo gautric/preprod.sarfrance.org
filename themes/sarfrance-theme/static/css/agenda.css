@@ -12,7 +12,6 @@
 .agenda-filters { padding: 10px 0 25px; }
 
 /* Year-specific overrides (base styles come from .filter-btn in filters.css) */
-.year-link { font-weight: 600; font-size: 0.95rem; }
 .year-link:hover { border-color: var(--primary); color: var(--primary); }
 
 .agenda-timeline { position: relative; padding: 10px 0 40px 50px; }
@@ -45,6 +44,5 @@
     .agenda-dot { left: -29px; width: 8px; height: 8px; }
     .agenda-card-header { flex-direction: column; align-items: flex-start; gap: 4px; }
     .agenda-years { gap: 5px; }
-    .year-link { font-size: 0.85rem; }
     .filter-btn { padding: 5px 12px; font-size: 0.8rem; }
 }
