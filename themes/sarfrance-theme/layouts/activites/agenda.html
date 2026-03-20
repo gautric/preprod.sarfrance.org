@@ -42,7 +42,10 @@
                 {{ if ne $month $currentMonth }}
                     {{ $currentMonth = $month }}
                     <div class="agenda-month">
-                        <span class="month-label" data-month-date="{{ .date }}"></span>
+                        <div class="agenda-dot agenda-dot-month"></div>
+                        <div class="agenda-month-label">
+                            <span class="month-label" data-month-date="{{ .date }}"></span>
+                        </div>
                     </div>
                 {{ end }}
                 {{ $typeData := index $types .type }}
