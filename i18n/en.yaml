@@ -71,3 +71,14 @@
   translation: "Comment on page: "
 - id: contribute_edit
   translation: "Suggest an update"
+
+- id: notices_desc
+  translation: "Biographical dictionary of certified SAR France ancestors"
+- id: notices_count
+  translation: "certified notices"
+- id: notices_revision
+  translation: "Last updated"
+- id: notices_search
+  translation: "Search by name, first name, role…"
+- id: notices_no_result
+  translation: "No results found"

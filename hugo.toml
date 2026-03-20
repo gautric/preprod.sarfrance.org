@@ -115,6 +115,13 @@ defaultContentLanguageInSubdir = false
       parent = "histoire"
       weight = 4
 
+    [[languages.fr.menus.main]]
+      identifier = "notices"
+      name = "Notices biographiques"
+      url = "/histoire/notices/"
+      parent = "histoire"
+      weight = 5
+
     # Submenus - Activités
     [[languages.fr.menus.main]]
       identifier = "agenda"
@@ -296,6 +303,13 @@ defaultContentLanguageInSubdir = false
       url = "/en/histoire/hauts-lieux/"
       parent = "histoire"
       weight = 4
+
+    [[languages.en.menus.main]]
+      identifier = "notices"
+      name = "Biographical Notices"
+      url = "/en/histoire/notices/"
+      parent = "histoire"
+      weight = 5
 
     # Submenus - Activities
     [[languages.en.menus.main]]

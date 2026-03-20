@@ -81,6 +81,7 @@ Dossier : `content/histoire/`
 | Opérations militaires | `operations.md` |
 | Chefs militaires | `chefs-militaires.md` |
 | Hauts lieux en France | `hauts-lieux.md` |
+| Notices biographiques | `notices.md` |
 
 ### Rubrique « Activités »
 
@@ -129,6 +130,7 @@ Dossier : `content/en/histoire/`
 | Military Operations | `operations.md` |
 | Military Leaders | `chefs-militaires.md` |
 | Historic Sites in France | `hauts-lieux.md` |
+| Biographical Notices | `notices.md` |
 
 ### Pages en anglais — « Activités »
 
@@ -155,13 +157,16 @@ Dossier : `content/en/contact/`
 | Make a Donation | `donateur.md` |
 | Legal Notice | `mentions-legales.md` |
 
-### Diaporama de la page d'accueil
+### Fichiers de données
 
-Le diaporama n'est pas un fichier texte classique. C'est un fichier de données au format YAML situé à un endroit différent :
+Certains contenus du site ne sont pas des pages de texte mais des fichiers de données au format YAML, situés dans le dossier `data/`. Ils alimentent des pages spécifiques du site.
 
-`data/carousel.yaml`
+| Contenu | Fichier |
+|---|---|
+| Diaporama de la page d'accueil | `data/carousel.yaml` |
+| Notices biographiques (dictionnaire) | `data/notices.yaml` |
 
-Sa modification est expliquée plus bas dans la section « Modifier le diaporama ».
+La modification du diaporama est expliquée plus bas dans la section « Modifier le diaporama ».
 
 ---
 

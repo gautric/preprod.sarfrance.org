@@ -1,0 +1,947 @@
+revision: "2026-03-01"
+count: 150
+
+tags:
+  officier-marine:
+    label: "Officier de Marine"
+    color: "#2a4365"
+  officier-terre:
+    label: "Officier de Terre"
+    color: "#2c5282"
+  soldat:
+    label: "Soldat / Sous-officier"
+    color: "#6b4c8a"
+  artillerie:
+    label: "Artillerie"
+    color: "#8a5a3a"
+  genie:
+    label: "Génie"
+    color: "#5a6a3a"
+  chirurgien:
+    label: "Chirurgien / Médecin"
+    color: "#3a6a6a"
+  armateur-corsaire:
+    label: "Armateur / Corsaire"
+    color: "#744210"
+  diplomate:
+    label: "Diplomate / Administrateur"
+    color: "#4a5568"
+  aide-de-camp:
+    label: "Aide de camp / État-major"
+    color: "#1a3a5c"
+  volontaire:
+    label: "Volontaire / Milice"
+    color: "#6b2737"
+  chapelain:
+    label: "Chapelain"
+    color: "#9b2c2c"
+  corps-expeditionnaire:
+    label: "Corps Expéditionnaire"
+    color: "#1a3a5c"
+  legion-lauzun:
+    label: "Légion de Lauzun"
+    color: "#5a3a6a"
+  americain:
+    label: "Américain"
+    color: "#744210"
+
+notices:
+  - nom: "ABOVILLE"
+    prenom: "François Marie"
+    particule: "d'"
+    fonction: "Colonel, commandant l'artillerie à Yorktown"
+    tags: [officier-terre, artillerie, corps-expeditionnaire]
+
+  - nom: "ABZAC de LA DOUZE de CAZENAC"
+    prenom: "Jean-Baptiste Charles"
+    particule: "d'"
+    fonction: "Lieutenant au Royal-Italien"
+    tags: [officier-terre]
+
+  - nom: "AGUE de la VOÛTE"
+    prenom: "Charles René"
+    particule: ""
+    fonction: "S/Lt au régiment d'Agenois"
+    tags: [officier-terre]
+
+  - nom: "ALLEMAGNE"
+    prenom: "Claude"
+    particule: "d'"
+    fonction: "Soldat au régiment de Hainault. Général"
+    tags: [soldat]
+
+  - nom: "APPLETON"
+    prenom: "Nathaniel"
+    particule: ""
+    fonction: "Chapelain du 1er Congrès de la Révolte en 1774"
+    tags: [chapelain, americain]
+
+  - nom: "AUBENTON"
+    prenom: "Marcel Ambroise"
+    particule: "d'"
+    fonction: "Officier de Marine, Directeur de l'artillerie"
+    tags: [officier-marine, artillerie]
+
+  - nom: "AUGUSTIN de BOURGUISSON"
+    prenom: "Pierre Charles René"
+    particule: "d'"
+    fonction: "Capitaine au régiment d'Agenois"
+    tags: [officier-terre]
+
+  - nom: "AURE"
+    prenom: "Jean Antoine"
+    particule: "d'"
+    fonction: "Régisseur des vivres au corps de Rochambeau"
+    tags: [diplomate, corps-expeditionnaire]
+
+  - nom: "BALGUERIE"
+    prenom: "Jean Étienne"
+    particule: ""
+    fonction: "Capitaine de navires"
+    tags: [armateur-corsaire]
+
+  - nom: "BARRIGUE de FONTAINIEU"
+    prenom: "Prosper"
+    particule: "de"
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "BEAUMONT de VERNEUIL d'AUTY"
+    prenom: "Guillaume Joseph"
+    particule: "de"
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "BERTHE de GISANCOURT de POMMERY"
+    prenom: "Marie Louis Florimond"
+    particule: ""
+    fonction: "Officier au régiment de Touraine"
+    tags: [officier-terre]
+
+  - nom: "BERTON de BALBES duc de CRILLON"
+    prenom: "Louis"
+    particule: ""
+    fonction: "Lieutenant Général dans l'armée espagnole"
+    tags: [officier-terre]
+
+  - nom: "BESSEY de la VOUTE"
+    prenom: "René Esprit Isaac"
+    particule: "de"
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "BOREL"
+    prenom: "Pierre"
+    particule: ""
+    fonction: "Lieutenant au régiment d'Attakapas"
+    tags: [officier-terre]
+
+  - nom: "BOÜAN"
+    prenom: "Louis Anne Patern"
+    particule: ""
+    fonction: "Ingénieur Militaire au corps de Rochambeau"
+    tags: [genie, corps-expeditionnaire]
+
+  - nom: "BOUËXIC de GUICHEN"
+    prenom: "Luc Urbain"
+    particule: ""
+    fonction: "Lieutenant Général, Chef d'Escadre"
+    tags: [officier-marine]
+
+  - nom: "BOUGAINVILLE"
+    prenom: "Louis Antoine"
+    particule: "de"
+    fonction: "Chef d'escadre navale"
+    tags: [officier-marine]
+
+  - nom: "BOURDON de VATRY"
+    prenom: "Marc-Antoine"
+    particule: ""
+    fonction: "Secrétaire Général du corps expéditionnaire"
+    tags: [diplomate, corps-expeditionnaire]
+
+  - nom: "BRISOUT de BARNEVILLE"
+    prenom: "Nicolas Denis"
+    particule: ""
+    fonction: "Aide de camp de Viomenil"
+    tags: [aide-de-camp, corps-expeditionnaire]
+
+  - nom: "BRUIX"
+    prenom: "Étienne Eustache"
+    particule: ""
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "BUTLER"
+    prenom: "Zebulon"
+    particule: ""
+    fonction: "Colonel armée du Connecticut"
+    tags: [officier-terre, americain]
+
+  - nom: "BUYSSON des AIX"
+    prenom: "Charles François"
+    particule: "du"
+    fonction: "Aide de camp de de Kalb"
+    tags: [aide-de-camp]
+
+  - nom: "CAFFIN"
+    prenom: "Benoist Charles"
+    particule: ""
+    fonction: "Soldat au régiment d'Auxerrois"
+    tags: [soldat]
+
+  - nom: "CAMECASSE"
+    prenom: "Jean"
+    particule: ""
+    fonction: "Armateur du Coureur"
+    tags: [armateur-corsaire]
+
+  - nom: "CARO"
+    prenom: "Jacques François"
+    particule: ""
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "CAUPOS"
+    prenom: "Étienne"
+    particule: ""
+    fonction: "Timonier et aide-pilote de navires"
+    tags: [officier-marine]
+
+  - nom: "CAVELIER de CUVERVILLE"
+    prenom: "Louis Hyacinthe"
+    particule: ""
+    fonction: "Capitaine de Vaisseau, Escadre de Suffren"
+    tags: [officier-marine]
+
+  - nom: "CHABANNES de CURTON LA PALICE"
+    prenom: "Jean-Frédéric"
+    particule: "de"
+    fonction: "Aide de camp de Vioménil"
+    tags: [aide-de-camp, corps-expeditionnaire]
+
+  - nom: "CHABRAND"
+    prenom: "Louis"
+    particule: ""
+    fonction: "Soldat au régiment de Hainault"
+    tags: [soldat]
+
+  - nom: "CHAFFAULT de BESNÉ"
+    prenom: "Louis Charles"
+    particule: "du"
+    fonction: "Officier de Marine, Lt-Général"
+    tags: [officier-marine]
+
+  - nom: "CHAMPEAUX"
+    prenom: "Jacques"
+    particule: ""
+    fonction: "Sergent dans l'Agenais"
+    tags: [soldat]
+
+  - nom: "CHARET"
+    prenom: "Pierre"
+    particule: ""
+    fonction: "Armateur du corsaire La Pallas"
+    tags: [armateur-corsaire]
+
+  - nom: "CHARPY"
+    prenom: "Jean Louis"
+    particule: ""
+    fonction: "Officier au Régiment Armagnac Infanterie"
+    tags: [officier-terre]
+
+  - nom: "CHESNEL"
+    prenom: "François"
+    particule: "de"
+    fonction: "Aide-Major de l'Armée des Indes"
+    tags: [officier-terre]
+
+  - nom: "CHOSSAT de MONTBURON"
+    prenom: "Claude François Marie"
+    particule: "de"
+    fonction: "Officier au Régiment d'Auvergne"
+    tags: [officier-terre]
+
+  - nom: "CILLART de SUVILLE"
+    prenom: "Armand François Marie"
+    particule: "de"
+    fonction: "Capitaine de Vaisseau"
+    tags: [officier-marine]
+
+  - nom: "COHORN de LA PALUN"
+    prenom: "Alexandre"
+    particule: "de"
+    fonction: "Capitaine de Vaisseau"
+    tags: [officier-marine]
+
+  - nom: "COLLEVILLE"
+    prenom: "Jacques Augustin"
+    particule: ""
+    fonction: "Armateur de Corsaires au Hâvre"
+    tags: [armateur-corsaire]
+
+  - nom: "COUDÉ"
+    prenom: "Louis Marie"
+    particule: ""
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "COÜEDIC de KERGOUALER"
+    prenom: "Charles Louis"
+    particule: ""
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "CROMOT du BOURG"
+    prenom: "Maxime"
+    particule: ""
+    fonction: "Aide de camp de Rochambeau"
+    tags: [aide-de-camp, corps-expeditionnaire]
+
+  - nom: "CUSTINE"
+    prenom: "Adam Philippe"
+    particule: "de"
+    fonction: "Colonel Régiment de Saintonge"
+    tags: [officier-terre, corps-expeditionnaire]
+
+  - nom: "DENTZEL"
+    prenom: "Georges Frédéric"
+    particule: ""
+    fonction: "Chapelain dans Royal-Deux-Ponts"
+    tags: [chapelain, corps-expeditionnaire]
+
+  - nom: "DESLANDES"
+    prenom: "Nicolas"
+    particule: ""
+    fonction: "Armateur de navires corsaires"
+    tags: [armateur-corsaire]
+
+  - nom: "DEYDIER de PIERREFEU"
+    prenom: "Louis"
+    particule: ""
+    fonction: "Officier de Marine, Capitaine de Vaisseau"
+    tags: [officier-marine]
+
+  - nom: "DIGNAC"
+    prenom: "Pierre Jean"
+    particule: ""
+    fonction: "Armateur et capitaine corsaire"
+    tags: [armateur-corsaire]
+
+  - nom: "DINET de MONTROND"
+    prenom: "Pierre"
+    particule: ""
+    fonction: "Caporal au Régiment de Poitou. Embarqué"
+    tags: [soldat]
+
+  - nom: "DREZEN"
+    prenom: "Yves"
+    particule: ""
+    fonction: "Mousse sur La Couronne"
+    tags: [officier-marine]
+
+  - nom: "DROUHOT"
+    prenom: "Jacques"
+    particule: ""
+    fonction: "Capitaine en second des chasseurs, de Lauzun"
+    tags: [officier-terre, legion-lauzun]
+
+  - nom: "DUBOYS de LA BERNARDE"
+    prenom: "Jean Hélie"
+    particule: ""
+    fonction: "Aide Maréchal des Logis au camp de Vaissieux"
+    tags: [aide-de-camp]
+
+  - nom: "DUGAY"
+    prenom: "Arnaud"
+    particule: ""
+    fonction: "Capitaine corsaire"
+    tags: [armateur-corsaire]
+
+  - nom: "ELLOY"
+    prenom: "Guillain Maurice Pierre"
+    particule: "d'"
+    fonction: "S-Lt Régiment de Dillon"
+    tags: [officier-terre]
+
+  - nom: "ETHIS de CORNY"
+    prenom: "Louis Dominique"
+    particule: ""
+    fonction: "Commissaire des Guerres de Rochambeau"
+    tags: [diplomate, corps-expeditionnaire]
+
+  - nom: "FABRÉ"
+    prenom: "Adrien Jean-Pierre"
+    particule: ""
+    fonction: "Chirurgien de Marine"
+    tags: [chirurgien]
+
+  - nom: "FERRÉ de SAINT ROMAIN de PÉROUX"
+    prenom: "Jean"
+    particule: ""
+    fonction: "Capitaine au Régiment de Champagne"
+    tags: [officier-terre]
+
+  - nom: "FLOWERS"
+    prenom: "Valentine"
+    particule: ""
+    fonction: "Soldat dans la Milice de Virginie"
+    tags: [soldat, volontaire, americain]
+
+  - nom: "FONTANGES"
+    prenom: "François"
+    particule: "de"
+    fonction: "Major Général au débarquement de Savannah"
+    tags: [officier-terre]
+
+  - nom: "GANTÈS"
+    prenom: "Pierre Aimé Hilarion"
+    particule: "de"
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "GÉRARD de RAYNEVAL"
+    prenom: "Joseph Mathias"
+    particule: ""
+    fonction: "Négociateur des traités de Paris de 1783"
+    tags: [diplomate]
+
+  - nom: "GIRARD de VASSON"
+    prenom: "André"
+    particule: ""
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "GOËSBRIAND"
+    prenom: "Christophe"
+    particule: "de"
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "GOYS de MÉZEYRAC"
+    prenom: "Louis Antoine"
+    particule: ""
+    fonction: "Officier au Régiment de Viennois Infanterie"
+    tags: [officier-terre]
+
+  - nom: "GRIMOÜARD"
+    prenom: "Nicolas"
+    particule: "de"
+    fonction: "Officier de Marine Capitaine de Vaisseau"
+    tags: [officier-marine]
+
+  - nom: "GUESTIER"
+    prenom: "Daniel"
+    particule: ""
+    fonction: "Matelot"
+    tags: [officier-marine]
+
+  - nom: "GUILHEMIN"
+    prenom: "Jean-Louis"
+    particule: ""
+    fonction: "Sergent Major, Régiment de Bourbonnais"
+    tags: [soldat, corps-expeditionnaire]
+
+  - nom: "GUSSE"
+    prenom: "Jean-François"
+    particule: ""
+    fonction: "Sergent au Régiment de Touraine"
+    tags: [soldat]
+
+  - nom: "HAUDRY de JANVRY"
+    prenom: "André Pierre"
+    particule: ""
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "HUON de KERMADEC"
+    prenom: "Jean Marie"
+    particule: ""
+    fonction: "Officier de Marine. Escadre de Suffren"
+    tags: [officier-marine]
+
+  - nom: "IVORY de CORBON"
+    prenom: "Alexis Claude"
+    particule: "d'"
+    fonction: "Lieutenant mineur à Strasbourg-Artillerie"
+    tags: [officier-terre, artillerie]
+
+  - nom: "JACKSON"
+    prenom: "Michael"
+    particule: ""
+    fonction: "Officier armée continentale du Massachusetts"
+    tags: [officier-terre, americain]
+
+  - nom: "KALB"
+    prenom: "Jean"
+    particule: "de"
+    fonction: "Officier français et major général US"
+    tags: [officier-terre, americain]
+
+  - nom: "KERGARIOU-LOCMARIA"
+    prenom: "Thibault René"
+    particule: "de"
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "LABAT de LAPEYRIERE"
+    prenom: "René-Calixte"
+    particule: "de"
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "LA BURTHE de PACHAS"
+    prenom: "Jacques Antoine"
+    particule: "de"
+    fonction: "Officier au Régiment de Soissonnais"
+    tags: [officier-terre, corps-expeditionnaire]
+
+  - nom: "LACORDAIRE"
+    prenom: "Nicolas"
+    particule: ""
+    fonction: "Chirurgien de Marine"
+    tags: [chirurgien]
+
+  - nom: "LA FORGUE de BELLEGARDE"
+    prenom: "Denis François Calixte"
+    particule: "de"
+    fonction: "Officier au Régiment de Saintonge"
+    tags: [officier-terre, corps-expeditionnaire]
+
+  - nom: "LA MYRE MORY"
+    prenom: "André Jérôme"
+    particule: ""
+    fonction: "Officier au Régiment d'Auxerrois"
+    tags: [officier-terre]
+
+  - nom: "LAPRUN"
+    prenom: "Pierre"
+    particule: ""
+    fonction: "Capitaine dans Auxonne-Artillerie"
+    tags: [officier-terre, artillerie]
+
+  - nom: "LAROCHE"
+    prenom: "Antoine"
+    particule: ""
+    fonction: "Chirurgien Major des armées"
+    tags: [chirurgien]
+
+  - nom: "LA ROCHENÉGLY"
+    prenom: "Gabriel François"
+    particule: "de"
+    fonction: "Lieutenant au régiment de Gâtinais"
+    tags: [officier-terre]
+
+  - nom: "LAU d'ALLEMANS"
+    prenom: "Pierre-Marie"
+    particule: "du"
+    fonction: "Mestre de camp en second Agenois-Infanterie"
+    tags: [officier-terre]
+
+  - nom: "LECOUR GRANDMAISON"
+    prenom: "Jean-Baptiste"
+    particule: ""
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "LE MASNE"
+    prenom: "Jacques"
+    particule: ""
+    fonction: "Armateur nantais"
+    tags: [armateur-corsaire]
+
+  - nom: "LERAY de CHAUMONT"
+    prenom: "Jacques Donatien"
+    particule: ""
+    fonction: "French father of AR"
+    tags: [diplomate]
+
+  - nom: "LE ROUX"
+    prenom: "Joseph Marie"
+    particule: ""
+    fonction: "Second capitaine Transporteur"
+    tags: [officier-marine]
+
+  - nom: "LESCAN"
+    prenom: "Yves"
+    particule: ""
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "LE SEIGNEUR du CHEVALIER"
+    prenom: "René Adrien"
+    particule: ""
+    fonction: "Capitaine au régiment de Bourbonnais"
+    tags: [officier-terre, corps-expeditionnaire]
+
+  - nom: "LIBERGE de GRANCHAIN"
+    prenom: "Guillaume"
+    particule: ""
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "LINCEL"
+    prenom: "Charles François Victor"
+    particule: "de"
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "LINIERS"
+    prenom: "Jacques"
+    particule: "de"
+    fonction: "Officier dans la marine espagnole"
+    tags: [officier-marine]
+
+  - nom: "LUSTRAC"
+    prenom: "Joseph"
+    particule: "de"
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "LYONS de MONCHEAUX"
+    prenom: "Mille Waast Edouard"
+    particule: "des"
+    fonction: "Capitaine au régiment de Strasbourg-Artillerie"
+    tags: [officier-terre, artillerie]
+
+  - nom: "MAILLOUX"
+    prenom: "Pierre Vincent"
+    particule: ""
+    fonction: "Private au Régiment Bedel"
+    tags: [soldat, americain]
+
+  - nom: "MANDAT"
+    prenom: "Adrien"
+    particule: "de"
+    fonction: "Garde-Marine"
+    tags: [officier-marine]
+
+  - nom: "MARBOTIN de RUBÉRAN"
+    prenom: "Jean-Baptiste"
+    particule: ""
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "MARTIN de BONSONGE"
+    prenom: "Charles Michel"
+    particule: ""
+    fonction: "Cne canonniers garde-côtes, Dir art. La Rochelle"
+    tags: [officier-terre, artillerie]
+
+  - nom: "MARTIN d'ESCRIENNE"
+    prenom: "Alexandre Louis"
+    particule: ""
+    fonction: "Lieutenant au régiment d'Auxonne"
+    tags: [officier-terre, artillerie]
+
+  - nom: "MASLE"
+    prenom: "Jacques Marie Emmanuel"
+    particule: "du"
+    fonction: "Chirurgien de Marine"
+    tags: [chirurgien]
+
+  - nom: "MEHERENC de SAINT-PIERRE"
+    prenom: "Auguste Bonable"
+    particule: "de"
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "MENOU"
+    prenom: "Louis Armand François"
+    particule: "de"
+    fonction: "Capitaine au Régiment de Soissonnais"
+    tags: [officier-terre, corps-expeditionnaire]
+
+  - nom: "MONDION d'ARTIGNY"
+    prenom: "Louis-Auguste"
+    particule: "de"
+    fonction: "Officier au régiment de Foix-Infanterie"
+    tags: [officier-terre]
+
+  - nom: "MONTMORIN-SAINT-HEREM"
+    prenom: "Armand Marc"
+    particule: "de"
+    fonction: "Ambassadeur de France à Madrid"
+    tags: [diplomate]
+
+  - nom: "MORAND du PUCH"
+    prenom: "Élie"
+    particule: ""
+    fonction: "Officier au régiment d'Enghien-Infanterie"
+    tags: [officier-terre]
+
+  - nom: "ORILLARD de VILLEMANZY"
+    prenom: "Jacques Pierre"
+    particule: ""
+    fonction: "Commissaire des guerres"
+    tags: [diplomate]
+
+  - nom: "PARCEVAUX"
+    prenom: "Ambroise"
+    particule: "de"
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "PARDAILLAN"
+    prenom: "Pierre"
+    particule: "de"
+    fonction: "Gouverneur division Sud de Saint-Domingue"
+    tags: [diplomate]
+
+  - nom: "PAVET de COURTEILLE"
+    prenom: "Charles Jacques René"
+    particule: ""
+    fonction: "Chirurgien major de Marine"
+    tags: [chirurgien]
+
+  - nom: "PELTIER"
+    prenom: "Jean"
+    particule: ""
+    fonction: "Armateur"
+    tags: [armateur-corsaire]
+
+  - nom: "PÉNEAU"
+    prenom: "François"
+    particule: ""
+    fonction: "Chirurgien major de Marine"
+    tags: [chirurgien]
+
+  - nom: "PERCIN"
+    prenom: "Charles Michel"
+    particule: "de"
+    fonction: "Officier de dragons, chef de milices"
+    tags: [officier-terre, volontaire]
+
+  - nom: "PERCIN de SEILH"
+    prenom: "Claude Bernard"
+    particule: "de"
+    fonction: "Officier Milice en Martinique puis Rt de Hainaut"
+    tags: [officier-terre, volontaire]
+
+  - nom: "PERRIN-BRASSAC"
+    prenom: "François"
+    particule: "de"
+    fonction: "Officier au Régiment d'Auxerrois"
+    tags: [officier-terre]
+
+  - nom: "PINET de BORDE des FOREST"
+    prenom: "Jean Daniel"
+    particule: ""
+    fonction: "Officier au Régiment d'Auvergne"
+    tags: [officier-terre]
+
+  - nom: "PRÉVOST de SANSAC de TRAVERSAY"
+    prenom: "Auguste"
+    particule: ""
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "RAILLARD"
+    prenom: "Pierre-Marie"
+    particule: ""
+    fonction: "Pilote, puis Officier de marine"
+    tags: [officier-marine]
+
+  - nom: "REED"
+    prenom: "Jonathan"
+    particule: ""
+    fonction: "Volontaire, Minutemen du Massachusetts"
+    tags: [volontaire, americain]
+
+  - nom: "REGNAULD"
+    prenom: "Jacques Mathieu"
+    particule: ""
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "REIBLÉ"
+    prenom: "Jacob"
+    particule: ""
+    fonction: "Fusilier au Royal Deux Ponts"
+    tags: [soldat, corps-expeditionnaire]
+
+  - nom: "REYNAUD de VILLEVERD"
+    prenom: "Jean François"
+    particule: ""
+    fonction: "Colonel corps de St Domingue"
+    tags: [officier-terre]
+
+  - nom: "RIBAULT de LAUGARDIERE"
+    prenom: "Antoine"
+    particule: ""
+    fonction: "Officier au Royal Roussillon, en Inde"
+    tags: [officier-terre]
+
+  - nom: "RICHMOND"
+    prenom: "Zébulon"
+    particule: ""
+    fonction: "Soldat au 6ème Régiment Continental"
+    tags: [soldat, americain]
+
+  - nom: "ROBIN de BEAUREGARD de BARBENTANE"
+    prenom: "Etienne-Claude"
+    particule: "de"
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "ROOLS de GOURSOLAS de LAUBIÈRE"
+    prenom: "Joseph Nicolas"
+    particule: ""
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "ROQUEFEUIL-LABISTOUR"
+    prenom: "Jean-Baptiste"
+    particule: ""
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "ROQUEPLAN de LESTRADE"
+    prenom: "Claude Amable Vincent"
+    particule: ""
+    fonction: "Lt Colonel au Royal Auvergne"
+    tags: [officier-terre]
+
+  - nom: "ROUJÉ"
+    prenom: "Antoine"
+    particule: ""
+    fonction: "Volontaire dans les milices"
+    tags: [volontaire]
+
+  - nom: "RUFFO de BONNEVAL"
+    prenom: "Mériadec"
+    particule: ""
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "SABOULIN-BOLLENA"
+    prenom: "Armand Pierre François"
+    particule: ""
+    fonction: "Garde marine"
+    tags: [officier-marine]
+
+  - nom: "SAINT-EXUPERY"
+    prenom: "Georges Alexandre Césarée"
+    particule: "de"
+    fonction: "Officier au Régiment de la Sarre"
+    tags: [officier-terre]
+
+  - nom: "SAINT JOHN de CREVECŒUR"
+    prenom: "Michel Guillaume"
+    particule: ""
+    fonction: "Consul de France aux États-Unis"
+    tags: [diplomate]
+
+  - nom: "SANCTOS"
+    prenom: "Jacques François"
+    particule: "de"
+    fonction: "Capitaine en second de navires corsaires"
+    tags: [armateur-corsaire]
+
+  - nom: "SOCHET des TOUCHES"
+    prenom: "Charles René"
+    particule: ""
+    fonction: "Capitaine de Vaisseaux"
+    tags: [officier-marine]
+
+  - nom: "SOLLIER"
+    prenom: "Jean-François"
+    particule: ""
+    fonction: "Sergent-Major à Auvergne Infanterie"
+    tags: [soldat]
+
+  - nom: "SORBIER de POUGNADORESSE"
+    prenom: "Jean-François"
+    particule: ""
+    fonction: "Officier du Génie"
+    tags: [genie]
+
+  - nom: "SORET de BOISBRUNET"
+    prenom: "Alexandre"
+    particule: ""
+    fonction: "Officier au Régiment d'Angoumois"
+    tags: [officier-terre]
+
+  - nom: "STEELE"
+    prenom: "John"
+    particule: ""
+    fonction: "Officier 1er Rgt Pennsylvania Line"
+    tags: [officier-terre, americain]
+
+  - nom: "SURENNE"
+    prenom: "François Frédéric"
+    particule: "de"
+    fonction: "Officier au Régiment d'Auxerrois"
+    tags: [officier-terre]
+
+  - nom: "SUZANNET"
+    prenom: "Pierre Alexandre"
+    particule: "de"
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "TACHOT"
+    prenom: "Claude François"
+    particule: ""
+    fonction: "Sergent dans l'Auxerrois"
+    tags: [soldat]
+
+  - nom: "TARLÉ"
+    prenom: "Benoist-Joseph"
+    particule: "de"
+    fonction: "Intendant au corps expéditionnaire"
+    tags: [diplomate, corps-expeditionnaire]
+
+  - nom: "THIBAUT de MENONVILLE"
+    prenom: "François-Louis"
+    particule: ""
+    fonction: "Aide-Major Général du Corps de Rochambeau"
+    tags: [aide-de-camp, corps-expeditionnaire]
+
+  - nom: "THOMASSIN de PEYNIER"
+    prenom: "Antoine"
+    particule: "de"
+    fonction: "Capitaine de Vaisseau, Commandant le Fendant"
+    tags: [officier-marine]
+
+  - nom: "TILGHMAN"
+    prenom: "Tench"
+    particule: ""
+    fonction: "Officier Régt d'Infanterie Légère de Philadelphie"
+    tags: [officier-terre, americain]
+
+  - nom: "TRENTINIAN"
+    prenom: "Jean Jacques"
+    particule: "de"
+    fonction: "Capitaine des chasseurs, Légion de Lauzun"
+    tags: [officier-terre, legion-lauzun]
+
+  - nom: "TURPIN"
+    prenom: "Jean-Baptiste"
+    particule: "de"
+    fonction: "Officier de Marine"
+    tags: [officier-marine]
+
+  - nom: "VENCE"
+    prenom: "Jean Gaspard"
+    particule: ""
+    fonction: "Capitaine Corsaire aux Antilles"
+    tags: [armateur-corsaire]
+
+  - nom: "VÉRON de La BORIE"
+    prenom: "Jean André"
+    particule: "de"
+    fonction: "Gouverneur particulier de l'île de la Grenade"
+    tags: [diplomate]
+
+  - nom: "VIENOT de VAUBLANC"
+    prenom: ""
+    particule: ""
+    fonction: "Lt aux chasseurs volontaires de St Domingue"
+    tags: [officier-terre, volontaire]
+
+  - nom: "VOIZE"
+    prenom: "Jacques"
+    particule: "de"
+    fonction: "Vice-Consul à Tunis"
+    tags: [diplomate]

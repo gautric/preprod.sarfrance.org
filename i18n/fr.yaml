@@ -71,3 +71,14 @@
   translation: "Commentaire sur la page : "
 - id: contribute_edit
   translation: "Proposer une mise à jour"
+
+- id: notices_desc
+  translation: "Dictionnaire biographique des ancêtres SAR France homologués"
+- id: notices_count
+  translation: "notices homologuées"
+- id: notices_revision
+  translation: "Dernière mise à jour"
+- id: notices_search
+  translation: "Rechercher un nom, un prénom, une fonction…"
+- id: notices_no_result
+  translation: "Aucun résultat trouvé"
