@@ -8,4 +8,4 @@ layout: "notices"
 
 SAR France holds a collection of nearly 150 biographical entries concerning the ancestors of its members. This biographical dictionary is regularly expanded, and the entries can be consulted by researchers and interested SAR France members upon simple request to our secretariat.
 
-The ancestors listed in this dictionary are presented below via the following form.
+The ancestors listed in this dictionary are presented below.

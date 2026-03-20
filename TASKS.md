@@ -25,3 +25,4 @@
 - [x] 23. Activités > Dictionnaire biographique : déplacement de la liste des notices biographiques depuis Histoire vers la page Dictionnaire biographique dans Activités — création du layout notices pour activites, modification de la phrase d'introduction, suppression de l'entrée menu « Notices biographiques » dans Histoire
 - [x] 24. Contact > Nous contacter : suppression du paragraphe « Par courrier électronique » devenu redondant avec le formulaire de contact (FR/EN)
 - [x] 25. Activités > Dictionnaire biographique : correction de la faute d'orthographe « répértoriés » → « répertoriés » (FR)
+- [x] 26. Activités > Dictionnaire biographique : suppression de « via le formulaire suivant » / « via the following form » dans la phrase d'introduction (FR/EN)
