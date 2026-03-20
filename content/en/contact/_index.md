@@ -52,15 +52,6 @@ Get in touch by providing your first and last name, your email, and the subject 
 </form>
 
 
-### By Email
-
-For any information, membership, or participation in our activities, please send your request to [sarfrance.sons@gmail.com](mailto:sarfrance.sons@gmail.com) specifying:
-
-- Your first and last name
-- Your email address
-- The subject of your request
-- Your message
-
 ### Affiliation
 
 SAR France is affiliated with the National Society Sons of the American Revolution (NSSAR), headquartered in Louisville, Kentucky, United States.
