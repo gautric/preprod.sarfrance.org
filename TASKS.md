@@ -24,3 +24,4 @@
 - [x] 22. CONTRIBUTING.md : ajout en introduction de la méthode github.dev comme éditeur complet dans le navigateur (accès, fonctionnalités, enregistrement des modifications)
 - [x] 23. Activités > Dictionnaire biographique : déplacement de la liste des notices biographiques depuis Histoire vers la page Dictionnaire biographique dans Activités — création du layout notices pour activites, modification de la phrase d'introduction, suppression de l'entrée menu « Notices biographiques » dans Histoire
 - [x] 24. Contact > Nous contacter : suppression du paragraphe « Par courrier électronique » devenu redondant avec le formulaire de contact (FR/EN)
+- [x] 25. Activités > Dictionnaire biographique : correction de la faute d'orthographe « répértoriés » → « répertoriés » (FR)
