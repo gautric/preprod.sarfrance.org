@@ -67,54 +67,5 @@
     </div>
 </section>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    var lang = document.documentElement.lang || 'fr-FR';
-    var locale = (lang === 'en-US' || lang === 'en') ? 'en-US' : 'fr-FR';
-    var dateFmt = new Intl.DateTimeFormat(locale, { day: 'numeric', month: 'long', year: 'numeric' });
-    var monthFmt = new Intl.DateTimeFormat(locale, { month: 'long' });
-    document.querySelectorAll('.agenda-item__label[data-month-date]').forEach(function(el) {
-        var p = el.getAttribute('data-month-date').split('-');
-        var d = new Date(parseInt(p[0]), parseInt(p[1]) - 1, parseInt(p[2]));
-        var name = monthFmt.format(d);
-        el.textContent = name.charAt(0).toUpperCase() + name.slice(1);
-    });
-    document.querySelectorAll('.agenda-item__date[data-date]').forEach(function(el) {
-        var p = el.getAttribute('data-date').split('-');
-        var start = new Date(parseInt(p[0]), parseInt(p[1]) - 1, parseInt(p[2]));
-        var endAttr = el.getAttribute('data-date-end');
-        if (endAttr) {
-            var e = endAttr.split('-');
-            var end = new Date(parseInt(e[0]), parseInt(e[1]) - 1, parseInt(e[2]));
-            el.textContent = dateFmt.format(start) + ' \u2013 ' + dateFmt.format(end);
-        } else {
-            el.textContent = dateFmt.format(start);
-        }
-    });
-    var filters = document.querySelectorAll('.filter-btn[data-type]');
-    var items = document.querySelectorAll('.agenda-item[data-type]');
-    var months = document.querySelectorAll('.agenda-item__label[data-month-date]');
-    filters.forEach(function(btn) {
-        btn.addEventListener('click', function() {
-            filters.forEach(function(b) { b.classList.remove('active'); });
-            btn.classList.add('active');
-            var type = btn.getAttribute('data-type');
-            items.forEach(function(item) {
-                if (type === 'all') { item.classList.remove('hidden'); }
-                else { item.classList.toggle('hidden', item.getAttribute('data-type') !== type); }
-            });
-            months.forEach(function(label) {
-                var monthRow = label.closest('.agenda-item');
-                var next = monthRow.nextElementSibling;
-                var hasVisible = false;
-                while (next && !next.querySelector('.agenda-item__label')) {
-                    if (next.hasAttribute('data-type') && !next.classList.contains('hidden')) { hasVisible = true; break; }
-                    next = next.nextElementSibling;
-                }
-                monthRow.style.display = hasVisible ? '' : 'none';
-            });
-        });
-    });
-});
-</script>
 {{ end }}
+{{ define "scripts" }}<script src="/js/agenda.js"></script>{{ end }}

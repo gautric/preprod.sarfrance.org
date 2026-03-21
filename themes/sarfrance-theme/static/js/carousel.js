@@ -1,37 +1,33 @@
 /* Hero Carousel */
-(function () {
-  const track = document.querySelector('.carousel-track');
-  if (!track) return;
+$(function() {
+    var $track = $('.carousel-track');
+    if (!$track.length) return;
 
-  const slides = track.querySelectorAll('.carousel-slide');
-  const dots = document.querySelectorAll('.carousel-dot');
-  const prev = document.querySelector('.carousel-prev');
-  const next = document.querySelector('.carousel-next');
-  let current = 0;
-  let timer;
+    var $slides = $track.find('.carousel-slide');
+    var $dots = $('.carousel-dot');
+    var $prev = $('.carousel-prev');
+    var $next = $('.carousel-next');
+    var current = 0;
+    var timer;
 
-  function goTo(index) {
-    current = (index + slides.length) % slides.length;
-    track.style.transform = 'translateX(-' + current * 100 + '%)';
-    dots.forEach(function (d, i) {
-      d.classList.toggle('active', i === current);
-    });
-  }
+    function goTo(index) {
+        current = (index + $slides.length) % $slides.length;
+        $track.css('transform', 'translateX(-' + current * 100 + '%)');
+        $dots.removeClass('active').eq(current).addClass('active');
+    }
 
-  function autoPlay() {
-    timer = setInterval(function () { goTo(current + 1); }, 7500);
-  }
+    function autoPlay() {
+        timer = setInterval(function() { goTo(current + 1); }, 7500);
+    }
 
-  function resetTimer() {
-    clearInterval(timer);
+    function resetTimer() {
+        clearInterval(timer);
+        autoPlay();
+    }
+
+    $prev.on('click', function() { goTo(current - 1); resetTimer(); });
+    $next.on('click', function() { goTo(current + 1); resetTimer(); });
+    $dots.on('click', function() { goTo(Number($(this).data('index'))); resetTimer(); });
+
     autoPlay();
-  }
-
-  if (prev) prev.addEventListener('click', function () { goTo(current - 1); resetTimer(); });
-  if (next) next.addEventListener('click', function () { goTo(current + 1); resetTimer(); });
-  dots.forEach(function (dot) {
-    dot.addEventListener('click', function () { goTo(Number(this.dataset.index)); resetTimer(); });
-  });
-
-  autoPlay();
-})();
+});

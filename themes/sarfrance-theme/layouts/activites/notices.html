@@ -57,39 +57,5 @@
     </div>
 </section>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    var searchInput = document.getElementById('notices-search');
-    var cards = document.querySelectorAll('.notice-card');
-    var filters = document.querySelectorAll('.filter-btn[data-tag]');
-    var noResult = document.getElementById('notices-no-result');
-    var activeTag = 'all';
-
-    function applyFilters() {
-        var query = searchInput.value.toLowerCase().trim();
-        var visibleCount = 0;
-
-        cards.forEach(function(card) {
-            var matchesTag = activeTag === 'all' || card.getAttribute('data-tags').split(',').indexOf(activeTag) !== -1;
-            var matchesSearch = !query || card.getAttribute('data-search').indexOf(query) !== -1;
-            var visible = matchesTag && matchesSearch;
-            card.classList.toggle('hidden', !visible);
-            if (visible) visibleCount++;
-        });
-
-        noResult.hidden = visibleCount > 0;
-    }
-
-    searchInput.addEventListener('input', applyFilters);
-
-    filters.forEach(function(btn) {
-        btn.addEventListener('click', function() {
-            filters.forEach(function(b) { b.classList.remove('active'); });
-            btn.classList.add('active');
-            activeTag = btn.getAttribute('data-tag');
-            applyFilters();
-        });
-    });
-});
-</script>
 {{ end }}
+{{ define "scripts" }}<script src="/js/notices.js"></script>{{ end }}

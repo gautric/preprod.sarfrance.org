@@ -1,55 +1,40 @@
 // SAR FRANCE - Main JavaScript
 
-document.addEventListener('DOMContentLoaded', function() {
+$(function() {
     // Mobile menu toggle
-    const menuToggle = document.querySelector('.menu-toggle');
-    const navMenu = document.querySelector('.nav-menu');
-    
-    if (menuToggle && navMenu) {
-        menuToggle.addEventListener('click', function() {
-            navMenu.classList.toggle('active');
-            const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
-            menuToggle.setAttribute('aria-expanded', !expanded);
+    var $menuToggle = $('.menu-toggle');
+    var $navMenu = $('.nav-menu');
+
+    $menuToggle.on('click', function() {
+        $navMenu.toggleClass('active');
+        var expanded = $menuToggle.attr('aria-expanded') === 'true';
+        $menuToggle.attr('aria-expanded', !expanded);
+    });
+
+    // Mobile submenu toggle
+    if ($(window).width() <= 768) {
+        $('.has-submenu > a').on('click', function(e) {
+            e.preventDefault();
+            $(this).parent().toggleClass('active');
         });
     }
-    
-    // Mobile submenu toggle
-    const hasSubmenu = document.querySelectorAll('.has-submenu');
-    hasSubmenu.forEach(function(item) {
-        const link = item.querySelector('a');
-        if (window.innerWidth <= 768) {
-            link.addEventListener('click', function(e) {
-                e.preventDefault();
-                item.classList.toggle('active');
-            });
-        }
-    });
-    
+
     // Smooth scroll for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
-            e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
-            if (target) {
-                target.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
-            }
-        });
-    });
-    
-    // Header scroll effect
-    const header = document.querySelector('.site-header');
-    let lastScroll = 0;
-    
-    window.addEventListener('scroll', function() {
-        const currentScroll = window.pageYOffset;
-        if (currentScroll > 100) {
-            header.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.15)';
-        } else {
-            header.style.boxShadow = 'none';
+    $('a[href^="#"]').on('click', function(e) {
+        e.preventDefault();
+        var target = $($(this).attr('href'));
+        if (target.length) {
+            $('html, body').animate({ scrollTop: target.offset().top }, 400);
         }
-        lastScroll = currentScroll;
+    });
+
+    // Header scroll effect
+    var $header = $('.site-header');
+    $(window).on('scroll', function() {
+        if ($(window).scrollTop() > 100) {
+            $header.css('box-shadow', '0 2px 10px rgba(0, 0, 0, 0.15)');
+        } else {
+            $header.css('box-shadow', 'none');
+        }
     });
 });
