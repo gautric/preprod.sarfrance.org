@@ -8,8 +8,17 @@
 ## Frontend
 - Plain HTML templates (Go templates / Hugo templating)
 - Vanilla CSS (no preprocessor beyond Dart Sass available in CI)
-- Vanilla JavaScript (`carousel.js`, `main.js`)
-- No frontend framework, no npm dependencies in production
+- jQuery 3.x (loaded from CDN in `baseof.html`) as the JavaScript framework
+- JavaScript files: `main.js`, `carousel.js`, `agenda.js`, `chronologie.js`, `notices.js`
+- No npm dependencies in production
+
+## JavaScript Rules
+- All JavaScript must live in external `.js` files under `themes/sarfrance-theme/static/js/` — never inline `<script>` blocks in HTML templates
+- Use jQuery (`$`) for DOM manipulation, event handling, and selectors — do not use vanilla `document.querySelector`, `addEventListener`, etc.
+- Wrap page-specific code in `$(document).ready(function() { ... });`
+- Templates load scripts via `<script src=...>` tags in `baseof.html` (global scripts) or in page-specific layout blocks (page scripts)
+- When creating a new interactive page, create a dedicated `.js` file (e.g., `mypage.js`) and load it in the corresponding layout template
+- Keep jQuery slim — avoid jQuery UI or heavy plugins unless explicitly approved
 
 ## Data
 - YAML files in `data/` drive dynamic content (agenda, carousel, chronologie)

@@ -35,7 +35,7 @@
 │   │   ├── 404.html           # Error page
 │   │   └── robots.txt         # Robots template
 │   ├── static/css/            # style.css, colors.css, filters.css, agenda.css, carousel.css, chronologie.css, notices.css
-│   ├── static/js/             # main.js, carousel.js
+│   ├── static/js/             # main.js, carousel.js, agenda.js, chronologie.js, notices.js (jQuery-based)
 │   └── static/images/         # Theme images (carousel photos)
 ├── static/                    # Static assets copied as-is (site images, icons, favicons)
 ├── layouts/                   # Override directory (empty — all layouts live in theme)
@@ -63,6 +63,9 @@
 - Filter buttons across agenda, chronologie, and notices share a common `filter-btn` class defined in `filters.css` (pill shape, font size, padding, hover/active states). Page-specific CSS files should not duplicate filter base styles.
 - Active filter color overrides (`.filter-btn.active.tag-xxx` / `.filter-btn.active.type-xxx`) are defined at the bottom of `colors.css`, keeping all color definitions in one place.
 - CSS load order in `baseof.html`: `colors.css` → `style.css` → `filters.css` → page-specific CSS. This ensures variables are available, then base styles, then shared filter styles, then page overrides.
+- JavaScript must never be inlined in HTML templates — all JS lives in external `.js` files under `themes/sarfrance-theme/static/js/`
+- jQuery 3.x is loaded from CDN in `baseof.html` and is the standard JS framework — use `$()` selectors and jQuery methods, not vanilla DOM APIs
+- JS load order in `baseof.html`: jQuery CDN → `main.js` (global). Page-specific scripts (e.g., `agenda.js`, `chronologie.js`, `notices.js`, `carousel.js`) are loaded in their respective layout templates.
 
 ## Multilanguage Architecture
 
