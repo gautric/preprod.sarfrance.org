@@ -60,32 +60,25 @@ removePathAccents = true
       weight = 1
 
     [[languages.fr.menus.main]]
-      identifier = "objet"
-      name = "Objet de SAR France"
-      url = "/organisation/objet/"
-      parent = "organisation"
-      weight = 2
-
-    [[languages.fr.menus.main]]
       identifier = "statuts"
-      name = "Statuts & Règlement (extrait)"
+      name = "Objet, Statuts & Règlement"
       url = "/organisation/statuts/"
       parent = "organisation"
-      weight = 3
+      weight = 2
 
     [[languages.fr.menus.main]]
       identifier = "societes"
       name = "Sociétés françaises"
       url = "/organisation/societes/"
       parent = "organisation"
-      weight = 4
+      weight = 3
 
     [[languages.fr.menus.main]]
       identifier = "secretariat"
       name = "Secrétariat"
       url = "/organisation/secretariat/"
       parent = "organisation"
-      weight = 5
+      weight = 4
 
     # Submenus - Histoire
     [[languages.fr.menus.main]]
@@ -244,32 +237,25 @@ removePathAccents = true
       weight = 1
 
     [[languages.en.menus.main]]
-      identifier = "objet"
-      name = "Mission of SAR France"
-      url = "/en/organisation/objet/"
-      parent = "organisation"
-      weight = 2
-
-    [[languages.en.menus.main]]
       identifier = "statuts"
-      name = "Bylaws & Rules (excerpt)"
+      name = "Mission, Bylaws & Rules"
       url = "/en/organisation/statuts/"
       parent = "organisation"
-      weight = 3
+      weight = 2
 
     [[languages.en.menus.main]]
       identifier = "societes"
       name = "French Societies"
       url = "/en/organisation/societes/"
       parent = "organisation"
-      weight = 4
+      weight = 3
 
     [[languages.en.menus.main]]
       identifier = "secretariat"
       name = "Secretariat"
       url = "/en/organisation/secretariat/"
       parent = "organisation"
-      weight = 5
+      weight = 4
 
     # Submenus - History
     [[languages.en.menus.main]]

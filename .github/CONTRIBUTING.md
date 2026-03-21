@@ -67,7 +67,7 @@ Dossier : `content/organisation/`
 |---|---|
 | NSSAR | `nssar.md` |
 | Objet de SAR France | `objet.md` |
-| Statuts & Règlement | `statuts.md` |
+| Objet, Statuts & Règlement | `statuts.md` |
 | Sociétés françaises | `societes.md` |
 | Secrétariat | `secretariat.md` |
 
