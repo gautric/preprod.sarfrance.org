@@ -987,6 +987,11 @@ a:hover {
     display: none !important;
 }
 
+/* Exclude link icon from Leaflet map controls and popups */
+.leaflet-container a::after {
+    display: none !important;
+}
+
 /* ---- Responsive Design ---- */
 @media (max-width: 992px) {
     .features-grid,
