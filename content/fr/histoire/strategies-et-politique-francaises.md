@@ -7,15 +7,15 @@ description: "Adversaires et alliés dans la Guerre d'Amérique – La France et
 
 ### La France et ses voisins
 
-### Entre la Guerre de Sept Ans et la Guerre d'Amérique, le gouvernement royal a-t-il cédé à une volonté de vengeance et de haine à l'égard de l'Angleterre ?
+#### Entre la Guerre de Sept Ans et la Guerre d'Amérique, le gouvernement royal a-t-il cédé à une volonté de vengeance et de haine à l'égard de l'Angleterre ?
 
-Il est indéniable qu'il y eut une soif de revanche et de lutte contre l'impérialisme maritime du Royaume Uni dans l'esprit d'une part importante de ceux qui faisaient l'opinion et même chez des hommes de gouvernement. Mais Louis XV exilant Choiseul dès 1770, puis Louis XVI éloignant des hommes du Secret du Roi en 1774, eurent le souci d'écarter des affaires les boute-feux les plus acharnés.
+Il est indéniable qu'il y eut une soif de revanche et de lutte contre l'impérialisme maritime du Royaume-Uni dans l'esprit d'une part importante de ceux qui faisaient l'opinion et même chez des hommes de gouvernement. Mais Louis XV exilant Choiseul dès 1770, puis Louis XVI éloignant des hommes du Secret du Roi en 1774, eurent le souci d'écarter des affaires les boutefeux les plus acharnés.
 
-Bien loin d'une volonté d'agression, la politique royale fut d'être prêt si conflit il devait y avoir. Le ministre Vergennes était partisan de ne jamais entrer dans un affrontement direct mais plutôt de soutenir les pays qui engageraient des actions dont l'effet serait de contribuer à l'équilibre des forces auquel il aspirait en réduisant l'hégémonie sur mer de la petite nation britannique. On vit même, en 1773, le successeur de Choiseul (d'Aiguillon) proposer une alliance au gouvernement britannique qui la refusa, pour tenter d'éviter le dépeçage de la Pologne et protéger la Suède contre une menace d'agression de la Russie.
+Bien loin d'une volonté d'agression, la politique royale fut d'être prêt si conflit il devait y avoir. Le ministre Vergennes était partisan de ne jamais entrer dans un affrontement direct mais plutôt de soutenir les pays qui engageraient des actions dont l'effet serait de contribuer à l'équilibre des forces auquel il aspirait en réduisant l'hégémonie sur mer du Royaume-Uni. On vit même, en 1773, le successeur de Choiseul (d'Aiguillon) proposer une alliance au gouvernement britannique, qui la refusa, pour tenter d'éviter le dépeçage de la Pologne et protéger la Suède contre une menace d'agression de la Russie.
 
-Dans un système laissant peu de place au poids de l'opinion, les réalistes du gouvernement se trouvaient trop en harmonie avec le souci du bien général qui animait le jeune Roi, pour lancer quelqu'action dictée par les passions du commun.
+Dans un système laissant peu de place au poids de l'opinion, les réalistes du gouvernement se trouvaient trop en harmonie avec le souci du bien général qui animait le jeune Roi, pour lancer quelque action dictée par les passions du commun.
 
-### La France a-t-elle déclaré la guerre à l'Angleterre ?
+#### La France a-t-elle déclaré la guerre à l'Angleterre ?
 
 S'il a bien aidé les insurgés dès 1776, en envoyant secrètement des ingénieurs militaires, puis les aides matérielles dont Beaumarchais s'était fait le promoteur puis l'entrepreneur, le gouvernement de Louis XVI a longtemps hésité à répondre aux provocations anglaises et, sur les instances du souverain, a refusé de s'engager dans un conflit où ce serait lui qui déclarerait la guerre.
 
@@ -25,7 +25,7 @@ On attendit un mois pour notifier à Londres la reconnaissance de l'indépendanc
 
 La guerre est là.
 
-### Quels éléments ont conduit le parlement britannique à accepter le principe d'une indépendance des treize colonies ?
+#### Quels éléments ont conduit le Parlement britannique à accepter le principe d'une indépendance des treize colonies ?
 
 Indéniablement, la nouvelle de la capitulation de Cornwallis à Yorktown, qui eut été acceptée avec flegme quelques mois plus tôt par le gouvernement du Roi George III, est l'élément qui fit basculer son Parlement. En effet, elle se combinait avec les autres revers de cette guerre mondiale :
 
@@ -39,7 +39,7 @@ Indéniablement, la nouvelle de la capitulation de Cornwallis à Yorktown, qui e
 
 *(in Piers Mackesy : « The War for America », Harvard UP, 1964.)*
 
-### La France a-t-elle voulu poursuivre une guerre isolée avec l'Angleterre ?
+#### La France a-t-elle voulu poursuivre une guerre isolée avec l'Angleterre ?
 
 Début juin 1782, Castries est informé de la perte de cinq vaisseaux aux Saintes, et, résumant la situation dans une remarquable analyse stratégique, prépare une nouvelle intervention combinée (probablement imbattable) contre la Jamaïque. Les deux gouvernements de Paris et Madrid la confient au comte d'Estaing. Le projet en est rapidement connu à Londres, grâce à ses espions parisiens.
 
@@ -51,13 +51,13 @@ Le rusé Franklin accélère le processus en faisant signer des préliminaires s
 
 Enfin les cessez-le-feu interviennent successivement sur les différents territoires d'opération. Le 3 avril 1783 sur le territoire des USA, plus tard en Inde, le temps que les nouvelles parviennent. À temps aussi pour sauver une situation difficile pour les forces anglaises.
 
-### Quelle fut la portée de la contribution de l'Espagne ?
+#### Quelle fut la portée de la contribution de l'Espagne ?
 
 Selon Jonathan Dull (*A diplomatic history of the American Revolution*, Yale UP, 1985), outre la mise en œuvre de forces maritimes complémentaires des françaises et la menace contre Gibraltar auquel l'opinion anglaise tenait plus qu'à l'ensemble de ses colonies d'Amérique continentale, le principal effet de l'alliance espagnole fut la menace de débarquement de 1779 qui obligea l'adversaire à immobiliser pendant les années suivantes de précieuses forces de terre et de mer pour protéger son territoire.
 
 N'oublions pas aussi la prise de la Floride occidentale, la prise de Pensacola, où le chevalier de Monteil apporta un appréciable appui français maritime et terrestre au gouverneur Galvez.
 
-### L'Espagne a-t-elle financé la campagne de Yorktown ?
+#### L'Espagne a-t-elle financé la campagne de Yorktown ?
 
 Lorsque de Grasse voulut répondre à la demande d'apporter 1 200 000 livres aux forces de Washington, il chercha d'abord une solution française. Mais l'intendant de Saint-Domingue n'avait pas cette disponibilité et déclina même la proposition faite par l'amiral et plusieurs de ses officiers : Charitte, etc. Ils avaient de grands biens et offraient de les donner en gage (à la mort du comte de Grasse en 1788, ses domaines dans l'île furent estimés à 1,8 millions de livres).
 
@@ -69,7 +69,7 @@ Ils espéraient que l'indépendance américaine leur apporterait la prospérité
 
 Les États-Unis, sauvés par Cuba. Clin d'œil de l'histoire.
 
-### Quelles furent les forces « allemandes » engagées dans la Guerre ?
+#### Quelles furent les forces « allemandes » engagées dans la Guerre ?
 
 La réponse est rendue délicate par le fait que les Allemands reconnaissent pour compatriotes tous ceux qui parlent leur langue, ou ont parlé un jour un dialecte s'y apparentant, alors que, pour nous, est Français celui qui a choisi de l'être.
 
@@ -81,8 +81,8 @@ De même Steuben, que sa situation délicate obligeait à quitter Paris et que S
 
 Il y eut moins de mille germanophones du côté des Alliés, contre 29 166 débarqués aux États-Unis par les Anglais.
 
-Les quelques centaines de germanophones au Royal Deux Ponts et quelques dizaines dans la Légion de Lauzun étaient ultra minoritaires parmi les 35 000 soldats et marins engagés au côté de 9 000 Américains dans les combats de Yorktown. On croit revivre l'histoire du pâté de cheval et d'alouettes, un demi-cheval pour une demie alouette, en lisant sous une plume française : « il y eut des milliers de mercenaires allemands dans les deux camps ».
+Les quelques centaines de germanophones au Royal Deux Ponts et quelques dizaines dans la Légion de Lauzun étaient ultra-minoritaires parmi les 35 000 soldats et marins engagés au côté de 9 000 Américains dans les combats de Yorktown. On croit revivre l'histoire du pâté de cheval et d'alouettes, un demi-cheval pour une demi-alouette, en lisant sous une plume française : « il y eut des milliers de mercenaires allemands dans les deux camps ».
 
-Avec, en outre, cette différence fondamentale que les germanophones du corps de Rochambeau appartenaient à une unité partie intégrante de l'armée royale depuis plus de vingt ans, enrôlée directement par des recruteurs français. La plupart choisirent la citoyenneté française en 1789. Leur chapelain devint général de l'armée napoléonienne. La collaboration des unités louées pour la durée de la guerre par le gouvernement anglais à de petits princes allemands était d'une autre essence.
+Avec, en outre, cette différence fondamentale que les germanophones du corps de Rochambeau appartenaient à une unité partie intégrante de l'armée royale depuis plus de vingt ans, enrôlés directement par des recruteurs français. La plupart choisirent la citoyenneté française en 1789. Leur chapelain devint général de l'armée napoléonienne. La collaboration des unités louées pour la durée de la guerre par le gouvernement anglais à de petits princes allemands était d'une autre essence.
 
 Enfin, voir l'Alsace et la Lorraine présentée, dans les ouvrages inspirés par des hommes dont le pays n'existait pas encore en 1783, comme hors de France est évidemment quelque chose que nous avons le devoir de faire rectifier dans un certain nombre de publications.

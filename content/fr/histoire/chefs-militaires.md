@@ -130,7 +130,7 @@ La cavalerie des Volontaires Étrangers de la Marine, alors campée à Saint-Lun
 
 ## Le comte de Grasse
 
-Né en 1722, le comte de Grasse Tilly est capitaine de vaisseau lorsque la guerre éclate. Après trois années de formation comme page du Grand-Maître de l'Ordre de Malte, il est depuis quarante ans dans la Marine Royale quand la Guerre éclate à nouveau.
+Né en 1722, le comte de Grasse Tilly est capitaine de vaisseau lorsque la guerre éclate. Après trois années de formation comme page du Grand-Maître de l'Ordre de Malte, il sert depuis quarante ans dans la Marine Royale.
 
 En 1778, il participe au premier combat naval de la Guerre d'Amérique, celui d'Ouessant. L'année suivante, il est à la prise de Saint-Vincent, puis de la Grenade.
 

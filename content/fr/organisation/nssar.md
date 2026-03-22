@@ -21,7 +21,7 @@ Le vendredi 22 octobre 1875, sept descendants de combattants se réunirent à Sa
 
 ### 1889 : Assemblée fondatrice
 
-Le 30 avril 1889, dans la Long Room de Fraunce's Tavern à New York, là même où George Washington réunit ses officiers le 3 décembre 1783, fut fondée la National Society of the Sons of the American Revolution. Parmi les vice-présidents élus figurait, comme représentant de la France, le dernier marquis de La Fayette, Edmond (1818-1890), propre petit-fils du général.
+Le 30 avril 1889, dans la Long Room de Fraunces Tavern à New York, là même où George Washington réunit ses officiers le 3 décembre 1783, fut fondée la National Society of the Sons of the American Revolution. Parmi les vice-présidents élus figurait, comme représentant de la France, le dernier marquis de La Fayette, Edmond (1818-1890), propre petit-fils du général.
 
 ### 1906 : la Charte du Congrès
 

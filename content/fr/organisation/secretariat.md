@@ -19,7 +19,7 @@ Enfin, il assiste à tous les conseils d'administration ; il aide le secrétaire
 
 ## Conseil consultatif d'histoire
 
-La Société dispose d'un Comité consultatif d'histoire, composé de six à douze spécialistes reconnus et de membres du comité de la société. Ce comité se réunit environ tous les deux mois au siège de la société et supervise :
+La Société dispose d'un conseil consultatif d'histoire, composé de six à douze spécialistes reconnus et de membres du comité de la société. Ce comité se réunit environ tous les deux mois au siège de la société et supervise :
 
 - Conférences et manifestations commémoratives
 - Recueil et exploitation d'archives familiales méconnues

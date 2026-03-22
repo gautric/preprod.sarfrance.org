@@ -7,11 +7,11 @@ description: "Adversaries and allies in the American War – France and its neig
 
 ### France and Its Neighbors
 
-### Between the Seven Years' War and the American War, did the royal government give in to a desire for revenge and hatred toward England?
+#### Between the Seven Years' War and the American War, did the royal government give in to a desire for revenge and hatred toward England?
 
 There was undeniably a thirst for revenge and a desire to fight British maritime imperialism among a significant portion of opinion-makers and even among government officials. But Louis XV, exiling Choiseul as early as 1770, and then Louis XVI, distancing the men of the King's Secret in 1774, were careful to remove the most zealous warmongers from positions of power.
 
-Far from any desire for aggression, royal policy was to be prepared should conflict arise. Minister Vergennes favored never entering into direct confrontation but rather supporting countries that would undertake actions whose effect would contribute to the balance of power he aspired to, by reducing the maritime hegemony of the small British nation. In 1773, Choiseul's successor (d'Aiguillon) even proposed an alliance to the British government, which refused it, in an attempt to prevent the partition of Poland and protect Sweden against a threat of Russian aggression.
+Far from any desire for aggression, royal policy was to be prepared should conflict arise. Minister Vergennes favored never entering into direct confrontation but rather supporting countries that would undertake actions whose effect would contribute to the balance of power he aspired to, by reducing the maritime hegemony of the United Kingdom. In 1773, Choiseul's successor (d'Aiguillon) even proposed an alliance to the British government, which refused it, in an attempt to prevent the partition of Poland and protect Sweden against a threat of Russian aggression.
 
 In a system that left little room for public opinion, the realists in government were too much in harmony with the concern for the common good that animated the young King to launch any action dictated by popular passions.
 

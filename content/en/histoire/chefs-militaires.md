@@ -130,7 +130,7 @@ The cavalry of the Foreign Volunteers of the Navy, then camped at Saint-Lunaire,
 
 ## Count de Grasse
 
-Born in 1722, Count de Grasse Tilly was a ship captain when the war broke out. After three years of training as a page to the Grand Master of the Order of Malta, he had been in the Royal Navy for forty years when the war erupted anew.
+Born in 1722, Count de Grasse Tilly was a ship captain when the war broke out. After three years of training as a page to the Grand Master of the Order of Malta, he had served for forty years in the Royal Navy.
 
 In 1778, he participated in the first naval battle of the American War, at Ushant. The following year, he was at the capture of Saint-Vincent, then Grenada.
 
