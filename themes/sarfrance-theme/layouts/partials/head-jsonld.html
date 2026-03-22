@@ -1,0 +1,40 @@
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "SAR France",
+  "alternateName": "Société en France des Fils de la Révolution Américaine",
+  "url": "{{ .Site.BaseURL }}",
+  "logo": "{{ .Site.BaseURL }}images/icons/og-image.png",
+  "description": "{{ .Site.Params.description }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ .Site.Params.address.street }}",
+    "postalCode": "{{ .Site.Params.address.zipCode }}",
+    "addressLocality": "{{ .Site.Params.address.city }}",
+    "addressCountry": "FR"
+  },
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "National Society of the Sons of the American Revolution",
+    "url": "https://www.sar.org"
+  }
+}
+</script>
+{{ else }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{{ .Title }}",
+  "description": "{{ .Description | default .Site.Params.description }}",
+  "url": "{{ .Permalink }}",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "{{ .Site.Title }}",
+    "url": "{{ .Site.BaseURL }}"
+  }
+}
+</script>
+{{ end }}

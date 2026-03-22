@@ -82,3 +82,29 @@
   translation: "Rechercher un nom, un prénom, une fonction…"
 - id: notices_no_result
   translation: "Aucun résultat trouvé"
+
+# Footer
+- id: footer_organisation
+  translation: "Organisation"
+- id: footer_histoire
+  translation: "Histoire"
+- id: footer_activites
+  translation: "Activités"
+- id: footer_rejoindre
+  translation: "Nous rejoindre"
+- id: footer_dar
+  translation: "DAR, Chapitre Rochambeau"
+
+# 404
+- id: error_404_title
+  translation: "Page introuvable"
+- id: error_404_lead
+  translation: "On a cherché partout, même dans les archives de Rochambeau… mais cette page reste introuvable."
+- id: error_404_body
+  translation: "Il semblerait que cette page ait traversé l'Atlantique sans laisser d'adresse."
+- id: error_404_hint
+  translation: "Peut-être trouverez-vous votre bonheur ici :"
+- id: error_404_home
+  translation: "Retour à l'accueil"
+- id: error_404_agenda
+  translation: "Agenda"

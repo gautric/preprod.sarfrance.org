@@ -27,7 +27,7 @@
 ├── themes/sarfrance-theme/    # Custom Hugo theme (git submodule)
 │   ├── layouts/
 │   │   ├── _default/          # baseof.html, list.html, single.html
-│   │   ├── partials/          # header.html, footer.html, page-contribute.html
+│   │   ├── partials/          # header.html, footer.html, head-meta.html, head-favicons.html, head-css.html, head-fonts.html, head-jsonld.html, site-scripts.html, page-contribute.html, lang-prefix.html
 │   │   ├── shortcodes/        # param.html, address.html
 │   │   ├── activites/         # agenda.html, agenda.ics.ics, notices.html
 │   │   ├── histoire/          # chronologie.html, notices.html
@@ -35,8 +35,8 @@
 │   │   ├── index.html         # Homepage template
 │   │   ├── 404.html           # Error page
 │   │   └── robots.txt         # Robots template
-│   ├── static/css/            # style.css, colors.css, filters.css, agenda.css, carousel.css, chronologie.css, notices.css
-│   ├── static/js/             # main.js, carousel.js, agenda.js, chronologie.js, notices.js (jQuery-based)
+│   ├── assets/css/            # style.css, colors.css, filters.css, agenda.css, carousel.css, chronologie.css, notices.css (Hugo asset pipeline)
+│   ├── assets/js/             # main.js, carousel.js, agenda.js, chronologie.js, notices.js (jQuery-based, Hugo asset pipeline)
 │   └── static/images/         # Theme images (carousel photos)
 ├── static/                    # Static assets copied as-is (site images, icons, favicons)
 ├── layouts/                   # Override directory (empty — all layouts live in theme)
@@ -64,9 +64,14 @@
 - Filter buttons across agenda, chronologie, and notices share a common `filter-btn` class defined in `filters.css` (pill shape, font size, padding, hover/active states). Page-specific CSS files should not duplicate filter base styles.
 - Active filter color overrides (`.filter-btn.active.tag-xxx` / `.filter-btn.active.type-xxx`) are defined at the bottom of `colors.css`, keeping all color definitions in one place.
 - CSS load order in `baseof.html`: `colors.css` → `style.css` → `filters.css` → page-specific CSS. This ensures variables are available, then base styles, then shared filter styles, then page overrides.
-- JavaScript must never be inlined in HTML templates — all JS lives in external `.js` files under `themes/sarfrance-theme/static/js/`
-- jQuery 3.x is loaded from CDN in `baseof.html` and is the standard JS framework — use `$()` selectors and jQuery methods, not vanilla DOM APIs
+- CSS and JS files live in `themes/sarfrance-theme/assets/` (not `static/`) and are processed through Hugo's asset pipeline with `resources.Get` + `resources.Fingerprint` for cache busting and SRI integrity hashes
+- JavaScript must never be inlined in HTML templates — all JS lives in external `.js` files under `themes/sarfrance-theme/assets/js/`
+- jQuery 4.x is loaded from CDN in `baseof.html` and is the standard JS framework — use `$()` selectors and jQuery methods, not vanilla DOM APIs
 - JS load order in `baseof.html`: jQuery CDN → `main.js` (global). Page-specific scripts (e.g., `agenda.js`, `chronologie.js`, `notices.js`, `carousel.js`) are loaded in their respective layout templates.
+- Language prefix logic is centralized in the `lang-prefix.html` partial — use `{{ partial "lang-prefix.html" . }}` instead of inline `{{ if eq .Lang "en" }}/en{{ end }}` checks
+- The `currentAgendaYear` param in `hugo.yaml` drives the agenda year across menus, homepage, and 404 — update it once per year instead of searching for hardcoded years
+- The `githubRepo` param in `hugo.yaml` configures the GitHub repository URL used by the page-contribute widget
+- The `footerText` param uses `{year}` placeholder, replaced at build time by `now.Format "2006"` — no manual year updates needed
 
 ## Multilanguage Architecture
 
@@ -80,7 +85,7 @@
 - Language-specific params (description, heroTitle, footerText, etc.) live under `languages.XX.params`
 - UI strings (button labels, section titles, etc.) use `{{ i18n "key" }}` and are defined in `i18n/fr.yaml` and `i18n/en.yaml`
 - Templates use `{{ .Lang }}` and `{{ eq .Lang "en" }}` to adapt behavior per language
-- `hreflang` alternate links are generated automatically in `baseof.html` when translations exist
+- `hreflang` alternate links are generated automatically in `baseof.html` when translations exist, including `x-default` pointing to the French version
 - Content files in `content/fr/` and `content/en/` are paired by identical file paths (e.g. `content/fr/histoire/chronologie.md` ↔ `content/en/histoire/chronologie.md`)
 
 ## Page Contribute Widget

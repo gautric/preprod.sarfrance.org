@@ -1,0 +1,10 @@
+{{- $colors := resources.Get "css/colors.css" | resources.Fingerprint }}
+{{- $style := resources.Get "css/style.css" | resources.Fingerprint }}
+{{- $filters := resources.Get "css/filters.css" | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $colors.RelPermalink }}" integrity="{{ $colors.Data.Integrity }}">
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+<link rel="stylesheet" href="{{ $filters.RelPermalink }}" integrity="{{ $filters.Data.Integrity }}">
+{{- if .IsHome }}
+{{- $carousel := resources.Get "css/carousel.css" | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $carousel.RelPermalink }}" integrity="{{ $carousel.Data.Integrity }}">
+{{- end }}

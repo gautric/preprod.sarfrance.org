@@ -19,7 +19,7 @@ languages:
       heroTitle: "SAR France"
       heroSubtitle: "Les Fils de la Révolution Américaine – The Sons of the American Revolution (SAR)"
       heroDesc: "La Société en France des Fils de la Révolution Américaine (SAR France) réunit des descendants directs de personnes ayant contribué à donner l'indépendance aux colonies anglaises d'Amérique. SAR France a une triple vocation : transatlantique, historique et culturelle."
-      footerText: "© 2026 SAR France – Association reconnue d'utilité publique (décret du 31 décembre 2013, JO du 3 janvier 2014)"
+      footerText: "© {year} SAR France – Association reconnue d'utilité publique (décret du 31 décembre 2013, JO du 3 janvier 2014)"
     menus:
       main:
         - identifier: "accueil"
@@ -98,6 +98,8 @@ languages:
         - identifier: "agenda"
           name: "Agenda"
           url: "/activites/agenda-2026/"
+          params:
+            dynamic_year: true
           parent: "activites"
           weight: 1
         - identifier: "evenements"
@@ -159,7 +161,7 @@ languages:
       heroTitle: "SAR France"
       heroSubtitle: "The Sons of the American Revolution – Les Fils de la Révolution Américaine (SAR)"
       heroDesc: "The Society in France of the Sons of the American Revolution (SAR France) brings together direct descendants of those who contributed to the independence of the American colonies. SAR France has a threefold mission: transatlantic, historical, and cultural."
-      footerText: "© 2026 SAR France – Association recognized as being of public benefit (decree of December 31, 2013, Official Journal of January 3, 2014)"
+      footerText: "© {year} SAR France – Association recognized as being of public benefit (decree of December 31, 2013, Official Journal of January 3, 2014)"
     menus:
       main:
         - identifier: "accueil"
@@ -238,6 +240,8 @@ languages:
         - identifier: "agenda"
           name: "Calendar"
           url: "/en/activites/agenda-2026/"
+          params:
+            dynamic_year: true
           parent: "activites"
           weight: 1
         - identifier: "evenements"
@@ -288,6 +292,8 @@ languages:
           weight: 5
 
 params:
+  currentAgendaYear: 2026
+  githubRepo: "https://github.com/gautric/preprod.sarfrance.org"
   address:
     street: "20 rue Bosquet"
     zipCode: "75007"

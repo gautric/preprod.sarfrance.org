@@ -1,4 +1,6 @@
 {{ define "main" }}
+{{- $prefix := partial "lang-prefix.html" . -}}
+{{- $agendaYear := .Site.Params.currentAgendaYear | default (now.Format "2006") -}}
 <section class="hero">
     <div class="hero-content">
         <div class="hero-logo">
@@ -10,11 +12,10 @@
             <p class="hero-desc">{{ .Site.Params.heroDesc }}</p>
         </div>
     </div>
-    {{ $slides := .Site.Data.carousel }}
-    {{ if $slides }}
+    {{ with .Site.Data.carousel }}
     <div class="hero-carousel">
         <div class="carousel-track">
-            {{ range $slides }}
+            {{ range . }}
             <div class="carousel-slide">
                 <img src="{{ .image }}" alt="{{ .alt }}" loading="lazy">
                 <div class="carousel-caption">
@@ -27,7 +28,7 @@
         <button class="carousel-btn carousel-prev" aria-label="{{ i18n "prev_image" }}">&#10094;</button>
         <button class="carousel-btn carousel-next" aria-label="{{ i18n "next_image" }}">&#10095;</button>
         <div class="carousel-dots">
-            {{ range $i, $s := $slides }}
+            {{ range $i, $s := . }}
             <button class="carousel-dot{{ if eq $i 0 }} active{{ end }}" aria-label="{{ i18n "go_to_image" }} {{ add $i 1 }}" data-index="{{ $i }}"></button>
             {{ end }}
         </div>
@@ -35,34 +36,27 @@
     {{ end }}
 </section>
 
+{{ with .Site.Data.agenda }}
 {{ $today := now.Format "2006-01-02" }}
 {{ $upcoming := slice }}
-{{ range .Site.Data.agenda.events }}
+{{ range .events }}
   {{ $compareDate := cond (and .dateEnd (ne .dateEnd "")) .dateEnd .date }}
   {{ if ge $compareDate $today }}
     {{ $upcoming = $upcoming | append . }}
   {{ end }}
 {{ end }}
 {{ $upcoming = sort $upcoming "date" }}
-{{ $months := dict "01" "Jan" "02" "Fév" "03" "Mar" "04" "Avr" "05" "Mai" "06" "Juin" "07" "Juil" "08" "Août" "09" "Sep" "10" "Oct" "11" "Nov" "12" "Déc" }}
-{{ $monthsEn := dict "01" "Jan" "02" "Feb" "03" "Mar" "04" "Apr" "05" "May" "06" "Jun" "07" "Jul" "08" "Aug" "09" "Sep" "10" "Oct" "11" "Nov" "12" "Dec" }}
-{{ $lang := .Lang }}
-{{ $monthMap := cond (eq $lang "en") $monthsEn $months }}
-{{ $prefix := "" }}
-{{ if eq $lang "en" }}{{ $prefix = "/en" }}{{ end }}
 {{ if gt (len $upcoming) 0 }}
 <section class="events">
     <div class="container">
         <h2>{{ i18n "upcoming_events" }}</h2>
         <div class="events-grid">
             {{ range first 3 $upcoming }}
-            {{ $parts := split .date "-" }}
-            {{ $day := index $parts 2 }}
-            {{ $month := index $monthMap (index $parts 1) }}
+            {{ $eventDate := time .date }}
             <article class="event-card">
                 <div class="event-date">
-                    <span class="day">{{ $day }}</span>
-                    <span class="month">{{ $month }}</span>
+                    <span class="day">{{ $eventDate.Format "02" }}</span>
+                    <span class="month">{{ $eventDate.Format "Jan" }}</span>
                 </div>
                 <div class="event-info">
                     <h3>{{ .titre }}</h3>
@@ -70,9 +64,10 @@
             </article>
             {{ end }}
         </div>
-        <a href="{{ $prefix }}/activites/agenda-2026/" class="btn btn-secondary">{{ i18n "view_full_calendar" }}</a>
+        <a href="{{ $prefix }}/activites/agenda-{{ $agendaYear }}/" class="btn btn-secondary">{{ i18n "view_full_calendar" }}</a>
     </div>
 </section>
+{{ end }}
 {{ end }}
 
 <section class="features">

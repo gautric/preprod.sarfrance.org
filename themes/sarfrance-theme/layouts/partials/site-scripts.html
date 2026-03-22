@@ -1,0 +1,7 @@
+<script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
+{{- $mainJS := resources.Get "js/main.js" | resources.Fingerprint }}
+<script src="{{ $mainJS.RelPermalink }}" integrity="{{ $mainJS.Data.Integrity }}"></script>
+{{- if .IsHome }}
+{{- $carouselJS := resources.Get "js/carousel.js" | resources.Fingerprint }}
+<script src="{{ $carouselJS.RelPermalink }}" integrity="{{ $carouselJS.Data.Integrity }}"></script>
+{{- end }}

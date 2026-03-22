@@ -1,17 +1,17 @@
 {{ define "head" }}
-<link rel="stylesheet" href="/css/agenda.css">
+{{- $css := resources.Get "css/agenda.css" | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 {{ end }}
 {{ define "main" }}
-{{ $year := .Params.year | default "2026" }}
+{{- $prefix := partial "lang-prefix.html" . -}}
+{{- $agendaYear := .Site.Params.currentAgendaYear | default (now.Format "2006") -}}
+{{ $year := .Params.year | default $agendaYear }}
 {{ $types := .Site.Data.agenda.types }}
 {{ $events := where .Site.Data.agenda.events "date" "ge" (printf "%s-01-01" $year) }}
 {{ $events = where $events "date" "le" (printf "%s-12-31" $year) }}
 {{ $usedTypes := slice }}
 {{ range $events }}{{ $usedTypes = $usedTypes | append .type }}{{ end }}
 {{ $usedTypes = $usedTypes | uniq }}
-{{ $lang := .Lang }}
-{{ $prefix := "" }}
-{{ if eq $lang "en" }}{{ $prefix = "/en" }}{{ end }}
 <section class="page-content">
     <div class="page-header">
         <div class="container">
@@ -28,7 +28,13 @@
             <span class="agenda-export__hint">{{ i18n "ics_hint" }}</span>
         </div>
         <nav class="agenda-nav" aria-label="{{ i18n "year_nav" }}">
-            {{ range $y := slice "2026" "2025" "2024" "2023" "2022" "2021" "2020" "2019" "2018" }}
+            {{- /* Build year list dynamically from agenda content pages */ -}}
+            {{- $years := slice -}}
+            {{- range where .Site.RegularPages "Layout" "agenda" -}}
+                {{- with .Params.year -}}{{ $years = $years | append . }}{{- end -}}
+            {{- end -}}
+            {{- $years = sort ($years | uniq) "value" "desc" -}}
+            {{ range $y := $years }}
             <a href="{{ $prefix }}/activites/agenda-{{ $y }}/" class="filter-btn agenda-nav__link{{ if eq $y $year }} active{{ end }}">{{ $y }}</a>
             {{ end }}
         </nav>
@@ -68,4 +74,7 @@
 </section>
 
 {{ end }}
-{{ define "scripts" }}<script src="/js/agenda.js"></script>{{ end }}
+{{ define "scripts" }}
+{{- $js := resources.Get "js/agenda.js" | resources.Fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+{{ end }}

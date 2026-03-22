@@ -1,4 +1,4 @@
-{{- $repo := "https://github.com/gautric/preprod.sarfrance.org" -}}
+{{- $repo := .Site.Params.githubRepo | default "https://github.com/gautric/preprod.sarfrance.org" -}}
 {{- $filePath := .File.Path -}}
 <div class="page-contribute">
     <button class="page-contribute-toggle" aria-label="{{ i18n "contribute_label" }}" aria-expanded="false">

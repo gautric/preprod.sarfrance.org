@@ -1,91 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default .Lang }}">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {{- $desc := .Description | default .Site.Params.description -}}
-    <meta name="description" content="{{ $desc }}">
-    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-    <link rel="canonical" href="{{ .Permalink }}">
-    {{ if .IsTranslated }}
-    {{ range .Translations }}
-    <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
-    {{ end }}
-    <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
-    {{ end }}
-    <!-- Open Graph -->
-    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
-    <meta property="og:description" content="{{ $desc }}">
-    <meta property="og:url" content="{{ .Permalink }}">
-    <meta property="og:site_name" content="{{ .Site.Title }}">
-    <meta property="og:locale" content="{{ if eq .Lang "en" }}en_US{{ else }}fr_FR{{ end }}">
-    <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
-    <!-- Favicons -->
-    <link rel="icon" type="image/x-icon" href="/images/icons/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="167x167" href="/images/icons/apple-touch-icon-167x167.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/images/icons/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/images/icons/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/images/icons/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/images/icons/apple-touch-icon-60x60.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="msapplication-TileImage" content="/images/icons/mstile-150x150.png">
-    <meta name="msapplication-TileColor" content="#1a2a4a">
-    <meta name="theme-color" content="#1a2a4a">
-    <meta property="og:image" content="{{ .Site.BaseURL }}images/icons/og-image.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <link rel="stylesheet" href="/css/colors.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/filters.css">
-    {{ if .IsHome }}<link rel="stylesheet" href="/css/carousel.css">{{ end }}
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    {{- partial "head-meta.html" . }}
+    {{- partial "head-favicons.html" . }}
+    <!-- CSS: colors → style → filters → page-specific -->
+    {{- partial "head-css.html" . }}
+    <!-- Fonts -->
+    {{- partial "head-fonts.html" . }}
     {{- block "head" . }}{{- end }}
     <!-- JSON-LD Structured Data -->
-    {{ if .IsHome }}
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "SAR France",
-      "alternateName": "Société en France des Fils de la Révolution Américaine",
-      "url": "{{ .Site.BaseURL }}",
-      "logo": "{{ .Site.BaseURL }}images/icons/og-image.png",
-      "description": "{{ .Site.Params.description }}",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "{{ .Site.Params.address.street }}",
-        "postalCode": "{{ .Site.Params.address.zipCode }}",
-        "addressLocality": "{{ .Site.Params.address.city }}",
-        "addressCountry": "FR"
-      },
-      "parentOrganization": {
-        "@type": "Organization",
-        "name": "National Society of the Sons of the American Revolution",
-        "url": "https://www.sar.org"
-      }
-    }
-    </script>
-    {{ else }}
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "{{ .Title }}",
-      "description": "{{ .Description | default .Site.Params.description }}",
-      "url": "{{ .Permalink }}",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "{{ .Site.Title }}",
-        "url": "{{ .Site.BaseURL }}"
-      }
-    }
-    </script>
-    {{ end }}
+    {{- partial "head-jsonld.html" . }}
 </head>
 <body>
     {{- partial "header.html" . -}}
@@ -93,9 +17,7 @@
         {{- block "main" . }}{{- end }}
     </main>
     {{- partial "footer.html" . -}}
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="/js/main.js"></script>
-    {{ if .IsHome }}<script src="/js/carousel.js"></script>{{ end }}
+    {{- partial "site-scripts.html" . }}
     {{- block "scripts" . }}{{- end }}
 </body>
 </html>

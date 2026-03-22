@@ -82,3 +82,29 @@
   translation: "Search by name, first name, role…"
 - id: notices_no_result
   translation: "No results found"
+
+# Footer
+- id: footer_organisation
+  translation: "Organization"
+- id: footer_histoire
+  translation: "History"
+- id: footer_activites
+  translation: "Activities"
+- id: footer_rejoindre
+  translation: "Join Us"
+- id: footer_dar
+  translation: "DAR, Rochambeau Chapter"
+
+# 404
+- id: error_404_title
+  translation: "Page not found"
+- id: error_404_lead
+  translation: "We searched everywhere, even in Rochambeau's archives… but this page remains unfound."
+- id: error_404_body
+  translation: "It seems this page crossed the Atlantic without leaving a forwarding address."
+- id: error_404_hint
+  translation: "Perhaps you'll find what you're looking for here:"
+- id: error_404_home
+  translation: "Back to home"
+- id: error_404_agenda
+  translation: "Calendar"

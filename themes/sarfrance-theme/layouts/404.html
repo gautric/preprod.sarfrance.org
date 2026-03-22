@@ -1,19 +1,21 @@
 {{ define "main" }}
+{{- $prefix := partial "lang-prefix.html" . -}}
+{{- $agendaYear := .Site.Params.currentAgendaYear | default (now.Format "2006") -}}
 <section class="page-header">
     <div class="container">
         <h1>404</h1>
-        <p class="page-description">Page introuvable</p>
+        <p class="page-description">{{ i18n "error_404_title" }}</p>
     </div>
 </section>
 
 <section class="page-content">
     <div class="container error-404">
-        <p class="error-lead">On a cherché partout, même dans les archives de Rochambeau… mais cette page reste introuvable.</p>
-        <p>Il semblerait que cette page ait traversé l'Atlantique sans laisser d'adresse.</p>
-        <p class="error-hint">Peut-être trouverez-vous votre bonheur ici&nbsp;:</p>
+        <p class="error-lead">{{ i18n "error_404_lead" }}</p>
+        <p>{{ i18n "error_404_body" }}</p>
+        <p class="error-hint">{{ i18n "error_404_hint" }}</p>
         <div class="error-actions">
-            <a href="/" class="btn btn-primary">Retour à l'accueil</a>
-            <a href="/activites/agenda-2026/" class="btn btn-secondary">Agenda {{ now.Year }}</a>
+            <a href="{{ $prefix }}/" class="btn btn-primary">{{ i18n "error_404_home" }}</a>
+            <a href="{{ $prefix }}/activites/agenda-{{ $agendaYear }}/" class="btn btn-secondary">{{ i18n "error_404_agenda" }} {{ $agendaYear }}</a>
         </div>
     </div>
 </section>
