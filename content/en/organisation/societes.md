@@ -43,7 +43,7 @@ Originating in 1784 from the society of friends created around Washington in May
 ### Franco-American Relations
 
 - [Cercle France Amériques](https://france-ameriques.org/)
-- [Embassy of the United States of America in France](https://www.amb-usa.fr/)
+- [Embassy of the United States of America in France](https://fr.usembassy.gov/)
 - [France-Amérique International Journal](http://www.france-amerique.com/)
 
 ### Historical and Heritage Associations

@@ -45,7 +45,7 @@ Issue en 1784 de la société d'amis créée autour de Washington dès mai 1783 
 ### Relations franco-américaines
 
 - [Cercle France Amériques](https://france-ameriques.org/)
-- [Ambassade des États-Unis d'Amérique](https://www.amb-usa.fr/)
+- [Ambassade des États-Unis d'Amérique](https://fr.usembassy.gov/)
 - [Journal international France-Amérique](http://www.france-amerique.com/)
 
 ### Associations historiques et patrimoniales
