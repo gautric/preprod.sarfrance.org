@@ -1,0 +1,506 @@
+references:
+- title: Friendship Brochure — Sites of Franco-American Friendship
+  author: Embassy of the United States of America in France
+  date: February 2026
+  url: https://fr.usembassy.gov/wp-content/uploads/sites/82/2026/02/Friendship-Brochure_February2026.pdf
+- title: Paris, Birthplace of the U.S.A.
+  author: Daniel Jouve
+  date: '1996'
+  publisher: éditions Gründ
+  description: Describes 23 Parisian sites that played a significant role in the American Revolution.
+tags:
+  résidence:
+    label: Residence
+  statue:
+    label: Statue / Monument
+  cimetière:
+    label: Cemetery
+  château:
+    label: Castle / Estate
+  port:
+    label: Port
+  arsenal:
+    label: Arsenal / Manufactory
+  musée:
+    label: Museum
+  monument-historique:
+    label: Historic monument
+  stèle:
+    label: Stele / Memorial
+  lieu-de-mémoire:
+    label: Site of remembrance
+regions:
+- nom: Paris – Right Bank
+  lieux:
+  - titre: Hôtel de Langeac
+    adresse: corner of Champs-Élysées / rue de Berri, 8th
+    lat: 48.87189
+    lon: 2.3064
+    tags:
+    - résidence
+    personnages:
+    - Thomas Jefferson
+    description: Residence of Thomas Jefferson from 1785 to 1789, while serving as Minister Plenipotentiary to the Kingdom of France. The mansion, built in 1768 by architect Chalgrin, served as both private residence and official legation. Jefferson lived there with his daughters, his secretary William Short, and his servants. Demolished in 1842.
+    wikipedia: https://en.wikipedia.org/wiki/Thomas_Jefferson
+  - titre: Residence of the Marquis de La Fayette
+    adresse: 8 rue d'Anjou, 8th
+    lat: 48.8719
+    lon: 2.3212
+    tags:
+    - résidence
+    personnages:
+    - La Fayette
+    description: La Fayette's last Parisian residence, where he lived from 1827 until his death on May 20, 1834. A commemorative plaque marks the site.
+    wikipedia: https://en.wikipedia.org/wiki/Marquis_de_Lafayette
+  - titre: Equestrian Statue of La Fayette
+    adresse: Cours La Reine, 8th
+    lat: 48.8656
+    lon: 2.3134
+    tags:
+    - statue
+    personnages:
+    - La Fayette
+    description: By American sculptor Paul Wayland Bartlett, funded by a subscription among American schoolchildren initiated by Robert J. Thompson of Chicago, to thank France for the Statue of Liberty. Unveiled on July 4, 1900 in the Louvre's Cour Napoléon (first in plaster, replaced in bronze in 1908), then moved to Cours La Reine in 1985.
+    wikipedia: https://en.wikipedia.org/wiki/Paul_Wayland_Bartlett
+  - titre: Picpus Cemetery
+    adresse: 35 rue de Picpus, 12th
+    lat: 48.8434
+    lon: 2.3971
+    tags:
+    - cimetière
+    - lieu-de-mémoire
+    personnages:
+    - La Fayette
+    - Adrienne de Noailles
+    description: Where La Fayette and his wife Adrienne de Noailles are buried. La Fayette was interred in soil he had brought back from America in 1824. On July 4, 1917, Colonel Stanton spoke the famous words "Lafayette, we are here!" An American flag flies permanently over his grave — the only one displayed in occupied Paris during WWII.
+    wikipedia: https://en.wikipedia.org/wiki/Picpus_Cemetery
+  - titre: Statue of Thomas Paine
+    adresse: Parc Montsouris, 14th
+    lat: 48.8222
+    lon: 2.3381
+    tags:
+    - statue
+    personnages:
+    - Thomas Paine
+    description: Gilded bronze statue of Thomas Paine (1737–1809), a major figure of the American Revolution and member of the French Convention. Created by Gutzon Borglum (sculptor of Mount Rushmore), commissioned in 1937, hidden during WWII and unveiled in 1948.
+    wikipedia: https://en.wikipedia.org/wiki/Thomas_Paine
+  - titre: Equestrian Statue of Washington
+    adresse: Place d'Iéna, 16th
+    lat: 48.8644
+    lon: 2.2937
+    tags:
+    - statue
+    personnages:
+    - George Washington
+    description: 'By American sculptors Daniel Chester French and Edward Clark Potter, offered by a committee of American women and unveiled on July 3, 1900. Inscription: "Offered by the women of the United States of America in memory of the fraternal aid given by France to their fathers during the struggle for Independence."'
+    wikipedia: https://en.wikipedia.org/wiki/Place_d%27I%C3%A9na
+  - titre: La Fayette and Washington Monument
+    adresse: Place des États-Unis, 16th
+    lat: 48.8664
+    lon: 2.2906
+    tags:
+    - statue
+    personnages:
+    - La Fayette
+    - George Washington
+    description: Bronze group by Frédéric Auguste Bartholdi (creator of the Statue of Liberty), commissioned by publisher Joseph Pulitzer in 1887. Washington and La Fayette shake hands on either side of the French and American flags. Unveiled December 2, 1895. A replica stands in Lafayette Square, Manhattan.
+    wikipedia: https://en.wikipedia.org/wiki/Place_des_%C3%89tats-Unis#Statue_of_Washington_and_Lafayette
+  - titre: Statue of Rochambeau
+    adresse: Place Rochambeau, 16th
+    lat: 48.8631
+    lon: 2.2853
+    tags:
+    - statue
+    personnages:
+    - Rochambeau
+    description: Bronze statue by sculptor Fernand Hamar, erected in 1933 through a Franco-American subscription, honoring the commander of the French expeditionary corps during the War of Independence.
+    wikipedia: https://fr.wikipedia.org/wiki/Fernand_Hamar
+  - titre: Monument to Admiral de Grasse
+    adresse: Trocadéro Gardens, 16th
+    lat: 48.8617
+    lon: 2.287
+    tags:
+    - statue
+    personnages:
+    - Amiral de Grasse
+    description: Bronze monument by sculptor Paul Landowski, donated to the City of Paris by American A. Kingsley Macomber in 1931, in memory of the hero of the Battle of the Chesapeake (1781).
+    wikipedia: https://en.wikipedia.org/wiki/Paul_Landowski
+  - titre: Monument to Benjamin Franklin
+    adresse: Square de Yorktown, 16th
+    lat: 48.861
+    lon: 2.282
+    tags:
+    - statue
+    personnages:
+    - Benjamin Franklin
+    description: Bronze statue by John J. Boyle, donated by Franco-American John H. Harjes in 1906. The square is named after the decisive Battle of Yorktown (1781). The bas-reliefs depict Franklin's reception at Versailles (1778) and the signing of the Treaty of Paris (1783).
+    wikipedia: https://fr.wikipedia.org/wiki/Square_de_Yorktown
+- nom: Paris – Left Bank
+  lieux:
+  - titre: Hôtel de Valentinois
+    adresse: corner of rue Raynouard / rue Singer, 16th
+    lat: 48.8564
+    lon: 2.2783
+    tags:
+    - résidence
+    personnages:
+    - Benjamin Franklin
+    description: Residence of Benjamin Franklin from 1777 to 1785, provided by Jacques-Donatien Le Ray de Chaumont. Franklin established the official American Legation and a printing press there. He received Turgot, Buffon, d'Alembert, Condorcet, Beaumarchais, and the young La Fayette. From Passy, he negotiated the Treaties of Amity, Commerce and Alliance signed on February 6, 1778. On November 21, 1783, he witnessed the first manned flight in history from the nearby Château de la Muette.
+    wikipedia: https://en.wikipedia.org/wiki/Benjamin_Franklin
+  - titre: Hôtel Antier
+    adresse: 43-47 rue d'Auteuil, 16th
+    lat: 48.8478
+    lon: 2.2587
+    tags:
+    - résidence
+    personnages:
+    - John Adams
+    - John Quincy Adams
+    description: Residence of John Adams (future 2nd President) and his son John Quincy Adams (future 6th President) from August 1784 to May 1785. Adams had negotiated alongside Franklin and Jay the Treaty of Paris of 1783 that ended the War of Independence.
+    wikipedia: https://en.wikipedia.org/wiki/John_Adams
+- nom: Auvergne-Rhône-Alpes
+  lieux:
+  - titre: Château de Chavaniac
+    adresse: Chavaniac-Lafayette, Haute-Loire
+    lat: 45.1187
+    lon: 3.5934
+    tags:
+    - château
+    - lieu-de-mémoire
+    personnages:
+    - La Fayette
+    url: https://www.chateau-lafayette.com/
+    description: Birthplace of La Fayette on September 6, 1757. Purchased in 1916 by the French Heroes Lafayette Memorial Fund, it is now a listed historic monument open to the public.
+  - titre: Paccard Foundry
+    adresse: Sevrier, Haute-Savoie
+    lat: 45.861
+    lon: 6.144
+    tags:
+    - arsenal
+    personnages: []
+    url: https://www.paccard.com/
+    description: Bell foundry established in 1796. In 1950, the U.S. government commissioned 54 replicas of the Liberty Bell for each state and territory. One of the remaining copies was donated to Annecy in 1951.
+    wikipedia: https://en.wikipedia.org/wiki/Liberty_Bell
+  - titre: Saint-Étienne Arms Manufactory
+    adresse: Saint-Étienne, Loire
+    lat: 45.434
+    lon: 4.39
+    tags:
+    - arsenal
+    personnages:
+    - Beaumarchais
+    description: Royal manufactory established in 1764, which supplied arms to the American insurgents during the War of Independence, in collaboration with Beaumarchais and private shipowners.
+    wikipedia: https://en.wikipedia.org/wiki/Manufacture_d%27armes_de_Saint-%C3%89tienne
+  - titre: Royal Forges of Guérigny
+    adresse: Guérigny, Nièvre
+    lat: 47.087
+    lon: 3.193
+    tags:
+    - arsenal
+    personnages:
+    - Pierre Babaud de La Chaussade
+    description: Pierre Babaud de La Chaussade's metallurgical enterprise, specialized in anchor parts for the Navy. The forges helped arm the French ships engaged in the Battle of the Chesapeake (1781).
+    wikipedia: https://fr.wikipedia.org/wiki/Forges_de_la_Chauss%C3%A9e
+  - titre: Bourbonnais Memorial Stele
+    adresse: Yzeure, Allier
+    lat: 46.342
+    lon: 3.354
+    tags:
+    - stèle
+    personnages: []
+    description: Unveiled on October 13, 2025, honoring combatants from the Bourbonnais region who fought in the War of Independence, including at least 77 volunteers from the Allier.
+- nom: Brittany
+  lieux:
+  - titre: Port of Saint-Goustan
+    adresse: Auray, Morbihan
+    lat: 47.664
+    lon: -2.976
+    tags:
+    - port
+    - lieu-de-mémoire
+    personnages:
+    - Benjamin Franklin
+    description: Where Benjamin Franklin landed on December 4, 1776, after crossing from Philadelphia. The quay now bears the name Quai Franklin.
+    wikipedia: https://en.wikipedia.org/wiki/Saint-Goustan
+  - titre: Brest
+    adresse: Brest, Finistère
+    lat: 48.39
+    lon: -4.49
+    tags:
+    - port
+    - arsenal
+    personnages:
+    - La Fayette
+    - Rochambeau
+    - Amiral de Grasse
+    url: https://www.musee-marine.fr/en/our-museums/brest.html
+    description: France's foremost naval arsenal and departure point for expeditions to America. La Fayette landed here in February 1779; Rochambeau departed on May 2, 1780 with 5,500 men; Admiral de Grasse set sail on March 22, 1781. A monument to Rochambeau and de Grasse stands on Cours Dajot.
+  - titre: Lorient
+    adresse: Lorient, Morbihan
+    lat: 47.748
+    lon: -3.37
+    tags:
+    - port
+    personnages:
+    - John Paul Jones
+    description: From where John Paul Jones departed on May 1, 1779 aboard the frigate USS Bonhomme Richard, provided by Louis XVI.
+    wikipedia: https://en.wikipedia.org/wiki/John_Paul_Jones
+  - titre: Château de la Rouërie
+    adresse: Saint-Ouen-la-Rouërie, Ille-et-Vilaine
+    lat: 48.362
+    lon: -1.378
+    tags:
+    - château
+    personnages:
+    - Armand Tuffin de la Rouërie
+    description: Estate of Armand Tuffin de la Rouërie, known as "Colonel Armand," who fought in the Continental Army and participated in the Battle of Yorktown. A friend of Washington, he was promoted to Brigadier General.
+    wikipedia: https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_la_Rou%C3%ABrie
+- nom: Centre-Val de Loire
+  lieux:
+  - titre: Statue of Rochambeau in Vendôme
+    adresse: Vendôme, Loir-et-Cher
+    lat: 47.793
+    lon: 1.066
+    tags:
+    - statue
+    personnages:
+    - Rochambeau
+    description: Rochambeau's birthplace (July 1, 1725). A statue by Fernand Hamar was unveiled in 1900; a replica was erected in Washington in 1902. The original, destroyed during WWII, was replaced in 1974 by a cast of the Washington statue.
+    wikipedia: https://en.wikipedia.org/wiki/Comte_de_Rochambeau
+  - titre: Château de Rochambeau
+    adresse: Thoré-la-Rochette, Loir-et-Cher
+    lat: 47.776
+    lon: 0.998
+    tags:
+    - château
+    personnages:
+    - Rochambeau
+    description: Property of the Vimeur de Rochambeau family, where the general died on May 10, 1807.
+    wikipedia: https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Rochambeau
+- nom: Grand Est
+  lieux:
+  - titre: Metz Courthouse
+    adresse: Metz, Moselle
+    lat: 49.119
+    lon: 6.176
+    tags:
+    - lieu-de-mémoire
+    personnages:
+    - La Fayette
+    description: Site of the former Hôtel Haute Pierre where the "Metz supper" took place on August 8, 1775, during which La Fayette decided to sail for America, encouraged by the Duke of Gloucester. A statue of La Fayette stands in the Jardin Boufflers.
+    wikipedia: https://en.wikipedia.org/wiki/Marquis_de_Lafayette#Early_military_career
+  - titre: Porte Désilles
+    adresse: Nancy, Lorraine
+    lat: 48.696
+    lon: 6.171
+    tags:
+    - monument-historique
+    - stèle
+    personnages: []
+    description: Triumphal arch built between 1782 and 1784 in memory of the citizens of Nancy who died for American independence at the Battle of Yorktown. The oldest war memorial in France.
+    wikipedia: https://fr.wikipedia.org/wiki/Porte_D%C3%A9silles
+- nom: Hauts-de-France
+  lieux:
+  - titre: Lycée Alexandre-Ribot
+    adresse: Saint-Omer, Pas-de-Calais
+    lat: 50.748
+    lon: 2.256
+    tags:
+    - lieu-de-mémoire
+    personnages:
+    - Daniel Carroll
+    - John Carroll
+    - Charles Carroll
+    description: Former Jesuit College where Daniel Carroll, John Carroll and Charles Carroll from Maryland studied. Daniel and Charles signed the Constitution and the Declaration of Independence; John founded Georgetown University.
+    wikipedia: https://en.wikipedia.org/wiki/Charles_Carroll_of_Carrollton
+  - titre: Museum of Franco-American Cooperation at Blérancourt
+    adresse: Blérancourt, Aisne
+    lat: 49.518
+    lon: 3.157
+    tags:
+    - musée
+    personnages: []
+    url: https://museefrancoamericain.fr/en
+    description: Where American nurses, arriving by the hundreds from 1914, were based.
+- nom: Île-de-France
+  lieux:
+  - titre: Palace of Versailles
+    adresse: Versailles, Yvelines
+    lat: 48.8049
+    lon: 2.1204
+    tags:
+    - château
+    - lieu-de-mémoire
+    personnages:
+    - Benjamin Franklin
+    - Silas Deane
+    - Arthur Lee
+    - Louis XVI
+    url: https://www.chateauversailles.fr/en
+    description: On March 20, 1778, Franklin, Silas Deane and Arthur Lee were officially received by Louis XVI following the signing of the alliance treaty. The Treaty of Versailles of 1783 was also signed there, at the Hôtel des Affaires étrangères et de la Marine.
+    wikipedia: https://en.wikipedia.org/wiki/Treaty_of_Versailles_(1783)
+  - titre: Château de La Grange-Bléneau
+    adresse: Courpalay, Seine-et-Marne
+    lat: 48.587
+    lon: 2.882
+    tags:
+    - château
+    personnages:
+    - La Fayette
+    description: La Fayette's residence from 1802 until his death in 1834. Property of the Josée-et-René-de-Chambrun Foundation, which preserves the Marquis's private archives.
+    wikipedia: https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_la_Grange-Bl%C3%A9neau
+  - titre: Château de Tilly
+    adresse: Tilly, Yvelines
+    lat: 48.857
+    lon: 1.722
+    tags:
+    - château
+    personnages:
+    - Amiral de Grasse
+    description: Estate of Admiral de Grasse, where he died on January 11, 1788. In 1786, Congress presented him with four cannons captured from the British at Yorktown.
+    wikipedia: https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Tilly_(Yvelines)
+  - titre: Désert de Retz
+    adresse: Chambourcy, Yvelines
+    lat: 48.878
+    lon: 2.032
+    tags:
+    - lieu-de-mémoire
+    personnages:
+    - Benjamin Franklin
+    - Thomas Jefferson
+    description: Anglo-Chinese garden created between 1774 and 1789, visited by Benjamin Franklin and Thomas Jefferson during their time in France.
+    wikipedia: https://en.wikipedia.org/wiki/D%C3%A9sert_de_Retz
+- nom: Nouvelle-Aquitaine
+  lieux:
+  - titre: Bordeaux
+    adresse: Bordeaux, Gironde
+    lat: 44.853
+    lon: -0.574
+    tags:
+    - port
+    - lieu-de-mémoire
+    personnages:
+    - La Fayette
+    - Thomas Jefferson
+    description: Port from which La Fayette first sailed for America in 1777 aboard La Victoire. Thomas Jefferson visited the vineyards in May 1787. The Hôtel Fenwick (1 Cours Xavier Arnozan) housed the first U.S. consulate in the world (1790).
+  - titre: Pauillac
+    adresse: Pauillac, Gironde
+    lat: 45.197
+    lon: -0.749
+    tags:
+    - stèle
+    - port
+    personnages:
+    - La Fayette
+    description: Monument commemorating La Fayette's departure from the port of Pauillac aboard La Victoire on March 25, 1777.
+  - titre: Pointe de Grave
+    adresse: Le Verdon-sur-Mer, Gironde
+    lat: 45.571
+    lon: -1.062
+    tags:
+    - stèle
+    personnages:
+    - La Fayette
+    description: Memorial stele recalling La Fayette's departure in 1777 and the American commitment in 1917. The original monument (1938) was dynamited in 1942.
+  - titre: Rochefort Arsenal and Royal Rope Factory
+    adresse: Rochefort, Charente-Maritime
+    lat: 45.936
+    lon: -0.962
+    tags:
+    - arsenal
+    - port
+    personnages:
+    - La Fayette
+    url: https://corderie-royale.com/
+    description: Arsenal founded by Louis XIV in 1666, where L'Hermione was built in 1779. La Fayette embarked there on March 20, 1780 for his second voyage to America. The frigate, rebuilt identically between 1997 and 2014, made a transatlantic crossing in 2015.
+    wikipedia: https://en.wikipedia.org/wiki/French_frigate_Hermione_(1779)
+  - titre: Port-des-Barques
+    adresse: Port-des-Barques, Charente-Maritime
+    lat: 45.947
+    lon: -1.078
+    tags:
+    - stèle
+    - port
+    personnages:
+    - La Fayette
+    description: Stele commemorating La Fayette's embarkation aboard L'Hermione in March 1780.
+- nom: Occitanie
+  lieux:
+  - titre: Maison Carrée
+    adresse: Nîmes, Gard
+    lat: 43.8384
+    lon: 4.356
+    tags:
+    - monument-historique
+    personnages:
+    - Thomas Jefferson
+    description: Roman temple that inspired Thomas Jefferson for the construction of the Virginia State Capitol in Richmond. Jefferson visited Nîmes on March 19, 1787 during his journey through southern France.
+    wikipedia: https://en.wikipedia.org/wiki/Maison_Carr%C3%A9e
+  - titre: Canal du Midi
+    adresse: Languedoc
+    lat: 43.3
+    lon: 2.5
+    tags:
+    - lieu-de-mémoire
+    personnages:
+    - Thomas Jefferson
+    description: Thomas Jefferson sailed on the canal in May 1787 and took extensive notes on its technical achievements, which inspired his ideas for developing waterways in the United States.
+    wikipedia: https://en.wikipedia.org/wiki/Canal_du_Midi
+  - titre: Hôtel du Griffon d'Or
+    adresse: Toulouse, Haute-Garonne
+    lat: 43.604
+    lon: 1.445
+    tags:
+    - lieu-de-mémoire
+    personnages:
+    - Thomas Jefferson
+    description: Now Collège Pierre-de-Fermat. Where Thomas Jefferson stayed on May 21–22, 1787 during his Canal du Midi journey.
+    wikipedia: https://en.wikipedia.org/wiki/Lyc%C3%A9e_Pierre-de-Fermat
+- nom: Provence-Alpes-Côte d'Azur
+  lieux:
+  - titre: Grasse and Bar-sur-Loup
+    adresse: Grasse / Bar-sur-Loup, Alpes-Maritimes
+    lat: 43.659
+    lon: 6.923
+    tags:
+    - statue
+    - musée
+    personnages:
+    - Amiral de Grasse
+    url: https://www.museesdegrasse.com/
+    description: 'The stronghold of Admiral de Grasse, born September 13, 1722 at the Château des Valettes du Bar. A statue by Cyril de La Patellière stands before the Château des Comtes de Grasse in Bar-sur-Loup, bearing Washington''s quote: "You have been the arbiter of the war." The Naval Museum in Grasse traces the Admiral''s story.'
+    wikipedia: https://en.wikipedia.org/wiki/Fran%C3%A7ois_Joseph_Paul_de_Grasse
+  - titre: Toulon
+    adresse: Toulon, Var
+    lat: 43.124
+    lon: 5.928
+    tags:
+    - port
+    - musée
+    personnages:
+    - Amiral d'Estaing
+    url: https://www.musee-marine.fr/en/our-museums/toulon.html
+    description: From where Admiral d'Estaing and the first reinforcements departed. See the National Naval Museum.
+    wikipedia: https://en.wikipedia.org/wiki/Charles_Henri,_comte_d%27Estaing
+- nom: Other Notable Sites
+  lieux:
+  - titre: Port-Vendres
+    adresse: Port-Vendres, Pyrénées-Orientales
+    lat: 42.518
+    lon: 3.105
+    tags:
+    - monument-historique
+    personnages:
+    - Louis XVI
+    description: 'The obelisk dedicated to the four great works of King Louis XVI: serfdom abolished, freedom of trade, the navy restored, and America made independent.'
+    wikipedia: https://fr.wikipedia.org/wiki/Ob%C3%A9lisque_de_Port-Vendres
+  - titre: Saint-Tropez
+    adresse: Saint-Tropez, Var
+    lat: 43.272
+    lon: 6.639
+    tags:
+    - statue
+    personnages:
+    - Suffren
+    description: 'Where Suffren was born in 1726: statue on the quay.'
+    wikipedia: https://en.wikipedia.org/wiki/Pierre_Andr%C3%A9_de_Suffren

@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "name": "Sync hauts-lieux FR data to EN",
+  "description": "When data/fr/hauts-lieux.yaml is edited, translates the changes into data/en/hauts-lieux.yaml.",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "data/fr/hauts-lieux.yaml"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "The French hauts-lieux data file (data/fr/hauts-lieux.yaml) was just edited. Sync the changes to the English version (data/en/hauts-lieux.yaml):\n\n1. Read both data/fr/hauts-lieux.yaml and data/en/hauts-lieux.yaml.\n2. Compare them to identify what changed in the French file (new entries, modified text, removed entries, reordered items).\n3. Apply the same structural changes to the English file:\n   - For NEW entries: translate all French text fields (titre, adresse, description, nom, label) into English and add them at the same position.\n   - For MODIFIED entries: translate only the changed French text into English, keeping unchanged English text as-is.\n   - For REMOVED entries: remove them from the English file too.\n   - For REORDERED entries: apply the same ordering.\n4. Preserve all non-translatable fields exactly (lat, lon, tags, personnages, url, wikipedia).\n5. The YAML structure and field names are identical in both files (titre, adresse, description, nom, label, wikipedia, url). Only the text values differ by language.\n6. Do NOT modify the French file.\n7. Do NOT commit — just write the updated English file."
+  }
+}
