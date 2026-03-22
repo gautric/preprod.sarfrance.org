@@ -34,8 +34,8 @@ regions:
   lieux:
   - titre: Hôtel de Langeac
     adresse: corner of Champs-Élysées / rue de Berri, 8th
-    lat: 48.87189
-    lon: 2.3064
+    lat: 48.8717
+    lon: 2.3031
     tags:
     - résidence
     personnages:
@@ -54,8 +54,8 @@ regions:
     wikipedia: https://en.wikipedia.org/wiki/Marquis_de_Lafayette
   - titre: Equestrian Statue of La Fayette
     adresse: Cours La Reine, 8th
-    lat: 48.8656
-    lon: 2.3134
+    lat: 48.8600
+    lon: 2.3100
     tags:
     - statue
     personnages:
@@ -64,8 +64,8 @@ regions:
     wikipedia: https://en.wikipedia.org/wiki/Paul_Wayland_Bartlett
   - titre: Picpus Cemetery
     adresse: 35 rue de Picpus, 12th
-    lat: 48.8434
-    lon: 2.3971
+    lat: 48.8440
+    lon: 2.4001
     tags:
     - cimetière
     - lieu-de-mémoire
@@ -86,8 +86,8 @@ regions:
     wikipedia: https://en.wikipedia.org/wiki/Thomas_Paine
   - titre: Equestrian Statue of Washington
     adresse: Place d'Iéna, 16th
-    lat: 48.8644
-    lon: 2.2937
+    lat: 48.8600
+    lon: 2.2900
     tags:
     - statue
     personnages:
@@ -96,8 +96,8 @@ regions:
     wikipedia: https://en.wikipedia.org/wiki/Place_d%27I%C3%A9na
   - titre: La Fayette and Washington Monument
     adresse: Place des États-Unis, 16th
-    lat: 48.8664
-    lon: 2.2906
+    lat: 48.8680
+    lon: 2.2941
     tags:
     - statue
     personnages:
@@ -107,8 +107,8 @@ regions:
     wikipedia: https://en.wikipedia.org/wiki/Place_des_%C3%89tats-Unis#Statue_of_Washington_and_Lafayette
   - titre: Statue of Rochambeau
     adresse: Place Rochambeau, 16th
-    lat: 48.8631
-    lon: 2.2853
+    lat: 48.8663
+    lon: 2.2967
     tags:
     - statue
     personnages:
@@ -127,8 +127,8 @@ regions:
     wikipedia: https://en.wikipedia.org/wiki/Paul_Landowski
   - titre: Monument to Benjamin Franklin
     adresse: Square de Yorktown, 16th
-    lat: 48.861
-    lon: 2.282
+    lat: 48.8617
+    lon: 2.2864
     tags:
     - statue
     personnages:
@@ -173,8 +173,8 @@ regions:
     description: Birthplace of La Fayette on September 6, 1757. Purchased in 1916 by the French Heroes Lafayette Memorial Fund, it is now a listed historic monument open to the public.
   - titre: Paccard Foundry
     adresse: Sevrier, Haute-Savoie
-    lat: 45.861
-    lon: 6.144
+    lat: 45.8449
+    lon: 6.1526
     tags:
     - arsenal
     personnages: []
@@ -247,8 +247,8 @@ regions:
     wikipedia: https://en.wikipedia.org/wiki/John_Paul_Jones
   - titre: Château de la Rouërie
     adresse: Saint-Ouen-la-Rouërie, Ille-et-Vilaine
-    lat: 48.362
-    lon: -1.378
+    lat: 48.4636
+    lon: -1.4397
     tags:
     - château
     personnages:
@@ -269,8 +269,8 @@ regions:
     wikipedia: https://en.wikipedia.org/wiki/Comte_de_Rochambeau
   - titre: Château de Rochambeau
     adresse: Thoré-la-Rochette, Loir-et-Cher
-    lat: 47.776
-    lon: 0.998
+    lat: 47.7964
+    lon: 0.9819
     tags:
     - château
     personnages:
@@ -291,8 +291,8 @@ regions:
     wikipedia: https://en.wikipedia.org/wiki/Marquis_de_Lafayette#Early_military_career
   - titre: Porte Désilles
     adresse: Nancy, Lorraine
-    lat: 48.696
-    lon: 6.171
+    lat: 48.6981
+    lon: 6.1742
     tags:
     - monument-historique
     - stèle
@@ -303,8 +303,8 @@ regions:
   lieux:
   - titre: Lycée Alexandre-Ribot
     adresse: Saint-Omer, Pas-de-Calais
-    lat: 50.748
-    lon: 2.256
+    lat: 50.7461
+    lon: 2.2617
     tags:
     - lieu-de-mémoire
     personnages:
@@ -315,8 +315,8 @@ regions:
     wikipedia: https://en.wikipedia.org/wiki/Charles_Carroll_of_Carrollton
   - titre: Museum of Franco-American Cooperation at Blérancourt
     adresse: Blérancourt, Aisne
-    lat: 49.518
-    lon: 3.157
+    lat: 49.5178
+    lon: 3.1547
     tags:
     - musée
     personnages: []
@@ -341,8 +341,8 @@ regions:
     wikipedia: https://en.wikipedia.org/wiki/Treaty_of_Versailles_(1783)
   - titre: Château de La Grange-Bléneau
     adresse: Courpalay, Seine-et-Marne
-    lat: 48.587
-    lon: 2.882
+    lat: 48.6619
+    lon: 2.9497
     tags:
     - château
     personnages:
@@ -351,8 +351,8 @@ regions:
     wikipedia: https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_la_Grange-Bl%C3%A9neau
   - titre: Château de Tilly
     adresse: Tilly, Yvelines
-    lat: 48.857
-    lon: 1.722
+    lat: 48.8826
+    lon: 1.5747
     tags:
     - château
     personnages:
@@ -361,8 +361,8 @@ regions:
     wikipedia: https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Tilly_(Yvelines)
   - titre: Désert de Retz
     adresse: Chambourcy, Yvelines
-    lat: 48.878
-    lon: 2.032
+    lat: 48.8836
+    lon: 2.0156
     tags:
     - lieu-de-mémoire
     personnages:
@@ -404,8 +404,8 @@ regions:
     description: Memorial stele recalling La Fayette's departure in 1777 and the American commitment in 1917. The original monument (1938) was dynamited in 1942.
   - titre: Rochefort Arsenal and Royal Rope Factory
     adresse: Rochefort, Charente-Maritime
-    lat: 45.936
-    lon: -0.962
+    lat: 45.9400
+    lon: -0.9600
     tags:
     - arsenal
     - port
@@ -428,8 +428,8 @@ regions:
   lieux:
   - titre: Maison Carrée
     adresse: Nîmes, Gard
-    lat: 43.8384
-    lon: 4.356
+    lat: 43.8383
+    lon: 4.3561
     tags:
     - monument-historique
     personnages:
@@ -472,8 +472,8 @@ regions:
     wikipedia: https://en.wikipedia.org/wiki/Fran%C3%A7ois_Joseph_Paul_de_Grasse
   - titre: Toulon
     adresse: Toulon, Var
-    lat: 43.124
-    lon: 5.928
+    lat: 43.1219
+    lon: 5.9283
     tags:
     - port
     - musée
@@ -502,5 +502,5 @@ regions:
     - statue
     personnages:
     - Suffren
-    description: 'Where Suffren was born in 1726: statue on the quay.'
+    description: Statue of the Bailli de Suffren (1729–1788) on the quay. Suffren, born at the Château de Saint-Cannat near Aix-en-Provence, commanded naval operations in the Indian Ocean during the American War of Independence.
     wikipedia: https://en.wikipedia.org/wiki/Pierre_Andr%C3%A9_de_Suffren

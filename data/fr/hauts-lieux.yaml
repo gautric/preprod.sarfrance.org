@@ -34,8 +34,8 @@ regions:
   lieux:
   - titre: Hôtel de Langeac
     adresse: angle Champs-Élysées / rue de Berri, 8e
-    lat: 48.87189
-    lon: 2.3064
+    lat: 48.8717
+    lon: 2.3031
     tags:
     - résidence
     personnages:
@@ -54,8 +54,8 @@ regions:
     wikipedia: https://fr.wikipedia.org/wiki/La_Fayette_(g%C3%A9n%C3%A9ral)
   - titre: Statue équestre de La Fayette
     adresse: Cours La Reine, 8e
-    lat: 48.8656
-    lon: 2.3134
+    lat: 48.8600
+    lon: 2.3100
     tags:
     - statue
     personnages:
@@ -64,8 +64,8 @@ regions:
     wikipedia: https://fr.wikipedia.org/wiki/Paul_Wayland_Bartlett
   - titre: Cimetière de Picpus
     adresse: 35 rue de Picpus, 12e
-    lat: 48.8434
-    lon: 2.3971
+    lat: 48.8440
+    lon: 2.4001
     tags:
     - cimetière
     - lieu-de-mémoire
@@ -86,8 +86,8 @@ regions:
     wikipedia: https://fr.wikipedia.org/wiki/Thomas_Paine
   - titre: Statue équestre de Washington
     adresse: Place d'Iéna, 16e
-    lat: 48.8644
-    lon: 2.2937
+    lat: 48.8600
+    lon: 2.2900
     tags:
     - statue
     personnages:
@@ -96,8 +96,8 @@ regions:
     wikipedia: https://fr.wikipedia.org/wiki/Place_d%27I%C3%A9na
   - titre: Monument à La Fayette et Washington
     adresse: Place des États-Unis, 16e
-    lat: 48.8664
-    lon: 2.2906
+    lat: 48.8680
+    lon: 2.2941
     tags:
     - statue
     personnages:
@@ -107,8 +107,8 @@ regions:
     wikipedia: https://fr.wikipedia.org/wiki/Place_des_%C3%89tats-Unis#Le_Monument_%C3%A0_La_Fayette_et_Washington
   - titre: Statue de Rochambeau
     adresse: Place Rochambeau, 16e
-    lat: 48.8631
-    lon: 2.2853
+    lat: 48.8663
+    lon: 2.2967
     tags:
     - statue
     personnages:
@@ -127,8 +127,8 @@ regions:
     wikipedia: https://fr.wikipedia.org/wiki/Paul_Landowski
   - titre: Monument à Benjamin Franklin
     adresse: Square de Yorktown, 16e
-    lat: 48.861
-    lon: 2.282
+    lat: 48.8617
+    lon: 2.2864
     tags:
     - statue
     personnages:
@@ -172,9 +172,9 @@ regions:
     url: https://www.chateau-lafayette.com/
     description: Lieu de naissance de La Fayette le 6 septembre 1757. Racheté en 1916 par la French Heroes Lafayette Memorial Fund, il est aujourd'hui classé monument historique et ouvert au public.
   - titre: Fonderie Paccard
-    adresse: Sevrier, Haute-Savoie
-    lat: 45.861
-    lon: 6.144
+    adresse: Annecy, Haute-Savoie
+    lat: 45.8449
+    lon: 6.1526
     tags:
     - arsenal
     personnages: []
@@ -247,8 +247,8 @@ regions:
     wikipedia: https://fr.wikipedia.org/wiki/John_Paul_Jones
   - titre: Château de la Rouërie
     adresse: Saint-Ouen-la-Rouërie, Ille-et-Vilaine
-    lat: 48.362
-    lon: -1.378
+    lat: 48.4636
+    lon: -1.4397
     tags:
     - château
     personnages:
@@ -269,8 +269,8 @@ regions:
     wikipedia: https://fr.wikipedia.org/wiki/Jean-Baptiste_Donatien_de_Vimeur_de_Rochambeau
   - titre: Château de Rochambeau
     adresse: Thoré-la-Rochette, Loir-et-Cher
-    lat: 47.776
-    lon: 0.998
+    lat: 47.7964
+    lon: 0.9819
     tags:
     - château
     personnages:
@@ -291,8 +291,8 @@ regions:
     wikipedia: https://fr.wikipedia.org/wiki/La_Fayette_(g%C3%A9n%C3%A9ral)#Le_%C2%AB_souper_de_Metz_%C2%BB
   - titre: Porte Désilles
     adresse: Nancy, Lorraine
-    lat: 48.696
-    lon: 6.171
+    lat: 48.6981
+    lon: 6.1742
     tags:
     - monument-historique
     - stèle
@@ -303,8 +303,8 @@ regions:
   lieux:
   - titre: Lycée Alexandre-Ribot
     adresse: Saint-Omer, Pas-de-Calais
-    lat: 50.748
-    lon: 2.256
+    lat: 50.7461
+    lon: 2.2617
     tags:
     - lieu-de-mémoire
     personnages:
@@ -315,8 +315,8 @@ regions:
     wikipedia: https://fr.wikipedia.org/wiki/Charles_Carroll_de_Carrollton
   - titre: Musée franco-américain du château de Blérancourt
     adresse: Blérancourt, Aisne
-    lat: 49.518
-    lon: 3.157
+    lat: 49.5178
+    lon: 3.1547
     tags:
     - musée
     personnages: []
@@ -341,8 +341,8 @@ regions:
     wikipedia: https://fr.wikipedia.org/wiki/Trait%C3%A9_de_Versailles_(1783)
   - titre: Château de La Grange-Bléneau
     adresse: Courpalay, Seine-et-Marne
-    lat: 48.587
-    lon: 2.882
+    lat: 48.6619
+    lon: 2.9497
     tags:
     - château
     personnages:
@@ -351,8 +351,8 @@ regions:
     wikipedia: https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_la_Grange-Bl%C3%A9neau
   - titre: Château de Tilly
     adresse: Tilly, Yvelines
-    lat: 48.857
-    lon: 1.722
+    lat: 48.8826
+    lon: 1.5747
     tags:
     - château
     personnages:
@@ -361,8 +361,8 @@ regions:
     wikipedia: https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Tilly_(Yvelines)
   - titre: Désert de Retz
     adresse: Chambourcy, Yvelines
-    lat: 48.878
-    lon: 2.032
+    lat: 48.8836
+    lon: 2.0156
     tags:
     - lieu-de-mémoire
     personnages:
@@ -404,8 +404,8 @@ regions:
     description: Stèle commémorative rappelant le départ de La Fayette en 1777 et l'engagement américain en 1917. Le monument original (1938) fut dynamité en 1942.
   - titre: Arsenal de Rochefort et Corderie royale
     adresse: Rochefort, Charente-Maritime
-    lat: 45.936
-    lon: -0.962
+    lat: 45.9400
+    lon: -0.9600
     tags:
     - arsenal
     - port
@@ -428,8 +428,8 @@ regions:
   lieux:
   - titre: Maison Carrée
     adresse: Nîmes, Gard
-    lat: 43.8384
-    lon: 4.356
+    lat: 43.8383
+    lon: 4.3561
     tags:
     - monument-historique
     personnages:
@@ -472,8 +472,8 @@ regions:
     wikipedia: https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Joseph_Paul_de_Grasse
   - titre: Toulon
     adresse: Toulon, Var
-    lat: 43.124
-    lon: 5.928
+    lat: 43.1219
+    lon: 5.9283
     tags:
     - port
     - musée
@@ -502,5 +502,5 @@ regions:
     - statue
     personnages:
     - Suffren
-    description: 'Où naquit Suffren en 1726 : statue sur le quai.'
+    description: Statue du bailli de Suffren (1729–1788) sur le quai. Suffren, né au château de Saint-Cannat près d'Aix-en-Provence, commanda des opérations navales dans l'océan Indien pendant la Guerre d'Indépendance américaine.
     wikipedia: https://fr.wikipedia.org/wiki/Pierre_Andr%C3%A9_de_Suffren
