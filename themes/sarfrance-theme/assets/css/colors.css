@@ -122,6 +122,18 @@
 .tag-legion-lauzun    { background-color: var(--color-brown); }
 .tag-americain        { background-color: var(--color-royal-blue); }
 
+/* Hauts lieux tags  (10 items) */
+.tag-residence        { background-color: var(--color-royal-blue); }
+.tag-statue           { background-color: var(--color-olive); }
+.tag-cimetiere        { background-color: var(--color-slate); }
+.tag-chateau          { background-color: var(--color-burgundy); }
+.tag-port             { background-color: var(--color-teal); }
+.tag-arsenal          { background-color: var(--color-sienna); }
+.tag-musee            { background-color: var(--color-purple); }
+.tag-monument-historique { background-color: var(--color-brown); }
+.tag-stele            { background-color: var(--color-crimson); }
+.tag-lieu-de-memoire  { background-color: var(--color-dark-blue); }
+
 /* ============================================================
    Active filter button overrides — per tag/type
    When a filter pill is selected, it takes its tag/type color
@@ -165,3 +177,15 @@
 .filter-btn.active.tag-chapelain        { background-color: var(--color-plum); border-color: var(--color-plum); }
 .filter-btn.active.tag-legion-lauzun    { background-color: var(--color-brown); border-color: var(--color-brown); }
 .filter-btn.active.tag-americain        { background-color: var(--color-royal-blue); border-color: var(--color-royal-blue); }
+
+/* Hauts lieux tags — active filters */
+.filter-btn.active.tag-residence        { background-color: var(--color-royal-blue); border-color: var(--color-royal-blue); }
+.filter-btn.active.tag-statue           { background-color: var(--color-olive); border-color: var(--color-olive); }
+.filter-btn.active.tag-cimetiere        { background-color: var(--color-slate); border-color: var(--color-slate); }
+.filter-btn.active.tag-chateau          { background-color: var(--color-burgundy); border-color: var(--color-burgundy); }
+.filter-btn.active.tag-port             { background-color: var(--color-teal); border-color: var(--color-teal); }
+.filter-btn.active.tag-arsenal          { background-color: var(--color-sienna); border-color: var(--color-sienna); }
+.filter-btn.active.tag-musee            { background-color: var(--color-purple); border-color: var(--color-purple); }
+.filter-btn.active.tag-monument-historique { background-color: var(--color-brown); border-color: var(--color-brown); }
+.filter-btn.active.tag-stele            { background-color: var(--color-crimson); border-color: var(--color-crimson); }
+.filter-btn.active.tag-lieu-de-memoire  { background-color: var(--color-dark-blue); border-color: var(--color-dark-blue); }

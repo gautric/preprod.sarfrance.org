@@ -109,6 +109,20 @@
 - id: error_404_agenda
   translation: "Agenda"
 
+# Hauts lieux
+- id: hauts_lieux_desc
+  translation: "Lieux de mémoire de la Guerre d'Indépendance américaine en France"
+- id: hauts_lieux_count
+  translation: "lieux répertoriés"
+- id: hauts_lieux_map
+  translation: "Voir sur la carte"
+- id: hauts_lieux_website
+  translation: "Site officiel"
+- id: hauts_lieux_search
+  translation: "Rechercher un lieu, un personnage…"
+- id: hauts_lieux_no_result
+  translation: "Aucun résultat trouvé"
+
 # References
 - id: references_title
   translation: "Références"

@@ -109,6 +109,20 @@
 - id: error_404_agenda
   translation: "Calendar"
 
+# Hauts lieux
+- id: hauts_lieux_desc
+  translation: "Sites of remembrance of the American War of Independence in France"
+- id: hauts_lieux_count
+  translation: "listed sites"
+- id: hauts_lieux_map
+  translation: "View on map"
+- id: hauts_lieux_website
+  translation: "Official website"
+- id: hauts_lieux_search
+  translation: "Search for a site, a person…"
+- id: hauts_lieux_no_result
+  translation: "No results found"
+
 # References
 - id: references_title
   translation: "References"

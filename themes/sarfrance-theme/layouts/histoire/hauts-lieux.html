@@ -1,0 +1,103 @@
+{{ define "head" }}
+{{- $css := resources.Get "css/hauts-lieux.css" | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+{{ end }}
+{{ define "main" }}
+{{ $data := index .Site.Data "hauts-lieux" }}
+{{ $isEn := eq .Lang "en" }}
+{{ $totalLieux := 0 }}
+{{ range $data.regions }}{{ $totalLieux = add $totalLieux (len .lieux) }}{{ end }}
+<section class="page-content">
+    <div class="page-header">
+        <div class="container">
+            <h1>{{ .Title }}</h1>
+            <p class="page-description">{{ i18n "hauts_lieux_desc" }}</p>
+            {{ if .File }}{{- partial "page-contribute.html" . -}}{{ end }}
+            <p class="hl-count">{{ $totalLieux }} {{ i18n "hauts_lieux_count" }}</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hl-search-box">
+            <input type="text" id="hl-search" class="hl-search-input" placeholder="{{ i18n "hauts_lieux_search" }}" aria-label="{{ i18n "hauts_lieux_search" }}">
+        </div>
+
+        <div class="hl-filters" role="group" aria-label="{{ i18n "filter_by_category" }}">
+            <button class="filter-btn active" data-tag="all">{{ i18n "filter_all" }}</button>
+            {{ range $key, $val := $data.tags }}
+            <button class="filter-btn tag-{{ $key | urlize }}" data-tag="{{ $key }}">{{ if $isEn }}{{ $val.labelEn }}{{ else }}{{ $val.label }}{{ end }}</button>
+            {{ end }}
+        </div>
+
+        <p class="hl-no-result" style="display:none;">{{ i18n "hauts_lieux_no_result" }}</p>
+
+        <div class="hl-layout">
+        <div class="hl-list">
+
+        {{ range $data.regions }}
+        <div class="hl-region" data-region="{{ .nom }}">
+            <h2 class="hl-region-title">{{ if $isEn }}{{ .nomEn }}{{ else }}{{ .nom }}{{ end }}</h2>
+            <div class="hl-grid">
+                {{ range .lieux }}
+                <div class="hl-card" data-tags="{{ delimit .tags "," }}" data-lat="{{ .lat }}" data-lon="{{ .lon }}" data-search="{{ if $isEn }}{{ .titreEn }} {{ .adresseEn }} {{ .descriptionEn }}{{ else }}{{ .titre }} {{ .adresse }} {{ .description }}{{ end }} {{ delimit .personnages " " }}">
+                    <div class="hl-card-header">
+                        <h3 class="hl-card-title">
+                            {{ $title := cond $isEn .titreEn .titre }}
+                            {{ $wiki := "" }}
+                            {{ if and $isEn .wikipediaEn }}{{ $wiki = .wikipediaEn }}{{ else if .wikipedia }}{{ $wiki = .wikipedia }}{{ end }}
+                            {{ if $wiki }}<a href="{{ $wiki }}" target="_blank" rel="noopener noreferrer">{{ $title }}</a>{{ else }}{{ $title }}{{ end }}
+                        </h3>
+                        <div class="hl-card-tags">
+                            {{ range .tags }}
+                            {{ $tagData := index $data.tags . }}
+                            {{ if $tagData }}
+                            <span class="tag tag-{{ . | urlize }}">{{ if $isEn }}{{ $tagData.labelEn }}{{ else }}{{ $tagData.label }}{{ end }}</span>
+                            {{ end }}
+                            {{ end }}
+                        </div>
+                    </div>
+                    <p class="hl-card-address">📍 {{ if $isEn }}{{ .adresseEn }}{{ else }}{{ .adresse }}{{ end }}</p>
+                    <p class="hl-card-desc">{{ if $isEn }}{{ .descriptionEn }}{{ else }}{{ .description }}{{ end }}</p>
+                    <div class="hl-card-links">
+                        <a href="https://www.openstreetmap.org/#map=16/{{ .lat }}/{{ .lon }}" target="_blank" rel="noopener noreferrer" class="hl-link hl-link-map" title="{{ i18n "hauts_lieux_map" }}">🗺️ {{ i18n "hauts_lieux_map" }}</a>
+                        {{ $url := "" }}
+                        {{ if and $isEn .urlEn }}{{ $url = .urlEn }}{{ else if .url }}{{ $url = .url }}{{ end }}
+                        {{ if $url }}
+                        <a href="{{ $url }}" target="_blank" rel="noopener noreferrer" class="hl-link hl-link-web" title="{{ i18n "hauts_lieux_website" }}">🌐 {{ i18n "hauts_lieux_website" }}</a>
+                        {{ end }}
+                    </div>
+                    {{ if .personnages }}
+                    <div class="hl-card-personnages">
+                        {{ range .personnages }}<span class="hl-personnage">{{ . }}</span>{{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+
+        </div>{{/* /.hl-list */}}
+        <div class="hl-map-panel">
+            <div id="hl-map" aria-label="{{ i18n "hauts_lieux_map" }}"></div>
+        </div>
+        </div>{{/* /.hl-layout */}}
+
+        {{/* References */}}
+        {{ with $data.references }}
+        <hr>
+        <h2>{{ i18n "references_title" }}</h2>
+        <ul>
+            {{ range . }}
+            <li>{{ if $isEn }}{{ .titleEn | default .title }}{{ else }}{{ .title }}{{ end }}{{ if .author }}, {{ if $isEn }}{{ .authorEn | default .author }}{{ else }}{{ .author }}{{ end }}{{ end }}{{ if .publisher }}, {{ .publisher }}{{ end }}{{ if .date }} ({{ if $isEn }}{{ .dateEn | default .date }}{{ else }}{{ .date }}{{ end }}){{ end }}{{ if and $isEn .descriptionEn }}. {{ .descriptionEn }}{{ else if .description }}. {{ .description }}{{ end }}{{ if .url }} — <a href="{{ .url }}" target="_blank" rel="noopener">{{ .url }}</a>{{ end }}</li>
+            {{ end }}
+        </ul>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+{{ define "scripts" }}
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+{{- $js := resources.Get "js/hauts-lieux.js" | resources.Fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+{{ end }}

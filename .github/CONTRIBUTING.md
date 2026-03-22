@@ -167,7 +167,10 @@ Certains contenus du site ne sont pas des pages de texte mais des fichiers de do
 
 | Contenu | Fichier |
 |---|---|
+| Agenda des événements | `data/agenda.yaml` |
 | Diaporama de la page d'accueil | `data/carousel.yaml` |
+| Chronologie historique | `data/chronologie.yaml` |
+| Hauts lieux en France | `data/hauts-lieux.yaml` |
 | Notices biographiques (dictionnaire) | `data/notices.yaml` |
 
 La modification du diaporama est expliquée plus bas dans la section « Modifier le diaporama ».
