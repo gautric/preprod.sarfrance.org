@@ -10,10 +10,6 @@ type: "contact"
 - [Secretariat](#secretariat) – Address, office hours and contact details
 - [NSSAR Headquarters](#nssar-headquarters) – National Society SAR in Louisville
 - [Contact Form](#contact-form) – Write to us online
-- [Join Us](/en/contact/nous-rejoindre/) – Become a member of SAR France
-- [Online Payment](/en/contact/cotisation/) – Pay your annual dues
-- [Make a Donation](/en/contact/donateur/) – Support SAR France activities
-- [Legal Notice](/en/contact/mentions-legales/) – Website legal information
 
 <div class="contact-top">
 <div>
