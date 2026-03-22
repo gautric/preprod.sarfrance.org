@@ -33,3 +33,21 @@ Originating in 1784 from the society of friends created around Washington in May
 **Useful links:**
 - [Society of the Cincinnati of France](https://www.cincinnatidefrance.fr/)
 - [The Society of the Cincinnati (USA)](https://www.societyofthecincinnati.org/)
+
+## Other Societies and Useful Links
+
+### SAR Societies Abroad
+
+- [UK Society SAR](https://uksocietysar.org/)
+
+### Franco-American Relations
+
+- [Cercle France Amériques](https://france-ameriques.org/)
+- [Embassy of the United States of America in France](https://www.amb-usa.fr/)
+- [France-Amérique International Journal](http://www.france-amerique.com/)
+
+### Historical and Heritage Associations
+
+- [Association of Descendants of Privateer Captains](http://www.descendants-capitainescorsaires.org/)
+- [La Sabretache](http://lasabretache.fr/) — Military history study society
+- [Amicale Royal Deux-Ponts](https://www.99et299ri.fr/)

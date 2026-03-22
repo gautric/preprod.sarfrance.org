@@ -35,3 +35,21 @@ Issue en 1784 de la société d'amis créée autour de Washington dès mai 1783 
 **Liens utiles :**
 - [Société des Cincinnati de France](https://www.cincinnatidefrance.fr/)
 - [The Society of the Cincinnati (USA)](https://www.societyofthecincinnati.org/)
+
+## Autres sociétés et liens utiles
+
+### Sociétés SAR à l'étranger
+
+- [UK Society SAR](https://uksocietysar.org/)
+
+### Relations franco-américaines
+
+- [Cercle France Amériques](https://france-ameriques.org/)
+- [Ambassade des États-Unis d'Amérique](https://www.amb-usa.fr/)
+- [Journal international France-Amérique](http://www.france-amerique.com/)
+
+### Associations historiques et patrimoniales
+
+- [Association des Descendants de Capitaines Corsaires](http://www.descendants-capitainescorsaires.org/)
+- [La Sabretache](http://lasabretache.fr/) — Société d'études d'histoire militaire
+- [Amicale Royal Deux-Ponts](https://www.99et299ri.fr/)
