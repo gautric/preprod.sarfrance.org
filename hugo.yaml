@@ -75,7 +75,7 @@ languages:
           parent: "histoire"
           weight: 2
         - identifier: "chefs"
-          name: "Chefs militaires"
+          name: "Chefs militaires et volontaires"
           url: "/histoire/chefs-militaires/"
           parent: "histoire"
           weight: 3
@@ -210,7 +210,7 @@ languages:
           parent: "histoire"
           weight: 2
         - identifier: "chefs"
-          name: "Military Leaders"
+          name: "Military Leaders & Volunteers"
           url: "/en/histoire/chefs-militaires/"
           parent: "histoire"
           weight: 3
