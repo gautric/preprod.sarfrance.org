@@ -5,11 +5,20 @@ layout: "contact"
 type: "contact"
 ---
 
+## Summary
+
+- [Secretariat](#secretariat) – Address, office hours and contact details
+- [NSSAR Headquarters](#nssar-headquarters) – National Society SAR in Louisville
+- [Contact Form](#contact-form) – Write to us online
+- [Join Us](/en/contact/nous-rejoindre/) – Become a member of SAR France
+- [Online Payment](/en/contact/cotisation/) – Pay your annual dues
+- [Make a Donation](/en/contact/donateur/) – Support SAR France activities
+- [Legal Notice](/en/contact/mentions-legales/) – Website legal information
 
 <div class="contact-top">
 <div>
 
-### Secretariat
+### Secretariat {#secretariat}
 
 **Address**: {{< address >}}  
 **Office hours**: Tuesday and Thursday from 9:30 AM to 6:00 PM  
@@ -27,7 +36,28 @@ Please contact us with your last name, first name, email address, and the subjec
 </div>
 </div>
 
-### Contact Form
+<div class="contact-top">
+<div>
+
+### NSSAR Headquarters {#nssar-headquarters}
+
+
+SAR France is affiliated with the National Society Sons of the American Revolution (NSSAR), headquartered in Louisville, Kentucky, United States.
+
+**Address**: 809 West Main Street, Louisville, KY 40202, USA  
+**Website**: [www.sar.org](https://www.sar.org)
+
+</div>
+<div>
+
+### Location
+
+<div id="map-louisville" class="contact-map" data-popup="NSSAR Headquarters<br>809 W Main St, Louisville, KY 40202" aria-label="NSSAR Headquarters, 809 West Main Street, Louisville, Kentucky"></div>
+
+</div>
+</div>
+
+### Contact Form {#contact-form}
 
 <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
   <input type="hidden" name="access_key" value="29cee0a1-6737-4155-bfb6-4b80d4e2f687">
@@ -64,27 +94,3 @@ Please contact us with your last name, first name, email address, and the subjec
   <p class="form-note">Fields marked with <span class="required">*</span> are required.</p>
   <button type="submit" class="btn btn-primary form-submit">Send</button>
 </form>
-
-
-
-
-<div class="contact-top">
-<div>
-
-### NSSAR Headquarters
-
-
-SAR France is affiliated with the National Society Sons of the American Revolution (NSSAR), headquartered in Louisville, Kentucky, United States.
-
-**Address**: 809 West Main Street, Louisville, KY 40202, USA  
-**Website**: [www.sar.org](https://www.sar.org)
-
-</div>
-<div>
-
-### Location
-
-<div id="map-louisville" class="contact-map" data-popup="NSSAR Headquarters<br>809 W Main St, Louisville, KY 40202" aria-label="NSSAR Headquarters, 809 West Main Street, Louisville, Kentucky"></div>
-
-</div>
-</div>

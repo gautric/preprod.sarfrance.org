@@ -5,11 +5,16 @@ layout: "contact"
 type: "contact"
 ---
 
+## Sommaire
+
+- [Secrétariat](#secretariat) – Adresse, permanences et coordonnées
+- [Siège NSSAR](#siege-nssar) – National Society SAR à Louisville
+- [Formulaire de contact](#formulaire-de-contact) – Nous écrire en ligne
 
 <div class="contact-top">
 <div>
 
-### Secrétariat
+### Secrétariat {#secretariat}
 
 **Adresse** : {{< address >}}  
 **Permanences** : le mardi et le jeudi de 09h30 à 18h00  
@@ -27,7 +32,28 @@ Contactez-nous en mentionnant vos nom et prénom, votre email et l'objet de votr
 </div>
 </div>
 
-### Formulaire de contact
+<div class="contact-top">
+<div>
+
+### Siège NSSAR {#siege-nssar}
+
+
+SAR France est affiliée à la National Society Sons of the American Revolution (NSSAR), dont le siège est à Louisville, Kentucky, États-Unis.
+
+**Adresse** : 809 West Main Street, Louisville, KY 40202, USA  
+**Site web** : [www.sar.org](https://www.sar.org)
+
+</div>
+<div>
+
+### Localisation
+
+<div id="map-louisville" class="contact-map" data-popup="Siège NSSAR<br>809 W Main St, Louisville, KY 40202" aria-label="Siège NSSAR, 809 West Main Street, Louisville, Kentucky"></div>
+
+</div>
+</div>
+
+### Formulaire de contact {#formulaire-de-contact}
 
 <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
   <input type="hidden" name="access_key" value="29cee0a1-6737-4155-bfb6-4b80d4e2f687">
@@ -64,26 +90,3 @@ Contactez-nous en mentionnant vos nom et prénom, votre email et l'objet de votr
   <p class="form-note">Les champs marqués d'un <span class="required">*</span> sont obligatoires.</p>
   <button type="submit" class="btn btn-primary form-submit">Envoyer</button>
 </form>
-
-
-
-<div class="contact-top">
-<div>
-
-### Siège NSSAR
-
-
-SAR France est affiliée à la National Society Sons of the American Revolution (NSSAR), dont le siège est à Louisville, Kentucky, États-Unis.
-
-**Adresse** : 809 West Main Street, Louisville, KY 40202, USA  
-**Site web** : [www.sar.org](https://www.sar.org)
-
-</div>
-<div>
-
-### Localisation
-
-<div id="map-louisville" class="contact-map" data-popup="Siège NSSAR<br>809 W Main St, Louisville, KY 40202" aria-label="Siège NSSAR, 809 West Main Street, Louisville, Kentucky"></div>
-
-</div>
-</div>
