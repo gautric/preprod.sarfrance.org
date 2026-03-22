@@ -845,6 +845,20 @@ a:hover {
     color: var(--gold);
 }
 
+/* ---- Contact Top (secretariat + map) ---- */
+.contact-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+    margin-bottom: 30px;
+}
+
+.contact-top iframe {
+    border-radius: 8px;
+    box-shadow: 0 2px 12px var(--shadow);
+}
+
 /* ---- Contact Form ---- */
 .contact-form {
     max-width: 640px;
@@ -986,6 +1000,10 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+    .contact-top {
+        grid-template-columns: 1fr;
+    }
+
     .menu-toggle {
         display: block;
     }

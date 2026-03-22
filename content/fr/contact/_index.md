@@ -3,15 +3,27 @@ title: "Contact"
 description: "Contactez SAR France"
 ---
 
-## Nous contacter
 
-Contactez-nous en mentionnant vos nom et prénom, votre email et l'objet de votre demande.
+<div class="contact-top">
+<div>
 
 ### Secrétariat
 
 **Adresse** : {{< address >}}  
 **Permanences** : le mardi et le jeudi de 09h30 à 18h00  
 **Email** : secretariat@sarfrance.org
+
+Contactez-nous en mentionnant vos nom et prénom, votre email et l'objet de votre demande.
+
+</div>
+<div>
+
+### Localisation
+
+<iframe src="https://maps.google.com/maps?q=SAR+France+Secr%C3%A9tariat,20+Rue+Bosquet,75007+Paris,France&t=&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Localisation du secrétariat SAR France, 20 rue Bosquet, 75007 Paris"></iframe>
+
+</div>
+</div>
 
 ### Formulaire de contact
 
@@ -52,7 +64,24 @@ Contactez-nous en mentionnant vos nom et prénom, votre email et l'objet de votr
 </form>
 
 
-### Affiliation
+
+<div class="contact-top">
+<div>
+
+### Siège NSSAR
+
 
 SAR France est affiliée à la National Society Sons of the American Revolution (NSSAR), dont le siège est à Louisville, Kentucky, États-Unis.
-Site web NSSAR : [www.sar.org](https://www.sar.org)
+
+**Adresse** : 809 West Main Street, Louisville, KY 40202, USA  
+**Site web** : [www.sar.org](https://www.sar.org)
+
+</div>
+<div>
+
+### Localisation
+
+<iframe src="https://maps.google.com/maps?q=NSSAR+Sons+of+the+American+Revolution,809+W+Main+St,Louisville,KY+40202,USA&t=&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Siège NSSAR, 809 West Main Street, Louisville, Kentucky"></iframe>
+
+</div>
+</div>
