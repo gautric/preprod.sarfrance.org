@@ -82,6 +82,7 @@ Dossier : `content/histoire/`
 | Chefs militaires | `chefs-militaires.md` |
 | Hauts lieux en France | `hauts-lieux.md` |
 | Notices biographiques | `notices.md` |
+| Stratégies et politique françaises | `strategies-et-politique-francaises.md` |
 
 ### Rubrique « Activités »
 
@@ -131,6 +132,7 @@ Dossier : `content/en/histoire/`
 | Military Leaders | `chefs-militaires.md` |
 | Historic Sites in France | `hauts-lieux.md` |
 | Biographical Notices | `notices.md` |
+| French Strategies and Politics | `strategies-et-politique-francaises.md` |
 
 ### Pages en anglais — « Activités »
 

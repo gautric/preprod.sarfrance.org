@@ -84,6 +84,11 @@ languages:
           url: "/histoire/hauts-lieux/"
           parent: "histoire"
           weight: 4
+        - identifier: "strategies"
+          name: "Stratégies et politique françaises"
+          url: "/histoire/strategies-et-politique-francaises/"
+          parent: "histoire"
+          weight: 5
         # Submenus - Activités
         - identifier: "agenda"
           name: "Agenda"
@@ -214,6 +219,11 @@ languages:
           url: "/en/histoire/hauts-lieux/"
           parent: "histoire"
           weight: 4
+        - identifier: "strategies"
+          name: "French Strategies and Politics"
+          url: "/en/histoire/strategies-et-politique-francaises/"
+          parent: "histoire"
+          weight: 5
         # Submenus - Activities
         - identifier: "agenda"
           name: "Calendar"
