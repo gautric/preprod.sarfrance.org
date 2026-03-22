@@ -25,8 +25,12 @@ French aid was military (Rochambeau's Expeditionary Corps, Admiral de Grasse's f
 
 According to Warrington Dawson's study (1936), 2,112 French citizens lost their lives on American soil or in American waters.
 
-## Ephemerides
+## Learn More
 
-The Ephemerides highlight events of the War of Independence, day by day.
-
-<!-- NOTE: this section is to be reviewed and, if necessary, updated by our historian -->
+- [Timeline](/en/histoire/chronologie/) – A synoptic overview of American and European history
+- [Military Leaders and Volunteers](/en/histoire/chefs-militaires/) – The principal French actors of the conflict
+- [Military Operations in North America](/en/histoire/operations/) – The Expeditionary Corps and the Yorktown Campaign
+- [The Human Cost of the War](/en/histoire/pertes-francaises/) – French soldiers and sailors killed or wounded
+- [French Strategies and Politics](/en/histoire/strategies-et-politique-francaises/) – Adversaries and allies in the American War
+- [Historic Sites in France](/en/histoire/hauts-lieux/) – Sites of remembrance of the War of Independence
+- [Biographical Notices](/en/histoire/notices/) – Biographical dictionary of certified SAR France ancestors

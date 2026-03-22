@@ -26,16 +26,6 @@ L'amiral de Grasse débarque le 2 septembre les 3 000 hommes de Saint-Simon pré
 
 ## Les volontaires
 
-Le commandant Lasseray recensait environ 230 officiers ou ingénieurs venant de France et ayant combattu dans les unités américaines. Parmi eux :
+Outre le Corps Expéditionnaire, environ 230 officiers ou ingénieurs français combattirent dans les unités américaines, ainsi que des officiers d'origine étrangère au service de la France.
 
-**Officiers des armées royales :**
-- Gilbert, marquis de La Fayette
-- Pierre-Charles, major L'Enfant
-- Jean, baron de Kalb
-- Louis Le Bègue du Portail
-- Armand Tuffin, marquis de La Rouërie
-
-**Officiers d'origine étrangère au service de la France :**
-- André Kosciuszko
-- Casimir, comte de Pulawski
-- Friedrich, baron de Steuben
+Voir la page [Chefs militaires et volontaires](/histoire/chefs-militaires/) pour la liste complète et les portraits détaillés.

@@ -26,16 +26,6 @@ Admiral de Grasse landed the 3,000 men of Saint-Simon, drawn from the Caribbean,
 
 ## The Volunteers
 
-Commander Lasseray counted approximately 230 officers or engineers from France who fought in American units. Among them:
+In addition to the Expeditionary Corps, approximately 230 French officers or engineers fought in American units, along with officers of foreign origin in French service.
 
-**Officers of the Royal Armies:**
-- Gilbert, Marquis de La Fayette
-- Pierre-Charles, Major L'Enfant
-- Jean, Baron de Kalb
-- Louis Le Bègue du Portail
-- Armand Tuffin, Marquis de La Rouërie
-
-**Officers of foreign origin in French service:**
-- André Kosciuszko
-- Casimir, Count de Pulawski
-- Friedrich, Baron de Steuben
+See the [Military Leaders and Volunteers](/en/histoire/chefs-militaires/) page for the complete list and detailed portraits.

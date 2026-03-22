@@ -55,15 +55,9 @@ Le commandant Lasseray (*Les Français sous les treize étoiles* – 1935) recen
 
 Lorsqu'il est choisi pour lever et conduire le corps expéditionnaire, le lieutenant-général comte de Rochambeau compte près de quarante ans de services. Il a l'expérience militaire, l'autorité pour s'imposer aux jeunes officiers, la maturité pour accepter la prééminence de Washington.
 
-Débarqué en juillet 1780 à Newport (RI), il déjoue et décourage quelques jours plus tard une opération anglaise présentant des analogies avec celle qui réussira à leurs adversaires l'année suivante en Virginie. La discipline qu'il impose à ses régiments facilite les rapports avec la population.
+Débarqué en juillet 1780 à Newport (RI), la discipline qu'il impose à ses régiments facilite les rapports avec la population. Son sens stratégique — préférant cibler le maillon faible des forces anglaises en Virginie plutôt que New York — et sa synergie avec Washington et de Grasse conduiront à la victoire décisive de Yorktown en octobre 1781. Voir la page [Opérations militaires](/histoire/operations/) pour le récit détaillé de la campagne.
 
-Deux conférences avec Washington en septembre puis mai 1781 précisent les stratégies envisageables. Le général en chef veut s'en prendre au gros des forces anglaises, fortifié à New York. Le Français estime plus réaliste de s'en prendre d'abord au maillon plus faible des forces anglaises de Virginie. Rochambeau demande sa préférence à l'amiral de Grasse en des termes ne laissant pas de doute sur sa propre appréciation.
-
-Lorsque, le choix fait, les trois hommes se retrouvent fin septembre sur le *Ville de Paris*, dans la baie de la Chesapeake, à la veille d'un engagement qui sera décisif, la synergie sera parfaite. En résulte une victoire peu coûteuse en hommes et obtenue assez rapidement pour ne pas laisser aux renforts expédiés de New York le temps d'arriver.
-
-Les consignes royales lui interdisant de participer alors aux opérations envisagées par Washington sur la Floride ou le Canada, Rochambeau se joint à la préparation d'un investissement de New York, dont les Anglais entameront l'évacuation dès l'été 1782.
-
-Rentré en France au début de 1783 Rochambeau sera l'hôte de la première Société des Cincinnati de France. Maréchal de France en 1791, il échappera de peu à la guillotine. Très admiratif des qualités et de l'œuvre de Bonaparte qui le lui rendait bien, il mourut en 1807.
+Rentré en France au début de 1783, Rochambeau sera l'hôte de la première Société des Cincinnati de France. Maréchal de France en 1791, il échappera de peu à la guillotine. Très admiratif des qualités et de l'œuvre de Bonaparte qui le lui rendait bien, il mourut en 1807.
 
 ---
 
@@ -146,9 +140,7 @@ Suffren et son escadre, en partance pour les Indes, s'en détacheront aux Açore
 
 Arrivé à Saint-Domingue avec 24 vaisseaux le 16 juillet, en vue de préparer l'opération franco-espagnole décidée à Versailles contre la Jamaïque, de Grasse y trouve les messages de Rochambeau. Il décide alors de rassembler tous les moyens accessibles et de les concentrer pour renforcer, de toute urgence, l'action du Corps expéditionnaire. Le souci d'aller vite, ce que Rochambeau lui laisse deviner de ses préférences stratégiques, lui font opter pour une convergence sur la baie de la **Chesapeake** plutôt que devant New York.
 
-Il tente d'emprunter sur ses biens propres de quoi assurer la solde des hommes de Washington et Rochambeau (mais doit avoir recours aux commerçants de La Havane à cette fin), met les vaisseaux marchands sous la protection des Espagnols à Saint-Domingue, embarque 3 300 hommes sous les ordres du marquis de Saint-Simon et fonce sur son objectif, esquivant l'escadre de Hood. Le 2 septembre, il débarque Saint-Simon qui fait sa liaison avec La Fayette, puis se retourne contre l'escadre anglaise de Graves, renforcée de celle de Hood revenus de New York sur ces entrefaites. Un affrontement va s'ensuivre pendant trois jours. Dominés, les Anglais rompent le combat et font voile vers New York après avoir dû saborder un de leurs vaisseaux, le 13 septembre. Pendant ce temps, Barras, arrivant de Newport par le large et le sud, est entré dans la Baie avec 8 vaisseaux et 3 frégates escortant le convoi portant l'artillerie de siège et des renforts supplémentaires.
-
-Conseil de guerre le 18 septembre à bord de *La Ville de Paris*, entre Washington, Rochambeau et de Grasse. La concentration des forces franco-américaines est bientôt complète. Enfermé dans **Yorktown** et Gloucester, Cornwallis est contraint le 19 octobre à la capitulation, après un siège où chaque armée a rivalisé de bravoure.
+Il tente d'emprunter sur ses biens propres de quoi assurer la solde des hommes de Washington et Rochambeau (mais doit avoir recours aux commerçants de La Havane à cette fin), met les vaisseaux marchands sous la protection des Espagnols à Saint-Domingue, embarque 3 300 hommes sous les ordres du marquis de Saint-Simon et fonce sur son objectif, esquivant l'escadre de Hood. Son intervention dans la baie de la Chesapeake en septembre 1781 sera déterminante pour la victoire de Yorktown (voir [Opérations militaires](/histoire/operations/) pour le récit détaillé de la campagne).
 
 Retour aux Antilles, où Bouillé a repris **Saint-Eustache**. De concert les deux généraux enlèvent **Saint-Christophe**, puis de Grasse s'empare de **Montserrat**.
 

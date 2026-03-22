@@ -25,8 +25,12 @@ L'aide française fut militaire (Corps expéditionnaire de Rochambeau, flotte de
 
 Selon l'étude de Warrington Dawson (1936), 2 112 Français ont perdu la vie sur le sol ou dans les eaux américaines.
 
-## Éphémérides
+## Pour en savoir plus
 
-Les Éphémérides mettent en exergue tel ou tel événement de la Guerre d'Indépendance, jour après jour.
-
-<!-- NOTE : cette rubrique est à revoir et, si nécessaire, à actualiser par notre historien -->
+- [Chronologie](/histoire/chronologie/) – Présentation synoptique de l'histoire américaine et européenne
+- [Chefs militaires et volontaires](/histoire/chefs-militaires/) – Les principaux acteurs français du conflit
+- [Opérations militaires en Amérique du Nord](/histoire/operations/) – Le Corps Expéditionnaire et la campagne de Yorktown
+- [Le coût humain de la guerre](/histoire/pertes-francaises/) – Soldats et marins français tués ou blessés
+- [Stratégies et politique françaises](/histoire/strategies-et-politique-francaises/) – Adversaires et alliés dans la Guerre d'Amérique
+- [Hauts lieux en France](/histoire/hauts-lieux/) – Lieux de mémoire de la Guerre d'Indépendance
+- [Notices biographiques](/histoire/notices/) – Dictionnaire biographique des ancêtres SAR France homologués

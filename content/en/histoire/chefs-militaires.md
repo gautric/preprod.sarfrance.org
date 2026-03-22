@@ -55,13 +55,7 @@ Commander Lasseray (*Les Français sous les treize étoiles* – 1935) identifie
 
 When he was chosen to raise and lead the expeditionary corps, Lieutenant-General Count de Rochambeau had nearly forty years of service. He had the military experience, the authority to command young officers, and the maturity to accept Washington's preeminence.
 
-Landing in July 1780 at Newport (RI), he thwarted and discouraged a few days later a British operation bearing similarities to the one that would succeed for their adversaries the following year in Virginia. The discipline he imposed on his regiments facilitated relations with the local population.
-
-Two conferences with Washington in September and then May 1781 clarified the possible strategies. The commander-in-chief wanted to attack the main body of British forces, fortified in New York. The Frenchman considered it more realistic to first target the weaker link of British forces in Virginia. Rochambeau conveyed his preference to Admiral de Grasse in terms that left no doubt about his own assessment.
-
-When, the choice made, the three men met at the end of September aboard the *Ville de Paris*, in the Chesapeake Bay, on the eve of what would be a decisive engagement, the synergy was perfect. The result was a victory that cost few lives and was achieved quickly enough to prevent reinforcements dispatched from New York from arriving in time.
-
-Royal orders forbidding him from participating in operations envisioned by Washington against Florida or Canada, Rochambeau joined in the preparation of an investment of New York, which the British would begin evacuating in the summer of 1782.
+Landing in July 1780 at Newport (RI), the discipline he imposed on his regiments facilitated relations with the local population. His strategic sense — preferring to target the weaker link of British forces in Virginia rather than New York — and his synergy with Washington and de Grasse would lead to the decisive victory at Yorktown in October 1781. See the [Military Operations](/en/histoire/operations/) page for the detailed campaign narrative.
 
 Returning to France at the beginning of 1783, Rochambeau would be the guest of the first Society of the Cincinnati of France. Made Marshal of France in 1791, he narrowly escaped the guillotine. A great admirer of Bonaparte's qualities and achievements — a sentiment that was reciprocated — he died in 1807.
 
@@ -146,9 +140,7 @@ Suffren and his squadron, bound for India, would detach at the Azores, as would 
 
 Arriving at Saint-Domingue with 24 ships on July 16, preparing for the Franco-Spanish operation decided at Versailles against Jamaica, de Grasse found Rochambeau's messages there. He then decided to gather all available resources and concentrate them to urgently reinforce the Expeditionary Corps' action. The urgency and what Rochambeau hinted of his strategic preferences led him to opt for a convergence on **Chesapeake** Bay rather than before New York.
 
-He attempted to borrow against his own assets to pay Washington's and Rochambeau's men (but had to resort to Havana merchants for this purpose), placed the merchant vessels under Spanish protection at Saint-Domingue, embarked 3,300 men under the Marquis de Saint-Simon and raced toward his objective, evading Hood's squadron. On September 2, he landed Saint-Simon who linked up with La Fayette, then turned against the British squadron of Graves, reinforced by Hood's returning from New York. A three-day engagement ensued. Outmatched, the British broke off and sailed for New York after having to scuttle one of their ships, on September 13. Meanwhile, Barras, arriving from Newport via the open sea and the south, had entered the Bay with 8 ships and 3 frigates escorting the convoy carrying siege artillery and additional reinforcements.
-
-War council on September 18 aboard *La Ville de Paris*, between Washington, Rochambeau and de Grasse. The concentration of Franco-American forces was soon complete. Trapped in **Yorktown** and Gloucester, Cornwallis was forced to capitulate on October 19, after a siege in which each army had vied in bravery.
+He attempted to borrow against his own assets to pay Washington's and Rochambeau's men (but had to resort to Havana merchants for this purpose), placed the merchant vessels under Spanish protection at Saint-Domingue, embarked 3,300 men under the Marquis de Saint-Simon and raced toward his objective, evading Hood's squadron. His intervention in the Chesapeake Bay in September 1781 was decisive for the victory at Yorktown (see [Military Operations](/en/histoire/operations/) for the detailed campaign narrative).
 
 Return to the Caribbean, where Bouillé had retaken **Saint Eustatius**. Together the two generals captured **Saint Kitts**, then de Grasse seized **Montserrat**.
 
