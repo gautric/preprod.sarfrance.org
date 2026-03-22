@@ -7,12 +7,12 @@
             </div>
             <div class="footer-col">
                 <h3>{{ i18n "quick_links" }}</h3>
-                {{- $prefix := partial "lang-prefix.html" . -}}
                 <ul>
-                    <li><a href="{{ $prefix }}/organisation/">{{ i18n "footer_organisation" }}</a></li>
-                    <li><a href="{{ $prefix }}/histoire/">{{ i18n "footer_histoire" }}</a></li>
-                    <li><a href="{{ $prefix }}/activites/">{{ i18n "footer_activites" }}</a></li>
-                    <li><a href="{{ $prefix }}/contact/nous-rejoindre/">{{ i18n "footer_rejoindre" }}</a></li>
+                    {{- range .Site.Menus.main -}}
+                        {{- if and (not .Parent) (ne .Identifier "accueil") }}
+                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                        {{- end -}}
+                    {{- end }}
                 </ul>
             </div>
             <div class="footer-col">
@@ -24,6 +24,7 @@
                 <h3>{{ i18n "affiliations" }}</h3>
                 <ul>
                     <li><a href="https://www.sar.org" target="_blank" rel="noopener">NSSAR</a></li>
+                    {{- $prefix := partial "lang-prefix.html" . -}}
                     <li><a href="{{ $prefix }}/organisation/societes/">{{ i18n "footer_dar" }}</a></li>
                     <li><a href="{{ $prefix }}/organisation/societes/">CAR Royal Auvergne</a></li>
                 </ul>
