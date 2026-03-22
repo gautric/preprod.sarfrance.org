@@ -55,7 +55,6 @@
                     <p class="hl-card-address">📍 {{ .adresse }}</p>
                     <p class="hl-card-desc">{{ .description }}</p>
                     <div class="hl-card-links">
-                        <a href="https://www.openstreetmap.org/#map=16/{{ .lat }}/{{ .lon }}" target="_blank" rel="noopener noreferrer" class="hl-link hl-link-map" title="{{ i18n "hauts_lieux_map" }}">🗺️ {{ i18n "hauts_lieux_map" }}</a>
                         {{ with .url }}
                         <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="hl-link hl-link-web" title="{{ i18n "hauts_lieux_website" }}">🌐 {{ i18n "hauts_lieux_website" }}</a>
                         {{ end }}
