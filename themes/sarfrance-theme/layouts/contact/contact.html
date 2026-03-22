@@ -1,0 +1,26 @@
+{{ define "head" }}
+{{- $css := resources.Get "css/contact.css" | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+{{ end }}
+{{ define "main" }}
+<article class="page-content">
+    <div class="page-header">
+        <div class="container">
+            <h1>{{ .Title }}</h1>
+            {{ if .Description }}<p class="page-description">{{ .Description }}</p>{{ end }}
+            {{ if .File }}{{- partial "page-contribute.html" . -}}{{ end }}
+        </div>
+    </div>
+    <div class="container">
+        <div class="content">
+            {{ .Content }}
+        </div>
+    </div>
+</article>
+{{ end }}
+{{ define "scripts" }}
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+{{- $js := resources.Get "js/contact.js" | resources.Fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+{{ end }}

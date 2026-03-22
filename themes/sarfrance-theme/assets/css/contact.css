@@ -1,0 +1,9 @@
+/* Contact page — Leaflet map styling */
+
+.contact-map {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px var(--shadow);
+    z-index: 1;
+}

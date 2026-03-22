@@ -1,6 +1,8 @@
 ---
 title: "Contact"
 description: "Contact SAR France"
+layout: "contact"
+type: "contact"
 ---
 
 
@@ -20,7 +22,7 @@ Please contact us with your last name, first name, email address, and the subjec
 
 ### Location
 
-<iframe src="https://maps.google.com/maps?q=SAR+France+Secr%C3%A9tariat,20+Rue+Bosquet,75007+Paris,France&t=&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="SAR France secretariat location, 20 rue Bosquet, 75007 Paris"></iframe>
+<div id="map-paris" class="contact-map" data-popup="SAR France Secretariat<br>20 rue Bosquet, 75007 Paris" aria-label="SAR France secretariat location, 20 rue Bosquet, 75007 Paris"></div>
 
 </div>
 </div>
@@ -82,7 +84,7 @@ SAR France is affiliated with the National Society Sons of the American Revoluti
 
 ### Location
 
-<iframe src="https://maps.google.com/maps?q=NSSAR+Sons+of+the+American+Revolution,809+W+Main+St,Louisville,KY+40202,USA&t=&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="NSSAR Headquarters, 809 West Main Street, Louisville, Kentucky"></iframe>
+<div id="map-louisville" class="contact-map" data-popup="NSSAR Headquarters<br>809 W Main St, Louisville, KY 40202" aria-label="NSSAR Headquarters, 809 West Main Street, Louisville, Kentucky"></div>
 
 </div>
 </div>
