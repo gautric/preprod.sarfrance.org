@@ -3,6 +3,7 @@
 /resources/_gen/
 /assets/jsconfig.json
 hugo_stats.json
+.hugo_build.lock
 
 # OS
 .DS_Store
@@ -14,11 +15,9 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# Project-specific
 sarfrance/*
-.gitignore
-.hugo_build.lock
-deploy.sh
 sarfrance.zip
-**.pdf
+*.pdf
 mail-notices-biographiques.txt
-.gitignore

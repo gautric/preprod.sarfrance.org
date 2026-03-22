@@ -2,7 +2,7 @@
 
 ```
 .
-├── hugo.toml                  # Site configuration (menus, params, markup, languages)
+├── hugo.yaml                  # Site configuration (menus, params, markup, languages)
 ├── content/
 │   ├── fr/                    # French content (default language)
 │   │   ├── _index.md          # Homepage FR
@@ -22,14 +22,15 @@
 ├── data/                      # YAML data files consumed by templates
 │   ├── agenda.yaml            # Events with types, dates, titles
 │   ├── carousel.yaml          # Homepage carousel images
-│   └── chronologie.yaml       # Historical timeline with periods and events
+│   ├── chronologie.yaml       # Historical timeline with periods and events
+│   └── notices.yaml           # Biographical notices for the dictionary
 ├── themes/sarfrance-theme/    # Custom Hugo theme (git submodule)
 │   ├── layouts/
 │   │   ├── _default/          # baseof.html, list.html, single.html
 │   │   ├── partials/          # header.html, footer.html, page-contribute.html
 │   │   ├── shortcodes/        # param.html, address.html
-│   │   ├── activites/         # agenda.html, agenda.ics.ics (custom layout + iCal)
-│   │   ├── histoire/          # chronologie.html (custom layout)
+│   │   ├── activites/         # agenda.html, agenda.ics.ics, notices.html
+│   │   ├── histoire/          # chronologie.html, notices.html
 │   │   ├── contact/           # (reserved, currently empty)
 │   │   ├── index.html         # Homepage template
 │   │   ├── 404.html           # Error page
@@ -51,15 +52,15 @@
 
 ## Key Conventions
 
-- Content sections map 1:1 to top-level menu items in `hugo.toml`
+- Content sections map 1:1 to top-level menu items in `hugo.yaml`
 - Each section folder has an `_index.md` for the section landing page
 - Agenda pages are year-based: `agenda-2024.md`, `agenda-2025.md`, `agenda-2026.md`
-- The agenda menu link in `hugo.toml` should point to the current year's agenda
-- Custom layouts exist only for `activites/agenda` and `histoire/chronologie`; all other pages use `_default/single.html`
+- The agenda menu link in `hugo.yaml` should point to the current year's agenda
+- Custom layouts exist for `activites/agenda`, `activites/notices`, `histoire/chronologie`, and `histoire/notices`; all other pages use `_default/single.html`
 - The theme is a git submodule — changes to templates/CSS/JS go in `themes/sarfrance-theme/`
 - The root `layouts/` directory is empty and reserved for theme overrides if needed
 - Data files in `data/` use structured YAML with typed entries (event types, tags, periods)
-- Tag/type colors are defined as CSS classes in `colors.css`, named `tag-{key}` or `type-{key}` where `{key}` is the urlized YAML key (e.g., YAML key `révolte` → CSS class `tag-revolte`). Templates derive the class name via `{{ $key | urlize }}`. The `removePathAccents = true` setting in `hugo.toml` ensures `urlize` strips accents. Never use inline `style=` or `color:` fields in YAML — add a new CSS class in `colors.css` instead.
+- Tag/type colors are defined as CSS classes in `colors.css`, named `tag-{key}` or `type-{key}` where `{key}` is the urlized YAML key (e.g., YAML key `révolte` → CSS class `tag-revolte`). Templates derive the class name via `{{ $key | urlize }}`. The `removePathAccents = true` setting in `hugo.yaml` ensures `urlize` strips accents. Never use inline `style=` or `color:` fields in YAML — add a new CSS class in `colors.css` instead.
 - Filter buttons across agenda, chronologie, and notices share a common `filter-btn` class defined in `filters.css` (pill shape, font size, padding, hover/active states). Page-specific CSS files should not duplicate filter base styles.
 - Active filter color overrides (`.filter-btn.active.tag-xxx` / `.filter-btn.active.type-xxx`) are defined at the bottom of `colors.css`, keeping all color definitions in one place.
 - CSS load order in `baseof.html`: `colors.css` → `style.css` → `filters.css` → page-specific CSS. This ensures variables are available, then base styles, then shared filter styles, then page overrides.
@@ -69,14 +70,14 @@
 
 ## Multilanguage Architecture
 
-- Hugo's built-in multilingual mode is configured in `hugo.toml` under `[languages]`
+- Hugo's built-in multilingual mode is configured in `hugo.yaml` under `languages`
 - Default language: `fr` (French, weight 1) — served at root `/`
 - Secondary language: `en` (English, weight 2) — served under `/en/`
 - `defaultContentLanguageInSubdir = false` means French pages have no `/fr/` prefix
 - Content directories: `content/fr/` and `content/en/` (set via `contentDir` per language)
-- Each language has its own full menu tree defined in `hugo.toml` (`[[languages.fr.menus.main]]`, `[[languages.en.menus.main]]`)
+- Each language has its own full menu tree defined in `hugo.yaml` (`languages.fr.menus.main`, `languages.en.menus.main`)
 - English menu URLs are prefixed with `/en/` (e.g. `/en/organisation/nssar/`)
-- Language-specific params (description, heroTitle, footerText, etc.) live under `[languages.XX.params]`
+- Language-specific params (description, heroTitle, footerText, etc.) live under `languages.XX.params`
 - UI strings (button labels, section titles, etc.) use `{{ i18n "key" }}` and are defined in `i18n/fr.yaml` and `i18n/en.yaml`
 - Templates use `{{ .Lang }}` and `{{ eq .Lang "en" }}` to adapt behavior per language
 - `hreflang` alternate links are generated automatically in `baseof.html` when translations exist

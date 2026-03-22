@@ -2,7 +2,7 @@
 
 ## Static Site Generator
 - Hugo (extended) v0.157.0 minimum
-- Configuration: `hugo.toml` (TOML format)
+- Configuration: `hugo.yaml` (YAML format)
 - Theme: `sarfrance-theme` (custom, in `themes/sarfrance-theme/`, loaded as a git submodule)
 
 ## Frontend
