@@ -10,6 +10,15 @@
     <div class="container">
         <div class="content">
             {{ .Content }}
+            {{ with .Params.references }}
+            <hr>
+            <h2>{{ i18n "references_title" }}</h2>
+            <ul>
+                {{ range . }}
+                <li>{{ .title }}{{ if .author }}, {{ .author }}{{ end }}{{ if .publisher }}, {{ .publisher }}{{ end }}{{ if .date }} ({{ .date }}){{ end }}{{ if .description }}. {{ .description }}{{ end }}{{ if .url }} — <a href="{{ .url }}" target="_blank" rel="noopener">{{ .url }}</a>{{ end }}</li>
+                {{ end }}
+            </ul>
+            {{ end }}
         </div>
     </div>
 </article>

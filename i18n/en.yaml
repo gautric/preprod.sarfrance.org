@@ -108,3 +108,7 @@
   translation: "Back to home"
 - id: error_404_agenda
   translation: "Calendar"
+
+# References
+- id: references_title
+  translation: "References"
