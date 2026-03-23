@@ -123,6 +123,10 @@
 - id: hauts_lieux_no_result
   translation: "Aucun résultat trouvé"
 
+# Last update
+- id: last_update
+  translation: "Dernière mise à jour"
+
 # References
 - id: references_title
   translation: "Références"
