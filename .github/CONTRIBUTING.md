@@ -66,7 +66,7 @@ Dossier : `content/organisation/`
 | Page sur le site | Fichier à modifier |
 |---|---|
 | NSSAR | `nssar.md` |
-| Objet de SAR France | `objet.md` |
+| Objet et Histoire | `objet-et-histoire.md` |
 | Objet, Statuts & Règlement | `statuts.md` |
 | Sociétés françaises | `societes.md` |
 | Secrétariat | `secretariat.md` |
@@ -117,7 +117,7 @@ Dossier : `content/en/organisation/`
 | Page sur le site | Fichier à modifier |
 |---|---|
 | NSSAR | `nssar.md` |
-| Purpose of SAR France | `objet.md` |
+| Purpose and History | `objet-et-histoire.md` |
 | Bylaws & Rules | `statuts.md` |
 | French Societies | `societes.md` |
 | Secretariat | `secretariat.md` |
