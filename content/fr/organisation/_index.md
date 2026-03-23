@@ -4,15 +4,15 @@ description: "Structure et fonctionnement de la Société en France des Fils de 
 lastUpdate: 2026-03-01
 ---
 
-La Société en France des Fils de la Révolution Américaine est la première société fédérale, à l'extérieur des États-Unis, de la National Society of the Sons of the American Revolution (NSSAR). Elle est dirigée par un conseil d'administration composé de membres bénévoles et s'appuie sur un réseau de correspondants régionaux en France et en Europe pour animer la vie de la Société au plus près de ses membres.
-
-### Sommaire
+### Sommaire de la page
 
 - [Conseil d'administration](#conseil-dadministration)
 - [Liaison avec la NSSAR](#liaison-avec-la-nssar)
 - [Délégations régionales](#délégations-régionales)
 - [Secrétariat](#secrétariat)
 - [Conseil consultatif d'histoire](#conseil-consultatif-dhistoire)
+
+La Société en France des Fils de la Révolution Américaine est la première société fédérale, à l'extérieur des États-Unis, de la National Society of the Sons of the American Revolution (NSSAR). Elle est dirigée par un conseil d'administration composé de membres bénévoles et s'appuie sur un réseau de correspondants régionaux en France et en Europe pour animer la vie de la Société au plus près de ses membres.
 
 ## Conseil d'administration
 

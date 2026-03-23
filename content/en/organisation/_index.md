@@ -4,15 +4,16 @@ description: "Structure and operations of the Society in France of the Sons of t
 lastUpdate: 2026-03-01
 ---
 
-The Society in France of the Sons of the American Revolution is the first state society outside the United States of the National Society of the Sons of the American Revolution (NSSAR). It is governed by a board of directors composed of volunteer members and relies on a network of regional correspondents across France and Europe to foster the Society's activities close to its members.
 
-### Contents
+### Page Contents
 
 - [Board of Directors](#board-of-directors)
 - [NSSAR Liaison](#nssar-liaison)
 - [Regional Delegations](#regional-delegations)
 - [Secretariat](#secretariat)
 - [Advisory History Committee](#advisory-history-committee)
+
+The Society in France of the Sons of the American Revolution is the first state society outside the United States of the National Society of the Sons of the American Revolution (NSSAR). It is governed by a board of directors composed of volunteer members and relies on a network of regional correspondents across France and Europe to foster the Society's activities close to its members.
 
 ## Board of Directors
 
