@@ -1,6 +1,6 @@
 ---
-title: "French Societies"
-description: "French societies stemming from the American War of Independence"
+title: "Other French Societies"
+description: "Other French societies stemming from the American War of Independence"
 ---
 
 ## Daughters of the American Revolution (DAR)

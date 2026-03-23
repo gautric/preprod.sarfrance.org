@@ -59,7 +59,7 @@ languages:
           parent: "organisation"
           weight: 3
         - identifier: "societes"
-          name: "Sociétés françaises"
+          name: "Autres sociétés françaises"
           url: "/organisation/societes/"
           parent: "organisation"
           weight: 4
@@ -206,7 +206,7 @@ languages:
           parent: "organisation"
           weight: 3
         - identifier: "societes"
-          name: "French Societies"
+          name: "Other French Societies"
           url: "/en/organisation/societes/"
           parent: "organisation"
           weight: 4

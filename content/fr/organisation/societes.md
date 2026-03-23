@@ -1,6 +1,6 @@
 ---
-title: "Sociétés françaises"
-description: "Sociétés françaises issues de la Guerre d'Amérique"
+title: "Autres sociétés françaises"
+description: "Autres sociétés françaises issues de la Guerre d'Amérique"
 ---
 
 ## Daughters of the American Revolution (DAR)
