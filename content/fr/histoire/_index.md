@@ -1,6 +1,7 @@
 ---
 title: "Histoire"
 description: "La France et la Guerre d'Indépendance américaine"
+lastUpdate: 2026-03-01
 ---
 
 ## La France et la Révolution Américaine

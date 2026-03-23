@@ -1,6 +1,7 @@
 ---
 title: "History"
 description: "France and the American War of Independence"
+lastUpdate: 2026-03-01
 ---
 
 ## France and the American Revolution

@@ -3,6 +3,7 @@ title: "Contact"
 description: "Contactez SAR France"
 layout: "contact"
 type: "contact"
+lastUpdate: 2026-03-01
 ---
 
 ### Sommaire de la page
@@ -34,7 +35,6 @@ type: "contact"
 <div>
 
 ## Siège NSSAR {#siege-nssar}
-
 
 SAR France est affiliée à la National Society Sons of the American Revolution (NSSAR), dont le siège est à Louisville, Kentucky, États-Unis.
 

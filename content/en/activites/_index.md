@@ -1,6 +1,7 @@
 ---
 title: "Activities"
 description: "Activities and events of SAR France"
+lastUpdate: 2026-03-01
 ---
 
 ## Our Activities

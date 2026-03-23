@@ -3,9 +3,10 @@ title: "Contact"
 description: "Contact SAR France"
 layout: "contact"
 type: "contact"
+lastUpdate: 2026-03-01
 ---
 
-### Summary
+### Page Contents
 
 - [Secretariat](#secretariat) – Address, office hours and contact details
 - [NSSAR Headquarters](#nssar-headquarters) – National Society SAR in Louisville
@@ -34,7 +35,6 @@ type: "contact"
 <div>
 
 ## NSSAR Headquarters {#nssar-headquarters}
-
 
 SAR France is affiliated with the National Society Sons of the American Revolution (NSSAR), headquartered in Louisville, Kentucky, United States.
 

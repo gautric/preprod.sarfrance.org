@@ -713,7 +713,7 @@ a:hover {
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 2px 10px var(--shadow);
-    border-left: 4px solid var(--primary);
+    border-left: 3px solid var(--primary);
 }
 
 .list-item h2 {
