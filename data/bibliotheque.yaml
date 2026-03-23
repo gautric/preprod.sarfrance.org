@@ -1781,8 +1781,6 @@ ouvrages:
   pages: 87
   reliure: broché
   categorie: revues
-  couverture: http://books.google.com/books/content?id=7ZG4EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9782380943412'
 - auteur: Collectif
   titre: Sea History — Hermione arrivée
   editeur: ''
@@ -2742,8 +2740,6 @@ ouvrages:
   pages: 240
   reliure: broché
   categorie: catalogues
-  couverture: http://books.google.com/books/content?id=K1DZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9782226452702'
 - auteur: Collectif
   titre: Les Collections Aristophil Lettres et manuscrits
   editeur: Salle Favart
@@ -2947,5 +2943,4 @@ ouvrages:
   pages: 516
   reliure: broché
   categorie: sources
-
   isbn: '9782252028360'
