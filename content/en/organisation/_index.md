@@ -6,6 +6,14 @@ lastUpdate: 2026-03-01
 
 The Society in France of the Sons of the American Revolution is the first state society outside the United States of the National Society of the Sons of the American Revolution (NSSAR). It is governed by a board of directors composed of volunteer members and relies on a network of regional correspondents across France and Europe to foster the Society's activities close to its members.
 
+### Contents
+
+- [Board of Directors](#board-of-directors)
+- [NSSAR Liaison](#nssar-liaison)
+- [Regional Delegations](#regional-delegations)
+- [Secretariat](#secretariat)
+- [Advisory History Committee](#advisory-history-committee)
+
 ## Board of Directors
 
 - President: Patrick Mesnard
@@ -28,7 +36,7 @@ The Society in France of the Sons of the American Revolution is the first state 
 ## NSSAR Liaison
 
 - SAR France Trustee to NSSAR (USA): Patrick Kelly
-- Alternate Trustee: William Schwedtke
+- Alternate Trustee: Samuel Powel
 - NSSAR Vice President General (Europe District): Patrick Mesnard
 
 ## Regional Delegations
@@ -50,3 +58,30 @@ Regional Development Coordinator: Olivier Partiot
 - Provence / Alps / French Riviera: Christian Guidi, Antoine Comby
 - Rhône-Alpes (Lyon): Antoine Comby
 - Savoy / Switzerland: Philippe de La Débutrie, Cyrille Joye
+
+## Secretariat
+
+**Office hours**: Tuesday and Thursday from 9:30 AM to 6:00 PM.
+
+The Society's secretariat, located at our offices at {{< address "street" >}}, serves as the link between the Board of Directors, its Bureau, and all our members.
+
+### Responsibilities
+
+The Secretariat prepares all events and conferences and ensures their smooth running. It attends all of them whenever possible and facilitates exchanges between members on these occasions.
+
+It handles all formalities related to member admissions, renewals, and the collection of all information necessary for approval by the proof commission, as well as their formalization.
+
+It also serves as the permanent link between the Paris headquarters and the various regional delegations, disseminating announcements of local events.
+
+Finally, it attends all board of directors meetings; it assists the secretary general in preparing sessions and implementing decisions.
+
+For any enquiry, please visit our [Contact](/en/contact/) page.
+
+## Advisory History Committee
+
+The Society has an Advisory History Committee, composed of six to twelve recognized specialists and members of the society's committee. This committee meets approximately every two months at the society's headquarters and oversees:
+
+- Conferences and commemorative events
+- Collection and analysis of little-known family archives
+- Implementation of the SAR Thesis Award "Jacques de Trentinian Prize"
+- Publications and historical studies

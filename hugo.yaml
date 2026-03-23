@@ -63,11 +63,6 @@ languages:
           url: "/organisation/societes/"
           parent: "organisation"
           weight: 4
-        - identifier: "secretariat"
-          name: "Secrétariat"
-          url: "/organisation/secretariat/"
-          parent: "organisation"
-          weight: 5
         # Submenus - Histoire
         - identifier: "chronologie"
           name: "Chronologie"
@@ -210,11 +205,6 @@ languages:
           url: "/en/organisation/societes/"
           parent: "organisation"
           weight: 4
-        - identifier: "secretariat"
-          name: "Secretariat"
-          url: "/en/organisation/secretariat/"
-          parent: "organisation"
-          weight: 5
         # Submenus - History
         - identifier: "chronologie"
           name: "Timeline"
