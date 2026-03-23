@@ -4,16 +4,8 @@
 {{ end }}
 {{ define "main" }}
 <section class="page-content">
-    <div class="page-header">
-        <div class="container">
-            <h1>{{ .Title }}</h1>
-            <p class="page-description">{{ i18n "bibli_desc" }}</p>
-            <p class="page-meta">
-                <span class="page-meta-count">{{ len .Site.Data.bibliotheque.ouvrages }} {{ i18n "bibli_count" }}</span>
-                — <span>{{ i18n "bibli_revision" }} : {{ .Site.Data.bibliotheque.revision }}</span>
-            </p>
-        </div>
-    </div>
+    {{ $bibMeta := printf "<p class=\"page-meta\"><span class=\"page-meta-count\">%d %s</span> — <span>%s : %s</span></p>" (len .Site.Data.bibliotheque.ouvrages) (i18n "bibli_count") (i18n "bibli_revision") .Site.Data.bibliotheque.revision }}
+    {{ partial "page-header.html" (dict "ctx" . "desc" (i18n "bibli_desc") "extra" $bibMeta) }}
     <div class="container">
         <div class="content">
             {{ .Content }}

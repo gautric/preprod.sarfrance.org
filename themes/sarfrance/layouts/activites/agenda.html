@@ -13,12 +13,7 @@
 {{ range $events }}{{ $usedTypes = $usedTypes | append .type }}{{ end }}
 {{ $usedTypes = $usedTypes | uniq }}
 <section class="page-content">
-    <div class="page-header">
-        <div class="container">
-            <h1>{{ i18n "agenda_title" }} {{ $year }}</h1>
-            <p class="page-description">{{ i18n "agenda_desc" }}</p>
-        </div>
-    </div>
+    {{ partial "page-header.html" (dict "ctx" . "title" (printf "%s %s" (i18n "agenda_title") $year) "desc" (i18n "agenda_desc")) }}
     <div class="container">
         <div class="agenda-export">
             <a href="{{ $prefix }}/activites/agenda-{{ $year }}/index.ics" class="agenda-export__btn" download>

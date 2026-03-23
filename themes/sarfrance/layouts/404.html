@@ -1,12 +1,7 @@
 {{ define "main" }}
 {{- $prefix := partial "lang-prefix.html" . -}}
 {{- $agendaYear := .Site.Params.currentAgendaYear | default (now.Format "2006") -}}
-<section class="page-header">
-    <div class="container">
-        <h1>404</h1>
-        <p class="page-description">{{ i18n "error_404_title" }}</p>
-    </div>
-</section>
+{{ partial "page-header.html" (dict "title" "404" "desc" (i18n "error_404_title")) }}
 
 <section class="page-content">
     <div class="container error-404">

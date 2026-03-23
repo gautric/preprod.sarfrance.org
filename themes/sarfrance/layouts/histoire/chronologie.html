@@ -4,12 +4,7 @@
 {{ end }}
 {{ define "main" }}
 <section class="page-content">
-    <div class="page-header">
-        <div class="container">
-            <h1>{{ .Title }}</h1>
-            <p class="page-description">{{ i18n "chronologie_desc" }}</p>
-        </div>
-    </div>
+    {{ partial "page-header.html" (dict "ctx" . "desc" (i18n "chronologie_desc")) }}
     <div class="container">
         <div class="page-filters" role="group" aria-label="{{ i18n "filter_by_category" }}">
             <button class="filter-btn active" data-tag="all">{{ i18n "filter_all" }}</button>

@@ -8,14 +8,8 @@
 {{ $totalLieux := 0 }}
 {{ range $data.regions }}{{ $totalLieux = add $totalLieux (len .lieux) }}{{ end }}
 <section class="page-content">
-    <div class="page-header">
-        <div class="container">
-            <h1>{{ .Title }}</h1>
-            <p class="page-description">{{ i18n "hauts_lieux_desc" }}</p>
-            {{ if .File }}{{- partial "page-contribute.html" . -}}{{ end }}
-            <p class="page-meta-hint">{{ $totalLieux }} {{ i18n "hauts_lieux_count" }}</p>
-        </div>
-    </div>
+    {{ $hlExtra := printf "<p class=\"page-meta-hint\">%d %s</p>" $totalLieux (i18n "hauts_lieux_count") }}
+    {{ partial "page-header.html" (dict "ctx" . "desc" (i18n "hauts_lieux_desc") "extra" $hlExtra) }}
     <div class="container">
         <div class="page-search-wrap">
             <input type="text" id="hl-search" class="page-search" placeholder="{{ i18n "hauts_lieux_search" }}" aria-label="{{ i18n "hauts_lieux_search" }}">

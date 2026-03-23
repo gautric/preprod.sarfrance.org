@@ -1,0 +1,31 @@
+{{/*
+  Page header partial.
+
+  {{ partial "page-header.html" . }}
+    → uses .Title, .Description, page-contribute from page context
+
+  {{ partial "page-header.html" (dict "ctx" . "title" "X" "desc" "Y" "extra" "<p>...</p>") }}
+    → overrides title/desc, appends extra HTML
+*/}}
+{{- if reflect.IsMap . -}}
+  {{- $ctx   := .ctx | default dict -}}
+  {{- $title := .title | default $ctx.Title -}}
+  {{- $desc  := .desc | default "" -}}
+  {{- $extra := .extra | default "" -}}
+  <div class="page-header">
+    <div class="container">
+      <h1>{{ $title }}</h1>
+      {{ with $desc }}<p class="page-description">{{ . }}</p>{{ end }}
+      {{ with $ctx }}{{ if .File }}{{- partial "page-contribute.html" . -}}{{ end }}{{ end }}
+      {{ with $extra }}{{ . | safeHTML }}{{ end }}
+    </div>
+  </div>
+{{- else -}}
+  <div class="page-header">
+    <div class="container">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="page-description">{{ . }}</p>{{ end }}
+      {{ if .File }}{{- partial "page-contribute.html" . -}}{{ end }}
+    </div>
+  </div>
+{{- end -}}

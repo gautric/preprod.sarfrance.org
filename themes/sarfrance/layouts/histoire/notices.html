@@ -4,16 +4,8 @@
 {{ end }}
 {{ define "main" }}
 <section class="page-content">
-    <div class="page-header">
-        <div class="container">
-            <h1>{{ .Title }}</h1>
-            <p class="page-description">{{ i18n "notices_desc" }}</p>
-            <p class="page-meta">
-                <span class="page-meta-count">{{ len .Site.Data.notices.notices }} {{ i18n "notices_count" }}</span>
-                — <span>{{ i18n "notices_revision" }} : {{ .Site.Data.notices.revision }}</span>
-            </p>
-        </div>
-    </div>
+    {{ $noticesMeta := printf "<p class=\"page-meta\"><span class=\"page-meta-count\">%d %s</span> — <span>%s : %s</span></p>" (len .Site.Data.notices.notices) (i18n "notices_count") (i18n "notices_revision") .Site.Data.notices.revision }}
+    {{ partial "page-header.html" (dict "ctx" . "desc" (i18n "notices_desc") "extra" $noticesMeta) }}
     <div class="container">
         <div class="page-search-wrap">
             <input type="search" id="notices-search" class="page-search"
