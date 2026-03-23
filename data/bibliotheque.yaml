@@ -139,7 +139,7 @@ ouvrages:
   categorie: biographie
   isbn: '9782402177160'
   couverture: http://books.google.com/books/content?id=MsJYDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: CLARK Ronald
+- auteur: CLARK Ronald William
   titre: Franklin
   editeur: Fayard
   annee: 1986
@@ -148,6 +148,7 @@ ouvrages:
   reliure: broché
   categorie: biographie
   isbn: '9782213016719'
+  couverture: http://books.google.com/books/content?id=nxaTAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 - auteur: Collectif
   titre: Benjamin Franklin, homme de Science, homme
   editeur: Paris Musées Éditions
