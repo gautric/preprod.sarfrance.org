@@ -2923,10 +2923,14 @@ ouvrages:
   categorie: histoire-generale
 - auteur: HOULLEMARE et ASS.
   titre: "L'incroyable histoire du sergent York"
-  editeur: ""
+  editeur: ''
+  annee: ''
   langue: fr
+  pages: ''
   reliure: broché
   categorie: histoire-generale
+  isbn: ''
+  couverture: ''
 - auteur: Collectif
   titre: "La France de la Révolution et les Etats-Unis d'Amérique"
   editeur: Masson
