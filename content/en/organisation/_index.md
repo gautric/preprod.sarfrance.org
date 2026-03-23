@@ -22,7 +22,8 @@ States Ambassador to Paris.
 
 **1901**: The law of July 1, 1901 enables associations to develop in France, thereby facilitating
 the expansion of the chapter.
-Creation of the Society in France
+
+### Creation of the Society in France
 
 **1926**: The NSSAR authorizes the French chapter to become a full-fledged society.
 

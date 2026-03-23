@@ -23,7 +23,8 @@ des États-Unis à Paris.
 
 **1901** : La loi du 1er juillet 1901 permet aux associations de se développer en France, facilitant
 ainsi l&#39;expansion du chapitre.
-Création de la Société en France
+
+### Création de la Société en France
 
 **1926** : La NSSAR autorise le chapitre français à devenir une société à part entière.
 
@@ -31,7 +32,8 @@ Création de la Société en France
 première société non-américaine de ce type.
 
 **1934** : Déclaration comme association loi 1901.
-Événements marquants
+
+### Événements marquants
 
 **1899-1905** : Recherche et transfert de la sépulture du capitaine John Paul Jones à l&#39;Académie
 Navale d&#39;Annapolis.
