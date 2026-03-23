@@ -48,6 +48,7 @@
                     <span class="bibli-editeur">({{ with .editeur }}{{ . }}{{ else }}N/A{{ end }}, {{ with .annee }}{{ . }}{{ else }}N/A{{ end }})</span>
                     <span class="bibli-detail">{{ with .pages }}{{ . }} p.{{ else }}N/A{{ end }}</span>
                     {{ with .reliure }}<span class="bibli-detail">{{ . }}</span>{{ end }}
+                    {{ with .isbn }}<span class="bibli-isbn">ISBN {{ . }}</span>{{ end }}
                     {{ with .langue }}<span class="bibli-langue bibli-langue-{{ . }}"></span>{{ end }}
                 </div>
                 {{ with .couverture }}<img class="bibli-cover" src="{{ . }}" alt="" loading="lazy">{{ end }}
