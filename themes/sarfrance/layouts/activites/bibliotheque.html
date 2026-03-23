@@ -12,7 +12,7 @@
                 <span class="bibli-count">{{ len .Site.Data.bibliotheque.ouvrages }} {{ i18n "bibli_count" }}</span>
                 — <span class="bibli-revision">{{ i18n "bibli_revision" }} : {{ .Site.Data.bibliotheque.revision }}</span>
             </p>
-            <p class="bibli-available">{{ i18n "bibli_available" }}</p>
+            <p class="bibli-available">{{ i18n "bibli_available" | safeHTML }}</p>
         </div>
     </div>
     <div class="container">

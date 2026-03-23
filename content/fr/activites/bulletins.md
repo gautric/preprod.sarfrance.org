@@ -5,7 +5,7 @@ description: "Publications de SAR France"
 
 ## L'Alliance Franco-Américaine
 
-SAR France édite une revue annuelle : l'Alliance Franco-Américaine, dont le dernier numéro est disponible auprès de notre secrétariat.
+SAR France édite une revue annuelle : l'Alliance Franco-Américaine, dont le dernier numéro est disponible auprès de notre [secrétariat](/contact/#secretariat).
 
 ## Ouvrages
 
@@ -17,4 +17,4 @@ SAR France édite une revue annuelle : l'Alliance Franco-Américaine, dont le de
 
 ## Bibliothèque
 
-La Société dispose d'une bibliothèque consultable au secrétariat, rassemblant ouvrages, documents et archives relatifs à la Guerre d'Amérique et à l'histoire des relations franco-américaines.
+La Société dispose d'une bibliothèque consultable au [secrétariat](/contact/#secretariat), rassemblant ouvrages, documents et archives relatifs à la Guerre d'Amérique et à l'histoire des relations franco-américaines.

@@ -13,4 +13,4 @@ description: "Ouvrages et autres publications de SAR France"
 
 ## Bibliothèque
 
-La Société dispose d'une bibliothèque consultable au secrétariat, rassemblant ouvrages, documents et archives relatifs à la Guerre d'Amérique et à l'histoire des relations franco-américaines.
+La Société dispose d'une bibliothèque consultable au [secrétariat](/contact/#secretariat), rassemblant ouvrages, documents et archives relatifs à la Guerre d'Amérique et à l'histoire des relations franco-américaines.

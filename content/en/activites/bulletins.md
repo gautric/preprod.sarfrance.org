@@ -5,7 +5,7 @@ description: "SAR France publications"
 
 ## L'Alliance Franco-Américaine
 
-SAR France publishes an annual journal: L'Alliance Franco-Américaine, the latest issue of which is available from our secretariat.
+SAR France publishes an annual journal: L'Alliance Franco-Américaine, the latest issue of which is available from our [secretariat](/en/contact/#secretariat).
 
 ## Books
 
@@ -17,4 +17,4 @@ SAR France publishes an annual journal: L'Alliance Franco-Américaine, the lates
 
 ## Library
 
-The Society maintains a library available for consultation at the secretariat, gathering books, documents, and archives relating to the American War of Independence and the history of Franco-American relations.
+The Society maintains a library available for consultation at the [secretariat](/en/contact/#secretariat), gathering books, documents, and archives relating to the American War of Independence and the history of Franco-American relations.

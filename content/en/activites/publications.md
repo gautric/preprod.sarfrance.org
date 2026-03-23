@@ -13,4 +13,4 @@ description: "Books and other publications by SAR France"
 
 ## Library
 
-The Society maintains a library available for consultation at the secretariat, gathering books, documents, and archives relating to the American War of Independence and the history of Franco-American relations.
+The Society maintains a library available for consultation at the [secretariat](/en/contact/#secretariat), gathering books, documents, and archives relating to the American War of Independence and the history of Franco-American relations.

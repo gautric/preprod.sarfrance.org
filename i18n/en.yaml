@@ -135,7 +135,7 @@
 - id: bibli_revision
   translation: "Revision"
 - id: bibli_available
-  translation: "All books are available for consultation upon request from the SAR France secretariat."
+  translation: "All books are available for consultation upon request from the SAR France <a href=\"/en/contact/#secretariat\">secretariat</a>."
 - id: bibli_search
   translation: "Search by title, author, publisher…"
 - id: bibli_no_result

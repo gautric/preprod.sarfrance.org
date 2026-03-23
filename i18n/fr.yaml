@@ -135,7 +135,7 @@
 - id: bibli_revision
   translation: "Révision"
 - id: bibli_available
-  translation: "Tous les ouvrages sont consultables sur demande auprès du secrétariat de SAR France."
+  translation: "Tous les ouvrages sont consultables sur demande auprès du <a href=\"/contact/#secretariat\">secrétariat</a> de SAR France."
 - id: bibli_search
   translation: "Rechercher un titre, un auteur, un éditeur…"
 - id: bibli_no_result
