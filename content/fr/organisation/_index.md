@@ -61,7 +61,7 @@ Responsable du développement régional : Olivier Partiot
 
 ## Secrétariat
 
-**Permanences** : le mardi et le jeudi de 09h30 à 18h00.
+[**Permanences** : le mardi et le jeudi de 09h30 à 18h00.](/contact/) 
 
 Le secrétariat de la Société, situé dans nos locaux du {{< address "street" >}}, est le lien entre le Conseil d'administration, son Bureau et tous nos membres.
 

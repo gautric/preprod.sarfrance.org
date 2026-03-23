@@ -61,7 +61,7 @@ Regional Development Coordinator: Olivier Partiot
 
 ## Secretariat
 
-**Office hours**: Tuesday and Thursday from 9:30 AM to 6:00 PM.
+[**Office hours**: Tuesday and Thursday from 9:30 AM to 6:00 PM.](/en/contact/) 
 
 The Society's secretariat, located at our offices at {{< address "street" >}}, serves as the link between the Board of Directors, its Bureau, and all our members.
 
