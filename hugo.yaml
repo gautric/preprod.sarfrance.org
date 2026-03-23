@@ -122,6 +122,11 @@ languages:
           url: "/activites/prix-trentinian/"
           parent: "activites"
           weight: 5
+        - identifier: "bibliotheque"
+          name: "Bibliothèque"
+          url: "/activites/bibliotheque/"
+          parent: "activites"
+          weight: 6
         # Submenus - Contact
         - identifier: "formulaire"
           name: "Nous contacter"
@@ -264,6 +269,11 @@ languages:
           url: "/en/activites/prix-trentinian/"
           parent: "activites"
           weight: 5
+        - identifier: "bibliotheque"
+          name: "Library"
+          url: "/en/activites/bibliotheque/"
+          parent: "activites"
+          weight: 6
         # Submenus - Contact
         - identifier: "formulaire"
           name: "Contact Us"

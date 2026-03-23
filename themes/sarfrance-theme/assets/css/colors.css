@@ -189,3 +189,29 @@
 .filter-btn.active.tag-monument-historique { background-color: var(--color-brown); border-color: var(--color-brown); }
 .filter-btn.active.tag-stele            { background-color: var(--color-crimson); border-color: var(--color-crimson); }
 .filter-btn.active.tag-lieu-de-memoire  { background-color: var(--color-dark-blue); border-color: var(--color-dark-blue); }
+
+/* Bibliothèque categories — active filters */
+.filter-btn.active.cat-biographie        { background-color: var(--color-burgundy); border-color: var(--color-burgundy); }
+.filter-btn.active.cat-marine            { background-color: var(--color-teal); border-color: var(--color-teal); }
+.filter-btn.active.cat-gia               { background-color: var(--color-crimson); border-color: var(--color-crimson); }
+.filter-btn.active.cat-histoire-generale { background-color: var(--color-royal-blue); border-color: var(--color-royal-blue); }
+.filter-btn.active.cat-lieux-historiques { background-color: var(--color-olive); border-color: var(--color-olive); }
+.filter-btn.active.cat-genealogie        { background-color: var(--color-brown); border-color: var(--color-brown); }
+.filter-btn.active.cat-repertoires       { background-color: var(--color-navy); border-color: var(--color-navy); }
+.filter-btn.active.cat-sources           { background-color: var(--color-purple); border-color: var(--color-purple); }
+.filter-btn.active.cat-catalogues        { background-color: var(--color-copper); border-color: var(--color-copper); }
+.filter-btn.active.cat-revues            { background-color: var(--color-khaki); border-color: var(--color-khaki); }
+.filter-btn.active.cat-divers            { background-color: var(--color-slate); border-color: var(--color-slate); }
+
+/* Bibliothèque categories — tag pills */
+.cat-biographie        { background-color: var(--color-burgundy); }
+.cat-marine            { background-color: var(--color-teal); }
+.cat-gia               { background-color: var(--color-crimson); }
+.cat-histoire-generale { background-color: var(--color-royal-blue); }
+.cat-lieux-historiques { background-color: var(--color-olive); }
+.cat-genealogie        { background-color: var(--color-brown); }
+.cat-repertoires       { background-color: var(--color-navy); }
+.cat-sources           { background-color: var(--color-purple); }
+.cat-catalogues        { background-color: var(--color-copper); }
+.cat-revues            { background-color: var(--color-khaki); }
+.cat-divers            { background-color: var(--color-slate); }

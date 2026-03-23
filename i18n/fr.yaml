@@ -127,6 +127,22 @@
 - id: last_update
   translation: "Dernière mise à jour"
 
+# Bibliothèque
+- id: bibli_desc
+  translation: "Inventaire de la bibliothèque SAR France"
+- id: bibli_count
+  translation: "ouvrages"
+- id: bibli_revision
+  translation: "Révision"
+- id: bibli_available
+  translation: "Tous les ouvrages sont consultables sur demande auprès du secrétariat de SAR France."
+- id: bibli_search
+  translation: "Rechercher un titre, un auteur, un éditeur…"
+- id: bibli_no_result
+  translation: "Aucun résultat trouvé"
+- id: bibli_see_book
+  translation: "Voir sur Google Books"
+
 # References
 - id: references_title
   translation: "Références"

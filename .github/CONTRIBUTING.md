@@ -96,6 +96,7 @@ Dossier : `content/activites/`
 | Dictionnaire biographique | `dictionnaire.md` |
 | Publications (revue annuelle) | `bulletins.md` |
 | Autres publications | `publications.md` |
+| Bibliothèque | `bibliotheque.md` |
 | Prix Jacques de Trentinian | `prix-trentinian.md` |
 
 ### Rubrique « Contact »
@@ -172,6 +173,7 @@ Certains contenus du site ne sont pas des pages de texte mais des fichiers de do
 | Chronologie historique | `data/chronologie.yaml` |
 | Hauts lieux en France | `data/hauts-lieux.yaml` |
 | Notices biographiques (dictionnaire) | `data/notices.yaml` |
+| Bibliothèque (inventaire des ouvrages) | `data/bibliotheque.yaml` |
 
 La modification du diaporama est expliquée plus bas dans la section « Modifier le diaporama ».
 

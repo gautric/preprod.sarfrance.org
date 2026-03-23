@@ -1,0 +1,210 @@
+/* Bibliothèque SAR */
+
+.bibli-meta {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-top: 8px;
+}
+
+.bibli-count {
+    font-weight: 600;
+}
+
+.bibli-available {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-top: 4px;
+}
+
+/* Search */
+.bibli-search-wrapper {
+    padding: 24px 0 8px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.bibli-search {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid var(--gray-border-medium);
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: inherit;
+    color: var(--navy-blue);
+    background: var(--white);
+    transition: border-color 0.2s ease;
+}
+
+.bibli-search:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(26, 42, 74, 0.1);
+}
+
+/* Filters */
+.bibli-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 16px 0 24px;
+    justify-content: center;
+}
+
+/* No result */
+.bibli-no-result {
+    text-align: center;
+    padding: 40px 0;
+    color: var(--text-muted);
+    font-size: 1.1rem;
+}
+
+/* Grid — single column */
+.bibli-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-bottom: 40px;
+}
+
+/* Card — single inline row */
+.bibli-card {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--white);
+    border-bottom: 1px solid var(--gray-border-light);
+    padding: 6px 0;
+    min-height: 62px;
+}
+
+.bibli-card:hover {
+    background: var(--gray-light);
+}
+
+.bibli-card.hidden {
+    display: none;
+}
+
+.bibli-card-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0 8px;
+    flex: 1;
+    min-width: 0;
+}
+
+.bibli-cover {
+    width: 36px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 2px;
+    flex-shrink: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.bibli-cover:hover {
+    transform: scale(4);
+    transform-origin: right center;
+    z-index: 10;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+
+.bibli-titre {
+    font-weight: 700;
+    font-size: 0.92rem;
+    color: var(--navy-blue);
+}
+
+.bibli-titre a {
+    color: var(--navy-blue);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--gray-border-medium);
+}
+
+.bibli-titre a:hover {
+    color: var(--primary);
+    border-bottom-color: var(--primary);
+}
+
+.bibli-sep {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+
+.bibli-auteur {
+    font-size: 0.88rem;
+    color: var(--text-dark);
+}
+
+.bibli-editeur {
+    font-size: 0.84rem;
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+.bibli-detail {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.bibli-detail::before {
+    content: "· ";
+}
+
+/* Language flags via CSS */
+.bibli-langue {
+    font-size: 0.9rem;
+    line-height: 1;
+}
+
+.bibli-langue-fr::after { content: "🇫🇷"; }
+.bibli-langue-en::after { content: "🇺🇸"; }
+
+.bibli-card .tag {
+    font-size: 0.7rem;
+    padding: 1px 8px;
+    flex-shrink: 0;
+}
+
+/* Category icons — rendered via CSS */
+.tag.cat-biographie::before,
+.filter-btn.cat-biographie::before           { content: "👤 "; }
+.tag.cat-marine::before,
+.filter-btn.cat-marine::before               { content: "⚓ "; }
+.tag.cat-gia::before,
+.filter-btn.cat-gia::before                  { content: "🗽 "; }
+.tag.cat-histoire-generale::before,
+.filter-btn.cat-histoire-generale::before    { content: "📚 "; }
+.tag.cat-lieux-historiques::before,
+.filter-btn.cat-lieux-historiques::before     { content: "🏛️ "; }
+.tag.cat-genealogie::before,
+.filter-btn.cat-genealogie::before           { content: "🌳 "; }
+.tag.cat-repertoires::before,
+.filter-btn.cat-repertoires::before          { content: "📋 "; }
+.tag.cat-sources::before,
+.filter-btn.cat-sources::before              { content: "🔍 "; }
+.tag.cat-catalogues::before,
+.filter-btn.cat-catalogues::before           { content: "🎨 "; }
+.tag.cat-revues::before,
+.filter-btn.cat-revues::before               { content: "📰 "; }
+.tag.cat-divers::before,
+.filter-btn.cat-divers::before               { content: "📖 "; }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .bibli-filters {
+        gap: 6px;
+    }
+
+    .bibli-filters .filter-btn {
+        padding: 5px 12px;
+        font-size: 0.8rem;
+    }
+}

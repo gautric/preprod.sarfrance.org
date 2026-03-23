@@ -1,0 +1,63 @@
+{{ define "head" }}
+{{- $css := resources.Get "css/bibliotheque.css" | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{ end }}
+{{ define "main" }}
+<section class="page-content">
+    <div class="page-header">
+        <div class="container">
+            <h1>{{ .Title }}</h1>
+            <p class="page-description">{{ i18n "bibli_desc" }}</p>
+            <p class="bibli-meta">
+                <span class="bibli-count">{{ len .Site.Data.bibliotheque.ouvrages }} {{ i18n "bibli_count" }}</span>
+                — <span class="bibli-revision">{{ i18n "bibli_revision" }} : {{ .Site.Data.bibliotheque.revision }}</span>
+            </p>
+            <p class="bibli-available">{{ i18n "bibli_available" }}</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content">
+            {{ .Content }}
+        </div>
+
+        <div class="bibli-search-wrapper">
+            <input type="search" id="bibli-search" class="bibli-search"
+                   placeholder="{{ i18n "bibli_search" }}"
+                   aria-label="{{ i18n "bibli_search" }}">
+        </div>
+
+        <div class="bibli-filters" role="group" aria-label="{{ i18n "filter_by_category" }}">
+            <button class="filter-btn active" data-cat="all">{{ i18n "filter_all" }}</button>
+            {{ range $key, $val := .Site.Data.bibliotheque.categories }}
+            <button class="filter-btn cat-{{ $key | urlize }}" data-cat="{{ $key }}">{{ $val.label }}</button>
+            {{ end }}
+        </div>
+
+        <p id="bibli-no-result" class="bibli-no-result" hidden>{{ i18n "bibli_no_result" }}</p>
+
+        <div class="bibli-grid">
+            {{ range .Site.Data.bibliotheque.ouvrages }}
+            <div class="bibli-card{{ with .couverture }} has-cover{{ end }}" data-cat="{{ .categorie }}"
+                 data-search="{{ .auteur | lower }} {{ .titre | lower }} {{ .editeur | lower }}">
+                <div class="bibli-card-text">
+                    {{ $catData := index $.Site.Data.bibliotheque.categories .categorie }}
+                    {{ if $catData }}<span class="tag cat-{{ .categorie | urlize }}">{{ $catData.label }}</span>{{ end }}
+                    <span class="bibli-titre">{{ if .isbn }}<a href="https://books.google.com/books?vid=ISBN{{ .isbn }}" target="_blank" rel="noopener" title="{{ i18n "bibli_see_book" }}">{{ .titre }}</a>{{ else }}{{ .titre }}{{ end }}</span>
+                    <span class="bibli-sep">—</span>
+                    <span class="bibli-auteur">{{ .auteur }}</span>
+                    <span class="bibli-editeur">({{ with .editeur }}{{ . }}{{ else }}N/A{{ end }}, {{ with .annee }}{{ . }}{{ else }}N/A{{ end }})</span>
+                    <span class="bibli-detail">{{ with .pages }}{{ . }} p.{{ else }}N/A{{ end }}</span>
+                    {{ with .reliure }}<span class="bibli-detail">{{ . }}</span>{{ end }}
+                    {{ with .langue }}<span class="bibli-langue bibli-langue-{{ . }}"></span>{{ end }}
+                </div>
+                {{ with .couverture }}<img class="bibli-cover" src="{{ . }}" alt="" loading="lazy">{{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ define "scripts" }}
+{{- $js := resources.Get "js/bibliotheque.js" | resources.Fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+{{ end }}

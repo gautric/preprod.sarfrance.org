@@ -127,6 +127,22 @@
 - id: last_update
   translation: "Last updated"
 
+# Library
+- id: bibli_desc
+  translation: "SAR France library inventory"
+- id: bibli_count
+  translation: "books"
+- id: bibli_revision
+  translation: "Revision"
+- id: bibli_available
+  translation: "All books are available for consultation upon request from the SAR France secretariat."
+- id: bibli_search
+  translation: "Search by title, author, publisher…"
+- id: bibli_no_result
+  translation: "No results found"
+- id: bibli_see_book
+  translation: "View on Google Books"
+
 # References
 - id: references_title
   translation: "References"
