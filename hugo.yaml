@@ -1,6 +1,6 @@
 baseURL: "https://preprod.sarfrance.org/"
 title: "SAR France"
-theme: "sarfrance-theme"
+theme: "sarfrance"
 defaultContentLanguage: "fr"
 defaultContentLanguageInSubdir: false
 removePathAccents: true
