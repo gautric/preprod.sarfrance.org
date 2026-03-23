@@ -4,7 +4,6 @@ description: "Structure and operations of the Society in France of the Sons of t
 lastUpdate: 2026-03-01
 ---
 
-
 ### Page Contents
 
 - [Board of Directors](#board-of-directors)
