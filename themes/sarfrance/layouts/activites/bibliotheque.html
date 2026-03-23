@@ -8,11 +8,11 @@
         <div class="container">
             <h1>{{ .Title }}</h1>
             <p class="page-description">{{ i18n "bibli_desc" }}</p>
-            <p class="bibli-meta">
-                <span class="bibli-count">{{ len .Site.Data.bibliotheque.ouvrages }} {{ i18n "bibli_count" }}</span>
-                — <span class="bibli-revision">{{ i18n "bibli_revision" }} : {{ .Site.Data.bibliotheque.revision }}</span>
+            <p class="page-meta">
+                <span class="page-meta-count">{{ len .Site.Data.bibliotheque.ouvrages }} {{ i18n "bibli_count" }}</span>
+                — <span>{{ i18n "bibli_revision" }} : {{ .Site.Data.bibliotheque.revision }}</span>
             </p>
-            <p class="bibli-available">{{ i18n "bibli_available" | safeHTML }}</p>
+            <p class="page-meta-hint">{{ i18n "bibli_available" | safeHTML }}</p>
         </div>
     </div>
     <div class="container">
@@ -20,20 +20,20 @@
             {{ .Content }}
         </div>
 
-        <div class="bibli-search-wrapper">
-            <input type="search" id="bibli-search" class="bibli-search"
+        <div class="page-search-wrap">
+            <input type="search" id="bibli-search" class="page-search"
                    placeholder="{{ i18n "bibli_search" }}"
                    aria-label="{{ i18n "bibli_search" }}">
         </div>
 
-        <div class="bibli-filters" role="group" aria-label="{{ i18n "filter_by_category" }}">
+        <div class="page-filters" role="group" aria-label="{{ i18n "filter_by_category" }}">
             <button class="filter-btn active" data-cat="all">{{ i18n "filter_all" }}</button>
             {{ range $key, $val := .Site.Data.bibliotheque.categories }}
             <button class="filter-btn cat-{{ $key | urlize }}" data-cat="{{ $key }}">{{ $val.label }}</button>
             {{ end }}
         </div>
 
-        <p id="bibli-no-result" class="bibli-no-result" hidden>{{ i18n "bibli_no_result" }}</p>
+        <p id="bibli-no-result" class="page-no-result" hidden>{{ i18n "bibli_no_result" }}</p>
 
         <div class="bibli-grid">
             {{ range .Site.Data.bibliotheque.ouvrages }}

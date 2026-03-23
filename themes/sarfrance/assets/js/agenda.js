@@ -6,7 +6,7 @@ $(function() {
     var monthFmt = new Intl.DateTimeFormat(locale, { month: 'long' });
 
     // Format month labels
-    $('.agenda-item__label[data-month-date]').each(function() {
+    $('.tl-group-title[data-month-date]').each(function() {
         var p = $(this).attr('data-month-date').split('-');
         var d = new Date(parseInt(p[0]), parseInt(p[1]) - 1, parseInt(p[2]));
         var name = monthFmt.format(d);
@@ -14,7 +14,7 @@ $(function() {
     });
 
     // Format event dates
-    $('.agenda-item__date[data-date]').each(function() {
+    $('.page-card-date[data-date]').each(function() {
         var p = $(this).attr('data-date').split('-');
         var start = new Date(parseInt(p[0]), parseInt(p[1]) - 1, parseInt(p[2]));
         var endAttr = $(this).attr('data-date-end');
@@ -29,8 +29,8 @@ $(function() {
 
     // Type filtering
     var $filters = $('.filter-btn[data-type]');
-    var $items = $('.agenda-item[data-type]');
-    var $months = $('.agenda-item__label[data-month-date]');
+    var $items = $('.tl-row[data-type]');
+    var $months = $('.tl-group-title[data-month-date]');
 
     $filters.on('click', function() {
         $filters.removeClass('active');
@@ -43,10 +43,10 @@ $(function() {
         });
 
         $months.each(function() {
-            var $monthRow = $(this).closest('.agenda-item');
+            var $monthRow = $(this).closest('.tl-row');
             var $next = $monthRow.next();
             var hasVisible = false;
-            while ($next.length && !$next.find('.agenda-item__label').length) {
+            while ($next.length && !$next.find('.tl-group-title').length) {
                 if ($next.is('[data-type]') && !$next.hasClass('hidden')) { hasVisible = true; break; }
                 $next = $next.next();
             }

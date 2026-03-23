@@ -11,7 +11,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="timeline-filters" role="group" aria-label="{{ i18n "filter_by_category" }}">
+        <div class="page-filters" role="group" aria-label="{{ i18n "filter_by_category" }}">
             <button class="filter-btn active" data-tag="all">{{ i18n "filter_all" }}</button>
             {{ range $key, $val := .Site.Data.chronologie.tags }}
             <button class="filter-btn tag-{{ $key | urlize }}" data-tag="{{ $key }}">{{ $val.label }}</button>
@@ -19,22 +19,22 @@
         </div>
 
         {{ range .Site.Data.chronologie.periodes }}
-        <div class="timeline-period">
-            <div class="timeline timeline--period-header">
-                <div class="timeline-item" style="margin-bottom: 0;">
-                    <div class="timeline-period-dot"></div>
-                    <h2 class="period-title">{{ .nom }}</h2>
+        <div class="tl-group">
+            <div class="tl-axis" style="padding-bottom:0;">
+                <div class="tl-row" style="margin-bottom: 0;">
+                    <div class="tl-dot tl-dot--lg"></div>
+                    <h2 class="tl-group-title">{{ .nom }}</h2>
                 </div>
             </div>
-            <div class="timeline">
+            <div class="tl-axis chrono-tl">
                 {{ range .events }}
                 {{ $firstTag := index .tags 0 }}
-                <div class="timeline-item" data-tags="{{ delimit .tags "," }}">
-                    <div class="timeline-dot tag-{{ $firstTag | urlize }}"></div>
-                    <div class="timeline-card">
-                        <div class="timeline-card-header">
-                            <span class="timeline-date" data-iso-date="{{ .date }}">{{ .date }}</span>
-                            <div class="timeline-tags">
+                <div class="tl-row" data-tags="{{ delimit .tags "," }}">
+                    <div class="tl-dot tag-{{ $firstTag | urlize }}"></div>
+                    <div class="page-card">
+                        <div class="page-card-header">
+                            <span class="page-card-date" data-iso-date="{{ .date }}">{{ .date }}</span>
+                            <div class="page-card-tags">
                                 {{ range .tags }}
                                 {{ $tagData := index $.Site.Data.chronologie.tags . }}
                                 {{ if $tagData }}
@@ -43,14 +43,14 @@
                                 {{ end }}
                             </div>
                         </div>
-                        <h3 class="timeline-title">
+                        <h3 class="page-card-title">
                             {{ if .wikipedia }}
-                            <a href="{{ .wikipedia }}" target="_blank" rel="noopener noreferrer" class="timeline-link">{{ .titre }}</a>
+                            <a href="{{ .wikipedia }}" target="_blank" rel="noopener noreferrer" class="page-card-link">{{ .titre }}</a>
                             {{ else }}
                             {{ .titre }}
                             {{ end }}
                         </h3>
-                        <p class="timeline-desc">{{ .description }}</p>
+                        <p class="page-card-desc">{{ .description }}</p>
                     </div>
                 </div>
                 {{ end }}
@@ -59,7 +59,6 @@
         {{ end }}
     </div>
 </section>
-
 {{ end }}
 {{ define "scripts" }}
 {{- $js := resources.Get "js/chronologie.js" | resources.Fingerprint }}

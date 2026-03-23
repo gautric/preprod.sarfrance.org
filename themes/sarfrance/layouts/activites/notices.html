@@ -8,9 +8,9 @@
         <div class="container">
             <h1>{{ .Title }}</h1>
             <p class="page-description">{{ i18n "notices_desc" }}</p>
-            <p class="notices-meta">
-                <span class="notices-count">{{ len .Site.Data.notices.notices }} {{ i18n "notices_count" }}</span>
-                — <span class="notices-revision">{{ i18n "notices_revision" }} : {{ .Site.Data.notices.revision }}</span>
+            <p class="page-meta">
+                <span class="page-meta-count">{{ len .Site.Data.notices.notices }} {{ i18n "notices_count" }}</span>
+                — <span>{{ i18n "notices_revision" }} : {{ .Site.Data.notices.revision }}</span>
             </p>
         </div>
     </div>
@@ -19,24 +19,24 @@
             {{ .Content }}
         </div>
 
-        <div class="notices-search-wrapper">
-            <input type="search" id="notices-search" class="notices-search"
+        <div class="page-search-wrap">
+            <input type="search" id="notices-search" class="page-search"
                    placeholder="{{ i18n "notices_search" }}"
                    aria-label="{{ i18n "notices_search" }}">
         </div>
 
-        <div class="notices-filters" role="group" aria-label="{{ i18n "filter_by_category" }}">
+        <div class="page-filters" role="group" aria-label="{{ i18n "filter_by_category" }}">
             <button class="filter-btn active" data-tag="all">{{ i18n "filter_all" }}</button>
             {{ range $key, $val := .Site.Data.notices.tags }}
             <button class="filter-btn tag-{{ $key | urlize }}" data-tag="{{ $key }}">{{ $val.label }}</button>
             {{ end }}
         </div>
 
-        <p id="notices-no-result" class="notices-no-result" hidden>{{ i18n "notices_no_result" }}</p>
+        <p id="notices-no-result" class="page-no-result" hidden>{{ i18n "notices_no_result" }}</p>
 
         <div class="notices-grid">
             {{ range .Site.Data.notices.notices }}
-            <div class="notice-card" data-tags="{{ delimit .tags "," }}"
+            <div class="page-card notice-card" data-tags="{{ delimit .tags "," }}"
                  data-search="{{ .nom | lower }} {{ .prenom | lower }} {{ .fonction | lower }}">
                 <div class="notice-name">
                     <span class="notice-nom">{{ .nom }}</span>
@@ -44,7 +44,7 @@
                     {{ with .particule }}<span class="notice-particule">({{ . }})</span>{{ end }}
                 </div>
                 <p class="notice-fonction">{{ .fonction }}</p>
-                <div class="notice-tags">
+                <div class="page-card-tags">
                     {{ range .tags }}
                     {{ $tagData := index $.Site.Data.notices.tags . }}
                     {{ if $tagData }}
@@ -57,7 +57,6 @@
         </div>
     </div>
 </section>
-
 {{ end }}
 {{ define "scripts" }}
 {{- $js := resources.Get "js/notices.js" | resources.Fingerprint }}

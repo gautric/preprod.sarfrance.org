@@ -61,8 +61,18 @@
 - The root `layouts/` directory is empty and reserved for theme overrides if needed
 - Data files in `data/` use structured YAML with typed entries (event types, tags, periods)
 - Tag/type colors are defined as CSS classes in `colors.css`, named `tag-{key}` or `type-{key}` where `{key}` is the urlized YAML key (e.g., YAML key `révolte` → CSS class `tag-revolte`). Templates derive the class name via `{{ $key | urlize }}`. The `removePathAccents = true` setting in `hugo.yaml` ensures `urlize` strips accents. Never use inline `style=` or `color:` fields in YAML — add a new CSS class in `colors.css` instead.
-- Filter buttons across agenda, chronologie, and notices share a common `filter-btn` class defined in `filters.css` (pill shape, font size, padding, hover/active states). Page-specific CSS files should not duplicate filter base styles.
+- `filters.css` defines shared UI components used across all data-driven pages (agenda, chronologie, notices, bibliothèque, hauts-lieux):
+  - `.filter-btn` — pill-shaped filter buttons (base + `.active` state)
+  - `.page-filters` — flex container for filter button groups
+  - `.tag` — small colored pills inside cards
+  - `.page-search-wrap` + `.page-search` — search input with focus ring
+  - `.page-no-result` — "no results" message
+  - `.page-meta` + `.page-meta-count` + `.page-meta-hint` — count/revision info in page headers
+  - `.page-card` — card with border, radius, hover shadow (+ `.page-card-header`, `.page-card-title`, `.page-card-date`, `.page-card-desc`, `.page-card-tags`, `.page-card-link`)
+  - `.tl-axis` — vertical timeline container (+ `.tl-row`, `.tl-dot`, `.tl-dot--lg`, `.tl-group-title`)
+- Page-specific CSS files should not duplicate these shared styles — only add page-specific overrides
 - Active filter color overrides (`.filter-btn.active.tag-xxx` / `.filter-btn.active.type-xxx`) are defined at the bottom of `colors.css`, keeping all color definitions in one place.
+- Emoji icons for tags/types are defined in page-specific CSS using `::before` on both `.tag.xxx` and `.filter-btn.xxx` selectors — never scoped to a parent container
 - CSS load order in `baseof.html`: `colors.css` → `style.css` → `filters.css` → page-specific CSS. This ensures variables are available, then base styles, then shared filter styles, then page overrides.
 - CSS and JS files live in `themes/sarfrance-theme/assets/` (not `static/`) and are processed through Hugo's asset pipeline with `resources.Get` + `resources.Fingerprint` for cache busting and SRI integrity hashes
 - JavaScript must never be inlined in HTML templates — all JS lives in external `.js` files under `themes/sarfrance-theme/assets/js/`

@@ -4,7 +4,7 @@ $(function() {
     var locale = (lang === 'en-US' || lang === 'en') ? 'en-US' : 'fr-FR';
 
     // Format dates
-    $('.timeline-date[data-iso-date]').each(function() {
+    $('.page-card-date[data-iso-date]').each(function() {
         var isoDate = $(this).attr('data-iso-date');
         if (isoDate) {
             try {
@@ -19,7 +19,7 @@ $(function() {
 
     // Tag filtering
     var $filters = $('.filter-btn[data-tag]');
-    var $items = $('.timeline-item[data-tags]');
+    var $items = $('.tl-row[data-tags]');
 
     $filters.on('click', function() {
         $filters.removeClass('active');
@@ -35,8 +35,8 @@ $(function() {
             }
         });
 
-        $('.timeline-period').each(function() {
-            var visible = $(this).find('.timeline-item[data-tags]:not(.hidden)').length;
+        $('.tl-group').each(function() {
+            var visible = $(this).find('.tl-row[data-tags]:not(.hidden)').length;
             $(this).toggle(visible > 0);
         });
     });

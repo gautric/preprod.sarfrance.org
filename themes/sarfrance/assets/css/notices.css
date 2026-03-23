@@ -1,58 +1,6 @@
-/* Notices biographiques */
+/* Notices biographiques — specific styles (shared base in filters.css) */
 
-.notices-meta {
-    font-size: 0.9rem;
-    color: var(--text-muted);
-    margin-top: 8px;
-}
-
-.notices-count {
-    font-weight: 600;
-}
-
-/* Search */
-.notices-search-wrapper {
-    padding: 24px 0 8px;
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-.notices-search {
-    width: 100%;
-    padding: 12px 16px;
-    border: 1px solid var(--gray-border-medium);
-    border-radius: 6px;
-    font-size: 1rem;
-    font-family: inherit;
-    color: var(--navy-blue);
-    background: var(--white);
-    transition: border-color 0.2s ease;
-}
-
-.notices-search:focus {
-    outline: none;
-    border-color: var(--primary);
-    box-shadow: 0 0 0 3px var(--focus-ring);
-}
-
-/* Filters */
-.notices-filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    padding: 16px 0 24px;
-    justify-content: center;
-}
-
-/* No result */
-.notices-no-result {
-    text-align: center;
-    padding: 40px 0;
-    color: var(--text-muted);
-    font-size: 1.1rem;
-}
-
-/* Grid */
+/* Grid — responsive cards */
 .notices-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -60,25 +8,16 @@
     padding-bottom: 40px;
 }
 
-/* Card */
+/* Card — left accent border */
 .notice-card {
-    background: var(--white);
-    border: 1px solid var(--gray-border-light);
-    border-radius: 6px;
-    padding: 16px 20px;
     border-left: 3px solid var(--primary);
-    transition: all 0.2s ease;
 }
 
 .notice-card:hover {
     border-left-color: var(--primary-dark);
-    box-shadow: 0 2px 8px var(--shadow-subtle);
 }
 
-.notice-card.hidden {
-    display: none;
-}
-
+/* Name block */
 .notice-name {
     margin-bottom: 6px;
 }
@@ -110,13 +49,7 @@
     margin-bottom: 10px;
 }
 
-.notice-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-}
-
-/* Tag icons — rendered via CSS */
+/* Tag icons — emoji via CSS (shared between .tag and .filter-btn) */
 .tag.tag-officier-marine::before,
 .filter-btn.tag-officier-marine::before       { content: "⚓ "; }
 .tag.tag-officier-terre::before,
@@ -150,14 +83,5 @@
 @media (max-width: 768px) {
     .notices-grid {
         grid-template-columns: 1fr;
-    }
-
-    .notices-filters {
-        gap: 6px;
-    }
-
-    .notices-filters .filter-btn {
-        padding: 5px 12px;
-        font-size: 0.8rem;
     }
 }

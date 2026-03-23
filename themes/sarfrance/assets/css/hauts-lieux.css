@@ -1,88 +1,4 @@
-/* Hauts lieux Page Styles
-   Aligned with agenda.css and chronologie.css patterns */
-
-/* Count badge — mirrors agenda export hint */
-.hl-count {
-    font-size: 0.8rem;
-    color: var(--text-muted);
-    font-style: italic;
-    margin-top: 6px;
-}
-
-/* Search — same border/radius as agenda cards */
-.hl-search-box {
-    padding: 24px 0 8px;
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-.hl-search-input {
-    width: 100%;
-    max-width: 500px;
-    padding: 12px 16px;
-    border: 1px solid var(--gray-border-medium);
-    border-radius: 6px;
-    font-size: 1rem;
-    font-family: inherit;
-    color: var(--navy-blue);
-    background: var(--white);
-    transition: border-color 0.2s ease;
-}
-
-.hl-search-input:focus {
-    outline: none;
-    border-color: var(--primary);
-    box-shadow: 0 0 0 3px var(--focus-ring);
-}
-
-.hl-search-input::placeholder {
-    color: var(--gray-placeholder);
-}
-
-/* Filters — same layout as .agenda-filters / .timeline-filters */
-.hl-filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    padding: 10px 0 25px;
-    justify-content: center;
-}
-
-/* No result */
-.hl-no-result {
-    text-align: center;
-    color: var(--text-muted);
-    font-style: italic;
-    padding: 30px 0;
-}
-
-/* Region — mirrors .timeline-period */
-.hl-region {
-    margin-bottom: 0;
-}
-
-.hl-region.hidden {
-    display: none;
-}
-
-/* Region title — mirrors .period-title from chronologie */
-.hl-region-title {
-    font-family: var(--font-centennial, 'Libre Bodoni'), Georgia, serif;
-    font-size: 1.1rem;
-    font-weight: 700;
-    color: var(--navy-blue);
-    background: var(--white);
-    padding: 4px 16px 4px 0;
-    display: inline-block;
-    position: relative;
-    margin-top: 18px;
-    margin-bottom: 12px;
-    border-bottom: none;
-}
-
-.hl-region:first-of-type .hl-region-title {
-    margin-top: 0;
-}
+/* Hauts lieux — specific styles (shared base in filters.css) */
 
 /* Two-column layout: cards left, map right */
 .hl-layout {
@@ -111,7 +27,14 @@
     z-index: 1;
 }
 
-/* Card list — single column, top to bottom */
+/* Region group */
+.hl-region { margin-bottom: 0; }
+.hl-region.hidden { display: none; }
+
+/* Region title — uses .tl-group-title base, adds bottom margin */
+.hl-region-title { margin-bottom: 12px; }
+
+/* Card grid — single column */
 .hl-grid {
     display: flex;
     flex-direction: column;
@@ -119,88 +42,40 @@
     margin-bottom: 16px;
 }
 
-/* Card — mirrors .agenda-item__card / .timeline-card */
-.hl-card {
-    background: var(--white);
-    border: 1px solid var(--gray-border-light);
-    border-radius: 6px;
-    padding: 14px 18px;
-    transition: all 0.2s ease;
-    display: flex;
-    flex-direction: column;
-}
+/* Card — extends .page-card, flex column */
+.hl-card { display: flex; flex-direction: column; }
+.hl-card:hover { border-color: var(--navy-blue); }
 
-.hl-card:hover {
-    box-shadow: 0 2px 8px var(--shadow-subtle);
-    border-color: var(--navy-blue);
-}
+/* Card header — align top */
+.hl-card .page-card-header { align-items: flex-start; }
 
-.hl-card.hidden {
-    display: none;
-}
+/* Title link */
+.hl-card .page-card-title { flex: 1; }
 
-/* Card header — mirrors .agenda-item__header / .timeline-card-header */
-.hl-card-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 10px;
-    margin-bottom: 4px;
-}
-
-/* Title — mirrors .agenda-item__title / .timeline-title */
-.hl-card-title {
-    font-size: 0.95rem;
-    color: var(--navy-blue);
-    margin: 0;
-    font-family: var(--font-centennial, 'Libre Bodoni'), Georgia, serif;
-    font-weight: 600;
-    line-height: 1.4;
-    flex: 1;
-}
-
-.hl-card-title a {
+.hl-card .page-card-title a {
     color: var(--navy-blue);
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
-.hl-card-title a:hover {
+.hl-card .page-card-title a:hover {
     color: var(--navy-dark);
     text-decoration: underline;
 }
 
-/* Wikipedia link indicator — mirrors .timeline-link::after */
-.hl-card-title a::after {
+.hl-card .page-card-title a::after {
     content: ' 🔗';
     font-size: 0.75em;
     opacity: 0.5;
 }
 
-/* Tags — mirrors .timeline-tags */
-.hl-card-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-    flex-shrink: 0;
-}
-
-/* Address — mirrors .timeline-date / .agenda-item__date */
+/* Address */
 .hl-card-address {
     font-size: 0.8rem;
     color: var(--text-muted);
     font-weight: 600;
     margin: 0 0 4px 0;
     white-space: normal;
-}
-
-/* Description — mirrors .timeline-desc */
-.hl-card-desc {
-    font-size: 0.88rem;
-    color: var(--text-light);
-    line-height: 1.5;
-    margin: 4px 0 8px 0;
-    flex: 1;
 }
 
 /* Links row */
@@ -247,31 +122,29 @@
     letter-spacing: 0.3px;
 }
 
-/* Tag emojis — CSS-only, mirrors chronologie/agenda pattern */
-.hl-card-tags .tag-residence::before       { content: '🏠 '; }
-.hl-card-tags .tag-statue::before          { content: '🗽 '; }
-.hl-card-tags .tag-cimetiere::before       { content: '⚱️ '; }
-.hl-card-tags .tag-chateau::before         { content: '🏰 '; }
-.hl-card-tags .tag-port::before            { content: '⚓ '; }
-.hl-card-tags .tag-arsenal::before         { content: '🔨 '; }
-.hl-card-tags .tag-musee::before           { content: '🏛️ '; }
-.hl-card-tags .tag-monument-historique::before { content: '🏗️ '; }
-.hl-card-tags .tag-stele::before           { content: '🪦 '; }
-.hl-card-tags .tag-lieu-de-memoire::before { content: '📍 '; }
+/* Tag icons — emoji via CSS (shared between .tag and .filter-btn) */
+.tag.tag-residence::before,
+.filter-btn.tag-residence::before       { content: '🏠 '; }
+.tag.tag-statue::before,
+.filter-btn.tag-statue::before          { content: '🗽 '; }
+.tag.tag-cimetiere::before,
+.filter-btn.tag-cimetiere::before       { content: '⚱️ '; }
+.tag.tag-chateau::before,
+.filter-btn.tag-chateau::before         { content: '🏰 '; }
+.tag.tag-port::before,
+.filter-btn.tag-port::before            { content: '⚓ '; }
+.tag.tag-arsenal::before,
+.filter-btn.tag-arsenal::before         { content: '🔨 '; }
+.tag.tag-musee::before,
+.filter-btn.tag-musee::before           { content: '🏛️ '; }
+.tag.tag-monument-historique::before,
+.filter-btn.tag-monument-historique::before { content: '🏗️ '; }
+.tag.tag-stele::before,
+.filter-btn.tag-stele::before           { content: '🪦 '; }
+.tag.tag-lieu-de-memoire::before,
+.filter-btn.tag-lieu-de-memoire::before { content: '📍 '; }
 
-/* Same emojis on filter buttons */
-.hl-filters .tag-residence::before       { content: '🏠 '; }
-.hl-filters .tag-statue::before          { content: '🗽 '; }
-.hl-filters .tag-cimetiere::before       { content: '⚱️ '; }
-.hl-filters .tag-chateau::before         { content: '🏰 '; }
-.hl-filters .tag-port::before            { content: '⚓ '; }
-.hl-filters .tag-arsenal::before         { content: '🔨 '; }
-.hl-filters .tag-musee::before           { content: '🏛️ '; }
-.hl-filters .tag-monument-historique::before { content: '🏗️ '; }
-.hl-filters .tag-stele::before           { content: '🪦 '; }
-.hl-filters .tag-lieu-de-memoire::before { content: '📍 '; }
-
-/* Responsive — mirrors agenda/chronologie breakpoints */
+/* Responsive */
 @media (max-width: 768px) {
     .hl-layout {
         flex-direction: column;
@@ -289,21 +162,7 @@
         height: 250px;
     }
 
-    .hl-card {
-        padding: 12px 14px;
-    }
-
-    .hl-card-header {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 4px;
-    }
-
-    .hl-filters {
-        gap: 6px;
-    }
-
-    .hl-search-input {
+    .hl-card .page-search {
         max-width: 100%;
     }
 }

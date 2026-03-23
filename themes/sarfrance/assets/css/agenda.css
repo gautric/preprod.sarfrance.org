@@ -1,4 +1,4 @@
-/* Agenda Page Styles */
+/* Agenda Page — specific styles (shared base in filters.css) */
 
 /* Export bar (ICS download) */
 .agenda-export { display: flex; align-items: center; gap: 16px; padding: 20px 0 0; flex-wrap: wrap; }
@@ -7,66 +7,37 @@
 .agenda-export__btn svg { flex-shrink: 0; }
 .agenda-export__hint { font-size: 0.8rem; color: var(--text-muted); font-style: italic; }
 
-/* Year navigation + type filters */
-.agenda-nav,
-.agenda-filters { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
-.agenda-nav { padding: 30px 0 15px; }
-.agenda-filters { padding: 10px 0 25px; }
+/* Year navigation */
+.agenda-nav { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; padding: 30px 0 15px; }
+.agenda-nav .filter-btn:hover { border-color: var(--primary); color: var(--primary); }
 
-/* Year link overrides (base styles come from .filter-btn in filters.css) */
-.agenda-nav__link:hover { border-color: var(--primary); color: var(--primary); }
+/* Agenda uses .page-filters for type filters — extra top padding */
+.agenda-filters { padding-top: 10px; padding-bottom: 25px; }
 
-/* Timeline */
-.agenda-timeline { position: relative; padding: 10px 0 40px 50px; --timeline-axis: 21px; }
-.agenda-timeline::before { content: ''; position: absolute; left: 20px; top: 0; bottom: 0; width: 2px; background: var(--gray-border-light); }
+/* Timeline bottom padding override */
+.agenda-tl { padding-bottom: 40px; }
 
-/* Timeline rows */
-.agenda-item { position: relative; margin-bottom: 12px; transition: opacity 0.3s ease; }
-.agenda-item.hidden { display: none; }
+/* Type badge in card header */
+.agenda-type { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.7rem; color: var(--white); font-weight: 600; white-space: nowrap; }
 
-.agenda-item__label { font-family: var(--font-centennial, 'Libre Bodoni'), Georgia, serif; font-size: 1.1rem; font-weight: 700; color: var(--navy-blue); background: var(--white); padding: 4px 16px 4px 0; display: inline-block; position: relative; margin-top: 18px; }
-.agenda-item:first-child .agenda-item__label { margin-top: 0; }
-
-/* Shared dot — centered on the timeline axis */
-.agenda-dot { position: absolute; left: calc(var(--timeline-axis) - 50px); top: 16px; width: 10px; height: 10px; border-radius: 50%; border: 2px solid var(--white); box-shadow: 0 0 0 1px var(--gray-timeline); z-index: 1; transition: transform 0.2s ease; transform: translateX(-50%); }
-.agenda-item:hover .agenda-dot { transform: translateX(-50%) scale(1.4); }
-
-/* Month dot — bigger variant, same axis */
-.agenda-dot--lg { top: 50%; width: 14px; height: 14px; background: var(--navy-blue); border: 3px solid var(--white); box-shadow: 0 0 0 2px var(--navy-blue); transform: translate(-50%, -50%); z-index: 2; }
-.agenda-item:hover .agenda-dot--lg { transform: translate(-50%, -50%); }
-
-/* Item card */
-.agenda-item__card { background: var(--white); border: 1px solid var(--gray-border-light); border-radius: 6px; padding: 14px 18px; transition: all 0.2s ease; }
-.agenda-item:hover .agenda-item__card { box-shadow: 0 2px 8px var(--shadow-subtle); border-color: var(--gray-timeline); }
-.agenda-item__header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; gap: 10px; }
-.agenda-item__date { font-size: 0.8rem; color: var(--text-muted); font-weight: 600; white-space: nowrap; }
-.agenda-item__type { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.7rem; color: var(--white); font-weight: 600; white-space: nowrap; }
-.agenda-item__title { font-size: 0.95rem; color: var(--navy-blue); font-family: var(--font-centennial, 'Libre Bodoni'), Georgia, serif; font-weight: 600; line-height: 1.4; }
-
-/* Type icons — rendered via CSS instead of YAML emoji */
-.agenda-item__type.type-conference::before,
+/* Type icons — emoji via CSS */
+.agenda-type.type-conference::before,
 .filter-btn.type-conference::before      { content: "🎤 "; }
-.agenda-item__type.type-assemblee::before,
+.agenda-type.type-assemblee::before,
 .filter-btn.type-assemblee::before       { content: "🏛️ "; }
-.agenda-item__type.type-commemoration::before,
+.agenda-type.type-commemoration::before,
 .filter-btn.type-commemoration::before   { content: "🎖️ "; }
-.agenda-item__type.type-nssar::before,
+.agenda-type.type-nssar::before,
 .filter-btn.type-nssar::before           { content: "🇺🇸 "; }
-.agenda-item__type.type-reunion::before,
+.agenda-type.type-reunion::before,
 .filter-btn.type-reunion::before         { content: "🤝 "; }
-.agenda-item__type.type-visite::before,
+.agenda-type.type-visite::before,
 .filter-btn.type-visite::before          { content: "🏰 "; }
-.agenda-item__type.type-exposition::before,
+.agenda-type.type-exposition::before,
 .filter-btn.type-exposition::before      { content: "🖼️ "; }
 
 @media (max-width: 768px) {
     .agenda-export { flex-direction: column; align-items: flex-start; gap: 8px; }
     .agenda-export__btn { font-size: 0.82rem; padding: 8px 16px; }
-    .agenda-timeline { padding-left: 35px; --timeline-axis: 13px; }
-    .agenda-timeline::before { left: 12px; }
-    .agenda-dot { left: calc(var(--timeline-axis) - 35px); width: 8px; height: 8px; }
-    .agenda-dot--lg { width: 12px; height: 12px; }
-    .agenda-item__header { flex-direction: column; align-items: flex-start; gap: 4px; }
     .agenda-nav { gap: 5px; }
-    .filter-btn { padding: 5px 12px; font-size: 0.8rem; }
 }

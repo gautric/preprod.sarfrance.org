@@ -28,17 +28,16 @@
             <span class="agenda-export__hint">{{ i18n "ics_hint" }}</span>
         </div>
         <nav class="agenda-nav" aria-label="{{ i18n "year_nav" }}">
-            {{- /* Build year list dynamically from agenda content pages */ -}}
             {{- $years := slice -}}
             {{- range where .Site.RegularPages "Layout" "agenda" -}}
                 {{- with .Params.year -}}{{ $years = $years | append . }}{{- end -}}
             {{- end -}}
             {{- $years = sort ($years | uniq) "value" "desc" -}}
             {{ range $y := $years }}
-            <a href="{{ $prefix }}/activites/agenda-{{ $y }}/" class="filter-btn agenda-nav__link{{ if eq $y $year }} active{{ end }}">{{ $y }}</a>
+            <a href="{{ $prefix }}/activites/agenda-{{ $y }}/" class="filter-btn{{ if eq $y $year }} active{{ end }}">{{ $y }}</a>
             {{ end }}
         </nav>
-        <div class="agenda-filters" role="group" aria-label="{{ i18n "filter_by_type" }}">
+        <div class="page-filters agenda-filters" role="group" aria-label="{{ i18n "filter_by_type" }}">
             <button class="filter-btn active" data-type="all">{{ i18n "filter_all" }}</button>
             {{ range $key, $val := $types }}
             {{ if in $usedTypes $key }}
@@ -46,33 +45,32 @@
             {{ end }}
             {{ end }}
         </div>
-        <div class="agenda-timeline">
+        <div class="tl-axis agenda-tl">
             {{ $currentMonth := "" }}
             {{ range $events }}
                 {{ $month := substr .date 5 2 }}
                 {{ if ne $month $currentMonth }}
                     {{ $currentMonth = $month }}
-                    <div class="agenda-item">
-                        <div class="agenda-dot agenda-dot--lg"></div>
-                        <div class="agenda-item__label" data-month-date="{{ .date }}"></div>
+                    <div class="tl-row">
+                        <div class="tl-dot tl-dot--lg"></div>
+                        <div class="tl-group-title" data-month-date="{{ .date }}"></div>
                     </div>
                 {{ end }}
                 {{ $typeData := index $types .type }}
-                <div class="agenda-item" data-type="{{ .type }}">
-                    <div class="agenda-dot type-{{ .type | urlize }}"></div>
-                    <div class="agenda-item__card">
-                        <div class="agenda-item__header">
-                            <span class="agenda-item__date" data-date="{{ .date }}"{{ with .dateEnd }} data-date-end="{{ . }}"{{ end }}></span>
-                            <span class="agenda-item__type type-{{ .type | urlize }}">{{ $typeData.label }}</span>
+                <div class="tl-row" data-type="{{ .type }}">
+                    <div class="tl-dot type-{{ .type | urlize }}"></div>
+                    <div class="page-card">
+                        <div class="page-card-header">
+                            <span class="page-card-date" data-date="{{ .date }}"{{ with .dateEnd }} data-date-end="{{ . }}"{{ end }}></span>
+                            <span class="agenda-type type-{{ .type | urlize }}">{{ $typeData.label }}</span>
                         </div>
-                        <h3 class="agenda-item__title">{{ .titre }}</h3>
+                        <h3 class="page-card-title">{{ .titre }}</h3>
                     </div>
                 </div>
             {{ end }}
         </div>
     </div>
 </section>
-
 {{ end }}
 {{ define "scripts" }}
 {{- $js := resources.Get "js/agenda.js" | resources.Fingerprint }}

@@ -4,7 +4,7 @@ $(function() {
     var $cards = $('.hl-card[data-tags]');
     var $regions = $('.hl-region');
     var $search = $('#hl-search');
-    var $noResult = $('.hl-no-result');
+    var $noResult = $('.page-no-result');
     var activeTag = 'all';
     var searchTerm = '';
 
@@ -31,7 +31,7 @@ $(function() {
         var $card = $(this);
         var lat = parseFloat($card.attr('data-lat'));
         var lon = parseFloat($card.attr('data-lon'));
-        var title = $card.find('.hl-card-title').text().trim();
+        var title = $card.find('.page-card-title').text().trim();
         if (lat && lon) {
             showOnMap(lat, lon, title);
         }
@@ -77,7 +77,7 @@ $(function() {
     if ($first.length) {
         var lat = parseFloat($first.attr('data-lat'));
         var lon = parseFloat($first.attr('data-lon'));
-        var title = $first.find('.hl-card-title').text().trim();
+        var title = $first.find('.page-card-title').text().trim();
         if (lat && lon) {
             showOnMap(lat, lon, title);
         }
