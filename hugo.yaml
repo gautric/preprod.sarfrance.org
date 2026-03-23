@@ -48,21 +48,26 @@ languages:
           url: "/organisation/nssar/"
           parent: "organisation"
           weight: 1
-        - identifier: "statuts"
-          name: "Objet, Statuts & Règlement"
-          url: "/organisation/statuts/"
+        - identifier: "objet-et-histoire"
+          name: "Objet et Histoire"
+          url: "/organisation/objet-et-histoire/"
           parent: "organisation"
           weight: 2
+        - identifier: "statuts"
+          name: "Statuts & Règlement"
+          url: "/organisation/statuts/"
+          parent: "organisation"
+          weight: 3
         - identifier: "societes"
           name: "Sociétés françaises"
           url: "/organisation/societes/"
           parent: "organisation"
-          weight: 3
+          weight: 4
         - identifier: "secretariat"
           name: "Secrétariat"
           url: "/organisation/secretariat/"
           parent: "organisation"
-          weight: 4
+          weight: 5
         # Submenus - Histoire
         - identifier: "chronologie"
           name: "Chronologie"
@@ -190,21 +195,26 @@ languages:
           url: "/en/organisation/nssar/"
           parent: "organisation"
           weight: 1
-        - identifier: "statuts"
-          name: "Mission, Bylaws & Rules"
-          url: "/en/organisation/statuts/"
+        - identifier: "objet-et-histoire"
+          name: "Purpose and History"
+          url: "/en/organisation/objet-et-histoire/"
           parent: "organisation"
           weight: 2
+        - identifier: "statuts"
+          name: "Bylaws & Rules"
+          url: "/en/organisation/statuts/"
+          parent: "organisation"
+          weight: 3
         - identifier: "societes"
           name: "French Societies"
           url: "/en/organisation/societes/"
           parent: "organisation"
-          weight: 3
+          weight: 4
         - identifier: "secretariat"
           name: "Secretariat"
           url: "/en/organisation/secretariat/"
           parent: "organisation"
-          weight: 4
+          weight: 5
         # Submenus - History
         - identifier: "chronologie"
           name: "Timeline"

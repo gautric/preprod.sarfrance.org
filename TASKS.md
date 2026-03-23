@@ -26,3 +26,4 @@
 - [x] 24. Contact > Nous contacter : suppression du paragraphe « Par courrier électronique » devenu redondant avec le formulaire de contact (FR/EN)
 - [x] 25. Activités > Dictionnaire biographique : correction de la faute d'orthographe « répértoriés » → « répertoriés » (FR)
 - [x] 26. Activités > Dictionnaire biographique : suppression de « via le formulaire suivant » / « via the following form » dans la phrase d'introduction (FR/EN)
+- [x] 27. Organisation > Séparation de la page « Objet, Statuts & Règlement intérieur » en deux pages distinctes : « Objet et Histoire » (objet de SAR France) et « Statuts & Règlement intérieur » (statuts et règlement) — création de la nouvelle page objet-et-histoire.md (FR/EN), mise à jour de statuts.md (FR/EN), ajout des deux entrées de menu dans hugo.yaml, nettoyage des articles dupliqués dans la version EN
