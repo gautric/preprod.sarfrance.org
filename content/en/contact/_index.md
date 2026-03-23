@@ -20,8 +20,6 @@ type: "contact"
 **Office hours**: Tuesday and Thursday from 9:30 AM to 6:00 PM  
 **Email**: secretariat@sarfrance.org
 
-Please contact us with your last name, first name, email address, and the subject of your inquiry.
-
 </div>
 <div>
 

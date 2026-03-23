@@ -20,8 +20,6 @@ type: "contact"
 **Permanences** : le mardi et le jeudi de 09h30 à 18h00  
 **Email** : secretariat@sarfrance.org
 
-Contactez-nous en mentionnant vos nom et prénom, votre email et l'objet de votre demande.
-
 </div>
 <div>
 
