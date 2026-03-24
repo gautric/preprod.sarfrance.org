@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "name": "Export Books Excel",
+  "description": "Regenerates static/documents/SAR_BIBLI_inventaire.xlsx from data/books.yaml whenever the YAML source is edited, keeping the downloadable Excel file on the website up to date.",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "data/books.yaml"
+    ]
+  },
+  "then": {
+    "type": "runCommand",
+    "command": "source .venv/bin/activate && python3 scripts/export_books_excel.py",
+    "timeout": 30
+  }
+}

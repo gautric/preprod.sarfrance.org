@@ -50,7 +50,7 @@ $(function () {
       isbn: book.isbn,
       image: book.image,
       inLanguage: book.inLanguage,
-      genreStr: book.genre.join(' '),
+      genreStr: book.genre,
       searchStr: searchStr,
       titleLower: (book.name || '').toLowerCase(),
       authorLower: (book.author || '').toLowerCase(),

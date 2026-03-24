@@ -172,6 +172,8 @@
   translation: "Reference Books & Journals"
 - id: bibli_cat_divers
   translation: "Miscellaneous"
+- id: bibli_download
+  translation: "Download Excel inventory"
 
 # References
 - id: references_title

@@ -1,5 +1,29 @@
 /* Library / Books — specific styles (shared base in filters.css) */
 
+/* Download link */
+.bibli-download {
+    margin: 0 0 16px;
+    font-size: 0.9rem;
+}
+
+.bibli-download a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 16px;
+    border: 1px solid var(--primary);
+    border-radius: 6px;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s, color 0.2s;
+}
+
+.bibli-download a:hover {
+    background: var(--primary);
+    color: var(--white);
+}
+
 /* Sort bar */
 .book-sort {
     display: flex;

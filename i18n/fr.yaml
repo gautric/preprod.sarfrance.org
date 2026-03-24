@@ -172,6 +172,8 @@
   translation: "Usuels et Revues"
 - id: bibli_cat_divers
   translation: "Divers"
+- id: bibli_download
+  translation: "Télécharger l'inventaire Excel"
 
 # References
 - id: references_title
