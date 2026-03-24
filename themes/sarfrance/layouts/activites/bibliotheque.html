@@ -1,10 +1,53 @@
 {{ define "head" }}
 {{- $css := resources.Get "css/bibliotheque.css" | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+<!-- JSON-LD: schema.org/Book structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "{{ .Title }}",
+  "description": "{{ .Description | default .Site.Params.description }}",
+  "url": "{{ .Permalink }}",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "{{ .Site.Title }}",
+    "url": "{{ .Site.BaseURL }}"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": {{ len .Site.Data.bibliotheque.books }},
+    "itemListElement": [
+      {{- range $i, $book := .Site.Data.bibliotheque.books }}
+      {{- if $i }},{{ end }}
+      {
+        "@type": "Book",
+        "name": {{ $book.name | jsonify }},
+        "author": {
+          "@type": "Person",
+          "name": {{ $book.author | jsonify }}
+        }
+        {{- with $book.publisher }},
+        "publisher": { "@type": "Organization", "name": {{ . | jsonify }} }
+        {{- end }}
+        {{- with $book.datePublished }}, "datePublished": "{{ . }}"{{ end }}
+        {{- with $book.isbn }}, "isbn": "{{ . }}"{{ end }}
+        {{- with $book.numberOfPages }}, "numberOfPages": {{ . }}{{ end }}
+        {{- with $book.inLanguage }}, "inLanguage": "{{ . }}"{{ end }}
+        {{- with $book.bookFormat }}, "bookFormat": {{ . | jsonify }}{{ end }}
+        {{- with $book.image }}, "image": "{{ . }}"{{ end }}
+        {{- with $book.description }}, "description": {{ . | jsonify }}{{ end }}
+        {{- with $book.genre }}, "genre": [{{ range $j, $c := . }}{{ if $j }}, {{ end }}{{ $c | jsonify }}{{ end }}]{{ end }}
+      }
+      {{- end }}
+    ]
+  }
+}
+</script>
 {{ end }}
 {{ define "main" }}
 <section class="page-content">
-    {{ $bibMeta := printf "<p class=\"page-meta\"><span class=\"page-meta-count\">%d %s</span> — <span>%s : %s</span></p>" (len .Site.Data.bibliotheque.ouvrages) (i18n "bibli_count") (i18n "bibli_revision") .Site.Data.bibliotheque.revision }}
+    {{ $bibMeta := printf "<p class=\"page-meta\"><span class=\"page-meta-count\">%d %s</span> — <span>%s : %s</span></p>" (len .Site.Data.bibliotheque.books) (i18n "bibli_count") (i18n "bibli_revision") .Site.Data.bibliotheque.revision }}
     {{ partial "page-header.html" (dict "ctx" . "desc" (i18n "bibli_desc") "extra" $bibMeta) }}
     <div class="container">
         <div class="content">
@@ -12,7 +55,7 @@
         </div>
 
         <div class="page-search-wrap">
-            <input type="search" id="bibli-search" class="page-search"
+            <input type="search" id="book-search" class="page-search"
                    placeholder="{{ i18n "bibli_search" }}"
                    aria-label="{{ i18n "bibli_search" }}">
         </div>
@@ -24,26 +67,11 @@
             {{ end }}
         </div>
 
-        <p id="bibli-no-result" class="page-no-result" hidden>{{ i18n "bibli_no_result" }}</p>
+        <p id="book-no-result" class="page-no-result" hidden>{{ i18n "bibli_no_result" }}</p>
 
-        <div class="bibli-grid">
-            {{ range .Site.Data.bibliotheque.ouvrages }}
-            <div class="bibli-card{{ with .couverture }} has-cover{{ end }}" data-cat="{{ .categorie }}"
-                 data-search="{{ .auteur | lower }} {{ .titre | lower }} {{ .editeur | lower }}">
-                <div class="bibli-card-text">
-                    {{ $catData := index $.Site.Data.bibliotheque.categories .categorie }}
-                    {{ if $catData }}<span class="tag cat-{{ .categorie | urlize }}">{{ $catData.label }}</span>{{ end }}
-                    <span class="bibli-titre">{{ if .isbn }}<a href="https://books.google.com/books?vid=ISBN{{ .isbn }}" target="_blank" rel="noopener" title="{{ i18n "bibli_see_book" }}">{{ .titre }}</a>{{ else }}{{ .titre }}{{ end }}</span>
-                    <span class="bibli-sep">—</span>
-                    <span class="bibli-auteur">{{ .auteur }}</span>
-                    <span class="bibli-editeur">({{ with .editeur }}{{ . }}{{ else }}N/A{{ end }}, {{ with .annee }}{{ . }}{{ else }}N/A{{ end }})</span>
-                    <span class="bibli-detail">{{ with .pages }}{{ . }} p.{{ else }}N/A{{ end }}</span>
-                    {{ with .reliure }}<span class="bibli-detail">{{ . }}</span>{{ end }}
-                    {{ with .isbn }}<span class="bibli-isbn">ISBN {{ . }}</span>{{ end }}
-                    {{ with .langue }}<span class="bibli-langue bibli-langue-{{ . }}"></span>{{ end }}
-                </div>
-                {{ with .couverture }}<img class="bibli-cover" src="{{ . }}" alt="" loading="lazy">{{ end }}
-            </div>
+        <div class="book-grid">
+            {{ range .Site.Data.bibliotheque.books }}
+            {{ partial "book.html" (dict "book" . "categories" $.Site.Data.bibliotheque.categories "filterable" true) }}
             {{ end }}
         </div>
     </div>

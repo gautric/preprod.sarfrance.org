@@ -1,0 +1,32 @@
+{{/*
+  book.html partial — renders a single book card
+
+  Context: dict with:
+    "book"       — the book entry from data/bibliotheque.yaml
+    "categories" — site.Data.bibliotheque.categories
+    "filterable" — (optional) if true, adds data-cat and data-search attributes for JS filtering
+*/}}
+{{- $book := .book -}}
+{{- $categories := .categories -}}
+{{- $filterable := .filterable | default false -}}
+{{- $firstCat := index $book.genre 0 -}}
+{{- $catData := index $categories $firstCat -}}
+<div class="book-card{{ with $book.image }} has-cover{{ end }}"
+  {{- if $filterable }} data-cat="{{ delimit $book.genre " " }}" data-search="{{ $book.author | lower }} {{ $book.name | lower }} {{ $book.publisher | lower }}"{{ end }}>
+  <div class="book-card-text">
+    {{- if $catData }}<span class="tag cat-{{ $firstCat | urlize }}">{{ $catData.label }}</span>{{ end }}
+    <span class="book-name">
+      {{- if $book.isbn -}}<a href="https://books.google.com/books?vid=ISBN{{ $book.isbn }}" target="_blank" rel="noopener" title="{{ i18n "bibli_see_book" }}">{{ $book.name }}</a>
+      {{- else -}}{{ $book.name }}
+      {{- end -}}
+    </span>
+    <span class="book-sep">—</span>
+    <span class="book-author">{{ $book.author }}</span>
+    <span class="book-publisher">({{ with $book.publisher }}{{ . }}{{ else }}N/A{{ end }}, {{ with $book.datePublished }}{{ . }}{{ else }}N/A{{ end }})</span>
+    <span class="book-detail">{{ with $book.numberOfPages }}{{ . }} p.{{ else }}N/A{{ end }}</span>
+    {{- with $book.bookFormat }}<span class="book-detail">{{ . }}</span>{{ end }}
+    {{- with $book.isbn }}<span class="book-isbn">ISBN {{ . }}</span>{{ end }}
+    {{- with $book.inLanguage }}<span class="book-lang book-lang-{{ . }}"></span>{{ end }}
+  </div>
+  {{- with $book.image }}<img class="book-cover" src="{{ . }}" alt="" loading="lazy">{{ end }}
+</div>

@@ -1,9 +1,9 @@
-/* Bibliothèque - search & category filtering */
+/* Library / Books — search & category filtering */
 $(function() {
-    var $searchInput = $('#bibli-search');
-    var $cards = $('.bibli-card');
+    var $searchInput = $('#book-search');
+    var $cards = $('.book-card');
     var $filters = $('.filter-btn[data-cat]');
-    var $noResult = $('#bibli-no-result');
+    var $noResult = $('#book-no-result');
     var activeCat = 'all';
 
     function applyFilters() {
@@ -11,7 +11,8 @@ $(function() {
         var visibleCount = 0;
 
         $cards.each(function() {
-            var matchesCat = activeCat === 'all' || $(this).attr('data-cat') === activeCat;
+            var cats = ($(this).attr('data-cat') || '').split(' ');
+            var matchesCat = activeCat === 'all' || cats.indexOf(activeCat) !== -1;
             var matchesSearch = !query || $(this).attr('data-search').indexOf(query) !== -1;
             var visible = matchesCat && matchesSearch;
             $(this).toggleClass('hidden', !visible);

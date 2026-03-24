@@ -1,15 +1,15 @@
-/* Bibliothèque SAR — specific styles (shared base in filters.css) */
+/* Library / Books — specific styles (shared base in filters.css) */
 
 /* Grid — single column list */
-.bibli-grid {
+.book-grid {
     display: flex;
     flex-direction: column;
     gap: 4px;
     padding-bottom: 40px;
 }
 
-/* Card — inline row (overrides page-card padding/border) */
-.bibli-card {
+/* Card — inline row */
+.book-card {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -22,16 +22,16 @@
     border-bottom: 1px solid var(--gray-border-light);
 }
 
-.bibli-card:hover {
+.book-card:hover {
     background: var(--gray-light);
     box-shadow: none;
 }
 
-.bibli-card.hidden {
+.book-card.hidden {
     display: none;
 }
 
-.bibli-card-text {
+.book-card-text {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
@@ -40,7 +40,7 @@
     min-width: 0;
 }
 
-.bibli-cover {
+.book-cover {
     width: 36px;
     height: 50px;
     object-fit: cover;
@@ -53,7 +53,7 @@
     z-index: 1;
 }
 
-.bibli-cover:hover {
+.book-cover:hover {
     transform: scale(4);
     transform-origin: right center;
     z-index: 10;
@@ -61,58 +61,59 @@
     border-radius: 3px;
 }
 
-.bibli-titre {
+.book-name {
     font-weight: 700;
     font-size: 0.92rem;
     color: var(--navy-blue);
 }
 
-.bibli-titre a {
+.book-name a {
     color: var(--navy-blue);
     text-decoration: none;
     border-bottom: 1px dotted var(--gray-border-medium);
 }
 
-.bibli-titre a:hover {
+.book-name a:hover {
     color: var(--primary);
     border-bottom-color: var(--primary);
 }
 
-.bibli-sep {
+.book-sep {
     color: var(--text-muted);
     font-size: 0.85rem;
 }
 
-.bibli-auteur {
+.book-author {
     font-size: 0.88rem;
     color: var(--text-dark);
 }
 
-.bibli-editeur {
+.book-publisher {
     font-size: 0.84rem;
     color: var(--text-muted);
     font-style: italic;
 }
 
-.bibli-detail {
+.book-detail {
     font-size: 0.8rem;
     color: var(--text-muted);
 }
 
-.bibli-detail::before {
+.book-detail::before {
     content: "· ";
 }
 
 /* Language flags via CSS */
-.bibli-langue {
+.book-lang {
     font-size: 0.9rem;
     line-height: 1;
 }
 
-.bibli-langue-fr::after { content: "🇫🇷"; }
-.bibli-langue-en::after { content: "🇺🇸"; }
+.book-lang-fr::after { content: "🇫🇷"; }
+.book-lang-en::after { content: "🇺🇸"; }
+.book-lang-de::after { content: "🇩🇪"; }
 
-.bibli-card .tag {
+.book-card .tag {
     font-size: 0.7rem;
     padding: 1px 8px;
     flex-shrink: 0;

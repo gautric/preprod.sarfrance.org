@@ -1,0 +1,70 @@
+{{/*
+  books shortcode — renders a filtered list of books from data/bibliotheque.yaml
+
+  Usage:
+    {{< books genre="marine" >}}
+    {{< books genre="biographie" limit="5" >}}
+    {{< books author="VILLIERS" >}}
+    {{< books genre="gia" author="Collectif" limit="10" >}}
+
+  Parameters:
+    genre  — filter by category key (e.g. "marine", "biographie", "gia")
+    author — filter by author name (case-insensitive substring match)
+    limit  — max number of books to display (default: all)
+*/}}
+{{- $genre  := .Get "genre" -}}
+{{- $author := .Get "author" -}}
+{{- $limit  := .Get "limit" | default 0 -}}
+{{- $books  := site.Data.bibliotheque.books -}}
+{{- $filtered := slice -}}
+
+{{- range $book := $books -}}
+  {{- $keep := true -}}
+
+  {{- with $genre -}}
+    {{- if not (in $book.genre $genre) -}}
+      {{- $keep = false -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- with $author -}}
+    {{- if not (in ($book.author | lower) ($author | lower)) -}}
+      {{- $keep = false -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- if $keep -}}
+    {{- $filtered = $filtered | append $book -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if $limit -}}
+  {{- $filtered = first (int $limit) $filtered -}}
+{{- end -}}
+
+{{- if $filtered -}}
+<div class="book-grid book-grid--shortcode">
+  {{- range $book := $filtered }}
+  <div class="book-card{{ with $book.image }} has-cover{{ end }}">
+    <div class="book-card-text">
+      {{- $firstCat := index $book.genre 0 -}}
+      {{- $catData := index site.Data.bibliotheque.categories $firstCat -}}
+      {{- if $catData }}<span class="tag cat-{{ $firstCat | urlize }}">{{ $catData.label }}</span>{{ end }}
+      <span class="book-name">
+        {{- if $book.isbn -}}<a href="https://books.google.com/books?vid=ISBN{{ $book.isbn }}" target="_blank" rel="noopener">{{ $book.name }}</a>
+        {{- else -}}{{ $book.name }}
+        {{- end -}}
+      </span>
+      <span class="book-sep">—</span>
+      <span class="book-author">{{ $book.author }}</span>
+      <span class="book-publisher">({{ with $book.publisher }}{{ . }}{{ else }}N/A{{ end }}, {{ with $book.datePublished }}{{ . }}{{ else }}N/A{{ end }})</span>
+      <span class="book-detail">{{ with $book.numberOfPages }}{{ . }} p.{{ else }}N/A{{ end }}</span>
+      {{- with $book.bookFormat }}<span class="book-detail">{{ . }}</span>{{ end }}
+      {{- with $book.isbn }}<span class="book-isbn">ISBN {{ . }}</span>{{ end }}
+      {{- with $book.inLanguage }}<span class="book-lang book-lang-{{ . }}"></span>{{ end }}
+    </div>
+    {{- with $book.image }}<img class="book-cover" src="{{ . }}" alt="" loading="lazy">{{ end }}
+  </div>
+  {{- end }}
+</div>
+{{- end -}}

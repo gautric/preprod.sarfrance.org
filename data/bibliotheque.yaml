@@ -1,5 +1,9 @@
+# Fields use schema.org/Book naming convention.
+# See https://schema.org/Book for reference.
+
 revision: '2025-04-01'
 count: 339
+
 categories:
   biographie:
     label: Biographies
@@ -24,2927 +28,3733 @@ categories:
   divers:
     label: Divers
 
-ouvrages:
-- auteur: ANTIER Jean-Jacques
-  titre: Amiral de Grasse (l')
-  editeur: Presses de la Cité
-  annee: 1991
-  langue: fr
-  pages: 341
-  reliure: broché
-  categorie: biographie
+books:
+- author: ANTIER Jean-Jacques
+  name: "Amiral de Grasse (l')"
+  publisher: Presses de la Cité
+  datePublished: 1991
+  inLanguage: fr
+  numberOfPages: 341
+  bookFormat: broché
+  genre: [biographie]
   isbn: '9782307544357'
-  couverture: http://books.google.com/books/content?id=qYcBEQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: ANTIER Jean-Jacques
-  titre: L'amiral de Grasse, vainqueur de la Chesapeake
-  editeur: "Éditions Maritimes et d'Outre-Mer"
-  annee: 1974
-  langue: fr
-  pages: 253
-  reliure: broché
-  categorie: biographie
+  image: http://books.google.com/books/content?id=qYcBEQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: ANTIER Jean-Jacques
+  name: "L'amiral de Grasse, vainqueur de la Chesapeake"
+  publisher: "Éditions Maritimes et d'Outre-Mer"
+  datePublished: 1974
+  inLanguage: fr
+  numberOfPages: 253
+  bookFormat: broché
+  genre: [biographie]
   isbn: '9788439921318'
-  couverture: http://books.google.com/books/content?id=eVEsAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: ANTIER Jean-Jacques
-  titre: L'amiral de Grasse, héros de l'indépendance américaine
-  editeur: "Éditions Maritimes et d'Outre-Mer"
-  annee: 1991
-  langue: fr
-  pages: 472
-  reliure: cartonné
-  categorie: biographie
+  image: http://books.google.com/books/content?id=eVEsAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: ANTIER Jean-Jacques
+  name: "L'amiral de Grasse, héros de l'indépendance américaine"
+  publisher: "Éditions Maritimes et d'Outre-Mer"
+  datePublished: 1991
+  inLanguage: fr
+  numberOfPages: 472
+  bookFormat: cartonné
+  genre: [biographie]
   isbn: '9782307544357'
-  couverture: http://books.google.com/books/content?id=qYcBEQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: BARDIN Pierre et R.
-  titre: Les 3 vies d'un marin Breton. Barthélémy Ma
-  editeur: Coop Breizh
-  annee: 2002
-  langue: fr
-  pages: 255
-  reliure: broché
-  categorie: biographie
+  image: http://books.google.com/books/content?id=qYcBEQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: BARDIN Pierre et R.
+  name: "Les 3 vies d'un marin Breton. Barthélémy Ma"
+  publisher: Coop Breizh
+  datePublished: 2002
+  inLanguage: fr
+  numberOfPages: 255
+  bookFormat: broché
+  genre: [biographie]
   isbn: '9782843461217'
-- auteur: BAZIN Christian
-  titre: Marquis de la Rouerie (Colonel Armand) (le)
-  editeur: Perrin
-  annee: 1990
-  langue: fr
-  pages: 290
-  reliure: broché
-  categorie: biographie
+  image: ''
+  description: ''
+- author: BAZIN Christian
+  name: Marquis de la Rouerie (Colonel Armand) (le)
+  publisher: Perrin
+  datePublished: 1990
+  inLanguage: fr
+  numberOfPages: 290
+  bookFormat: broché
+  genre: [biographie]
   isbn: '9782262007546'
-- auteur: BEAUMONT Pierre-Armel de
-  titre: Comte de Villemanzy (le), commissaire des guerres
-  editeur: SPM
-  annee: 2000
-  langue: fr
-  pages: 410
-  reliure: broché
-  categorie: biographie
-  couverture: http://books.google.com/books/content?id=9_1nAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: BILLARDON Louis-Edme de Sauvigny
-  titre: Washington ou La liberté du nouveau monde
-  editeur: Princeton University
-  annee: 1941
-  langue: en
-  pages: 130
-  reliure: cartonné
-  categorie: biographie
-  couverture: http://books.google.com/books/content?id=g4kGAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: BOISBAUDRY Hervé du
-  titre: Leray de Chaumont
-  editeur: "Presses Universitaires d'Aix-Marseille"
-  annee: 2023
-  langue: fr
-  pages: 258
-  reliure: broché
-  categorie: biographie
-  isbn: '9782731412703'
-- auteur: BROOKS Noah
-  titre: Henry Knox
-  editeur: 'Arus Books, New York'
-  annee: 2007
-  langue: en
-  pages: 286
-  reliure: cartonné
-  categorie: biographie
-  couverture: http://books.google.com/books/content?id=UQGWEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9781779794048'
-- auteur: CASTRIES René de La Croix duc de
-  titre: Maréchal de Castries (le) 1727-1800
-  editeur: Flammarion
-  annee: 1956
-  langue: fr
-  pages: 281
-  reliure: broché
-  categorie: biographie
-  couverture: http://books.google.com/books/content?id=f01eAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: CHAMBRUN René de
-  titre: Les prisons des La Fayette
-  editeur: Perrin
-  annee: 1977
-  langue: fr
-  pages: 343
-  reliure: cartonné
-  categorie: biographie
-  isbn: '9782262054311'
-  couverture: http://books.google.com/books/content?id=PcdXDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: CHATENET Madeleine Du
-  titre: TRAVERSAY un marin français ministre de la marine
-  editeur: Éditions Tallandier
-  annee: 1996
-  langue: fr
-  pages: 476
-  reliure: broché
-  categorie: biographie
-  isbn: '9782402177160'
-  couverture: http://books.google.com/books/content?id=MsJYDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: CLARK Ronald William
-  titre: Franklin
-  editeur: Fayard
-  annee: 1986
-  langue: fr
-  pages: 520
-  reliure: broché
-  categorie: biographie
-  isbn: '9782213016719'
-  couverture: http://books.google.com/books/content?id=nxaTAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: Collectif
-  titre: Benjamin Franklin, homme de Science, homme
-  editeur: Paris Musées Éditions
-  annee: 2007
-  langue: fr
-  pages: 245
-  reliure: cartonné
-  categorie: biographie
-  isbn: '9782759600144'
-- auteur: Collectif
-  titre: La Fayette Citoyen des deux Mondes
-  editeur: La Borne
-  annee: 1999
-  langue: fr
-  pages: 75
-  reliure: broché
-  categorie: biographie
-  couverture: http://books.google.com/books/content?id=e3bD5EYk5JwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: Collectif
-  titre: Liberge de Granchain 1744-1805. Bicentenaire
-  editeur: Association Granchain
-  annee: 2005
-  langue: fr
-  pages: 20
-  reliure: broché
-  categorie: biographie
-- auteur: Collectif
-  titre: Liniers dans la presse argentine
-  editeur: Almerias Buenos-Ayres
-  langue: fr
-  pages: 163
-  reliure: broché
-  categorie: biographie
-  couverture: http://books.google.com/books/content?id=g_L_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9782402429283'
-- auteur: Collectif
-  titre: Sur les pas de Miranda (1750-1816)
-  editeur: ''
-  annee: 2014
-  langue: fr
-  pages: 18
-  reliure: broché
-  categorie: biographie
-  isbn: '9782905700339'
-- auteur: FEILDEN Jean
-  titre: RIPAUD de MONTAUDEVERT (A la mer en Guerre)
-  editeur: Feilden
-  annee: 1965
-  langue: fr
-  pages: 180
-  reliure: broché
-  categorie: biographie
-- auteur: GAILLARD Alain
-  titre: L'Amiral du Chaffault
-  editeur: La Chouette de Vendée
-  annee: 2019
-  langue: fr
-  pages: 260
-  reliure: broché
-  categorie: biographie
-  isbn: '9791092338164'
-- auteur: GAILLARD Alain
-  titre: La Motte Picquet
-  editeur: Éditions Mémoire et Documents
-  annee: 2018
-  langue: fr
-  pages: 323
-  reliure: broché
-  categorie: biographie
-  isbn: '9791090361874'
-- auteur: GARRIGOUX Jean
-  titre: 'Aventurier Visionnaire (un) : A. Lacarrière Latour'
-  editeur: Société des Lettres de la Haute-Garonne
-  annee: 1997
-  langue: fr
-  pages: 351
-  reliure: broché
-  categorie: biographie
-  isbn: '9782950758521'
-- auteur: GOVERNAR A. et NILES MAHAK M.
-  titre: Anne Morgan
-  editeur: American Friends of Blérancourt
-  langue: fr
-  pages: 151
-  reliure: broché
-  categorie: biographie
-- auteur: HULOT Frédéric
-  titre: Suffren, l'amiral Satan
-  editeur: Pygmalion
-  annee: 1994
-  langue: fr
-  pages: 258
-  reliure: broché
-  categorie: biographie
-  couverture: http://books.google.com/books/content?id=FdSnXG_i2EkC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: JAHAN-ROUSSEL
-  titre: Guichen, l'honneur de la Marine Royale
-  editeur: Guénégaud
-  langue: fr
-  pages: 390
-  reliure: broché
-  categorie: biographie
-  isbn: '9782850231520'
-- auteur: KUNSTLER Charles
-  titre: Fersen et son secret
-  editeur: Hachette
-  annee: 1947
-  langue: fr
-  pages: 398
-  reliure: broché
-  categorie: biographie
-  isbn: '9791037608741'
-  couverture: http://books.google.com/books/content?id=5OP5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: LE MAIRE Jean-François
-  titre: Coste, premier médecin des armées de Napoléon
-  editeur: Stock
-  annee: 1977
-  langue: fr
-  pages: 419
-  reliure: broché
-  categorie: biographie
-  couverture: http://books.google.com/books/content?id=SEc6BKDEPbgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: LE POTTIER Serge
-  titre: Du Portail, dernier ministre de la Guerre de la monarchie
-  editeur: 'Thèse, Université Paris-Sorbonne'
-  langue: fr
-  pages: 809
-  reliure: broché
-  categorie: biographie
-  couverture: http://books.google.com/books/content?id=1M4-AAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: LE ROUX Gérard
-  titre: Les Aventures du Capitaine Jean-Pierre Blanc
-  editeur: Gérard Leroux
-  annee: 1991
-  langue: fr
-  pages: 56
-  reliure: broché avec CD
-  categorie: biographie
-  couverture: http://books.google.com/books/content?id=Qu2qvs3k1CMC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  isbn: '9782800118338'
-- auteur: LECOMTE S. et D.
-  titre: Rochambeau
-  editeur: Lavauzelle
-  annee: 1976
-  langue: fr
-  pages: 173
-  reliure: broché
-  categorie: biographie
-  couverture: http://books.google.com/books/content?id=vl8v3eAABBYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: LEVER Evelyne
-  titre: Louis XVI
-  editeur: Fayard
-  annee: 1985
-  langue: fr
-  pages: 703
-  reliure: broché
-  categorie: biographie
-  isbn: '9782213673981'
-  couverture: http://books.google.com/books/content?id=Egyvetw10QUC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: LINYER DE LA BARBÉE Maurice
-  titre: Chevalier de Ternay (le) tome 1
-  editeur: 'Éditions des 4 Seigneurs, Grenoble'
-  annee: 1972
-  langue: fr
-  pages: 334
-  reliure: broché
-  categorie: biographie
-- auteur: LINYER DE LA BARBÉE Maurice
-  titre: Chevalier de Ternay (le) tome 2
-  editeur: 'Éditions des 4 Seigneurs, Grenoble'
-  annee: 1972
-  langue: fr
-  pages: 335
-  reliure: broché
-  categorie: biographie
-- auteur: LOPEZ Claude-Anne
-  titre: Benjamin Franklin à Paris (Le sceptre et la foudre)
-  editeur: Mercure de France
-  annee: 1990
-  langue: fr
-  pages: 335
-  reliure: broché
-  categorie: biographie
-  isbn: '9782715216389'
-- auteur: MARZAC Jacques
-  titre: Mourir pour Buenos-Ayres (J. de Liniers)
-  editeur: La découvrance
-  annee: 2016
-  langue: fr
-  pages: 203
-  reliure: broché
-  categorie: biographie
-  isbn: '9782842659769'
-- auteur: MATHIEU Robert Sylvain
-  titre: Stephen Girard, Marin bordelais et banquier Américain
-  editeur: France Empire
-  annee: 1981
-  langue: fr
-  pages: 221
-  reliure: broché
-  categorie: biographie
-  isbn: '9782307195122'
-  couverture: http://books.google.com/books/content?id=QIMpEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: MAUROIS André
-  titre: Adrienne ou la vie de Madame de La Fayette
-  editeur: Hachette
-  annee: 1960
-  langue: fr
-  pages: 570
-  reliure: broché
-  categorie: biographie
-  couverture: http://books.google.com/books/content?id=3AIwAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: MEFFRE Stéphane
-  titre: Jean Gaspard Vence
-  editeur: Librinova
-  annee: 2023
-  langue: fr
-  pages: 270
-  reliure: broché
-  categorie: biographie
-  isbn: '9782336483931'
-  couverture: http://books.google.com/books/content?id=mEshEQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: MÉNARD Pierre
-  titre: Antoine Crozat, l'homme qui possédait l'Amérique
-  editeur: Le Cherche Midi
-  annee: 2017
-  langue: fr
-  pages: 461
-  reliure: broché
-  categorie: biographie
-  isbn: '9782749148304'
-  couverture: http://books.google.com/books/publisher/content?id=cJjVDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: MICHEL Jacques
-  titre: Charles Henry Comte d'Estaing
-  editeur: Jacques Michel
-  annee: 1976
-  langue: fr
-  pages: 455
-  reliure: cartonné
-  categorie: biographie
-  couverture: http://books.google.com/books/content?id=yBwJAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: MONAQUE Rémi
-  titre: Suffren
-  editeur: Éditions Tallandier
-  annee: 2009
-  langue: fr
-  pages: 491
-  reliure: broché
-  categorie: biographie
-  couverture: http://books.google.com/books/content?id=20QqAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: NAVACELLE Thierry de
-  titre: La Rouërie, rival de La Fayette (doc. fiction)
-  editeur: Le Temps
-  annee: 2020
-  langue: fr
-  pages: 318
-  reliure: broché
-  categorie: biographie
-  isbn: '9782363121066'
-- auteur: O'BRIEN HANLEY Charles
-  titre: Carrol of Carrelton
-  editeur: Loyola University Press
-  langue: en
-  pages: 293
-  reliure: cartonné
-  categorie: biographie
-  couverture: http://books.google.com/books/content?id=SIayAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: RODE Iris de
-  titre: FJ de Chastellux (1734-1788)
-  editeur: Honoré Champion
-  annee: 2022
-  langue: fr
-  pages: 722
-  reliure: broché
-  categorie: biographie
-  isbn: '9782745356840'
-  couverture: http://books.google.com/books/content?id=lUJJAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: RODGER N. A. M.
-  titre: Insatiable Earl (The) John Montagu
-  editeur: 'W.W. Norton & Company, London'
-  annee: 1994
-  langue: en
-  pages: 425
-  reliure: cartonné
-  categorie: biographie
-  isbn: '9780393333299'
-  couverture: http://books.google.com/books/content?id=mPUBPgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: ROURE L. du et LINIERS
-  titre: Santiago Jacques de Liniers
-  editeur: auteurs
-  langue: fr
-  pages: 183
-  reliure: broché
-  categorie: biographie
-- auteur: SAINT BRIS Gonzague
-  titre: La Fayette
-  editeur: Éditions Télémaque
-  annee: 2006
-  langue: fr
-  pages: 407
-  reliure: broché
-  categorie: biographie
-  couverture: http://books.google.com/books/content?id=ZIYfAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  isbn: '9782070346738'
-- auteur: STABLER John Herbert
-  titre: Francisco Miranda (Travels and aventures de)
-  editeur: Nacim
-  annee: 1930
-  langue: en
-  pages: 196
-  reliure: broché
-  categorie: biographie
-- auteur: AUBIN Nicolas
-  titre: Les corsaires du Havre dans la GIA
-  editeur: ''
-  langue: fr
-  pages: 20
-  reliure: chemise
-  categorie: marine
-- auteur: BAUDRIOT Jean
-  titre: John Paul Jones et le bonhomme Richard
-  editeur: Archéologie Navale Française
-  langue: fr
-  pages: 127
-  reliure: broché
-  categorie: marine
-- auteur: BONNEL Ulane et Collectif
-  titre: Fleurieu et la Marine de son temps (Actes colloque)
-  editeur: 'Éditions Economica, Paris'
-  annee: 1992
-  langue: fr
-  pages: 353
-  reliure: broché
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=sEojAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: BOYER Martin
-  titre: 'L''appel du large : 5 siècles d''histoires maritimes'
-  editeur: ''
-  langue: fr
-  pages: 223
-  reliure: broché
-  categorie: marine
-- auteur: CARON François
-  titre: VICTOIRE VOLÉE (Chesapeake)
-  editeur: 'Service Historique de la Marine, Vincennes'
-  annee: 1989
-  langue: fr
-  pages: 611
-  reliure: broché
-  categorie: marine
-  isbn: '9782901952190'
-- auteur: CASTRIES Scipion de
-  titre: Souvenirs Maritimes
-  editeur: Mercure de France
-  langue: fr
-  pages: 423
-  reliure: broché
-  categorie: marine
-  isbn: '9782715225626'
-- auteur: CHEVALIER Louis Édouard
-  titre: Histoire de la Marine Française I (jusqu'en 1763)
-  editeur: 'Hachette, Paris'
-  annee: 1902
-  langue: fr
-  pages: 405
-  reliure: broché
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=im4X0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  isbn: '9781020324840'
-- auteur: CHEVALIER Louis Edouard
-  titre: Histoire de la Marine Française 2 (guerre d'indépendance)
-  editeur: 'Hachette, Paris'
-  annee: 1877
-  langue: fr
-  pages: 517
-  reliure: broché
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=Y_NOFPX0P30C&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: CHEVALIER Louis Édouard
-  titre: Histoire de la Marine Française 3 (1ère république)
-  editeur: 'Hachette, Paris'
-  annee: 1886
-  langue: fr
-  pages: 423
-  reliure: broché
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=FZAfAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  isbn: '9781019976081'
-- auteur: CHEVALIER Louis Édouard
-  titre: Histoire de la Marine Française IV (Consulat-Empire)
-  editeur: 'Hachette, Paris'
-  annee: 1886
-  langue: fr
-  pages: 439
-  reliure: broché
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=yE49M5QeJlwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: CHEVALIER Louis Édouard
-  titre: Histoire de la Marine Française V (1815-1870)
-  editeur: 'Hachette, Paris'
-  annee: 1900
-  langue: fr
-  pages: 438
-  reliure: broché
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=_pIfAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: Collectif
-  titre: Marines Française et Britannique face aux USA (les)
-  editeur: 'Service Historique de la Marine, Vincennes'
-  annee: 1999
-  langue: fr
-  pages: 416
-  reliure: broché
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=kUBnAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: Collectif
-  titre: Naval documents of the AR 1/10 (1774-1775)
-  editeur: 'Naval History Division, Washington'
-  annee: 1964
-  langue: en
-  pages: 1451
-  reliure: cartonné
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=VXL7ENtRDOcC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  isbn: '9781634243889'
-- auteur: Collectif
-  titre: Naval documents of the AR 2/10 (1775)
-  editeur: 'Naval History Division, Washington'
-  annee: 1966
-  langue: en
-  pages: 1463
-  reliure: cartonné
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=SlkSAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: Collectif
-  titre: Naval documents of the AR 3/10 (1775-1776)
-  editeur: 'Naval History Division, Washington'
-  annee: 1968
-  langue: en
-  pages: 1486
-  reliure: cartonné
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=SlkSAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  isbn: '9781459740730'
-- auteur: Collectif
-  titre: Naval documents of the AR 4/10 (1776)
-  editeur: 'Naval History Division, Washington'
-  annee: 1969
-  langue: en
-  pages: 1580
-  reliure: cartonné
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=1ci6kgatWzMC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: Collectif
-  titre: Naval documents of the AR 5/10 (1776)
-  editeur: 'Naval History Division, Washington'
-  annee: 1970
-  langue: en
-  pages: 1486
-  reliure: cartonné
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=XER8kVrP3b4C&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: Collectif
-  titre: Naval documents of the AR 6/10 (1776)
-  editeur: 'Naval History Division, Washington'
-  annee: 1972
-  langue: en
-  pages: 1641
-  reliure: cartonné
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=bM52AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: Collectif
-  titre: Naval documents of the AR 7/10 (1776-1777)
-  editeur: 'Naval History Division, Washington'
-  annee: 1976
-  langue: en
-  pages: 1463
-  reliure: cartonné
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=lpa8fmns2S4C&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: Collectif
-  titre: Naval documents of the AR 8/10 (1777)
-  editeur: 'Naval History Division, Washington'
-  annee: 1980
-  langue: en
-  pages: 1184
-  reliure: cartonné
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=szMYAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: Collectif
-  titre: Naval documents of the AR 9/10 (1777)
-  editeur: 'Naval History Division, Washington'
-  annee: 1986
-  langue: en
-  pages: 1147
-  reliure: cartonné
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=1M7Q1xqfMMsC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: Collectif
-  titre: Naval documents of the AR 10/10 (1777)
-  editeur: 'Naval History Division, Washington'
-  annee: 1996
-  langue: en
-  pages: 1350
-  reliure: cartonné
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=1ci6kgatWzMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: Collectif
-  titre: La glorieuse campagne du Comte de Grasse
-  editeur: SAR-France
-  annee: 2011
-  langue: fr
-  pages: 122
-  reliure: broché
-  categorie: marine
-  isbn: '9782296452602'
-  couverture: http://books.google.com/books/content?id=hJrUCQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: CRABBE
-  titre: Les grandes heures de la Royal Navy
-  editeur: Goemaere
-  annee: 1946
-  langue: fr
-  pages: 478
-  reliure: broché
-  categorie: marine
-- auteur: ENGLE E. et LOTT A.
-  titre: America's maritime heritage
-  editeur: Naval Institute
-  langue: en
-  pages: 371
-  reliure: cartonné
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=KuJ1AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: FONTAN Jules
-  titre: La marine provençale dans la GIA
-  editeur: Institut Historique de Provence
-  langue: fr
-  pages: 226
-  reliure: broché
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=s6DDX1bs-iAC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: FORRER Claude et YO
-  titre: LE BRETAGNE Vaisseau de 100 canons
-  editeur: Keltia
-  langue: fr
-  pages: 222
-  reliure: broché
-  categorie: marine
-  isbn: '9782913953789'
-- auteur: FORRER Claude et YO
-  titre: Alertes au Proche Orient La Frégate L'Aigrette 1775
-  editeur: Keltia
-  annee: 2009
-  langue: fr
-  pages: 223
-  reliure: broché
-  categorie: marine
-  isbn: '9782353130436'
-- auteur: GARDINER Robert
-  titre: Navies and the American Revolution 1755-1783
-  editeur: Naval Institute Press
-  langue: en
-  pages: 192
-  reliure: cartonné
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=ohplPgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  isbn: '9781845600112'
-- auteur: GILKERSON William
-  titre: Ships of John Paul Jones
-  editeur: Naval Academy Museum
-  annee: 1987
-  langue: en
-  pages: 83
-  reliure: cartonné
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=fNh2AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: HAGAN Kenneth J.
-  titre: In Peace and War. Interpretation of American Naval
-  editeur: Greenwood Press
-  langue: en
-  pages: 368
-  reliure: cartonné
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=IV_OVk4FhKUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9780029134719'
-- auteur: HENRAT Philippe
-  titre: Archives de la Marine XVII et XVIIIème s.
-  editeur: SPM
-  langue: fr
-  pages: 933
-  reliure: broché
-  categorie: marine
-  isbn: '9782917232668'
-  couverture: http://books.google.com/books/content?id=tCVHDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: JACOB Yves
-  titre: L'énigme Lapérouse
-  editeur: Éditions Tallandier
-  annee: 2000
-  langue: fr
-  pages: 296
-  reliure: broché
-  categorie: marine
-  isbn: '9782702845585'
-- auteur: JIRKA Rachel
-  titre: La Fayette et l'Hermione
-  editeur: Cincinnati
-  langue: fr
-  pages: 15
-  reliure: broché
-  categorie: marine
-- auteur: KERBAOL Camille
-  titre: Les lettres de Mandat-Grancey, Thèse T1
-  editeur: Université de Bretagne
-  annee: 2019
-  langue: fr
-  pages: 608
-  reliure: broché
-  categorie: marine
-- auteur: KERBAOL Camille
-  titre: Les lettres de Mandat-Grancey, Thèse T2
-  editeur: Université de Bretagne
-  annee: 2019
-  langue: fr
-  pages: 608
-  reliure: broché
-  categorie: marine
-- auteur: KERBAOL Camille
-  titre: Les lettres de Mandat-Grancey, Thèse T3
-  editeur: Université de Bretagne
-  annee: 2019
-  langue: fr
-  pages: 608
-  reliure: broché
-  categorie: marine
-- auteur: KILLION Howard Ray
-  titre: Suffren expedition in India during war of american revolution
-  editeur: Duke University
-  annee: 1972
-  langue: en
-  pages: 517
-  reliure: cartonné
-  categorie: marine
-- auteur: LACOUR-GAYET Georges
-  titre: Marine militaire de la France sous le règne de Louis X
-  editeur: Éditions Jean-Michel Place / Teissèdre
-  annee: 2007
-  langue: fr
-  pages: 719
-  reliure: broché
-  categorie: marine
-  isbn: '9782912259998'
-- auteur: LE MASNE
-  titre: Armement Le Masne
-  editeur: Le Masne
-  annee: 2014
-  langue: fr
-  pages: 89
-  reliure: broché
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=y-YHN4q6e3AC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: LE MASNE Andréa
-  titre: Une famille d'armateurs à Nantes au XVIIIème s.
-  editeur: Le Masne
-  annee: 2021
-  langue: fr
-  pages: 248
-  reliure: broché
-  categorie: marine
-  isbn: '9791069965973'
-- auteur: MAHAN Alfred Thayer
-  titre: Influence of sea power upon History (the)
-  editeur: 'Sampson Low, Marston & Company, London'
-  langue: en
-  pages: 557
-  reliure: cartonné
-  categorie: marine
-  isbn: '9781108023719'
-  couverture: http://books.google.com/books/content?id=JRTRdcMhQb0C&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: MARSHALL SMELSER
-  titre: Congress Founds the Navy (1787-1798)
-  editeur: University of Notre Dame Press
-  annee: 1959
-  langue: en
-  pages: 229
-  reliure: cartonné
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=nPSREQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9781839743245'
-- auteur: MEYER Jean (historien.)
-  titre: L'armement nantais dans la 2ème moitié du XVIIIe siècle
-  editeur: Touzet
-  annee: 1969
-  langue: fr
-  pages: 465
-  reliure: broché
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=VPsRCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9782713225680'
-- auteur: NICOLAS Guy
-  titre: Course à Saint-Malo lors de la guerre d'indépendance
-  editeur: Saint-Malo
-  annee: 2004
-  langue: fr
-  pages: 19
-  reliure: feuilles volantes
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=RCpBAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: PERROT de REVEL J.
-  titre: Journal particulier d'une campagne aux Indes Occidentales 1781-1782
-  editeur: Elibron Classics
-  langue: fr
-  pages: 277
-  reliure: broché
-  categorie: marine
-- auteur: PRUDHOMME Françoise
-  titre: Le Chevalier de L'Espine, naviguer en temps de révolution
-  editeur: "Presses de l'Université Paris-Sorbonne"
-  annee: 2019
-  langue: fr
-  pages: 774
-  reliure: broché
-  categorie: marine
-  isbn: '9782271144041'
-  couverture: http://books.google.com/books/content?id=pH_pEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: REYNOLDS Clark G.
-  titre: Famous American Admirals
-  editeur: Van Nostrand Reinhold
-  annee: 1978
-  langue: en
-  pages: 446
-  reliure: cartonné
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=_a4QAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: SINOU BERTAULT Eric
-  titre: Naissance et baptême breton de la Marine Américaine
-  editeur: Auteur
-  annee: 2011
-  langue: fr
-  pages: 249
-  reliure: broché
-  categorie: marine
-  isbn: '9781446189801'
-  couverture: http://books.google.com/books/content?id=lmJaMwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: STOUT Neyl R.
-  titre: Royal Navy in America 1760-1775
-  editeur: 'Naval Institute Press, Annapolis'
-  annee: 1973
-  langue: en
-  pages: 227
-  reliure: cartonné
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=L1ssAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: TRENTINIAN Jacques de
-  titre: La Glorieuse campagne du comte de Grasse
-  editeur: ''
-  langue: fr
-  pages: 122
-  reliure: broché
-  categorie: marine
-- auteur: TROUDE O.
-  titre: Batailles Navales de la France. Tome 2. 1778-1795
-  editeur: 'Challamel, Paris'
-  annee: 1867
-  langue: fr
-  pages: 469
-  reliure: broché
-  categorie: marine
-  isbn: '9782019595678'
-  couverture: http://books.google.com/books/content?id=9NIrMQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: VERGÉ-FRANCESCHI Michel
-  titre: La Royale au temps de l'Amiral d'Estaing
-  editeur: La pensée universelle
-  annee: 1977
-  langue: fr
-  pages: 251
-  reliure: broché
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=Knm2AAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: VILLIERS Patrick
-  titre: Le Commerce colonial atlantique et la guerre d'indépendance
-  editeur: Arno Press NewYork
-  annee: 1977
-  langue: fr
-  pages: 470
-  reliure: cartonné
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=XGUtAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: VILLIERS Patrick
-  titre: Des vaisseaux et des Hommes, La Marine de Louis XVI
-  editeur: Fayard
-  annee: 2021
-  langue: fr
-  pages: 413
-  reliure: broché
-  categorie: marine
-  isbn: '9782213683614'
-  couverture: http://books.google.com/books/content?id=ikJDEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: VILLIERS Patrick
-  titre: La Marine de Louis XVI. Tome 1. De Choiseul à Sartine
-  editeur: Pierre Debanne
-  annee: 1985
-  langue: fr
-  pages: 480
-  reliure: cartonné
-  categorie: marine
-  isbn: '9791096873579'
-  couverture: http://books.google.com/books/content?id=2ttnAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: VILLIERS Patrick
-  titre: La Marine de Louis XVI (volume)
-  editeur: Ancre
-  annee: 2020
-  langue: fr
-  pages: 480
-  reliure: cartonné
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=ikJDEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9782213683614'
-- auteur: VILLIERS Patrick
-  titre: La Marine de Louis XVI (planches)
-  editeur: Ancre
-  annee: 2020
-  langue: fr
-  pages: 45
-  reliure: dossier
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=nqxVAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: BADEREAU A.
-  titre: Fonds Vioménil dossiers LB0074 et 75
-  editeur: Académie François Bourdon
-  langue: fr
-  pages: 1
-  reliure: CD
-  categorie: gia
-- auteur: BARBÉ MAROIS
-  titre: Complot d'Arnold et de S. Henry contre les É.-U.
-  editeur: Firmin Didot Aîné
-  annee: 1816
-  langue: fr
-  pages: 247
-  reliure: relié
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=HDowAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: BARBÉ MAROIS
-  titre: Our Revolutionary Fathers
-  editeur: 'Duffield and Company, New York'
-  annee: 1929
-  langue: en
-  pages: 225
-  reliure: relié
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=cPqq-YjFb5IC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: BERTHIER Louis-Alexandre
-  titre: Journal de la campagne d'Amérique
-  editeur: Institut Français de Washington
-  annee: 1952
-  langue: fr
-  pages: 76
-  reliure: broché
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=7HZwAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: BINAUD Daniel
-  titre: L'épopée Américaine de La Fayette
-  editeur: La découvrance
-  annee: 2016
-  langue: fr
-  pages: 364
-  reliure: broché
-  categorie: gia
-  isbn: '9782759900336'
-  couverture: http://books.google.com/books/content?id=rAhFDAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: BONSAL Stephen
-  titre: Soldats de la Liberté
-  editeur: Éditions Tallandier
-  annee: 1952
-  langue: fr
-  pages: 345
-  reliure: broché
-  categorie: gia
-- auteur: BOUVET Maurice
-  titre: Service de Santé pendant la guerre d'indépendance américaine (le)
-  editeur: ''
-  annee: 1934
-  langue: fr
-  pages: 111
-  reliure: broché
-  categorie: gia
-- auteur: BRECHER Franck W.
-  titre: Securing American Independance
-  editeur: Praeger
-  annee: 2003
-  langue: en
-  pages: 327
-  reliure: cartonné
-  categorie: gia
-  isbn: '9780313052552'
-  couverture: http://books.google.com/books/content?id=SFDeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: BROWN Rice
-  titre: American Campaigns of Rochambeau's army (tome 1, Journal)
-  editeur: Princeton University Press
-  annee: 1972
-  langue: en
-  pages: 362
-  reliure: coffret
-  categorie: gia
-- auteur: BROWN Rice
-  titre: American Campaigns of Rochambeau's army (tome 2, Itinéraire)
-  editeur: Princeton University Press
-  annee: 1972
-  langue: en
-  pages: 351
-  reliure: coffret
-  categorie: gia
-- auteur: BRISOUT Nicolas Denis François de Barneville
-  titre: Journal de Guerre 1780-1781
-  editeur: Institut Français de Washington
-  annee: 1951
-  langue: fr
-  pages: 63
-  reliure: broché
-  categorie: gia
-- auteur: CARRER Philippe
-  titre: Bretagne et la Guerre d'Indépendance américaine (la)
-  editeur: Les Portes du Large
-  annee: 2005
-  langue: fr
-  pages: 238
-  reliure: broché
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=Nal2AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: CENCI Philippe et KOCH Louis
-  titre: La Route de l'indépendance
-  editeur: Triomphe
-  annee: 2009
-  langue: fr
-  pages: 47
-  reliure: BD
-  categorie: gia
-  isbn: '9782383860594'
-- auteur: CHARTRAND René
-  titre: The French Army in the American War
-  editeur: Osprey
-  annee: 1992
-  langue: en
-  pages: 48
-  reliure: broché
-  categorie: gia
-  isbn: '9781855321670'
-  couverture: http://books.google.com/books/content?id=vhAqvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: CHASE Paul A.
-  titre: The American Revolution. A compendium of terms and topics
-  editeur: Outskirts Press
-  annee: 2017
-  langue: en
-  pages: 442
-  reliure: broché
-  categorie: gia
-  isbn: '9781478791836'
-  couverture: http://books.google.com/books/content?id=v7E7swEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: CLOSEN Baron de
-  titre: Journal of the revolutionary Baron Ludwig von Closen
-  editeur: University of North Carolina Press
-  annee: 1958
-  langue: en
-  pages: 392
-  reliure: cartonné
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=yxgV0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  isbn: '9780807807453'
-- auteur: Collectif
-  titre: France et l'Indépendance des Etats-Unis (la)
-  editeur: "Centre d'Instruction Navale"
-  annee: 1999
-  langue: fr
-  pages: 69
-  reliure: broché
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=qSS9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9782916403694'
-- auteur: Collectif
-  titre: Washington Rochambeau Revolutionary Route
-  editeur: National Park Service
-  annee: 2006
-  langue: en
-  pages: 52
-  reliure: broché
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=uhl8tAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  isbn: '9780692960448'
-- auteur: COTENSON Ludovic de
-  titre: Société des Cincinnati et la Guerre d'Amérique
-  editeur: Picard
-  annee: 2007
-  langue: fr
-  pages: 310
-  reliure: cartonné
-  categorie: gia
-- auteur: COUZIGOU Jean-Vincent
-  titre: L'Aigle et le Lys
-  editeur: Éditions Muller
-  annee: 2007
-  langue: fr
-  pages: 210
-  reliure: broché
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=lQ8aAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: DELITTE Jean-Yves
-  titre: Bataille de la Chesapeake
-  editeur: Glénat
-  annee: 2017
-  langue: fr
-  pages: 56
-  reliure: BD cartonné
-  categorie: gia
-  isbn: '9782344020920'
-  couverture: http://books.google.com/books/content?id=C127DgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: DROIN Dominique
-  titre: La Rochelle Rochefort et Beaumarchais dans la guerre d'indépendance
-  editeur: Droin
-  annee: 2008
-  langue: fr
-  pages: 223
-  reliure: broché
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=UasaAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: FERLING John E.
-  titre: The world turned upside down
-  editeur: 'Greenwood Press, London'
-  annee: 2002
-  langue: en
-  pages: 250
-  reliure: cartonné
-  categorie: gia
-  isbn: '9780195150841'
-  couverture: http://books.google.com/books/content?id=lifQ0G0m9WwC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: FOHLEN Charles
-  titre: Pères de la Révolution Américaine (les)
-  editeur: Albin Michel
-  annee: 1989
-  langue: fr
-  pages: 260
-  reliure: broché
-  categorie: gia
-  isbn: '9782226213952'
-  couverture: http://books.google.com/books/content?id=seCDy9lwiEYC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: HENRAT Philippe
-  titre: Mémoires du Marquis de Bouillé
-  editeur: "Société de l'Histoire de France"
-  annee: 2015
-  langue: fr
-  pages: 566
-  reliure: broché
-  categorie: gia
-  isbn: '9782701804330'
-- auteur: LAFAYETTE Marie Joseph Paul Yves Roch Gilbert du Motier (markis)
-  titre: Mémoires présentées par sa famille T1
-  editeur: Chap.com Éditions
-  annee: 2015
-  langue: fr
-  pages: 495
-  reliure: broché
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=t7Xr7l-t6jQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: LAFAYETTE Marie Joseph Paul Yves Roch Gilbert du Motier (markis)
-  titre: Mémoires présentées par sa famille T2
-  editeur: Chap.com Éditions
-  annee: 2015
-  langue: fr
-  pages: 504
-  reliure: broché
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=t7Xr7l-t6jQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: LAFAYETTE Gilbert de
-  titre: Mémoires présentées par sa famille T3
-  editeur: Chap.com Éditions
-  annee: 2015
-  langue: fr
-  pages: 520
-  reliure: broché
-  categorie: gia
-- auteur: LASSERAY André
-  titre: Français sous les 13 étoiles (les). Tome 1
-  editeur: 'Protat Frères, Mâcon'
-  annee: 1935
-  langue: fr
-  pages: 328
-  reliure: broché
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=sHMbAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: LASSERAY André
-  titre: Français sous les 13 étoiles (les). Tome 2
-  editeur: 'Protat Frères, Mâcon'
-  annee: 1935
-  langue: fr
-  pages: 366
-  reliure: broché
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=sHMbAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: LEGRAND Robert (historian.)
-  titre: La guerre d'indépendance américaine et La Fayette
-  editeur: Paillard
-  annee: 2006
-  langue: fr
-  pages: 232
-  reliure: broché
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=VM3_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9782090376142'
-- auteur: SCHULTE NORDHOLT Jan Willem
-  titre: Dutch republic in American independance (the)
-  editeur: University of North Carolina Press
-  langue: en
-  pages: 351
-  reliure: cartonné
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=rsV2AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: TREESE Lorett
-  titre: Valley Forge
-  editeur: Keystone
-  annee: 2011
-  langue: en
-  pages: 269
-  reliure: broché
-  categorie: gia
-  isbn: '9780271041735'
-  couverture: http://books.google.com/books/content?id=ApjJUi_hTY0C&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: TRENTINIAN Jacques de
-  titre: France Contribution to american independance
-  editeur: SAR France
-  langue: en
-  pages: 16
-  reliure: ''
-  categorie: gia
-- auteur: TRENTINIAN Jacques de
-  titre: La France au secours de l'Amérique
-  editeur: SPM
-  annee: 2016
-  langue: fr
-  pages: 347
-  reliure: broché
-  categorie: gia
-  isbn: '9782917232507'
-  couverture: http://books.google.com/books/content?id=MJGVDAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: VIBRAYE Tony de
-  titre: Régiments Français à la guerre d'indépendance américaine
-  editeur: Bulletin des amis du vieux Saint-Germain
-  langue: fr
-  pages: 4
-  reliure: vrac
-  categorie: gia
-- auteur: WALKER Paul K.
-  titre: Engineers of independance
-  editeur: U.S. Government Printing Office
-  annee: 1981
-  langue: en
-  pages: 403
-  reliure: broché
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=7I4ZAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: AGAY Frédéric d'
-  titre: Officiers des Vaisseaux et Galères (Prov) 1637-1831 T1
-  editeur: Honoré Champion
-  annee: 2011
-  langue: fr
-  pages: 695
-  reliure: cartonné
-  categorie: histoire-generale
-  isbn: '9782745321107'
-- auteur: AGAY Frédéric d'
-  titre: Officiers des Vaisseaux et Galères (Prov) 1637-1831 T2
-  editeur: Honoré Champion
-  annee: 2011
-  langue: fr
-  pages: 765
-  reliure: cartonné
-  categorie: histoire-generale
-  isbn: '9782745321107'
-- auteur: AZEAU Henri
-  titre: Complot pour l'Amérique (le rêve de Beaumarchais)
-  editeur: Robert Laffont
-  annee: 1990
-  langue: fr
-  pages: 233
-  reliure: broché
-  categorie: histoire-generale
-  isbn: '9782221181263'
-  couverture: http://books.google.com/books/content?id=5x5YDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: BATES-BATCHELIER Tryphosa
-  titre: Une amitié historique (France-Amérique)
-  editeur: Plon-Nourrit et Cie
-  annee: 1924
-  langue: fr
-  pages: 237
-  reliure: broché
-  categorie: histoire-generale
-- auteur: BODINIER Gilbert
-  titre: Dict. des Off. Généraux de l'Armée Royale (T1 A-C)
-  editeur: Archives et Culture
-  langue: fr
-  pages: 635
-  reliure: cartonné
-  categorie: histoire-generale
-- auteur: BODINIER Gilbert
-  titre: Dict. des Off. Généraux de l'Armée Royale (T2 D-K)
-  editeur: Archives et Culture
-  langue: fr
-  pages: 637
-  reliure: cartonné
-  categorie: histoire-generale
-- auteur: BODINIER Gilbert
-  titre: Dict. des Off. Généraux de l'Armée Royale (T3 L-O)
-  editeur: Archives et Culture
-  langue: fr
-  pages: 639
-  reliure: cartonné
-  categorie: histoire-generale
-- auteur: BODINIER Gilbert
-  titre: Dict. des Off. Généraux de l'Armée Royale (T4 P-Z)
-  editeur: Archives et Culture
-  langue: fr
-  pages: 751
-  reliure: cartonné
-  categorie: histoire-generale
-  couverture: http://books.google.com/books/content?id=HZkNAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  isbn: '9782350771335'
-- auteur: CHASTELLUX François-Jean de
-  titre: Voyage dans l'Amérique septentrionale 1780-82
-  editeur: Éditions Tallandier
-  annee: 1980
-  langue: fr
-  pages: 566
-  reliure: broché
-  categorie: histoire-generale
-  couverture: http://books.google.com/books/content?id=bGEwAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: CHARTRAND René
-  titre: Louis XIV's Army
-  editeur: Osprey
-  annee: 1989
-  langue: en
-  pages: 48
-  reliure: broché
-  categorie: histoire-generale
-  isbn: '9780850458503'
-  couverture: http://books.google.com/books/content?id=5KBWvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: CHARTRAND René
-  titre: Louis XV's Army
-  editeur: Osprey
-  annee: 1997
-  langue: en
-  pages: 48
-  reliure: broché
-  categorie: histoire-generale
-  isbn: '9781855326231'
-  couverture: http://books.google.com/books/content?id=_IMXvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: Collectif
-  titre: L'Europe des Lumières et la Constitution Américaine
-  editeur: Mare et Martin
-  annee: 2017
-  langue: fr
-  pages: 153
-  reliure: broché
-  categorie: histoire-generale
-  isbn: '9782849343357'
-- auteur: MANCERON Claude
-  titre: Le vent d'Amérique 1778-1782
-  editeur: Robert Laffont
-  annee: 1974
-  langue: fr
-  pages: 557
-  reliure: cartonné
-  categorie: histoire-generale
-  isbn: '9782221500873'
-- auteur: MARZAGALLI Silvia
-  titre: Bordeaux et les États-Unis 1776-1815
-  editeur: 'Librairie Droz, Genève'
-  annee: 2015
-  langue: fr
-  pages: 559
-  reliure: broché
-  categorie: histoire-generale
-  isbn: '9782600018074'
-- auteur: ROZ Firmin
-  titre: Histoire des Etats-Unis
-  editeur: Fayard
-  annee: 1930
-  langue: fr
-  pages: 482
-  reliure: broché
-  categorie: histoire-generale
-  couverture: http://books.google.com/books/content?id=5s4bAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: SAINT-PAUL Jr John
-  titre: National Society of the SAR
-  editeur: American Printing Company
-  langue: en
-  pages: 256
-  reliure: cartonné
-  categorie: histoire-generale
-  couverture: http://books.google.com/books/content?id=ATNfAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: SEGUIN Philippe
-  titre: Louis Napoléon le Grand
-  editeur: Grasset
-  annee: 1990
-  langue: fr
-  pages: 450
-  reliure: broché
-  categorie: histoire-generale
-- auteur: BAREFOOT Daniel W.
-  titre: Touring North Carolina's Revolutionary War Sites
-  editeur: John F. Blair Publisher
-  annee: 1998
-  langue: en
-  pages: 488
-  reliure: broché
-  categorie: lieux-historiques
-  isbn: '9780895872173'
-  couverture: http://books.google.com/books/content?id=qAd9ngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: CHAMBRUN (Famille de)
-  titre: Lagrange
-  editeur: Chambrun
-  annee: 1997
-  langue: fr
-  pages: 135
-  reliure: broché
-  categorie: lieux-historiques
-  couverture: http://books.google.com/books/content?id=PcdXDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9782262054311'
-- auteur: Collectif
-  titre: La Fayette soldier of the Old World, soldier of the New
-  editeur: La Borne
-  annee: 2007
-  langue: en
-  pages: 77
-  reliure: broché
-  categorie: lieux-historiques
-  couverture: http://books.google.com/books/content?id=7uQ6CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9780807862674'
-- auteur: Collectif
-  titre: Valley Forge 2011
-  editeur: ''
-  annee: 2011
-  langue: en
-  pages: 45
-  reliure: broché
-  categorie: lieux-historiques
-  isbn: '9781955041324'
-  couverture: http://books.google.com/books/content?id=wMFCEQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: COVERT Adrian
-  titre: Taverns of the American Revolution
-  editeur: Insight Editions
-  annee: 2016
-  langue: en
-  pages: 191
-  reliure: cartonné
-  categorie: lieux-historiques
-  isbn: '9781608877850'
-  couverture: http://books.google.com/books/content?id=TgUKswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: DONNET Hadelin
-  titre: Chavaniac La Fayette, Manoir des Deux Mondes
-  editeur: Le Cherche Midi
-  annee: 1990
-  langue: fr
-  pages: 141
-  reliure: cartonné
-  categorie: lieux-historiques
-  isbn: '9782749127248'
-- auteur: BORD L. et GAUDART
-  titre: Dictionnaire Généalogique des Familles de l'Inde
-  editeur: Bord
-  annee: 1984
-  langue: fr
-  pages: 410
-  reliure: cartonné
-  categorie: genealogie
-  couverture: http://books.google.com/books/content?id=y9W8Ku0AqHYC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: CASTRIES Duc de
-  titre: Papiers de Famille
-  editeur: France Empire
-  annee: 1977
-  langue: fr
-  pages: 503
-  reliure: broché
-  categorie: genealogie
-  couverture: http://books.google.com/books/content?id=W1gtAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: CHAFFANJON Arnaud
-  titre: Lafayette et sa descendance
-  editeur: Berger Levrault
-  annee: 1976
-  langue: fr
-  pages: 327
-  reliure: broché
-  categorie: genealogie
-  couverture: http://books.google.com/books/content?id=MxkmjFj8-V8C&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: LAMAN H. et SAINT-SI
-  titre: Armorial des Cincinnati en France
-  editeur: Contrepoint
-  langue: fr
-  pages: 773
-  reliure: cartonné
-  categorie: genealogie
-- auteur: LARQUIER-ROCHEFORT
-  titre: Dictionnaire de Broglie et du Vaisseau La Victoire
-  editeur: Éditions de Larquier
-  annee: 1984
-  langue: fr
-  pages: 527
-  reliure: broché
-  categorie: genealogie
-- auteur: BODINIER Gilbert
-  titre: Officiers de l'Armée Royale combattants de la Guerre
-  editeur: "Service Historique de l'Armée de Terre"
-  annee: 1983
-  langue: fr
-  pages: 593
-  reliure: broché
-  categorie: repertoires
-  couverture: http://books.google.com/books/content?id=DnYsAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: BODINIER Gilbert
-  titre: Dictionnaire des Officiers de l'Armée Royale
-  editeur: "Service Historique de l'Armée de Terre"
-  annee: 1989
-  langue: fr
-  pages: 507
-  reliure: broché
-  categorie: repertoires
-  isbn: '9782350774053'
-- auteur: CAHIERRE Anne
-  titre: Dictionnaire des Capitaines Corsaires Granvillais
-  editeur: Archives départementales de la Manche
-  annee: 2009
-  langue: fr
-  pages: 471
-  reliure: cartonné
-  categorie: repertoires
-  isbn: '9782860500302'
-- auteur: Collectif (Min. des A.E.)
-  titre: Combattants Français de la Guerre d'Indépendance
-  editeur: Maison Quantin
-  langue: fr
-  pages: 327
-  reliure: cartonné
-  categorie: repertoires
-  isbn: '9782386476822'
-  couverture: http://books.google.com/books/content?id=uX9EEQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: CONDOU Jean
-  titre: Soldats et Marins de l'Agenais dans la guerre d'indépendance
-  editeur: 'Éditions Lacour, Nîmes'
-  annee: 2005
-  langue: fr
-  pages: 106
-  reliure: broché
-  categorie: repertoires
-  isbn: '9782750410636'
-- auteur: JONQUIERE Ch. de la
-  titre: Officiers de Marine aux Cincinnati
-  editeur: Poliphile
-  annee: 1988
-  langue: fr
-  pages: 285
-  reliure: cartonné
-  categorie: repertoires
-- auteur: LA JONQUIÈRE Christian
-  titre: Marins Français de Louis XVI (les). Guerre d'Indépendance
-  editeur: Éditions Muller
-  annee: 1996
-  langue: fr
-  pages: 294
-  reliure: broché
-  categorie: repertoires
-  couverture: http://books.google.com/books/content?id=teNnAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: QUINTIN Danielle et B.
-  titre: Dictionnaire des Capitaines de Vaisseaux de Napoléon
-  editeur: SPM
-  annee: 2003
-  langue: fr
-  pages: 427
-  reliure: cartonné
-  categorie: repertoires
-  couverture: http://books.google.com/books/content?id=ioPfAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: QUINTIN Danielle et B.
-  titre: Dictionnaire des Colonels de Napoléon
-  editeur: SPM
-  annee: 1996
-  langue: fr
-  pages: 986
-  reliure: cartonné
-  categorie: repertoires
-  isbn: '9782296538870'
-  couverture: http://books.google.com/books/content?id=kt-MP75BW_sC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: TAILLEMITE Etienne
-  titre: Dictionnaire des Marins Français
-  editeur: Éditions Tallandier
-  annee: 2002
-  langue: fr
-  pages: 573
-  reliure: cartonné
-  categorie: repertoires
-  isbn: '9782702876534'
-  couverture: http://books.google.com/books/content?id=VNhnAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: TRENTINIAN Jacques de
-  titre: French Regiments and American Independance 1778-1783
-  editeur: Jacques de Trentinian
-  annee: 1999
-  langue: en
-  pages: 120
-  reliure: broché
-  categorie: repertoires
-- auteur: WARRINGTON DAWSON
-  titre: 2112 Français morts aux Etats-Unis dans la guerre d'indépendance
-  editeur: Société des Américanistes de Paris
-  annee: 1936
-  langue: en
-  pages: 154
-  reliure: broché
-  categorie: repertoires
-  couverture: http://books.google.com/books/content?id=9N4_AQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: Collectif
-  titre: Manuscripts sources for research on American revolution
-  editeur: Library of Congress
-  langue: en
-  pages: 372
-  reliure: cartonné
-  categorie: sources
-  isbn: '9781022437661'
-  couverture: http://books.google.com/books/content?id=oeRW0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: Collectif
-  titre: Français dans la guerre d'Amérique (les) — Bibliographie
-  editeur: Centre de Documentation
-  langue: fr
-  pages: 17
-  reliure: broché
-  categorie: sources
-  couverture: http://books.google.com/books/content?id=lW_HS7VcyKMC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: LYNCH Barbara A.
-  titre: 'War at Sea: France and American Revolution — Bibliographie'
-  editeur: ''
-  langue: en
-  pages: 48
-  reliure: broché
-  categorie: sources
-- auteur: OLIVIER Philippe
-  titre: Bibliographie des travaux (tome 1) relatifs aux relations France-USA
-  editeur: Amateurs du Livre
-  annee: 1990
-  langue: fr
-  pages: 427
-  reliure: broché
-  categorie: sources
-  couverture: http://books.google.com/books/content?id=5IwuAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  isbn: '9782252028360'
-- auteur: OLIVIER Philippe
-  titre: Bibliographie des travaux (tome 2-1) relatifs aux relations France-USA
-  editeur: Amateurs du Livre
-  annee: 1990
-  langue: fr
-  pages: 271
-  reliure: broché
-  categorie: sources
-  couverture: http://books.google.com/books/content?id=5IwuAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  isbn: '9782252028360'
-- auteur: Collectif
-  titre: Marine Américaine 2 siècles d'histoire (catalogue)
-  editeur: Musée de la Marine
-  annee: 1963
-  langue: fr
-  pages: 30
-  reliure: broché
-  categorie: catalogues
-  couverture: http://books.google.com/books/content?id=KVwvSpAvJowC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  isbn: '9782307610236'
-- auteur: Collectif
-  titre: Américains et la Révolution Française (les)
-  editeur: Réunion des Musées Nationaux
-  annee: 1989
-  langue: fr
-  pages: 114
-  reliure: broché
-  categorie: catalogues
-  isbn: '9782711877188'
-  couverture: http://books.google.com/books/content?id=_hIBEQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: Collectif
-  titre: Benjamin Franklin, un américain à Paris
-  editeur: Paris Musées Éditions
-  annee: 2007
-  langue: fr
-  pages: 271
-  reliure: cartonné
-  categorie: catalogues
-  couverture: http://books.google.com/books/content?id=FSt3AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: Collectif
-  titre: Rochambeau 1807-2007. Catalogue de l'exposition
-  editeur: 'Société Archéologique, Scientifique et Littéraire du Vendômois'
-  langue: fr
-  pages: 70
-  reliure: broché
-  categorie: catalogues
-  couverture: http://books.google.com/books/content?id=OBjkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: Collectif
-  titre: Vergennes et la Politique Etrangère de la France
-  editeur: Musée Galliéra
-  annee: 1987
-  langue: fr
-  pages: 77
-  reliure: broché
-  categorie: catalogues
-  couverture: http://books.google.com/books/content?id=tdfm51LGrn0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9782867811289'
-- auteur: Collectif
-  titre: Chronique d'Histoire Maritime n° 91 (2021)
-  editeur: "Société Française d'Histoire Maritime"
-  annee: 2021
-  langue: fr
-  pages: 190
-  reliure: broché
-  categorie: revues
-  couverture: http://books.google.com/books/content?id=Iv7xEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9782021545326'
-- auteur: Collectif
-  titre: Guerre d'Amérique (la) n° Spécial n°35 du carnet de la Sabretache
-  editeur: Sabretache
-  annee: 1976
-  langue: fr
-  pages: 52
-  reliure: broché
-  categorie: revues
-  couverture: http://books.google.com/books/content?id=PwsvAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: Collectif
-  titre: Naissance de La Fayette (200ème anniversaire)
-  editeur: Revue France-Amérique
-  annee: 1957
-  langue: fr
-  pages: 87
-  reliure: broché
-  categorie: revues
-- auteur: Collectif
-  titre: Sea History — Hermione arrivée
-  editeur: ''
-  annee: 2015
-  langue: en
-  pages: 55
-  reliure: broché
-  categorie: revues
-  couverture: http://books.google.com/books/content?id=4argAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: BEIGBEDER Frédéric
-  titre: Windows on the world (Traduit du français)
-  editeur: 'Miramax Books, London / New York'
-  annee: 2005
-  langue: en
-  pages: 312
-  reliure: broché
-  categorie: divers
-  isbn: '9781401352233'
-  couverture: http://books.google.com/books/content?id=DqhE3-fW-YIC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: BLANCHARD-DIGNAC Denis
-  titre: Gardien (le)
-  editeur: La Bruyère
-  annee: 2003
-  langue: fr
-  pages: 117
-  reliure: broché
-  categorie: divers
-- auteur: DELALANDE Arnaud
-  titre: Notre espion en Amérique (roman hist.)
-  editeur: Grasset
-  annee: 2013
-  langue: fr
-  pages: 409
-  reliure: broché
-  categorie: divers
-  isbn: '9782246804284'
-  couverture: http://books.google.com/books/content?id=_I-YeUYIHSwC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: ROOSEVELT Elliott
-  titre: Mon père m'a dit
-  editeur: Flammarion
-  annee: 1947
-  langue: fr
-  pages: 305
-  reliure: broché
-  categorie: divers
-  isbn: '9791092732276'
-- auteur: VEDRINE Hubert
-  titre: Le temps des Chimères
-  editeur: Fayard
-  annee: 2009
-  langue: fr
-  pages: 448
-  reliure: broché
-  categorie: divers
-- auteur: FLEURIOT de LANGLE
-  titre: La Fayette, Marquis démocrate (article)
-  editeur: Miroir de l'Histoire
-  langue: fr
-  pages: 6
-  reliure: agrafé
-  categorie: biographie
-- auteur: LE BÉVILLON Hervé
-  titre: Colonel Armand
-  editeur: Yohann embanner
-  langue: fr
-  pages: 167
-  reliure: broché
-  categorie: biographie
-  isbn: '9782952144629'
-- auteur: MEHRINGER Otto
-  titre: Dentzel Georg Friedrich
-  editeur: Evangelischer Press
-  langue: de
-  pages: 200
-  reliure: broché
-  categorie: biographie
-  couverture: http://books.google.com/books/content?id=0OYJzDb5zQgC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: PRADEL de LAMAZE Martial
-  titre: Chevalier de Pradel (le) 1692-1764
-  editeur: E. Champion
-  annee: 1920
-  langue: fr
-  pages: 25
-  reliure: broché
-  categorie: biographie
-- auteur: RICARDI Carlos Pesardo de
-  titre: Aventurero a Capitan
-  editeur: Ass. Mémoire J de Liniers
-  langue: fr
-  pages: 111
-  reliure: broché
-  categorie: biographie
-- auteur: CAUSSÉ PC
-  titre: Album de Marin
-  editeur: Inten Livres
-  annee: 1836
-  langue: fr
-  pages: 101
-  reliure: broché
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=rnTrtwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  isbn: '9782019228101'
-- auteur: GEGIN E.
-  titre: La Marine Française dans l'Atlantique et la mer des Indes
-  editeur: Dutilleul Douai
-  langue: fr
-  pages: 34
-  reliure: photocopie
-  categorie: marine
-- auteur: IRELAND Jr Charles E.
-  titre: Mallets, Chisels and Plans. The building of the tall ship
-  editeur: Cedar Tree books
-  langue: en
-  pages: 64
-  reliure: broché
-  categorie: marine
-  isbn: '9781892142191'
-- auteur: MARVEL William
-  titre: Monitor Chronicles, One sailor's Account
-  editeur: Mariner's Museum
-  langue: en
-  pages: 272
-  reliure: cartonné
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=a5gIg9Qnxn4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9780547487144'
-- auteur: PENTHIÈVRE Duc de
-  titre: Règlement pour le service à la mer des régiments
-  editeur: Imp. Royale
-  annee: 1788
-  langue: fr
-  pages: 30
-  reliure: vrac
-  categorie: marine
-- auteur: VICHOT Jacques
-  titre: Deux albums de Nicolas Ozanne
-  editeur: amis Musée de la Marine
-  langue: fr
-  pages: 76
-  reliure: broché
-  categorie: marine
-- auteur: VICHOT Jacques
-  titre: Navires de guerre Français (répertoire)
-  editeur: Extraits
-  langue: fr
-  reliure: photocopie
-  categorie: marine
-- auteur: VILLIERS Patrick
-  titre: "L'Hermione : Lafayette, Latouche Tréville"
-  editeur: Ancre
-  annee: 2015
-  langue: fr
-  pages: 214
-  reliure: cartonné
-  categorie: marine
-  isbn: '9782903179854'
-- auteur: Collectif
-  titre: "America: Ships on the line"
-  editeur: Naval History Division
-  langue: en
-  pages: 44
-  reliure: broché
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=W7p2eIKhQhwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: Collectif
-  titre: "Atlas 18th century: American Revolution 1775-1783"
-  editeur: Naval History Division
-  langue: en
-  pages: 20
-  reliure: cartonné
-  categorie: marine
-  couverture: http://books.google.com/books/content?id=6Ks9AAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: BLANCHARD-DIGNAC
-  titre: "Impromptu à l'Hôtel de Bourienne (Théâtre)"
-  editeur: Blanchard Dignac
-  langue: fr
-  pages: 34
-  reliure: broché
-  categorie: gia
-- auteur: CUTLER Anne
-  titre: Les 137 soldats français dans un cimetière de Williamsburg
-  editeur: ''
-  langue: en
-  pages: 5
-  reliure: chemise
-  categorie: gia
-- auteur: FONTENAU
-  titre: Le Havre au temps de la GIA
-  editeur: ''
-  langue: fr
-  pages: 25
-  reliure: chemise
-  categorie: gia
-- auteur: HOLMES Jack D.L.
-  titre: Louisiana Infantry Regiment and the Militia Companies
-  editeur: Birmingham
-  annee: 1965
-  langue: en
-  pages: 257
-  reliure: feuilles volantes
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=Zohr10ydH2YC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: HUET de FROBERVILLE Barth.
-  titre: "Guerre de 1780 dans l'Inde"
-  editeur: Imp Rollin
-  annee: 1986
-  langue: fr
-  pages: 232
-  reliure: broché
-  categorie: gia
-  isbn: '9782950117403'
-- auteur: LANGLET Jean
-  titre: "Les Ingénieurs de Mézières et la manufacture d'armes"
-  editeur: RH Ardennes
-  annee: 1999
-  langue: fr
-  pages: 20
-  reliure: broché
-  categorie: gia
-- auteur: LAWRENCE Alexander A.
-  titre: Storm over Savanah
-  editeur: Tara press
-  annee: 1979
-  langue: en
-  pages: 177
-  reliure: broché
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=2SVJEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9780820359458'
-- auteur: LOVELAND Anne
-  titre: American perceptions of La Fayette
-  editeur: American Society of the Legion of Honor
-  langue: en
-  pages: 16
-  reliure: broché
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=r5uqsO1KQ5YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9780807124628'
-- auteur: MARSAN Jules
-  titre: Beaumarchais et les affaires américaines
-  editeur: E. Champion
-  annee: 1919
-  langue: fr
-  pages: 61
-  reliure: cartonné
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=MeU-AAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: RALPH Alta M.
-  titre: "Refugees from France to America in struggle for Independance"
-  editeur: ''
-  annee: 1993
-  langue: en
-  pages: 22
-  reliure: broché
-  categorie: gia
-- auteur: REID John Phillip
-  titre: Concept of liberty in the age of the American Revolution
-  editeur: University of Chicago
-  langue: en
-  pages: 224
-  reliure: cartonné
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=wx-dwgJYcjMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9780226708966'
-- auteur: REID John Phillip
-  titre: Concept of Representation in the age of the American Revolution
-  editeur: University of Chicago
-  annee: 1989
-  langue: en
-  pages: 251
-  reliure: broché
-  categorie: gia
-  isbn: '9780316088220'
-- auteur: ROUZEAU Léon
-  titre: "Aperçus du rôle de Nantes dans la guerre d'indépendance américaine"
-  editeur: Sté Archéologique et Historique de Nantes
-  langue: fr
-  pages: 67
-  reliure: broché
-  categorie: gia
-- auteur: Collectif
-  titre: Journal Historique de 1781 à la paix
-  editeur: Bernard Desthieux
-  langue: fr
-  reliure: microfilm
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=OMsWAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: Collectif
-  titre: Traité de Paris entre le Roi et le Roi de Grande-Bretagne
-  editeur: Affaires Étrangères
-  langue: fr
-  pages: 12
-  reliure: broché
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=1AdBAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: Collectif
-  titre: "Join or die. Etude des événements prérévolutionnaires"
-  editeur: ''
-  langue: en
-  pages: 101
-  reliure: broché
-  categorie: gia
-- auteur: FLEURIOT de LANGLE
-  titre: Maréchal de Castries (le) (article)
-  editeur: Miroir de l'Histoire
-  langue: fr
-  pages: 8
-  reliure: agrafé
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=e3GJDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9782706223433'
-- auteur: CASTRIES duc de
-  titre: "Guerre d'indépendance (la) II La diversion sur l'Angleterre"
-  editeur: ''
-  langue: fr
-  pages: 8
-  reliure: agrafé
-  categorie: gia
-  couverture: http://books.google.com/books/content?id=McV2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9782262053772'
-- auteur: ANTONINI Luc
-  titre: Une grande famille provençale Les SUFFREN
-  editeur: L. Antonini
-  annee: 2010
-  langue: fr
-  pages: 170
-  reliure: broché
-  categorie: histoire-generale
-  isbn: '9782950893048'
-- auteur: BERTIN Général Pierre
-  titre: Fantassin de France (le)
-  editeur: Ministère de la Défense
-  langue: fr
-  pages: 261
-  reliure: cartonné
-  categorie: histoire-generale
-  couverture: http://books.google.com/books/content?id=SbJYDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9782402133098'
-- auteur: BORDENOVE Georges
-  titre: Jeanne d'Arc
-  editeur: Pygmalion
-  annee: 1994
-  langue: fr
-  pages: 456
-  reliure: broché
-  categorie: histoire-generale
-- auteur: CAZOTTE Jacques de
-  titre: "Le juge James Kent à l'aube de la nation américaine"
-  editeur: Maisonneuve et Larose
-  langue: fr
-  pages: 317
-  reliure: broché
-  categorie: histoire-generale
-  isbn: '9782706811838'
-- auteur: CHAITKIN Anton
-  titre: Treason in America from Aaron Burr to Averell Harriman
-  editeur: New Benjamin Franklin House
-  langue: en
-  pages: 607
-  reliure: broché
-  categorie: histoire-generale
-  couverture: http://books.google.com/books/content?id=dgmDCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: CHARTRAND René
-  titre: The French soldier in colonial service
-  editeur: Osprey
-  langue: en
-  pages: 40
-  reliure: broché
-  categorie: histoire-generale
-  isbn: '9780919316188'
-- auteur: CHURLET Colonel
-  titre: Bazeilles 31 août-1er septembre 1871
-  editeur: Comité National des Traditions
-  langue: fr
-  pages: 60
-  reliure: broché
-  categorie: histoire-generale
-- auteur: CLARKE de DROMANTIN
-  titre: Les réfugiés Jacobites dans la France du 18ème siècle
-  editeur: Presses Universitaires de Bordeaux
-  annee: 2008
-  langue: fr
-  pages: 525
-  reliure: broché
-  categorie: histoire-generale
-  couverture: http://books.google.com/books/content?id=_dPyI1WvuVcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9782867813627'
-- auteur: DELOBETTE E.
-  titre: Ces Messieurs du Hâvre 1680-1830
-  editeur: ''
-  langue: fr
-  pages: 35
-  reliure: chemise
-  categorie: histoire-generale
-- auteur: GAMARD Jean
-  titre: Journal de T. Jefferson 1787-1788. À travers l'Europe et les vignobles
-  editeur: ''
-  langue: fr
-  pages: 142
-  reliure: broché
-  categorie: histoire-generale
-- auteur: IANNI Francis A.
-  titre: World War One Remembered
-  editeur: Delaware Heritage Commission
-  langue: en
-  pages: 80
-  reliure: broché
-  categorie: histoire-generale
-  isbn: '9780924117053'
-- auteur: JOSSERAND JJ.
-  titre: En Amérique jadis et maintenant
-  editeur: Hachette
-  annee: 1918
-  langue: fr
-  pages: 370
-  reliure: broché
-  categorie: histoire-generale
-- auteur: LORBLANCHES J-Claude
-  titre: Soldats de Napoléon aux Amériques
-  editeur: L'Harmattan
-  langue: fr
-  pages: 268
-  reliure: broché
-  categorie: histoire-generale
-  couverture: http://books.google.com/books/content?id=IZelairvpCwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9782296495289'
-- auteur: NUSSBAUM
-  titre: Talleyrand in America Letters and memories (1794-1796)
-  editeur: Ward and C°
-  langue: en
-  pages: 182
-  reliure: cartonné
-  categorie: histoire-generale
-- auteur: PINASSEAU Jean
-  titre: "Emigration militaire (l'). Campagne de 1792. Notice de A à C"
-  editeur: Picard
-  annee: 1957
-  langue: fr
-  pages: 171
-  reliure: broché
-  categorie: histoire-generale
-- auteur: PINASSEAU Jean
-  titre: "Emigration militaire (l'). Campagne de 1792. Notice de D à K"
-  editeur: Picard
-  annee: 1964
-  langue: fr
-  pages: 251
-  reliure: broché
-  categorie: histoire-generale
-  couverture: http://books.google.com/books/content?id=-22XpQwlpoMC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: PINASSEAU Jean
-  titre: "Emigration militaire (l'). L'armée des princes. Compagnies"
-  editeur: Picard
-  annee: 1971
-  langue: fr
-  pages: 95
-  reliure: broché
-  categorie: histoire-generale
-  couverture: http://books.google.com/books/content?id=Ts4AAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: PRADEL de LAMAZE Martial
-  titre: Lettres Louisianaises du Chevalier de Pradel
-  editeur: Imprimerie Nationale
-  langue: fr
-  pages: 16
-  reliure: broché
-  categorie: histoire-generale
-- auteur: RODE Iris de
-  titre: François Jean de Chastellux (thèse)
-  editeur: Université Paris 8
-  annee: 2019
-  langue: fr
-  pages: 557
-  reliure: broché
-  categorie: histoire-generale
-- auteur: RODE Iris de
-  titre: François Jean de Chastellux (Annexes)
-  editeur: Université Paris 8
-  annee: 2019
-  langue: fr
-  pages: 165
-  reliure: broché
-  categorie: histoire-generale
-- auteur: ROCKFELLER N. et CHAMBRUN
-  titre: "L'Amérique et la France / Le souvenir de Lafayette"
-  editeur: Revue des deux mondes
-  langue: fr
-  reliure: broché
-  categorie: histoire-generale
-- auteur: ROYER-PANTIN Anne-Marie
-  titre: Phitiviers (Personnalités dont du Portail)
-  editeur: Municipalité Pithiviers
-  langue: fr
-  pages: 191
-  reliure: cartonné
-  categorie: histoire-generale
-- auteur: SCHALK de la FAVERIE
-  titre: "Normands et la découverte de l'Amérique au Xème siècle"
-  editeur: Ficher Paris
-  annee: 1912
-  langue: fr
-  pages: 23
-  reliure: broché
-  categorie: histoire-generale
-- auteur: TROCME H. et ONTAGUTELLE
-  titre: Les grandes dates des Etats-Unis
-  editeur: Larousse
-  langue: fr
-  pages: 256
-  reliure: cartonné
-  categorie: histoire-generale
-- auteur: Collectif
-  titre: "Les Hôtels de la Guerre et des Affaires Étrangères"
-  editeur: Versailles
-  langue: fr
-  pages: 279
-  reliure: broché
-  categorie: histoire-generale
-  isbn: '9782350390918'
-- auteur: Collectif
-  titre: Les victimes de Picpus
-  editeur: Souvenir de Picpus
-  langue: fr
-  pages: 80
-  reliure: broché
-  categorie: histoire-generale
-  couverture: http://books.google.com/books/content?id=rZ090AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  isbn: '9781019489635'
-- auteur: Collectif
-  titre: Naissance de la Louisiane 1682-1731
-  editeur: Ministère de la Culture
-  langue: fr
-  pages: 127
-  reliure: broché
-  categorie: histoire-generale
-  isbn: '9782905118561'
-- auteur: Collectif
-  titre: History of the Louisiana Society SAR. The first 100 years
-  editeur: LS SAR
-  annee: 1997
-  langue: en
-  pages: 140
-  reliure: cartonné
-  categorie: histoire-generale
-  couverture: http://books.google.com/books/content?id=8Jyj2TEPgNsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9781563110283'
-- auteur: Collectif
-  titre: Declaration of independance and constitution des EU
-  editeur: NASAR
-  langue: en
-  pages: 48
-  reliure: broché
-  categorie: histoire-generale
-  couverture: http://books.google.com/books/content?id=302FEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9781509906741'
-- auteur: GALBRAITH Marie
-  titre: Résidences des Ambassadeurs américains à Paris
-  editeur: Les amis du 41
-  langue: fr
-  pages: 52
-  reliure: broché
-  categorie: lieux-historiques
-  isbn: '9782950085504'
-- auteur: GAUDON Henri
-  titre: Les lieux de mémoire 14-18 dans le sud de l'Aisne
-  editeur: Photoweb
-  langue: fr
-  pages: 30
-  reliure: broché
-  categorie: lieux-historiques
-- auteur: GUICHEN H. et SAINT HELY
-  titre: Following Patrouille de France aux US
-  editeur: ''
-  langue: fr
-  pages: 319
-  reliure: cartonné
-  categorie: lieux-historiques
-  isbn: '9782918734444'
-- auteur: JOUVE D. and A. et GROSSMAN
-  titre: "Parcs: Birthplace of the USA. A Walking guide"
-  editeur: Gründ
-  annee: 2006
-  langue: en
-  pages: 101
-  reliure: broché
-  categorie: lieux-historiques
-- auteur: MILLER LH et EMGARTH A.
-  titre: French Philadelphie
-  editeur: Alliance Française
-  langue: en
-  pages: 118
-  reliure: broché
-  categorie: lieux-historiques
-  couverture: http://books.google.com/books/content?id=480BBURkreYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9780822341512'
-- auteur: Collectif
-  titre: American Ambassadors Residence in Paris
-  editeur: Ambassade US
-  langue: en
-  pages: 50
-  reliure: cartonné
-  categorie: lieux-historiques
-  couverture: http://books.google.com/books/content?id=OotNYNf766AC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: Collectif
-  titre: La Route des Canons
-  editeur: CR Fonderies du Patrimoine
-  langue: fr
-  pages: 14
-  reliure: agrafé
-  categorie: lieux-historiques
-  isbn: '9782952011709'
-- auteur: Collectif
-  titre: Colonial Williamsburg official guide
-  editeur: Colonial Williamsburg Foundation
-  langue: en
-  pages: 255
-  reliure: broché
-  categorie: lieux-historiques
-  isbn: '9780879351854'
-- auteur: Collectif
-  titre: Sites commémoratifs 1ère Guerre Mondiale
-  editeur: American Battles Monuments Commission
-  langue: fr
-  pages: 39
-  reliure: broché
-  categorie: lieux-historiques
-  couverture: http://books.google.com/books/content?id=x7rgDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9782803103553'
-- auteur: CERTAINES Marquis de
-  titre: Les Dillon en France
-  editeur: Nevers
-  annee: 1982
-  langue: fr
-  pages: 188
-  reliure: broché
-  categorie: genealogie
-- auteur: FARGES Dr Florent
-  titre: Le Général Laprun et sa descendance
-  editeur: Micoline
-  annee: 2012
-  langue: fr
-  pages: 318
-  reliure: broché
-  categorie: genealogie
-  isbn: '9782953492699'
-- auteur: FERRAND de CANTEL
-  titre: "L'histoire de notre Famille"
-  editeur: auteur
-  langue: fr
-  pages: 499
-  reliure: broché
-  categorie: genealogie
-  couverture: http://books.google.com/books/content?id=ydBAAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: JAYET E. et SAINT-GIRONS
-  titre: "La descendance d'Antoine d'Aure"
-  editeur: glyphe
-  langue: fr
-  pages: 820
-  reliure: broché
-  categorie: genealogie
-  isbn: '9782358160568'
-- auteur: MALLERAY B. et ROSTOLLA
-  titre: Annales des Familles de France 1991-1995
-  editeur: Éditions des familles
-  langue: fr
-  pages: 850
-  reliure: relié
-  categorie: genealogie
-- auteur: MALLERAY B. et ROSTOLLA
-  titre: Annales des Familles de France 1996-2000
-  editeur: Éditions des familles
-  langue: fr
-  pages: 850
-  reliure: relié
-  categorie: genealogie
-- auteur: MALLERAY B. et ROSTOLLA
-  titre: Annales des Familles de France 2001-2005
-  editeur: Éditions des familles
-  langue: fr
-  pages: 850
-  reliure: relié
-  categorie: genealogie
-- auteur: PERCIN Collectif famille
-  titre: Histoire et Généalogie de la maison de Percin de la bataille
-  editeur: AMFP
-  annee: 2000
-  langue: fr
-  pages: 365
-  reliure: broché
-  categorie: genealogie
-- auteur: ROCHE de VERCORS François
-  titre: Armoires et généalogies des personnes pélerines
-  editeur: Ass familiale d'Hostel
-  langue: fr
-  pages: 352
-  reliure: broché
-  categorie: genealogie
-- auteur: Collectif
-  titre: Roster 2016 Cincinnati Society
-  editeur: Cincinnati Society
-  annee: 2016
-  langue: en
-  pages: 330
-  reliure: broché
-  categorie: genealogie
-  couverture: http://books.google.com/books/content?id=_89OAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: X
-  titre: SAR New-York Society Yearbook 1896
-  editeur: NY Society
-  annee: 1896
-  langue: en
-  pages: 539
-  reliure: cartonné
-  categorie: genealogie
-  couverture: http://books.google.com/books/content?id=2gPWgNbj7HMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: X
-  titre: National Society of the SAR 2006
-  editeur: NY Society
-  annee: 2006
-  langue: en
-  pages: 1004
-  reliure: broché
-  categorie: genealogie
-  couverture: http://books.google.com/books/content?id=u8IkEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9783030682651'
-- auteur: DURIEUX Joseph
-  titre: Combattants périgourdins dans la GIA
-  editeur: Perigueux
-  annee: 1907
-  langue: fr
-  pages: 15
-  reliure: photocopie
-  categorie: repertoires
-- auteur: DURIEUX Joseph
-  titre: Combattants Limousins dans la GIA
-  editeur: Brive
-  annee: 1915
-  langue: fr
-  pages: 35
-  reliure: photocopie
-  categorie: repertoires
-- auteur: GRANVILLE W. et HOUGH
-  titre: "Spains Louisiana Patriots in its 1779-1783 War with England"
-  editeur: SHHAR
-  annee: 2000
-  langue: en
-  pages: 198
-  reliure: broché
-  categorie: repertoires
-- auteur: KELLY Jr Julien D.
-  titre: French Casualties during the siege of Savanah
-  editeur: Priv. Printed
-  annee: 1989
-  langue: en
-  pages: 49
-  reliure: agrafé
-  categorie: repertoires
-- auteur: ROUSSEL M. de
-  titre: "Etat Militaire de la France pour l'année 1791"
-  editeur: copie
-  langue: fr
-  pages: 200
-  reliure: photocopie
-  categorie: repertoires
-  couverture: http://books.google.com/books/content?id=vvDiGmgT1H4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: WARRINGTON DAWSON
-  titre: "Français morts pour l'indépendance américaine (les)"
-  editeur: "L'œuvre latine"
-  langue: fr
-  pages: 14
-  reliure: agrafé
-  categorie: repertoires
-  couverture: http://books.google.com/books/content?id=UOwQAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: BELAK G.E. et ROWAN R.
-  titre: Register of their Papers in Library of Congress
-  editeur: Naval History Foundation
-  langue: en
-  pages: 15
-  reliure: broché
-  categorie: sources
-- auteur: CALLAN et WATSON
-  titre: Register of their pages
-  editeur: Naval History Foundation
-  langue: en
-  pages: 14
-  reliure: broché
-  categorie: sources
-- auteur: GIUSEPI RSA
-  titre: Manuscrits in the Public Record Office tome 1
-  editeur: HMS Stationnery Office
-  langue: en
-  pages: 411
-  reliure: cartonné
-  categorie: sources
-- auteur: GIUSEPI RSA
-  titre: Manuscrits in the Public Record Office tome 2
-  editeur: HMS Stationnery Office
-  langue: en
-  pages: 261
-  reliure: cartonné
-  categorie: sources
-- auteur: HAMER Ph. M
-  titre: Guide to archives and manuscripts in USA
-  editeur: Yale University
-  annee: 1961
-  langue: en
-  pages: 775
-  reliure: cartonné
-  categorie: sources
-  couverture: http://books.google.com/books/content?id=ugC8jJByLO4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: LELAND W.G
-  titre: Guide to materials for American History in the Libraries and Archives
-  editeur: Carnegie Institution
-  langue: en
-  pages: 343
-  reliure: cartonné
-  categorie: sources
-  couverture: http://books.google.com/books/content?id=jXW9mAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  isbn: '9781258532901'
-- auteur: SELLERS D.F et LUCE S.B.
-  titre: Register of their Papers in Library of Congress
-  editeur: Naval History Foundation
-  langue: en
-  pages: 17
-  reliure: broché
-  categorie: sources
-  couverture: http://books.google.com/books/content?id=gyh9byvtAVcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9781434426017'
-- auteur: SHUFELDT R.W.
-  titre: Register of their Papers in Library of Congress
-  editeur: Naval History Foundation
-  langue: en
-  pages: 11
-  reliure: broché
-  categorie: sources
-- auteur: Collectif
-  titre: American archivist (the) volume 39
-  editeur: SAA
-  annee: 1976
-  langue: en
-  pages: 155
-  reliure: broché
-  categorie: sources
-  couverture: http://books.google.com/books/content?id=IVjiAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: Collectif
-  titre: US Naval history sources in the USA
-  editeur: Naval History Division
-  langue: en
-  pages: 235
-  reliure: broché
-  categorie: sources
-  couverture: http://books.google.com/books/content?id=Ollf1k0KPQMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: Collectif
-  titre: Changing interpretation of new sources in Naval History
-  editeur: Garland
-  annee: 1980
-  langue: en
-  pages: 471
-  reliure: cartonné
-  categorie: sources
-  couverture: http://books.google.com/books/content?id=SCiaMebiXlIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: Collectif
-  titre: Naval Historical Foundation Manuscripts (catalogue)
-  editeur: Library of Congress
-  langue: en
-  pages: 136
-  reliure: cartonné
-  categorie: sources
-  couverture: http://books.google.com/books/content?id=Rl5ZbjJG8A8C&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: Collectif
-  titre: Choix bibliographiques Alliance militaire Franco-Américaine 1778-1783
-  editeur: ''
-  langue: fr
-  pages: 16
-  reliure: photocopie
-  categorie: sources
-- auteur: Collectif
-  titre: British story of the American Revolution
-  editeur: National Maritime Museum
-  langue: en
-  pages: 231
-  reliure: broché
-  categorie: catalogues
-  couverture: http://books.google.com/books/content?id=D2RHAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: Collectif
-  titre: In Grateful Remembrance. An exhibition of portraits
-  editeur: ''
-  annee: 1976
-  langue: en
-  pages: 129
-  reliure: broché
-  categorie: catalogues
-  couverture: http://books.google.com/books/content?id=bqECAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: Collectif
-  titre: Europe et Défense (colloque 1999)
-  editeur: Sté Historique et Archéologique de Nantes
-  langue: fr
-  pages: 130
-  reliure: broché
-  categorie: catalogues
-  couverture: http://books.google.com/books/content?id=dzURCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9782753523852'
-- auteur: Collectif
-  titre: Archives au fil du temps (les). Colloque
-  editeur: Perrin
-  annee: 2002
-  langue: fr
-  pages: 242
-  reliure: broché
-  categorie: catalogues
-- auteur: Collectif
-  titre: Financement et gestion de la Culture aux Etats-Unis et en France
-  editeur: Éditions de Bercy
-  langue: fr
-  pages: 246
-  reliure: broché
-  categorie: catalogues
-  isbn: '9782110944351'
-- auteur: Collectif
-  titre: "Voyages, Géographie, Marine, America (catalogue)"
-  editeur: Chamoneau
-  langue: fr
-  pages: 225
-  reliure: broché
-  categorie: catalogues
-  couverture: http://books.google.com/books/content?id=V4iYHdww49MC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-- auteur: Collectif
-  titre: "Les Marines, Le renouveau de la Puissance Navale Française"
-  editeur: Cincinnati Colloque
-  langue: fr
-  pages: 25
-  reliure: broché
-  categorie: catalogues
-  couverture: http://books.google.com/books/content?id=NQ_YDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9782307045557'
-- auteur: Collectif
-  titre: "Les Marines, Leur mise en œuvre opérationnelle"
-  editeur: Cincinnati Colloque
-  langue: fr
-  pages: 27
-  reliure: broché
-  categorie: catalogues
-  couverture: http://books.google.com/books/content?id=jxmeEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9782759241767'
-- auteur: Collectif
-  titre: Fifty contemporary american artists (painting and sculpture)
-  editeur: Greenwich Gallery
-  langue: en
-  pages: 96
-  reliure: broché
-  categorie: catalogues
-  couverture: http://books.google.com/books/content?id=ZaLQDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9780300243307'
-- auteur: Collectif
-  titre: Les Collections Aristophil OVA ventes
-  editeur: ''
-  langue: fr
-  pages: 240
-  reliure: broché
-  categorie: catalogues
-- auteur: Collectif
-  titre: Les Collections Aristophil Lettres et manuscrits
-  editeur: Salle Favart
-  langue: fr
-  pages: 168
-  reliure: broché
-  categorie: catalogues
-- auteur: Collectif
-  titre: La Marine Française et ses théâtres dans la GIA
-  editeur: Col Marine Entreprises
-  langue: fr
-  pages: 49
-  reliure: broché
-  categorie: catalogues
-  couverture: http://books.google.com/books/content?id=PYmWDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9782262078607'
-- auteur: Collectif
-  titre: Collection J. Patou (lettres La Fayette)
-  editeur: P. Bergé et Associés
-  annee: 2015
-  langue: fr
-  pages: 235
-  reliure: broché
-  categorie: catalogues
-  couverture: http://books.google.com/books/content?id=MCONDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9782213703107'
-- auteur: FIGEAC-MONTHUS M.
-  titre: Patrimoines viticoles du Sud-Ouest
-  editeur: Fédération Historique du Sud-Ouest
-  langue: fr
-  pages: 381
-  reliure: broché
-  categorie: catalogues
-  isbn: '9782351561515'
-- auteur: JOHNSTON M.
-  titre: Organisations Franco-Américaines (répertoire des)
-  editeur: Fondation France-Amérique
-  langue: fr
-  pages: 84
-  reliure: broché
-  categorie: catalogues
-- auteur: NSSAR
-  titre: The Marquis de La Fayette and the european Friends of America
-  editeur: SAR Conference
-  annee: 2015
-  langue: en
-  pages: 18
-  reliure: broché
-  categorie: catalogues
-- auteur: SOULIGAN Yves
-  titre: Les Compagnons de La Fayette (expo Le Puy 1976)
-  editeur: Ass des cahiers de la Haute-Loire
-  langue: fr
-  pages: 20
-  reliure: broché
-  categorie: catalogues
-- auteur: VERGENNES Ch.Ph.
-  titre: "Le marin français dans la Guerre d'Indépendance"
-  editeur: Colloque 2006
-  langue: fr
-  pages: 15
-  reliure: broché
-  categorie: catalogues
-  isbn: '9791023104929'
-- auteur: PRITCHARD J.
-  titre: French strategy in the American Revolution (article)
-  editeur: Naval War College Review
-  langue: en
-  pages: 26
-  reliure: broché
-  categorie: revues
-- auteur: ROCKFELLER Nelson A.
-  titre: Bicentenaire de la Révolution Américaine (3 articles)
-  editeur: Revue des deux Mondes
-  langue: fr
-  pages: 15
-  reliure: broché
-  categorie: revues
-- auteur: BOURDIN François
-  titre: Un gentilhomme percheron espion du Roi de France
-  editeur: Amis du Perche
-  annee: 2010
-  langue: fr
-  pages: 398
-  reliure: broché
-  categorie: divers
-  isbn: '9782900122914'
-- auteur: CREUZE Raymond
-  titre: Michel Gillet (sculpteur, auteur du buste de du Portail)
-  editeur: R. Creuze
-  langue: fr
-  pages: 120
-  reliure: broché
-  categorie: divers
-- auteur: DEAN Benjamin Evans
-  titre: "A Virginian in Yankee Land vol. 1 Introduction to the Yankee"
-  editeur: Dean and Co
-  annee: 1989
-  langue: en
-  pages: 659
-  reliure: broché
-  categorie: divers
-  couverture: http://books.google.com/books/content?id=nvUxItIp5qYC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  isbn: '9780962145131'
-- auteur: DEAN Benjamin Evans
-  titre: A Virginian in Yankee Land vol. 2 Merriwell Road
-  editeur: Dean and Co
-  annee: 1989
-  langue: en
-  pages: 739
-  reliure: broché
-  categorie: divers
-  isbn: '9780962145117'
-- auteur: DEAN Benjamin Evans
-  titre: A Virginian in Yankee Land vol. 3 Of monkeys, quinine
-  editeur: Dean and Co
-  annee: 1990
-  langue: en
-  pages: 384
-  reliure: broché
-  categorie: divers
-- auteur: DEAN Benjamin Evans
-  titre: A Virginian in Yankee Land vol. 4 Some stars and stripes
-  editeur: Dean and Co
-  annee: 1991
-  langue: en
-  pages: 908
-  reliure: broché
-  categorie: divers
-  couverture: http://books.google.com/books/content?id=nvUxItIp5qYC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-  isbn: '9780962145131'
-- auteur: DEAN Benjamin Evans
-  titre: A Virginian in Yankee Land vol. 5 Quest for Knowledge
-  editeur: Dean and Co
-  annee: 1992
-  langue: en
-  pages: 762
-  reliure: broché
-  categorie: divers
-  isbn: '9780962145148'
-- auteur: DEAN Benjamin Evans
-  titre: A Virginian in Yankee Land vol. 6 The Fishy Political Environment
-  editeur: Dean and Co
-  annee: 1992
-  langue: en
-  pages: 756
-  reliure: broché
-  categorie: divers
-  isbn: '9780962145155'
-- auteur: GUÉTIN Nicole
-  titre: "Etats-Unis: l'imposture messianique"
-  editeur: L'Harmattan
-  annee: 2004
-  langue: fr
-  pages: 125
-  reliure: broché
-  categorie: divers
-  couverture: http://books.google.com/books/content?id=e5H7gvHK0KQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-  isbn: '9782747572286'
-- auteur: PERCIN de SEILH Cte de
-  titre: Vers la victoire (poèmes écrits au front en 1916)
-  editeur: Maugard
-  langue: fr
-  pages: 40
-  reliure: broché
-  categorie: divers
-  couverture: http://books.google.com/books/content?id=0WdJAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: VULPIAN Bruno de
-  titre: "Mots d'amour. L'amour des mots"
-  editeur: Arcam
-  langue: fr
-  pages: 96
-  reliure: broché
-  categorie: divers
-  isbn: '9782864765608'
-- auteur: MAYOUY Pierre
-  titre: Paul Doncœur aumônier militaire
-  editeur: ""
-  langue: fr
-  reliure: broché
-  categorie: histoire-generale
-- auteur: HOULLEMARE et ASS.
-  titre: "L'incroyable histoire du sergent York"
-  editeur: ''
-  annee: ''
-  langue: fr
-  pages: ''
-  reliure: broché
-  categorie: histoire-generale
+  image: ''
+  description: ''
+- author: BEAUMONT Pierre-Armel de
+  name: Comte de Villemanzy (le), commissaire des guerres
+  publisher: SPM
+  datePublished: 2000
+  inLanguage: fr
+  numberOfPages: 410
+  bookFormat: broché
+  genre: [biographie]
   isbn: ''
-  couverture: ''
-- auteur: Collectif
-  titre: "La France de la Révolution et les Etats-Unis d'Amérique"
-  editeur: Masson
-  annee: 1995
-  langue: fr
-  reliure: broché
-  categorie: histoire-generale
-  couverture: http://books.google.com/books/content?id=Vst2AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-- auteur: OLIVIER Philippe
-  titre: Bibliographie des travaux (tome 2-3) relatifs aux relations France-USA
-  editeur: Amateurs du Livre
-  annee: 1990
-  langue: fr
-  pages: 516
-  reliure: broché
-  categorie: sources
+  image: http://books.google.com/books/content?id=9_1nAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: BILLARDON Louis-Edme de Sauvigny
+  name: Washington ou La liberté du nouveau monde
+  publisher: Princeton University
+  datePublished: 1941
+  inLanguage: en
+  numberOfPages: 130
+  bookFormat: cartonné
+  genre: [biographie]
+  isbn: ''
+  image: http://books.google.com/books/content?id=g4kGAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: BOISBAUDRY Hervé du
+  name: Leray de Chaumont
+  publisher: "Presses Universitaires d'Aix-Marseille"
+  datePublished: 2023
+  inLanguage: fr
+  numberOfPages: 258
+  bookFormat: broché
+  genre: [biographie]
+  isbn: '9782731412703'
+  image: ''
+  description: ''
+- author: BROOKS Noah
+  name: Henry Knox
+  publisher: Arus Books, New York
+  datePublished: 2007
+  inLanguage: en
+  numberOfPages: 286
+  bookFormat: cartonné
+  genre: [biographie]
+  isbn: '9781779794048'
+  image: http://books.google.com/books/content?id=UQGWEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: CASTRIES René de La Croix duc de
+  name: Maréchal de Castries (le) 1727-1800
+  publisher: Flammarion
+  datePublished: 1956
+  inLanguage: fr
+  numberOfPages: 281
+  bookFormat: broché
+  genre: [biographie]
+  isbn: ''
+  image: http://books.google.com/books/content?id=f01eAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: CHAMBRUN René de
+  name: Les prisons des La Fayette
+  publisher: Perrin
+  datePublished: 1977
+  inLanguage: fr
+  numberOfPages: 343
+  bookFormat: cartonné
+  genre: [biographie]
+  isbn: '9782262054311'
+  image: http://books.google.com/books/content?id=PcdXDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: CHATENET Madeleine Du
+  name: TRAVERSAY un marin français ministre de la marine
+  publisher: Éditions Tallandier
+  datePublished: 1996
+  inLanguage: fr
+  numberOfPages: 476
+  bookFormat: broché
+  genre: [biographie]
+  isbn: '9782402177160'
+  image: http://books.google.com/books/content?id=MsJYDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: CLARK Ronald William
+  name: Franklin
+  publisher: Fayard
+  datePublished: 1986
+  inLanguage: fr
+  numberOfPages: 520
+  bookFormat: broché
+  genre: [biographie]
+  isbn: '9782213016719'
+  image: http://books.google.com/books/content?id=nxaTAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Benjamin Franklin, homme de Science, homme
+  publisher: Paris Musées Éditions
+  datePublished: 2007
+  inLanguage: fr
+  numberOfPages: 245
+  bookFormat: cartonné
+  genre: [biographie]
+  isbn: '9782759600144'
+  image: ''
+  description: ''
+- author: Collectif
+  name: La Fayette Citoyen des deux Mondes
+  publisher: La Borne
+  datePublished: 1999
+  inLanguage: fr
+  numberOfPages: 75
+  bookFormat: broché
+  genre: [biographie]
+  isbn: ''
+  image: http://books.google.com/books/content?id=e3bD5EYk5JwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Liberge de Granchain 1744-1805. Bicentenaire
+  publisher: Association Granchain
+  datePublished: 2005
+  inLanguage: fr
+  numberOfPages: 20
+  bookFormat: broché
+  genre: [biographie]
+  isbn: ''
+  image: ''
+  description: ''
+- author: Collectif
+  name: Liniers dans la presse argentine
+  publisher: Almerias Buenos-Ayres
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 163
+  bookFormat: broché
+  genre: [biographie]
+  isbn: '9782402429283'
+  image: http://books.google.com/books/content?id=g_L_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Sur les pas de Miranda (1750-1816)
+  publisher: ''
+  datePublished: 2014
+  inLanguage: fr
+  numberOfPages: 18
+  bookFormat: broché
+  genre: [biographie]
+  isbn: '9782905700339'
+  image: ''
+  description: ''
+- author: FEILDEN Jean
+  name: RIPAUD de MONTAUDEVERT (A la mer en Guerre)
+  publisher: Feilden
+  datePublished: 1965
+  inLanguage: fr
+  numberOfPages: 180
+  bookFormat: broché
+  genre: [biographie]
+  isbn: ''
+  image: ''
+  description: ''
+- author: GAILLARD Alain
+  name: "L'Amiral du Chaffault"
+  publisher: La Chouette de Vendée
+  datePublished: 2019
+  inLanguage: fr
+  numberOfPages: 260
+  bookFormat: broché
+  genre: [biographie]
+  isbn: '9791092338164'
+  image: ''
+  description: ''
+- author: GAILLARD Alain
+  name: La Motte Picquet
+  publisher: Éditions Mémoire et Documents
+  datePublished: 2018
+  inLanguage: fr
+  numberOfPages: 323
+  bookFormat: broché
+  genre: [biographie]
+  isbn: '9791090361874'
+  image: ''
+  description: ''
+- author: GARRIGOUX Jean
+  name: 'Aventurier Visionnaire (un) : A. Lacarrière Latour'
+  publisher: Société des Lettres de la Haute-Garonne
+  datePublished: 1997
+  inLanguage: fr
+  numberOfPages: 351
+  bookFormat: broché
+  genre: [biographie]
+  isbn: '9782950758521'
+  image: ''
+  description: ''
+- author: GOVERNAR A. et NILES MAHAK M.
+  name: Anne Morgan
+  publisher: American Friends of Blérancourt
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 151
+  bookFormat: broché
+  genre: [biographie]
+  isbn: ''
+  image: ''
+  description: ''
+- author: HULOT Frédéric
+  name: "Suffren, l'amiral Satan"
+  publisher: Pygmalion
+  datePublished: 1994
+  inLanguage: fr
+  numberOfPages: 258
+  bookFormat: broché
+  genre: [biographie]
+  isbn: ''
+  image: http://books.google.com/books/content?id=FdSnXG_i2EkC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: JAHAN-ROUSSEL
+  name: "Guichen, l'honneur de la Marine Royale"
+  publisher: Guénégaud
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 390
+  bookFormat: broché
+  genre: [biographie]
+  isbn: '9782850231520'
+  image: ''
+  description: ''
+- author: KUNSTLER Charles
+  name: Fersen et son secret
+  publisher: Hachette
+  datePublished: 1947
+  inLanguage: fr
+  numberOfPages: 398
+  bookFormat: broché
+  genre: [biographie]
+  isbn: '9791037608741'
+  image: http://books.google.com/books/content?id=5OP5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: LE MAIRE Jean-François
+  name: Coste, premier médecin des armées de Napoléon
+  publisher: Stock
+  datePublished: 1977
+  inLanguage: fr
+  numberOfPages: 419
+  bookFormat: broché
+  genre: [biographie]
+  isbn: ''
+  image: http://books.google.com/books/content?id=SEc6BKDEPbgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: LE POTTIER Serge
+  name: Du Portail, dernier ministre de la Guerre de la monarchie
+  publisher: Thèse, Université Paris-Sorbonne
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 809
+  bookFormat: broché
+  genre: [biographie]
+  isbn: ''
+  image: http://books.google.com/books/content?id=1M4-AAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: LE ROUX Gérard
+  name: Les Aventures du Capitaine Jean-Pierre Blanc
+  publisher: Gérard Leroux
+  datePublished: 1991
+  inLanguage: fr
+  numberOfPages: 56
+  bookFormat: broché avec CD
+  genre: [biographie]
+  isbn: '9782800118338'
+  image: http://books.google.com/books/content?id=Qu2qvs3k1CMC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: LECOMTE S. et D.
+  name: Rochambeau
+  publisher: Lavauzelle
+  datePublished: 1976
+  inLanguage: fr
+  numberOfPages: 173
+  bookFormat: broché
+  genre: [biographie]
+  isbn: ''
+  image: http://books.google.com/books/content?id=vl8v3eAABBYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: LEVER Evelyne
+  name: Louis XVI
+  publisher: Fayard
+  datePublished: 1985
+  inLanguage: fr
+  numberOfPages: 703
+  bookFormat: broché
+  genre: [biographie]
+  isbn: '9782213673981'
+  image: http://books.google.com/books/content?id=Egyvetw10QUC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: LINYER DE LA BARBÉE Maurice
+  name: Chevalier de Ternay (le) tome 1
+  publisher: Éditions des 4 Seigneurs, Grenoble
+  datePublished: 1972
+  inLanguage: fr
+  numberOfPages: 334
+  bookFormat: broché
+  genre: [biographie]
+  isbn: ''
+  image: ''
+  description: ''
+- author: LINYER DE LA BARBÉE Maurice
+  name: Chevalier de Ternay (le) tome 2
+  publisher: Éditions des 4 Seigneurs, Grenoble
+  datePublished: 1972
+  inLanguage: fr
+  numberOfPages: 335
+  bookFormat: broché
+  genre: [biographie]
+  isbn: ''
+  image: ''
+  description: ''
+- author: LOPEZ Claude-Anne
+  name: Benjamin Franklin à Paris (Le sceptre et la foudre)
+  publisher: Mercure de France
+  datePublished: 1990
+  inLanguage: fr
+  numberOfPages: 335
+  bookFormat: broché
+  genre: [biographie]
+  isbn: '9782715216389'
+  image: ''
+  description: ''
+- author: MARZAC Jacques
+  name: Mourir pour Buenos-Ayres (J. de Liniers)
+  publisher: La découvrance
+  datePublished: 2016
+  inLanguage: fr
+  numberOfPages: 203
+  bookFormat: broché
+  genre: [biographie]
+  isbn: '9782842659769'
+  image: ''
+  description: ''
+- author: MATHIEU Robert Sylvain
+  name: Stephen Girard, Marin bordelais et banquier Américain
+  publisher: France Empire
+  datePublished: 1981
+  inLanguage: fr
+  numberOfPages: 221
+  bookFormat: broché
+  genre: [biographie]
+  isbn: '9782307195122'
+  image: http://books.google.com/books/content?id=QIMpEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: MAUROIS André
+  name: Adrienne ou la vie de Madame de La Fayette
+  publisher: Hachette
+  datePublished: 1960
+  inLanguage: fr
+  numberOfPages: 570
+  bookFormat: broché
+  genre: [biographie]
+  isbn: ''
+  image: http://books.google.com/books/content?id=3AIwAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: MEFFRE Stéphane
+  name: Jean Gaspard Vence
+  publisher: Librinova
+  datePublished: 2023
+  inLanguage: fr
+  numberOfPages: 270
+  bookFormat: broché
+  genre: [biographie]
+  isbn: '9782336483931'
+  image: http://books.google.com/books/content?id=mEshEQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: MÉNARD Pierre
+  name: "Antoine Crozat, l'homme qui possédait l'Amérique"
+  publisher: Le Cherche Midi
+  datePublished: 2017
+  inLanguage: fr
+  numberOfPages: 461
+  bookFormat: broché
+  genre: [biographie]
+  isbn: '9782749148304'
+  image: http://books.google.com/books/publisher/content?id=cJjVDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: MICHEL Jacques
+  name: "Charles Henry Comte d'Estaing"
+  publisher: Jacques Michel
+  datePublished: 1976
+  inLanguage: fr
+  numberOfPages: 455
+  bookFormat: cartonné
+  genre: [biographie]
+  isbn: ''
+  image: http://books.google.com/books/content?id=yBwJAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: MONAQUE Rémi
+  name: Suffren
+  publisher: Éditions Tallandier
+  datePublished: 2009
+  inLanguage: fr
+  numberOfPages: 491
+  bookFormat: broché
+  genre: [biographie]
+  isbn: ''
+  image: http://books.google.com/books/content?id=20QqAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: NAVACELLE Thierry de
+  name: La Rouërie, rival de La Fayette (doc. fiction)
+  publisher: Le Temps
+  datePublished: 2020
+  inLanguage: fr
+  numberOfPages: 318
+  bookFormat: broché
+  genre: [biographie]
+  isbn: '9782363121066'
+  image: ''
+  description: ''
+- author: "O'BRIEN HANLEY Charles"
+  name: Carrol of Carrelton
+  publisher: Loyola University Press
+  datePublished:
+  inLanguage: en
+  numberOfPages: 293
+  bookFormat: cartonné
+  genre: [biographie]
+  isbn: ''
+  image: http://books.google.com/books/content?id=SIayAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: RODE Iris de
+  name: FJ de Chastellux (1734-1788)
+  publisher: Honoré Champion
+  datePublished: 2022
+  inLanguage: fr
+  numberOfPages: 722
+  bookFormat: broché
+  genre: [biographie]
+  isbn: '9782745356840'
+  image: http://books.google.com/books/content?id=lUJJAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: RODGER N. A. M.
+  name: Insatiable Earl (The) John Montagu
+  publisher: W.W. Norton & Company, London
+  datePublished: 1994
+  inLanguage: en
+  numberOfPages: 425
+  bookFormat: cartonné
+  genre: [biographie]
+  isbn: '9780393333299'
+  image: http://books.google.com/books/content?id=mPUBPgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: ROURE L. du et LINIERS
+  name: Santiago Jacques de Liniers
+  publisher: auteurs
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 183
+  bookFormat: broché
+  genre: [biographie]
+  isbn: ''
+  image: ''
+  description: ''
+- author: SAINT BRIS Gonzague
+  name: La Fayette
+  publisher: Éditions Télémaque
+  datePublished: 2006
+  inLanguage: fr
+  numberOfPages: 407
+  bookFormat: broché
+  genre: [biographie]
+  isbn: '9782070346738'
+  image: http://books.google.com/books/content?id=ZIYfAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: STABLER John Herbert
+  name: Francisco Miranda (Travels and aventures de)
+  publisher: Nacim
+  datePublished: 1930
+  inLanguage: en
+  numberOfPages: 196
+  bookFormat: broché
+  genre: [biographie]
+  isbn: ''
+  image: ''
+  description: ''
+- author: AUBIN Nicolas
+  name: Les corsaires du Havre dans la GIA
+  publisher: ''
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 20
+  bookFormat: chemise
+  genre: [marine]
+  isbn: ''
+  image: ''
+  description: ''
+- author: BAUDRIOT Jean
+  name: John Paul Jones et le bonhomme Richard
+  publisher: Archéologie Navale Française
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 127
+  bookFormat: broché
+  genre: [marine]
+  isbn: ''
+  image: ''
+  description: ''
+- author: BONNEL Ulane et Collectif
+  name: Fleurieu et la Marine de son temps (Actes colloque)
+  publisher: Éditions Economica, Paris
+  datePublished: 1992
+  inLanguage: fr
+  numberOfPages: 353
+  bookFormat: broché
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=sEojAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: BOYER Martin
+  name: "L'appel du large : 5 siècles d'histoires maritimes"
+  publisher: ''
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 223
+  bookFormat: broché
+  genre: [marine]
+  isbn: ''
+  image: ''
+  description: ''
+- author: CARON François
+  name: VICTOIRE VOLÉE (Chesapeake)
+  publisher: Service Historique de la Marine, Vincennes
+  datePublished: 1989
+  inLanguage: fr
+  numberOfPages: 611
+  bookFormat: broché
+  genre: [marine]
+  isbn: '9782901952190'
+  image: ''
+  description: ''
+- author: CASTRIES Scipion de
+  name: Souvenirs Maritimes
+  publisher: Mercure de France
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 423
+  bookFormat: broché
+  genre: [marine]
+  isbn: '9782715225626'
+  image: ''
+  description: ''
+- author: CHEVALIER Louis Édouard
+  name: "Histoire de la Marine Française I (jusqu'en 1763)"
+  publisher: Hachette, Paris
+  datePublished: 1902
+  inLanguage: fr
+  numberOfPages: 405
+  bookFormat: broché
+  genre: [marine]
+  isbn: '9781020324840'
+  image: http://books.google.com/books/content?id=im4X0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: CHEVALIER Louis Edouard
+  name: "Histoire de la Marine Française 2 (guerre d'indépendance)"
+  publisher: Hachette, Paris
+  datePublished: 1877
+  inLanguage: fr
+  numberOfPages: 517
+  bookFormat: broché
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=Y_NOFPX0P30C&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: CHEVALIER Louis Édouard
+  name: Histoire de la Marine Française 3 (1ère république)
+  publisher: Hachette, Paris
+  datePublished: 1886
+  inLanguage: fr
+  numberOfPages: 423
+  bookFormat: broché
+  genre: [marine]
+  isbn: '9781019976081'
+  image: http://books.google.com/books/content?id=FZAfAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: CHEVALIER Louis Édouard
+  name: Histoire de la Marine Française IV (Consulat-Empire)
+  publisher: Hachette, Paris
+  datePublished: 1886
+  inLanguage: fr
+  numberOfPages: 439
+  bookFormat: broché
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=yE49M5QeJlwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: CHEVALIER Louis Édouard
+  name: Histoire de la Marine Française V (1815-1870)
+  publisher: Hachette, Paris
+  datePublished: 1900
+  inLanguage: fr
+  numberOfPages: 438
+  bookFormat: broché
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=_pIfAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Marines Française et Britannique face aux USA (les)
+  publisher: Service Historique de la Marine, Vincennes
+  datePublished: 1999
+  inLanguage: fr
+  numberOfPages: 416
+  bookFormat: broché
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=kUBnAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Naval documents of the AR 1/10 (1774-1775)
+  publisher: Naval History Division, Washington
+  datePublished: 1964
+  inLanguage: en
+  numberOfPages: 1451
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: '9781634243889'
+  image: http://books.google.com/books/content?id=VXL7ENtRDOcC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Naval documents of the AR 2/10 (1775)
+  publisher: Naval History Division, Washington
+  datePublished: 1966
+  inLanguage: en
+  numberOfPages: 1463
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=SlkSAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Naval documents of the AR 3/10 (1775-1776)
+  publisher: Naval History Division, Washington
+  datePublished: 1968
+  inLanguage: en
+  numberOfPages: 1486
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: '9781459740730'
+  image: http://books.google.com/books/content?id=SlkSAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Naval documents of the AR 4/10 (1776)
+  publisher: Naval History Division, Washington
+  datePublished: 1969
+  inLanguage: en
+  numberOfPages: 1580
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=1ci6kgatWzMC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Naval documents of the AR 5/10 (1776)
+  publisher: Naval History Division, Washington
+  datePublished: 1970
+  inLanguage: en
+  numberOfPages: 1486
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=XER8kVrP3b4C&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Naval documents of the AR 6/10 (1776)
+  publisher: Naval History Division, Washington
+  datePublished: 1972
+  inLanguage: en
+  numberOfPages: 1641
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=bM52AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Naval documents of the AR 7/10 (1776-1777)
+  publisher: Naval History Division, Washington
+  datePublished: 1976
+  inLanguage: en
+  numberOfPages: 1463
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=lpa8fmns2S4C&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Naval documents of the AR 8/10 (1777)
+  publisher: Naval History Division, Washington
+  datePublished: 1980
+  inLanguage: en
+  numberOfPages: 1184
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=szMYAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Naval documents of the AR 9/10 (1777)
+  publisher: Naval History Division, Washington
+  datePublished: 1986
+  inLanguage: en
+  numberOfPages: 1147
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=1M7Q1xqfMMsC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Naval documents of the AR 10/10 (1777)
+  publisher: Naval History Division, Washington
+  datePublished: 1996
+  inLanguage: en
+  numberOfPages: 1350
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=1ci6kgatWzMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: Collectif
+  name: La glorieuse campagne du Comte de Grasse
+  publisher: SAR-France
+  datePublished: 2011
+  inLanguage: fr
+  numberOfPages: 122
+  bookFormat: broché
+  genre: [marine]
+  isbn: '9782296452602'
+  image: http://books.google.com/books/content?id=hJrUCQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: CRABBE
+  name: Les grandes heures de la Royal Navy
+  publisher: Goemaere
+  datePublished: 1946
+  inLanguage: fr
+  numberOfPages: 478
+  bookFormat: broché
+  genre: [marine]
+  isbn: ''
+  image: ''
+  description: ''
+- author: ENGLE E. et LOTT A.
+  name: "America's maritime heritage"
+  publisher: Naval Institute
+  datePublished:
+  inLanguage: en
+  numberOfPages: 371
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=KuJ1AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: FONTAN Jules
+  name: La marine provençale dans la GIA
+  publisher: Institut Historique de Provence
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 226
+  bookFormat: broché
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=s6DDX1bs-iAC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: FORRER Claude et YO
+  name: LE BRETAGNE Vaisseau de 100 canons
+  publisher: Keltia
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 222
+  bookFormat: broché
+  genre: [marine]
+  isbn: '9782913953789'
+  image: ''
+  description: ''
+- author: FORRER Claude et YO
+  name: "Alertes au Proche Orient La Frégate L'Aigrette 1775"
+  publisher: Keltia
+  datePublished: 2009
+  inLanguage: fr
+  numberOfPages: 223
+  bookFormat: broché
+  genre: [marine]
+  isbn: '9782353130436'
+  image: ''
+  description: ''
+- author: GARDINER Robert
+  name: Navies and the American Revolution 1755-1783
+  publisher: Naval Institute Press
+  datePublished:
+  inLanguage: en
+  numberOfPages: 192
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: '9781845600112'
+  image: http://books.google.com/books/content?id=ohplPgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: GILKERSON William
+  name: Ships of John Paul Jones
+  publisher: Naval Academy Museum
+  datePublished: 1987
+  inLanguage: en
+  numberOfPages: 83
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=fNh2AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: HAGAN Kenneth J.
+  name: In Peace and War. Interpretation of American Naval
+  publisher: Greenwood Press
+  datePublished:
+  inLanguage: en
+  numberOfPages: 368
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: '9780029134719'
+  image: http://books.google.com/books/content?id=IV_OVk4FhKUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: HENRAT Philippe
+  name: Archives de la Marine XVII et XVIIIème s.
+  publisher: SPM
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 933
+  bookFormat: broché
+  genre: [marine]
+  isbn: '9782917232668'
+  image: http://books.google.com/books/content?id=tCVHDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: JACOB Yves
+  name: "L'énigme Lapérouse"
+  publisher: Éditions Tallandier
+  datePublished: 2000
+  inLanguage: fr
+  numberOfPages: 296
+  bookFormat: broché
+  genre: [marine]
+  isbn: '9782702845585'
+  image: ''
+  description: ''
+- author: JIRKA Rachel
+  name: "La Fayette et l'Hermione"
+  publisher: Cincinnati
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 15
+  bookFormat: broché
+  genre: [marine]
+  isbn: ''
+  image: ''
+  description: ''
+- author: KERBAOL Camille
+  name: Les lettres de Mandat-Grancey, Thèse T1
+  publisher: Université de Bretagne
+  datePublished: 2019
+  inLanguage: fr
+  numberOfPages: 608
+  bookFormat: broché
+  genre: [marine]
+  isbn: ''
+  image: ''
+  description: ''
+- author: KERBAOL Camille
+  name: Les lettres de Mandat-Grancey, Thèse T2
+  publisher: Université de Bretagne
+  datePublished: 2019
+  inLanguage: fr
+  numberOfPages: 608
+  bookFormat: broché
+  genre: [marine]
+  isbn: ''
+  image: ''
+  description: ''
+- author: KERBAOL Camille
+  name: Les lettres de Mandat-Grancey, Thèse T3
+  publisher: Université de Bretagne
+  datePublished: 2019
+  inLanguage: fr
+  numberOfPages: 608
+  bookFormat: broché
+  genre: [marine]
+  isbn: ''
+  image: ''
+  description: ''
+- author: KILLION Howard Ray
+  name: Suffren expedition in India during war of american revolution
+  publisher: Duke University
+  datePublished: 1972
+  inLanguage: en
+  numberOfPages: 517
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: ''
+  image: ''
+  description: ''
+- author: LACOUR-GAYET Georges
+  name: Marine militaire de la France sous le règne de Louis X
+  publisher: Éditions Jean-Michel Place / Teissèdre
+  datePublished: 2007
+  inLanguage: fr
+  numberOfPages: 719
+  bookFormat: broché
+  genre: [marine]
+  isbn: '9782912259998'
+  image: ''
+  description: ''
+- author: LE MASNE
+  name: Armement Le Masne
+  publisher: Le Masne
+  datePublished: 2014
+  inLanguage: fr
+  numberOfPages: 89
+  bookFormat: broché
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=y-YHN4q6e3AC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: LE MASNE Andréa
+  name: "Une famille d'armateurs à Nantes au XVIIIème s."
+  publisher: Le Masne
+  datePublished: 2021
+  inLanguage: fr
+  numberOfPages: 248
+  bookFormat: broché
+  genre: [marine]
+  isbn: '9791069965973'
+  image: ''
+  description: ''
+- author: MAHAN Alfred Thayer
+  name: Influence of sea power upon History (the)
+  publisher: Sampson Low, Marston & Company, London
+  datePublished:
+  inLanguage: en
+  numberOfPages: 557
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: '9781108023719'
+  image: http://books.google.com/books/content?id=JRTRdcMhQb0C&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: MARSHALL SMELSER
+  name: Congress Founds the Navy (1787-1798)
+  publisher: University of Notre Dame Press
+  datePublished: 1959
+  inLanguage: en
+  numberOfPages: 229
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: '9781839743245'
+  image: http://books.google.com/books/content?id=nPSREQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: MEYER Jean (historien.)
+  name: "L'armement nantais dans la 2ème moitié du XVIIIe siècle"
+  publisher: Touzet
+  datePublished: 1969
+  inLanguage: fr
+  numberOfPages: 465
+  bookFormat: broché
+  genre: [marine]
+  isbn: '9782713225680'
+  image: http://books.google.com/books/content?id=VPsRCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: NICOLAS Guy
+  name: "Course à Saint-Malo lors de la guerre d'indépendance"
+  publisher: Saint-Malo
+  datePublished: 2004
+  inLanguage: fr
+  numberOfPages: 19
+  bookFormat: feuilles volantes
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=RCpBAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: PERROT de REVEL J.
+  name: "Journal particulier d'une campagne aux Indes Occidentales 1781-1782"
+  publisher: Elibron Classics
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 277
+  bookFormat: broché
+  genre: [marine]
+  isbn: ''
+  image: ''
+  description: ''
+- author: PRUDHOMME Françoise
+  name: "Le Chevalier de L'Espine, naviguer en temps de révolution"
+  publisher: "Presses de l'Université Paris-Sorbonne"
+  datePublished: 2019
+  inLanguage: fr
+  numberOfPages: 774
+  bookFormat: broché
+  genre: [marine]
+  isbn: '9782271144041'
+  image: http://books.google.com/books/content?id=pH_pEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: REYNOLDS Clark G.
+  name: Famous American Admirals
+  publisher: Van Nostrand Reinhold
+  datePublished: 1978
+  inLanguage: en
+  numberOfPages: 446
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=_a4QAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: SINOU BERTAULT Eric
+  name: Naissance et baptême breton de la Marine Américaine
+  publisher: Auteur
+  datePublished: 2011
+  inLanguage: fr
+  numberOfPages: 249
+  bookFormat: broché
+  genre: [marine]
+  isbn: '9781446189801'
+  image: http://books.google.com/books/content?id=lmJaMwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: STOUT Neyl R.
+  name: Royal Navy in America 1760-1775
+  publisher: Naval Institute Press, Annapolis
+  datePublished: 1973
+  inLanguage: en
+  numberOfPages: 227
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=L1ssAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: TRENTINIAN Jacques de
+  name: La Glorieuse campagne du comte de Grasse
+  publisher: ''
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 122
+  bookFormat: broché
+  genre: [marine]
+  isbn: ''
+  image: ''
+  description: ''
+- author: TROUDE O.
+  name: Batailles Navales de la France. Tome 2. 1778-1795
+  publisher: Challamel, Paris
+  datePublished: 1867
+  inLanguage: fr
+  numberOfPages: 469
+  bookFormat: broché
+  genre: [marine]
+  isbn: '9782019595678'
+  image: http://books.google.com/books/content?id=9NIrMQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: VERGÉ-FRANCESCHI Michel
+  name: "La Royale au temps de l'Amiral d'Estaing"
+  publisher: La pensée universelle
+  datePublished: 1977
+  inLanguage: fr
+  numberOfPages: 251
+  bookFormat: broché
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=Knm2AAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: VILLIERS Patrick
+  name: "Le Commerce colonial atlantique et la guerre d'indépendance"
+  publisher: Arno Press NewYork
+  datePublished: 1977
+  inLanguage: fr
+  numberOfPages: 470
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=XGUtAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: VILLIERS Patrick
+  name: Des vaisseaux et des Hommes, La Marine de Louis XVI
+  publisher: Fayard
+  datePublished: 2021
+  inLanguage: fr
+  numberOfPages: 413
+  bookFormat: broché
+  genre: [marine]
+  isbn: '9782213683614'
+  image: http://books.google.com/books/content?id=ikJDEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: VILLIERS Patrick
+  name: La Marine de Louis XVI. Tome 1. De Choiseul à Sartine
+  publisher: Pierre Debanne
+  datePublished: 1985
+  inLanguage: fr
+  numberOfPages: 480
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: '9791096873579'
+  image: http://books.google.com/books/content?id=2ttnAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: VILLIERS Patrick
+  name: La Marine de Louis XVI (volume)
+  publisher: Ancre
+  datePublished: 2020
+  inLanguage: fr
+  numberOfPages: 480
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: '9782213683614'
+  image: http://books.google.com/books/content?id=ikJDEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: VILLIERS Patrick
+  name: La Marine de Louis XVI (planches)
+  publisher: Ancre
+  datePublished: 2020
+  inLanguage: fr
+  numberOfPages: 45
+  bookFormat: dossier
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=nqxVAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: BADEREAU A.
+  name: Fonds Vioménil dossiers LB0074 et 75
+  publisher: Académie François Bourdon
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 1
+  bookFormat: CD
+  genre: [gia]
+  isbn: ''
+  image: ''
+  description: ''
+- author: BARBÉ MAROIS
+  name: "Complot d'Arnold et de S. Henry contre les É.-U."
+  publisher: Firmin Didot Aîné
+  datePublished: 1816
+  inLanguage: fr
+  numberOfPages: 247
+  bookFormat: relié
+  genre: [gia]
+  isbn: ''
+  image: http://books.google.com/books/content?id=HDowAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: BARBÉ MAROIS
+  name: Our Revolutionary Fathers
+  publisher: Duffield and Company, New York
+  datePublished: 1929
+  inLanguage: en
+  numberOfPages: 225
+  bookFormat: relié
+  genre: [gia]
+  isbn: ''
+  image: http://books.google.com/books/content?id=cPqq-YjFb5IC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: BERTHIER Louis-Alexandre
+  name: "Journal de la campagne d'Amérique"
+  publisher: Institut Français de Washington
+  datePublished: 1952
+  inLanguage: fr
+  numberOfPages: 76
+  bookFormat: broché
+  genre: [gia]
+  isbn: ''
+  image: http://books.google.com/books/content?id=7HZwAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: BINAUD Daniel
+  name: "L'épopée Américaine de La Fayette"
+  publisher: La découvrance
+  datePublished: 2016
+  inLanguage: fr
+  numberOfPages: 364
+  bookFormat: broché
+  genre: [gia]
+  isbn: '9782759900336'
+  image: http://books.google.com/books/content?id=rAhFDAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: BONSAL Stephen
+  name: Soldats de la Liberté
+  publisher: Éditions Tallandier
+  datePublished: 1952
+  inLanguage: fr
+  numberOfPages: 345
+  bookFormat: broché
+  genre: [gia]
+  isbn: ''
+  image: ''
+  description: ''
+- author: BOUVET Maurice
+  name: "Service de Santé pendant la guerre d'indépendance américaine (le)"
+  publisher: ''
+  datePublished: 1934
+  inLanguage: fr
+  numberOfPages: 111
+  bookFormat: broché
+  genre: [gia]
+  isbn: ''
+  image: ''
+  description: ''
+- author: BRECHER Franck W.
+  name: Securing American Independance
+  publisher: Praeger
+  datePublished: 2003
+  inLanguage: en
+  numberOfPages: 327
+  bookFormat: cartonné
+  genre: [gia]
+  isbn: '9780313052552'
+  image: http://books.google.com/books/content?id=SFDeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: BROWN Rice
+  name: "American Campaigns of Rochambeau's army (tome 1, Journal)"
+  publisher: Princeton University Press
+  datePublished: 1972
+  inLanguage: en
+  numberOfPages: 362
+  bookFormat: coffret
+  genre: [gia]
+  isbn: ''
+  image: ''
+  description: ''
+- author: BROWN Rice
+  name: "American Campaigns of Rochambeau's army (tome 2, Itinéraire)"
+  publisher: Princeton University Press
+  datePublished: 1972
+  inLanguage: en
+  numberOfPages: 351
+  bookFormat: coffret
+  genre: [gia]
+  isbn: ''
+  image: ''
+  description: ''
+- author: BRISOUT Nicolas Denis François de Barneville
+  name: Journal de Guerre 1780-1781
+  publisher: Institut Français de Washington
+  datePublished: 1951
+  inLanguage: fr
+  numberOfPages: 63
+  bookFormat: broché
+  genre: [gia]
+  isbn: ''
+  image: ''
+  description: ''
+- author: CARRER Philippe
+  name: "Bretagne et la Guerre d'Indépendance américaine (la)"
+  publisher: Les Portes du Large
+  datePublished: 2005
+  inLanguage: fr
+  numberOfPages: 238
+  bookFormat: broché
+  genre: [gia]
+  isbn: ''
+  image: http://books.google.com/books/content?id=Nal2AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: CENCI Philippe et KOCH Louis
+  name: "La Route de l'indépendance"
+  publisher: Triomphe
+  datePublished: 2009
+  inLanguage: fr
+  numberOfPages: 47
+  bookFormat: BD
+  genre: [gia]
+  isbn: '9782383860594'
+  image: ''
+  description: ''
+- author: CHARTRAND René
+  name: The French Army in the American War
+  publisher: Osprey
+  datePublished: 1992
+  inLanguage: en
+  numberOfPages: 48
+  bookFormat: broché
+  genre: [gia]
+  isbn: '9781855321670'
+  image: http://books.google.com/books/content?id=vhAqvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: CHASE Paul A.
+  name: The American Revolution. A compendium of terms and topics
+  publisher: Outskirts Press
+  datePublished: 2017
+  inLanguage: en
+  numberOfPages: 442
+  bookFormat: broché
+  genre: [gia]
+  isbn: '9781478791836'
+  image: http://books.google.com/books/content?id=v7E7swEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: CLOSEN Baron de
+  name: Journal of the revolutionary Baron Ludwig von Closen
+  publisher: University of North Carolina Press
+  datePublished: 1958
+  inLanguage: en
+  numberOfPages: 392
+  bookFormat: cartonné
+  genre: [gia]
+  isbn: '9780807807453'
+  image: http://books.google.com/books/content?id=yxgV0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: "France et l'Indépendance des Etats-Unis (la)"
+  publisher: "Centre d'Instruction Navale"
+  datePublished: 1999
+  inLanguage: fr
+  numberOfPages: 69
+  bookFormat: broché
+  genre: [gia]
+  isbn: '9782916403694'
+  image: http://books.google.com/books/content?id=qSS9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Washington Rochambeau Revolutionary Route
+  publisher: National Park Service
+  datePublished: 2006
+  inLanguage: en
+  numberOfPages: 52
+  bookFormat: broché
+  genre: [gia]
+  isbn: '9780692960448'
+  image: http://books.google.com/books/content?id=uhl8tAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: COTENSON Ludovic de
+  name: "Société des Cincinnati et la Guerre d'Amérique"
+  publisher: Picard
+  datePublished: 2007
+  inLanguage: fr
+  numberOfPages: 310
+  bookFormat: cartonné
+  genre: [gia]
+  isbn: ''
+  image: ''
+  description: ''
+- author: COUZIGOU Jean-Vincent
+  name: "L'Aigle et le Lys"
+  publisher: Éditions Muller
+  datePublished: 2007
+  inLanguage: fr
+  numberOfPages: 210
+  bookFormat: broché
+  genre: [gia]
+  isbn: ''
+  image: http://books.google.com/books/content?id=lQ8aAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: DELITTE Jean-Yves
+  name: Bataille de la Chesapeake
+  publisher: Glénat
+  datePublished: 2017
+  inLanguage: fr
+  numberOfPages: 56
+  bookFormat: BD cartonné
+  genre: [gia]
+  isbn: '9782344020920'
+  image: http://books.google.com/books/content?id=C127DgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: DROIN Dominique
+  name: "La Rochelle Rochefort et Beaumarchais dans la guerre d'indépendance"
+  publisher: Droin
+  datePublished: 2008
+  inLanguage: fr
+  numberOfPages: 223
+  bookFormat: broché
+  genre: [gia]
+  isbn: ''
+  image: http://books.google.com/books/content?id=UasaAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: FERLING John E.
+  name: The world turned upside down
+  publisher: Greenwood Press, London
+  datePublished: 2002
+  inLanguage: en
+  numberOfPages: 250
+  bookFormat: cartonné
+  genre: [gia]
+  isbn: '9780195150841'
+  image: http://books.google.com/books/content?id=lifQ0G0m9WwC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: FOHLEN Charles
+  name: Pères de la Révolution Américaine (les)
+  publisher: Albin Michel
+  datePublished: 1989
+  inLanguage: fr
+  numberOfPages: 260
+  bookFormat: broché
+  genre: [gia]
+  isbn: '9782226213952'
+  image: http://books.google.com/books/content?id=seCDy9lwiEYC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: HENRAT Philippe
+  name: Mémoires du Marquis de Bouillé
+  publisher: "Société de l'Histoire de France"
+  datePublished: 2015
+  inLanguage: fr
+  numberOfPages: 566
+  bookFormat: broché
+  genre: [gia]
+  isbn: '9782701804330'
+  image: ''
+  description: ''
+- author: LAFAYETTE Marie Joseph Paul Yves Roch Gilbert du Motier (markis)
+  name: Mémoires présentées par sa famille T1
+  publisher: Chap.com Éditions
+  datePublished: 2015
+  inLanguage: fr
+  numberOfPages: 495
+  bookFormat: broché
+  genre: [gia]
+  isbn: ''
+  image: http://books.google.com/books/content?id=t7Xr7l-t6jQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: LAFAYETTE Marie Joseph Paul Yves Roch Gilbert du Motier (markis)
+  name: Mémoires présentées par sa famille T2
+  publisher: Chap.com Éditions
+  datePublished: 2015
+  inLanguage: fr
+  numberOfPages: 504
+  bookFormat: broché
+  genre: [gia]
+  isbn: ''
+  image: http://books.google.com/books/content?id=t7Xr7l-t6jQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: LAFAYETTE Gilbert de
+  name: Mémoires présentées par sa famille T3
+  publisher: Chap.com Éditions
+  datePublished: 2015
+  inLanguage: fr
+  numberOfPages: 520
+  bookFormat: broché
+  genre: [gia]
+  isbn: ''
+  image: ''
+  description: ''
+- author: LASSERAY André
+  name: Français sous les 13 étoiles (les). Tome 1
+  publisher: Protat Frères, Mâcon
+  datePublished: 1935
+  inLanguage: fr
+  numberOfPages: 328
+  bookFormat: broché
+  genre: [gia]
+  isbn: ''
+  image: http://books.google.com/books/content?id=sHMbAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: LASSERAY André
+  name: Français sous les 13 étoiles (les). Tome 2
+  publisher: Protat Frères, Mâcon
+  datePublished: 1935
+  inLanguage: fr
+  numberOfPages: 366
+  bookFormat: broché
+  genre: [gia]
+  isbn: ''
+  image: http://books.google.com/books/content?id=sHMbAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: LEGRAND Robert (historian.)
+  name: "La guerre d'indépendance américaine et La Fayette"
+  publisher: Paillard
+  datePublished: 2006
+  inLanguage: fr
+  numberOfPages: 232
+  bookFormat: broché
+  genre: [gia]
+  isbn: '9782090376142'
+  image: http://books.google.com/books/content?id=VM3_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: SCHULTE NORDHOLT Jan Willem
+  name: Dutch republic in American independance (the)
+  publisher: University of North Carolina Press
+  datePublished:
+  inLanguage: en
+  numberOfPages: 351
+  bookFormat: cartonné
+  genre: [gia]
+  isbn: ''
+  image: http://books.google.com/books/content?id=rsV2AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: TREESE Lorett
+  name: Valley Forge
+  publisher: Keystone
+  datePublished: 2011
+  inLanguage: en
+  numberOfPages: 269
+  bookFormat: broché
+  genre: [gia]
+  isbn: '9780271041735'
+  image: http://books.google.com/books/content?id=ApjJUi_hTY0C&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: TRENTINIAN Jacques de
+  name: France Contribution to american independance
+  publisher: SAR France
+  datePublished:
+  inLanguage: en
+  numberOfPages: 16
+  bookFormat: ''
+  genre: [gia]
+  isbn: ''
+  image: ''
+  description: ''
+- author: TRENTINIAN Jacques de
+  name: "La France au secours de l'Amérique"
+  publisher: SPM
+  datePublished: 2016
+  inLanguage: fr
+  numberOfPages: 347
+  bookFormat: broché
+  genre: [gia]
+  isbn: '9782917232507'
+  image: http://books.google.com/books/content?id=MJGVDAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: VIBRAYE Tony de
+  name: "Régiments Français à la guerre d'indépendance américaine"
+  publisher: Bulletin des amis du vieux Saint-Germain
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 4
+  bookFormat: vrac
+  genre: [gia]
+  isbn: ''
+  image: ''
+  description: ''
+- author: WALKER Paul K.
+  name: Engineers of independance
+  publisher: U.S. Government Printing Office
+  datePublished: 1981
+  inLanguage: en
+  numberOfPages: 403
+  bookFormat: broché
+  genre: [gia]
+  isbn: ''
+  image: http://books.google.com/books/content?id=7I4ZAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: "AGAY Frédéric d'"
+  name: Officiers des Vaisseaux et Galères (Prov) 1637-1831 T1
+  publisher: Honoré Champion
+  datePublished: 2011
+  inLanguage: fr
+  numberOfPages: 695
+  bookFormat: cartonné
+  genre: [histoire-generale]
+  isbn: '9782745321107'
+  image: ''
+  description: ''
+- author: "AGAY Frédéric d'"
+  name: Officiers des Vaisseaux et Galères (Prov) 1637-1831 T2
+  publisher: Honoré Champion
+  datePublished: 2011
+  inLanguage: fr
+  numberOfPages: 765
+  bookFormat: cartonné
+  genre: [histoire-generale]
+  isbn: '9782745321107'
+  image: ''
+  description: ''
+- author: AZEAU Henri
+  name: "Complot pour l'Amérique (le rêve de Beaumarchais)"
+  publisher: Robert Laffont
+  datePublished: 1990
+  inLanguage: fr
+  numberOfPages: 233
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: '9782221181263'
+  image: http://books.google.com/books/content?id=5x5YDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: BATES-BATCHELIER Tryphosa
+  name: Une amitié historique (France-Amérique)
+  publisher: Plon-Nourrit et Cie
+  datePublished: 1924
+  inLanguage: fr
+  numberOfPages: 237
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: ''
+  image: ''
+  description: ''
+- author: BODINIER Gilbert
+  name: "Dict. des Off. Généraux de l'Armée Royale (T1 A-C)"
+  publisher: Archives et Culture
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 635
+  bookFormat: cartonné
+  genre: [histoire-generale]
+  isbn: ''
+  image: ''
+  description: ''
+- author: BODINIER Gilbert
+  name: "Dict. des Off. Généraux de l'Armée Royale (T2 D-K)"
+  publisher: Archives et Culture
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 637
+  bookFormat: cartonné
+  genre: [histoire-generale]
+  isbn: ''
+  image: ''
+  description: ''
+- author: BODINIER Gilbert
+  name: "Dict. des Off. Généraux de l'Armée Royale (T3 L-O)"
+  publisher: Archives et Culture
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 639
+  bookFormat: cartonné
+  genre: [histoire-generale]
+  isbn: ''
+  image: ''
+  description: ''
+- author: BODINIER Gilbert
+  name: "Dict. des Off. Généraux de l'Armée Royale (T4 P-Z)"
+  publisher: Archives et Culture
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 751
+  bookFormat: cartonné
+  genre: [histoire-generale]
+  isbn: '9782350771335'
+  image: http://books.google.com/books/content?id=HZkNAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: CHASTELLUX François-Jean de
+  name: "Voyage dans l'Amérique septentrionale 1780-82"
+  publisher: Éditions Tallandier
+  datePublished: 1980
+  inLanguage: fr
+  numberOfPages: 566
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: ''
+  image: http://books.google.com/books/content?id=bGEwAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: CHARTRAND René
+  name: "Louis XIV's Army"
+  publisher: Osprey
+  datePublished: 1989
+  inLanguage: en
+  numberOfPages: 48
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: '9780850458503'
+  image: http://books.google.com/books/content?id=5KBWvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: CHARTRAND René
+  name: "Louis XV's Army"
+  publisher: Osprey
+  datePublished: 1997
+  inLanguage: en
+  numberOfPages: 48
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: '9781855326231'
+  image: http://books.google.com/books/content?id=_IMXvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: "L'Europe des Lumières et la Constitution Américaine"
+  publisher: Mare et Martin
+  datePublished: 2017
+  inLanguage: fr
+  numberOfPages: 153
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: '9782849343357'
+  image: ''
+  description: ''
+- author: MANCERON Claude
+  name: "Le vent d'Amérique 1778-1782"
+  publisher: Robert Laffont
+  datePublished: 1974
+  inLanguage: fr
+  numberOfPages: 557
+  bookFormat: cartonné
+  genre: [histoire-generale]
+  isbn: '9782221500873'
+  image: ''
+  description: ''
+- author: MARZAGALLI Silvia
+  name: Bordeaux et les États-Unis 1776-1815
+  publisher: Librairie Droz, Genève
+  datePublished: 2015
+  inLanguage: fr
+  numberOfPages: 559
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: '9782600018074'
+  image: ''
+  description: ''
+- author: ROZ Firmin
+  name: Histoire des Etats-Unis
+  publisher: Fayard
+  datePublished: 1930
+  inLanguage: fr
+  numberOfPages: 482
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: ''
+  image: http://books.google.com/books/content?id=5s4bAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: SAINT-PAUL Jr John
+  name: National Society of the SAR
+  publisher: American Printing Company
+  datePublished:
+  inLanguage: en
+  numberOfPages: 256
+  bookFormat: cartonné
+  genre: [histoire-generale]
+  isbn: ''
+  image: http://books.google.com/books/content?id=ATNfAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: SEGUIN Philippe
+  name: Louis Napoléon le Grand
+  publisher: Grasset
+  datePublished: 1990
+  inLanguage: fr
+  numberOfPages: 450
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: ''
+  image: ''
+  description: ''
+- author: BAREFOOT Daniel W.
+  name: "Touring North Carolina's Revolutionary War Sites"
+  publisher: John F. Blair Publisher
+  datePublished: 1998
+  inLanguage: en
+  numberOfPages: 488
+  bookFormat: broché
+  genre: [lieux-historiques]
+  isbn: '9780895872173'
+  image: http://books.google.com/books/content?id=qAd9ngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: CHAMBRUN (Famille de)
+  name: Lagrange
+  publisher: Chambrun
+  datePublished: 1997
+  inLanguage: fr
+  numberOfPages: 135
+  bookFormat: broché
+  genre: [lieux-historiques]
+  isbn: '9782262054311'
+  image: http://books.google.com/books/content?id=PcdXDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: Collectif
+  name: La Fayette soldier of the Old World, soldier of the New
+  publisher: La Borne
+  datePublished: 2007
+  inLanguage: en
+  numberOfPages: 77
+  bookFormat: broché
+  genre: [lieux-historiques]
+  isbn: '9780807862674'
+  image: http://books.google.com/books/content?id=7uQ6CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Valley Forge 2011
+  publisher: ''
+  datePublished: 2011
+  inLanguage: en
+  numberOfPages: 45
+  bookFormat: broché
+  genre: [lieux-historiques]
+  isbn: '9781955041324'
+  image: http://books.google.com/books/content?id=wMFCEQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: COVERT Adrian
+  name: Taverns of the American Revolution
+  publisher: Insight Editions
+  datePublished: 2016
+  inLanguage: en
+  numberOfPages: 191
+  bookFormat: cartonné
+  genre: [lieux-historiques]
+  isbn: '9781608877850'
+  image: http://books.google.com/books/content?id=TgUKswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: DONNET Hadelin
+  name: Chavaniac La Fayette, Manoir des Deux Mondes
+  publisher: Le Cherche Midi
+  datePublished: 1990
+  inLanguage: fr
+  numberOfPages: 141
+  bookFormat: cartonné
+  genre: [lieux-historiques]
+  isbn: '9782749127248'
+  image: ''
+  description: ''
+- author: BORD L. et GAUDART
+  name: "Dictionnaire Généalogique des Familles de l'Inde"
+  publisher: Bord
+  datePublished: 1984
+  inLanguage: fr
+  numberOfPages: 410
+  bookFormat: cartonné
+  genre: [genealogie]
+  isbn: ''
+  image: http://books.google.com/books/content?id=y9W8Ku0AqHYC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: CASTRIES Duc de
+  name: Papiers de Famille
+  publisher: France Empire
+  datePublished: 1977
+  inLanguage: fr
+  numberOfPages: 503
+  bookFormat: broché
+  genre: [genealogie]
+  isbn: ''
+  image: http://books.google.com/books/content?id=W1gtAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: CHAFFANJON Arnaud
+  name: Lafayette et sa descendance
+  publisher: Berger Levrault
+  datePublished: 1976
+  inLanguage: fr
+  numberOfPages: 327
+  bookFormat: broché
+  genre: [genealogie]
+  isbn: ''
+  image: http://books.google.com/books/content?id=MxkmjFj8-V8C&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: LAMAN H. et SAINT-SI
+  name: Armorial des Cincinnati en France
+  publisher: Contrepoint
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 773
+  bookFormat: cartonné
+  genre: [genealogie]
+  isbn: ''
+  image: ''
+  description: ''
+- author: LARQUIER-ROCHEFORT
+  name: Dictionnaire de Broglie et du Vaisseau La Victoire
+  publisher: Éditions de Larquier
+  datePublished: 1984
+  inLanguage: fr
+  numberOfPages: 527
+  bookFormat: broché
+  genre: [genealogie]
+  isbn: ''
+  image: ''
+  description: ''
+- author: BODINIER Gilbert
+  name: "Officiers de l'Armée Royale combattants de la Guerre"
+  publisher: "Service Historique de l'Armée de Terre"
+  datePublished: 1983
+  inLanguage: fr
+  numberOfPages: 593
+  bookFormat: broché
+  genre: [repertoires]
+  isbn: ''
+  image: http://books.google.com/books/content?id=DnYsAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: BODINIER Gilbert
+  name: "Dictionnaire des Officiers de l'Armée Royale"
+  publisher: "Service Historique de l'Armée de Terre"
+  datePublished: 1989
+  inLanguage: fr
+  numberOfPages: 507
+  bookFormat: broché
+  genre: [repertoires]
+  isbn: '9782350774053'
+  image: ''
+  description: ''
+- author: CAHIERRE Anne
+  name: Dictionnaire des Capitaines Corsaires Granvillais
+  publisher: Archives départementales de la Manche
+  datePublished: 2009
+  inLanguage: fr
+  numberOfPages: 471
+  bookFormat: cartonné
+  genre: [repertoires]
+  isbn: '9782860500302'
+  image: ''
+  description: ''
+- author: Collectif (Min. des A.E.)
+  name: "Combattants Français de la Guerre d'Indépendance"
+  publisher: Maison Quantin
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 327
+  bookFormat: cartonné
+  genre: [repertoires]
+  isbn: '9782386476822'
+  image: http://books.google.com/books/content?id=uX9EEQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: CONDOU Jean
+  name: "Soldats et Marins de l'Agenais dans la guerre d'indépendance"
+  publisher: Éditions Lacour, Nîmes
+  datePublished: 2005
+  inLanguage: fr
+  numberOfPages: 106
+  bookFormat: broché
+  genre: [repertoires]
+  isbn: '9782750410636'
+  image: ''
+  description: ''
+- author: JONQUIERE Ch. de la
+  name: Officiers de Marine aux Cincinnati
+  publisher: Poliphile
+  datePublished: 1988
+  inLanguage: fr
+  numberOfPages: 285
+  bookFormat: cartonné
+  genre: [repertoires]
+  isbn: ''
+  image: ''
+  description: ''
+- author: LA JONQUIÈRE Christian
+  name: "Marins Français de Louis XVI (les). Guerre d'Indépendance"
+  publisher: Éditions Muller
+  datePublished: 1996
+  inLanguage: fr
+  numberOfPages: 294
+  bookFormat: broché
+  genre: [repertoires]
+  isbn: ''
+  image: http://books.google.com/books/content?id=teNnAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: QUINTIN Danielle et B.
+  name: Dictionnaire des Capitaines de Vaisseaux de Napoléon
+  publisher: SPM
+  datePublished: 2003
+  inLanguage: fr
+  numberOfPages: 427
+  bookFormat: cartonné
+  genre: [repertoires]
+  isbn: ''
+  image: http://books.google.com/books/content?id=ioPfAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: QUINTIN Danielle et B.
+  name: Dictionnaire des Colonels de Napoléon
+  publisher: SPM
+  datePublished: 1996
+  inLanguage: fr
+  numberOfPages: 986
+  bookFormat: cartonné
+  genre: [repertoires]
+  isbn: '9782296538870'
+  image: http://books.google.com/books/content?id=kt-MP75BW_sC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: TAILLEMITE Etienne
+  name: Dictionnaire des Marins Français
+  publisher: Éditions Tallandier
+  datePublished: 2002
+  inLanguage: fr
+  numberOfPages: 573
+  bookFormat: cartonné
+  genre: [repertoires]
+  isbn: '9782702876534'
+  image: http://books.google.com/books/content?id=VNhnAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: TRENTINIAN Jacques de
+  name: French Regiments and American Independance 1778-1783
+  publisher: Jacques de Trentinian
+  datePublished: 1999
+  inLanguage: en
+  numberOfPages: 120
+  bookFormat: broché
+  genre: [repertoires]
+  isbn: ''
+  image: ''
+  description: ''
+- author: WARRINGTON DAWSON
+  name: "2112 Français morts aux Etats-Unis dans la guerre d'indépendance"
+  publisher: Société des Américanistes de Paris
+  datePublished: 1936
+  inLanguage: en
+  numberOfPages: 154
+  bookFormat: broché
+  genre: [repertoires]
+  isbn: ''
+  image: http://books.google.com/books/content?id=9N4_AQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Manuscripts sources for research on American revolution
+  publisher: Library of Congress
+  datePublished:
+  inLanguage: en
+  numberOfPages: 372
+  bookFormat: cartonné
+  genre: [sources]
+  isbn: '9781022437661'
+  image: http://books.google.com/books/content?id=oeRW0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: "Français dans la guerre d'Amérique (les) — Bibliographie"
+  publisher: Centre de Documentation
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 17
+  bookFormat: broché
+  genre: [sources]
+  isbn: ''
+  image: http://books.google.com/books/content?id=lW_HS7VcyKMC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: LYNCH Barbara A.
+  name: 'War at Sea: France and American Revolution — Bibliographie'
+  publisher: ''
+  datePublished:
+  inLanguage: en
+  numberOfPages: 48
+  bookFormat: broché
+  genre: [sources]
+  isbn: ''
+  image: ''
+  description: ''
+- author: OLIVIER Philippe
+  name: Bibliographie des travaux (tome 1) relatifs aux relations France-USA
+  publisher: Amateurs du Livre
+  datePublished: 1990
+  inLanguage: fr
+  numberOfPages: 427
+  bookFormat: broché
+  genre: [sources]
   isbn: '9782252028360'
+  image: http://books.google.com/books/content?id=5IwuAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: OLIVIER Philippe
+  name: Bibliographie des travaux (tome 2-1) relatifs aux relations France-USA
+  publisher: Amateurs du Livre
+  datePublished: 1990
+  inLanguage: fr
+  numberOfPages: 271
+  bookFormat: broché
+  genre: [sources]
+  isbn: '9782252028360'
+  image: http://books.google.com/books/content?id=5IwuAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: "Marine Américaine 2 siècles d'histoire (catalogue)"
+  publisher: Musée de la Marine
+  datePublished: 1963
+  inLanguage: fr
+  numberOfPages: 30
+  bookFormat: broché
+  genre: [catalogues]
+  isbn: '9782307610236'
+  image: http://books.google.com/books/content?id=KVwvSpAvJowC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Américains et la Révolution Française (les)
+  publisher: Réunion des Musées Nationaux
+  datePublished: 1989
+  inLanguage: fr
+  numberOfPages: 114
+  bookFormat: broché
+  genre: [catalogues]
+  isbn: '9782711877188'
+  image: http://books.google.com/books/content?id=_hIBEQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Benjamin Franklin, un américain à Paris
+  publisher: Paris Musées Éditions
+  datePublished: 2007
+  inLanguage: fr
+  numberOfPages: 271
+  bookFormat: cartonné
+  genre: [catalogues]
+  isbn: ''
+  image: http://books.google.com/books/content?id=FSt3AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: "Rochambeau 1807-2007. Catalogue de l'exposition"
+  publisher: Société Archéologique, Scientifique et Littéraire du Vendômois
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 70
+  bookFormat: broché
+  genre: [catalogues]
+  isbn: ''
+  image: http://books.google.com/books/content?id=OBjkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Vergennes et la Politique Etrangère de la France
+  publisher: Musée Galliéra
+  datePublished: 1987
+  inLanguage: fr
+  numberOfPages: 77
+  bookFormat: broché
+  genre: [catalogues]
+  isbn: '9782867811289'
+  image: http://books.google.com/books/content?id=tdfm51LGrn0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: Collectif
+  name: "Chronique d'Histoire Maritime n° 91 (2021)"
+  publisher: "Société Française d'Histoire Maritime"
+  datePublished: 2021
+  inLanguage: fr
+  numberOfPages: 190
+  bookFormat: broché
+  genre: [revues]
+  isbn: '9782021545326'
+  image: http://books.google.com/books/content?id=Iv7xEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: Collectif
+  name: "Guerre d'Amérique (la) n° Spécial n°35 du carnet de la Sabretache"
+  publisher: Sabretache
+  datePublished: 1976
+  inLanguage: fr
+  numberOfPages: 52
+  bookFormat: broché
+  genre: [revues]
+  isbn: ''
+  image: http://books.google.com/books/content?id=PwsvAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Naissance de La Fayette (200ème anniversaire)
+  publisher: Revue France-Amérique
+  datePublished: 1957
+  inLanguage: fr
+  numberOfPages: 87
+  bookFormat: broché
+  genre: [revues]
+  isbn: ''
+  image: ''
+  description: ''
+- author: Collectif
+  name: Sea History — Hermione arrivée
+  publisher: ''
+  datePublished: 2015
+  inLanguage: en
+  numberOfPages: 55
+  bookFormat: broché
+  genre: [revues]
+  isbn: ''
+  image: http://books.google.com/books/content?id=4argAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: BEIGBEDER Frédéric
+  name: Windows on the world (Traduit du français)
+  publisher: Miramax Books, London / New York
+  datePublished: 2005
+  inLanguage: en
+  numberOfPages: 312
+  bookFormat: broché
+  genre: [divers]
+  isbn: '9781401352233'
+  image: http://books.google.com/books/content?id=DqhE3-fW-YIC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: BLANCHARD-DIGNAC Denis
+  name: Gardien (le)
+  publisher: La Bruyère
+  datePublished: 2003
+  inLanguage: fr
+  numberOfPages: 117
+  bookFormat: broché
+  genre: [divers]
+  isbn: ''
+  image: ''
+  description: ''
+- author: DELALANDE Arnaud
+  name: Notre espion en Amérique (roman hist.)
+  publisher: Grasset
+  datePublished: 2013
+  inLanguage: fr
+  numberOfPages: 409
+  bookFormat: broché
+  genre: [divers]
+  isbn: '9782246804284'
+  image: http://books.google.com/books/content?id=_I-YeUYIHSwC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: ROOSEVELT Elliott
+  name: "Mon père m'a dit"
+  publisher: Flammarion
+  datePublished: 1947
+  inLanguage: fr
+  numberOfPages: 305
+  bookFormat: broché
+  genre: [divers]
+  isbn: '9791092732276'
+  image: ''
+  description: ''
+- author: VEDRINE Hubert
+  name: Le temps des Chimères
+  publisher: Fayard
+  datePublished: 2009
+  inLanguage: fr
+  numberOfPages: 448
+  bookFormat: broché
+  genre: [divers]
+  isbn: ''
+  image: ''
+  description: ''
+- author: FLEURIOT de LANGLE
+  name: La Fayette, Marquis démocrate (article)
+  publisher: "Miroir de l'Histoire"
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 6
+  bookFormat: agrafé
+  genre: [biographie]
+  isbn: ''
+  image: ''
+  description: ''
+- author: LE BÉVILLON Hervé
+  name: Colonel Armand
+  publisher: Yohann embanner
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 167
+  bookFormat: broché
+  genre: [biographie]
+  isbn: '9782952144629'
+  image: ''
+  description: ''
+- author: MEHRINGER Otto
+  name: Dentzel Georg Friedrich
+  publisher: Evangelischer Press
+  datePublished:
+  inLanguage: de
+  numberOfPages: 200
+  bookFormat: broché
+  genre: [biographie]
+  isbn: ''
+  image: http://books.google.com/books/content?id=0OYJzDb5zQgC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: PRADEL de LAMAZE Martial
+  name: Chevalier de Pradel (le) 1692-1764
+  publisher: E. Champion
+  datePublished: 1920
+  inLanguage: fr
+  numberOfPages: 25
+  bookFormat: broché
+  genre: [biographie]
+  isbn: ''
+  image: ''
+  description: ''
+- author: RICARDI Carlos Pesardo de
+  name: Aventurero a Capitan
+  publisher: Ass. Mémoire J de Liniers
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 111
+  bookFormat: broché
+  genre: [biographie]
+  isbn: ''
+  image: ''
+  description: ''
+- author: CAUSSÉ PC
+  name: Album de Marin
+  publisher: Inten Livres
+  datePublished: 1836
+  inLanguage: fr
+  numberOfPages: 101
+  bookFormat: broché
+  genre: [marine]
+  isbn: '9782019228101'
+  image: http://books.google.com/books/content?id=rnTrtwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: GEGIN E.
+  name: "La Marine Française dans l'Atlantique et la mer des Indes"
+  publisher: Dutilleul Douai
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 34
+  bookFormat: photocopie
+  genre: [marine]
+  isbn: ''
+  image: ''
+  description: ''
+- author: IRELAND Jr Charles E.
+  name: Mallets, Chisels and Plans. The building of the tall ship
+  publisher: Cedar Tree books
+  datePublished:
+  inLanguage: en
+  numberOfPages: 64
+  bookFormat: broché
+  genre: [marine]
+  isbn: '9781892142191'
+  image: ''
+  description: ''
+- author: MARVEL William
+  name: "Monitor Chronicles, One sailor's Account"
+  publisher: "Mariner's Museum"
+  datePublished:
+  inLanguage: en
+  numberOfPages: 272
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: '9780547487144'
+  image: http://books.google.com/books/content?id=a5gIg9Qnxn4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: PENTHIÈVRE Duc de
+  name: Règlement pour le service à la mer des régiments
+  publisher: Imp. Royale
+  datePublished: 1788
+  inLanguage: fr
+  numberOfPages: 30
+  bookFormat: vrac
+  genre: [marine]
+  isbn: ''
+  image: ''
+  description: ''
+- author: VICHOT Jacques
+  name: Deux albums de Nicolas Ozanne
+  publisher: amis Musée de la Marine
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 76
+  bookFormat: broché
+  genre: [marine]
+  isbn: ''
+  image: ''
+  description: ''
+- author: VICHOT Jacques
+  name: Navires de guerre Français (répertoire)
+  publisher: Extraits
+  datePublished:
+  inLanguage: fr
+  numberOfPages:
+  bookFormat: photocopie
+  genre: [marine]
+  isbn: ''
+  image: ''
+  description: ''
+- author: VILLIERS Patrick
+  name: "L'Hermione : Lafayette, Latouche Tréville"
+  publisher: Ancre
+  datePublished: 2015
+  inLanguage: fr
+  numberOfPages: 214
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: '9782903179854'
+  image: ''
+  description: ''
+- author: Collectif
+  name: 'America: Ships on the line'
+  publisher: Naval History Division
+  datePublished:
+  inLanguage: en
+  numberOfPages: 44
+  bookFormat: broché
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=W7p2eIKhQhwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: Collectif
+  name: 'Atlas 18th century: American Revolution 1775-1783'
+  publisher: Naval History Division
+  datePublished:
+  inLanguage: en
+  numberOfPages: 20
+  bookFormat: cartonné
+  genre: [marine]
+  isbn: ''
+  image: http://books.google.com/books/content?id=6Ks9AAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: BLANCHARD-DIGNAC
+  name: "Impromptu à l'Hôtel de Bourienne (Théâtre)"
+  publisher: Blanchard Dignac
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 34
+  bookFormat: broché
+  genre: [gia]
+  isbn: ''
+  image: ''
+  description: ''
+- author: CUTLER Anne
+  name: Les 137 soldats français dans un cimetière de Williamsburg
+  publisher: ''
+  datePublished:
+  inLanguage: en
+  numberOfPages: 5
+  bookFormat: chemise
+  genre: [gia]
+  isbn: ''
+  image: ''
+  description: ''
+- author: FONTENAU
+  name: Le Havre au temps de la GIA
+  publisher: ''
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 25
+  bookFormat: chemise
+  genre: [gia]
+  isbn: ''
+  image: ''
+  description: ''
+- author: HOLMES Jack D.L.
+  name: Louisiana Infantry Regiment and the Militia Companies
+  publisher: Birmingham
+  datePublished: 1965
+  inLanguage: en
+  numberOfPages: 257
+  bookFormat: feuilles volantes
+  genre: [gia]
+  isbn: ''
+  image: http://books.google.com/books/content?id=Zohr10ydH2YC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: HUET de FROBERVILLE Barth.
+  name: "Guerre de 1780 dans l'Inde"
+  publisher: Imp Rollin
+  datePublished: 1986
+  inLanguage: fr
+  numberOfPages: 232
+  bookFormat: broché
+  genre: [gia]
+  isbn: '9782950117403'
+  image: ''
+  description: ''
+- author: LANGLET Jean
+  name: "Les Ingénieurs de Mézières et la manufacture d'armes"
+  publisher: RH Ardennes
+  datePublished: 1999
+  inLanguage: fr
+  numberOfPages: 20
+  bookFormat: broché
+  genre: [gia]
+  isbn: ''
+  image: ''
+  description: ''
+- author: LAWRENCE Alexander A.
+  name: Storm over Savanah
+  publisher: Tara press
+  datePublished: 1979
+  inLanguage: en
+  numberOfPages: 177
+  bookFormat: broché
+  genre: [gia]
+  isbn: '9780820359458'
+  image: http://books.google.com/books/content?id=2SVJEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: LOVELAND Anne
+  name: American perceptions of La Fayette
+  publisher: American Society of the Legion of Honor
+  datePublished:
+  inLanguage: en
+  numberOfPages: 16
+  bookFormat: broché
+  genre: [gia]
+  isbn: '9780807124628'
+  image: http://books.google.com/books/content?id=r5uqsO1KQ5YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: MARSAN Jules
+  name: Beaumarchais et les affaires américaines
+  publisher: E. Champion
+  datePublished: 1919
+  inLanguage: fr
+  numberOfPages: 61
+  bookFormat: cartonné
+  genre: [gia]
+  isbn: ''
+  image: http://books.google.com/books/content?id=MeU-AAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: RALPH Alta M.
+  name: Refugees from France to America in struggle for Independance
+  publisher: ''
+  datePublished: 1993
+  inLanguage: en
+  numberOfPages: 22
+  bookFormat: broché
+  genre: [gia]
+  isbn: ''
+  image: ''
+  description: ''
+- author: REID John Phillip
+  name: Concept of liberty in the age of the American Revolution
+  publisher: University of Chicago
+  datePublished:
+  inLanguage: en
+  numberOfPages: 224
+  bookFormat: cartonné
+  genre: [gia]
+  isbn: '9780226708966'
+  image: http://books.google.com/books/content?id=wx-dwgJYcjMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: REID John Phillip
+  name: Concept of Representation in the age of the American Revolution
+  publisher: University of Chicago
+  datePublished: 1989
+  inLanguage: en
+  numberOfPages: 251
+  bookFormat: broché
+  genre: [gia]
+  isbn: '9780316088220'
+  image: ''
+  description: ''
+- author: ROUZEAU Léon
+  name: "Aperçus du rôle de Nantes dans la guerre d'indépendance américaine"
+  publisher: Sté Archéologique et Historique de Nantes
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 67
+  bookFormat: broché
+  genre: [gia]
+  isbn: ''
+  image: ''
+  description: ''
+- author: Collectif
+  name: Journal Historique de 1781 à la paix
+  publisher: Bernard Desthieux
+  datePublished:
+  inLanguage: fr
+  numberOfPages:
+  bookFormat: microfilm
+  genre: [gia]
+  isbn: ''
+  image: http://books.google.com/books/content?id=OMsWAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Traité de Paris entre le Roi et le Roi de Grande-Bretagne
+  publisher: Affaires Étrangères
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 12
+  bookFormat: broché
+  genre: [gia]
+  isbn: ''
+  image: http://books.google.com/books/content?id=1AdBAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Join or die. Etude des événements prérévolutionnaires
+  publisher: ''
+  datePublished:
+  inLanguage: en
+  numberOfPages: 101
+  bookFormat: broché
+  genre: [gia]
+  isbn: ''
+  image: ''
+  description: ''
+- author: FLEURIOT de LANGLE
+  name: Maréchal de Castries (le) (article)
+  publisher: "Miroir de l'Histoire"
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 8
+  bookFormat: agrafé
+  genre: [gia]
+  isbn: '9782706223433'
+  image: http://books.google.com/books/content?id=e3GJDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: CASTRIES duc de
+  name: "Guerre d'indépendance (la) II La diversion sur l'Angleterre"
+  publisher: ''
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 8
+  bookFormat: agrafé
+  genre: [gia]
+  isbn: '9782262053772'
+  image: http://books.google.com/books/content?id=McV2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: ANTONINI Luc
+  name: Une grande famille provençale Les SUFFREN
+  publisher: L. Antonini
+  datePublished: 2010
+  inLanguage: fr
+  numberOfPages: 170
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: '9782950893048'
+  image: ''
+  description: ''
+- author: BERTIN Général Pierre
+  name: Fantassin de France (le)
+  publisher: Ministère de la Défense
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 261
+  bookFormat: cartonné
+  genre: [histoire-generale]
+  isbn: '9782402133098'
+  image: http://books.google.com/books/content?id=SbJYDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: BORDENOVE Georges
+  name: "Jeanne d'Arc"
+  publisher: Pygmalion
+  datePublished: 1994
+  inLanguage: fr
+  numberOfPages: 456
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: ''
+  image: ''
+  description: ''
+- author: CAZOTTE Jacques de
+  name: "Le juge James Kent à l'aube de la nation américaine"
+  publisher: Maisonneuve et Larose
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 317
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: '9782706811838'
+  image: ''
+  description: ''
+- author: CHAITKIN Anton
+  name: Treason in America from Aaron Burr to Averell Harriman
+  publisher: New Benjamin Franklin House
+  datePublished:
+  inLanguage: en
+  numberOfPages: 607
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: ''
+  image: http://books.google.com/books/content?id=dgmDCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: CHARTRAND René
+  name: The French soldier in colonial service
+  publisher: Osprey
+  datePublished:
+  inLanguage: en
+  numberOfPages: 40
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: '9780919316188'
+  image: ''
+  description: ''
+- author: CHURLET Colonel
+  name: Bazeilles 31 août-1er septembre 1871
+  publisher: Comité National des Traditions
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 60
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: ''
+  image: ''
+  description: ''
+- author: CLARKE de DROMANTIN
+  name: Les réfugiés Jacobites dans la France du 18ème siècle
+  publisher: Presses Universitaires de Bordeaux
+  datePublished: 2008
+  inLanguage: fr
+  numberOfPages: 525
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: '9782867813627'
+  image: http://books.google.com/books/content?id=_dPyI1WvuVcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: DELOBETTE E.
+  name: Ces Messieurs du Hâvre 1680-1830
+  publisher: ''
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 35
+  bookFormat: chemise
+  genre: [histoire-generale]
+  isbn: ''
+  image: ''
+  description: ''
+- author: GAMARD Jean
+  name: "Journal de T. Jefferson 1787-1788. À travers l'Europe et les vignobles"
+  publisher: ''
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 142
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: ''
+  image: ''
+  description: ''
+- author: IANNI Francis A.
+  name: World War One Remembered
+  publisher: Delaware Heritage Commission
+  datePublished:
+  inLanguage: en
+  numberOfPages: 80
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: '9780924117053'
+  image: ''
+  description: ''
+- author: JOSSERAND JJ.
+  name: En Amérique jadis et maintenant
+  publisher: Hachette
+  datePublished: 1918
+  inLanguage: fr
+  numberOfPages: 370
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: ''
+  image: ''
+  description: ''
+- author: LORBLANCHES J-Claude
+  name: Soldats de Napoléon aux Amériques
+  publisher: "L'Harmattan"
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 268
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: '9782296495289'
+  image: http://books.google.com/books/content?id=IZelairvpCwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: NUSSBAUM
+  name: Talleyrand in America Letters and memories (1794-1796)
+  publisher: Ward and C°
+  datePublished:
+  inLanguage: en
+  numberOfPages: 182
+  bookFormat: cartonné
+  genre: [histoire-generale]
+  isbn: ''
+  image: ''
+  description: ''
+- author: PINASSEAU Jean
+  name: "Emigration militaire (l'). Campagne de 1792. Notice de A à C"
+  publisher: Picard
+  datePublished: 1957
+  inLanguage: fr
+  numberOfPages: 171
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: ''
+  image: ''
+  description: ''
+- author: PINASSEAU Jean
+  name: "Emigration militaire (l'). Campagne de 1792. Notice de D à K"
+  publisher: Picard
+  datePublished: 1964
+  inLanguage: fr
+  numberOfPages: 251
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: ''
+  image: http://books.google.com/books/content?id=-22XpQwlpoMC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: PINASSEAU Jean
+  name: "Emigration militaire (l'). L'armée des princes. Compagnies"
+  publisher: Picard
+  datePublished: 1971
+  inLanguage: fr
+  numberOfPages: 95
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: ''
+  image: http://books.google.com/books/content?id=Ts4AAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: PRADEL de LAMAZE Martial
+  name: Lettres Louisianaises du Chevalier de Pradel
+  publisher: Imprimerie Nationale
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 16
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: ''
+  image: ''
+  description: ''
+- author: RODE Iris de
+  name: François Jean de Chastellux (thèse)
+  publisher: Université Paris 8
+  datePublished: 2019
+  inLanguage: fr
+  numberOfPages: 557
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: ''
+  image: ''
+  description: ''
+- author: RODE Iris de
+  name: François Jean de Chastellux (Annexes)
+  publisher: Université Paris 8
+  datePublished: 2019
+  inLanguage: fr
+  numberOfPages: 165
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: ''
+  image: ''
+  description: ''
+- author: ROCKFELLER N. et CHAMBRUN
+  name: "L'Amérique et la France / Le souvenir de Lafayette"
+  publisher: Revue des deux mondes
+  datePublished:
+  inLanguage: fr
+  numberOfPages:
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: ''
+  image: ''
+  description: ''
+- author: ROYER-PANTIN Anne-Marie
+  name: Phitiviers (Personnalités dont du Portail)
+  publisher: Municipalité Pithiviers
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 191
+  bookFormat: cartonné
+  genre: [histoire-generale]
+  isbn: ''
+  image: ''
+  description: ''
+- author: SCHALK de la FAVERIE
+  name: "Normands et la découverte de l'Amérique au Xème siècle"
+  publisher: Ficher Paris
+  datePublished: 1912
+  inLanguage: fr
+  numberOfPages: 23
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: ''
+  image: ''
+  description: ''
+- author: TROCME H. et ONTAGUTELLE
+  name: Les grandes dates des Etats-Unis
+  publisher: Larousse
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 256
+  bookFormat: cartonné
+  genre: [histoire-generale]
+  isbn: ''
+  image: ''
+  description: ''
+- author: Collectif
+  name: Les Hôtels de la Guerre et des Affaires Étrangères
+  publisher: Versailles
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 279
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: '9782350390918'
+  image: ''
+  description: ''
+- author: Collectif
+  name: Les victimes de Picpus
+  publisher: Souvenir de Picpus
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 80
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: '9781019489635'
+  image: http://books.google.com/books/content?id=rZ090AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Naissance de la Louisiane 1682-1731
+  publisher: Ministère de la Culture
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 127
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: '9782905118561'
+  image: ''
+  description: ''
+- author: Collectif
+  name: History of the Louisiana Society SAR. The first 100 years
+  publisher: LS SAR
+  datePublished: 1997
+  inLanguage: en
+  numberOfPages: 140
+  bookFormat: cartonné
+  genre: [histoire-generale]
+  isbn: '9781563110283'
+  image: http://books.google.com/books/content?id=8Jyj2TEPgNsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Declaration of independance and constitution des EU
+  publisher: NASAR
+  datePublished:
+  inLanguage: en
+  numberOfPages: 48
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: '9781509906741'
+  image: http://books.google.com/books/content?id=302FEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: GALBRAITH Marie
+  name: Résidences des Ambassadeurs américains à Paris
+  publisher: Les amis du 41
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 52
+  bookFormat: broché
+  genre: [lieux-historiques]
+  isbn: '9782950085504'
+  image: ''
+  description: ''
+- author: GAUDON Henri
+  name: "Les lieux de mémoire 14-18 dans le sud de l'Aisne"
+  publisher: Photoweb
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 30
+  bookFormat: broché
+  genre: [lieux-historiques]
+  isbn: ''
+  image: ''
+  description: ''
+- author: GUICHEN H. et SAINT HELY
+  name: Following Patrouille de France aux US
+  publisher: ''
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 319
+  bookFormat: cartonné
+  genre: [lieux-historiques]
+  isbn: '9782918734444'
+  image: ''
+  description: ''
+- author: JOUVE D. and A. et GROSSMAN
+  name: 'Parcs: Birthplace of the USA. A Walking guide'
+  publisher: Gründ
+  datePublished: 2006
+  inLanguage: en
+  numberOfPages: 101
+  bookFormat: broché
+  genre: [lieux-historiques]
+  isbn: ''
+  image: ''
+  description: ''
+- author: MILLER LH et EMGARTH A.
+  name: French Philadelphie
+  publisher: Alliance Française
+  datePublished:
+  inLanguage: en
+  numberOfPages: 118
+  bookFormat: broché
+  genre: [lieux-historiques]
+  isbn: '9780822341512'
+  image: http://books.google.com/books/content?id=480BBURkreYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: Collectif
+  name: American Ambassadors Residence in Paris
+  publisher: Ambassade US
+  datePublished:
+  inLanguage: en
+  numberOfPages: 50
+  bookFormat: cartonné
+  genre: [lieux-historiques]
+  isbn: ''
+  image: http://books.google.com/books/content?id=OotNYNf766AC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: La Route des Canons
+  publisher: CR Fonderies du Patrimoine
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 14
+  bookFormat: agrafé
+  genre: [lieux-historiques]
+  isbn: '9782952011709'
+  image: ''
+  description: ''
+- author: Collectif
+  name: Colonial Williamsburg official guide
+  publisher: Colonial Williamsburg Foundation
+  datePublished:
+  inLanguage: en
+  numberOfPages: 255
+  bookFormat: broché
+  genre: [lieux-historiques]
+  isbn: '9780879351854'
+  image: ''
+  description: ''
+- author: Collectif
+  name: Sites commémoratifs 1ère Guerre Mondiale
+  publisher: American Battles Monuments Commission
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 39
+  bookFormat: broché
+  genre: [lieux-historiques]
+  isbn: '9782803103553'
+  image: http://books.google.com/books/content?id=x7rgDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: CERTAINES Marquis de
+  name: Les Dillon en France
+  publisher: Nevers
+  datePublished: 1982
+  inLanguage: fr
+  numberOfPages: 188
+  bookFormat: broché
+  genre: [genealogie]
+  isbn: ''
+  image: ''
+  description: ''
+- author: FARGES Dr Florent
+  name: Le Général Laprun et sa descendance
+  publisher: Micoline
+  datePublished: 2012
+  inLanguage: fr
+  numberOfPages: 318
+  bookFormat: broché
+  genre: [genealogie]
+  isbn: '9782953492699'
+  image: ''
+  description: ''
+- author: FERRAND de CANTEL
+  name: "L'histoire de notre Famille"
+  publisher: auteur
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 499
+  bookFormat: broché
+  genre: [genealogie]
+  isbn: ''
+  image: http://books.google.com/books/content?id=ydBAAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: JAYET E. et SAINT-GIRONS
+  name: "La descendance d'Antoine d'Aure"
+  publisher: glyphe
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 820
+  bookFormat: broché
+  genre: [genealogie]
+  isbn: '9782358160568'
+  image: ''
+  description: ''
+- author: MALLERAY B. et ROSTOLLA
+  name: Annales des Familles de France 1991-1995
+  publisher: Éditions des familles
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 850
+  bookFormat: relié
+  genre: [genealogie]
+  isbn: ''
+  image: ''
+  description: ''
+- author: MALLERAY B. et ROSTOLLA
+  name: Annales des Familles de France 1996-2000
+  publisher: Éditions des familles
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 850
+  bookFormat: relié
+  genre: [genealogie]
+  isbn: ''
+  image: ''
+  description: ''
+- author: MALLERAY B. et ROSTOLLA
+  name: Annales des Familles de France 2001-2005
+  publisher: Éditions des familles
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 850
+  bookFormat: relié
+  genre: [genealogie]
+  isbn: ''
+  image: ''
+  description: ''
+- author: PERCIN Collectif famille
+  name: Histoire et Généalogie de la maison de Percin de la bataille
+  publisher: AMFP
+  datePublished: 2000
+  inLanguage: fr
+  numberOfPages: 365
+  bookFormat: broché
+  genre: [genealogie]
+  isbn: ''
+  image: ''
+  description: ''
+- author: ROCHE de VERCORS François
+  name: Armoires et généalogies des personnes pélerines
+  publisher: "Ass familiale d'Hostel"
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 352
+  bookFormat: broché
+  genre: [genealogie]
+  isbn: ''
+  image: ''
+  description: ''
+- author: Collectif
+  name: Roster 2016 Cincinnati Society
+  publisher: Cincinnati Society
+  datePublished: 2016
+  inLanguage: en
+  numberOfPages: 330
+  bookFormat: broché
+  genre: [genealogie]
+  isbn: ''
+  image: http://books.google.com/books/content?id=_89OAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: X
+  name: SAR New-York Society Yearbook 1896
+  publisher: NY Society
+  datePublished: 1896
+  inLanguage: en
+  numberOfPages: 539
+  bookFormat: cartonné
+  genre: [genealogie]
+  isbn: ''
+  image: http://books.google.com/books/content?id=2gPWgNbj7HMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: X
+  name: National Society of the SAR 2006
+  publisher: NY Society
+  datePublished: 2006
+  inLanguage: en
+  numberOfPages: 1004
+  bookFormat: broché
+  genre: [genealogie]
+  isbn: '9783030682651'
+  image: http://books.google.com/books/content?id=u8IkEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: DURIEUX Joseph
+  name: Combattants périgourdins dans la GIA
+  publisher: Perigueux
+  datePublished: 1907
+  inLanguage: fr
+  numberOfPages: 15
+  bookFormat: photocopie
+  genre: [repertoires]
+  isbn: ''
+  image: ''
+  description: ''
+- author: DURIEUX Joseph
+  name: Combattants Limousins dans la GIA
+  publisher: Brive
+  datePublished: 1915
+  inLanguage: fr
+  numberOfPages: 35
+  bookFormat: photocopie
+  genre: [repertoires]
+  isbn: ''
+  image: ''
+  description: ''
+- author: GRANVILLE W. et HOUGH
+  name: Spains Louisiana Patriots in its 1779-1783 War with England
+  publisher: SHHAR
+  datePublished: 2000
+  inLanguage: en
+  numberOfPages: 198
+  bookFormat: broché
+  genre: [repertoires]
+  isbn: ''
+  image: ''
+  description: ''
+- author: KELLY Jr Julien D.
+  name: French Casualties during the siege of Savanah
+  publisher: Priv. Printed
+  datePublished: 1989
+  inLanguage: en
+  numberOfPages: 49
+  bookFormat: agrafé
+  genre: [repertoires]
+  isbn: ''
+  image: ''
+  description: ''
+- author: ROUSSEL M. de
+  name: "Etat Militaire de la France pour l'année 1791"
+  publisher: copie
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 200
+  bookFormat: photocopie
+  genre: [repertoires]
+  isbn: ''
+  image: http://books.google.com/books/content?id=vvDiGmgT1H4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: WARRINGTON DAWSON
+  name: "Français morts pour l'indépendance américaine (les)"
+  publisher: "L'œuvre latine"
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 14
+  bookFormat: agrafé
+  genre: [repertoires]
+  isbn: ''
+  image: http://books.google.com/books/content?id=UOwQAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: BELAK G.E. et ROWAN R.
+  name: Register of their Papers in Library of Congress
+  publisher: Naval History Foundation
+  datePublished:
+  inLanguage: en
+  numberOfPages: 15
+  bookFormat: broché
+  genre: [sources]
+  isbn: ''
+  image: ''
+  description: ''
+- author: CALLAN et WATSON
+  name: Register of their pages
+  publisher: Naval History Foundation
+  datePublished:
+  inLanguage: en
+  numberOfPages: 14
+  bookFormat: broché
+  genre: [sources]
+  isbn: ''
+  image: ''
+  description: ''
+- author: GIUSEPI RSA
+  name: Manuscrits in the Public Record Office tome 1
+  publisher: HMS Stationnery Office
+  datePublished:
+  inLanguage: en
+  numberOfPages: 411
+  bookFormat: cartonné
+  genre: [sources]
+  isbn: ''
+  image: ''
+  description: ''
+- author: GIUSEPI RSA
+  name: Manuscrits in the Public Record Office tome 2
+  publisher: HMS Stationnery Office
+  datePublished:
+  inLanguage: en
+  numberOfPages: 261
+  bookFormat: cartonné
+  genre: [sources]
+  isbn: ''
+  image: ''
+  description: ''
+- author: HAMER Ph. M
+  name: Guide to archives and manuscripts in USA
+  publisher: Yale University
+  datePublished: 1961
+  inLanguage: en
+  numberOfPages: 775
+  bookFormat: cartonné
+  genre: [sources]
+  isbn: ''
+  image: http://books.google.com/books/content?id=ugC8jJByLO4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: LELAND W.G
+  name: Guide to materials for American History in the Libraries and Archives
+  publisher: Carnegie Institution
+  datePublished:
+  inLanguage: en
+  numberOfPages: 343
+  bookFormat: cartonné
+  genre: [sources]
+  isbn: '9781258532901'
+  image: http://books.google.com/books/content?id=jXW9mAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: SELLERS D.F et LUCE S.B.
+  name: Register of their Papers in Library of Congress
+  publisher: Naval History Foundation
+  datePublished:
+  inLanguage: en
+  numberOfPages: 17
+  bookFormat: broché
+  genre: [sources]
+  isbn: '9781434426017'
+  image: http://books.google.com/books/content?id=gyh9byvtAVcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: SHUFELDT R.W.
+  name: Register of their Papers in Library of Congress
+  publisher: Naval History Foundation
+  datePublished:
+  inLanguage: en
+  numberOfPages: 11
+  bookFormat: broché
+  genre: [sources]
+  isbn: ''
+  image: ''
+  description: ''
+- author: Collectif
+  name: American archivist (the) volume 39
+  publisher: SAA
+  datePublished: 1976
+  inLanguage: en
+  numberOfPages: 155
+  bookFormat: broché
+  genre: [sources]
+  isbn: ''
+  image: http://books.google.com/books/content?id=IVjiAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: US Naval history sources in the USA
+  publisher: Naval History Division
+  datePublished:
+  inLanguage: en
+  numberOfPages: 235
+  bookFormat: broché
+  genre: [sources]
+  isbn: ''
+  image: http://books.google.com/books/content?id=Ollf1k0KPQMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Changing interpretation of new sources in Naval History
+  publisher: Garland
+  datePublished: 1980
+  inLanguage: en
+  numberOfPages: 471
+  bookFormat: cartonné
+  genre: [sources]
+  isbn: ''
+  image: http://books.google.com/books/content?id=SCiaMebiXlIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Naval Historical Foundation Manuscripts (catalogue)
+  publisher: Library of Congress
+  datePublished:
+  inLanguage: en
+  numberOfPages: 136
+  bookFormat: cartonné
+  genre: [sources]
+  isbn: ''
+  image: http://books.google.com/books/content?id=Rl5ZbjJG8A8C&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Choix bibliographiques Alliance militaire Franco-Américaine 1778-1783
+  publisher: ''
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 16
+  bookFormat: photocopie
+  genre: [sources]
+  isbn: ''
+  image: ''
+  description: ''
+- author: Collectif
+  name: British story of the American Revolution
+  publisher: National Maritime Museum
+  datePublished:
+  inLanguage: en
+  numberOfPages: 231
+  bookFormat: broché
+  genre: [catalogues]
+  isbn: ''
+  image: http://books.google.com/books/content?id=D2RHAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: Collectif
+  name: In Grateful Remembrance. An exhibition of portraits
+  publisher: ''
+  datePublished: 1976
+  inLanguage: en
+  numberOfPages: 129
+  bookFormat: broché
+  genre: [catalogues]
+  isbn: ''
+  image: http://books.google.com/books/content?id=bqECAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Europe et Défense (colloque 1999)
+  publisher: Sté Historique et Archéologique de Nantes
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 130
+  bookFormat: broché
+  genre: [catalogues]
+  isbn: '9782753523852'
+  image: http://books.google.com/books/content?id=dzURCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Archives au fil du temps (les). Colloque
+  publisher: Perrin
+  datePublished: 2002
+  inLanguage: fr
+  numberOfPages: 242
+  bookFormat: broché
+  genre: [catalogues]
+  isbn: ''
+  image: ''
+  description: ''
+- author: Collectif
+  name: Financement et gestion de la Culture aux Etats-Unis et en France
+  publisher: Éditions de Bercy
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 246
+  bookFormat: broché
+  genre: [catalogues]
+  isbn: '9782110944351'
+  image: ''
+  description: ''
+- author: Collectif
+  name: Voyages, Géographie, Marine, America (catalogue)
+  publisher: Chamoneau
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 225
+  bookFormat: broché
+  genre: [catalogues]
+  isbn: ''
+  image: http://books.google.com/books/content?id=V4iYHdww49MC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Les Marines, Le renouveau de la Puissance Navale Française
+  publisher: Cincinnati Colloque
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 25
+  bookFormat: broché
+  genre: [catalogues]
+  isbn: '9782307045557'
+  image: http://books.google.com/books/content?id=NQ_YDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Les Marines, Leur mise en œuvre opérationnelle
+  publisher: Cincinnati Colloque
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 27
+  bookFormat: broché
+  genre: [catalogues]
+  isbn: '9782759241767'
+  image: http://books.google.com/books/content?id=jxmeEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Fifty contemporary american artists (painting and sculpture)
+  publisher: Greenwich Gallery
+  datePublished:
+  inLanguage: en
+  numberOfPages: 96
+  bookFormat: broché
+  genre: [catalogues]
+  isbn: '9780300243307'
+  image: http://books.google.com/books/content?id=ZaLQDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Les Collections Aristophil OVA ventes
+  publisher: ''
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 240
+  bookFormat: broché
+  genre: [catalogues]
+  isbn: ''
+  image: ''
+  description: ''
+- author: Collectif
+  name: Les Collections Aristophil Lettres et manuscrits
+  publisher: Salle Favart
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 168
+  bookFormat: broché
+  genre: [catalogues]
+  isbn: ''
+  image: ''
+  description: ''
+- author: Collectif
+  name: La Marine Française et ses théâtres dans la GIA
+  publisher: Col Marine Entreprises
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 49
+  bookFormat: broché
+  genre: [catalogues]
+  isbn: '9782262078607'
+  image: http://books.google.com/books/content?id=PYmWDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: Collectif
+  name: Collection J. Patou (lettres La Fayette)
+  publisher: P. Bergé et Associés
+  datePublished: 2015
+  inLanguage: fr
+  numberOfPages: 235
+  bookFormat: broché
+  genre: [catalogues]
+  isbn: '9782213703107'
+  image: http://books.google.com/books/content?id=MCONDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: FIGEAC-MONTHUS M.
+  name: Patrimoines viticoles du Sud-Ouest
+  publisher: Fédération Historique du Sud-Ouest
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 381
+  bookFormat: broché
+  genre: [catalogues]
+  isbn: '9782351561515'
+  image: ''
+  description: ''
+- author: JOHNSTON M.
+  name: Organisations Franco-Américaines (répertoire des)
+  publisher: Fondation France-Amérique
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 84
+  bookFormat: broché
+  genre: [catalogues]
+  isbn: ''
+  image: ''
+  description: ''
+- author: NSSAR
+  name: The Marquis de La Fayette and the european Friends of America
+  publisher: SAR Conference
+  datePublished: 2015
+  inLanguage: en
+  numberOfPages: 18
+  bookFormat: broché
+  genre: [catalogues]
+  isbn: ''
+  image: ''
+  description: ''
+- author: SOULIGAN Yves
+  name: Les Compagnons de La Fayette (expo Le Puy 1976)
+  publisher: Ass des cahiers de la Haute-Loire
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 20
+  bookFormat: broché
+  genre: [catalogues]
+  isbn: ''
+  image: ''
+  description: ''
+- author: VERGENNES Ch.Ph.
+  name: "Le marin français dans la Guerre d'Indépendance"
+  publisher: Colloque 2006
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 15
+  bookFormat: broché
+  genre: [catalogues]
+  isbn: '9791023104929'
+  image: ''
+  description: ''
+- author: PRITCHARD J.
+  name: French strategy in the American Revolution (article)
+  publisher: Naval War College Review
+  datePublished:
+  inLanguage: en
+  numberOfPages: 26
+  bookFormat: broché
+  genre: [revues]
+  isbn: ''
+  image: ''
+  description: ''
+- author: ROCKFELLER Nelson A.
+  name: Bicentenaire de la Révolution Américaine (3 articles)
+  publisher: Revue des deux Mondes
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 15
+  bookFormat: broché
+  genre: [revues]
+  isbn: ''
+  image: ''
+  description: ''
+- author: BOURDIN François
+  name: Un gentilhomme percheron espion du Roi de France
+  publisher: Amis du Perche
+  datePublished: 2010
+  inLanguage: fr
+  numberOfPages: 398
+  bookFormat: broché
+  genre: [divers]
+  isbn: '9782900122914'
+  image: ''
+  description: ''
+- author: CREUZE Raymond
+  name: Michel Gillet (sculpteur, auteur du buste de du Portail)
+  publisher: R. Creuze
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 120
+  bookFormat: broché
+  genre: [divers]
+  isbn: ''
+  image: ''
+  description: ''
+- author: DEAN Benjamin Evans
+  name: A Virginian in Yankee Land vol. 1 Introduction to the Yankee
+  publisher: Dean and Co
+  datePublished: 1989
+  inLanguage: en
+  numberOfPages: 659
+  bookFormat: broché
+  genre: [divers]
+  isbn: '9780962145131'
+  image: http://books.google.com/books/content?id=nvUxItIp5qYC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: DEAN Benjamin Evans
+  name: A Virginian in Yankee Land vol. 2 Merriwell Road
+  publisher: Dean and Co
+  datePublished: 1989
+  inLanguage: en
+  numberOfPages: 739
+  bookFormat: broché
+  genre: [divers]
+  isbn: '9780962145117'
+  image: ''
+  description: ''
+- author: DEAN Benjamin Evans
+  name: A Virginian in Yankee Land vol. 3 Of monkeys, quinine
+  publisher: Dean and Co
+  datePublished: 1990
+  inLanguage: en
+  numberOfPages: 384
+  bookFormat: broché
+  genre: [divers]
+  isbn: ''
+  image: ''
+  description: ''
+- author: DEAN Benjamin Evans
+  name: A Virginian in Yankee Land vol. 4 Some stars and stripes
+  publisher: Dean and Co
+  datePublished: 1991
+  inLanguage: en
+  numberOfPages: 908
+  bookFormat: broché
+  genre: [divers]
+  isbn: '9780962145131'
+  image: http://books.google.com/books/content?id=nvUxItIp5qYC&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: DEAN Benjamin Evans
+  name: A Virginian in Yankee Land vol. 5 Quest for Knowledge
+  publisher: Dean and Co
+  datePublished: 1992
+  inLanguage: en
+  numberOfPages: 762
+  bookFormat: broché
+  genre: [divers]
+  isbn: '9780962145148'
+  image: ''
+  description: ''
+- author: DEAN Benjamin Evans
+  name: A Virginian in Yankee Land vol. 6 The Fishy Political Environment
+  publisher: Dean and Co
+  datePublished: 1992
+  inLanguage: en
+  numberOfPages: 756
+  bookFormat: broché
+  genre: [divers]
+  isbn: '9780962145155'
+  image: ''
+  description: ''
+- author: GUÉTIN Nicole
+  name: "Etats-Unis: l'imposture messianique"
+  publisher: "L'Harmattan"
+  datePublished: 2004
+  inLanguage: fr
+  numberOfPages: 125
+  bookFormat: broché
+  genre: [divers]
+  isbn: '9782747572286'
+  image: http://books.google.com/books/content?id=e5H7gvHK0KQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
+  description: ''
+- author: PERCIN de SEILH Cte de
+  name: Vers la victoire (poèmes écrits au front en 1916)
+  publisher: Maugard
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 40
+  bookFormat: broché
+  genre: [divers]
+  isbn: ''
+  image: http://books.google.com/books/content?id=0WdJAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: VULPIAN Bruno de
+  name: "Mots d'amour. L'amour des mots"
+  publisher: Arcam
+  datePublished:
+  inLanguage: fr
+  numberOfPages: 96
+  bookFormat: broché
+  genre: [divers]
+  isbn: '9782864765608'
+  image: ''
+  description: ''
+- author: MAYOUY Pierre
+  name: Paul Doncœur aumônier militaire
+  publisher: ''
+  datePublished:
+  inLanguage: fr
+  numberOfPages:
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: ''
+  image: ''
+  description: ''
+- author: HOULLEMARE et ASS.
+  name: "L'incroyable histoire du sergent York"
+  publisher: ''
+  datePublished:
+  inLanguage: fr
+  numberOfPages:
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: ''
+  image: ''
+  description: ''
+- author: Collectif
+  name: "La France de la Révolution et les Etats-Unis d'Amérique"
+  publisher: Masson
+  datePublished: 1995
+  inLanguage: fr
+  numberOfPages:
+  bookFormat: broché
+  genre: [histoire-generale]
+  isbn: ''
+  image: http://books.google.com/books/content?id=Vst2AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
+  description: ''
+- author: OLIVIER Philippe
+  name: Bibliographie des travaux (tome 2-3) relatifs aux relations France-USA
+  publisher: Amateurs du Livre
+  datePublished: 1990
+  inLanguage: fr
+  numberOfPages: 516
+  bookFormat: broché
+  genre: [sources]
+  isbn: '9782252028360'
+  image: ''
+  description: ''
