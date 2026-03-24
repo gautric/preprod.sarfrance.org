@@ -53,7 +53,8 @@
                         <div class="tl-group-title" data-month-date="{{ .date }}"></div>
                     </div>
                 {{ end }}
-                <div class="tl-row" data-type="{{ .type }}">
+                {{- $eventId := printf "%s-%s" .date (.titre | urlize) -}}
+                <div class="tl-row" id="{{ $eventId }}" data-type="{{ .type }}">
                     <div class="tl-dot type-{{ .type | urlize }}"></div>
                     <div class="page-card{{ if and .lat .lon (ne (printf "%v" .lat) "0") }} page-card--has-map{{ end }}">
                         <div class="page-card-body">
