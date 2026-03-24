@@ -148,6 +148,7 @@ Dossier : `content/en/activites/`
 | Biographical Dictionary | `dictionnaire.md` |
 | Publications (bulletin) | `bulletins.md` |
 | Other Publications | `publications.md` |
+| Library | `bibliotheque.md` |
 | "Jacques de Trentinian" Award | `prix-trentinian.md` |
 
 ### Pages en anglais — « Contact »

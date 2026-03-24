@@ -323,6 +323,11 @@ outputFormats:
     baseName: "index"
     isPlainText: true
     notAlternative: true
+  json:
+    mediaType: "application/json"
+    baseName: "index"
+    isPlainText: true
+    notAlternative: true
 
 mediaTypes:
   text/calendar:

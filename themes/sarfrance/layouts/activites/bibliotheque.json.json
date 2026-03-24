@@ -1,0 +1,65 @@
+{{- $books := .Site.Data.bibliotheque.books -}}
+{{- $categories := .Site.Data.bibliotheque.categories -}}
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ .Title | jsonify }},
+  "description": {{ (.Description | default .Site.Params.description) | jsonify }},
+  "url": "{{ .Permalink }}",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": {{ .Site.Title | jsonify }},
+    "url": "{{ .Site.BaseURL }}"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": {{ len $books }},
+    "itemListElement": [
+      {{- range $i, $book := $books }}
+      {{- if $i }},{{ end }}
+      {
+        "@type": "ListItem",
+        "position": {{ add $i 1 }},
+        "item": {
+          "@type": "Book",
+          "name": {{ $book.name | jsonify }},
+          "author": {
+            "@type": "Person",
+            "name": {{ $book.author | jsonify }}
+          }
+          {{- with $book.publisher }},
+          "publisher": {
+            "@type": "Organization",
+            "name": {{ . | jsonify }}
+          }
+          {{- end }}
+          {{- with $book.datePublished }},
+          "datePublished": "{{ . }}"
+          {{- end }}
+          {{- with $book.isbn }},
+          "isbn": "{{ . }}"
+          {{- end }}
+          {{- with $book.numberOfPages }},
+          "numberOfPages": {{ . }}
+          {{- end }}
+          {{- with $book.inLanguage }},
+          "inLanguage": "{{ . }}"
+          {{- end }}
+          {{- with $book.bookFormat }},
+          "bookFormat": {{ . | jsonify }}
+          {{- end }}
+          {{- with $book.image }},
+          "image": "{{ . }}"
+          {{- end }}
+          {{- with $book.description }},
+          "description": {{ . | jsonify }}
+          {{- end }}
+          {{- with $book.genre }},
+          "genre": [{{ range $j, $c := . }}{{ if $j }}, {{ end }}{{ $c | jsonify }}{{ end }}]
+          {{- end }}
+        }
+      }
+      {{- end }}
+    ]
+  }
+}
