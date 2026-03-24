@@ -1,0 +1,130 @@
+name: "📚 Ajout d'un livre à la bibliothèque"
+description: "Demander l'ajout d'un ouvrage dans la base de données de la bibliothèque SAR France"
+title: "[Bibliothèque] "
+labels: ["contenu", "bibliothèque", "en attente"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Ajout d'un livre à la bibliothèque
+        Merci de remplir ce formulaire pour ajouter un ouvrage à la bibliothèque du site SAR France.
+
+  - type: input
+    id: author
+    attributes:
+      label: "Auteur"
+      placeholder: "ex : VILLIERS Patrick"
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: "Titre de l'ouvrage"
+      placeholder: "ex : La Marine de Louis XVI"
+    validations:
+      required: true
+
+  - type: input
+    id: publisher
+    attributes:
+      label: "Éditeur"
+      placeholder: "ex : Éditions Fayard"
+    validations:
+      required: false
+
+  - type: input
+    id: datePublished
+    attributes:
+      label: "Année de publication"
+      placeholder: "ex : 2005"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: inLanguage
+    attributes:
+      label: "Langue"
+      options:
+        - fr
+        - en
+        - de
+        - es
+        - it
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: numberOfPages
+    attributes:
+      label: "Nombre de pages"
+      placeholder: "ex : 341"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: bookFormat
+    attributes:
+      label: "Format"
+      options:
+        - Broché
+        - Cartonné
+        - Relié
+    validations:
+      required: false
+
+  - type: dropdown
+    id: genre
+    attributes:
+      label: "Catégorie(s)"
+      description: "Catégorie principale de l'ouvrage"
+      options:
+        - biographie
+        - marine
+        - gia
+        - histoire-generale
+        - lieux-historiques
+        - genealogie
+        - repertoires
+        - sources
+        - catalogues
+        - revues
+        - divers
+    validations:
+      required: true
+
+  - type: input
+    id: isbn
+    attributes:
+      label: "ISBN"
+      placeholder: "ex : 978-2-07-036024-1"
+    validations:
+      required: false
+
+  - type: input
+    id: source
+    attributes:
+      label: "Source / provenance"
+      description: "Comment le livre est entré dans la bibliothèque"
+      placeholder: "ex : Acquisition, Don Vergennes"
+    validations:
+      required: false
+
+  - type: input
+    id: gallica
+    attributes:
+      label: "Lien Gallica / BnF"
+      description: "URL vers la notice BnF ou Gallica si disponible"
+      placeholder: "ex : http://catalogue.bnf.fr/ark:/12148/..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "Courte description ou notes sur l'ouvrage (facultatif)"
+      placeholder: "ex : Ouvrage de référence sur la marine française au XVIIIe siècle."
+    validations:
+      required: false
