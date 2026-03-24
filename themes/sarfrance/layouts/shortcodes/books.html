@@ -1,5 +1,5 @@
 {{/*
-  books shortcode — renders a filtered list of books from data/bibliotheque.yaml
+  books shortcode — renders a filtered list of books from data/books.yaml
 
   Usage:
     {{< books genre="marine" >}}
@@ -15,7 +15,7 @@
 {{- $genre  := .Get "genre" -}}
 {{- $author := .Get "author" -}}
 {{- $limit  := .Get "limit" | default 0 -}}
-{{- $books  := site.Data.bibliotheque.books -}}
+{{- $books  := site.Data.books.books -}}
 {{- $filtered := slice -}}
 
 {{- range $book := $books -}}

@@ -174,7 +174,7 @@ Certains contenus du site ne sont pas des pages de texte mais des fichiers de do
 | Chronologie historique | `data/chronologie.yaml` |
 | Hauts lieux en France | `data/hauts-lieux.yaml` |
 | Notices biographiques (dictionnaire) | `data/notices.yaml` |
-| Bibliothèque (inventaire des ouvrages) | `data/bibliotheque.yaml` |
+| Bibliothèque (inventaire des ouvrages) | `data/books.yaml` |
 
 La modification du diaporama est expliquée plus bas dans la section « Modifier le diaporama ».
 

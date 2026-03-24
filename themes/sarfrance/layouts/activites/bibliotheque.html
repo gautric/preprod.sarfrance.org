@@ -4,7 +4,7 @@
 {{ end }}
 {{ define "main" }}
 <section class="page-content">
-    {{ $bibMeta := printf "<p class=\"page-meta\"><span class=\"page-meta-count\">%d %s</span> — <span>%s : %s</span></p>" (len .Site.Data.bibliotheque.books) (i18n "bibli_count") (i18n "bibli_revision") .Site.Data.bibliotheque.revision }}
+    {{ $bibMeta := printf "<p class=\"page-meta\"><span class=\"page-meta-count\">%d %s</span> — <span>%s : %s</span></p>" (len .Site.Data.books.books) (i18n "bibli_count") (i18n "bibli_revision") .Site.Data.books.revision }}
     {{ partial "page-header.html" (dict "ctx" . "desc" (i18n "bibli_desc") "extra" $bibMeta) }}
     <div class="container">
         <div class="content">
