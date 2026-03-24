@@ -176,3 +176,99 @@
 # References
 - id: references_title
   translation: "Références"
+
+# Agenda types
+- id: agenda_type_conférence
+  translation: "Conférence"
+- id: agenda_type_assemblée
+  translation: "Assemblée"
+- id: agenda_type_commémoration
+  translation: "Commémoration"
+- id: agenda_type_nssar
+  translation: "NSSAR"
+- id: agenda_type_réunion
+  translation: "Réunion"
+- id: agenda_type_visite
+  translation: "Visite"
+- id: agenda_type_exposition
+  translation: "Exposition"
+
+# Notices tags
+- id: notices_tag_officier-marine
+  translation: "Officier de Marine"
+- id: notices_tag_officier-terre
+  translation: "Officier de Terre"
+- id: notices_tag_soldat
+  translation: "Soldat / Sous-officier"
+- id: notices_tag_artillerie
+  translation: "Artillerie"
+- id: notices_tag_genie
+  translation: "Génie"
+- id: notices_tag_chirurgien
+  translation: "Chirurgien / Médecin"
+- id: notices_tag_armateur-corsaire
+  translation: "Armateur / Corsaire"
+- id: notices_tag_diplomate
+  translation: "Diplomate / Administrateur"
+- id: notices_tag_aide-de-camp
+  translation: "Aide de camp / État-major"
+- id: notices_tag_volontaire
+  translation: "Volontaire / Milice"
+- id: notices_tag_chapelain
+  translation: "Chapelain"
+- id: notices_tag_corps-expeditionnaire
+  translation: "Corps Expéditionnaire"
+- id: notices_tag_legion-lauzun
+  translation: "Légion de Lauzun"
+- id: notices_tag_americain
+  translation: "Américain"
+
+# Chronologie tags
+- id: chrono_tag_france
+  translation: "France"
+- id: chrono_tag_amérique
+  translation: "Amérique"
+- id: chrono_tag_angleterre
+  translation: "Angleterre"
+- id: chrono_tag_bataille
+  translation: "Bataille"
+- id: chrono_tag_marine
+  translation: "Marine"
+- id: chrono_tag_diplomatie
+  translation: "Diplomatie"
+- id: chrono_tag_colonies
+  translation: "Colonies"
+- id: chrono_tag_politique
+  translation: "Politique"
+- id: chrono_tag_personnalité
+  translation: "Personnalité"
+- id: chrono_tag_volontaires
+  translation: "Volontaires"
+- id: chrono_tag_corps-expéditionnaire
+  translation: "Corps Expéditionnaire"
+- id: chrono_tag_taxation
+  translation: "Taxation"
+- id: chrono_tag_révolte
+  translation: "Révolte"
+
+# Hauts-lieux tags
+- id: hl_tag_résidence
+  translation: "Résidence"
+- id: hl_tag_statue
+  translation: "Statue / Monument"
+- id: hl_tag_cimetière
+  translation: "Cimetière"
+- id: hl_tag_château
+  translation: "Château"
+- id: hl_tag_port
+  translation: "Port"
+- id: hl_tag_arsenal
+  translation: "Arsenal / Manufacture"
+- id: hl_tag_musée
+  translation: "Musée"
+- id: hl_tag_monument-historique
+  translation: "Monument historique"
+- id: hl_tag_stèle
+  translation: "Stèle / Mémorial"
+- id: hl_tag_lieu-de-mémoire
+  translation: "Lieu de mémoire"

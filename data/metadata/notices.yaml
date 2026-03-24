@@ -1,0 +1,17 @@
+# Notice tags — keys match tag values used in data/notices.yaml
+# Labels are resolved via i18n keys: notices_tag_<key>
+tags:
+  - officier-marine
+  - officier-terre
+  - soldat
+  - artillerie
+  - genie
+  - chirurgien
+  - armateur-corsaire
+  - diplomate
+  - aide-de-camp
+  - volontaire
+  - chapelain
+  - corps-expeditionnaire
+  - legion-lauzun
+  - americain

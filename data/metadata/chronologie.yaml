@@ -1,0 +1,16 @@
+# Chronologie tags — keys match tag values used in data/chronologie.yaml
+# Labels are resolved via i18n keys: chrono_tag_<key>
+tags:
+  - france
+  - amérique
+  - angleterre
+  - bataille
+  - marine
+  - diplomatie
+  - colonies
+  - politique
+  - personnalité
+  - volontaires
+  - corps-expéditionnaire
+  - taxation
+  - révolte

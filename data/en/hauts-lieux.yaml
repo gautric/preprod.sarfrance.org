@@ -8,27 +8,6 @@ references:
   date: '1996'
   publisher: éditions Gründ
   description: Describes 23 Parisian sites that played a significant role in the American Revolution.
-tags:
-  résidence:
-    label: Residence
-  statue:
-    label: Statue / Monument
-  cimetière:
-    label: Cemetery
-  château:
-    label: Castle / Estate
-  port:
-    label: Port
-  arsenal:
-    label: Arsenal / Manufactory
-  musée:
-    label: Museum
-  monument-historique:
-    label: Historic monument
-  stèle:
-    label: Stele / Memorial
-  lieu-de-mémoire:
-    label: Site of remembrance
 regions:
 - nom: Paris – Right Bank
   lieux:

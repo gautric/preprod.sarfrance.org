@@ -325,30 +325,4 @@ periodes:
         tags: [france, politique]
         wikipedia: "https://fr.wikipedia.org/wiki/%C3%89tats_g%C3%A9n%C3%A9raux_de_1789"
 
-tags:
-  france:
-    label: France
-  amérique:
-    label: Amérique
-  angleterre:
-    label: Angleterre
-  bataille:
-    label: Bataille
-  marine:
-    label: Marine
-  diplomatie:
-    label: Diplomatie
-  colonies:
-    label: Colonies
-  politique:
-    label: Politique
-  personnalité:
-    label: Personnalité
-  volontaires:
-    label: Volontaires
-  corps-expéditionnaire:
-    label: Corps Expéditionnaire
-  taxation:
-    label: Taxation
-  révolte:
-    label: Révolte
+

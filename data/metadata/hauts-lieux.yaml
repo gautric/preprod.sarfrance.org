@@ -1,0 +1,13 @@
+# Hauts-lieux tags — keys match tag values used in data/fr/hauts-lieux.yaml and data/en/hauts-lieux.yaml
+# Labels are resolved via i18n keys: hl_tag_<key>
+tags:
+  - résidence
+  - statue
+  - cimetière
+  - château
+  - port
+  - arsenal
+  - musée
+  - monument-historique
+  - stèle
+  - lieu-de-mémoire

@@ -8,27 +8,6 @@ references:
   date: '1996'
   publisher: éditions Gründ
   description: Décrit 23 lieux parisiens ayant joué un rôle marquant dans la Révolution Américaine.
-tags:
-  résidence:
-    label: Résidence
-  statue:
-    label: Statue / Monument
-  cimetière:
-    label: Cimetière
-  château:
-    label: Château
-  port:
-    label: Port
-  arsenal:
-    label: Arsenal / Manufacture
-  musée:
-    label: Musée
-  monument-historique:
-    label: Monument historique
-  stèle:
-    label: Stèle / Mémorial
-  lieu-de-mémoire:
-    label: Lieu de mémoire
 regions:
 - nom: Paris – Rive droite
   lieux:

@@ -6,12 +6,13 @@
 {{- $prefix := partial "lang-prefix.html" . -}}
 {{- $agendaYear := .Site.Params.currentAgendaYear | default (now.Format "2006") -}}
 {{ $year := .Params.year | default $agendaYear }}
-{{ $types := .Site.Data.agenda.types }}
+{{ $types := .Site.Data.metadata.agenda.types }}
 {{ $events := where .Site.Data.agenda.events "date" "ge" (printf "%s-01-01" $year) }}
 {{ $events = where $events "date" "le" (printf "%s-12-31" $year) }}
 {{ $usedTypes := slice }}
 {{ range $events }}{{ $usedTypes = $usedTypes | append .type }}{{ end }}
 {{ $usedTypes = $usedTypes | uniq }}
+{{ $i18nPrefix := "agenda_type_" }}
 <section class="page-content">
     {{ partial "page-header.html" (dict "ctx" . "title" (printf "%s %s" (i18n "agenda_title") $year) "desc" (i18n "agenda_desc")) }}
     <div class="container">
@@ -34,9 +35,9 @@
         </nav>
         <div class="page-filters agenda-filters" role="group" aria-label="{{ i18n "filter_by_type" }}">
             <button class="filter-btn active" data-type="all">{{ i18n "filter_all" }}</button>
-            {{ range $key, $val := $types }}
-            {{ if in $usedTypes $key }}
-            <button class="filter-btn type-{{ $key | urlize }}" data-type="{{ $key }}">{{ $val.label }}</button>
+            {{ range $types }}
+            {{ if in $usedTypes . }}
+            <button class="filter-btn type-{{ . | urlize }}" data-type="{{ . }}">{{ i18n (printf "%s%s" $i18nPrefix .) }}</button>
             {{ end }}
             {{ end }}
         </div>
@@ -51,13 +52,12 @@
                         <div class="tl-group-title" data-month-date="{{ .date }}"></div>
                     </div>
                 {{ end }}
-                {{ $typeData := index $types .type }}
                 <div class="tl-row" data-type="{{ .type }}">
                     <div class="tl-dot type-{{ .type | urlize }}"></div>
                     <div class="page-card">
                         <div class="page-card-header">
                             <span class="page-card-date" data-date="{{ .date }}"{{ with .dateEnd }} data-date-end="{{ . }}"{{ end }}></span>
-                            <span class="agenda-type type-{{ .type | urlize }}">{{ $typeData.label }}</span>
+                            <span class="agenda-type type-{{ .type | urlize }}">{{ i18n (printf "%s%s" $i18nPrefix .type) }}</span>
                         </div>
                         <h3 class="page-card-title">{{ .titre }}</h3>
                     </div>

@@ -8,8 +8,8 @@
     <div class="container">
         <div class="page-filters" role="group" aria-label="{{ i18n "filter_by_category" }}">
             <button class="filter-btn active" data-tag="all">{{ i18n "filter_all" }}</button>
-            {{ range $key, $val := .Site.Data.chronologie.tags }}
-            <button class="filter-btn tag-{{ $key | urlize }}" data-tag="{{ $key }}">{{ $val.label }}</button>
+            {{ range .Site.Data.metadata.chronologie.tags }}
+            <button class="filter-btn tag-{{ . | urlize }}" data-tag="{{ . }}">{{ i18n (printf "chrono_tag_%s" .) }}</button>
             {{ end }}
         </div>
 
@@ -31,10 +31,7 @@
                             <span class="page-card-date" data-iso-date="{{ .date }}">{{ .date }}</span>
                             <div class="page-card-tags">
                                 {{ range .tags }}
-                                {{ $tagData := index $.Site.Data.chronologie.tags . }}
-                                {{ if $tagData }}
-                                <span class="tag tag-{{ . | urlize }}">{{ $tagData.label }}</span>
-                                {{ end }}
+                                <span class="tag tag-{{ . | urlize }}">{{ i18n (printf "chrono_tag_%s" .) }}</span>
                                 {{ end }}
                             </div>
                         </div>

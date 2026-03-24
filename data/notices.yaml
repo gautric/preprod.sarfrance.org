@@ -1,36 +1,6 @@
 revision: "2026-03-01"
 count: 150
 
-tags:
-  officier-marine:
-    label: "Officier de Marine"
-  officier-terre:
-    label: "Officier de Terre"
-  soldat:
-    label: "Soldat / Sous-officier"
-  artillerie:
-    label: "Artillerie"
-  genie:
-    label: "Génie"
-  chirurgien:
-    label: "Chirurgien / Médecin"
-  armateur-corsaire:
-    label: "Armateur / Corsaire"
-  diplomate:
-    label: "Diplomate / Administrateur"
-  aide-de-camp:
-    label: "Aide de camp / État-major"
-  volontaire:
-    label: "Volontaire / Milice"
-  chapelain:
-    label: "Chapelain"
-  corps-expeditionnaire:
-    label: "Corps Expéditionnaire"
-  legion-lauzun:
-    label: "Légion de Lauzun"
-  americain:
-    label: "Américain"
-
 notices:
   - nom: "ABOVILLE"
     prenom: "François Marie"

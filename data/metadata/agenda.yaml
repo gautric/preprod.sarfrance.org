@@ -1,0 +1,10 @@
+# Agenda event types — keys match type values used in data/agenda.yaml
+# Labels are resolved via i18n keys: agenda_type_<key>
+types:
+  - conférence
+  - assemblée
+  - commémoration
+  - nssar
+  - réunion
+  - visite
+  - exposition
