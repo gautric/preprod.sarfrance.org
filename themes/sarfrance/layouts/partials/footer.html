@@ -19,6 +19,8 @@
                 <h3>{{ i18n "secretariat" }}</h3>
                 <p>{{ .Site.Params.address.street }}, {{ .Site.Params.address.zipCode }} {{ .Site.Params.address.city }}</p>
                 <p>{{ i18n "office_hours" }}</p>
+                <p><a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a></p>
+                <p>{{ .Site.Params.contact.phone }}</p>
             </div>
             <div class="footer-col">
                 <h3>{{ i18n "affiliations" }}</h3>

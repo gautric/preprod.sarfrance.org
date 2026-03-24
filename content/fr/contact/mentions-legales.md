@@ -31,4 +31,4 @@ Conformément au Règlement Général sur la Protection des Données (RGPD – R
 
 Les données personnelles collectées (nom, prénom, adresse email, adresse postale) le sont uniquement dans le cadre de la gestion des adhésions, des cotisations, de la communication avec les membres et du traitement des demandes de contact. Elles ne sont en aucun cas cédées à des tiers.
 
-Conformément à la loi, vous disposez d'un droit d'accès, de rectification, de suppression et de portabilité de vos données personnelles. Pour exercer ces droits, vous pouvez adresser votre demande par courrier électronique à [secretariat@sarfrance.org](mailto:secretariat@sarfrance.org) ou par courrier postal au siège de l'association.
+Conformément à la loi, vous disposez d'un droit d'accès, de rectification, de suppression et de portabilité de vos données personnelles. Pour exercer ces droits, vous pouvez adresser votre demande par courrier électronique à [{{< contact "email" >}}](mailto:{{< contact "email" >}}) ou par courrier postal au siège de l'association.

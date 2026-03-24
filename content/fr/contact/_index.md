@@ -19,7 +19,8 @@ lastUpdate: 2026-03-01
 
 **Adresse** : {{< address >}}  
 **Permanences** : le mardi et le jeudi de 09h30 à 18h00  
-**Email** : secretariat@sarfrance.org
+**Email** : {{< contact "email" >}}  
+**Téléphone** : {{< contact "phone" >}}
 
 </div>
 <div>

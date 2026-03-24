@@ -19,7 +19,8 @@ lastUpdate: 2026-03-01
 
 **Address**: {{< address >}}  
 **Office hours**: Tuesday and Thursday from 9:30 AM to 6:00 PM  
-**Email**: secretariat@sarfrance.org
+**Email**: {{< contact "email" >}}  
+**Phone**: {{< contact "phone" >}}
 
 </div>
 <div>

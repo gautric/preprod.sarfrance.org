@@ -31,4 +31,4 @@ In accordance with the General Data Protection Regulation (GDPR – EU Regulatio
 
 Personal data collected (name, first name, email address, postal address) is used solely for managing memberships, dues, communication with members, and processing contact requests. It is never shared with third parties.
 
-In accordance with the law, you have the right to access, rectify, delete, and transfer your personal data. To exercise these rights, you may send your request by email to [secretariat@sarfrance.org](mailto:secretariat@sarfrance.org) or by postal mail to the association's headquarters.
+In accordance with the law, you have the right to access, rectify, delete, and transfer your personal data. To exercise these rights, you may send your request by email to [{{< contact "email" >}}](mailto:{{< contact "email" >}}) or by postal mail to the association's headquarters.
