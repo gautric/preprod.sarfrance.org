@@ -22,3 +22,14 @@ sarfrance/*
 sarfrance.zip
 *.pdf
 mail-notices-biographiques.txt
+scripts/process_books.py
+.gitignore
+SAR  BIBLI inventaire 31 décembre 2025.xls
+.gitignore
+scripts/check_drafts.py
+scripts/read_excel.py
+scripts/update_books.py
+.gitignore
+.gitignore
+BOOKS_SUMMARY.md
+.gitignore

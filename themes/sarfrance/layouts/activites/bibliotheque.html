@@ -11,12 +11,6 @@
             {{ .Content }}
         </div>
 
-        <p class="bibli-download">
-            <a href="/documents/SAR_BIBLI_inventaire.xlsx" download>
-                📥 {{ i18n "bibli_download" }}
-            </a>
-        </p>
-
         <div class="page-search-wrap">
             <input type="search" id="book-search" class="page-search"
                    placeholder="{{ i18n "bibli_search" }}"
@@ -36,6 +30,11 @@
             <button class="book-sort-btn" data-sort="author" data-dir="asc">{{ i18n "bibli_sort_author" }} <span class="sort-arrow">▼</span></button>
             <button class="book-sort-btn" data-sort="lang" data-dir="asc">{{ i18n "bibli_sort_lang" }} <span class="sort-arrow">▼</span></button>
             <span class="book-sort-count" id="book-sort-count" aria-live="polite"></span>
+            <span class="book-download">
+                <a href="/documents/SAR_BIBLI_inventaire.xlsx" download>
+                    📥 {{ i18n "bibli_download" }}
+                </a>
+            </span>
         </div>
 
         <p id="book-no-result" class="page-no-result" hidden>{{ i18n "bibli_no_result" }}</p>

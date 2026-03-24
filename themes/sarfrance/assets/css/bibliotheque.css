@@ -1,48 +1,33 @@
 /* Library / Books — specific styles (shared base in filters.css) */
 
-/* Download link */
-.bibli-download {
-    margin: 0 0 16px;
-    font-size: 0.9rem;
-}
-
-.bibli-download a {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 6px 16px;
-    border: 1px solid var(--primary);
-    border-radius: 6px;
-    color: var(--primary);
-    text-decoration: none;
-    font-weight: 600;
-    transition: background 0.2s, color 0.2s;
-}
-
-.bibli-download a:hover {
-    background: var(--primary);
-    color: var(--white);
-}
-
 /* Sort bar */
 .book-sort {
     display: flex;
+    align-items: center;
     gap: 6px;
     padding-bottom: 12px;
 }
 
-.book-sort-btn {
+/* Shared style for sort buttons and download link */
+.book-sort-btn,
+.book-download a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     padding: 4px 12px;
     border: 1px solid var(--gray-border-medium);
     border-radius: 4px;
     background: var(--white);
     color: var(--text-muted);
     font-size: 0.82rem;
+    font-weight: 600;
+    text-decoration: none;
     cursor: pointer;
     transition: all 0.2s ease;
 }
 
-.book-sort-btn:hover {
+.book-sort-btn:hover,
+.book-download a:hover {
     border-color: var(--navy-blue);
     color: var(--navy-blue);
 }
@@ -50,7 +35,6 @@
 .book-sort-btn.active {
     border-color: var(--primary);
     color: var(--primary);
-    font-weight: 600;
 }
 
 .sort-arrow {
@@ -109,7 +93,7 @@
     border-radius: 2px;
     flex: 0 0 36px;
     margin-left: auto;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 3px var(--shadow);
     cursor: pointer;
     transition: transform 0.2s ease;
     position: relative;
@@ -120,7 +104,7 @@
     transform: scale(4);
     transform-origin: right center;
     z-index: 10;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 20px var(--shadow-dark);
     border-radius: 3px;
 }
 
