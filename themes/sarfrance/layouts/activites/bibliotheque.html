@@ -40,6 +40,7 @@
 {{ end }}
 {{ define "scripts" }}
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="https://unpkg.com/mustache@4/mustache.min.js"></script>
 {{- $js := resources.Get "js/bibliotheque.js" | resources.Fingerprint }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 {{ end }}

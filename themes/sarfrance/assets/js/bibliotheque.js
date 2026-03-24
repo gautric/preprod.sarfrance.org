@@ -1,4 +1,4 @@
-/* Library / Books — Isotope-powered filtering, sorting & search */
+/* Library / Books — Mustache + Isotope-powered filtering, sorting & search */
 $(function () {
   var $grid = $('.book-grid');
   var $searchInput = $('#book-search');
@@ -14,62 +14,55 @@ $(function () {
   var seeBookLabel = '';
   var iso = null;
 
-  function escapeHtml(str) {
-    if (!str) return '';
-    return $('<span>').text(str).html();
-  }
+  var template = [
+    '<div class="book-card{{#image}} has-cover{{/image}}" data-cat="{{genreStr}}" data-search="{{searchStr}}" data-lang="{{inLanguage}}" data-title="{{titleLower}}" data-author="{{authorLower}}">',
+      '<div class="book-card-text">',
+        '{{#catLabel}}<span class="tag cat-{{catKey}}">{{catLabel}}</span>{{/catLabel}}',
+        '<span class="book-name">',
+          '{{#isbn}}<a href="https://books.google.com/books?vid=ISBN{{isbn}}" target="_blank" rel="noopener" title="{{seeBookLabel}}">{{name}}</a>{{/isbn}}',
+          '{{^isbn}}{{name}}{{/isbn}}',
+        '</span>',
+        '<span class="book-sep">\u2014</span>',
+        '<span class="book-author">{{author}}</span>',
+        '<span class="book-publisher">({{publisherDisplay}}, {{dateDisplay}})</span>',
+        '<span class="book-detail">{{pagesDisplay}}</span>',
+        '{{#bookFormat}}<span class="book-detail">{{bookFormat}}</span>{{/bookFormat}}',
+        '{{#isbn}}<span class="book-isbn">ISBN {{isbn}}</span>{{/isbn}}',
+        '{{#inLanguage}}<span class="book-lang book-lang-{{inLanguage}}"></span>{{/inLanguage}}',
+      '</div>',
+      '{{#image}}<img class="book-cover" src="{{image}}" alt="" loading="lazy">{{/image}}',
+    '</div>'
+  ].join('');
+  Mustache.parse(template);
 
   function buildCard(book) {
     var firstCat = book.genre[0] || '';
     var catData = categories[firstCat];
-    var hasCover = book.image ? ' has-cover' : '';
     var searchStr = [book.author, book.name, book.publisher].join(' ').toLowerCase();
 
-    var html = '<div class="book-card' + hasCover + '" data-cat="' +
-      escapeHtml(book.genre.join(' ')) + '" data-search="' + escapeHtml(searchStr) +
-      '" data-lang="' + escapeHtml(book.inLanguage || '') +
-      '" data-title="' + escapeHtml((book.name || '').toLowerCase()) +
-      '" data-author="' + escapeHtml((book.author || '').toLowerCase()) + '">';
-    html += '<div class="book-card-text">';
+    var view = {
+      author: book.author,
+      name: book.name,
+      publisher: book.publisher,
+      datePublished: book.datePublished,
+      numberOfPages: book.numberOfPages,
+      bookFormat: book.bookFormat,
+      isbn: book.isbn,
+      image: book.image,
+      inLanguage: book.inLanguage,
+      genreStr: book.genre.join(' '),
+      searchStr: searchStr,
+      titleLower: (book.name || '').toLowerCase(),
+      authorLower: (book.author || '').toLowerCase(),
+      catKey: firstCat,
+      catLabel: catData ? catData.label : '',
+      seeBookLabel: seeBookLabel,
+      publisherDisplay: book.publisher || 'N/A',
+      dateDisplay: book.datePublished ? String(book.datePublished) : 'N/A',
+      pagesDisplay: book.numberOfPages ? book.numberOfPages + ' p.' : 'N/A'
+    };
 
-    if (catData) {
-      html += '<span class="tag cat-' + escapeHtml(firstCat) + '">' + escapeHtml(catData.label) + '</span>';
-    }
-
-    html += '<span class="book-name">';
-    if (book.isbn) {
-      html += '<a href="https://books.google.com/books?vid=ISBN' + escapeHtml(book.isbn) +
-        '" target="_blank" rel="noopener" title="' + escapeHtml(seeBookLabel) + '">' +
-        escapeHtml(book.name) + '</a>';
-    } else {
-      html += escapeHtml(book.name);
-    }
-    html += '</span>';
-
-    html += '<span class="book-sep">—</span>';
-    html += '<span class="book-author">' + escapeHtml(book.author) + '</span>';
-    html += '<span class="book-publisher">(' +
-      escapeHtml(book.publisher || 'N/A') + ', ' +
-      escapeHtml(book.datePublished ? String(book.datePublished) : 'N/A') + ')</span>';
-    html += '<span class="book-detail">' +
-      (book.numberOfPages ? book.numberOfPages + ' p.' : 'N/A') + '</span>';
-
-    if (book.bookFormat) {
-      html += '<span class="book-detail">' + escapeHtml(book.bookFormat) + '</span>';
-    }
-    if (book.isbn) {
-      html += '<span class="book-isbn">ISBN ' + escapeHtml(book.isbn) + '</span>';
-    }
-    if (book.inLanguage) {
-      html += '<span class="book-lang book-lang-' + escapeHtml(book.inLanguage) + '"></span>';
-    }
-
-    html += '</div>';
-    if (book.image) {
-      html += '<img class="book-cover" src="' + escapeHtml(book.image) + '" alt="" loading="lazy">';
-    }
-    html += '</div>';
-    return html;
+    return Mustache.render(template, view);
   }
 
   function initIsotope() {
@@ -143,7 +136,7 @@ $(function () {
     }
   });
 
-  /* Fetch JSON, render cards, then init Isotope */
+  /* Fetch JSON, render cards via Mustache, then init Isotope */
   if (jsonUrl) {
     $.getJSON(jsonUrl).done(function (data) {
       categories = data.categories || {};
