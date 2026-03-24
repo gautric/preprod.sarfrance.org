@@ -1,49 +1,6 @@
 {{ define "head" }}
 {{- $css := resources.Get "css/bibliotheque.css" | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
-<!-- JSON-LD: schema.org/Book structured data -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "name": "{{ .Title }}",
-  "description": "{{ .Description | default .Site.Params.description }}",
-  "url": "{{ .Permalink }}",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "{{ .Site.Title }}",
-    "url": "{{ .Site.BaseURL }}"
-  },
-  "mainEntity": {
-    "@type": "ItemList",
-    "numberOfItems": {{ len .Site.Data.bibliotheque.books }},
-    "itemListElement": [
-      {{- range $i, $book := .Site.Data.bibliotheque.books }}
-      {{- if $i }},{{ end }}
-      {
-        "@type": "Book",
-        "name": {{ $book.name | jsonify }},
-        "author": {
-          "@type": "Person",
-          "name": {{ $book.author | jsonify }}
-        }
-        {{- with $book.publisher }},
-        "publisher": { "@type": "Organization", "name": {{ . | jsonify }} }
-        {{- end }}
-        {{- with $book.datePublished }}, "datePublished": "{{ . }}"{{ end }}
-        {{- with $book.isbn }}, "isbn": "{{ . }}"{{ end }}
-        {{- with $book.numberOfPages }}, "numberOfPages": {{ . }}{{ end }}
-        {{- with $book.inLanguage }}, "inLanguage": "{{ . }}"{{ end }}
-        {{- with $book.bookFormat }}, "bookFormat": {{ . | jsonify }}{{ end }}
-        {{- with $book.image }}, "image": "{{ . }}"{{ end }}
-        {{- with $book.description }}, "description": {{ . | jsonify }}{{ end }}
-        {{- with $book.genre }}, "genre": [{{ range $j, $c := . }}{{ if $j }}, {{ end }}{{ $c | jsonify }}{{ end }}]{{ end }}
-      }
-      {{- end }}
-    ]
-  }
-}
-</script>
 {{ end }}
 {{ define "main" }}
 <section class="page-content">
@@ -67,12 +24,15 @@
             {{ end }}
         </div>
 
+        <div class="book-sort" role="group" aria-label="Sort">
+            <button class="book-sort-btn active" data-sort="title" data-dir="asc">{{ i18n "bibli_sort_title" }} <span class="sort-arrow">▲</span></button>
+            <button class="book-sort-btn" data-sort="author" data-dir="asc">{{ i18n "bibli_sort_author" }} <span class="sort-arrow">▲</span></button>
+            <button class="book-sort-btn" data-sort="lang" data-dir="asc">{{ i18n "bibli_sort_lang" }} <span class="sort-arrow">▲</span></button>
+        </div>
+
         <p id="book-no-result" class="page-no-result" hidden>{{ i18n "bibli_no_result" }}</p>
 
-        <div class="book-grid">
-            {{ range .Site.Data.bibliotheque.books }}
-            {{ partial "book.html" (dict "book" . "categories" $.Site.Data.bibliotheque.categories "filterable" true) }}
-            {{ end }}
+        <div class="book-grid" data-json="{{ partial "lang-prefix.html" . }}/activites/bibliotheque/index.json">
         </div>
     </div>
 </section>

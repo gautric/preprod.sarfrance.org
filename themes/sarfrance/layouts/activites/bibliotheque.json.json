@@ -1,65 +1,47 @@
 {{- $books := .Site.Data.bibliotheque.books -}}
 {{- $categories := .Site.Data.bibliotheque.categories -}}
+{{- $seeBook := i18n "bibli_see_book" -}}
 {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "name": {{ .Title | jsonify }},
-  "description": {{ (.Description | default .Site.Params.description) | jsonify }},
-  "url": "{{ .Permalink }}",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": {{ .Site.Title | jsonify }},
-    "url": "{{ .Site.BaseURL }}"
+  "revision": {{ .Site.Data.bibliotheque.revision | jsonify }},
+  "categories": {
+    {{- $first := true -}}
+    {{- range $key, $val := $categories -}}
+    {{- if not $first }},{{ end -}}
+    {{- $first = false }}
+    {{ $key | jsonify }}: {
+      "label": {{ $val.label | jsonify }}
+    }
+    {{- end }}
   },
-  "mainEntity": {
-    "@type": "ItemList",
-    "numberOfItems": {{ len $books }},
-    "itemListElement": [
-      {{- range $i, $book := $books }}
-      {{- if $i }},{{ end }}
-      {
-        "@type": "ListItem",
-        "position": {{ add $i 1 }},
-        "item": {
-          "@type": "Book",
-          "name": {{ $book.name | jsonify }},
-          "author": {
-            "@type": "Person",
-            "name": {{ $book.author | jsonify }}
-          }
-          {{- with $book.publisher }},
-          "publisher": {
-            "@type": "Organization",
-            "name": {{ . | jsonify }}
-          }
-          {{- end }}
-          {{- with $book.datePublished }},
-          "datePublished": "{{ . }}"
-          {{- end }}
-          {{- with $book.isbn }},
-          "isbn": "{{ . }}"
-          {{- end }}
-          {{- with $book.numberOfPages }},
-          "numberOfPages": {{ . }}
-          {{- end }}
-          {{- with $book.inLanguage }},
-          "inLanguage": "{{ . }}"
-          {{- end }}
-          {{- with $book.bookFormat }},
-          "bookFormat": {{ . | jsonify }}
-          {{- end }}
-          {{- with $book.image }},
-          "image": "{{ . }}"
-          {{- end }}
-          {{- with $book.description }},
-          "description": {{ . | jsonify }}
-          {{- end }}
-          {{- with $book.genre }},
-          "genre": [{{ range $j, $c := . }}{{ if $j }}, {{ end }}{{ $c | jsonify }}{{ end }}]
-          {{- end }}
-        }
-      }
-      {{- end }}
-    ]
-  }
+  "seeBookLabel": {{ $seeBook | jsonify }},
+  "languages": [
+    {{- $langs := slice -}}
+    {{- range $books -}}
+      {{- with .inLanguage -}}
+        {{- if not (in $langs .) -}}
+          {{- $langs = $langs | append . -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- range $i, $l := sort $langs -}}
+    {{- if $i }},{{ end }}{{ $l | jsonify }}
+    {{- end }}
+  ],
+  "books": [
+    {{- range $i, $book := $books }}
+    {{- if $i }},{{ end }}
+    {
+      "author": {{ $book.author | jsonify }},
+      "name": {{ $book.name | jsonify }},
+      "publisher": {{ $book.publisher | default "" | jsonify }},
+      "datePublished": {{ $book.datePublished | default "" | jsonify }},
+      "numberOfPages": {{ $book.numberOfPages | default 0 }},
+      "bookFormat": {{ $book.bookFormat | default "" | jsonify }},
+      "isbn": {{ $book.isbn | default "" | jsonify }},
+      "image": {{ $book.image | default "" | jsonify }},
+      "inLanguage": {{ $book.inLanguage | default "" | jsonify }},
+      "genre": {{ $book.genre | jsonify }}
+    }
+    {{- end }}
+  ]
 }

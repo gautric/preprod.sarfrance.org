@@ -142,6 +142,14 @@
   translation: "Aucun résultat trouvé"
 - id: bibli_see_book
   translation: "Voir sur Google Books"
+- id: bibli_sort_author
+  translation: "Auteur"
+- id: bibli_sort_title
+  translation: "Titre"
+- id: bibli_sort_lang
+  translation: "Langue"
+- id: bibli_filter_lang
+  translation: "Filtrer par langue"
 
 # References
 - id: references_title

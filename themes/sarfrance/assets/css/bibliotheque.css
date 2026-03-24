@@ -1,5 +1,38 @@
 /* Library / Books — specific styles (shared base in filters.css) */
 
+/* Sort bar */
+.book-sort {
+    display: flex;
+    gap: 6px;
+    padding-bottom: 12px;
+}
+
+.book-sort-btn {
+    padding: 4px 12px;
+    border: 1px solid var(--gray-border-medium);
+    border-radius: 4px;
+    background: var(--white);
+    color: var(--text-muted);
+    font-size: 0.82rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.book-sort-btn:hover {
+    border-color: var(--navy-blue);
+    color: var(--navy-blue);
+}
+
+.book-sort-btn.active {
+    border-color: var(--primary);
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.sort-arrow {
+    font-size: 0.7rem;
+}
+
 /* Grid — single column list */
 .book-grid {
     display: flex;
