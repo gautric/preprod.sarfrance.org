@@ -139,20 +139,15 @@ languages:
           parent: "contact"
           weight: 2
         - identifier: "cotisation"
-          name: "Paiement en ligne"
+          name: "Cotisation et don"
           url: "/contact/cotisation/"
           parent: "contact"
           weight: 3
-        - identifier: "donateur"
-          name: "Faites un don"
-          url: "/contact/donateur/"
-          parent: "contact"
-          weight: 4
         - identifier: "mentions-legales"
           name: "Mentions légales"
           url: "/contact/mentions-legales/"
           parent: "contact"
-          weight: 5
+          weight: 4
 
   en:
     languageCode: "en-US"
@@ -286,20 +281,15 @@ languages:
           parent: "contact"
           weight: 2
         - identifier: "cotisation"
-          name: "Online Payment"
+          name: "Dues and Donations"
           url: "/en/contact/cotisation/"
           parent: "contact"
           weight: 3
-        - identifier: "donateur"
-          name: "Make a Donation"
-          url: "/en/contact/donateur/"
-          parent: "contact"
-          weight: 4
         - identifier: "mentions-legales"
           name: "Legal Notice"
           url: "/en/contact/mentions-legales/"
           parent: "contact"
-          weight: 5
+          weight: 4
 
 params:
   currentAgendaYear: 2026

@@ -107,7 +107,7 @@ Dossier : `content/contact/`
 |---|---|
 | Nous contacter (formulaire) | `_index.md` |
 | Nous rejoindre | `nous-rejoindre.md` |
-| Paiement en ligne | `cotisation.md` |
+| Cotisation et don | `cotisation.md` |
 | Faites un don | `donateur.md` |
 | Mentions légales | `mentions-legales.md` |
 

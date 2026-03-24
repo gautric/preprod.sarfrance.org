@@ -1,5 +1,5 @@
 ---
-title: "Paiement en ligne"
+title: "Cotisation et don"
 description: "Paiement en ligne : cotisation, don et autres achats — SAR France"
 ---
 
@@ -15,6 +15,10 @@ Vous pouvez régler votre cotisation, faire un don à la Société ou régler vo
 - **Frais de chancellerie** (première adhésion) : {{< param "chancellerie" >}} €
 - **Première inscription** (chancellerie + cotisation) : {{< param "premiere_inscription" >}} €
 - **Cotisation réduite** (moins de 35 ans et résidents étrangers) : réduction de {{< param "reduction_pct" >}}%
+
+## Faites un don à SAR France
+
+SAR France, association reconnue d'utilité publique, est habilitée à faire appel aux dons pour soutenir son action dans les domaines prévus par ses statuts.
 
 ## Avantage fiscal
 
