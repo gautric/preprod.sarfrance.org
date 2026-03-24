@@ -19,8 +19,9 @@
 
         <div class="page-filters" role="group" aria-label="{{ i18n "filter_by_category" }}">
             <button class="filter-btn active" data-cat="all">{{ i18n "filter_all" }}</button>
-            {{ range $key, $val := .Site.Data.bibliotheque.categories }}
-            <button class="filter-btn cat-{{ $key | urlize }}" data-cat="{{ $key }}">{{ $val.label }}</button>
+            {{ range .Site.Data.metadata.books.categories }}
+            {{ $i18nKey := printf "bibli_cat_%s" . }}
+            <button class="filter-btn cat-{{ . | urlize }}" data-cat="{{ . }}">{{ i18n $i18nKey }}</button>
             {{ end }}
         </div>
 

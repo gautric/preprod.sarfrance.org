@@ -4,30 +4,6 @@
 revision: '2025-04-01'
 count: 339
 
-categories:
-  biographie:
-    label: Biographies
-  marine:
-    label: Marine
-  gia:
-    label: Guerre d'Indépendance Américaine
-  histoire-generale:
-    label: Histoire Générale
-  lieux-historiques:
-    label: Lieux Historiques
-  genealogie:
-    label: Ouvrages Généalogiques
-  repertoires:
-    label: Répertoires et Relevés
-  sources:
-    label: Sources et Bibliographies
-  catalogues:
-    label: Catalogues, Colloques, Expos
-  revues:
-    label: Usuels et Revues
-  divers:
-    label: Divers
-
 books:
 - author: ANTIER Jean-Jacques
   name: "Amiral de Grasse (l')"

@@ -1,0 +1,13 @@
+# Book categories — keys match i18n bibli_cat_* entries
+categories:
+  - biographie
+  - marine
+  - gia
+  - histoire-generale
+  - lieux-historiques
+  - genealogie
+  - repertoires
+  - sources
+  - catalogues
+  - revues
+  - divers

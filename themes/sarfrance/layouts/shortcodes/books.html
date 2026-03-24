@@ -48,8 +48,9 @@
   <div class="book-card{{ with $book.image }} has-cover{{ end }}">
     <div class="book-card-text">
       {{- $firstCat := index $book.genre 0 -}}
-      {{- $catData := index site.Data.bibliotheque.categories $firstCat -}}
-      {{- if $catData }}<span class="tag cat-{{ $firstCat | urlize }}">{{ $catData.label }}</span>{{ end }}
+      {{- $i18nKey := printf "bibli_cat_%s" $firstCat -}}
+      {{- $catLabel := i18n $i18nKey -}}
+      {{- if $catLabel }}<span class="tag cat-{{ $firstCat | urlize }}">{{ $catLabel }}</span>{{ end }}
       <span class="book-name">
         {{- if $book.isbn -}}<a href="https://books.google.com/books?vid=ISBN{{ $book.isbn }}" target="_blank" rel="noopener">{{ $book.name }}</a>
         {{- else -}}{{ $book.name }}

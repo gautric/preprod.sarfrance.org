@@ -1,15 +1,16 @@
 {{- $books := .Site.Data.bibliotheque.books -}}
-{{- $categories := .Site.Data.bibliotheque.categories -}}
+{{- $categories := .Site.Data.metadata.books.categories -}}
 {{- $seeBook := i18n "bibli_see_book" -}}
 {
   "revision": {{ .Site.Data.bibliotheque.revision | jsonify }},
   "categories": {
     {{- $first := true -}}
-    {{- range $key, $val := $categories -}}
+    {{- range $categories -}}
     {{- if not $first }},{{ end -}}
     {{- $first = false }}
-    {{ $key | jsonify }}: {
-      "label": {{ $val.label | jsonify }}
+    {{- $i18nKey := printf "bibli_cat_%s" . }}
+    {{ . | jsonify }}: {
+      "label": {{ i18n $i18nKey | jsonify }}
     }
     {{- end }}
   },

@@ -150,6 +150,28 @@
   translation: "Language"
 - id: bibli_filter_lang
   translation: "Filter by language"
+- id: bibli_cat_biographie
+  translation: "Biographies"
+- id: bibli_cat_marine
+  translation: "Navy"
+- id: bibli_cat_gia
+  translation: "American War of Independence"
+- id: bibli_cat_histoire-generale
+  translation: "General History"
+- id: bibli_cat_lieux-historiques
+  translation: "Historic Sites"
+- id: bibli_cat_genealogie
+  translation: "Genealogical Works"
+- id: bibli_cat_repertoires
+  translation: "Directories & Records"
+- id: bibli_cat_sources
+  translation: "Sources & Bibliographies"
+- id: bibli_cat_catalogues
+  translation: "Catalogues, Symposia, Exhibitions"
+- id: bibli_cat_revues
+  translation: "Reference Books & Journals"
+- id: bibli_cat_divers
+  translation: "Miscellaneous"
 
 # References
 - id: references_title

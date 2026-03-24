@@ -150,6 +150,28 @@
   translation: "Langue"
 - id: bibli_filter_lang
   translation: "Filtrer par langue"
+- id: bibli_cat_biographie
+  translation: "Biographies"
+- id: bibli_cat_marine
+  translation: "Marine"
+- id: bibli_cat_gia
+  translation: "Guerre d'Indépendance Américaine"
+- id: bibli_cat_histoire-generale
+  translation: "Histoire Générale"
+- id: bibli_cat_lieux-historiques
+  translation: "Lieux Historiques"
+- id: bibli_cat_genealogie
+  translation: "Ouvrages Généalogiques"
+- id: bibli_cat_repertoires
+  translation: "Répertoires et Relevés"
+- id: bibli_cat_sources
+  translation: "Sources et Bibliographies"
+- id: bibli_cat_catalogues
+  translation: "Catalogues, Colloques, Expos"
+- id: bibli_cat_revues
+  translation: "Usuels et Revues"
+- id: bibli_cat_divers
+  translation: "Divers"
 
 # References
 - id: references_title
