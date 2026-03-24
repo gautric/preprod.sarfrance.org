@@ -58,8 +58,8 @@ $(function () {
       catLabel: catData ? catData.label : '',
       seeBookLabel: seeBookLabel,
       publisherDisplay: book.publisher || 'N/A',
-      dateDisplay: book.datePublished ? String(book.datePublished) : 'N/A',
-      pagesDisplay: book.numberOfPages ? book.numberOfPages + ' p.' : 'N/A'
+      dateDisplay: book.datePublished ? String(book.datePublished) : ' - ',
+      pagesDisplay: book.numberOfPages ? book.numberOfPages + ' p.' : ' - '
     };
 
     return Mustache.render(template, view);
