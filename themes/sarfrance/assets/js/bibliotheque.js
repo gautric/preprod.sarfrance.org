@@ -1,4 +1,4 @@
-/* Library / Books — fetch JSON, render cards, search, category, language & sort */
+/* Library / Books — Isotope-powered filtering, sorting & search */
 $(function () {
   var $grid = $('.book-grid');
   var $searchInput = $('#book-search');
@@ -7,13 +7,12 @@ $(function () {
   var $noResult = $('#book-no-result');
   var $sortCount = $('#book-sort-count');
   var activeCat = 'all';
-  var sortField = 'title';
-  var sortDir = 'asc';
   var jsonUrl = $grid.attr('data-json');
 
   var allBooks = [];
   var categories = {};
   var seeBookLabel = '';
+  var iso = null;
 
   function escapeHtml(str) {
     if (!str) return '';
@@ -28,7 +27,9 @@ $(function () {
 
     var html = '<div class="book-card' + hasCover + '" data-cat="' +
       escapeHtml(book.genre.join(' ')) + '" data-search="' + escapeHtml(searchStr) +
-      '" data-lang="' + escapeHtml(book.inLanguage || '') + '">';
+      '" data-lang="' + escapeHtml(book.inLanguage || '') +
+      '" data-title="' + escapeHtml((book.name || '').toLowerCase()) +
+      '" data-author="' + escapeHtml((book.author || '').toLowerCase()) + '">';
     html += '<div class="book-card-text">';
 
     if (catData) {
@@ -71,45 +72,44 @@ $(function () {
     return html;
   }
 
-  function sortBooks(books) {
-    var sorted = books.slice();
-    sorted.sort(function (a, b) {
-      var va, vb;
-      if (sortField === 'title') { va = a.name || ''; vb = b.name || ''; }
-      else if (sortField === 'lang') { va = a.inLanguage || ''; vb = b.inLanguage || ''; }
-      else { va = a.author || ''; vb = b.author || ''; }
-      var cmp = va.localeCompare(vb, undefined, { sensitivity: 'base' });
-      return sortDir === 'desc' ? -cmp : cmp;
+  function initIsotope() {
+    iso = new Isotope('.book-grid', {
+      itemSelector: '.book-card',
+      layoutMode: 'vertical',
+      getSortData: {
+        title: '[data-title]',
+        author: '[data-author]',
+        lang: '[data-lang]'
+      },
+      sortBy: 'title',
+      sortAscending: true,
+      filter: '*',
+      transitionDuration: '0.0s'
     });
-    return sorted;
+    updateCount();
   }
 
-  function render() {
-    var sorted = sortBooks(allBooks);
-    var fragments = [];
-    for (var i = 0; i < sorted.length; i++) {
-      fragments.push(buildCard(sorted[i]));
-    }
-    $grid.html(fragments.join(''));
-    applyFilters();
+  function updateCount() {
+    if (!iso) return;
+    var visible = iso.getFilteredItemElements().length;
+    $sortCount.text(visible + ' / ' + allBooks.length);
+    $noResult.prop('hidden', visible > 0);
   }
 
   function applyFilters() {
+    if (!iso) return;
     var query = $searchInput.val().toLowerCase().trim();
-    var visibleCount = 0;
 
-    $grid.children('.book-card').each(function () {
-      var $c = $(this);
-      var cats = ($c.attr('data-cat') || '').split(' ');
-      var matchesCat = activeCat === 'all' || cats.indexOf(activeCat) !== -1;
-      var matchesSearch = !query || $c.attr('data-search').indexOf(query) !== -1;
-      var visible = matchesCat && matchesSearch;
-      $c.toggleClass('hidden', !visible);
-      if (visible) visibleCount++;
+    iso.arrange({
+      filter: function () {
+        var $el = $(this);
+        var cats = ($el.attr('data-cat') || '').split(' ');
+        var matchesCat = activeCat === 'all' || cats.indexOf(activeCat) !== -1;
+        var matchesSearch = !query || ($el.attr('data-search') || '').indexOf(query) !== -1;
+        return matchesCat && matchesSearch;
+      }
     });
-
-    $noResult.prop('hidden', visibleCount > 0);
-    $sortCount.text(visibleCount + ' / ' + allBooks.length);
+    updateCount();
   }
 
   $searchInput.on('input', applyFilters);
@@ -129,25 +129,34 @@ $(function () {
     if ($btn.hasClass('active')) {
       dir = dir === 'asc' ? 'desc' : 'asc';
       $btn.attr('data-dir', dir);
-      $btn.find('.sort-arrow').text(dir === 'asc' ? '▲' : '▼');
+      $btn.find('.sort-arrow').text(dir === 'asc' ? '▼' : '▲');
     } else {
       $sortBtns.removeClass('active');
       $btn.addClass('active');
     }
 
-    sortField = field;
-    sortDir = dir;
-    render();
+    if (iso) {
+      iso.arrange({
+        sortBy: field,
+        sortAscending: dir === 'asc'
+      });
+    }
   });
 
-  /* Fetch JSON and render */
+  /* Fetch JSON, render cards, then init Isotope */
   if (jsonUrl) {
     $.getJSON(jsonUrl).done(function (data) {
       categories = data.categories || {};
       seeBookLabel = data.seeBookLabel || '';
       allBooks = data.books || [];
 
-      render();
+      var fragments = [];
+      for (var i = 0; i < allBooks.length; i++) {
+        fragments.push(buildCard(allBooks[i]));
+      }
+      $grid.html(fragments.join(''));
+
+      initIsotope();
     });
   }
 });

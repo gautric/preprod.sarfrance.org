@@ -41,31 +41,28 @@
     white-space: nowrap;
 }
 
-/* Grid — single column list */
+/* Grid — Isotope vertical layout */
 .book-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
+    position: relative;
     padding-bottom: 40px;
 }
 
-/* Card — inline row */
+/* Card — full-width row, image pinned right */
 .book-card {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 12px;
+    width: 100%;
     background: var(--white);
-    border-bottom: 1px solid var(--gray-border-light);
-    padding: 6px 0;
+    padding: 8px 0;
     min-height: 62px;
-    border-radius: 0;
     border: none;
     border-bottom: 1px solid var(--gray-border-light);
+    box-sizing: border-box;
 }
 
 .book-card:hover {
     background: var(--gray-light);
-    box-shadow: none;
 }
 
 .book-card.hidden {
@@ -77,7 +74,7 @@
     flex-wrap: wrap;
     align-items: baseline;
     gap: 0 8px;
-    flex: 1;
+    flex: 1 1 0%;
     min-width: 0;
 }
 
@@ -86,7 +83,8 @@
     height: 50px;
     object-fit: cover;
     border-radius: 2px;
-    flex-shrink: 0;
+    flex: 0 0 36px;
+    margin-left: auto;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
     cursor: pointer;
     transition: transform 0.2s ease;

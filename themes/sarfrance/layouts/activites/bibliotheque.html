@@ -25,9 +25,9 @@
         </div>
 
         <div class="book-sort" role="group" aria-label="Sort">
-            <button class="book-sort-btn active" data-sort="title" data-dir="asc">{{ i18n "bibli_sort_title" }} <span class="sort-arrow">▲</span></button>
-            <button class="book-sort-btn" data-sort="author" data-dir="asc">{{ i18n "bibli_sort_author" }} <span class="sort-arrow">▲</span></button>
-            <button class="book-sort-btn" data-sort="lang" data-dir="asc">{{ i18n "bibli_sort_lang" }} <span class="sort-arrow">▲</span></button>
+            <button class="book-sort-btn active" data-sort="title" data-dir="asc">{{ i18n "bibli_sort_title" }} <span class="sort-arrow">▼</span></button>
+            <button class="book-sort-btn" data-sort="author" data-dir="asc">{{ i18n "bibli_sort_author" }} <span class="sort-arrow">▼</span></button>
+            <button class="book-sort-btn" data-sort="lang" data-dir="asc">{{ i18n "bibli_sort_lang" }} <span class="sort-arrow">▼</span></button>
             <span class="book-sort-count" id="book-sort-count" aria-live="polite"></span>
         </div>
 
@@ -39,6 +39,7 @@
 </section>
 {{ end }}
 {{ define "scripts" }}
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 {{- $js := resources.Get "js/bibliotheque.js" | resources.Fingerprint }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 {{ end }}
