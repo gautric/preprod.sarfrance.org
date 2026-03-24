@@ -33,6 +33,14 @@
     font-size: 0.7rem;
 }
 
+.book-sort-count {
+    margin-left: auto;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    align-self: center;
+    white-space: nowrap;
+}
+
 /* Grid — single column list */
 .book-grid {
     display: flex;

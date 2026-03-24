@@ -5,6 +5,7 @@ $(function () {
   var $catFilters = $('.filter-btn[data-cat]');
   var $sortBtns = $('.book-sort-btn');
   var $noResult = $('#book-no-result');
+  var $sortCount = $('#book-sort-count');
   var activeCat = 'all';
   var sortField = 'title';
   var sortDir = 'asc';
@@ -108,6 +109,7 @@ $(function () {
     });
 
     $noResult.prop('hidden', visibleCount > 0);
+    $sortCount.text(visibleCount + ' / ' + allBooks.length);
   }
 
   $searchInput.on('input', applyFilters);
