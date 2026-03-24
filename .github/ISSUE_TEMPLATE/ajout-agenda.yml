@@ -1,0 +1,84 @@
+name: "📅 Ajout d'un événement à l'agenda"
+description: "Demander l'ajout d'un événement dans l'agenda SAR France"
+title: "[Agenda] "
+labels: ["contenu", "agenda", "en attente"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Ajout d'un événement à l'agenda
+        Merci de remplir ce formulaire pour ajouter un événement dans l'agenda du site SAR France.
+
+  - type: input
+    id: date
+    attributes:
+      label: "Date"
+      description: "Date de l'événement au format AAAA-MM-JJ"
+      placeholder: "ex : 2026-05-27"
+    validations:
+      required: true
+
+  - type: input
+    id: date-fin
+    attributes:
+      label: "Date de fin"
+      description: "Si l'événement dure plusieurs jours, indiquer la date de fin (AAAA-MM-JJ)"
+      placeholder: "ex : 2026-05-28"
+    validations:
+      required: false
+
+  - type: input
+    id: titre
+    attributes:
+      label: "Titre de l'événement"
+      placeholder: "ex : Cérémonies du Memorial Day à Suresnes"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: "Type d'événement"
+      options:
+        - conférence
+        - assemblée
+        - commémoration
+        - nssar
+        - réunion
+        - visite
+        - exposition
+    validations:
+      required: true
+
+  - type: input
+    id: lieu
+    attributes:
+      label: "Lieu"
+      description: "Nom du lieu ou de la ville"
+      placeholder: "ex : Cimetière américain de Suresnes"
+    validations:
+      required: false
+
+  - type: input
+    id: heure
+    attributes:
+      label: "Heure"
+      description: "Heure de début au format HH:MM (24h)"
+      placeholder: "ex : 18:00"
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "Courte description de l'événement (facultatif)"
+      placeholder: "ex : Assemblée générale annuelle suivie du dîner traditionnel."
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        💡 Les coordonnées GPS et la mise en forme YAML seront ajoutées automatiquement lors du traitement.
