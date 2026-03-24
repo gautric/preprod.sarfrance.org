@@ -172,6 +172,8 @@
   translation: "Usuels et Revues"
 - id: bibli_cat_divers
   translation: "Divers"
+- id: bibli_see_gallica
+  translation: "Voir sur Gallica (BnF)"
 - id: bibli_download
   translation: "Télécharger l'inventaire Excel"
 

@@ -12,6 +12,7 @@ $(function () {
   var allBooks = [];
   var categories = {};
   var seeBookLabel = '';
+  var seeGallicaLabel = '';
   var iso = null;
 
   var template = [
@@ -19,8 +20,9 @@ $(function () {
       '<div class="book-card-text">',
         '{{#catLabel}}<span class="tag cat-{{catKey}}">{{catLabel}}</span>{{/catLabel}}',
         '<span class="book-name">',
-          '{{#isbn}}<a href="https://books.google.com/books?vid=ISBN{{isbn}}" target="_blank" rel="noopener" title="{{seeBookLabel}}">{{name}}</a>{{/isbn}}',
-          '{{^isbn}}{{name}}{{/isbn}}',
+          '{{#gallica}}<a href="{{gallica}}" target="_blank" rel="noopener" title="{{seeGallicaLabel}}">{{name}}</a>{{/gallica}}',
+          '{{^gallica}}{{#isbn}}<a href="https://books.google.com/books?vid=ISBN{{isbn}}" target="_blank" rel="noopener" title="{{seeBookLabel}}">{{name}}</a>{{/isbn}}{{/gallica}}',
+          '{{^gallica}}{{^isbn}}{{name}}{{/isbn}}{{/gallica}}',
         '</span>',
         '<span class="book-sep">\u2014</span>',
         '<span class="book-author">{{author}}</span>',
@@ -49,6 +51,7 @@ $(function () {
       bookFormat: book.bookFormat,
       isbn: book.isbn,
       image: book.image,
+      gallica: book.gallica,
       inLanguage: book.inLanguage,
       genreStr: book.genre,
       searchStr: searchStr,
@@ -57,6 +60,7 @@ $(function () {
       catKey: firstCat,
       catLabel: catData ? catData.label : '',
       seeBookLabel: seeBookLabel,
+      seeGallicaLabel: seeGallicaLabel,
       publisherDisplay: book.publisher || 'N/A',
       dateDisplay: book.datePublished ? String(book.datePublished) : ' - ',
       pagesDisplay: book.numberOfPages ? book.numberOfPages + ' p.' : ' - '
@@ -141,6 +145,7 @@ $(function () {
     $.getJSON(jsonUrl).done(function (data) {
       categories = data.categories || {};
       seeBookLabel = data.seeBookLabel || '';
+      seeGallicaLabel = data.seeGallicaLabel || '';
       allBooks = data.books || [];
 
       var fragments = [];

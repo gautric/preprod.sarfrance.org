@@ -172,6 +172,8 @@
   translation: "Reference Books & Journals"
 - id: bibli_cat_divers
   translation: "Miscellaneous"
+- id: bibli_see_gallica
+  translation: "View on Gallica (BnF)"
 - id: bibli_download
   translation: "Download Excel inventory"
 
