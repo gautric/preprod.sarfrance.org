@@ -60,6 +60,7 @@
                 </div>
                 <div class="event-info">
                     <h3>{{ .titre }}</h3>
+                    {{ with .lieu }}<span class="event-lieu">📍 {{ . }}</span>{{ end }}
                 </div>
             </article>
             {{ end }}

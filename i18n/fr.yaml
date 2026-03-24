@@ -181,6 +181,9 @@
 - id: references_title
   translation: "Références"
 
+- id: agenda_link
+  translation: "En savoir plus"
+
 # Agenda types
 - id: agenda_type_conférence
   translation: "Conférence"

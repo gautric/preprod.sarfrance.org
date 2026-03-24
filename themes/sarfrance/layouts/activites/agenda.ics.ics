@@ -14,14 +14,25 @@ X-WR-TIMEZONE:Europe/Paris
 {{- $uid := printf "%s-%s@sarfrance.org" $dateClean $titleLower -}}
 BEGIN:VEVENT
 UID:{{ $uid }}
+{{- if and .heure (ne .heure "") }}
+DTSTART;TZID=Europe/Paris:{{ $dateClean }}T{{ replace .heure ":" "" }}00
+{{- else }}
 DTSTART;VALUE=DATE:{{ $dateClean }}
+{{- end }}
 {{- if and .dateEnd (ne .dateEnd "") }}
 {{- $endTime := time.AsTime (printf "%sT00:00:00Z" .dateEnd) }}
 {{- $endPlusOne := $endTime.AddDate 0 0 1 }}
 DTEND;VALUE=DATE:{{ $endPlusOne.Format "20060102" }}
 {{- end }}
 SUMMARY:{{ .titre }}
+{{- if and .description (ne .description "") }}
+DESCRIPTION:{{ .description }}
+{{- else }}
 DESCRIPTION:{{ .titre }} – SAR France
+{{- end }}
+{{- with .lieu }}
+LOCATION:{{ . }}
+{{- end }}
 END:VEVENT
 {{ end -}}
 END:VCALENDAR

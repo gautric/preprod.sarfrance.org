@@ -479,6 +479,8 @@ a:hover {
     color: var(--navy-blue);
 }
 
+.event-lieu { font-size: 0.82rem; color: var(--text-muted); }
+
 .event-info p {
     font-family: var(--font-janson);
     font-size: 0.9rem;

@@ -27,6 +27,28 @@ $(function() {
         }
     });
 
+    // Format heure (HH:MM → localized time)
+    var timeFmt = new Intl.DateTimeFormat(locale, { hour: '2-digit', minute: '2-digit' });
+    $('.agenda-card-heure[data-heure]').each(function() {
+        var parts = $(this).attr('data-heure').split(':');
+        var d = new Date(2000, 0, 1, parseInt(parts[0]), parseInt(parts[1]) || 0);
+        $(this).text('\uD83D\uDD50 ' + timeFmt.format(d));
+    });
+
+    // Mini-maps Leaflet
+    if (typeof L !== 'undefined') {
+        $('.agenda-map[data-lat][data-lon]').each(function() {
+            var $el = $(this);
+            var lat = parseFloat($el.attr('data-lat'));
+            var lon = parseFloat($el.attr('data-lon'));
+            if (!lat && !lon) return;
+            var map = L.map(this, { scrollWheelZoom: false, dragging: false, zoomControl: false, attributionControl: false }).setView([lat, lon], 13);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18 }).addTo(map);
+            L.marker([lat, lon]).addTo(map).bindPopup($el.attr('data-lieu') || '');
+            setTimeout(function() { map.invalidateSize(); }, 200);
+        });
+    }
+
     // Type filtering
     var $filters = $('.filter-btn[data-type]');
     var $items = $('.tl-row[data-type]');

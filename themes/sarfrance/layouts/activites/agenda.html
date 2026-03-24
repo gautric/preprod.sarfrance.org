@@ -1,6 +1,7 @@
 {{ define "head" }}
 {{- $css := resources.Get "css/agenda.css" | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 {{ end }}
 {{ define "main" }}
 {{- $prefix := partial "lang-prefix.html" . -}}
@@ -54,12 +55,23 @@
                 {{ end }}
                 <div class="tl-row" data-type="{{ .type }}">
                     <div class="tl-dot type-{{ .type | urlize }}"></div>
-                    <div class="page-card">
-                        <div class="page-card-header">
-                            <span class="page-card-date" data-date="{{ .date }}"{{ with .dateEnd }} data-date-end="{{ . }}"{{ end }}></span>
-                            <span class="agenda-type type-{{ .type | urlize }}">{{ i18n (printf "%s%s" $i18nPrefix .type) }}</span>
+                    <div class="page-card{{ if and .lat .lon (ne (printf "%v" .lat) "0") }} page-card--has-map{{ end }}">
+                        <div class="page-card-body">
+                            <div class="page-card-header">
+                                <span class="page-card-date" data-date="{{ .date }}"{{ with .dateEnd }} data-date-end="{{ . }}"{{ end }}></span>
+                                <span class="agenda-type type-{{ .type | urlize }}">{{ i18n (printf "%s%s" $i18nPrefix .type) }}</span>
+                            </div>
+                            <h3 class="page-card-title">{{ .titre }}</h3>
+                            {{ with .description }}<p class="page-card-desc">{{ . }}</p>{{ end }}
+                            <div class="agenda-card-meta">
+                                {{ with .lieu }}<span class="agenda-card-lieu">📍 {{ . }}</span>{{ end }}
+                                {{ with .heure }}<span class="agenda-card-heure" data-heure="{{ . }}">🕐 {{ . }}</span>{{ end }}
+                                {{ with .lien }}<a href="{{ . }}" class="agenda-card-lien" target="_blank" rel="noopener">🔗 {{ i18n "agenda_link" }}</a>{{ end }}
+                            </div>
                         </div>
-                        <h3 class="page-card-title">{{ .titre }}</h3>
+                        {{ if and .lat .lon (ne (printf "%v" .lat) "0") }}
+                        <div class="agenda-map" data-lat="{{ .lat }}" data-lon="{{ .lon }}" data-lieu="{{ .lieu }}"></div>
+                        {{ end }}
                     </div>
                 </div>
             {{ end }}
@@ -68,6 +80,7 @@
 </section>
 {{ end }}
 {{ define "scripts" }}
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 {{- $js := resources.Get "js/agenda.js" | resources.Fingerprint }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 {{ end }}
