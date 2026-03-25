@@ -1,6 +1,6 @@
 ---
-title: "Other French Societies"
-description: "Other French societies stemming from the American War of Independence"
+title: "Sister Societies and Useful Links"
+description: "Patriotic societies stemming from the American War of Independence and Franco-American links"
 ---
 
 ## Daughters of the American Revolution (DAR)
@@ -34,19 +34,36 @@ Originating in 1784 from the society of friends created around Washington in May
 - [Society of the Cincinnati of France](https://www.cincinnatidefrance.fr/)
 - [The Society of the Cincinnati (USA)](https://www.societyofthecincinnati.org/)
 
-## Other Societies and Useful Links
+## SAR Societies Abroad
 
-### SAR Societies Abroad
+The NSSAR has societies in several countries outside the United States:
 
+- [Canada Society SAR](https://www.canadasar.ca/)
+- [Germany Society SAR](http://www.germanysocietysar.org/)
+- [Spain Society SAR](https://www.spainsar.org/)
 - [UK Society SAR](https://uksocietysar.org/)
 
-### Franco-American Relations
+## Embassy and Consulates of France in the United States
+
+- [Embassy of France in the United States](https://us.diplomatie.gouv.fr/en/embassy-france-united-states) — Washington, D.C.
+- [Consulate General of France in Atlanta](https://us.diplomatie.gouv.fr/en/consulate-general-france-atlanta)
+- [Consulate General of France in Boston](https://us.diplomatie.gouv.fr/en/consulate-general-france-boston)
+- [Consulate General of France in Chicago](https://us.diplomatie.gouv.fr/en/consulate-general-france-chicago)
+- [Consulate General of France in Houston](https://us.diplomatie.gouv.fr/en/consulate-general-france-houston)
+- [Consulate General of France in Los Angeles](https://us.diplomatie.gouv.fr/en/consulate-general-france-los-angeles)
+- [Consulate General of France in Miami](https://us.diplomatie.gouv.fr/en/consulate-general-france-miami)
+- [Consulate General of France in New Orleans](https://us.diplomatie.gouv.fr/en/consulate-general-france-new-orleans)
+- [Consulate General of France in New York](https://us.diplomatie.gouv.fr/en/consulate-general-france-new-york)
+- [Consulate General of France in San Francisco](https://us.diplomatie.gouv.fr/en/consulate-general-france-san-francisco)
+- [Consulate General of France in Washington](https://us.diplomatie.gouv.fr/en/consulate-general-france-washington-dc)
+
+## Franco-American Relations
 
 - [Cercle France Amériques](https://france-ameriques.org/)
 - [Embassy of the United States of America in France](https://fr.usembassy.gov/)
 - [France-Amérique International Journal](http://www.france-amerique.com/)
 
-### Historical and Heritage Associations
+## Historical and Heritage Associations
 
 - [Association of Descendants of Privateer Captains](http://www.descendants-capitainescorsaires.org/)
 - [La Sabretache](http://lasabretache.fr/) — Military history study society

@@ -68,7 +68,7 @@ Dossier : `content/organisation/`
 | NSSAR | `nssar.md` |
 | Objet et Histoire | `objet-et-histoire.md` |
 | Objet, Statuts & Règlement | `statuts.md` |
-| Sociétés françaises | `societes.md` |
+| Sociétés sœurs et liens utiles | `societes.md` |
 | Secrétariat | `secretariat.md` |
 
 ### Rubrique « Histoire »
@@ -120,7 +120,7 @@ Dossier : `content/en/organisation/`
 | NSSAR | `nssar.md` |
 | Purpose and History | `objet-et-histoire.md` |
 | Bylaws & Rules | `statuts.md` |
-| French Societies | `societes.md` |
+| Sister Societies and Useful Links | `societes.md` |
 | Secretariat | `secretariat.md` |
 
 ### Pages en anglais — « Histoire »

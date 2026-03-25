@@ -1,6 +1,6 @@
 ---
-title: "Autres sociétés françaises"
-description: "Autres sociétés françaises issues de la Guerre d'Amérique"
+title: "Sociétés sœurs et liens utiles"
+description: "Sociétés patriotiques issues de la Guerre d'Amérique et liens franco-américains"
 ---
 
 ## Daughters of the American Revolution (DAR)
@@ -36,19 +36,36 @@ Issue en 1784 de la société d'amis créée autour de Washington dès mai 1783 
 - [Société des Cincinnati de France](https://www.cincinnatidefrance.fr/)
 - [The Society of the Cincinnati (USA)](https://www.societyofthecincinnati.org/)
 
-## Autres sociétés et liens utiles
+## Sociétés SAR à l'étranger
 
-### Sociétés SAR à l'étranger
+La NSSAR compte des sociétés dans plusieurs pays en dehors des États-Unis :
 
+- [Canada Society SAR](https://www.canadasar.ca/)
+- [Germany Society SAR](http://www.germanysocietysar.org/)
+- [Spain Society SAR](https://www.spainsar.org/)
 - [UK Society SAR](https://uksocietysar.org/)
 
-### Relations franco-américaines
+## Ambassade et consulats de France aux États-Unis
+
+- [Ambassade de France aux États-Unis](https://us.diplomatie.gouv.fr/ambassade-de-france-aux-etats-unis) — Washington, D.C.
+- [Consulat général de France à Atlanta](https://us.diplomatie.gouv.fr/fr/consulat-general-de-france-atlanta)
+- [Consulat général de France à Boston](https://us.diplomatie.gouv.fr/fr/consulat-general-de-france-boston)
+- [Consulat général de France à Chicago](https://us.diplomatie.gouv.fr/fr/consulat-general-de-france-chicago)
+- [Consulat général de France à Houston](https://us.diplomatie.gouv.fr/fr/consulat-general-de-france-houston)
+- [Consulat général de France à La Nouvelle-Orléans](https://us.diplomatie.gouv.fr/fr/consulat-general-de-france-la-nouvelle-orleans)
+- [Consulat général de France à Los Angeles](https://us.diplomatie.gouv.fr/fr/consulat-general-de-france-los-angeles)
+- [Consulat général de France à Miami](https://us.diplomatie.gouv.fr/fr/consulat-general-de-france-miami)
+- [Consulat général de France à New York](https://us.diplomatie.gouv.fr/fr/consulat-general-de-france-new-york)
+- [Consulat général de France à San Francisco](https://us.diplomatie.gouv.fr/fr/consulat-general-de-france-san-francisco)
+- [Consulat général de France à Washington](https://us.diplomatie.gouv.fr/fr/consulat-general-de-france-washington-dc)
+
+## Relations franco-américaines
 
 - [Cercle France Amériques](https://france-ameriques.org/)
-- [Ambassade des États-Unis d'Amérique](https://fr.usembassy.gov/)
+- [Ambassade des États-Unis d'Amérique en France](https://fr.usembassy.gov/)
 - [Journal international France-Amérique](http://www.france-amerique.com/)
 
-### Associations historiques et patrimoniales
+## Associations historiques et patrimoniales
 
 - [Association des Descendants de Capitaines Corsaires](http://www.descendants-capitainescorsaires.org/)
 - [La Sabretache](http://lasabretache.fr/) — Société d'études d'histoire militaire
