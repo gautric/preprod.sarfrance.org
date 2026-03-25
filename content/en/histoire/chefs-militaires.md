@@ -22,14 +22,6 @@ France's participation in the American War of Independence (1778–1783) mobiliz
 - **Chevalier de Ternay** – Commanded the squadron that transported Rochambeau's Corps to Newport. Died at Newport in December 1780.
 - **Sochet des Touches** – Successor to Ternay, commanded at the first Battle of the Chesapeake (March 1781).
 
-## The Peace of 1783
-
-A few additional successes in the Mediterranean (recapture of Minorca) and the Caribbean, tempered by the naval defeat at the Battle of the Saintes in April 1782, led the British government to seek an end to an unpopular and financially unsustainable war.
-
-All belligerents concluded peace at Versailles on September 3, 1783. England recognized the independence of its former colonies. George Washington, having returned to his lands like Cincinnatus, was elected president of the new Federation.
-
----
-
 ## Volunteers Sent by France to America
 
 Commander Lasseray (*Les Français sous les treize étoiles* – 1935) identified approximately 230 officers or engineers from France who fought in American units; Colonel Bodinier added forty more. Among them:
@@ -192,3 +184,11 @@ Sixty-nine men, including two officers, had lost their lives on American soil. F
 The town of Ridgefield (Connecticut) celebrated on July 1 the 225th anniversary of the arrival of the Lauzun Legion, marching toward the siege of New York and then Yorktown.
 
 On this occasion, the "Hussards de Lauzun," an association of veterans of the 5th Hussars (and more recently descendants of former members of the 5th Hussars or the Lauzun Legion in America) had organized a delegation that was warmly welcomed by the mayor of Ridgefield, the W3R Association of Connecticut, and local patriotic associations. The French travelers were received and housed by American families, the descendant of a Legion captain during the American War was made an honorary citizen of the town during an 18th-century costume ball, which followed a day where Washington, Rochambeau, Barras, the Hussars, etc., represented by American patriots in period uniforms, presided over a military review and inspected a reconstructed encampment.
+
+---
+
+## The Peace of 1783
+
+A few additional successes in the Mediterranean (recapture of Minorca) and the Caribbean, tempered by the naval defeat at the Battle of the Saintes in April 1782, led the British government to seek an end to an unpopular and financially unsustainable war.
+
+All belligerents concluded peace at Versailles on September 3, 1783. England recognized the independence of its former colonies. George Washington, having returned to his lands like Cincinnatus, was elected president of the new Federation.
