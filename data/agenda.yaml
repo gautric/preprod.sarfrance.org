@@ -548,7 +548,7 @@ events:
     description: ""
     lieu: "Louisville, Kentucky"
     heure: ""
-    lien: "https://www.sar.org"
+    lien: "https://www.sar.org/app/uploads/E-packet-SPRING-2026.pdf"
     lat: 38.2542
     lon: -85.7594
   - date: "2026-03-17"
@@ -615,18 +615,18 @@ events:
     dateEnd: "2026-07-16"
     titre: "Congrès annuel de la NSSAR à Greensboro (NC)"
     type: nssar
-    description: ""
-    lieu: "Greensboro, Caroline du Nord"
+    description: "Sheraton Greensboro Hotel at Four Seasons."
+    lieu: "Sheraton Greensboro Hotel at Four Seasons, Greensboro, Caroline du Nord"
     heure: ""
     lien: "https://www.sar.org"
     lat: 36.0726
     lon: -79.7920
-  - date: "2026-09-01"
-    dateEnd: ""
+  - date: "2026-10-01"
+    dateEnd: "2026-10-03"
     titre: "Fall leadership meeting de la NSSAR à Louisville (KY)"
     type: nssar
-    description: ""
-    lieu: "Louisville, Kentucky"
+    description: "The Galt House."
+    lieu: "The Galt House, Louisville, Kentucky"
     heure: ""
     lien: "https://www.sar.org"
     lat: 38.2542

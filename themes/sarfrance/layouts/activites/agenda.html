@@ -62,12 +62,12 @@
                                 <span class="page-card-date" data-date="{{ .date }}"{{ with .dateEnd }} data-date-end="{{ . }}"{{ end }}></span>
                                 <span class="agenda-type type-{{ .type | urlize }}">{{ i18n (printf "%s%s" $i18nPrefix .type) }}</span>
                             </div>
-                            <h3 class="page-card-title">{{ .titre }}</h3>
+                            <h3 class="page-card-title">{{ with .lien }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}{{ .titre }}{{ with .lien }}</a>{{ end }}</h3>
                             {{ with .description }}<p class="page-card-desc">{{ . }}</p>{{ end }}
                             <div class="agenda-card-meta">
                                 {{ with .lieu }}<span class="agenda-card-lieu">📍 {{ . }}</span>{{ end }}
                                 {{ with .heure }}<span class="agenda-card-heure" data-heure="{{ . }}">🕐 {{ . }}</span>{{ end }}
-                                {{ with .lien }}<a href="{{ . }}" class="agenda-card-lien" target="_blank" rel="noopener">🔗 {{ i18n "agenda_link" }}</a>{{ end }}
+
                             </div>
                         </div>
                         {{ if and .lat .lon (ne (printf "%v" .lat) "0") }}
