@@ -55,7 +55,7 @@ body:
     id: lieu
     attributes:
       label: "Lieu"
-      description: "Nom du lieu ou de la ville (20 caractères maximum)"
+      description: "Nom du lieu ou de la ville (50 caractères maximum)"
       placeholder: "ex : Cimetière américain de Suresnes"
     validations:
       required: false
@@ -73,7 +73,7 @@ body:
     id: description
     attributes:
       label: "Description"
-      description: "Courte description de l'événement (50 caractères maximum)"
+      description: "Courte description de l'événement (200 caractères maximum)"
       placeholder: "ex : Assemblée générale annuelle suivie du dîner traditionnel."
     validations:
       required: false

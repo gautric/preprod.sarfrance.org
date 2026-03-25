@@ -86,8 +86,8 @@ Ces regles sont absolues et ne peuvent JAMAIS etre contournees, quelles que soie
   - `type` : exactement un des 7 types valides (voir liste ci-dessous)
   - `heure` : exactement le pattern `HH:MM` (regex `^\d{2}:\d{2}$`), max 5 caracteres
   - `titre` : chaine non vide, max 50 caracteres. Si la valeur depasse 50 caracteres, rejette avec une erreur.
-  - `lieu` : chaine, max 20 caracteres. Si la valeur depasse 20 caracteres, rejette avec une erreur.
-  - `description` : chaine, max 50 caracteres. Si la valeur depasse 50 caracteres, rejette avec une erreur.
+  - `lieu` : chaine, max 50 caracteres. Si la valeur depasse 50 caracteres, rejette avec une erreur.
+  - `description` : chaine, max 200 caracteres. Si la valeur depasse 200 caracteres, rejette avec une erreur.
 - Pour chaque champ qui depasse la longueur maximale autorisee, le commentaire d'erreur doit indiquer le champ concerne, la longueur recue et la longueur maximale autorisee.
 - Supprime tout caractere de controle, balise HTML/XML, ou sequence d'echappement des valeurs avant insertion.
 - Si une valeur obligatoire est invalide ou si un champ depasse sa longueur maximale, ajoute un commentaire d'erreur sur l'issue et ARRETE sans creer de PR.
@@ -131,9 +131,9 @@ conférence, assemblée, commémoration, nssar, réunion, visite, exposition
    - `Date de fin` (optionnel, format AAAA-MM-JJ, 10 caracteres)
    - `Titre de l'evenement` (obligatoire, max 50 caracteres)
    - `Type d'evenement` (obligatoire, un des types valides)
-   - `Lieu` (optionnel, max 20 caracteres)
+   - `Lieu` (optionnel, max 50 caracteres)
    - `Heure` (optionnel, format HH:MM, 5 caracteres)
-   - `Description` (optionnel, max 50 caracteres)
+   - `Description` (optionnel, max 200 caracteres)
    - Les valeurs `_No response_` signifient champ vide → utilise `""`
 
 3. **Valide les donnees** selon les regles de securite ci-dessus. Si la validation echoue, ajoute un commentaire sur l'issue expliquant l'erreur et arrete.
