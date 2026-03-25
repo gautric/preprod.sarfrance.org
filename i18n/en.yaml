@@ -128,6 +128,8 @@
   translation: "Last updated"
 
 # Library
+- id: bibli_intro
+  translation: "SAR France holds a library of {{ .Count }} works covering the history of the American War of Independence, biographies of key figures of the era, maritime history, genealogy, and many other subjects related to the Franco-American alliance."
 - id: bibli_desc
   translation: "SAR France library inventory"
 - id: bibli_count

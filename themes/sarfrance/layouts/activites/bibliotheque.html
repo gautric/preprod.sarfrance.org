@@ -8,7 +8,8 @@
     {{ partial "page-header.html" (dict "ctx" . "desc" (i18n "bibli_desc") "extra" $bibMeta) }}
     <div class="container">
         <div class="content">
-            {{ .Content }}
+            <p>{{ i18n "bibli_intro" (dict "Count" (len .Site.Data.books.books)) }}</p>
+            <p>{{ i18n "bibli_available" | safeHTML }}</p>
         </div>
 
         <div class="page-search-wrap">
