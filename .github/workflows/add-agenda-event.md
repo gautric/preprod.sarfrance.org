@@ -9,8 +9,6 @@ description: |
 on:
   issues:
     types: [opened]
-  filter:
-    labels: [agenda]
 
 permissions: read-all
 
