@@ -22,14 +22,6 @@ La participation française à la Guerre d'Indépendance américaine (1778–178
 - **Le chevalier de Ternay** – Commande l'escadre qui transporte le Corps de Rochambeau à Newport. Meurt à Newport en décembre 1780.
 - **Sochet des Touches** – Successeur de Ternay, commande à la première bataille de la Chesapeake (mars 1781).
 
-## La paix de 1783
-
-Quelques succès complémentaires en Méditerranée (reprise de Minorque) et aux Antilles, tempérés par la défaite navale des Saintes en avril 1782, conduisent le gouvernement britannique à rechercher la fin d'une guerre impopulaire et financièrement insupportable.
-
-L'ensemble des belligérants concluent la paix à Versailles, le 3 septembre 1783. L'Angleterre reconnaît à ses anciennes colonies leur indépendance. George Washington, retourné à ses terres tel Cincinnatus, est porté à la présidence de la nouvelle Fédération.
-
----
-
 ## Les volontaires envoyés par la France en Amérique
 
 Le commandant Lasseray (*Les Français sous les treize étoiles* – 1935) recensait environ 230 officiers ou ingénieurs venant de France et ayant combattu dans les unités américaines ; le colonel Bodinier en ajoute quarante. Parmi eux :
@@ -187,8 +179,18 @@ Cette action, chronologiquement la première du siège, valut à son chef d'êtr
 
 Soixante-neuf hommes dont deux officiers avaient perdu la vie sur le sol américain. Quatre officiers parmi les blessés.
 
+---
+
 ### Commémoration Lauzun à Ridgefield (CT), 225e anniversaire, le 1er juillet 2006
 
 La ville de Ridgefield (Connecticut) a célébré le 1er juillet le 225e anniversaire de l'arrivée de la Légion de Lauzun, en marche vers le siège de New York puis de Yorktown.
 
 À cette occasion, les « Hussards de Lauzun », association des anciens du 5e Hussards (et depuis peu des descendants d'anciens du 5e Hussards ou de la Légion de Lauzun en Amérique) avaient organisé une délégation qui fut chaleureusement accueillie par le maire de Ridgefield, l'association W3R du Connecticut, et les associations patriotiques locales. Les voyageurs français ont été reçus et logés par des familles américaines, le descendant d'un capitaine de la Légion pendant la guerre d'Amérique a été fait citoyen d'honneur de la ville au cours d'un bal en costumes du XVIIIe, qui faisait suite à une journée où Washington, Rochambeau, Barras, les Hussards, etc., représentés par des patriotes américains en uniformes de l'époque ont présidé une prise d'armes et procédé à l'inspection d'un campement reconstitué.
+
+---
+
+## La paix de 1783
+
+Quelques succès complémentaires en Méditerranée (reprise de Minorque) et aux Antilles, tempérés par la défaite navale des Saintes en avril 1782, conduisent le gouvernement britannique à rechercher la fin d'une guerre impopulaire et financièrement insupportable.
+
+L'ensemble des belligérants concluent la paix à Versailles, le 3 septembre 1783. L'Angleterre reconnaît à ses anciennes colonies leur indépendance. George Washington, retourné à ses terres tel Cincinnatus, est porté à la présidence de la nouvelle Fédération.
