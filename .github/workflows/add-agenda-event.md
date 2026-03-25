@@ -141,7 +141,7 @@ conférence, assemblée, commémoration, nssar, réunion, visite, exposition
 4. **Geocode le lieu** :
    - UNIQUEMENT via `https://nominatim.openstreetmap.org/search?q=NOM_DU_LIEU&format=json&limit=1`
    - Extrais `lat` et `lon` du premier resultat, arrondis a 4 decimales
-   - Si le lieu est vide ou le geocodage echoue, utilise `lat: 0` et `lon: 0`
+   - Si le lieu est vide ou le geocodage echoue ne rajoute pas les coordonnées gps
 
 5. **Lis le fichier** `data/agenda.yaml` et insere le nouvel evenement a la bonne position chronologique (trie par date croissante). Trouve la premiere entree dont la date est posterieure a la date du nouvel evenement et insere juste avant.
 
