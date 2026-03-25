@@ -279,3 +279,6 @@
   translation: "Stèle / Mémorial"
 - id: hl_tag_lieu-de-mémoire
   translation: "Lieu de mémoire"
+
+- id: nssar_logo_alt
+  translation: "Logo de la National Society of the Sons of the American Revolution"

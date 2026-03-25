@@ -760,7 +760,7 @@ a:hover {
 
 .footer-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 40px;
     padding-bottom: 40px;
     border-bottom: 1px solid var(--overlay-light);
@@ -1003,6 +1003,10 @@ a:hover {
 
     .footer-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-col-logo {
+        grid-column: 1 / -1;
     }
 }
 
