@@ -32,6 +32,8 @@ safe-outputs:
     protected-files: allowed
   add-comment:
     max: 1
+  noop:
+    report-as-issue: false
 
 tools:
   github:
