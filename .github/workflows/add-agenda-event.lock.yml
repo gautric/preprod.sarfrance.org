@@ -26,13 +26,14 @@
 # chronological order (preserving the existing YAML style), and creates a pull request
 # for review.
 #
-# gh-aw-metadata: {"schema_version":"v3","frontmatter_hash":"8f60e6b8b535e4f925a890df1bb749e73eaf7cfb7f7e429ac882cbcdd125e479","compiler_version":"v0.63.1","strict":true,"agent_id":"claude"}
+# gh-aw-metadata: {"schema_version":"v3","frontmatter_hash":"2bf1dd78db84160931685e48f49eab380c6126e6302966d5e835adf93e69e108","compiler_version":"v0.63.1","strict":true,"agent_id":"claude"}
 
 name: "Ajout automatique d'un evenement a l'agenda SAR France"
 "on":
   issues:
     types:
     - opened
+    - edited
 
 permissions: {}
 

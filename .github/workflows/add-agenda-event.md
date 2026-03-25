@@ -8,7 +8,7 @@ description: |
 
 on:
   issues:
-    types: [opened]
+    types: [opened, edited]
 
 permissions: read-all
 
