@@ -13,7 +13,7 @@ body:
     id: date
     attributes:
       label: "Date"
-      description: "Date de l'événement au format AAAA-MM-JJ"
+      description: "Date de l'événement au format AAAA-MM-JJ (10 caractères)"
       placeholder: "ex : 2026-05-27"
     validations:
       required: true
@@ -22,7 +22,7 @@ body:
     id: date-fin
     attributes:
       label: "Date de fin"
-      description: "Si l'événement dure plusieurs jours, indiquer la date de fin (AAAA-MM-JJ)"
+      description: "Si l'événement dure plusieurs jours, indiquer la date de fin (AAAA-MM-JJ, 10 caractères)"
       placeholder: "ex : 2026-05-28"
     validations:
       required: false
@@ -31,6 +31,7 @@ body:
     id: titre
     attributes:
       label: "Titre de l'événement"
+      description: "50 caractères maximum"
       placeholder: "ex : Cérémonies du Memorial Day à Suresnes"
     validations:
       required: true
@@ -54,7 +55,7 @@ body:
     id: lieu
     attributes:
       label: "Lieu"
-      description: "Nom du lieu ou de la ville"
+      description: "Nom du lieu ou de la ville (20 caractères maximum)"
       placeholder: "ex : Cimetière américain de Suresnes"
     validations:
       required: false
@@ -63,7 +64,7 @@ body:
     id: heure
     attributes:
       label: "Heure"
-      description: "Heure de début au format HH:MM (24h)"
+      description: "Heure de début au format HH:MM, 24h (5 caractères)"
       placeholder: "ex : 18:00"
     validations:
       required: false
@@ -72,7 +73,7 @@ body:
     id: description
     attributes:
       label: "Description"
-      description: "Courte description de l'événement (facultatif)"
+      description: "Courte description de l'événement (50 caractères maximum)"
       placeholder: "ex : Assemblée générale annuelle suivie du dîner traditionnel."
     validations:
       required: false
