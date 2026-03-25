@@ -138,6 +138,17 @@ conférence, assemblée, commémoration, nssar, réunion, visite, exposition
 
 3. **Valide les donnees** selon les regles de securite ci-dessus. Si la validation echoue, ajoute un commentaire sur l'issue expliquant l'erreur et arrete.
 
+3b. **Corrige la langue** des champs textuels (`titre`, `lieu`, `description`) :
+   - Le site est bilingue (français par défaut, anglais secondaire). Les événements sont rédigés en français.
+   - Corrige les fautes d'orthographe, de grammaire et d'accord évidentes, sans reformuler ni inventer de nouveaux mots.
+   - Respecte les usages courants du français : majuscule en début de phrase, accents (é, è, ê, à, ù, î, ô, û, ç), ponctuation française (espace avant `:`, `!`, `?`, `;`).
+   - Si un titre ou une description est rédigé en anglais, traduis-le en français courant. N'invente pas de néologisme : utilise le terme français établi (ex. "conférence" et non "conference", "commémoration" et non "commemoration").
+   - Si une correction est apportée, note-la dans le commentaire de confirmation sur l'issue sous la forme :
+     - `Correction (titre) : "Titre original" → "Titre corrigé" — [raison courte]`
+     - `Correction (lieu) : "Lieu original" → "Lieu corrigé" — [raison courte]`
+     - `Correction (description) : [description de la correction] — [raison courte]`
+   - N'apporte aucune correction si le texte est déjà correct.
+
 4. **Geocode le lieu** :
    - UNIQUEMENT via `https://nominatim.openstreetmap.org/search?q=NOM_DU_LIEU&format=json&limit=1`
    - Extrais `lat` et `lon` du premier resultat, arrondis a 4 decimales
