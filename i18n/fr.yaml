@@ -128,6 +128,8 @@
   translation: "Dernière mise à jour"
 
 # Bibliothèque
+- id: bibli_intro
+  translation: "SAR France dispose d'une bibliothèque riche de {{ .Count }} ouvrages couvrant l'histoire de la Guerre d'Indépendance américaine, les biographies des acteurs de cette époque, l'histoire maritime, la généalogie et bien d'autres sujets liés à l'alliance franco-américaine."
 - id: bibli_desc
   translation: "Inventaire de la bibliothèque SAR France"
 - id: bibli_count
