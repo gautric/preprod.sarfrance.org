@@ -28,6 +28,7 @@ Selon l'étude de Warrington Dawson (1936), 2 112 Français ont perdu la vie sur
 
 ## Pour en savoir plus
 
+- [Histoire de SAR France](/histoire/histoire-de-sar-france/) – Histoire de la Société, son drapeau et sa médaille
 - [Chronologie](/histoire/chronologie/) – Présentation synoptique de l'histoire américaine et européenne
 - [Chefs militaires et volontaires](/histoire/chefs-militaires/) – Les principaux acteurs français du conflit
 - [Opérations militaires en Amérique du Nord](/histoire/operations/) – Le Corps Expéditionnaire et la campagne de Yorktown

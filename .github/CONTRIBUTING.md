@@ -66,7 +66,7 @@ Dossier : `content/organisation/`
 | Page sur le site | Fichier à modifier |
 |---|---|
 | NSSAR | `nssar.md` |
-| Objet et Histoire | `objet-et-histoire.md` |
+| Objet de SAR France | `objet-et-histoire.md` |
 | Objet, Statuts & Règlement | `statuts.md` |
 | Sociétés sœurs et liens utiles | `societes.md` |
 | Secrétariat | `secretariat.md` |
@@ -78,6 +78,7 @@ Dossier : `content/histoire/`
 | Page sur le site | Fichier à modifier |
 |---|---|
 | Chronologie | `chronologie.md` |
+| Histoire de SAR France | `histoire-de-sar-france.md` |
 | Opérations militaires | `operations.md` |
 | Chefs militaires | `chefs-militaires.md` |
 | Hauts lieux en France | `hauts-lieux.md` |
@@ -118,7 +119,7 @@ Dossier : `content/en/organisation/`
 | Page sur le site | Fichier à modifier |
 |---|---|
 | NSSAR | `nssar.md` |
-| Purpose and History | `objet-et-histoire.md` |
+| Purpose of SAR France | `objet-et-histoire.md` |
 | Bylaws & Rules | `statuts.md` |
 | Sister Societies and Useful Links | `societes.md` |
 | Secretariat | `secretariat.md` |
@@ -130,6 +131,7 @@ Dossier : `content/en/histoire/`
 | Page sur le site | Fichier à modifier |
 |---|---|
 | Chronology | `chronologie.md` |
+| History of SAR France | `histoire-de-sar-france.md` |
 | Military Operations | `operations.md` |
 | Military Leaders | `chefs-militaires.md` |
 | Historic Sites in France | `hauts-lieux.md` |
