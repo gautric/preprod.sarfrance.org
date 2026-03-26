@@ -2,7 +2,10 @@
 title: "Claude-Charles de Damas, Viscount de Marillac"
 description: "Governor of Martinique, successor to Bouillé"
 author: "Thierry de Seguins-Cohorn"
-
+references:
+  - title: "François Claude Amour, marquis de Bouillé (mention of Damas as successor)"
+    author: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Claude_Amour,_marquis_de_Bouill%C3%A9"
 ---
 
 French officer, former page of the Grand Master of the Order of Malta, Claude-Charles de Damas served in the Antilles during the American War of Independence and succeeded the Marquis de Bouillé as Governor of Martinique in 1783.

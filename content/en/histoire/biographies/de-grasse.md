@@ -42,26 +42,3 @@ A prisoner in London, de Grasse played a useful role in the peace negotiations. 
 His memory is honored each year, on the anniversary of the victory at Yorktown, with an official ceremony organized by the Cincinnati of France before the monument dedicated to him in the Trocadéro gardens in Paris.
 
 Another ceremony is held in his honor in September at Grasse and Le Bar-sur-Loup, where he was born.
-
-Suffren and his squadron, bound for India, would detach at the Azores, as would Count de Barras who would sail to Newport to bring Rochambeau material reinforcements and 660 new recruits. After successfully sending his merchant convoy to port, de Grasse broke the British blockade of Fort Royal in Martinique under Admiral Hood on April 30, 1781, and resupplied the troops of the Marquis de Bouillé. Bouillé and de Grasse then mounted a landing on the island of Tobago, which was taken on June 1.
-
-Arriving at Saint-Domingue with 24 ships on July 16, preparing for the Franco-Spanish operation decided at Versailles against Jamaica, de Grasse found Rochambeau's messages there. He then decided to gather all available resources and concentrate them to urgently reinforce the Expeditionary Corps' action. The urgency and what Rochambeau hinted of his strategic preferences led him to opt for a convergence on **Chesapeake** Bay rather than before New York.
-
-He attempted to borrow against his own assets to pay Washington's and Rochambeau's men (but had to resort to Havana merchants for this purpose), placed the merchant vessels under Spanish protection at Saint-Domingue, embarked 3,300 men under the Marquis de Saint-Simon and raced toward his objective, evading Hood's squadron. His intervention in the Chesapeake Bay in September 1781 was decisive for the victory at Yorktown (see [Military Operations](/en/histoire/operations/) for the detailed campaign narrative).
-
-Return to the Caribbean, where Bouillé had retaken **Saint Eustatius**. Together the two generals captured **Saint Kitts**, then de Grasse seized **Montserrat**.
-
-The planned operation against Jamaica was mounted in the spring, but Admiral Rodney, who had joined Hood in the area, had a certain superiority (more numerous ships, but above all faster and having acquired superior close-range artillery). After an indecisive first engagement on April 9 and some French tactical errors, the Battle of the Saintes saw the loss of five ships, including the commander-in-chief's, which fell into the hands of a **Rodney** who had conducted his attack remarkably well. A court-martial convened at the admiral's request in 1784 would rule on the responsibilities of the various unit commanders.
-
-An undeniable defeat for the French, this battle would prove a Pyrrhic victory for their adversaries:
-
-- de Grasse had saved his precious convoy,
-- the British fleet had been battered enough to no longer appear in the Caribbean, from where French convoys easily returned to France with their precious goods,
-- Vaudreuil had regrouped a still-impressive naval force, and
-- by the end of 1782, French shipyards had launched as many new ships as had been lost.
-
-A prisoner in London, de Grasse played a useful role in the peace negotiations. Made a founding member of the Cincinnati in September 1783, he died in Paris in 1788. His heart rests in the church of Tilly (Yvelines).
-
-His memory is honored each year, on the anniversary of the victory at Yorktown, by an official ceremony organized by the Cincinnati of France before the monument dedicated to him in the Trocadéro gardens in Paris.
-
-Another ceremony is held in his honor in September at Grasse and Le Bar-sur-Loup, where he was born.
