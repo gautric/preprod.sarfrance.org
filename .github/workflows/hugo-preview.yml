@@ -24,8 +24,6 @@ defaults:
 env:
   HUGO_VERSION: 0.157.0
   NODE_VERSION: '24'
-  ACTION_CHECKOUT_VERSION: v4
-  ACTION_SETUP_NODE_VERSION: v4
 
 jobs:
   build-preview:
@@ -43,12 +41,12 @@ jobs:
         run: sudo snap install dart-sass
 
       - name: Checkout
-        uses: actions/checkout@${{ env.ACTION_CHECKOUT_VERSION }}
+        uses: actions/checkout@v4
         with:
           submodules: recursive
 
       - name: Setup Node.js
-        uses: actions/setup-node@${{ env.ACTION_SETUP_NODE_VERSION }}
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
 
@@ -85,7 +83,7 @@ jobs:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout
-        uses: actions/checkout@${{ env.ACTION_CHECKOUT_VERSION }}
+        uses: actions/checkout@v4
 
       - name: Vérifier le front matter des fichiers Markdown
         run: |
