@@ -20,8 +20,7 @@ references:
 
 At the founding meeting of the National Society of the Sons of the American Revolution (NSSAR) on April 30, 1889, in New York, a Frenchman, Edmond, Marquis de La Fayette (1818–1890), was among the seventeen vice presidents elected that day. At the time, however, he could only represent himself — and, of course, his illustrious grandfather!
 
-![Edmond du Motier, Marquis de La Fayette](/images/histoire-sar-france/edmond-marquis-de-la-fayette.jpg "Edmond du Motier, Marquis de La Fayette") 
-**"Edmond du Motier, Marquis de La Fayette"**
+{{< figure src="/images/histoire-sar-france/edmond-marquis-de-la-fayette.jpg" caption="Edmond du Motier, Marquis de La Fayette" >}}
 
 Nevertheless, the NSSAR quickly accepted the principle of admitting descendants of French combatants into the Sons. It also approved the possibility for these descendants to form Chapters officially recognized by the NSSAR.
 
@@ -35,7 +34,7 @@ In 1910, the Chapter was chaired by General Porter and had eighteen members; the
 
 The members had adopted the tradition of gathering on Independence Day at the tomb of the Marquis de La Fayette at the Picpus Cemetery, where the victims of the Revolutionary Tribunals — guillotined at the Place de la Nation — lie buried alongside their families.
 
-![The SAR flag and the United States color guard. Picpus Cemetery, July 3, 2024](/images/histoire-sar-france/drapeau-sar-picpus-2024.jpg "The SAR flag and the United States color guard. Picpus Cemetery, July 3, 2024")
+{{< figure src="/images/histoire-sar-france/drapeau-sar-picpus-2024.jpg" caption="The SAR flag and the United States color guard. Picpus Cemetery, July 3, 2024" >}}
 
 From 1917 onwards, they organized a simple ceremony during which, every July 4th, the flag is renewed for another year. The retiring flag is carefully folded and solemnly presented to a patriotic association or to a person whom the Society wishes to honor. It is worth noting that this flag, first displayed by United States Ambassador Edward Livingstone on July 4, 1834 — the year of La Fayette's death — has never ceased to fly, even after the United States entered the war against Germany in 1942. The cemetery caretaker, Mr. Bernières, renewed it twice, in complete discretion. German officers who visited the cemetery clearly saw the Star-Spangled Banner but apparently did not report it to their superiors. On July 4, 1945, the tradition was resumed, and it has continued every July 4th ever since.
 
@@ -45,7 +44,7 @@ After the First World War, under the impetus of an American SAR member living in
 
 On October 19, 1926, the NSSAR authorized the French Chapter to become a full-fledged society, and on February 4, 1927, the Society in France of the Sons of the American Revolution was officially created. This was the first time that a non-American Society of Sons had ever come into existence. The first Council was composed of five Frenchmen and three American citizens. The Marquis de Chambrun served as president, assisted by two vice presidents: Edward H. De Neveu, the driving force behind the Chapter's transformation into a Society, and Major Albert B. Cudebec, an alumnus of the prestigious Cornell University who had served as an engineer officer on General Pershing's staff. The Viscount Charles Benoist d'Azy served as both Secretary General and Treasurer; the Comte de Luppé was archivist. The Marquis de Rochambeau, the Duke de Broglie, and Francis Warrington Dawson II — known as a journalist and diplomatic commentator under the name Warrington Dawson and serving as Secretary General of the Association of Foreign Press Correspondents in Paris — completed the Council.
 
-![Signing of the Franco-American Treaty of Alliance, February 6, 1778, in Paris](/images/histoire-sar-france/signature-traite-alliance-1778.jpg "Signing of the Franco-American Treaty of Alliance, February 6, 1778, in Paris")
+{{< figure src="/images/histoire-sar-france/signature-traite-alliance-1778.jpg" caption="Signing of the Franco-American Treaty of Alliance, February 6, 1778, in Paris" >}}
 
 ### Presidents of the Society in France
 
@@ -74,7 +73,7 @@ Three members of the Académie Française have served on the board of the Societ
 
 The Society has also counted two lieutenant generals among its members: Aldebert de Chambrun, already mentioned, and Paul Hazan, head of the Historical Service of the Armed Forces, then commander of the forces in Tunisia and a member of the Académie des Sciences Coloniales.
 
-![Jacques de Trentinian](/images/histoire-sar-france/jacques-de-trentinian.jpg "Jacques de Trentinian")
+{{< figure src="/images/histoire-sar-france/jacques-de-trentinian.jpg" caption="Jacques de Trentinian" >}}
 
 Also worthy of mention is Jacques, Comte de Trentinian, Historian of the Society, who passed away in 2017. A "one-man band" on the Council, an outstanding organizer of tours to American battlefields, and a man of encyclopedic knowledge of the War of Independence, he chaired the History Committee and vigorously defended, in his capacity as Vice President General for the "Europe District" of the NSSAR, the paramount role of France in the process that brought about American independence — a role that some sought to call into question.
 
@@ -86,8 +85,6 @@ Also worthy of mention is Jacques, Comte de Trentinian, Historian of the Society
 - **October 14, 1989**: At the instigation and with the assistance of the Society in France, a monument is erected on the battlefield of Yorktown, recalling that more than 75,000 French soldiers took part in the War of Independence and that more than 15,000 of them gave their lives during the campaigns
 - **First half of 2010**: Judge Edward Butler, then President General of the National Society, came solemnly to Paris to sign the agreement making the Society in France a partner society of the American societies, with a special status of semi-autonomy. This status, which includes the exchange of honorary presidents and vice presidents, grants the Society in France greater organizational latitude while recognizing its role as representative of the only nation directly allied with the United States during the war for their independence. Members of the Society in France nonetheless continue to be full members of the broader family of the Sons of the American Revolution
 - **December 31, 2013**: The Society in France is recognized as a public benefit organization (JORF of January 3, 2014)
-
-![Publication in Paris of the Treaty of Peace of Versailles signed between France and England, November 25, 1783, by Anton Van Ysendick (1801–1875), 1837, Château de Versailles](/images/histoire-sar-france/publication-traite-paix-versailles-1783.jpg "Publication in Paris of the Treaty of Peace of Versailles signed between France and England, November 25, 1783, by Anton Van Ysendick (1801–1875), 1837, Château de Versailles")
 
 ---
 

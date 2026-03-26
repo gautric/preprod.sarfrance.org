@@ -20,9 +20,7 @@ references:
 
 Lors de la réunion fondatrice de la National Society of the Sons of the American Revolution (NSSAR) le 30 avril 1889 à New York, un Français, Edmond, marquis de La Fayette (1818-1890), figurait parmi les dix-sept vice-présidents élus ce jour-là. A cette époque, il ne devait cependant représenter que lui-même, et son illustre grand-père bien sûr !
 
-![Edmond du Motier, marquis de La Fayette](/images/histoire-sar-france/edmond-marquis-de-la-fayette.jpg "Edmond du Motier, marquis de La Fayette")
-
-**"Edmond du Motier, marquis de La Fayette"**
+{{< figure src="/images/histoire-sar-france/edmond-marquis-de-la-fayette.jpg" caption="Edmond du Motier, marquis de La Fayette" >}}
 
 Cependant, le principe d'admettre au sein des Sons les descendants des combattants français avait été très vite acquis par la NSSAR. De même avait été admise la possibilité pour ceux-ci de se constituer en Chapitres, officiellement reconnus par la NSSAR.
 
@@ -36,7 +34,7 @@ En 1910, le Chapitre était présidé par le général Porter et comptait dix-hu
 
 Ceux-ci avaient pris l'habitude de se retrouver le jour de l'Independance Day sur la tombe du marquis de La Fayette, au cimetière de Picpus, où reposent les victimes des tribunaux révolutionnaires, guillotinées place de la Nation, ainsi que leurs familles.
 
-![Le drapeau des SAR et la garde aux drapeaux des Etats-Unis. Cimetière de Picpus le 3 juillet 2024](/images/histoire-sar-france/drapeau-sar-picpus-2024.jpg "Le drapeau des SAR et la garde aux drapeaux des Etats-Unis. Cimetière de Picpus le 3 juillet 2024")
+{{< figure src="/images/histoire-sar-france/drapeau-sar-picpus-2024.jpg" caption="Le drapeau des SAR et la garde aux drapeaux des Etats-Unis. Cimetière de Picpus le 3 juillet 2024" >}}
 
 A partir de 1917, ils organisèrent une cérémonie très sobre au cours de laquelle, tous les 4 juillet, le drapeau est renouvelé pour une année. L'ancien pavillon est amené, plié soigneusement, et remis solennellement à une association patriotique ou à une personnalité que l'on veut honorer. Il est à souligner que ce drapeau déployé pour la première fois par l'ambassadeur des Etats-Unis Edward Livingstone le 4 juillet 1834, année du décès de La Fayette, n'a jamais cessé de flotter, même après l'entrée en guerre des Etats-Unis contre l'Allemagne, en 1942. Le gardien du cimetière, monsieur Bernières, le renouvela deux fois, en toute discrétion. Des officiers allemands qui visitaient le cimetière virent bien la Star Spangled Banner, mais n'en rendirent sans doute pas compte à leur hiérarchie. Le 4 juillet 1945, la tradition put reprendre, et celle-ci perdure toujours chaque 4 juillet.
 
@@ -46,7 +44,7 @@ Après la première guerre mondiale, sous l'impulsion d'un SAR américain qui vi
 
 Le 19 octobre 1926, la NSSAR a autorisé le Chapitre français à devenir une société à part entière et le 4 février 1927, la Société en France des Fils de la Révolution Américaine était créée. C'était la première fois qu'une société de Sons non américaine voyait ainsi le jour. Le premier Conseil était composé de cinq Français et de trois citoyens américains. Le marquis de Chambrun en était le président, assisté par deux vice-présidents, Edward H. De Neveu, cheville ouvrière de la transformation du Chapitre en Société et le Major Albert B. Cudebec, ancien de la prestigieuse université Cornell, qui avait servi comme officier du Génie dans l'état-major du général Pershing, Le vicomte Charles Benoist d'Azy cumulait les fonctions de secrétaire général et de trésorier, le comte de Luppé était archiviste. Le marquis de Rochambeau complétait le Conseil, ainsi que le duc de Broglie et Francis Warrington Dawson II, connu comme journaliste et chroniqueur diplomatique sous le nom de Warrington Dawson. Il était secrétaire général de l'Association des journalistes étrangers à Paris.
 
-![Signature du traité d'alliance franco-américaine, le 6 février 1778, à Paris](/images/histoire-sar-france/signature-traite-alliance-1778.jpg "Signature du traité d'alliance franco-américaine, le 6 février 1778, à Paris")
+{{< figure src="/images/histoire-sar-france/signature-traite-alliance-1778.jpg" caption="Signature du traité d'alliance franco-américaine, le 6 février 1778, à Paris" >}}
 
 ### Les présidents de la Société en France
 
@@ -75,7 +73,7 @@ Trois membres de l'Académie française ont siégé au conseil d'administration 
 
 La Société a également compté parmi ses membres deux généraux de corps d'armée, Aldebert de Chambrun, déjà cité, et Paul Hazan, chef du Service Historique des armées puis commandant supérieur des troupes de Tunisie et membre de l'Académie des sciences coloniales.
 
-![Jacques de Trentinian](/images/histoire-sar-france/jacques-de-trentinian.jpg "Jacques de Trentinian")
+{{< figure src="/images/histoire-sar-france/jacques-de-trentinian.jpg" caption="Jacques de Trentinian" >}}
 
 Il convient également de mentionner Jacques, comte de Trentinian, Historian de la Société, décédé en 2017. « Homme-orchestre » du Conseil, organisateur hors pair de voyages sur les champs de batailles américains, il possédait une connaissance encyclopédique de la guerre d'Indépendance. Animateur du Comité d'Histoire, il a défendu, « pied à pied », comme Vice-President General « Europe district » de la NSSAR, la place primordiale de la France dans le processus de mise en œuvre de l'indépendance des Etats Unis, que certains voulaient remettre en cause.
 
@@ -87,8 +85,6 @@ Il convient également de mentionner Jacques, comte de Trentinian, Historian de 
 - **14 octobre 1989**, sur l'instigation et avec le concours de la société en France, un monument est élevé sur le champ de bataille de Yorktown, rappelant que plus de 75 000 Français ont participé à la guerre d'Indépendance et que plus de 15 000 d'entre eux ont donné leur vie durant les opérations.
 - **1er semestre 2010**, le Judge Edward Butler, président général en exercice de la National Society, est venu solennellement à Paris signer l'accord faisant de la Société en France des Sons une société partenaire des sociétés américaines avec un statut spécial de semi-autonomie. Ce statut, comportant l'échange de présidents et de vice-présidents d'honneur, accorde une plus grande latitude d'organisation à la Société en France, tout en reconnaissant son rôle comme représentante de la seule nation alliée directement aux États Unis pendant la guerre pour leur indépendance. Pour autant, les membres de la Société en France n'en continuent pas moins à être membres à part entière de la grande famille des Sons of the American Revolution
 - **31 décembre 2013**, la Société en France est reconnue d'utilité publique (JORF du 3 janvier 2014)
-
-![Publication dans Paris du traité de paix de Versailles signé entre la France et l'Angleterre, le 25 novembre 1783, par Anton Van Ysendick (1801-1875), 1837, Château de Versailles](/images/histoire-sar-france/publication-traite-paix-versailles-1783.jpg "Publication dans Paris du traité de paix de Versailles signé entre la France et l'Angleterre, le 25 novembre 1783, par Anton Van Ysendick (1801-1875), 1837, Château de Versailles")
 
 ---
 

@@ -18,6 +18,7 @@
 - [x] 16. Activités > Autres publications : ajout rubrique Bibliothèque, enrichissement du Prix Jacques de Trentinian (importance pour la RUP), note sur les éphémérides à relancer
 - [x] 17. Contact > Cotisation : renommé en « Paiement en ligne » (don, cotisation et autres achats) — page et menu mis à jour
 - [x] 18. Contact > Mentions légales : ajout d'un paragraphe sur la conformité RGPD (protection des données personnelles, droits des membres)
+- [x] 19. Histoire > Histoire de SAR France : réduction de la taille des photos autonomes (CSS `max-width: 50%` centré) et suppression de la dernière image (tableau « Publication du traité de paix de Versailles ») qui apparaissait sous les dates clés. Sections drapeau et médaille conservées en attente de contenu.
 - [x] 19. Point de forme : détachement typographique de « Prix » et « Jacques de Trentinian » — guillemets ajoutés autour du nom propre pour distinguer le type (Prix) du nom (Jacques de Trentinian)
 - [x] 20. Activités > Prix « Jacques de Trentinian » : création d'une page dédiée et ajout dans le menu Activités — rubrique extraite de la page Autres publications compte tenu de l'importance de ce prix pour la RUP
 - [x] 21. Éphémérides : déplacement de la rubrique Activités > Autres publications vers Histoire, avec note demandant à l'historien de revoir et actualiser cette partie
