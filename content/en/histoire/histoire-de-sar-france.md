@@ -88,12 +88,11 @@ Also worthy of mention is Jacques, Comte de Trentinian, Historian of the Society
 
 ---
 
-## The Flag of SAR France
+## The Colors of the Society of the Sons of the American Revolution
 
 *[To be completed — please provide the notes on the SAR France flag for integration.]*
 
----
 
-## The Medal of SAR France
+## The Insignia of the Society of the Sons of the American Revolution
 
 *[To be completed — please provide the notes on the SAR France medal for integration.]*
