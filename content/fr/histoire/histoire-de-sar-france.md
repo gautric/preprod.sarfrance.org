@@ -88,12 +88,11 @@ Il convient également de mentionner Jacques, comte de Trentinian, Historian de 
 
 ---
 
-## Le drapeau de SAR France
+## Les couleurs de la Société des Fils de la Révolution Américaine
 
 *[À compléter — merci de fournir les notes sur le drapeau de SAR France pour intégration.]*
 
----
 
-## La médaille de SAR France
+## L'insigne de la Société des Fils de la Révolution Américaine
 
 *[À compléter — merci de fournir les notes sur la médaille de SAR France pour intégration.]*
