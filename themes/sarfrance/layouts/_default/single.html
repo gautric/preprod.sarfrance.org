@@ -4,6 +4,9 @@
     <div class="container">
         <div class="content">
             {{ .Content }}
+            {{ with .Params.author }}
+            <p class="page-author"><em>{{ . }}{{ with $.Params.authorTitle }}, {{ . }}{{ end }}</em></p>
+            {{ end }}
             {{ with .Params.references }}
             <hr>
             <h2>{{ i18n "references_title" }}</h2>

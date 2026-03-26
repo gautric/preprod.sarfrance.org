@@ -2,6 +2,16 @@
 title: "Histoire de SAR France"
 description: "Histoire de la Société en France des Fils de la Révolution Américaine"
 lastUpdate: 2026-03-25
+author: "Thierry, Comte de Seguins-Cohorn"
+authorTitle: "Historian de la Société en France des Fils de la Révolution américaine"
+references:
+  - title: "The History of the National Society of the Sons of the American Revolution"
+    author: "John St. Paul"
+    publisher: "Pelican Publishing Company, Gretna (Louisiane)"
+    date: "1998"
+  - title: "Centenial History of the National Society of the Sons of the American Revolution 1889-1989"
+    publisher: "Turner Publishing Company, Paducah (Kentucky)"
+    date: "1991"
 ---
 
 ## Histoire de la Société en France des Fils de la Révolution Américaine
@@ -77,12 +87,6 @@ Enfin, je ne voudrais pas oublier mon prédécesseur dans la fonction d'Historia
 - **14 octobre 1989**, sur l'instigation et avec le concours de la société en France, un monument est élevé sur le champ de bataille de Yorktown, rappelant que plus de 75 000 Français ont participé à la guerre d'Indépendance et que plus de 15 000 d'entre eux ont donné leur vie durant les opérations.
 - **1er semestre 2010**, le Judge Edward Butler, président général en exercice de la National Society, est venu solennellement à Paris signer l'accord faisant de la Société en France des Sons une société partenaire des sociétés américaines avec un statut spécial de semi-autonomie. Ce statut, comportant l'échange de présidents et de vice-présidents d'honneur, accorde une plus grande latitude d'organisation à la Société en France, tout en reconnaissant son rôle comme représentante de la seule nation alliée directement aux États Unis pendant la guerre pour leur indépendance. Pour autant, les membres de la Société en France n'en continuent pas moins à être membres à part entière de la grande famille des Sons of the American Revolution
 - **31 décembre 2013**, la Société en France est reconnue d'utilité publique (JORF du 3 janvier 2014)
-
-*Thierry, Comte de Seguins-Cohorn, Historian de la Société en France des Fils de la Révolution américaine.*
-
-**Sources :**
-1. *The History of the National Society of the Sons of the American Revolution*, par John St. Paul, Pelican Publishing Company, Gretna (Louisiane) 1998
-2. *Centenial History of the National Society of the Sons of the American Revolution 1889-1989*, Turner Publishing Company, Paducah (Kentucky) 1991
 
 ![Publication dans Paris du traité de paix de Versailles signé entre la France et l'Angleterre, le 25 novembre 1783, par Anton Van Ysendick (1801-1875), 1837, Château de Versailles](/images/histoire-sar-france/publication-traite-paix-versailles-1783.jpg "Publication dans Paris du traité de paix de Versailles signé entre la France et l'Angleterre, le 25 novembre 1783, par Anton Van Ysendick (1801-1875), 1837, Château de Versailles")
 

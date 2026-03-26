@@ -2,6 +2,16 @@
 title: "History of SAR France"
 description: "History of the Society in France of the Sons of the American Revolution"
 lastUpdate: 2026-03-25
+author: "Thierry, Comte de Seguins-Cohorn"
+authorTitle: "Historian of the Society in France of the Sons of the American Revolution"
+references:
+  - title: "The History of the National Society of the Sons of the American Revolution"
+    author: "John St. Paul"
+    publisher: "Pelican Publishing Company, Gretna (Louisiana)"
+    date: "1998"
+  - title: "Centennial History of the National Society of the Sons of the American Revolution 1889–1989"
+    publisher: "Turner Publishing Company, Paducah (Kentucky)"
+    date: "1991"
 ---
 
 ## History of the Society in France of the Sons of the American Revolution
@@ -76,12 +86,6 @@ Finally, I would not wish to overlook my predecessor in the role of Historian, J
 - **October 14, 1989**: At the instigation and with the assistance of the Society in France, a monument is erected on the battlefield of Yorktown, recalling that more than 75,000 French soldiers took part in the War of Independence and that more than 15,000 of them gave their lives during the campaigns
 - **First half of 2010**: Judge Edward Butler, then President General of the National Society, came solemnly to Paris to sign the agreement making the Society in France a partner society of the American societies, with a special status of semi-autonomy. This status, which includes the exchange of honorary presidents and vice presidents, grants the Society in France greater organizational latitude while recognizing its role as representative of the only nation directly allied with the United States during the war for their independence. Members of the Society in France nonetheless continue to be full members of the broader family of the Sons of the American Revolution
 - **December 31, 2013**: The Society in France is recognized as a public benefit organization (JORF of January 3, 2014)
-
-*Thierry, Comte de Seguins-Cohorn, Historian of the Society in France of the Sons of the American Revolution.*
-
-**Sources:**
-1. *The History of the National Society of the Sons of the American Revolution*, by John St. Paul, Pelican Publishing Company, Gretna (Louisiana) 1998
-2. *Centennial History of the National Society of the Sons of the American Revolution 1889–1989*, Turner Publishing Company, Paducah (Kentucky) 1991
 
 ![Publication in Paris of the Treaty of Peace of Versailles signed between France and England, November 25, 1783, by Anton Van Ysendick (1801–1875), 1837, Château de Versailles](/images/histoire-sar-france/publication-traite-paix-versailles-1783.jpg "Publication in Paris of the Treaty of Peace of Versailles signed between France and England, November 25, 1783, by Anton Van Ysendick (1801–1875), 1837, Château de Versailles")
 
