@@ -37,8 +37,9 @@
 │   │   └── robots.txt         # Robots template
 │   ├── assets/css/            # style.css, colors.css, filters.css, agenda.css, bibliotheque.css, carousel.css, chronologie.css, contact.css, hauts-lieux.css, notices.css (Hugo asset pipeline)
 │   ├── assets/js/             # main.js, agenda.js, bibliotheque.js, carousel.js, chronologie.js, contact.js, hauts-lieux.js, notices.js (jQuery-based, Hugo asset pipeline)
-│   └── static/images/         # Theme images (carousel photos)
+│   └── static/                # Theme-only static files (currently empty — content images live in root static/)
 ├── static/                    # Static assets copied as-is (site images, icons, favicons)
+│   ├── images/carousel/       # Carousel photos (homepage)
 ├── layouts/                   # Override directory (empty — all layouts live in theme)
 ├── public/                    # Generated output (gitignored in production)
 ├── .github/
@@ -58,6 +59,7 @@
 - The agenda menu link in `hugo.yaml` should point to the current year's agenda
 - Custom layouts exist for `activites/agenda`, `activites/bibliotheque`, `activites/notices`, `histoire/chronologie`, `histoire/hauts-lieux`, `histoire/notices`, and `contact/contact`; all other pages use `_default/single.html`
 - The theme directory is `themes/sarfrance/` and the theme key in `hugo.yaml` is `sarfrance` — changes to templates/CSS/JS go there
+- Content images (carousel photos, illustrations, etc.) live in the root `static/` directory, organized in topic subfolders (e.g. `static/images/carousel/`, `static/images/histoire-sar-france/`). Never put content images in `themes/sarfrance/static/` — the theme's `static/` is reserved for theme-intrinsic assets only. This keeps content assets in the main repo and avoids coupling them to the submodule.
 - The root `layouts/` directory is empty and reserved for theme overrides if needed
 - Data files in `data/` use structured YAML with typed entries (event types, tags, periods)
 - Tag/type colors are defined as CSS classes in `colors.css`, named `tag-{key}` or `type-{key}` where `{key}` is the urlized YAML key (e.g., YAML key `révolte` → CSS class `tag-revolte`). Templates derive the class name via `{{ $key | urlize }}`. The `removePathAccents = true` setting in `hugo.yaml` ensures `urlize` strips accents. Never use inline `style=` or `color:` fields in YAML — add a new CSS class in `colors.css` instead.
