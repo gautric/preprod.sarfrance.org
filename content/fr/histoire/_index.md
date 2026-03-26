@@ -22,13 +22,13 @@ Les traités d'alliance, d'amitié et de commerce du 6 février 1778 prirent la 
 
 ## Contribution française
 
-L'aide française fut militaire (Corps expéditionnaire de Rochambeau, flotte de l'amiral de Grasse), financière (prêts et subventions) et diplomatique (reconnaissance internationale, pression sur la Grande-Bretagne).
+L'aide française fut militaire (Corps expéditionnaire de Rochambeau, flotte de l'amiral de Grasse, troupes positionnées aux Antilles), financière (prêts et subventions) et diplomatique (reconnaissance internationale, pression sur la Grande-Bretagne).
 
 Selon l'étude de Warrington Dawson (1936), 2 112 Français ont perdu la vie sur le sol ou dans les eaux américaines.
 
 ## Pour en savoir plus
 
-- [Histoire de SAR France](/histoire/histoire-de-sar-france/) – Histoire de la Société, son drapeau et sa médaille
+- [Histoire de SAR France](/histoire/histoire-de-sar-france/) – Histoire de la Société, ses couleurs et son insigne
 - [Chronologie](/histoire/chronologie/) – Présentation synoptique de l'histoire américaine et européenne
 - [Chefs militaires et volontaires](/histoire/chefs-militaires/) – Les principaux acteurs français du conflit
 - [Opérations militaires en Amérique du Nord](/histoire/operations/) – Le Corps Expéditionnaire et la campagne de Yorktown
