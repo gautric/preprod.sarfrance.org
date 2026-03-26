@@ -49,7 +49,7 @@ On October 19, 1926, the NSSAR authorized the French Chapter to become a full-fl
 
 ### Presidents of the Society in France
 
-Four members of the Pineton de Chambrun family, each with a very strong individual character, would successively hold the presidency of our Society until 1988. Their common ancestor was Virginie de Lasteyrie du Saillant, youngest daughter of Gilbert de La Fayette and his wife Adrienne de Noailles. Pierre de Chambrun, a deputy and later senator for Lozère, was succeeded by his brother Charles, French Ambassador and member of the Académie Française. In 1952, the last of the three brothers, General Aldebert de Chambrun, took over. He passed the torch in 1958 to his son, René de Chambrun, who remained at the head of our Society for thirty years, until 1988. A barrister at the bars of Paris and New York, and chairman of the Baccarat crystal works, his godfather was William Taft, 27th President of the United States. At his marriage to Josée Laval, his witnesses were General Pershing and his aunt Alice Lee Roosevelt, wife of his mother's brother Nicholas Longworth and daughter of Theodore Roosevelt, 26th President of the United States!
+Four members of the Pineton de Chambrun family, each with a very strong individual character, would successively hold the presidency of the Society until 1988. Their common ancestor was Virginie de Lasteyrie du Saillant, youngest daughter of Gilbert de La Fayette and his wife Adrienne de Noailles. Pierre de Chambrun, a deputy and later senator for Lozère, was succeeded by his brother Charles, French Ambassador and member of the Académie Française. In 1952, the last of the three brothers, General Aldebert de Chambrun, took over. He passed the torch in 1958 to his son, René de Chambrun, who remained at the head of the Society for thirty years, until 1988. A barrister at the bars of Paris and New York, and chairman of the Baccarat crystal works, his godfather was William Taft, 27th President of the United States. At his marriage to Josée Laval, his witnesses were General Pershing and his aunt Alice Lee Roosevelt, wife of his mother's brother Nicholas Longworth and daughter of Theodore Roosevelt, 26th President of the United States!
 
 | | | | |
 |:---:|:---:|:---:|:---:|
@@ -65,18 +65,18 @@ In 1988, Comte Michel de Rochambeau — another illustrious name from the War of
 
 ### Some "Immortal" Board Members
 
-Three members of the Académie Française have served on the board of our Society: Charles de Chambrun, mentioned above, Maurice de Broglie, and René de Castries.
+Three members of the Académie Française have served on the board of the Society: Charles de Chambrun, mentioned above, Maurice de Broglie, and René de Castries.
 
 | | | |
 |:---:|:---:|:---:|
 | ![Comte Charles de Chambrun](/images/histoire-sar-france/charles-de-chambrun-academicien.jpg "Comte Charles de Chambrun") | ![Maurice, duc de Broglie](/images/histoire-sar-france/maurice-duc-de-broglie.jpg "Maurice, duc de Broglie") | ![René de La Croix, duc de Castries](/images/histoire-sar-france/rene-duc-de-castries.jpg "René de La Croix, duc de Castries") |
 | Comte Charles de Chambrun | Maurice, Duke of Broglie | René de La Croix, Duke of Castries |
 
-We have also counted two lieutenant generals among our members: Aldebert de Chambrun, already mentioned, and Paul Hazan, head of the Historical Service of the Armed Forces, then commander of the forces in Tunisia and a member of the Académie des Sciences Coloniales.
+The Society has also counted two lieutenant generals among its members: Aldebert de Chambrun, already mentioned, and Paul Hazan, head of the Historical Service of the Armed Forces, then commander of the forces in Tunisia and a member of the Académie des Sciences Coloniales.
 
 ![Jacques de Trentinian](/images/histoire-sar-france/jacques-de-trentinian.jpg "Jacques de Trentinian")
 
-Finally, I would not wish to overlook my predecessor in the role of Historian, Jacques, Comte de Trentinian, who passed away in 2017. A "one-man band" on our Council, an outstanding organizer of tours to American battlefields, and a man of encyclopedic knowledge of the War of Independence, he chaired the History Committee and vigorously defended, in his capacity as Vice President General for the "Europe District" of the NSSAR, the paramount role of France in the process that brought about American independence — a role that some sought to call into question.
+Also worthy of mention is Jacques, Comte de Trentinian, Historian of the Society, who passed away in 2017. A "one-man band" on the Council, an outstanding organizer of tours to American battlefields, and a man of encyclopedic knowledge of the War of Independence, he chaired the History Committee and vigorously defended, in his capacity as Vice President General for the "Europe District" of the NSSAR, the paramount role of France in the process that brought about American independence — a role that some sought to call into question.
 
 ### Key Dates
 

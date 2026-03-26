@@ -50,7 +50,7 @@ Le 19 octobre 1926, la NSSAR a autorisé le Chapitre français à devenir une so
 
 ### Les présidents de la Société en France
 
-Quatre membres de la famille Pineton de Chambrun, possédant chacun une très forte personnalité, vont occuper successivement la présidence de notre Société jusqu'en 1988. Ils avaient pour ancêtre Virginie de Lasteyrie du Saillant, dernière fille de Gilbert de La Fayette et de son épouse Adrienne de Noailles. À Pierre de Chambrun, député puis sénateur de la Lozère, va succéder son frère, Charles, ambassadeur de France et membre de l'Académie Française. En 1952, c'est le dernier des trois frères, le général Aldebert de Chambrun, qui va le remplacer. Ce dernier va passer en 1958 le relais à son fils, René de Chambrun, qui va rester trente ans à la tête de notre société, jusqu'en 1988. Avocat au barreau de Paris et de New York, président des cristalleries de Baccarat, il avait pour parrain de baptême William Taft, 27ème président des Etats Unis. Lors de son mariage avec Josée Laval, ses témoins étaient le général Pershing et sa tante Alice Lee Roosevelt, épouse du frère de sa mère, Nicholas Longworth, et propre fille de Theodore Roosevelt, 26ème président des Etats Unis !
+Quatre membres de la famille Pineton de Chambrun, possédant chacun une très forte personnalité, vont occuper successivement la présidence de la Société jusqu'en 1988. Ils avaient pour ancêtre Virginie de Lasteyrie du Saillant, dernière fille de Gilbert de La Fayette et de son épouse Adrienne de Noailles. À Pierre de Chambrun, député puis sénateur de la Lozère, va succéder son frère, Charles, ambassadeur de France et membre de l'Académie Française. En 1952, c'est le dernier des trois frères, le général Aldebert de Chambrun, qui va le remplacer. Ce dernier va passer en 1958 le relais à son fils, René de Chambrun, qui va rester trente ans à la tête de la Société, jusqu'en 1988. Avocat au barreau de Paris et de New York, président des cristalleries de Baccarat, il avait pour parrain de baptême William Taft, 27ème président des Etats Unis. Lors de son mariage avec Josée Laval, ses témoins étaient le général Pershing et sa tante Alice Lee Roosevelt, épouse du frère de sa mère, Nicholas Longworth, et propre fille de Theodore Roosevelt, 26ème président des Etats Unis !
 
 | | | | |
 |:---:|:---:|:---:|:---:|
@@ -66,18 +66,18 @@ En 1988, c'est le comte Michel de Rochambeau, autre nom illustre de la guerre d'
 
 ### Quelques administrateurs « immortels »
 
-Trois membres de l'Académie française ont siégé au conseil d'administration de notre société : Charles de Chambrun, cité plus haut, Maurice de Broglie et René de Castries.
+Trois membres de l'Académie française ont siégé au conseil d'administration de la Société : Charles de Chambrun, cité plus haut, Maurice de Broglie et René de Castries.
 
 | | | |
 |:---:|:---:|:---:|
 | ![Comte Charles de Chambrun](/images/histoire-sar-france/charles-de-chambrun-academicien.jpg "Comte Charles de Chambrun") | ![Maurice, duc de Broglie](/images/histoire-sar-france/maurice-duc-de-broglie.jpg "Maurice, duc de Broglie") | ![René de La Croix, duc de Castries](/images/histoire-sar-france/rene-duc-de-castries.jpg "René de La Croix, duc de Castries") |
 | Comte Charles de Chambrun | Maurice, duc de Broglie | René de La Croix, duc de Castries |
 
-Nous avons également compté deux généraux de corps d'armée, Aldebert de Chambrun, déjà cité et Paul Hazan, chef du Service Historique des armées puis commandant supérieur des troupes de Tunisie et membre de l'Académie des sciences coloniales.
+La Société a également compté parmi ses membres deux généraux de corps d'armée, Aldebert de Chambrun, déjà cité, et Paul Hazan, chef du Service Historique des armées puis commandant supérieur des troupes de Tunisie et membre de l'Académie des sciences coloniales.
 
 ![Jacques de Trentinian](/images/histoire-sar-france/jacques-de-trentinian.jpg "Jacques de Trentinian")
 
-Enfin, je ne voudrais pas oublier mon prédécesseur dans la fonction d'Historian, Jacques, comte de Trentinian, décédé en 2017. « Homme-orchestre » de notre Conseil, organisateur hors pair de voyages sur les champs de batailles américains. Ayant une connaissance encyclopédique de la guerre d'Indépendance, animateur du Comité d'Histoire, il a défendu, « pied à pied », comme Vice-President General « Europe district » de la NSSAR, la place primordiale de notre pays dans le processus de mise en œuvre de l'indépendance des Etats Unis, que certains voulaient remettre en cause.
+Il convient également de mentionner Jacques, comte de Trentinian, Historian de la Société, décédé en 2017. « Homme-orchestre » du Conseil, organisateur hors pair de voyages sur les champs de batailles américains, il possédait une connaissance encyclopédique de la guerre d'Indépendance. Animateur du Comité d'Histoire, il a défendu, « pied à pied », comme Vice-President General « Europe district » de la NSSAR, la place primordiale de la France dans le processus de mise en œuvre de l'indépendance des Etats Unis, que certains voulaient remettre en cause.
 
 ### Quelques dates
 
