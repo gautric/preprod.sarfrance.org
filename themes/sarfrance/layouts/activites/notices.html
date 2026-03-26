@@ -31,11 +31,26 @@
             <div class="page-card notice-card" data-tags="{{ delimit .tags "," }}"
                  data-search="{{ .nom | lower }} {{ .prenom | lower }} {{ .fonction | lower }}">
                 <div class="notice-name">
+                    {{ if .biographie }}
+                    <a href="{{ partial "lang-prefix.html" $ }}/histoire/biographies/{{ .biographie }}/" >
+                        <span class="notice-nom">{{ .nom }}</span>
+                        {{ with .prenom }}<span class="notice-prenom">{{ . }}</span>{{ end }}
+                        {{ with .particule }}<span class="notice-particule">({{ . }})</span>{{ end }}
+                    </a>
+                    {{ else }}
                     <span class="notice-nom">{{ .nom }}</span>
                     {{ with .prenom }}<span class="notice-prenom">{{ . }}</span>{{ end }}
                     {{ with .particule }}<span class="notice-particule">({{ . }})</span>{{ end }}
+                    {{ end }}
                 </div>
                 <p class="notice-fonction">{{ .fonction }}</p>
+                {{ if or .naissance .deces }}
+                <p class="notice-dates">
+                    {{ with .naissance }}{{ . }}{{ end }}{{ with .lieuNaissance }}, {{ . }}{{ end }}
+                    {{ if and .naissance .deces }} – {{ end }}
+                    {{ with .deces }}† {{ . }}{{ end }}{{ with .lieuDeces }}, {{ . }}{{ end }}
+                </p>
+                {{ end }}
                 <div class="page-card-tags">
                     {{ range .tags }}
                     <span class="tag tag-{{ . | urlize }}">{{ i18n (printf "notices_tag_%s" .) }}</span>

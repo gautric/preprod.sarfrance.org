@@ -32,11 +32,21 @@
                     {{ with .particule }}<span class="notice-particule">({{ . }})</span>{{ end }}
                 </div>
                 <p class="notice-fonction">{{ .fonction }}</p>
+                {{ if or .naissance .deces }}
+                <p class="notice-dates">
+                    {{ with .naissance }}{{ . }}{{ end }}{{ with .lieuNaissance }}, {{ . }}{{ end }}
+                    {{ if and .naissance .deces }} – {{ end }}
+                    {{ with .deces }}† {{ . }}{{ end }}{{ with .lieuDeces }}, {{ . }}{{ end }}
+                </p>
+                {{ end }}
                 <div class="page-card-tags">
                     {{ range .tags }}
                     <span class="tag tag-{{ . | urlize }}">{{ i18n (printf "notices_tag_%s" .) }}</span>
                     {{ end }}
                 </div>
+                {{ with .biographie }}
+                <a href="{{ partial "lang-prefix.html" $ }}/histoire/biographies/{{ . }}/" class="notice-bio-link">{{ i18n "notices_read_bio" }}</a>
+                {{ end }}
             </div>
             {{ end }}
         </div>

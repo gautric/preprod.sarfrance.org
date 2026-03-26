@@ -107,6 +107,21 @@ Dossier : `content/fr/histoire/`
 | Pertes françaises | `pertes-francaises.md` |
 | Stratégies et politique françaises | `strategies-et-politique-francaises.md` |
 
+### Pages de texte — Rubrique « Histoire / Biographies »
+
+Dossier : `content/fr/histoire/biographies/`
+
+| Page sur le site | Fichier |
+|---|---|
+| Biographies (index) | `_index.md` |
+| Le marquis de Bouillé | `bouille.md` |
+| Le comte de Vaux | `comte-de-vaux.md` |
+| Le vicomte de Damas | `damas.md` |
+| Le comte de Grasse | `de-grasse.md` |
+| La Légion de Lauzun | `lauzun.md` |
+| Le comte de Rochambeau | `rochambeau.md` |
+| Jean-Baptiste de Tastes de Lilancour | `tastes-de-lilancour.md` |
+
 ### Pages de texte — Rubrique « Activités »
 
 Dossier : `content/fr/activites/`

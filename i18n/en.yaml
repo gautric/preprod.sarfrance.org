@@ -82,6 +82,8 @@
   translation: "Search by name, first name, role…"
 - id: notices_no_result
   translation: "No results found"
+- id: notices_read_bio
+  translation: "Read biography"
 
 # Footer
 - id: footer_organisation

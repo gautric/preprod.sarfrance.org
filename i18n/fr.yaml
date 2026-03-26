@@ -82,6 +82,8 @@
   translation: "Rechercher un nom, un prénom, une fonction…"
 - id: notices_no_result
   translation: "Aucun résultat trouvé"
+- id: notices_read_bio
+  translation: "Lire la biographie"
 
 # Footer
 - id: footer_organisation

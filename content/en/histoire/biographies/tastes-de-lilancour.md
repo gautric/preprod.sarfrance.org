@@ -1,0 +1,20 @@
+---
+title: "Jean-Baptiste de Tastes de Lilancour"
+description: "Governor of Saint-Domingue"
+author: "Thierry de Seguins-Cohorn"
+
+---
+
+French officer, acting governor of Saint-Domingue, Jean-Baptiste de Tastes de Lilancour played a decisive role in the victory at Yorktown by taking it upon himself to send garrison troops to join Admiral de Grasse's fleet.
+
+- **Born**: 1730
+- **Died**: 1803
+- **Rank**: Brigadier
+
+A sub-lieutenant in the Aunis regiment in 1739, captain in 1745, he remained in this unit until 18 June 1756, when he was appointed Lieutenant du Roi and Major Inspector of troops and militia in the northern part of Saint-Domingue. Promoted Brigadier on 25 October 1776, he served as acting governor between successive governors on three occasions.
+
+During his third interim governorship from 17 July 1781, Admiral de Grasse arrived at Saint-Domingue with his fleet and found the frigate Concorde, dispatched from Newport by Rochambeau to propose a joint action. At de Grasse's request, Tastes de Lilancour, although having received no directive from the King on this matter, took it upon himself to release a large part of the Saint-Domingue garrison troops. These 3,400 men, under the Marquis de Saint-Simon, embarked on 28 ships commanded by Admiral de Grasse and joined the forces at Yorktown. Their addition to Rochambeau's 5,300 men and Washington's 6,000 Patriots proved decisive in the battle that led to the British surrender.
+
+Saint-Simon's division comprised the Agenois, Gâtinais and Touraine regiments, an artillery detachment from the Metz regiment, and a volunteer corps commanded by the Baron de Saint-Simon.
+
+In a letter sent to Rochambeau on 15 May 1784, Washington wrote that "the Count de Lilancour sent a considerable detachment of troops under his command from Saint-Domingue to the continent, at his own risk," and that he would therefore place him on the membership list of the Society of the Cincinnati.
