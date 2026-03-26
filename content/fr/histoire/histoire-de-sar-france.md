@@ -90,9 +90,23 @@ Il convient également de mentionner Jacques, comte de Trentinian, Historian de 
 
 ## Les couleurs de la Société des Fils de la Révolution Américaine
 
-*[À compléter — merci de fournir les notes sur le drapeau de SAR France pour intégration.]*
+En 1890 lors du congrès de Louisville, le bleu et le blanc furent adoptés comme couleurs de la Société des Fils de la Révolution Américaine. Ces couleurs étaient également celle de la société des Cincinnati, bien que le bleu des Sons fût plus foncé que celui des Cincinnati. En 1898, lors du 9ème congrès qui se tint à Morristown dans le New Jersey, une troisième tonalité a été ajoutée, la couleur chamois. Ces trois couleurs étaient celles des uniformes portés par les troupes du général Washington durant la Guerre d'Indépendance. Ce sont celles qui supportent désormais notre insigne et qui flottent sur notre drapeau.
+
+{{< figure src="/images/histoire-sar-france/couleurs-sar.jpg" caption="Les couleurs de la Société des Fils de la Révolution Américaine" >}}
+
+{{< figure src="/images/histoire-sar-france/george-washington.jpg" caption="Georges Washington" >}}
+
 
 
 ## L'insigne de la Société des Fils de la Révolution Américaine
 
-*[À compléter — merci de fournir les notes sur la médaille de SAR France pour intégration.]*
+L'insigne des Sons of the American Revolution a été conçu et réalisé dans les années 1890 par le major Goldsmith Bernard West, vice-président de la société de l'état de l'Alabama.
+
+{{< figure src="/images/histoire-sar-france/insigne-sar.jpg" caption="L'insigne de la Société des Fils de la Révolution Américaine" >}}
+
+Cet insigne se présente sous la forme d'une croix suspendue à un aigle. La croix est recouverte d'émail blanc et chacune de ses huit pointes est prolongée par une perle dorée. Elle est directement inspirée de deux décorations françaises, l'une créée par le roi Louis XIV, l'Ordre de Saint Louis, l'autre par l'empereur Napoléon 1er, la Légion d'Honneur et d'une décoration américaine, l'insigne de la Société des Cincinnati, dessiné en 1783 par un officier français, le major Lenfant, le futur architecte de la ville de Washington.
+
+De l'Ordre de Saint Louis, l'insigne a conservé la croix mais en son centre figure le profil de George Washington, entourée de la devise « Libertas et Patria ». A la Légion d'Honneur, il a emprunté les palmes de lauriers, qui remplacent les fleurs de lys. L'Ordre de Saint Louis, qui fut la première décoration donnée par le roi de France en reconnaissance du mérite militaire des officiers, sans tenir compte de leur naissance, était fait pour séduire les Américains. Ce choix rappelle également le rôle éminent tenu par Louis XVI pour engager la France dans un conflit sans lequel l'indépendance américaine n'aurait pu être atteinte. Elle rend hommage à l'action aux côtés des troupes américaines des troupes françaises, dont les officiers étaient nombreux à arborer cette croix. Enfin, cette croix place la Société sous la protection de Dieu, comme c'est l'usage pour une association patriotique américaine : God Bless America !
+
+De l'insigne des Cincinnati, on a conservé l'aigle, qui figure dans le Grand sceau des États-Unis d'Amérique, créé en 1782. Celui-ci rappelle que les deux Sociétés honorent les combattants de la Guerre d'Indépendance, à travers les aînés de leurs descendants pour la plus ancienne, par toute leur lignée pour l'autre.
+
