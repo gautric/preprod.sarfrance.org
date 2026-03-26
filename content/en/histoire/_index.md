@@ -22,13 +22,13 @@ The treaties of alliance, friendship, and commerce of February 6, 1778, took the
 
 ## French Contribution
 
-French aid was military (Rochambeau's Expeditionary Corps, Admiral de Grasse's fleet), financial (loans and subsidies), and diplomatic (international recognition, pressure on Great Britain).
+French aid was military (Rochambeau's Expeditionary Corps, Admiral de Grasse's fleet, troops stationed in the Antilles), financial (loans and subsidies), and diplomatic (international recognition, pressure on Great Britain).
 
 According to Warrington Dawson's study (1936), 2,112 French citizens lost their lives on American soil or in American waters.
 
 ## Learn More
 
-- [History of SAR France](/en/histoire/histoire-de-sar-france/) – History of the Society, its flag and medal
+- [History of SAR France](/en/histoire/histoire-de-sar-france/) – History of the Society, its colors and insignia
 - [Timeline](/en/histoire/chronologie/) – A synoptic overview of American and European history
 - [Military Leaders and Volunteers](/en/histoire/chefs-militaires/) – The principal French actors of the conflict
 - [Military Operations in North America](/en/histoire/operations/) – The Expeditionary Corps and the Yorktown Campaign
