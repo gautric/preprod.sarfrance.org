@@ -12,7 +12,10 @@ on:
 
 permissions: read-all
 
-network: defaults
+network:
+  allowed:
+    - defaults
+    - https://nominatim.openstreetmap.org
 
 safe-outputs:
   create-pull-request:
