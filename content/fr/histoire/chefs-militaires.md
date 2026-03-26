@@ -7,19 +7,22 @@ La participation française à la Guerre d'Indépendance américaine (1778–178
 
 ## Sur terre
 
-- **[Le comte de Rochambeau](/histoire/biographies/rochambeau/)** &#128214; – Commandant du Corps Expéditionnaire français, il débarque à Newport en 1780 avec 5 500 hommes et joue un rôle décisif à Yorktown. Fait Maréchal de France en 1791.
-- **[Le comte de Vaux](/histoire/biographies/comte-de-vaux/)** &#128214; – Commandant des forces terrestres destinées au projet de débarquement en Angleterre.
-- **[Le duc de Lauzun](/histoire/biographies/lauzun/)** &#128214; – Commandant de la Légion de Lauzun, unité de cavalerie du Corps Expéditionnaire.
-- **[Le marquis de Bouillé](/histoire/biographies/bouille/)** &#128214; – Gouverneur général des Îles du Vent, acteur majeur de la guerre aux Antilles.
-- **[Claude-Charles de Damas](/histoire/biographies/damas/)** &#128214; – Vicomte de Marillac, officier du Corps Expéditionnaire.
-- **[Jean-Baptiste de Tastes de Lilancour](/histoire/biographies/tastes-de-lilancour/)** &#128214; – Officier de la Guerre d'Indépendance.
+- **[Le comte de Rochambeau](/histoire/biographies/rochambeau/)**  – Commandant du Corps Expéditionnaire français, il débarque à Newport en 1780 avec 5 500 hommes et joue un rôle décisif à Yorktown. Fait Maréchal de France en 1791.
+- **[Le comte de Vaux](/histoire/biographies/comte-de-vaux/)**  – Commandant des forces terrestres destinées au projet de débarquement en Angleterre.
+- **[Le duc de Lauzun](/histoire/biographies/lauzun/)**  – Commandant de la Légion de Lauzun, unité de cavalerie du Corps Expéditionnaire.
+
+## Aux Antilles
+
+- **[Le marquis de Bouillé](/histoire/biographies/bouille/)**  – Gouverneur général des Antilles françaises, il mène les opérations militaires dans les Caraïbes et reprend plusieurs îles aux Britanniques.
+- **[Claude-Charles de Damas, vicomte de Marillac](/histoire/biographies/damas/)**  – Gouverneur de la Martinique, il seconde Bouillé dans la défense et la reconquête des Antilles.
+- **[Jean-Baptiste de Tastes de Lilancour](/histoire/biographies/tastes-de-lilancour/)**  – Gouverneur de Saint-Domingue, il coordonne l'effort de guerre depuis la plus grande colonie française des Caraïbes.
 
 ## Sur mer
 
 - **L'amiral d'Orvilliers** – Commandant de la flotte française à la bataille d'Ouessant (1778) et de la flotte combinée franco-espagnole (1779).
 - **L'amiral du Chaffault** – Second d'Orvilliers à Ouessant.
 - **L'amiral comte d'Estaing** – Premier amiral français envoyé en Amérique (1778), il combat à La Grenade et à Savannah.
-- **[Le comte de Grasse](/histoire/biographies/de-grasse/)** &#128214; – Son intervention dans la baie de Chesapeake en septembre 1781 est déterminante pour la victoire de Yorktown.
+- **[Le comte de Grasse](/histoire/biographies/de-grasse/)**  – Son intervention dans la baie de Chesapeake en septembre 1781 est déterminante pour la victoire de Yorktown.
 - **Le comte de Guichen** – Combat Rodney aux Antilles en 1780.
 - **La Motte-Picquet** – Défenseur des convois français dans l'Atlantique.
 - **Le chevalier de Ternay** – Commande l'escadre qui transporte le Corps de Rochambeau à Newport. Meurt à Newport en décembre 1780.
