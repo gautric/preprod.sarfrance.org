@@ -24,19 +24,19 @@
 │   ├── carousel.yaml          # Homepage carousel images
 │   ├── chronologie.yaml       # Historical timeline with periods and events
 │   └── notices.yaml           # Biographical notices for the dictionary
-├── themes/sarfrance-theme/    # Custom Hugo theme (git submodule)
+├── themes/sarfrance/          # Custom Hugo theme (git submodule, theme key: "sarfrance")
 │   ├── layouts/
 │   │   ├── _default/          # baseof.html, list.html, single.html
-│   │   ├── partials/          # header.html, footer.html, head-meta.html, head-favicons.html, head-css.html, head-fonts.html, head-jsonld.html, site-scripts.html, page-contribute.html, lang-prefix.html
-│   │   ├── shortcodes/        # param.html, address.html
-│   │   ├── activites/         # agenda.html, agenda.ics.ics, notices.html
-│   │   ├── histoire/          # chronologie.html, notices.html
-│   │   ├── contact/           # (reserved, currently empty)
+│   │   ├── partials/          # header.html, footer.html, head-meta.html, head-favicons.html, head-css.html, head-fonts.html, head-jsonld.html, site-scripts.html, page-contribute.html, page-header.html, lang-prefix.html
+│   │   ├── shortcodes/        # param.html, address.html, books.html, contact.html
+│   │   ├── activites/         # agenda.html, agenda.ics.ics, notices.html, bibliotheque.html, bibliotheque.json.json
+│   │   ├── histoire/          # chronologie.html, notices.html, hauts-lieux.html
+│   │   ├── contact/           # contact.html
 │   │   ├── index.html         # Homepage template
 │   │   ├── 404.html           # Error page
 │   │   └── robots.txt         # Robots template
-│   ├── assets/css/            # style.css, colors.css, filters.css, agenda.css, carousel.css, chronologie.css, notices.css (Hugo asset pipeline)
-│   ├── assets/js/             # main.js, carousel.js, agenda.js, chronologie.js, notices.js (jQuery-based, Hugo asset pipeline)
+│   ├── assets/css/            # style.css, colors.css, filters.css, agenda.css, bibliotheque.css, carousel.css, chronologie.css, contact.css, hauts-lieux.css, notices.css (Hugo asset pipeline)
+│   ├── assets/js/             # main.js, agenda.js, bibliotheque.js, carousel.js, chronologie.js, contact.js, hauts-lieux.js, notices.js (jQuery-based, Hugo asset pipeline)
 │   └── static/images/         # Theme images (carousel photos)
 ├── static/                    # Static assets copied as-is (site images, icons, favicons)
 ├── layouts/                   # Override directory (empty — all layouts live in theme)
@@ -56,8 +56,8 @@
 - Each section folder has an `_index.md` for the section landing page
 - Agenda pages are year-based: `agenda-2024.md`, `agenda-2025.md`, `agenda-2026.md`
 - The agenda menu link in `hugo.yaml` should point to the current year's agenda
-- Custom layouts exist for `activites/agenda`, `activites/notices`, `histoire/chronologie`, and `histoire/notices`; all other pages use `_default/single.html`
-- The theme is a git submodule — changes to templates/CSS/JS go in `themes/sarfrance-theme/`
+- Custom layouts exist for `activites/agenda`, `activites/bibliotheque`, `activites/notices`, `histoire/chronologie`, `histoire/hauts-lieux`, `histoire/notices`, and `contact/contact`; all other pages use `_default/single.html`
+- The theme directory is `themes/sarfrance/` and the theme key in `hugo.yaml` is `sarfrance` — changes to templates/CSS/JS go there
 - The root `layouts/` directory is empty and reserved for theme overrides if needed
 - Data files in `data/` use structured YAML with typed entries (event types, tags, periods)
 - Tag/type colors are defined as CSS classes in `colors.css`, named `tag-{key}` or `type-{key}` where `{key}` is the urlized YAML key (e.g., YAML key `révolte` → CSS class `tag-revolte`). Templates derive the class name via `{{ $key | urlize }}`. The `removePathAccents = true` setting in `hugo.yaml` ensures `urlize` strips accents. Never use inline `style=` or `color:` fields in YAML — add a new CSS class in `colors.css` instead.
@@ -100,7 +100,31 @@
 
 ## Page Contribute Widget
 
+- `page-header.html` partial renders the `<h1>`, optional description, and the page-contribute widget. It accepts either a plain page context (`{{ partial "page-header.html" . }}`) or a dict with overrides (`{{ partial "page-header.html" (dict "ctx" . "title" "X" "desc" "Y" "extra" "<p>...</p>") }}`)
+
+## Page Contribute Widget
+
 - `page-contribute.html` partial renders an edit icon in the page header of every `single.html` page
 - On hover/focus, a dropdown shows links to open GitHub issues (bug report, content modification) pre-filled with the page title
-- Links point to the GitHub repo `gautric/preprod.sarfrance.org` using issue templates from `.github/ISSUE_TEMPLATE/`
+- Links point to the GitHub repo configured via `params.githubRepo` in `hugo.yaml`, using issue templates from `.github/ISSUE_TEMPLATE/`
 - Labels are translated via i18n keys (`contribute_error`, `contribute_comment`, etc.)
+- The widget is invoked automatically by `page-header.html` — do not call it directly in layout templates
+
+## Shortcodes
+
+- `{{< books genre="marine" >}}` — renders a filtered book grid from `data/books.yaml`; params: `genre`, `author`, `limit`
+- `{{< contact >}}` or `{{< contact "phone" >}}` — inlines a contact value from `hugo.yaml` `params.contact`
+- `{{< param "key" >}}` — inlines any site param value
+- `{{< address >}}` — renders the full address from `hugo.yaml` `params.address`
+
+## Agenda Event Fields
+
+Recent events in `data/agenda.yaml` support extended fields beyond the base `date`/`titre`/`type`:
+- `dateEnd` — end date for multi-day events
+- `description` — short text shown on the card
+- `lieu` — venue name
+- `heure` — time string (e.g. `"18:00"`)
+- `lien` — external URL (wraps the title as a link)
+- `lat` / `lon` — coordinates for the Leaflet mini-map on the card (set to `0` to suppress map)
+
+Older events (pre-2026) may omit these fields — that is expected and valid.

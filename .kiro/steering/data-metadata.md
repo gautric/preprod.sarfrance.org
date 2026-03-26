@@ -1,6 +1,6 @@
 ---
 inclusion: fileMatch
-fileMatchPattern: "data/**/*.yaml"
+fileMatchPattern: "{data/**/*.yaml,i18n/*.yaml}"
 ---
 
 # Data / Metadata Separation Pattern

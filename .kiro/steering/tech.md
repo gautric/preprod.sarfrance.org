@@ -3,18 +3,19 @@
 ## Static Site Generator
 - Hugo (extended) v0.157.0 minimum
 - Configuration: `hugo.yaml` (YAML format)
-- Theme: `sarfrance-theme` (custom, in `themes/sarfrance-theme/`, loaded as a git submodule)
+- Theme: `sarfrance` (custom, in `themes/sarfrance/`, loaded as a git submodule — theme key in `hugo.yaml` is `sarfrance`)
 
 ## Frontend
 - Plain HTML templates (Go templates / Hugo templating)
 - Vanilla CSS (no preprocessor beyond Dart Sass available in CI)
 - CSS and JS processed through Hugo's asset pipeline (`resources.Get` + `resources.Fingerprint`) for cache busting and SRI integrity
 - jQuery 4.x (loaded from CDN in `baseof.html`) as the JavaScript framework
-- JavaScript files: `main.js`, `carousel.js`, `agenda.js`, `chronologie.js`, `notices.js`
+- JavaScript files: `main.js`, `agenda.js`, `bibliotheque.js`, `carousel.js`, `chronologie.js`, `contact.js`, `hauts-lieux.js`, `notices.js`
+- Third-party CDN scripts loaded per-page (not bundled): Leaflet 1.9.4 (agenda, contact, hauts-lieux), Isotope 3 + Mustache 4 (bibliotheque)
 - No npm dependencies in production
 
 ## JavaScript Rules
-- All JavaScript must live in external `.js` files under `themes/sarfrance-theme/assets/js/` — never inline `<script>` blocks in HTML templates
+- All JavaScript must live in external `.js` files under `themes/sarfrance/assets/js/` — never inline `<script>` blocks in HTML templates
 - Use jQuery (`$`) for DOM manipulation, event handling, and selectors — do not use vanilla `document.querySelector`, `addEventListener`, etc.
 - Wrap page-specific code in `$(document).ready(function() { ... });`
 - Templates load scripts via `<script src=...>` tags in `baseof.html` (global scripts) or in page-specific layout blocks (page scripts)
