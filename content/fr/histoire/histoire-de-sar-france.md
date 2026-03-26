@@ -5,6 +5,8 @@ lastUpdate: 2026-03-25
 ---
 
 ## Histoire de SAR France
+Cette histoire fait l'objet de la note jointe suivie des dates clés.
+
 
 ### Fondation et débuts
 
