@@ -107,6 +107,16 @@ Dossier : `content/fr/histoire/`
 | Pertes françaises | `pertes-francaises.md` |
 | Stratégies et politique françaises | `strategies-et-politique-francaises.md` |
 
+### Pages de texte — Rubrique « Histoire / Antilles »
+
+Dossier : `content/fr/histoire/antilles/`
+
+| Page sur le site | Fichier |
+|---|---|
+| Les Antilles françaises (index) | `_index.md` |
+| Le soutien des Antilles françaises | `soutien-antilles.md` |
+| Régiments et Corps des Colonies | `regiments-colonies.md` |
+
 ### Pages de texte — Rubrique « Histoire / Biographies »
 
 Dossier : `content/fr/histoire/biographies/`

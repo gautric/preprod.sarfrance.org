@@ -3,7 +3,6 @@ title: "Histoire de SAR France"
 description: "Histoire de la Société en France des Fils de la Révolution Américaine"
 lastUpdate: 2026-03-25
 author: "Thierry, Comte de Seguins-Cohorn"
-authorTitle: "Historian de la Société en France des Fils de la Révolution américaine"
 references:
   - title: "The History of the National Society of the Sons of the American Revolution"
     author: "John St. Paul"

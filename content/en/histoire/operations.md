@@ -29,3 +29,11 @@ Admiral de Grasse landed the 3,000 men of Saint-Simon, drawn from the Caribbean,
 In addition to the Expeditionary Corps, approximately 230 French officers or engineers fought in American units, along with officers of foreign origin in French service.
 
 See the [Military Leaders and Volunteers](/en/histoire/chefs-militaires/) page for the complete list and detailed portraits.
+
+## The French Antilles
+
+The French Antilles were a major asset for the French armies, serving as a logistics platform, troop reserve and base for attacks in the Caribbean. More than 50,000 men were sent to the Antilles from 1778 to 1783.
+
+- [The Support of the French Antilles in the American War of Independence](/en/histoire/antilles/soutien-antilles/) — The strategic role of the Antilles and their governors
+- [Colonial Regiments and Corps](/en/histoire/antilles/regiments-colonies/) — The ten colonial regiments engaged in the Antilles, the Indian Ocean and India
+- [The Chasseurs Volontaires de Saint-Domingue](/en/histoire/antilles/chasseurs-volontaires/) — The epic of an Afro-Caribbean regiment at the Siege of Savannah

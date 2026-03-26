@@ -29,3 +29,11 @@ L'amiral de Grasse débarque le 2 septembre les 3 000 hommes de Saint-Simon pré
 Outre le Corps Expéditionnaire, environ 230 officiers ou ingénieurs français combattirent dans les unités américaines, ainsi que des officiers d'origine étrangère au service de la France.
 
 Voir la page [Chefs militaires et volontaires](/histoire/chefs-militaires/) pour la liste complète et les portraits détaillés.
+
+## Les Antilles françaises
+
+Les Antilles françaises ont constitué un atout majeur pour les armées françaises, à la fois comme plateforme logistique, réserve de troupes et base d'attaques dans les Caraïbes. Plus de 50 000 hommes furent envoyés dans les Antilles de 1778 à 1783.
+
+- [Le soutien des Antilles françaises à la guerre de l'Indépendance américaine](/histoire/antilles/soutien-antilles/) — Le rôle stratégique des Antilles et de leurs gouverneurs
+- [Régiments et Corps des Colonies](/histoire/antilles/regiments-colonies/) — Les dix régiments coloniaux engagés aux Antilles, dans l'Océan Indien et aux Indes
+- [Les Chasseurs Volontaires de Saint-Domingue](/histoire/antilles/chasseurs-volontaires/) — L'épopée d'un régiment « afro-antillais » au siège de Savannah
