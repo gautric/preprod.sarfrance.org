@@ -5,6 +5,8 @@ lastUpdate: 2026-03-25
 ---
 
 ## History of SAR France
+This history is the subject of the attached note, followed by the key dates.
+
 
 ### Foundation and Early Years
 
