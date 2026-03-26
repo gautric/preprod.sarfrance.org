@@ -12,6 +12,8 @@ Lors de la réunion fondatrice de la National Society of the Sons of the America
 
 ![Edmond du Motier, marquis de La Fayette](/images/histoire-sar-france/edmond-marquis-de-la-fayette.jpg "Edmond du Motier, marquis de La Fayette")
 
+**"Edmond du Motier, marquis de La Fayette"**
+
 Cependant, le principe d'admettre au sein des Sons les descendants des combattants français avait été très vite acquis par la NSSAR. De même avait été admise la possibilité pour ceux-ci de se constituer en Chapitres, officiellement reconnus par la NSSAR.
 
 Il fallut cependant attendre le 16 septembre 1897 pour qu'un Chapitre soit créé à Paris, sous l'énergique impulsion du général Horace Porter, ancien président général des NSSAR de 1892 à 1897, date à laquelle il fut nommé ambassadeur des Etats-Unis à Paris. Ce premier Chapitre regroupait une trentaine de membres, tous américains, sous la présidence du lieutenant de vaisseau Walter J. Sears, de l'US Navy.

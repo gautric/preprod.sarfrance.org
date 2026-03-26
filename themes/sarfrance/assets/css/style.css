@@ -663,6 +663,40 @@ a:hover {
     color: var(--text-dark);
 }
 
+/* ---- Content images ---- */
+.content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Portrait grid: equal height, no cropping */
+.content table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 25px 0;
+}
+
+.content table td {
+    vertical-align: top;
+    text-align: center;
+    padding: 8px;
+    font-family: var(--font-janson);
+    font-size: 0.9rem;
+    color: var(--text-light);
+    border: none;
+}
+
+.content table img {
+    height: 220px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
 /* Caption: JansonText Italic, small caps, 10.5/12 */
 .content figcaption,
 .content .caption {
@@ -1011,6 +1045,10 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+    .content table img {
+        height: 140px;
+    }
+
     .contact-top {
         grid-template-columns: 1fr;
     }

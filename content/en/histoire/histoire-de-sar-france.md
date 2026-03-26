@@ -10,7 +10,8 @@ lastUpdate: 2026-03-25
 
 At the founding meeting of the National Society of the Sons of the American Revolution (NSSAR) on April 30, 1889, in New York, a Frenchman, Edmond, Marquis de La Fayette (1818–1890), was among the seventeen vice presidents elected that day. At the time, however, he could only represent himself — and, of course, his illustrious grandfather!
 
-![Edmond du Motier, Marquis de La Fayette](/images/histoire-sar-france/edmond-marquis-de-la-fayette.jpg "Edmond du Motier, Marquis de La Fayette")
+![Edmond du Motier, Marquis de La Fayette](/images/histoire-sar-france/edmond-marquis-de-la-fayette.jpg "Edmond du Motier, Marquis de La Fayette") 
+**"Edmond du Motier, Marquis de La Fayette"**
 
 Nevertheless, the NSSAR quickly accepted the principle of admitting descendants of French combatants into the Sons. It also approved the possibility for these descendants to form Chapters officially recognized by the NSSAR.
 
