@@ -2,17 +2,41 @@
 # pour relire les Pull Requests touchant les fichiers correspondants.
 #
 # Documentation : https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+#
+# Règle : seul @gautric (Greg) peut modifier la partie technique.
+#         Le contenu éditorial et les données sont gérés par @gautric et @SARFrance.
 
-# Contenu éditorial — validation par le webmaster et le secrétariat
-content/     @gautric
-data/        @gautric
+# ── Contenu éditorial & données (gautric + SARFrance) ──────────────
+content/                        @gautric @SARFrance
+data/                           @gautric @SARFrance
+static/                         @gautric @SARFrance
+i18n/                           @gautric @SARFrance
+CNAME                           @gautric @SARFrance
 
-# Diaporama
-data/carousel.json @gautric
+# ── Partie technique (gautric uniquement) ──────────────────────────
+# Configuration Hugo
+hugo.yaml                       @gautric
 
-# Configuration du site et thème
-hugo.toml    @gautric
-layouts/     @gautric
+# Thème (templates, CSS, JS)
+themes/                         @gautric
 
-# Workflows CI/CD
-.github/     @gautric
+# Layouts (overrides éventuels)
+layouts/                        @gautric
+
+# Archetypes
+archetypes/                     @gautric
+
+# CI/CD & GitHub
+.github/                        @gautric
+
+# Infrastructure & déploiement
+deploy.sh                       @gautric
+infrastructure/                 @gautric
+
+# Scripts
+scripts/                        @gautric
+
+# Fichiers racine techniques
+.gitignore                      @gautric
+.gitattributes                  @gautric
+.gitmodules                     @gautric
