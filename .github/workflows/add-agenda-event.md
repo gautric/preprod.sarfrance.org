@@ -41,7 +41,7 @@ safe-outputs:
 tools:
   web-fetch:
   github:
-    toolsets: [issues, pulls]
+    toolsets: [issues, pull_requests]
     min-integrity: none
 
 timeout-minutes: 10
