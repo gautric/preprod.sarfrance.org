@@ -24,18 +24,24 @@ safe-outputs:
     reviewers: [gautric]
     draft: false
     max: 1
-    expires: 14
+    expires: 30
     preserve-branch-name: true
     allowed-files:
       - data/agenda.yaml
     protected-files: allowed
   add-comment:
     max: 2
+  update-pull-request:
+      title: true               
+      body: true                
+      footer: false             
+      max: 2               
+      target: "*"               
 
 tools:
   web-fetch:
   github:
-    toolsets: [issues]
+    toolsets: [issues, pulls]
     min-integrity: none
 
 timeout-minutes: 10
@@ -165,12 +171,17 @@ conférence, assemblée, commémoration, nssar, réunion, visite, exposition
    - Ajouter uniquement le nouveau bloc d'evenement
    - Le champ `lien` est toujours vide (`""`) pour les evenements ajoutes automatiquement
 
-7. **Cree ou met a jour la pull request** via le safe-output `create-pull-request`. Le titre sera automatiquement prefixe par "📅 Agenda : ". Utilise comme titre le titre de l'evenement. Dans le corps de la PR, inclus :
+7. **Recherche d'une PR existante pour cette issue** :
+   - Liste les pull requests ouvertes du depot avec le label `agenda`.
+   - Pour chaque PR ouverte, verifie si le body contient la chaine `Closes #${{ github.event.issue.number }}` ou `#${{ github.event.issue.number }}`.
+   - Si une PR correspondante est trouvee, c'est une mise a jour : utilise le safe-output `update-pull-request` pour mettre a jour le titre et le body de cette PR, puis pousse le fichier `data/agenda.yaml` modifie sur la branche de cette PR existante.
+   - Si aucune PR correspondante n'est trouvee, cree une nouvelle PR via le safe-output `create-pull-request`.
+
+8. **Contenu de la PR** (creation ou mise a jour). Le titre sera automatiquement prefixe par "📅 Agenda : ". Utilise comme titre le titre de l'evenement. Dans le corps de la PR, inclus :
    - Le titre de l'evenement
    - La date
    - Le lieu et les coordonnees GPS trouvees
-   - `Closes #NUMERO_ISSUE`
+   - `Closes #${{ github.event.issue.number }}`
    - N'inclus AUCUN secret, token, ou variable d'environnement dans le corps de la PR.
-   - **Si une pull request existe deja pour cette issue** (meme branche, meme prefixe de titre), mets a jour la PR existante (titre, corps, contenu du fichier) au lieu d'en creer une nouvelle. Cela se produit typiquement quand l'issue est editee (`edited`) et que le workflow se relance.
 
-8. **Ajoute un commentaire** sur l'issue pour confirmer que la PR a ete creee ou mise a jour.
+9. **Ajoute un commentaire** sur l'issue pour confirmer que la PR a ete creee ou mise a jour (en precisant le numero de la PR).
