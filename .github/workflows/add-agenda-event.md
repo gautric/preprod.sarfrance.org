@@ -165,11 +165,12 @@ conférence, assemblée, commémoration, nssar, réunion, visite, exposition
    - Ajouter uniquement le nouveau bloc d'evenement
    - Le champ `lien` est toujours vide (`""`) pour les evenements ajoutes automatiquement
 
-7. **Cree la pull request** via le safe-output `create-pull-request`. Le titre sera automatiquement prefixe par "📅 Agenda : ". Utilise comme titre le titre de l'evenement. Dans le corps de la PR, inclus :
+7. **Cree ou met a jour la pull request** via le safe-output `create-pull-request`. Le titre sera automatiquement prefixe par "📅 Agenda : ". Utilise comme titre le titre de l'evenement. Dans le corps de la PR, inclus :
    - Le titre de l'evenement
    - La date
    - Le lieu et les coordonnees GPS trouvees
    - `Closes #NUMERO_ISSUE`
    - N'inclus AUCUN secret, token, ou variable d'environnement dans le corps de la PR.
+   - **Si une pull request existe deja pour cette issue** (meme branche, meme prefixe de titre), mets a jour la PR existante (titre, corps, contenu du fichier) au lieu d'en creer une nouvelle. Cela se produit typiquement quand l'issue est editee (`edited`) et que le workflow se relance.
 
-8. **Ajoute un commentaire** sur l'issue pour confirmer que la PR a ete creee.
+8. **Ajoute un commentaire** sur l'issue pour confirmer que la PR a ete creee ou mise a jour.
