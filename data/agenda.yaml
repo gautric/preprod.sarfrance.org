@@ -611,6 +611,16 @@ events:
     lien: "https://www.puydufou.com"
     lat: 46.8888
     lon: -0.9304
+  - date: "2026-07-04"
+    dateEnd: ""
+    titre: "Invitation à l'ambassade des États-Unis à Paris"
+    type: visite
+    description: "Description de l'invitation à l'ambassade des États-Unis à Paris"
+    lieu: "Ambassade des États-Unis à Paris, France"
+    heure: "14:30"
+    lien: ""
+    lat: 48.8678
+    lon: 2.3204
   - date: "2026-07-10"
     dateEnd: "2026-07-16"
     titre: "Congrès annuel de la NSSAR à Greensboro (NC)"
