@@ -4,7 +4,7 @@ description: "La France et la Guerre d'Indépendance américaine"
 lastUpdate: 2026-03-01
 ---
 
-## La France et la Révolution Américaine
+## La France et la Guerre d'Indépendance américaine
 
 La France a joué un rôle déterminant dans l'indépendance des États-Unis d'Amérique. De 1778 à 1783, des milliers de Français ont combattu aux côtés des insurgés américains.
 

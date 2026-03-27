@@ -16,6 +16,6 @@ Général français et administrateur colonial, le marquis de Bouillé se distin
 
 Gouverneur de la Guadeloupe depuis 1767, le marquis de Bouillé est nommé le 5 mai 1777 gouverneur général de la Martinique et Maréchal de Camp le 27 octobre 1778. Il réorganise la milice de la Martinique et crée en 1778 une unité composée de Martiniquais blancs, mulâtres et noirs « libres » : les « Volontaires de Bouillé », qui vont se révéler très efficaces contre les Anglais.
 
-A partir juillet 1778 il assure la fonction de gouverneur général des Isles du Vent (Guadeloupe, Martinique et Sainte-Lucie). Le 6 septembre 1778, il prend aux Anglais l'ile de la Dominique, en mai 1781 celle de Tobago, en novembre 1781 celles de Saint-Eustache, de Saint Martin et de Saba, le 13 février 1782 celles de Saint-Christophe et de Niévès et enfin le 22 février 1782 l'ile de Montserrat.
+À partir juillet 1778 il assure la fonction de gouverneur général des Isles du Vent (Guadeloupe, Martinique et Sainte-Lucie). Le 6 septembre 1778, il prend aux Anglais l'île de la Dominique, en mai 1781 celle de Tobago, en novembre 1781 celles de Saint-Eustache, de Saint-Martin et de Saba, le 13 février 1782 celles de Saint-Christophe et de Niévès et enfin le 22 février 1782 l'île de Montserrat.
 
 Son successeur au gouvernement des Antilles fut [Claude-Charles de Damas de Marillac](/histoire/biographies/damas/). Royaliste convaincu, il fut l'un des principaux conspirateurs de la fuite manquée de la famille royale à Varennes en 1791. Il mourut en exil à Londres en 1800.

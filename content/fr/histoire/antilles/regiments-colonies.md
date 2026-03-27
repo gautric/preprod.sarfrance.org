@@ -47,7 +47,7 @@ author: "Thierry de Seguins-Cohorn"
 **Participation aux opérations :**
 - 1779 : [Siège de Savannah](https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Savannah)
 
-### 5. Corps de Grenadiers-Volontaires de Saint Domingue et Corps de Chasseurs-Volontaires de Gens de Couleur de Saint-Domingue
+### 5. Corps de Grenadiers-Volontaires de Saint-Domingue et Corps de Chasseurs-Volontaires de Gens de Couleur de Saint-Domingue
 
 **Colonel :**
 - Laurent François Lenoir de Rouvray, 12 mars 1779
@@ -77,7 +77,7 @@ Voir l'article détaillé : [Les Chasseurs Volontaires de Saint-Domingue](/histo
 
 **Colonels :**
 1. Joseph Bigeard de Saint Maurice, 9 octobre 1777
-2. Poncin Duchemin de Chenneville, 1er janvier 1781
+2. Poncin Duchemin de Chenneville, 1^er janvier 1781
 3. David Charpentier de Cossigny, 17 février 1782
 
 **Participation aux opérations :**

@@ -19,7 +19,7 @@ lastUpdate: 2026-03-01
 
 **Adresse** : {{< address >}}  
 **Permanences** : le mardi et le jeudi de 09h30 à 18h00  
-**Email** : {{< contact "email" >}}  
+**Courriel** : {{< contact "email" >}}  
 **Téléphone** : {{< contact "phone" >}}
 
 </div>
@@ -40,7 +40,7 @@ lastUpdate: 2026-03-01
 SAR France est affiliée à la National Society Sons of the American Revolution (NSSAR), dont le siège est à Louisville, Kentucky, États-Unis.
 
 **Adresse** : 809 West Main Street, Louisville, KY 40202, USA  
-**Site web** : [www.sar.org](https://www.sar.org)
+**Site** : [www.sar.org](https://www.sar.org)
 
 </div>
 <div>
@@ -68,8 +68,8 @@ SAR France est affiliée à la National Society Sons of the American Revolution 
     </div>
   </div>
   <div class="form-group">
-    <label for="email">Adresse email <span class="required" aria-hidden="true">*</span></label>
-    <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+    <label for="email">Adresse courriel <span class="required" aria-hidden="true">*</span></label>
+    <input type="email" id="email" name="email" placeholder="votre@courriel.fr" required>
   </div>
   <div class="form-group">
     <label for="objet">Objet <span class="required" aria-hidden="true">*</span></label>

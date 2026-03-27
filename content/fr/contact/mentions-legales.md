@@ -21,7 +21,7 @@ Site hébergé par GitHub Pages.
 
 Pour toute question technique relative au site (erreur d'affichage, lien cassé, suggestion d'amélioration, demande de modification de contenu, signalement de problème d'accessibilité ou de sécurité), vous pouvez contacter le webmaster à l'adresse suivante :
 
-**Email** : [webmaster@sarfrance.org](mailto:webmaster@sarfrance.org)
+**Courriel** : [webmaster@sarfrance.org](mailto:webmaster@sarfrance.org)
 
 Vous pouvez également signaler un problème ou proposer une amélioration directement sur notre espace de gestion du site : [créer une demande sur GitHub](https://github.com/gautric/preprod.sarfrance.org/issues/new/choose).
 

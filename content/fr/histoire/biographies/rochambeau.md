@@ -10,7 +10,7 @@ references:
 
 Jean-Baptiste Donatien de Vimeur, comte de Rochambeau, officier de l'armée royale française, joua un rôle déterminant dans la victoire américaine au siège de Yorktown en 1781. Nommé lieutenant-général en 1780, il reçut le commandement de l'Expédition Particulière : 7 000 hommes envoyés en Amérique rejoindre l'armée continentale de Washington.
 
-- **Naissance** : 1er juillet 1725, Vendôme (Orléanais)
+- **Naissance** : 1^er juillet 1725, Vendôme (Orléanais)
 - **Décès** : 10 mai 1807, Thoré (Loir-et-Cher)
 - **Grade** : Maréchal de France
 

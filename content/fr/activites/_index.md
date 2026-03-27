@@ -27,4 +27,4 @@ Interventions pour faire mieux connaître à nos membres et à nos amis américa
 
 - Conférence de Patrick Villiers à Versailles (janvier 2026)
 - Assemblée générale et dîner au Palais du Luxembourg (février 2026)
-- Conférence de Stéphane Meffre pour le 400e anniversaire de la Marine nationale (mars 2026)
+- Conférence de Stéphane Meffre pour le 400^e anniversaire de la Marine nationale (mars 2026)

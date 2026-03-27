@@ -25,7 +25,7 @@ On attendit un mois pour notifier à Londres la reconnaissance de l'indépendanc
 
 La guerre est là.
 
-#### Quels éléments ont conduit le Parlement britannique à accepter le principe d'une indépendance des treize colonies ?
+#### Quels éléments ont conduit le Parlement britannique à accepter le principe d'une indépendance des Treize Colonies ?
 
 Indéniablement, la nouvelle de la capitulation de Cornwallis à Yorktown, qui eut été acceptée avec flegme quelques mois plus tôt par le gouvernement du Roi George III, est l'élément qui fit basculer son Parlement. En effet, elle se combinait avec les autres revers de cette guerre mondiale :
 
@@ -43,7 +43,7 @@ Indéniablement, la nouvelle de la capitulation de Cornwallis à Yorktown, qui e
 
 Début juin 1782, Castries est informé de la perte de cinq vaisseaux aux Saintes, et, résumant la situation dans une remarquable analyse stratégique, prépare une nouvelle intervention combinée (probablement imbattable) contre la Jamaïque. Les deux gouvernements de Paris et Madrid la confient au comte d'Estaing. Le projet en est rapidement connu à Londres, grâce à ses espions parisiens.
 
-Parallèlement, Vergennes cherche à accélérer les pourparlers de paix. Face à la menace russe contre la Turquie, il veut en effet obtenir une intervention combinée de la France et de … la Grande Bretagne ! Les pourparlers sont ralentis par les exigences de l'Espagne qui, rappelons-le, n'est pas l'alliée des États-Unis – dont elle n'a pas voulu reconnaître l'indépendance –, mais de la France.
+Parallèlement, Vergennes cherche à accélérer les pourparlers de paix. Face à la menace russe contre la Turquie, il veut en effet obtenir une intervention combinée de la France et de … la Grande-Bretagne ! Les pourparlers sont ralentis par les exigences de l'Espagne qui, rappelons-le, n'est pas l'alliée des États-Unis – dont elle n'a pas voulu reconnaître l'indépendance –, mais de la France.
 
 L'Espagne entend faire honorer l'engagement obtenu par elle que les alliés n'arrêteraient pas la guerre avant d'avoir obtenu la cession de Gibraltar, … dont la Royal Navy vient de faire échouer le blocus.
 
@@ -73,11 +73,11 @@ Les États-Unis, sauvés par Cuba. Clin d'œil de l'histoire.
 
 La réponse est rendue délicate par le fait que les Allemands reconnaissent pour compatriotes tous ceux qui parlent leur langue, ou ont parlé un jour un dialecte s'y apparentant, alors que, pour nous, est Français celui qui a choisi de l'être.
 
-Le lobbying germanique aux USA, où une part importante de la population a un ou plusieurs ancêtres venus de l'Europe allemande au XIXème siècle, a toujours été très actif, au point que lors du premier centenaire de Yorktown, le général Boulanger, qui conduisait la délégation française dut refuser de débarquer tant que des couleurs Allemandes seraient affichées au côté des nôtres. Situation identique revécue par les Sons de France à Yorktown en 2001 : le Deutschland über alles sur la Redoute 9.
+Le lobbying germanique aux USA, où une part importante de la population a un ou plusieurs ancêtres venus de l'Europe allemande au XIX^e siècle, a toujours été très actif, au point que lors du premier centenaire de Yorktown, le général Boulanger, qui conduisait la délégation française dut refuser de débarquer tant que des couleurs Allemandes seraient affichées au côté des nôtres. Situation identique revécue par les Sons de France à Yorktown en 2001 : le Deutschland über alles sur la Redoute 9.
 
 Ainsi, le héros de Camden, né Jean Kalb en Bavière et entré à 20 ans dans les armées françaises, y ayant fait plus de trente années de carrière, marié en France et devenu le baron de Kalb (seul nom qu'il ait porté en France et aux États-Unis), est-il rebaptisé « von Kalb »…
 
-De même Steuben, que sa situation délicate obligeait à quitter Paris et que Saint-Germain orienta vers Franklin : il vécut le reste de sa vie en Amérique comme baron de Steuben, signant de ce nom la constitution des Cincinnati et ses dernières volontés. Il a été rebaptisé « von Steuben » au début du XXème siècle.
+De même Steuben, que sa situation délicate obligeait à quitter Paris et que Saint-Germain orienta vers Franklin : il vécut le reste de sa vie en Amérique comme baron de Steuben, signant de ce nom la constitution des Cincinnati et ses dernières volontés. Il a été rebaptisé « von Steuben » au début du XX^e siècle.
 
 Il y eut moins de mille germanophones du côté des Alliés, contre 29 166 débarqués aux États-Unis par les Anglais.
 

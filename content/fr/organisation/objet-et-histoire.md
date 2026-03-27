@@ -7,7 +7,7 @@ description: "Objet et mission de la Société en France des Fils de la Révolut
 
 SAR France poursuit les objectifs suivants :
 
-- Aimer et conserver le souvenir de ceux qui, pendant la Révolution américaine, travaillèrent à établir l'indépendance du peuple américain.
+- Aimer et conserver le souvenir de ceux qui, pendant la Guerre d'Indépendance américaine, travaillèrent à établir l'indépendance du peuple américain.
 
 - Favoriser des relations cordiales entre leurs descendants.
 
