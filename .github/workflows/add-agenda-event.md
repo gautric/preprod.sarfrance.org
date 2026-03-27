@@ -163,25 +163,36 @@ conférence, assemblée, commémoration, nssar, réunion, visite, exposition
    - Extrais `lat` et `lon` du premier resultat, arrondis a 4 decimales
    - Si le lieu est vide ou le geocodage echoue ne rajoute pas les coordonnées gps
 
-5. **Lis le fichier** `data/agenda.yaml` et insere le nouvel evenement a la bonne position chronologique (trie par date croissante). Trouve la premiere entree dont la date est posterieure a la date du nouvel evenement et insere juste avant.
+5. **Recherche d'une PR existante pour cette issue** :
+   - Liste les pull requests ouvertes du depot avec le label `agenda`.
+   - Pour chaque PR ouverte, verifie si le body contient la chaine `Closes #${{ github.event.issue.number }}`.
+   - Retiens le numero et la branche de la PR trouvee (le cas echeant).
 
-6. **Ecris le fichier** `data/agenda.yaml` modifie. Assure-toi de :
+6. **Prepare le fichier `data/agenda.yaml`** :
+   - Lis TOUJOURS le fichier `data/agenda.yaml` depuis la branche **main** (branche par defaut). C'est la version de reference, sans les modifications de la PR precedente.
+   - Insere le nouvel evenement (avec les donnees fraichement parsees et validees de l'issue) a la bonne position chronologique (trie par date croissante). Trouve la premiere entree dont la date est posterieure a la date du nouvel evenement et insere juste avant.
+
+7. **Ecris le fichier** `data/agenda.yaml` modifie. Assure-toi de :
    - Preserver exactement le format existant (guillemets, indentation, ordre des champs)
-   - Ne modifier AUCUN evenement existant
+   - Ne modifier AUCUN evenement existant de la branche main
    - Ajouter uniquement le nouveau bloc d'evenement
    - Le champ `lien` est toujours vide (`""`) pour les evenements ajoutes automatiquement
 
-7. **Recherche d'une PR existante pour cette issue** :
-   - Liste les pull requests ouvertes du depot avec le label `agenda`.
-   - Pour chaque PR ouverte, verifie si le body contient la chaine `Closes #${{ github.event.issue.number }}` ou `#${{ github.event.issue.number }}`.
-   - Si une PR correspondante est trouvee, c'est une mise a jour : utilise le safe-output `update-pull-request` pour mettre a jour le titre et le body de cette PR, puis pousse le fichier `data/agenda.yaml` modifie sur la branche de cette PR existante.
-   - Si aucune PR correspondante n'est trouvee, cree une nouvelle PR via le safe-output `create-pull-request`.
+8. **Cree ou met a jour la PR** :
+   - **Si une PR existante a ete trouvee a l'etape 5** : utilise le safe-output `update-pull-request` pour mettre a jour le titre et le body de cette PR, puis pousse le fichier `data/agenda.yaml` modifie sur la branche de cette PR existante. Le contenu du fichier remplace entierement l'ancien (puisqu'il repart de main + nouveau evenement).
+   - **Si aucune PR n'a ete trouvee** : cree une nouvelle PR via le safe-output `create-pull-request`.
 
-8. **Contenu de la PR** (creation ou mise a jour). Le titre sera automatiquement prefixe par "📅 Agenda : ". Utilise comme titre le titre de l'evenement. Dans le corps de la PR, inclus :
+9. **Contenu de la PR** (creation ou mise a jour). Le titre sera automatiquement prefixe par "📅 Agenda : ". Utilise comme titre le titre de l'evenement. Dans le corps de la PR, inclus :
    - Le titre de l'evenement
-   - La date
+   - La date (et date de fin si presente)
+   - Le type d'evenement
    - Le lieu et les coordonnees GPS trouvees
+   - L'heure (si presente)
+   - La description (si presente)
    - `Closes #${{ github.event.issue.number }}`
+   - Si c'est une mise a jour, ajoute une ligne : `♻️ Mise a jour suite a l'edition de l'issue.`
    - N'inclus AUCUN secret, token, ou variable d'environnement dans le corps de la PR.
 
-9. **Ajoute un commentaire** sur l'issue pour confirmer que la PR a ete creee ou mise a jour (en precisant le numero de la PR).
+10. **Ajoute un commentaire** sur l'issue pour confirmer :
+    - Si nouvelle PR : "✅ PR #XX creee avec l'evenement [titre] du [date]."
+    - Si mise a jour : "♻️ PR #XX mise a jour avec les nouvelles informations de l'evenement [titre] du [date]."
