@@ -169,14 +169,31 @@ conférence, assemblée, commémoration, nssar, réunion, visite, exposition
    - Retiens le numero et la branche de la PR trouvee (le cas echeant).
 
 6. **Prepare le fichier `data/agenda.yaml`** :
-   - Lis TOUJOURS le fichier `data/agenda.yaml` depuis la branche **main** (branche par defaut). C'est la version de reference, sans les modifications de la PR precedente.
-   - Insere le nouvel evenement (avec les donnees fraichement parsees et validees de l'issue) a la bonne position chronologique (trie par date croissante). Trouve la premiere entree dont la date est posterieure a la date du nouvel evenement et insere juste avant.
+   - Lis le fichier `data/agenda.yaml` depuis la branche **main** (branche par defaut).
+   - Identifie la position d'insertion : trouve le premier evenement dont la date est strictement posterieure a la date du nouvel evenement.
+   - Note le numero de ligne exact ou inserer le nouveau bloc (juste avant cet evenement).
 
-7. **Ecris le fichier** `data/agenda.yaml` modifie. Assure-toi de :
-   - Preserver exactement le format existant (guillemets, indentation, ordre des champs)
-   - Ne modifier AUCUN evenement existant de la branche main
-   - Ajouter uniquement le nouveau bloc d'evenement
-   - Le champ `lien` est toujours vide (`""`) pour les evenements ajoutes automatiquement
+7. **Insere le nouvel evenement** dans `data/agenda.yaml`. REGLE CRITIQUE pour eviter l'erreur "Failed to apply patch" :
+   - Tu DOIS faire une insertion chirurgicale : ajoute UNIQUEMENT les lignes du nouvel evenement au bon endroit.
+   - N'ecris PAS le fichier entier. Utilise l'outil Edit (ou equivalent) pour inserer les nouvelles lignes a la position identifiee.
+   - Si tu utilises l'outil Write, ecris UNIQUEMENT le contenu complet du fichier avec le minimum de modifications (le bloc insere, rien d'autre ne change).
+   - Ne reformate PAS, ne reindente PAS, ne modifie PAS les lignes existantes — meme si elles te semblent mal formatees.
+   - Le bloc a inserer doit suivre exactement ce format (2 espaces pour `- date:`, 4 espaces pour les autres champs) :
+   ```yaml
+     - date: "AAAA-MM-JJ"
+       dateEnd: ""
+       titre: "Titre"
+       type: typevalide
+       description: ""
+       lieu: "Lieu"
+       heure: "HH:MM"
+       lien: ""
+       lat: 0.0000
+       lon: 0.0000
+   ```
+   - Assure-toi qu'il y a une ligne vide entre le dernier champ de l'evenement precedent et le `- date:` du nouvel evenement (pour correspondre au style existant).
+   - Le champ `lien` est toujours vide (`""`) pour les evenements ajoutes automatiquement.
+   - Si le geocodage a echoue ou si le lieu est vide, utilise `lat: 0` et `lon: 0`.
 
 8. **Cree ou met a jour la PR** :
    - **Si une PR existante a ete trouvee a l'etape 5** : utilise le safe-output `update-pull-request` pour mettre a jour le titre et le body de cette PR, puis pousse le fichier `data/agenda.yaml` modifie sur la branche de cette PR existante. Le contenu du fichier remplace entierement l'ancien (puisqu'il repart de main + nouveau evenement).
