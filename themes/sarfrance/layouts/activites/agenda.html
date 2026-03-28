@@ -53,25 +53,24 @@
                         <div class="tl-group-title" data-month-date="{{ .date }}"></div>
                     </div>
                 {{ end }}
-                {{- $eventId := printf "%s-%s" .date (.titre | urlize) -}}
+                {{- $eventId := printf "%s-%s" .date (.title | urlize) -}}
                 <div class="tl-row" id="{{ $eventId }}" data-type="{{ .type }}">
                     <div class="tl-dot type-{{ .type | urlize }}"></div>
                     <div class="page-card{{ if and .lat .lon (ne (printf "%v" .lat) "0") }} page-card--has-map{{ end }}">
                         <div class="page-card-body">
                             <div class="page-card-header">
-                                <span class="page-card-date" data-date="{{ .date }}"{{ with .dateEnd }} data-date-end="{{ . }}"{{ end }}></span>
+                                <span class="page-card-date" data-date="{{ .date }}"></span>
                                 <span class="agenda-type type-{{ .type | urlize }}">{{ i18n (printf "%s%s" $i18nPrefix .type) }}</span>
                             </div>
-                            <h3 class="page-card-title">{{ with .lien }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}{{ .titre }}{{ with .lien }}</a>{{ end }}</h3>
+                            <h3 class="page-card-title">{{ with .link }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}{{ .title }}{{ with .link }}</a>{{ end }}</h3>
                             {{ with .description }}<p class="page-card-desc">{{ . }}</p>{{ end }}
                             <div class="agenda-card-meta">
-                                {{ with .lieu }}<span class="agenda-card-lieu">📍 {{ . }}</span>{{ end }}
-                                {{ with .heure }}<span class="agenda-card-heure" data-heure="{{ . }}">🕐 {{ . }}</span>{{ end }}
+                                {{ with .location }}<span class="agenda-card-location">📍 {{ . }}</span>{{ end }}
 
                             </div>
                         </div>
                         {{ if and .lat .lon (ne (printf "%v" .lat) "0") }}
-                        <div class="agenda-map" data-lat="{{ .lat }}" data-lon="{{ .lon }}" data-lieu="{{ .lieu }}"></div>
+                        <div class="agenda-map" data-lat="{{ .lat }}" data-lon="{{ .lon }}" data-location="{{ .location }}"></div>
                         {{ end }}
                     </div>
                 </div>
@@ -82,6 +81,8 @@
 {{ end }}
 {{ define "scripts" }}
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js" integrity="sha512-hUhvpC5f8cgTBp2mAELJJBEBUkFnMDKBGlMO+Qv0IcyLnSjm7MwKnBMFMHSEIJKEocuMNknj0yTpOE2sQGbhg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/locale/fr.js" integrity="sha512-RotCCrmeNpSxoLB4VPyd3cMHSOEOSMOGBFNuBOoQMRCJJTkWL3uPPHc1mJoFDVjEVicQlDFrmWjnNPbOKFEbQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 {{- $js := resources.Get "js/agenda.js" | resources.Fingerprint }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 {{ end }}

@@ -19,7 +19,7 @@ body:
       required: true
 
   - type: input
-    id: date-fin
+    id: end-date
     attributes:
       label: "Date de fin"
       description: "Si l'événement dure plusieurs jours, indiquer la date de fin (AAAA-MM-JJ, 10 caractères)"
@@ -28,7 +28,7 @@ body:
       required: false
 
   - type: input
-    id: titre
+    id: title
     attributes:
       label: "Titre de l'événement"
       description: "50 caractères maximum"
@@ -52,7 +52,7 @@ body:
       required: true
 
   - type: input
-    id: lieu
+    id: location
     attributes:
       label: "Lieu"
       description: "Nom du lieu ou de la ville (50 caractères maximum)"
@@ -61,7 +61,7 @@ body:
       required: false
 
   - type: input
-    id: heure
+    id: time
     attributes:
       label: "Heure"
       description: "Heure de début au format HH:MM, 24h (5 caractères)"

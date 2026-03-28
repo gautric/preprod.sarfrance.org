@@ -9,28 +9,36 @@ METHOD:PUBLISH
 X-WR-CALNAME:SAR France – Agenda {{ $year }}
 X-WR-TIMEZONE:Europe/Paris
 {{ range $events -}}
-{{- $dateClean := replace .date "-" "" -}}
-{{- $titleLower := .titre | lower | replaceRE "[^a-z0-9]+" "-" | replaceRE "^-+|-+$" "" -}}
-{{- $uid := printf "%s-%s@sarfrance.org" $dateClean $titleLower -}}
+{{- $intervalParts := split .date "/" -}}
+{{- $startRaw := index $intervalParts 0 -}}
+{{- $hasEnd := gt (len $intervalParts) 1 -}}
+{{- $startDateOnly := index (split $startRaw "T") 0 -}}
+{{- $startClean := replace $startDateOnly "-" "" -}}
+{{- $titleLower := .title | lower | replaceRE "[^a-z0-9]+" "-" | replaceRE "^-+|-+$" "" -}}
+{{- $uid := printf "%s-%s@sarfrance.org" $startClean $titleLower -}}
 BEGIN:VEVENT
 UID:{{ $uid }}
-{{- if and .heure (ne .heure "") }}
-DTSTART;TZID=Europe/Paris:{{ $dateClean }}T{{ replace .heure ":" "" }}00
+{{- if strings.Contains $startRaw "T" -}}
+{{- $dtParts := split $startRaw "T" -}}
+{{- $datePart := replace (index $dtParts 0) "-" "" -}}
+{{- $timePart := replace (index $dtParts 1) ":" "" }}
+DTSTART;TZID=Europe/Paris:{{ $datePart }}T{{ $timePart }}
 {{- else }}
-DTSTART;VALUE=DATE:{{ $dateClean }}
+DTSTART;VALUE=DATE:{{ $startClean }}
 {{- end }}
-{{- if and .dateEnd (ne .dateEnd "") }}
-{{- $endTime := time.AsTime (printf "%sT00:00:00Z" .dateEnd) }}
+{{- if $hasEnd -}}
+{{- $endRaw := index $intervalParts 1 -}}
+{{- $endTime := time.AsTime (printf "%sT00:00:00Z" $endRaw) -}}
 {{- $endPlusOne := $endTime.AddDate 0 0 1 }}
 DTEND;VALUE=DATE:{{ $endPlusOne.Format "20060102" }}
 {{- end }}
-SUMMARY:{{ .titre }}
+SUMMARY:{{ .title }}
 {{- if and .description (ne .description "") }}
 DESCRIPTION:{{ .description }}
 {{- else }}
-DESCRIPTION:{{ .titre }} – SAR France
+DESCRIPTION:{{ .title }} – SAR France
 {{- end }}
-{{- with .lieu }}
+{{- with .location }}
 LOCATION:{{ . }}
 {{- end }}
 END:VEVENT

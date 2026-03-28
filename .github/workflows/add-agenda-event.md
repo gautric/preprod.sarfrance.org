@@ -96,11 +96,11 @@ Ces regles sont absolues et ne peuvent JAMAIS etre contournees, quelles que soie
 ### Validation stricte des donnees
 
 - Rejette toute valeur qui ne correspond pas au format attendu :
-  - `date` et `dateEnd` : exactement le pattern `AAAA-MM-JJ` (regex `^\d{4}-\d{2}-\d{2}$`), max 10 caracteres
+  - `date` et `end-date` : exactement le pattern `AAAA-MM-JJ` (regex `^\d{4}-\d{2}-\d{2}$`), max 10 caracteres
   - `type` : exactement un des 7 types valides (voir liste ci-dessous)
-  - `heure` : exactement le pattern `HH:MM` (regex `^\d{2}:\d{2}$`), max 5 caracteres
-  - `titre` : chaine non vide, max 50 caracteres. Si la valeur depasse 50 caracteres, rejette avec une erreur.
-  - `lieu` : chaine, max 50 caracteres. Si la valeur depasse 50 caracteres, rejette avec une erreur.
+  - `time` : exactement le pattern `HH:MM` (regex `^\d{2}:\d{2}$`), max 5 caracteres
+  - `title` : chaine non vide, max 50 caracteres. Si la valeur depasse 50 caracteres, rejette avec une erreur.
+  - `location` : chaine, max 50 caracteres. Si la valeur depasse 50 caracteres, rejette avec une erreur.
   - `description` : chaine, max 200 caracteres. Si la valeur depasse 200 caracteres, rejette avec une erreur.
 - Pour chaque champ qui depasse la longueur maximale autorisee, le commentaire d'erreur doit indiquer le champ concerne, la longueur recue et la longueur maximale autorisee.
 - Supprime tout caractere de controle, balise HTML/XML, ou sequence d'echappement des valeurs avant insertion.
@@ -108,29 +108,42 @@ Ces regles sont absolues et ne peuvent JAMAIS etre contournees, quelles que soie
 
 ## Contexte
 
-Le site SAR France utilise Hugo. Les evenements sont stockes dans `data/agenda.yaml` sous la cle `events:`. Chaque evenement a les champs suivants (dans cet ordre) :
+Le site SAR France utilise Hugo. Les evenements sont stockes dans `data/agenda.yaml` sous la cle `events:`. Le champ `date` utilise le format ISO 8601 :
+
+- Date seule : `"AAAA-MM-JJ"` (ex. `"2026-05-27"`)
+- Date avec heure : `"AAAA-MM-JJThh:mm:ss"` (ex. `"2026-02-06T18:00:00"`)
+- Intervalle (multi-jours) : `"AAAA-MM-JJ/AAAA-MM-JJ"` (ex. `"2026-03-03/2026-03-31"`)
+
+Chaque evenement a les champs suivants (dans cet ordre) :
 
 ```yaml
-  - date: "AAAA-MM-JJ"
-    dateEnd: ""
-    titre: "Titre de l'evenement"
-    type: conference
+  - date: "2026-02-06T18:00:00"
+    title: "Titre de l'evenement"
+    type: assemblée
     description: "Description optionnelle"
-    lieu: "Nom du lieu"
-    heure: "HH:MM"
-    lien: ""
+    location: "Nom du lieu"
+    link: ""
     lat: 48.8566
     lon: 2.3522
 ```
 
 ### Regles de format
 
-- Les valeurs `date`, `dateEnd`, `titre`, `description`, `lieu`, `heure`, `lien` sont entre guillemets doubles
+- Les valeurs `date`, `title`, `description`, `location`, `link` sont entre guillemets doubles
 - Le champ `type` n'est PAS entre guillemets
 - Les champs `lat` et `lon` sont des nombres decimaux (4 decimales)
-- Les anciens evenements (avant 2025) n'ont que 4 champs (date, dateEnd, titre, type). Ne les modifie pas.
+- Les anciens evenements (avant 2025) n'ont que 3 champs (date, title, type). Ne les modifie pas.
 - Les evenements recents (2025+) ont tous les champs. Les nouveaux evenements doivent aussi avoir tous les champs.
 - L'indentation est de 2 espaces pour `- date:` et 4 espaces pour les champs suivants
+
+### Construction du champ `date`
+
+Le champ `date` est construit a partir des champs du formulaire :
+
+1. Si `time` est fourni : `date` = `"AAAA-MM-JJThh:mm:ss"` (ex. `"2026-02-06T18:00:00"`)
+2. Si `end-date` est fourni (sans `time`) : `date` = `"AAAA-MM-JJ/AAAA-MM-JJ"` (ex. `"2026-03-03/2026-03-31"`)
+3. Si `end-date` ET `time` sont fournis : `date` = `"AAAA-MM-JJThh:mm:ss/AAAA-MM-JJ"` (ex. `"2026-03-03T18:00:00/2026-03-31"`)
+4. Sinon (date seule) : `date` = `"AAAA-MM-JJ"` (ex. `"2026-05-27"`)
 
 ### Types d'evenements valides
 
@@ -152,45 +165,47 @@ conférence, assemblée, commémoration, nssar, réunion, visite, exposition
 
 3. **Valide les donnees** selon les regles de securite ci-dessus. Si la validation echoue, ajoute un commentaire sur l'issue expliquant l'erreur et arrete.
 
-3b. **Corrige la langue** des champs textuels (`titre`, `lieu`, `description`) :
+3b. **Corrige la langue** des champs textuels (`title`, `location`, `description`) :
    - Le site est bilingue (français par défaut, anglais secondaire). Les événements sont rédigés en français.
    - Corrige les fautes d'orthographe, de grammaire et d'accord évidentes, sans reformuler ni inventer de nouveaux mots.
    - Respecte les usages courants du français : majuscule en début de phrase, accents (é, è, ê, à, ù, î, ô, û, ç), ponctuation française (espace avant `:`, `!`, `?`, `;`).
    - Si un titre ou une description est rédigé en anglais, traduis-le en français courant. N'invente pas de néologisme : utilise le terme français établi (ex. "conférence" et non "conference", "commémoration" et non "commemoration").
    - Si une correction est apportée, note-la dans le commentaire de confirmation sur l'issue sous la forme :
-     - `Correction (titre) : "Titre original" → "Titre corrigé" — [raison courte]`
-     - `Correction (lieu) : "Lieu original" → "Lieu corrigé" — [raison courte]`
+     - `Correction (title) : "Titre original" → "Titre corrigé" — [raison courte]`
+     - `Correction (location) : "Lieu original" → "Lieu corrigé" — [raison courte]`
      - `Correction (description) : [description de la correction] — [raison courte]`
    - N'apporte aucune correction si le texte est déjà correct.
 
-4. **Geocode le lieu** :
+4. **Construis le champ `date`** selon les regles de construction ci-dessus, en combinant les champs `date`, `end-date` et `time` du formulaire.
+
+5. **Geocode le lieu** :
    - UNIQUEMENT via `https://nominatim.openstreetmap.org/search?q=NOM_DU_LIEU&format=json&limit=1`
    - Extrais `lat` et `lon` du premier resultat, arrondis a 4 decimales
    - Si le lieu est vide ou le geocodage echoue ne rajoute pas les coordonnées gps
 
-5. **Cherche une PR existante liee a cette issue** :
+6. **Cherche une PR existante liee a cette issue** :
    - Utilise `list_pull_requests` avec `state: open` pour lister les PR ouvertes du depot.
    - Parmi les resultats, cherche une PR dont le corps contient `Closes #${{ github.event.issue.number }}` ou `#${{ github.event.issue.number }}` ET dont le titre commence par `📅 Agenda : ` ET qui porte le label `agenda`.
    - Si une telle PR est trouvee, note son numero et le nom de sa branche. C'est la **PR existante**.
-   - Si aucune PR n'est trouvee, on en creera une nouvelle a l'etape 7.
+   - Si aucune PR n'est trouvee, on en creera une nouvelle a l'etape 8.
 
-6. **Modifie le fichier `data/agenda.yaml`** :
-   - **Si une PR existante a ete trouvee (etape 5)** : lis le fichier `data/agenda.yaml` depuis la branche de la PR (la branche HEAD de la PR). Supprime l'ancien evenement qui avait ete ajoute par cette PR (identifie-le par le fait qu'il n'existe pas sur la branche `main`). Puis insere le nouvel evenement avec les donnees a jour de l'issue a la bonne position chronologique.
+7. **Modifie le fichier `data/agenda.yaml`** :
+   - **Si une PR existante a ete trouvee (etape 6)** : lis le fichier `data/agenda.yaml` depuis la branche de la PR (la branche HEAD de la PR). Supprime l'ancien evenement qui avait ete ajoute par cette PR (identifie-le par le fait qu'il n'existe pas sur la branche `main`). Puis insere le nouvel evenement avec les donnees a jour de l'issue a la bonne position chronologique.
    - **Si aucune PR existante** : lis le fichier `data/agenda.yaml` depuis la branche par defaut (`main`). Insere le nouvel evenement a la bonne position chronologique (trie par date croissante). Trouve la premiere entree dont la date est posterieure a la date du nouvel evenement et insere juste avant.
    - Dans les deux cas, assure-toi de :
      - Preserver exactement le format existant (guillemets, indentation, ordre des champs)
      - Ne modifier AUCUN evenement existant (sauf celui a remplacer dans le cas d'une mise a jour)
-     - Le champ `lien` est toujours vide (`""`) pour les evenements ajoutes automatiquement
+     - Le champ `link` est toujours vide (`""`) pour les evenements ajoutes automatiquement
 
-7. **Ecris le fichier et cree ou mets a jour la PR** :
+8. **Ecris le fichier et cree ou mets a jour la PR** :
    - **Si une PR existante a ete trouvee** : utilise le safe-output `push-to-pull-request-branch` pour pousser les modifications sur la branche de la PR existante. Indique le numero de la PR trouvee.
    - **Si aucune PR existante** : utilise le safe-output `create-pull-request` pour creer une nouvelle PR. Le titre sera automatiquement prefixe par "📅 Agenda : ". Utilise comme titre le titre de l'evenement. Dans le corps de la PR, inclus :
      - Le titre de l'evenement
-     - La date
+     - La date (au format ISO 8601 tel qu'insere dans le YAML)
      - Le lieu et les coordonnees GPS trouvees
      - `Closes #${{ github.event.issue.number }}`
    - N'inclus AUCUN secret, token, ou variable d'environnement dans le corps de la PR.
 
-8. **Ajoute un commentaire** sur l'issue pour confirmer :
+9. **Ajoute un commentaire** sur l'issue pour confirmer :
    - Si une nouvelle PR a ete creee : indique que la PR a ete creee.
    - Si une PR existante a ete mise a jour : indique que la PR a ete mise a jour avec les nouvelles donnees de l'issue, et mentionne le numero de la PR.

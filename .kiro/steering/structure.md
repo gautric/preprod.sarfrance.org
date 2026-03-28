@@ -121,12 +121,19 @@
 
 ## Agenda Event Fields
 
-Recent events in `data/agenda.yaml` support extended fields beyond the base `date`/`titre`/`type`:
-- `dateEnd` — end date for multi-day events
+Events in `data/agenda.yaml` use a single `date` field in ISO 8601 format:
+- Date only: `"2026-01-17"`
+- Date with time: `"2026-02-06T18:00:00"`
+- Date interval: `"2026-03-03/2026-03-31"` (multi-day events)
+
+Templates and JS parse the `/` separator for intervals and the `T` component for times automatically.
+
+Additional fields:
+- `title` — event title (French)
+- `type` — event type key (matches `data/metadata/agenda.yaml`)
 - `description` — short text shown on the card
-- `lieu` — venue name
-- `heure` — time string (e.g. `"18:00"`)
-- `lien` — external URL (wraps the title as a link)
+- `location` — venue name
+- `link` — external URL (wraps the title as a link)
 - `lat` / `lon` — coordinates for the Leaflet mini-map on the card (set to `0` to suppress map)
 
-Older events (pre-2026) may omit these fields — that is expected and valid.
+Older events (pre-2026) may omit extended fields — that is expected and valid.

@@ -40,7 +40,8 @@
 {{ $today := now.Format "2006-01-02" }}
 {{ $upcoming := slice }}
 {{ range .events }}
-  {{ $compareDate := cond (and .dateEnd (ne .dateEnd "")) .dateEnd .date }}
+  {{ $parts := split .date "/" }}
+  {{ $compareDate := cond (gt (len $parts) 1) (index $parts 1) (index $parts 0) }}
   {{ if ge $compareDate $today }}
     {{ $upcoming = $upcoming | append . }}
   {{ end }}
@@ -52,15 +53,16 @@
         <h2>{{ i18n "upcoming_events" }}</h2>
         <div class="events-grid">
             {{ range first 3 $upcoming }}
-            {{ $eventDate := time .date }}
+            {{ $startDate := index (split .date "/") 0 }}
+            {{ $eventDate := time (index (split $startDate "T") 0) }}
             <article class="event-card">
                 <div class="event-date">
                     <span class="day">{{ $eventDate.Format "02" }}</span>
                     <span class="month">{{ $eventDate.Format "Jan" }}</span>
                 </div>
                 <div class="event-info">
-                    <h3>{{ .titre }}</h3>
-                    {{ with .lieu }}<span class="event-lieu">📍 {{ . }}</span>{{ end }}
+                    <h3>{{ .title }}</h3>
+                    {{ with .location }}<span class="event-location">📍 {{ . }}</span>{{ end }}
                 </div>
             </article>
             {{ end }}

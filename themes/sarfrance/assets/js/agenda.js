@@ -1,38 +1,32 @@
-/* Agenda - date formatting & type filtering */
+/* Agenda — date formatting & type filtering (moment.js) */
 $(function() {
     var lang = $('html').attr('lang') || 'fr-FR';
-    var locale = (lang === 'en-US' || lang === 'en') ? 'en-US' : 'fr-FR';
-    var dateFmt = new Intl.DateTimeFormat(locale, { day: 'numeric', month: 'long', year: 'numeric' });
-    var monthFmt = new Intl.DateTimeFormat(locale, { month: 'long' });
+    var locale = (lang === 'en-US' || lang === 'en') ? 'en' : 'fr';
+    moment.locale(locale);
+
+    var dateFmt = 'D MMMM YYYY';
+    var dateTimeFmt = 'D MMMM YYYY, HH:mm';
 
     // Format month labels
     $('.tl-group-title[data-month-date]').each(function() {
-        var p = $(this).attr('data-month-date').split('-');
-        var d = new Date(parseInt(p[0]), parseInt(p[1]) - 1, parseInt(p[2]));
-        var name = monthFmt.format(d);
+        var raw = $(this).attr('data-month-date').split('/')[0];
+        var m = moment(raw);
+        var name = m.format('MMMM');
         $(this).text(name.charAt(0).toUpperCase() + name.slice(1));
     });
 
-    // Format event dates
+    // Format event dates — handles ISO 8601 intervals (start/end) and optional T component
     $('.page-card-date[data-date]').each(function() {
-        var p = $(this).attr('data-date').split('-');
-        var start = new Date(parseInt(p[0]), parseInt(p[1]) - 1, parseInt(p[2]));
-        var endAttr = $(this).attr('data-date-end');
-        if (endAttr) {
-            var e = endAttr.split('-');
-            var end = new Date(parseInt(e[0]), parseInt(e[1]) - 1, parseInt(e[2]));
-            $(this).text(dateFmt.format(start) + ' \u2013 ' + dateFmt.format(end));
+        var raw = $(this).attr('data-date');
+        var interval = raw.split('/');
+        var start = moment(interval[0]);
+        var fmt = (interval[0].indexOf('T') !== -1) ? dateTimeFmt : dateFmt;
+        if (interval.length > 1) {
+            var end = moment(interval[1]);
+            $(this).text(start.format(fmt) + ' \u2013 ' + end.format(dateFmt));
         } else {
-            $(this).text(dateFmt.format(start));
+            $(this).text(start.format(fmt));
         }
-    });
-
-    // Format heure (HH:MM → localized time)
-    var timeFmt = new Intl.DateTimeFormat(locale, { hour: '2-digit', minute: '2-digit' });
-    $('.agenda-card-heure[data-heure]').each(function() {
-        var parts = $(this).attr('data-heure').split(':');
-        var d = new Date(2000, 0, 1, parseInt(parts[0]), parseInt(parts[1]) || 0);
-        $(this).text('\uD83D\uDD50 ' + timeFmt.format(d));
     });
 
     // Mini-maps Leaflet
@@ -44,7 +38,7 @@ $(function() {
             if (!lat && !lon) return;
             var map = L.map(this, { scrollWheelZoom: false, dragging: false, zoomControl: false, attributionControl: false }).setView([lat, lon], 13);
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18 }).addTo(map);
-            L.marker([lat, lon]).addTo(map).bindPopup($el.attr('data-lieu') || '');
+            L.marker([lat, lon]).addTo(map).bindPopup($el.attr('data-location') || '');
             setTimeout(function() { map.invalidateSize(); }, 200);
         });
     }

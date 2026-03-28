@@ -11,7 +11,7 @@
 - CSS and JS processed through Hugo's asset pipeline (`resources.Get` + `resources.Fingerprint`) for cache busting and SRI integrity
 - jQuery 4.x (loaded from CDN in `baseof.html`) as the JavaScript framework
 - JavaScript files: `main.js`, `agenda.js`, `bibliotheque.js`, `carousel.js`, `chronologie.js`, `contact.js`, `hauts-lieux.js`, `notices.js`
-- Third-party CDN scripts loaded per-page (not bundled): Leaflet 1.9.4 (agenda, contact, hauts-lieux), Isotope 3 + Mustache 4 (bibliotheque)
+- Third-party CDN scripts loaded per-page (not bundled): Leaflet 1.9.4 (agenda, contact, hauts-lieux), Moment.js 2.30 (agenda), Isotope 3 + Mustache 4 (bibliotheque)
 - No npm dependencies in production
 
 ## JavaScript Rules
