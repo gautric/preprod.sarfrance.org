@@ -81,8 +81,8 @@
 {{ end }}
 {{ define "scripts" }}
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js" integrity="sha512-hUhvpC5f8cgTBp2mAELJJBEBUkFnMDKBGlMO+Qv0IcyLnSjm7MwKnBMFMHSEIJKEocuMNknj0yTpOE2sQGbhg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/locale/fr.js" integrity="sha512-RotCCrmeNpSxoLB4VPyd3cMHSOEOSMOGBFNuBOoQMRCJJTkWL3uPPHc1mJoFDVjEVicQlDFrmWjnNPbOKFEbQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js" integrity="sha512-QoJS4DOhdmG8kbbHkxmB/rtPdN62cGWXAdAFWWJPvUFF1/zxcPSdAnn4HhYZSIlVoLVEJ0LesfNlusgm2bPfnA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/locale/fr.js" integrity="sha512-ayAOICTY7D1MorjvKUTiOlqox8o0dh6jE4lRfD8E0kYp5OepLSQBelDWizEN89AUc3P4l/4OD7ZnsIEV3V0hBA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 {{- $js := resources.Get "js/agenda.js" | resources.Fingerprint }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 {{ end }}
