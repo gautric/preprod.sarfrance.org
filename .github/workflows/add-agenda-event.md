@@ -1,10 +1,9 @@
 ---
 description: |
   Agentic workflow for SAR France agenda updates. When an issue with the "agenda"
-  label is created via the ajout-agenda template, this agent parses the event details,
-  geocodes the location via Nominatim, inserts the event into data/agenda.yaml in
-  chronological order (preserving the existing YAML style), and creates a pull request
-  for review.
+  label is created or edited via the ajout-agenda template, this agent parses the
+  event details, geocodes the location via Nominatim, and either creates a new pull
+  request or updates an existing one linked to the issue.
 
 on:
   issues:
@@ -16,6 +15,10 @@ network:
   allowed:
     - defaults
     - https://nominatim.openstreetmap.org
+
+checkout:
+  fetch: ["*"]
+  fetch-depth: 0
 
 safe-outputs:
   create-pull-request:
@@ -29,13 +32,21 @@ safe-outputs:
     allowed-files:
       - data/agenda.yaml
     protected-files: allowed
+  push-to-pull-request-branch:
+    target: "*"
+    title-prefix: "📅 Agenda : "
+    labels: [agenda]
+    max: 1
+    allowed-files:
+      - data/agenda.yaml
+    protected-files: allowed
   add-comment:
     max: 2
 
 tools:
   web-fetch:
   github:
-    toolsets: [issues]
+    toolsets: [issues, pull_requests]
     min-integrity: none
 
 timeout-minutes: 10
@@ -127,7 +138,7 @@ conférence, assemblée, commémoration, nssar, réunion, visite, exposition
 
 ## Instructions
 
-1. **Recupere l'issue** avec `get_issue` pour obtenir le contenu du formulaire.
+1. **Recupere l'issue** avec `get_issue` pour obtenir le contenu ACTUEL du formulaire (toujours relire l'issue, meme sur un evenement `edited`, pour avoir les dernieres valeurs).
 
 2. **Parse les champs** du formulaire. Le corps de l'issue contient des sections `### Titre du champ` suivies de la valeur. Les champs sont :
    - `Date` (obligatoire, format AAAA-MM-JJ, 10 caracteres)
@@ -157,19 +168,29 @@ conférence, assemblée, commémoration, nssar, réunion, visite, exposition
    - Extrais `lat` et `lon` du premier resultat, arrondis a 4 decimales
    - Si le lieu est vide ou le geocodage echoue ne rajoute pas les coordonnées gps
 
-5. **Lis le fichier** `data/agenda.yaml` et insere le nouvel evenement a la bonne position chronologique (trie par date croissante). Trouve la premiere entree dont la date est posterieure a la date du nouvel evenement et insere juste avant.
+5. **Cherche une PR existante liee a cette issue** :
+   - Utilise `list_pull_requests` avec `state: open` pour lister les PR ouvertes du depot.
+   - Parmi les resultats, cherche une PR dont le corps contient `Closes #${{ github.event.issue.number }}` ou `#${{ github.event.issue.number }}` ET dont le titre commence par `📅 Agenda : ` ET qui porte le label `agenda`.
+   - Si une telle PR est trouvee, note son numero et le nom de sa branche. C'est la **PR existante**.
+   - Si aucune PR n'est trouvee, on en creera une nouvelle a l'etape 7.
 
-6. **Ecris le fichier** `data/agenda.yaml` modifie. Assure-toi de :
-   - Preserver exactement le format existant (guillemets, indentation, ordre des champs)
-   - Ne modifier AUCUN evenement existant
-   - Ajouter uniquement le nouveau bloc d'evenement
-   - Le champ `lien` est toujours vide (`""`) pour les evenements ajoutes automatiquement
+6. **Modifie le fichier `data/agenda.yaml`** :
+   - **Si une PR existante a ete trouvee (etape 5)** : lis le fichier `data/agenda.yaml` depuis la branche de la PR (la branche HEAD de la PR). Supprime l'ancien evenement qui avait ete ajoute par cette PR (identifie-le par le fait qu'il n'existe pas sur la branche `main`). Puis insere le nouvel evenement avec les donnees a jour de l'issue a la bonne position chronologique.
+   - **Si aucune PR existante** : lis le fichier `data/agenda.yaml` depuis la branche par defaut (`main`). Insere le nouvel evenement a la bonne position chronologique (trie par date croissante). Trouve la premiere entree dont la date est posterieure a la date du nouvel evenement et insere juste avant.
+   - Dans les deux cas, assure-toi de :
+     - Preserver exactement le format existant (guillemets, indentation, ordre des champs)
+     - Ne modifier AUCUN evenement existant (sauf celui a remplacer dans le cas d'une mise a jour)
+     - Le champ `lien` est toujours vide (`""`) pour les evenements ajoutes automatiquement
 
-7. **Cree la pull request** via le safe-output `create-pull-request`. Le titre sera automatiquement prefixe par "📅 Agenda : ". Utilise comme titre le titre de l'evenement. Dans le corps de la PR, inclus :
-   - Le titre de l'evenement
-   - La date
-   - Le lieu et les coordonnees GPS trouvees
-   - `Closes #NUMERO_ISSUE`
+7. **Ecris le fichier et cree ou mets a jour la PR** :
+   - **Si une PR existante a ete trouvee** : utilise le safe-output `push-to-pull-request-branch` pour pousser les modifications sur la branche de la PR existante. Indique le numero de la PR trouvee.
+   - **Si aucune PR existante** : utilise le safe-output `create-pull-request` pour creer une nouvelle PR. Le titre sera automatiquement prefixe par "📅 Agenda : ". Utilise comme titre le titre de l'evenement. Dans le corps de la PR, inclus :
+     - Le titre de l'evenement
+     - La date
+     - Le lieu et les coordonnees GPS trouvees
+     - `Closes #${{ github.event.issue.number }}`
    - N'inclus AUCUN secret, token, ou variable d'environnement dans le corps de la PR.
 
-8. **Ajoute un commentaire** sur l'issue pour confirmer que la PR a ete creee.
+8. **Ajoute un commentaire** sur l'issue pour confirmer :
+   - Si une nouvelle PR a ete creee : indique que la PR a ete creee.
+   - Si une PR existante a ete mise a jour : indique que la PR a ete mise a jour avec les nouvelles donnees de l'issue, et mentionne le numero de la PR.
