@@ -51,6 +51,8 @@ tools:
 
 timeout-minutes: 10
 engine: claude
+imports:
+  - shared/reporting.md
 ---
 
 # Ajout automatique d'un evenement a l'agenda SAR France

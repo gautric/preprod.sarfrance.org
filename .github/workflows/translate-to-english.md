@@ -42,6 +42,8 @@ tools:
 
 timeout-minutes: 15
 engine: claude
+imports:
+  - shared/reporting.md
 ---
 
 # Traduction automatique FR → EN — SAR France
