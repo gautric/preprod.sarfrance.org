@@ -12,7 +12,7 @@
     {{ partial "page-header.html" (dict "ctx" . "desc" (i18n "hauts_lieux_desc") "extra" $hlExtra) }}
     <div class="container">
         <div class="page-search-wrap">
-            <input type="text" id="hl-search" class="page-search" placeholder="{{ i18n "hauts_lieux_search" }}" aria-label="{{ i18n "hauts_lieux_search" }}">
+            <input type="search" id="hl-search" class="page-search" placeholder="{{ i18n "hauts_lieux_search" }}" aria-label="{{ i18n "hauts_lieux_search" }}">
         </div>
 
         <div class="page-filters" role="group" aria-label="{{ i18n "filter_by_category" }}">
@@ -24,48 +24,53 @@
 
         <p class="page-no-result" style="display:none;">{{ i18n "hauts_lieux_no_result" }}</p>
 
-        <div class="hl-layout">
-        <div class="hl-list">
-
         {{ range $data.regions }}
-        <div class="hl-region" data-region="{{ .nom }}">
-            <h2 class="tl-group-title hl-region-title">{{ .nom }}</h2>
-            <div class="hl-grid">
+        <div class="tl-group">
+            <div class="tl-axis" style="padding-bottom:0;">
+                <div class="tl-row" style="margin-bottom: 0;">
+                    <div class="tl-dot tl-dot--lg"></div>
+                    <h2 class="tl-group-title">{{ .nom }}</h2>
+                </div>
+            </div>
+            <div class="tl-axis hl-tl">
                 {{ range .lieux }}
-                <div class="page-card hl-card" data-tags="{{ delimit .tags "," }}" data-lat="{{ .lat }}" data-lon="{{ .lon }}" data-search="{{ .titre }} {{ .adresse }} {{ .description }} {{ delimit .personnages " " }}">
-                    <div class="page-card-header">
-                        <h3 class="page-card-title">
-                            {{ if .wikipedia }}<a href="{{ .wikipedia }}" target="_blank" rel="noopener noreferrer">{{ .titre }}</a>{{ else }}{{ .titre }}{{ end }}
-                        </h3>
-                        <div class="page-card-tags">
-                            {{ range .tags }}
-                            <span class="tag tag-{{ . | urlize }}">{{ i18n (printf "hl_tag_%s" .) }}</span>
+                {{ $firstTag := index .tags 0 }}
+                <div class="tl-row" data-tags="{{ delimit .tags "," }}" data-search="{{ .titre }} {{ .adresse }} {{ .description }} {{ delimit .personnages " " }}">
+                    <div class="tl-dot tag-{{ $firstTag | urlize }}"></div>
+                    <div class="page-card{{ if and .lat .lon (ne (printf "%v" .lat) "0") }} page-card--has-map{{ end }}">
+                        <div class="page-card-body">
+                            <div class="page-card-header">
+                                <h3 class="page-card-title">
+                                    {{ if .wikipedia }}<a href="{{ .wikipedia }}" target="_blank" rel="noopener noreferrer" class="page-card-link">{{ .titre }}</a>{{ else }}{{ .titre }}{{ end }}
+                                </h3>
+                                <div class="page-card-tags">
+                                    {{ range .tags }}
+                                    <span class="tag tag-{{ . | urlize }}">{{ i18n (printf "hl_tag_%s" .) }}</span>
+                                    {{ end }}
+                                </div>
+                            </div>
+                            <p class="page-card-desc">{{ .description }}</p>
+                            <div class="hl-card-meta">
+                                <span class="hl-card-address">📍 {{ .adresse }}</span>
+                                {{ with .url }}
+                                <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="hl-card-link" title="{{ i18n "hauts_lieux_website" }}">🌐 {{ i18n "hauts_lieux_website" }}</a>
+                                {{ end }}
+                            </div>
+                            {{ if .personnages }}
+                            <div class="hl-card-personnages">
+                                {{ range .personnages }}<span class="hl-personnage">{{ . }}</span>{{ end }}
+                            </div>
                             {{ end }}
                         </div>
-                    </div>
-                    <p class="hl-card-address">📍 {{ .adresse }}</p>
-                    <p class="page-card-desc">{{ .description }}</p>
-                    <div class="hl-card-links">
-                        {{ with .url }}
-                        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="hl-link" title="{{ i18n "hauts_lieux_website" }}">🌐 {{ i18n "hauts_lieux_website" }}</a>
+                        {{ if and .lat .lon (ne (printf "%v" .lat) "0") }}
+                        <div class="page-card-map" data-lat="{{ .lat }}" data-lon="{{ .lon }}" data-location="{{ .adresse }}"></div>
                         {{ end }}
                     </div>
-                    {{ if .personnages }}
-                    <div class="hl-card-personnages">
-                        {{ range .personnages }}<span class="hl-personnage">{{ . }}</span>{{ end }}
-                    </div>
-                    {{ end }}
                 </div>
                 {{ end }}
             </div>
         </div>
         {{ end }}
-
-        </div>{{/* /.hl-list */}}
-        <div class="hl-map-panel">
-            <div id="hl-map" aria-label="{{ i18n "hauts_lieux_map" }}"></div>
-        </div>
-        </div>{{/* /.hl-layout */}}
 
         {{/* References */}}
         {{ with $data.references }}
@@ -82,6 +87,8 @@
 {{ end }}
 {{ define "scripts" }}
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+{{- $mapJS := resources.Get "js/map.js" | resources.Fingerprint }}
+<script src="{{ $mapJS.RelPermalink }}" integrity="{{ $mapJS.Data.Integrity }}"></script>
 {{- $js := resources.Get "js/hauts-lieux.js" | resources.Fingerprint }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 {{ end }}
