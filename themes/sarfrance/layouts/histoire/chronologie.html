@@ -25,7 +25,7 @@
                 {{ range .events }}
                 {{ $firstTag := index .tags 0 }}
                 <div class="tl-row" data-tags="{{ delimit .tags "," }}">
-                    <div class="tl-dot tag-{{ $firstTag | urlize }}"></div>
+                    <div class="tl-dot"></div>
                     <div class="page-card">
                         <div class="page-card-header">
                             <span class="page-card-date" data-iso-date="{{ .date }}">{{ .date }}</span>
