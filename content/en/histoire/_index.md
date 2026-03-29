@@ -22,7 +22,7 @@ The treaties of alliance, friendship, and commerce of February 6, 1778, took the
 
 ## French Contribution
 
-French aid was military (Rochambeau's Expeditionary Corps, Admiral de Grasse's fleet, troops stationed in the Antilles), financial (loans and subsidies), and diplomatic (international recognition, pressure on Great Britain).
+French aid was military ([Rochambeau](/en/histoire/biographies/rochambeau/)'s Expeditionary Corps, Admiral [de Grasse](/en/histoire/biographies/de-grasse/)'s fleet, [troops stationed in the Antilles](/en/histoire/antilles/soutien-antilles/)), financial (loans and subsidies), and diplomatic (international recognition, pressure on Great Britain).
 
 According to Warrington Dawson's study (1936), 2,112 French citizens lost their lives on American soil or in American waters.
 

@@ -14,6 +14,6 @@ Jean-Baptiste Donatien de Vimeur, comte de Rochambeau, officier de l'armée roya
 - **Décès** : 10 mai 1807, Thoré (Loir-et-Cher)
 - **Grade** : Maréchal de France
 
-Débarqué en juillet 1780 à Newport (RI), la discipline qu'il impose à ses régiments facilite les rapports avec la population. Son sens stratégique — préférant cibler le maillon faible des forces anglaises en Virginie plutôt que New York — et sa synergie avec Washington et de Grasse conduiront à la victoire décisive de Yorktown en octobre 1781. Voir la page [Opérations militaires](/histoire/operations/) pour le récit détaillé de la campagne.
+Débarqué en juillet 1780 à Newport (RI), la discipline qu'il impose à ses régiments facilite les rapports avec la population. Son sens stratégique — préférant cibler le maillon faible des forces anglaises en Virginie plutôt que New York — et sa synergie avec Washington et [de Grasse](/histoire/biographies/de-grasse/) conduiront à la victoire décisive de Yorktown en octobre 1781. Voir la page [Opérations militaires](/histoire/operations/) pour le récit détaillé de la campagne.
 
-Rentré en France au début de 1783, Rochambeau sera l'hôte de la première Société des Cincinnati de France. Maréchal de France en 1791, il échappera de peu à la guillotine. Très admiratif des qualités et de l'œuvre de Bonaparte qui le lui rendait bien, il mourut en 1807.
+Rentré en France au début de 1783, Rochambeau sera l'hôte de la première [Société des Cincinnati](/organisation/societes/) de France. Maréchal de France en 1791, il échappera de peu à la guillotine. Très admiratif des qualités et de l'œuvre de Bonaparte qui le lui rendait bien, il mourut en 1807.

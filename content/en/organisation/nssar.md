@@ -32,3 +32,5 @@ Article 2 of this Charter describes the spirit that still animates the Sons of t
 > "The purpose of said association is patriotic, historical, and educational. It perpetuates the memory of those who, by their actions or sacrifice during the American Revolution, enabled the American people to win their independence."
 
 *Count Thierry de Seguins-Cohorn, Historian of the Society in France of the SAR*
+
+See also: [History of SAR France](/en/histoire/histoire-de-sar-france/)

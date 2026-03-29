@@ -61,8 +61,8 @@ Une réduction d'impôt de {{< param "avantage_fiscal_pct" >}}% de ces montants 
 
 Faites vivre la Société :
 - Faites adhérer aux « Sons » les hommes de votre famille
-- Pourquoi pas les dames aux DAR (Daughters of the American Revolution)
-- Pour les plus jeunes aux CAR (Children of the American Revolution)
+- Pourquoi pas les dames aux [DAR (Daughters of the American Revolution)](/organisation/societes/)
+- Pour les plus jeunes aux [CAR (Children of the American Revolution)](/organisation/societes/)
 
 ### Participez à nos commissions
 - Études et recherches en histoire

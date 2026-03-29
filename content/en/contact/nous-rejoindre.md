@@ -61,8 +61,8 @@ A tax reduction of {{< param "avantage_fiscal_pct" >}}% of these amounts is gran
 
 Help the Society thrive:
 - Encourage the men in your family to join the Sons
-- Why not the ladies to the DAR (Daughters of the American Revolution)
-- And the younger ones to the CAR (Children of the American Revolution)
+- Why not the ladies to the [DAR (Daughters of the American Revolution)](/en/organisation/societes/)
+- And the younger ones to the [CAR (Children of the American Revolution)](/en/organisation/societes/)
 
 ### Participate in Our Committees
 - Historical studies and research

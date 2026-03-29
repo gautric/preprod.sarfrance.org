@@ -32,3 +32,5 @@ L'article 2 de cette Charte décrit l'esprit qui anime toujours les Sons of the 
 > « L'objet de ladite association est patriotique, historique et éducatif. Celle-ci perpétue le souvenir de ceux qui, par leurs actions ou leur sacrifice durant la Révolution Américaine ont permis au peuple américain de conquérir son indépendance. »
 
 *Comte Thierry de Seguins-Cohorn, Historien de la Société en France des SAR*
+
+Voir aussi : [Histoire de SAR France](/histoire/histoire-de-sar-france/)

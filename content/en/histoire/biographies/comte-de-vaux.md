@@ -31,7 +31,7 @@ An army assembling battalions from **41 regiments** had been gathered, half at S
 | Saint-Malo Division | 184 | 33,119 | 22,046 | 906 | 275 | 290 | 6,454 |
 | **Total** | **397** | 66,068 | **38,296** | 2,100 | 563 | 417 | 9,401 |
 
-**The vanguard**, under the command of Count de Rochambeau, comprised detachments from 10 regiments totaling 167 officers, 2,565 soldiers and 274 servants — 3,006 men in all, on 10 vessels with a total capacity of 2,443 tons, with 32 longboats capable of transporting 749 men per rotation.
+**The vanguard**, under the command of [Count de Rochambeau](/en/histoire/biographies/rochambeau/), comprised detachments from 10 regiments totaling 167 officers, 2,565 soldiers and 274 servants — 3,006 men in all, on 10 vessels with a total capacity of 2,443 tons, with 32 longboats capable of transporting 749 men per rotation.
 
 | Regiments | Officers | Soldiers | Servants | Transports | Captain | Tons | Longboats | Capacity |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -64,7 +64,7 @@ An army assembling battalions from **41 regiments** had been gathered, half at S
 | Artillery | | Cavalry | |
 | --- | --- | --- | --- |
 | M. de Villepatour, Brigadier General | | Regiments | |
-| Besançon | H | Lauzun Legion (mixed) | S |
+| Besançon | H | [Lauzun](/en/histoire/biographies/lauzun/) Legion (mixed) | S |
 | Toul | H | Chamborand Hussars | H |
 | Auxonne | S | La Rochefoucauld Dragoons | H |
 | | | Noailles Dragoons | S |

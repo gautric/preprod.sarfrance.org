@@ -107,3 +107,7 @@ Voir l'article détaillé : [Les Chasseurs Volontaires de Saint-Domingue](/histo
 - 1782 : [Bataille de Porto Novo](https://fr.wikipedia.org/wiki/Bataille_de_Porto_Novo)
 - 1782 et 1783 : [Bataille de Gondelour](https://fr.wikipedia.org/wiki/Bataille_de_Gondelour_(1783))
 - 1783 : [Bataille de Négapatam](https://fr.wikipedia.org/wiki/Bataille_de_N%C3%A9gapatam_(1782))
+
+---
+
+Voir aussi : [Le coût humain de la guerre](/histoire/pertes-francaises/) pour le détail des pertes lors de ces batailles, et la biographie du [comte de Grasse](/histoire/biographies/de-grasse/) dont les opérations navales impliquaient nombre de ces régiments.

@@ -107,3 +107,7 @@ See the detailed article: [The Chasseurs Volontaires de Saint-Domingue](/en/hist
 - 1782: Battle of Porto Novo
 - 1782–1783: Battle of Cuddalore
 - 1783: Battle of Negapatam
+
+---
+
+See also: [The Human Cost of the War](/en/histoire/pertes-francaises/) for detailed casualties from these battles, and the biography of [Count de Grasse](/en/histoire/biographies/de-grasse/) whose naval operations involved many of these regiments.

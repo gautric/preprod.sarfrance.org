@@ -22,7 +22,7 @@ Les traités d'alliance, d'amitié et de commerce du 6 février 1778 prirent la 
 
 ## Contribution française
 
-L'aide française fut militaire (Corps expéditionnaire de Rochambeau, flotte de l'amiral de Grasse, troupes positionnées aux Antilles), financière (prêts et subventions) et diplomatique (reconnaissance internationale, pression sur la Grande-Bretagne).
+L'aide française fut militaire (Corps expéditionnaire de [Rochambeau](/histoire/biographies/rochambeau/), flotte de l'amiral [de Grasse](/histoire/biographies/de-grasse/), [troupes positionnées aux Antilles](/histoire/antilles/soutien-antilles/)), financière (prêts et subventions) et diplomatique (reconnaissance internationale, pression sur la Grande-Bretagne).
 
 Selon l'étude de Warrington Dawson (1936), 2 112 Français ont perdu la vie sur le sol ou dans les eaux américaines.
 

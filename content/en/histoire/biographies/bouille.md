@@ -18,4 +18,6 @@ Governor of Guadeloupe since 1767, the Marquis de Bouillé was appointed Governo
 
 From July 1778 he served as Governor General of the Windward Islands (Guadeloupe, Martinique and Saint Lucia). On 6 September 1778, he captured Dominica from the British, in May 1781 Tobago, in November 1781 Sint Eustatius, Saint Martin and Saba, on 13 February 1782 Saint Kitts and Nevis, and finally on 22 February 1782 the island of Montserrat.
 
+See also: [The Support of the French Antilles](/en/histoire/antilles/soutien-antilles/) and the [Colonial Regiments and Corps](/en/histoire/antilles/regiments-colonies/).
+
 His successor as Governor of the Antilles was [Claude-Charles de Damas de Marillac](/en/histoire/biographies/damas/). A committed Royalist, he was a leading conspirator in the royal family's failed flight to Varennes in 1791. He died in exile in London in 1800.

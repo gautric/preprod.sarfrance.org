@@ -18,7 +18,7 @@ references:
 
 ### Foundation of a Chapter in Paris in 1897
 
-At the founding meeting of the National Society of the Sons of the American Revolution (NSSAR) on April 30, 1889, in New York, a Frenchman, Edmond, Marquis de La Fayette (1818–1890), was among the seventeen vice presidents elected that day. At the time, however, he could only represent himself — and, of course, his illustrious grandfather!
+At the founding meeting of the [National Society of the Sons of the American Revolution (NSSAR)](/en/organisation/nssar/) on April 30, 1889, in New York, a Frenchman, Edmond, Marquis de La Fayette (1818–1890), was among the seventeen vice presidents elected that day. At the time, however, he could only represent himself — and, of course, his illustrious grandfather!
 
 {{< figure src="/images/histoire-sar-france/edmond-marquis-de-la-fayette.jpg" caption="Edmond du Motier, Marquis de La Fayette" >}}
 
@@ -90,7 +90,7 @@ Also worthy of mention is Jacques, Comte de Trentinian, Historian of the Society
 
 ## The Colors of the Society of the Sons of the American Revolution
 
-In 1890, at the Louisville congress, blue and white were adopted as the colors of the Society of the Sons of the American Revolution. These colors were also those of the Society of the Cincinnati, though the Sons' blue was darker than that of the Cincinnati. In 1898, at the 9th congress held in Morristown, New Jersey, a third shade was added: buff. These three colors were those of the uniforms worn by General Washington's troops during the War of Independence. They are the colors that now adorn our insignia and fly on our flag.
+In 1890, at the Louisville congress, blue and white were adopted as the colors of the Society of the Sons of the American Revolution. These three colors were also those of the [Society of the Cincinnati](/en/organisation/societes/), though the Sons' blue was darker than that of the Cincinnati. In 1898, at the 9th congress held in Morristown, New Jersey, a third shade was added: buff. These three colors were those of the uniforms worn by General Washington's troops during the War of Independence. They are the colors that now adorn our insignia and fly on our flag.
 
 {{< figure src="/images/histoire-sar-france/couleurs-sar.jpg" caption="The Colors of the Society of the Sons of the American Revolution" >}}
 
@@ -104,8 +104,12 @@ The insignia of the Sons of the American Revolution was designed and created in 
 
 {{< figure src="/images/histoire-sar-france/insigne-sar.jpg" caption="The Insignia of the Society of the Sons of the American Revolution" >}}
 
-The insignia takes the form of a cross suspended from an eagle. The cross is covered in white enamel, and each of its eight points is tipped with a gilded bead. It is directly inspired by two French decorations — one created by King Louis XIV, the Order of Saint Louis, the other by Emperor Napoleon I, the Légion d'Honneur — as well as by an American decoration, the insignia of the Society of the Cincinnati, designed in 1783 by a French officer, Major L'Enfant, the future architect of the city of Washington.
+The insignia takes the form of a cross suspended from an eagle. The cross is covered in white enamel, and each of its eight points is tipped with a gilded bead. It is directly inspired by two French decorations — one created by King Louis XIV, the Order of Saint Louis, the other by Emperor Napoleon I, the Légion d'Honneur — as well as by an American decoration, the insignia of the [Society of the Cincinnati](/en/organisation/societes/), designed in 1783 by a French officer, Major L'Enfant, the future architect of the city of Washington.
 
 From the Order of Saint Louis, the insignia has retained the cross, but at its center is the profile of George Washington, surrounded by the motto "Libertas et Patria." From the Légion d'Honneur, it has borrowed the laurel branches, which replace the fleur-de-lis. The Order of Saint Louis, which was the first decoration awarded by the King of France in recognition of the military merit of officers regardless of their birth, was well suited to appeal to Americans. This choice also calls to mind the eminent role played by Louis XVI in committing France to a conflict without which American independence could not have been achieved. It pays tribute to the action of the French troops who fought alongside the American forces, many of whose officers wore this cross. Finally, this cross places the Society under the protection of God, as is the custom for an American patriotic association: God Bless America!
 
 From the Cincinnati insignia, the eagle has been retained — the same eagle that appears in the Great Seal of the United States of America, created in 1782. It serves as a reminder that both Societies honor the combatants of the War of Independence: through the eldest descendants of their lineage in the older Society, and through the entirety of their lineage in the other.
+
+---
+
+See also: [The NSSAR](/en/organisation/nssar/) — [Purpose of SAR France](/en/organisation/objet-et-histoire/) — [Sister Societies](/en/organisation/societes/)

@@ -13,6 +13,8 @@ La participation française à la Guerre d'Indépendance américaine (1778–178
 
 ## Aux Antilles
 
+Les [Antilles françaises](/histoire/antilles/soutien-antilles/) ont constitué un théâtre d'opérations majeur de la guerre.
+
 - **[Le marquis de Bouillé](/histoire/biographies/bouille/)**  – Gouverneur général des Antilles françaises, il mène les opérations militaires dans les Caraïbes et reprend plusieurs îles aux Britanniques.
 - **[Claude-Charles de Damas, vicomte de Marillac](/histoire/biographies/damas/)**  – Gouverneur de la Martinique, il seconde Bouillé dans la défense et la reconquête des Antilles.
 - **[Jean-Baptiste de Tastes de Lilancour](/histoire/biographies/tastes-de-lilancour/)**  – Gouverneur de Saint-Domingue, il coordonne l'effort de guerre depuis la plus grande colonie française des Caraïbes.

@@ -28,9 +28,9 @@ Armand Louis de Gontaut, Duke de Lauzun then Duke de Biron, French soldier and p
 
 ## Campaign in America (July 1780 – May 1783)
 
-Directly descended, in early 1780, from the Foreign Volunteers of the Navy created in 1778 for the American War, the Legion of Foreign Volunteers of Lauzun existed for the exact duration of its participation in the Particular Expedition entrusted to Count de Rochambeau. It was composed of seven companies, five of which departed with Rochambeau: grenadiers, chasseurs, artillerymen and two squadrons of hussars. The two fusilier companies departed later and participated, under Kersaint, in the recapture of Dutch trading posts in Central America.
+Directly descended, in early 1780, from the Foreign Volunteers of the Navy created in 1778 for the American War, the Legion of Foreign Volunteers of Lauzun existed for the exact duration of its participation in the Particular Expedition entrusted to [Count de Rochambeau](/en/histoire/biographies/rochambeau/). It was composed of seven companies, five of which departed with Rochambeau: grenadiers, chasseurs, artillerymen and two squadrons of hussars. The two fusilier companies departed later and participated, under Kersaint, in the recapture of Dutch trading posts in Central America.
 
-It primarily carried out flank-guard and liaison missions for this army and distinguished itself notably at White Plains and especially in driving Tarleton's cavalry back inside Fort Gloucester during the siege of Yorktown.
+It primarily carried out flank-guard and liaison missions for this army and distinguished itself notably at White Plains and especially in driving Tarleton's cavalry back inside Fort Gloucester during the [siege of Yorktown](/en/histoire/operations/).
 
 This action, chronologically the first of the siege, earned its commander the honor of being chosen by Rochambeau to bring the King news of the victory. The last French unit present in America, the Legion left the Delaware in May 1783 and was dissolved shortly after its return, giving birth to the Lauzun Hussars.
 

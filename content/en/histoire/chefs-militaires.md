@@ -13,6 +13,8 @@ France's participation in the American War of Independence (1778–1783) mobiliz
 
 ## In the Caribbean
 
+The [French Antilles](/en/histoire/antilles/soutien-antilles/) were a major theater of operations during the war.
+
 - **[Marquis de Bouillé](/en/histoire/biographies/bouille/)**  – Governor General of the French West Indies, he led military operations in the Caribbean and recaptured several islands from the British.
 - **[Claude-Charles de Damas, Viscount de Marillac](/en/histoire/biographies/damas/)**  – Governor of Martinique, he assisted Bouillé in the defence and reconquest of the Antilles.
 - **[Jean-Baptiste de Tastes de Lilancour](/en/histoire/biographies/tastes-de-lilancour/)**  – Governor of Saint-Domingue, he coordinated the war effort from France's largest Caribbean colony.

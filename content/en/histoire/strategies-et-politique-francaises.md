@@ -27,7 +27,7 @@ The war had begun.
 
 ### What factors led the British Parliament to accept the principle of independence for the thirteen colonies?
 
-Undeniably, the news of Cornwallis's capitulation at Yorktown, which would have been accepted with composure a few months earlier by King George III's government, was the element that tipped Parliament. Indeed, it combined with other setbacks of this world war:
+Undeniably, the news of Cornwallis's capitulation at [Yorktown](/en/histoire/operations/), which would have been accepted with composure a few months earlier by King George III's government, was the element that tipped Parliament. Indeed, it combined with other setbacks of this world war:
 
 * defeats in India, …
 * the loss of West Florida and Tobago, …
@@ -41,7 +41,7 @@ Undeniably, the news of Cornwallis's capitulation at Yorktown, which would have 
 
 ### Did France wish to pursue a separate war with England?
 
-In early June 1782, Castries was informed of the loss of five ships at the Battle of the Saintes, and, summarizing the situation in a remarkable strategic analysis, prepared a new combined intervention (probably unbeatable) against Jamaica. The two governments of Paris and Madrid entrusted it to the Comte d'Estaing. The plan quickly became known in London, thanks to its Parisian spies.
+In early June 1782, Castries was informed of the loss of five ships at the [Battle of the Saintes](/en/histoire/pertes-francaises/), and, summarizing the situation in a remarkable strategic analysis, prepared a new combined intervention (probably unbeatable) against Jamaica. The two governments of Paris and Madrid entrusted it to the Comte d'Estaing. The plan quickly became known in London, thanks to its Parisian spies.
 
 At the same time, Vergennes sought to accelerate peace negotiations. Faced with the Russian threat against Turkey, he wanted to obtain a combined intervention by France and … Great Britain! The negotiations were slowed by Spain's demands, which, let us recall, was not an ally of the United States — whose independence it had refused to recognize — but of France.
 
@@ -59,7 +59,7 @@ Let us also not forget the capture of West Florida, the capture of Pensacola, wh
 
 ### Did Spain finance the Yorktown campaign?
 
-When de Grasse sought to fulfill the request to bring 1,200,000 livres to Washington's forces, he first looked for a French solution. But the intendant of Saint-Domingue did not have that amount available and even declined the offer made by the admiral and several of his officers: Charitte, etc. They had great estates and offered to pledge them as collateral (at the death of the Comte de Grasse in 1788, his estates on the island were valued at 1.8 million livres).
+When [de Grasse](/en/histoire/biographies/de-grasse/) sought to fulfill the request to bring 1,200,000 livres to Washington's forces, he first looked for a French solution. But the intendant of Saint-Domingue did not have that amount available and even declined the offer made by the admiral and several of his officers: Charitte, etc. They had great estates and offered to pledge them as collateral (at the death of the Comte de Grasse in 1788, his estates on the island were valued at 1.8 million livres).
 
 Likewise, despite the mediation of Saavedra, envoy of Charles III, the Spanish intendant of Cuba declared himself without means.
 

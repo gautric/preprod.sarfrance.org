@@ -80,3 +80,5 @@ Le tableau ci-dessous recense les pertes françaises, en mer et sur terre, lors 
 (\*\*) Selon McCullough, dans la flotte britannique, pour tout marin tué ou mort de ses blessures, il y eut plus de 7 morts de maladie ; la même proportion dans la marine royale française donne un total supplémentaire de 15 000 morts chez les marins français.
 
 Selon l'étude détaillée de Warrington Dawson (en 1936), **2 112 Français ont perdu la vie sur le sol ou dans les eaux américaines**, soit 1 113 soldats plus 999 marins (en grande majorité morts de maladie).
+
+Voir aussi : [Opérations militaires en Amérique du Nord](/histoire/operations/) — [Le comte de Rochambeau](/histoire/biographies/rochambeau/) — [Le comte de Grasse](/histoire/biographies/de-grasse/) — [Le marquis de Bouillé](/histoire/biographies/bouille/)

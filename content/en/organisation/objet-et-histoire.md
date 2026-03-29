@@ -14,3 +14,5 @@ SAR France pursues the following objectives:
 - To encourage historical research relating to the American War of Independence.
 
 - To maintain the bonds of friendship formed between the French and American peoples at the time of the birth of the American nation.
+
+To learn more about the Society's history, see [History of SAR France](/en/histoire/histoire-de-sar-france/). To join us, visit the [Join Us](/en/contact/nous-rejoindre/) page.

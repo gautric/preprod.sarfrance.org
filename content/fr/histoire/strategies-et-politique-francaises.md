@@ -27,7 +27,7 @@ La guerre est là.
 
 #### Quels éléments ont conduit le Parlement britannique à accepter le principe d'une indépendance des Treize Colonies ?
 
-Indéniablement, la nouvelle de la capitulation de Cornwallis à Yorktown, qui eut été acceptée avec flegme quelques mois plus tôt par le gouvernement du Roi George III, est l'élément qui fit basculer son Parlement. En effet, elle se combinait avec les autres revers de cette guerre mondiale :
+Indéniablement, la nouvelle de la capitulation de Cornwallis à [Yorktown](/histoire/operations/), qui eut été acceptée avec flegme quelques mois plus tôt par le gouvernement du Roi George III, est l'élément qui fit basculer son Parlement. En effet, elle se combinait avec les autres revers de cette guerre mondiale :
 
 * les défaites en Inde, …
 * la perte de la Floride occidentale et de Tobago, …
@@ -41,7 +41,7 @@ Indéniablement, la nouvelle de la capitulation de Cornwallis à Yorktown, qui e
 
 #### La France a-t-elle voulu poursuivre une guerre isolée avec l'Angleterre ?
 
-Début juin 1782, Castries est informé de la perte de cinq vaisseaux aux Saintes, et, résumant la situation dans une remarquable analyse stratégique, prépare une nouvelle intervention combinée (probablement imbattable) contre la Jamaïque. Les deux gouvernements de Paris et Madrid la confient au comte d'Estaing. Le projet en est rapidement connu à Londres, grâce à ses espions parisiens.
+Début juin 1782, Castries est informé de la perte de cinq vaisseaux aux [Saintes](/histoire/pertes-francaises/), et, résumant la situation dans une remarquable analyse stratégique, prépare une nouvelle intervention combinée (probablement imbattable) contre la Jamaïque. Les deux gouvernements de Paris et Madrid la confient au comte d'Estaing. Le projet en est rapidement connu à Londres, grâce à ses espions parisiens.
 
 Parallèlement, Vergennes cherche à accélérer les pourparlers de paix. Face à la menace russe contre la Turquie, il veut en effet obtenir une intervention combinée de la France et de … la Grande-Bretagne ! Les pourparlers sont ralentis par les exigences de l'Espagne qui, rappelons-le, n'est pas l'alliée des États-Unis – dont elle n'a pas voulu reconnaître l'indépendance –, mais de la France.
 
@@ -59,7 +59,7 @@ N'oublions pas aussi la prise de la Floride occidentale, la prise de Pensacola, 
 
 #### L'Espagne a-t-elle financé la campagne de Yorktown ?
 
-Lorsque de Grasse voulut répondre à la demande d'apporter 1 200 000 livres aux forces de Washington, il chercha d'abord une solution française. Mais l'intendant de Saint-Domingue n'avait pas cette disponibilité et déclina même la proposition faite par l'amiral et plusieurs de ses officiers : Charitte, etc. Ils avaient de grands biens et offraient de les donner en gage (à la mort du comte de Grasse en 1788, ses domaines dans l'île furent estimés à 1,8 millions de livres).
+Lorsque [de Grasse](/histoire/biographies/de-grasse/) voulut répondre à la demande d'apporter 1 200 000 livres aux forces de Washington, il chercha d'abord une solution française. Mais l'intendant de Saint-Domingue n'avait pas cette disponibilité et déclina même la proposition faite par l'amiral et plusieurs de ses officiers : Charitte, etc. Ils avaient de grands biens et offraient de les donner en gage (à la mort du comte de Grasse en 1788, ses domaines dans l'île furent estimés à 1,8 millions de livres).
 
 De même, malgré l'entremise de Saavedra, envoyé de Charles III, l'intendant espagnol de Cuba se déclara sans moyen.
 

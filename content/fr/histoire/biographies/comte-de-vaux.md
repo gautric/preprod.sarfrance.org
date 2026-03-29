@@ -31,7 +31,7 @@ Une armée réunissant les bataillons de **41 régiments** avait été rassembl�
 | Div. de Saint-Malo | 184 | 33 119 | 22 046 | 906 | 275 | 290 | 6 454 |
 | **Total** | **397** | 66 068 | **38 296** | 2 100 | 563 | 417 | 9 401 |
 
-**L'avant-garde**, sous les ordres du comte de Rochambeau, comportait les détachements de 10 régiments composés en tout de 167 officiers, 2 565 soldats et 274 valets, soit 3 006 hommes en tout, sur 10 bâtiments d'une capacité totale de 2 443 tonneaux, avec 32 chaloupes pouvant transporter 749 hommes par rotation.
+**L'avant-garde**, sous les ordres du [comte de Rochambeau](/histoire/biographies/rochambeau/), comportait les détachements de 10 régiments composés en tout de 167 officiers, 2 565 soldats et 274 valets, soit 3 006 hommes en tout, sur 10 bâtiments d'une capacité totale de 2 443 tonneaux, avec 32 chaloupes pouvant transporter 749 hommes par rotation.
 
 | Régiments | Officiers | Soldats | Valets | Transports | Capitaine | Tonneaux | Chaloupes | Capacité |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -64,7 +64,7 @@ Une armée réunissant les bataillons de **41 régiments** avait été rassembl�
 | Artillerie | | Cavalerie | |
 | --- | --- | --- | --- |
 | M. de Villepatour, maréchal de camp | | Régiments | |
-| Besançon | H | Légion (mixte) de Lauzun | S |
+| Besançon | H | Légion (mixte) de [Lauzun](/histoire/biographies/lauzun/) | S |
 | Toul | H | Hussards de Chamborand | H |
 | Auxonne | S | Dragons La Rochefoucauld | H |
 | | | Dragons de Noailles | S |

@@ -80,3 +80,5 @@ The table below lists French casualties, at sea and on land, during the major ba
 (\*\*) According to McCullough, in the British fleet, for every sailor killed or dead of wounds, more than 7 died of disease; the same proportion applied to the French Royal Navy would give an additional 15,000 dead among French sailors.
 
 According to Warrington Dawson's detailed study (1936), **2,112 French citizens lost their lives on American soil or in American waters**, comprising 1,113 soldiers and 999 sailors (the vast majority from disease).
+
+See also: [Military Operations in North America](/en/histoire/operations/) — [Count de Rochambeau](/en/histoire/biographies/rochambeau/) — [Count de Grasse](/en/histoire/biographies/de-grasse/) — [Marquis de Bouillé](/en/histoire/biographies/bouille/)
