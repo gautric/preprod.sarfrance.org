@@ -447,6 +447,14 @@ events:
     link: ""
     lat: 48.8675
     lon: 2.2362
+  - date: "2026-05-20"
+    title: "Sortie dans le Loiret avec les Amis de Rochambeau"
+    type: visite
+    description: ""
+    location: "Loiret"
+    link: ""
+    lat: 47.9135
+    lon: 1.7601
   - date: "2026-05-25/2026-05-26"
     title: "Memorial Day"
     type: commémoration
