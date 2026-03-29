@@ -1,6 +1,7 @@
 ---
 title: "Bylaws & Internal Rules"
-description: "Bylaws and internal rules of SAR France"
+description: "Bylaws adopted on March 22, 2024 and excerpts from the internal rules of SAR France"
+lastUpdate: 2025-02-11
 ---
 
 ## Bylaws

@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-description: "Contact SAR France"
+description: "SAR France Secretariat in Paris, NSSAR headquarters in Louisville and online contact form"
 layout: "contact"
 type: "contact"
 lastUpdate: 2026-03-01

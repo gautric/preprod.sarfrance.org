@@ -1,6 +1,6 @@
 ---
 title: "Dictionnaire biographique"
-description: "Dictionnaire biographique des ancêtres SAR France"
+description: "150 notices biographiques des ancêtres de membres de SAR France"
 layout: "notices"
 ---
 

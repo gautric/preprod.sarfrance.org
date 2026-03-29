@@ -1,5 +1,6 @@
 ---
 title: "Agenda 2025"
+description: "Calendrier des conférences, cérémonies et événements de SAR France en 2025"
 layout: "agenda"
 type: "activites"
 year: "2025"

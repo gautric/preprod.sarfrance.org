@@ -1,6 +1,6 @@
 ---
 title: "History"
-description: "France and the American War of Independence"
+description: "France and the American War of Independence (1775-1783)"
 lastUpdate: 2026-03-01
 ---
 

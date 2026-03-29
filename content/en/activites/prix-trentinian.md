@@ -1,6 +1,6 @@
 ---
 title: "\"Jacques de Trentinian\" Award"
-description: "Thesis award given by SAR France to encourage research on the American War of Independence"
+description: "Thesis award on the American War of Independence given by SAR France"
 ---
 
 ## "Jacques de Trentinian" Award

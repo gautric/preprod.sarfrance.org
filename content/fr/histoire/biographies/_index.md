@@ -1,6 +1,6 @@
 ---
 title: "Biographies"
-description: "Biographies détaillées des acteurs de la Guerre d'Indépendance américaine"
+description: "Biographies des chefs militaires et gouverneurs français de la Guerre d'Indépendance"
 build:
   list: never
   render: always

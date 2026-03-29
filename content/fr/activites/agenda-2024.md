@@ -1,5 +1,6 @@
 ---
 title: "Agenda 2024"
+description: "Calendrier des conférences, cérémonies et événements de SAR France en 2024"
 layout: "agenda"
 type: "activites"
 year: "2024"

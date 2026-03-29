@@ -1,6 +1,6 @@
 ---
 title: "Cotisation et don"
-description: "Paiement en ligne : cotisation, don et autres achats — SAR France"
+description: "Cotisation annuelle, don et avantage fiscal – Association reconnue d'utilité publique"
 ---
 
 ## Paiement en ligne

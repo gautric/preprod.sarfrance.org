@@ -1,6 +1,6 @@
 ---
 title: "François-Claude-Amour, Marquis de Bouillé"
-description: "Governor General of the French Antilles"
+description: "Governor General of the Antilles (1777-1783), conqueror of Dominica, Tobago and Sint Eustatius"
 author: "Comte Thierry de Seguins-Cohorn, Historian of the Society in France of the SAR"
 references:
   - title: "François Claude Amour, marquis de Bouillé"

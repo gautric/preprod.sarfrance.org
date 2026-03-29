@@ -1,6 +1,6 @@
 ---
 title: "Opérations militaires en Amérique du Nord"
-description: "Le Corps Expéditionnaire français et la campagne de Yorktown"
+description: "Corps Expéditionnaire de Rochambeau, choix de la Chesapeake et victoire de Yorktown (1781)"
 ---
 
 ## Le Corps Expéditionnaire

@@ -1,6 +1,6 @@
 ---
 title: "Mentions légales"
-description: "Mentions légales du site sarfrance.org"
+description: "Éditeur, hébergement, conception du site et protection des données (RGPD)"
 ---
 
 ## Éditeur du site

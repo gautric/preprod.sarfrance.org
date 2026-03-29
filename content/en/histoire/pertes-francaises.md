@@ -1,6 +1,6 @@
 ---
 title: "The Human Cost of the War for France"
-description: "French soldiers and sailors killed or wounded during the American War of Independence (1778-1783)"
+description: "French casualty table from the battles of the War of Independence (1778-1783)"
 ---
 
 ## French soldiers and sailors killed or wounded during the American War of Independence (1778-1783)

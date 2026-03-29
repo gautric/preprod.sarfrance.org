@@ -1,6 +1,6 @@
 ---
 title: "Legal Notice"
-description: "Legal notice for the sarfrance.org website"
+description: "Publisher, hosting, website design and data protection (GDPR)"
 ---
 
 ## Website Publisher

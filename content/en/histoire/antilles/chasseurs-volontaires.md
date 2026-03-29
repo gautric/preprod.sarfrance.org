@@ -1,6 +1,6 @@
 ---
 title: "The Chasseurs Volontaires de Saint-Domingue"
-description: "The epic of an Afro-Caribbean regiment engaged in the American War of Independence"
+description: "Afro-Caribbean regiment of free people of colour at the Siege of Savannah (1779)"
 author: "Comte Thierry de Seguins-Cohorn, Historian of the Society in France of the SAR"
 references:
   - title: "L'Alliance franco-Américaine"

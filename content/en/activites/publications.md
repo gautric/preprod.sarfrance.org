@@ -1,6 +1,6 @@
 ---
 title: "Journal and Publications"
-description: "Annual journal and works published by SAR France"
+description: "Journal 'L'Alliance Franco-Américaine' and works published by SAR France"
 ---
 
 ## Journal "L'Alliance Franco-Américaine"

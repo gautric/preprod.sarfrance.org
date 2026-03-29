@@ -1,6 +1,6 @@
 ---
 title: "Organization"
-description: "Structure and operations of the Society in France of the Sons of the American Revolution"
+description: "Board of directors, regional delegations, secretariat and NSSAR liaison"
 lastUpdate: 2026-03-01
 ---
 

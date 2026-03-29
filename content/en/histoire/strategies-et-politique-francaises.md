@@ -1,6 +1,6 @@
 ---
 title: "French Strategies and Politics"
-description: "Adversaries and allies in the American War – France and its neighbors"
+description: "Politics of Louis XVI, role of Spain, financing of Yorktown and German forces"
 ---
 
 ## Adversaries and Allies in the American War

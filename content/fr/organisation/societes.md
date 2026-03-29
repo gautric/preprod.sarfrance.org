@@ -1,6 +1,6 @@
 ---
 title: "Sociétés sœurs et liens utiles"
-description: "Sociétés patriotiques issues de la Guerre d'Amérique et liens franco-américains"
+description: "DAR, CAR, Cincinnati de France, sociétés SAR à l'étranger et associations historiques"
 ---
 
 ## Daughters of the American Revolution (DAR)

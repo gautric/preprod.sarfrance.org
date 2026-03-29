@@ -1,6 +1,6 @@
 ---
 title: "Notices biographiques"
-description: "Dictionnaire biographique des ancêtres SAR France homologués"
+description: "Notices biographiques publiées des ancêtres de membres de SAR France"
 layout: "notices"
 type: "histoire"
 ---

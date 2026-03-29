@@ -1,6 +1,6 @@
 ---
 title: "La Légion de Lauzun"
-description: "La Légion des Volontaires « étrangers » de Lauzun"
+description: "Duc de Lauzun (1747-1793), commandant de la Légion des Volontaires Étrangers en Amérique"
 author: "Comte Thierry de Seguins-Cohorn, Historien de la Société en France des SAR"
 references:
   - title: "Armand Louis de Gontaut"

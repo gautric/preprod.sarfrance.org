@@ -1,6 +1,6 @@
 ---
 title: "Stratégies et politique françaises"
-description: "Adversaires et alliés dans la Guerre d'Amérique – La France et ses voisins"
+description: "Politique de Louis XVI, rôle de l'Espagne, financement de Yorktown et forces allemandes"
 ---
 
 ## Adversaires et alliés dans la Guerre d'Amérique

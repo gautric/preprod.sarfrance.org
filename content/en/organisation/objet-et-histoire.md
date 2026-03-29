@@ -1,6 +1,6 @@
 ---
 title: "Purpose of SAR France"
-description: "Purpose and mission of the Society in France of the Sons of the American Revolution"
+description: "Threefold transatlantic, historical and cultural mission of SAR France"
 ---
 
 ## Purpose of SAR France

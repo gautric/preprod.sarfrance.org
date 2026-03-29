@@ -1,6 +1,6 @@
 ---
 title: "Prix « Jacques de Trentinian »"
-description: "Prix de thèse décerné par SAR France pour encourager la recherche sur la Guerre d'Indépendance américaine"
+description: "Prix de thèse sur la Guerre d'Indépendance américaine décerné par SAR France"
 ---
 
 ## Prix « Jacques de Trentinian »

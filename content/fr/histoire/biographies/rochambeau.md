@@ -1,6 +1,6 @@
 ---
 title: "Le comte de Rochambeau"
-description: "Commandant du Corps Expéditionnaire français en Amérique"
+description: "Comte de Rochambeau (1725-1807), maréchal de France, commandant du Corps Expéditionnaire"
 author: "Comte Thierry de Seguins-Cohorn, Historien de la Société en France des SAR"
 references:
   - title: "Jean-Baptiste Donatien de Vimeur, comte de Rochambeau"

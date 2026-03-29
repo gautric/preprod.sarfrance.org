@@ -1,5 +1,6 @@
 ---
 title: "Agenda 2020"
+description: "Calendrier des conférences, cérémonies et événements de SAR France en 2020"
 layout: "agenda"
 type: "activites"
 year: "2020"

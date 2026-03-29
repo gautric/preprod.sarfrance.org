@@ -1,6 +1,7 @@
 ---
 title: "Statuts & Règlement intérieur"
-description: "Statuts et règlement intérieur de SAR France"
+description: "Statuts adoptés le 22 mars 2024 et extraits du règlement intérieur de SAR France"
+lastUpdate: 2025-02-11
 ---
 
 ## Statuts

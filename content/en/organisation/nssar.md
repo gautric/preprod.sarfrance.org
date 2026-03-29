@@ -1,6 +1,7 @@
 ---
-title: "NSSAR"
-description: "The National Society of the Sons of the American Revolution"
+title: "The National Society of the Sons of the American Revolution"
+description: "Origins, founding in 1889 and Congressional Charter of 1906 of the parent society in Louisville (Kentucky)"
+author: "Comte Thierry de Seguins-Cohorn, Historian of the Society in France of the SAR"
 ---
 
 The Society in France of the Sons of the American Revolution is the first state society outside the United States of The National Society of the Sons of the American Revolution (NSSAR) – [www.sar.org](https://www.sar.org)

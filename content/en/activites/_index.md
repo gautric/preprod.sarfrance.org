@@ -1,6 +1,6 @@
 ---
 title: "Activities"
-description: "Activities and events of SAR France"
+description: "Conferences, ceremonies, study trips, publications and historical research"
 lastUpdate: 2026-03-01
 ---
 

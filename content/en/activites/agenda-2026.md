@@ -1,5 +1,6 @@
 ---
 title: "Calendar 2026"
+description: "Calendar of SAR France conferences, ceremonies and events in 2026"
 layout: "agenda"
 type: "activites"
 year: "2026"

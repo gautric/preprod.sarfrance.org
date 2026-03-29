@@ -1,6 +1,6 @@
 ---
 title: "Dues and Donations"
-description: "Online payment: membership dues, donations, and other purchases — SAR France"
+description: "Annual dues, donations and tax benefit – Association recognized as being of public benefit"
 ---
 
 ## Online Payment

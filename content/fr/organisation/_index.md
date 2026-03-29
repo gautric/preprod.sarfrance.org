@@ -1,6 +1,6 @@
 ---
 title: "Organisation"
-description: "Structure et fonctionnement de la Société en France des Fils de la Révolution Américaine"
+description: "Conseil d'administration, délégations régionales, secrétariat et liaison avec la NSSAR"
 lastUpdate: 2026-03-01
 ---
 

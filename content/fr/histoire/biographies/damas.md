@@ -1,6 +1,6 @@
 ---
 title: "Claude-Charles de Damas, vicomte de Marillac"
-description: "Gouverneur de la Martinique, successeur de Bouillé"
+description: "Gouverneur de la Martinique (1783), chargé de la rétrocession des îles conquises"
 author: "Comte Thierry de Seguins-Cohorn, Historien de la Société en France des SAR"
 references:
   - title: "François Claude Amour, marquis de Bouillé (mention de Damas comme successeur)"

@@ -1,5 +1,6 @@
 ---
 title: "Agenda 2022"
+description: "Calendrier des conférences, cérémonies et événements de SAR France en 2022"
 layout: "agenda"
 type: "activites"
 year: "2022"

@@ -1,6 +1,6 @@
 ---
 title: "Revue et publications"
-description: "Revue annuelle et ouvrages publiés par SAR France"
+description: "Revue « L'Alliance Franco-Américaine » et ouvrages publiés par SAR France"
 ---
 
 ## Revue « L'Alliance Franco-Américaine »

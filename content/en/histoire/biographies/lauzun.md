@@ -1,6 +1,6 @@
 ---
 title: "The Lauzun Legion"
-description: "The Legion of Foreign Volunteers of Lauzun"
+description: "Duke de Lauzun (1747-1793), commander of the Legion of Foreign Volunteers in America"
 author: "Comte Thierry de Seguins-Cohorn, Historian of the Society in France of the SAR"
 references:
   - title: "Armand Louis de Gontaut"

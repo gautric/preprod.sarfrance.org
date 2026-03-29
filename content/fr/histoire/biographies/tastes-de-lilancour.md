@@ -1,6 +1,6 @@
 ---
 title: "Jean-Baptiste de Tastes de Lilancour"
-description: "Gouverneur de Saint-Domingue"
+description: "Gouverneur par intérim de Saint-Domingue, il envoya 3 400 soldats à Yorktown (1781)"
 author: "Comte Thierry de Seguins-Cohorn, Historien de la Société en France des SAR"
 ---
 

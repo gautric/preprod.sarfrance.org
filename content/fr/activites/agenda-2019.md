@@ -1,5 +1,6 @@
 ---
 title: "Agenda 2019"
+description: "Calendrier des conférences, cérémonies et événements de SAR France en 2019"
 layout: "agenda"
 type: "activites"
 year: "2019"

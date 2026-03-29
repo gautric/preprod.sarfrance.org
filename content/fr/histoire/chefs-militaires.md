@@ -1,6 +1,6 @@
 ---
 title: "Chefs militaires et volontaires"
-description: "Les chefs militaires français et les volontaires de la Guerre d'Amérique"
+description: "Chefs militaires français sur terre, aux Antilles et sur mer, et volontaires envoyés en Amérique (1778-1783)"
 ---
 
 La participation française à la Guerre d'Indépendance américaine (1778–1783) a mobilisé des chefs militaires d'exception, sur terre comme sur mer, ainsi que de nombreux volontaires venus combattre aux côtés des insurgés. Cette page présente les principaux acteurs français de ce conflit qui a scellé l'alliance franco-américaine.

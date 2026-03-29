@@ -1,6 +1,6 @@
 ---
 title: "Le comte de Vaux – Préparation du débarquement en Angleterre de 1779"
-description: "Commandant des forces terrestres destinées au projet de débarquement en Angleterre"
+description: "Comte de Vaux, maréchal de France, commandant des 38 000 hommes du projet de débarquement (1779)"
 author: "Comte Thierry de Seguins-Cohorn, Historien de la Société en France des SAR"
 references:
   - title: "Noël Jourda de Vaux"

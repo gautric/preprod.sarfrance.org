@@ -1,6 +1,6 @@
 ---
 title: "Le comte de Grasse"
-description: "Lieutenant-général des armées navales, héros de la Chesapeake"
+description: "Comte de Grasse (1722-1788), vainqueur de la Chesapeake et artisan de Yorktown"
 author: "Comte Thierry de Seguins-Cohorn, Historien de la Société en France des SAR"
 references:
   - title: "François Joseph Paul de Grasse"

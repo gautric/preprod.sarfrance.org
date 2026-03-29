@@ -1,6 +1,6 @@
 ---
 title: "Count de Vaux – Preparation of the Invasion of England, 1779"
-description: "Commander of the land forces intended for the planned invasion of England"
+description: "Count de Vaux, Marshal of France, commander of the 38,000 men for the invasion plan (1779)"
 author: "Comte Thierry de Seguins-Cohorn, Historian of the Society in France of the SAR"
 references:
   - title: "Noël Jourda de Vaux"

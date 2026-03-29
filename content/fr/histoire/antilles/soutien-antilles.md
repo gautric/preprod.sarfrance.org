@@ -1,6 +1,6 @@
 ---
 title: "Le soutien des Antilles françaises à la guerre de l'Indépendance américaine"
-description: "Le rôle stratégique des Antilles françaises comme plateforme logistique et réserve de troupes durant la guerre d'Indépendance"
+description: "Réorganisation militaire des colonies, renforts et apport décisif à Yorktown (1781)"
 author: "Comte Thierry de Seguins-Cohorn, Historien de la Société en France des SAR"
 references:
   - title: "La refondation de la défense des colonies françaises après 1763 et sa mise en œuvre lors de la guerre d'indépendance américaine"

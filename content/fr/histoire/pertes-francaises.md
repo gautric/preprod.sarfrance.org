@@ -1,6 +1,6 @@
 ---
 title: "Le coût humain de la guerre pour la France"
-description: "Soldats et marins français tués ou blessés pendant la guerre d'Amérique (1778-1783)"
+description: "Tableau des pertes françaises lors des batailles de la Guerre d'Indépendance (1778-1783)"
 ---
 
 ## Soldats et marins français tués ou blessés pendant la guerre d'Amérique (1778-1783)

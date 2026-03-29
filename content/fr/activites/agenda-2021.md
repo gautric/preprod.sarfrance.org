@@ -1,5 +1,6 @@
 ---
 title: "Agenda 2021"
+description: "Calendrier des conférences, cérémonies et événements de SAR France en 2021"
 layout: "agenda"
 type: "activites"
 year: "2021"

@@ -1,6 +1,6 @@
 ---
 title: "Jean-Baptiste de Tastes de Lilancour"
-description: "Governor of Saint-Domingue"
+description: "Acting Governor of Saint-Domingue, he sent 3,400 soldiers to Yorktown (1781)"
 author: "Comte Thierry de Seguins-Cohorn, Historian of the Society in France of the SAR"
 
 ---

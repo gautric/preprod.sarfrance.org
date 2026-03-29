@@ -1,6 +1,6 @@
 ---
 title: "Military Leaders and Volunteers"
-description: "French military leaders and volunteers of the American War of Independence"
+description: "French military leaders on land, in the Caribbean and at sea, and volunteers sent to America (1778-1783)"
 ---
 
 France's participation in the American War of Independence (1778–1783) mobilized exceptional military leaders, on land and at sea, as well as numerous volunteers who came to fight alongside the insurgents. This page presents the principal French actors of a conflict that sealed the Franco-American alliance.

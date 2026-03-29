@@ -1,6 +1,6 @@
 ---
 title: "Biographical Dictionary"
-description: "Biographical dictionary of SAR France ancestors"
+description: "150 biographical entries on ancestors of SAR France members"
 layout: "notices"
 ---
 

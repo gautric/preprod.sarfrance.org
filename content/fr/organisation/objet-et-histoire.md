@@ -1,6 +1,6 @@
 ---
 title: "Objet de SAR France"
-description: "Objet et mission de la Société en France des Fils de la Révolution Américaine"
+description: "Triple vocation transatlantique, historique et culturelle de SAR France"
 ---
 
 ## Objet de SAR France

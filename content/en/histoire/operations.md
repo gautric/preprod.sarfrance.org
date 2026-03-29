@@ -1,6 +1,6 @@
 ---
 title: "Military Operations in North America"
-description: "The French Expeditionary Corps and the Yorktown Campaign"
+description: "Rochambeau's Expeditionary Corps, the Chesapeake strategy and the victory at Yorktown (1781)"
 ---
 
 ## The Expeditionary Corps

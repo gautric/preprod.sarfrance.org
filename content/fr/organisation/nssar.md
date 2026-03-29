@@ -1,6 +1,7 @@
 ---
-title: "NSSAR"
-description: "La National Society of the Sons of the American Revolution"
+title: "La National Society of the Sons of the American Revolution"
+description: "Origines, fondation en 1889 et Charte du Congrès de 1906 de la société mère à Louisville (Kentucky)"
+author: "Comte Thierry de Seguins-Cohorn, Historien de la Société en France des SAR"
 ---
 
 La Société en France des Fils de la Révolution Américaine est la première société fédérale, à l'extérieur des États-Unis, de The National Society of the Sons of the American Revolution (NSSAR) – [www.sar.org](https://www.sar.org)

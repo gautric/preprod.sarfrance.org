@@ -1,6 +1,6 @@
 ---
 title: "Join Us"
-description: "Join SAR France — mission, admission requirements, and procedures"
+description: "Admission requirements, documents to provide and registration fees"
 ---
 
 To discover the missions of SAR France, see the [Purpose of SAR France](/en/organisation/objet-et-histoire/) page.

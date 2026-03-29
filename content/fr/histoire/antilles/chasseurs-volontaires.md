@@ -1,6 +1,6 @@
 ---
 title: "Les Chasseurs Volontaires de Saint-Domingue"
-description: "L'épopée d'un régiment « afro-antillais » engagé dans la guerre de l'Indépendance américaine"
+description: "Régiment afro-antillais de gens de couleur libres au siège de Savannah (1779)"
 author: "Comte Thierry de Seguins-Cohorn, Historien de la Société en France des SAR"
 references:
   - title: "L'Alliance franco-Américaine"

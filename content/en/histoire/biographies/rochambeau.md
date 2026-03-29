@@ -1,6 +1,6 @@
 ---
 title: "Count de Rochambeau"
-description: "Commander of the French Expeditionary Corps in America"
+description: "Count de Rochambeau (1725-1807), Marshal of France, commander of the Expeditionary Corps"
 author: "Comte Thierry de Seguins-Cohorn, Historian of the Society in France of the SAR"
 references:
   - title: "Jean-Baptiste Donatien de Vimeur, comte de Rochambeau"

@@ -1,6 +1,6 @@
 ---
 title: "Sister Societies and Useful Links"
-description: "Patriotic societies stemming from the American War of Independence and Franco-American links"
+description: "DAR, CAR, Cincinnati of France, SAR societies abroad and historical associations"
 ---
 
 ## Daughters of the American Revolution (DAR)

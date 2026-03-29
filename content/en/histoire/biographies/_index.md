@@ -1,6 +1,6 @@
 ---
 title: "Biographies"
-description: "Detailed biographies of key figures of the American War of Independence"
+description: "Biographies of French military leaders and governors of the War of Independence"
 build:
   list: never
   render: always

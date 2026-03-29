@@ -1,9 +1,8 @@
 ---
 title: "History of SAR France"
-description: "History of the Society in France of the Sons of the American Revolution"
+description: "From the Paris Chapter (1897) to public benefit recognition – Presidents, colors and insignia"
 lastUpdate: 2026-03-25
-author: "Thierry, Comte de Seguins-Cohorn"
-authorTitle: "Historian of the Society in France of the Sons of the American Revolution"
+author: "Comte Thierry de Seguins-Cohorn, Historian of the Society in France of the SAR"
 references:
   - title: "The History of the National Society of the Sons of the American Revolution"
     author: "John St. Paul"

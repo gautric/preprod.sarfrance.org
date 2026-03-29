@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-description: "Contactez SAR France"
+description: "Secrétariat SAR France à Paris, siège NSSAR à Louisville et formulaire de contact"
 layout: "contact"
 type: "contact"
 lastUpdate: 2026-03-01
