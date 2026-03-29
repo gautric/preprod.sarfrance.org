@@ -624,28 +624,7 @@ a:hover {
     background-color: var(--primary);
 }
 
-/* Drop cap: Centennial Black, 2 lines, primary color */
-.content > p:first-of-type::first-letter {
-    font-family: var(--font-centennial);
-    font-weight: 900;
-    color: var(--primary);
-    float: left;
-    font-size: 3.2em;
-    line-height: 0.85;
-    padding-right: 8px;
-    padding-top: 4px;
-}
 
-/* Chapô / lead paragraph: JansonText Bold 12/16, primary color */
-.content .chapo,
-.content > p:first-of-type {
-    font-family: var(--font-janson);
-    font-weight: 700;
-    font-size: 1.15rem;
-    line-height: 1.33;
-    color: var(--primary);
-    margin-bottom: 20px;
-}
 
 /* Reset color for subsequent paragraphs */
 .content > p:nth-of-type(n+2) {
