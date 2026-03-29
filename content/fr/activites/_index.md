@@ -4,8 +4,6 @@ description: "Activités et événements de SAR France"
 lastUpdate: 2026-03-01
 ---
 
-## Nos activités
-
 SAR France organise tout au long de l'année des activités visant à perpétuer la mémoire de la Guerre d'Amérique et à renforcer les liens franco-américains. Conférences, cérémonies commémoratives, voyages d'étude, publications et recherche historique rythment la vie de la Société et de ses membres.
 
 ## Conférences et visites

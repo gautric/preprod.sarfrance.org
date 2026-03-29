@@ -4,8 +4,6 @@ description: "Activities and events of SAR France"
 lastUpdate: 2026-03-01
 ---
 
-## Our Activities
-
 SAR France organizes activities throughout the year to perpetuate the memory of the American War of Independence and strengthen Franco-American ties. Conferences, commemorative ceremonies, study trips, publications, and historical research punctuate the life of the Society and its members.
 
 ## Conferences and Visits
