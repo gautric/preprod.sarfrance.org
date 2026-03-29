@@ -7,11 +7,12 @@ description: |
   pour relecture humaine avant fusion.
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'content/fr/**/*.md'
-      - 'i18n/fr.yaml'
+  # push trigger disabled — run manually via workflow_dispatch only
+  # push:
+  #   branches: [main]
+  #   paths:
+  #     - 'content/fr/**/*.md'
+  #     - 'i18n/fr.yaml'
   workflow_dispatch:
 
 permissions: read-all
