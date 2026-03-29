@@ -26,6 +26,12 @@ French aid was military (Rochambeau's Expeditionary Corps, Admiral de Grasse's f
 
 According to Warrington Dawson's study (1936), 2,112 French citizens lost their lives on American soil or in American waters.
 
+## The Peace of 1783
+
+A few additional successes in the Mediterranean (the recapture of Minorca) and in the Antilles, tempered by the naval defeat at the Saintes in April 1782, led the British government to seek an end to an unpopular and financially unbearable war.
+
+All the belligerents concluded peace at Versailles on September 3, 1783. England recognized the independence of its former colonies. George Washington, having returned to his lands like Cincinnatus, was elevated to the presidency of the new Federation.
+
 ## Learn More
 
 - [History of SAR France](/en/histoire/histoire-de-sar-france/) – History of the Society, its colors and insignia

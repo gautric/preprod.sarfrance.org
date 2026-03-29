@@ -26,6 +26,12 @@ L'aide française fut militaire (Corps expéditionnaire de Rochambeau, flotte de
 
 Selon l'étude de Warrington Dawson (1936), 2 112 Français ont perdu la vie sur le sol ou dans les eaux américaines.
 
+## La paix de 1783
+
+Quelques succès complémentaires en Méditerranée (reprise de Minorque) et aux Antilles, tempérés par la défaite navale des Saintes en avril 1782, conduisent le gouvernement britannique à rechercher la fin d'une guerre impopulaire et financièrement insupportable.
+
+L'ensemble des belligérants concluent la paix à Versailles, le 3 septembre 1783. L'Angleterre reconnaît à ses anciennes colonies leur indépendance. George Washington, retourné à ses terres tel Cincinnatus, est porté à la présidence de la nouvelle Fédération.
+
 ## Pour en savoir plus
 
 - [Histoire de SAR France](/histoire/histoire-de-sar-france/) – Histoire de la Société, ses couleurs et son insigne
