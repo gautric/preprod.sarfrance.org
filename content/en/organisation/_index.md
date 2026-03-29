@@ -23,7 +23,7 @@ The Society in France of the Sons of the American Revolution is the first state 
 - **Treasurer**: Jacques de Nucé de Lamothe
 - **Deputy Treasurer**: Charles-Edouard de Broglie
 - **Proof Commissioner**: Loïc de Saint Pol
-- **Historian**: Thierry de Seguins-Cohorn
+- **Historian**: Comte Thierry de Seguins-Cohorn
 - **Director**: Michael Carter
 - **Director**: Erard Corbin de Mangoux
 - **Director**: Jérôme de Keréver
@@ -51,7 +51,7 @@ The Society in France of the Sons of the American Revolution is the first state 
 - **Creuse (Aubusson)**: Bertrand Desthieux
 - **Hauts de France**: Olivier Partiot
 - **Île-de-France**: Florian de Roux (Paris), Gérard Priet (Versailles), Bertrand Savatier (Fontainebleau)
-- **Languedoc (Uzès)**: Thierry de Seguins-Cohorn
+- **Languedoc (Uzès)**: Comte Thierry de Seguins-Cohorn
 - **Normandy**: Jacques de Pesquidoux, Mathieu Farges (Rouen)
 - **Western Occitania (Toulouse)**: Yves Parmentier
 - **Orléanais**: Martin Boyer, Patrick Villiers

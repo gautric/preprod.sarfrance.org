@@ -1,7 +1,7 @@
 ---
 title: "Count de Grasse"
 description: "Lieutenant-General of the Naval Forces, hero of the Chesapeake"
-author: "Thierry de Seguins-Cohorn"
+author: "Comte Thierry de Seguins-Cohorn, Historian of the Society in France of the SAR"
 references:
   - title: "François Joseph Paul de Grasse"
     author: "Wikipedia"

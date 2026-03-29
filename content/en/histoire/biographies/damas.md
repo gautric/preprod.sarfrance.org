@@ -1,7 +1,7 @@
 ---
 title: "Claude-Charles de Damas, Viscount de Marillac"
 description: "Governor of Martinique, successor to Bouillé"
-author: "Thierry de Seguins-Cohorn"
+author: "Comte Thierry de Seguins-Cohorn, Historian of the Society in France of the SAR"
 references:
   - title: "François Claude Amour, marquis de Bouillé (mention of Damas as successor)"
     author: "Wikipedia"

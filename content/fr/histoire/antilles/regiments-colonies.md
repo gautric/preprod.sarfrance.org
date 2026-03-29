@@ -1,7 +1,7 @@
 ---
 title: "Régiments et Corps des Colonies durant la guerre de l'Indépendance américaine"
 description: "Les régiments coloniaux français engagés aux Antilles, dans l'Océan Indien et aux Indes"
-author: "Thierry de Seguins-Cohorn"
+author: "Comte Thierry de Seguins-Cohorn, Historien de la Société en France des SAR"
 ---
 
 ## Antilles

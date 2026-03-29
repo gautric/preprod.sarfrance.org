@@ -1,7 +1,7 @@
 ---
 title: "Count de Rochambeau"
 description: "Commander of the French Expeditionary Corps in America"
-author: "Thierry de Seguins-Cohorn"
+author: "Comte Thierry de Seguins-Cohorn, Historian of the Society in France of the SAR"
 references:
   - title: "Jean-Baptiste Donatien de Vimeur, comte de Rochambeau"
     author: "Wikipedia"

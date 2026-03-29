@@ -1,7 +1,7 @@
 ---
 title: "Colonial Regiments and Corps during the American War of Independence"
 description: "French colonial regiments engaged in the Antilles, the Indian Ocean and India"
-author: "Thierry de Seguins-Cohorn"
+author: "Comte Thierry de Seguins-Cohorn, Historian of the Society in France of the SAR"
 ---
 
 ## Antilles

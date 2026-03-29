@@ -1,7 +1,7 @@
 ---
 title: "Le comte de Vaux – Préparation du débarquement en Angleterre de 1779"
 description: "Commandant des forces terrestres destinées au projet de débarquement en Angleterre"
-author: "Thierry de Seguins-Cohorn"
+author: "Comte Thierry de Seguins-Cohorn, Historien de la Société en France des SAR"
 references:
   - title: "Noël Jourda de Vaux"
     author: "Wikipedia"

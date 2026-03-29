@@ -1,7 +1,7 @@
 ---
 title: "Le comte de Rochambeau"
 description: "Commandant du Corps Expéditionnaire français en Amérique"
-author: "Thierry de Seguins-Cohorn"
+author: "Comte Thierry de Seguins-Cohorn, Historien de la Société en France des SAR"
 references:
   - title: "Jean-Baptiste Donatien de Vimeur, comte de Rochambeau"
     author: "Wikipedia"

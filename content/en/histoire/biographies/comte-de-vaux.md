@@ -1,7 +1,7 @@
 ---
 title: "Count de Vaux – Preparation of the Invasion of England, 1779"
 description: "Commander of the land forces intended for the planned invasion of England"
-author: "Thierry de Seguins-Cohorn"
+author: "Comte Thierry de Seguins-Cohorn, Historian of the Society in France of the SAR"
 references:
   - title: "Noël Jourda de Vaux"
     author: "Wikipedia"

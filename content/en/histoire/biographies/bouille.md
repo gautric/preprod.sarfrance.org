@@ -1,7 +1,7 @@
 ---
 title: "François-Claude-Amour, Marquis de Bouillé"
 description: "Governor General of the French Antilles"
-author: "Thierry de Seguins-Cohorn"
+author: "Comte Thierry de Seguins-Cohorn, Historian of the Society in France of the SAR"
 references:
   - title: "François Claude Amour, marquis de Bouillé"
     author: "Wikipedia"

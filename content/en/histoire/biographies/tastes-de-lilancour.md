@@ -1,7 +1,7 @@
 ---
 title: "Jean-Baptiste de Tastes de Lilancour"
 description: "Governor of Saint-Domingue"
-author: "Thierry de Seguins-Cohorn"
+author: "Comte Thierry de Seguins-Cohorn, Historian of the Society in France of the SAR"
 
 ---
 

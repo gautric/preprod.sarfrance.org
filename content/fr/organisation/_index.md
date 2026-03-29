@@ -23,7 +23,7 @@ La Société en France des Fils de la Révolution Américaine est la première s
 - **Trésorier** : Jacques de Nucé de Lamothe
 - **Trésorier adjoint** : Charles-Edouard de Broglie
 - **Commissaire aux preuves** : Loïc de Saint Pol
-- **Historien** : Thierry de Seguins-Cohorn
+- **Historien** : Comte Thierry de Seguins-Cohorn
 - **Administrateur** : Michael Carter
 - **Administrateur** : Erard Corbin de Mangoux
 - **Administrateur** : Jérôme de Keréver
@@ -51,7 +51,7 @@ La Société en France des Fils de la Révolution Américaine est la première s
 - **Creuse (Aubusson)** : Bertrand Desthieux
 - **Hauts de France** : Olivier Partiot
 - **Île-de-France** : Florian de Roux (Paris), Gérard Priet (Versailles), Bertrand Savatier (Fontainebleau)
-- **Languedoc (Uzès)** : Thierry de Seguins-Cohorn
+- **Languedoc (Uzès)** : Comte Thierry de Seguins-Cohorn
 - **Normandie** : Jacques de Pesquidoux, Mathieu Farges (Rouen)
 - **Occitanie ouest (Toulouse)** : Yves Parmentier
 - **Orléanais** : Martin Boyer, Patrick Villiers

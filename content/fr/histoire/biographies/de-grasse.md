@@ -1,7 +1,7 @@
 ---
 title: "Le comte de Grasse"
 description: "Lieutenant-général des armées navales, héros de la Chesapeake"
-author: "Thierry de Seguins-Cohorn"
+author: "Comte Thierry de Seguins-Cohorn, Historien de la Société en France des SAR"
 references:
   - title: "François Joseph Paul de Grasse"
     author: "Wikipedia"

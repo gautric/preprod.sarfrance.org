@@ -1,7 +1,7 @@
 ---
 title: "Jean-Baptiste de Tastes de Lilancour"
 description: "Gouverneur de Saint-Domingue"
-author: "Thierry de Seguins-Cohorn"
+author: "Comte Thierry de Seguins-Cohorn, Historien de la Société en France des SAR"
 ---
 
 Officier français, gouverneur par intérim de Saint-Domingue, Jean-Baptiste de Tastes de Lilancour joua un rôle déterminant dans la victoire de Yorktown en prenant sur lui d'envoyer les troupes de la garnison rejoindre l'amiral de Grasse.

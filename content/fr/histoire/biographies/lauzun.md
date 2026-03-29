@@ -1,7 +1,7 @@
 ---
 title: "La Légion de Lauzun"
 description: "La Légion des Volontaires « étrangers » de Lauzun"
-author: "Thierry de Seguins-Cohorn"
+author: "Comte Thierry de Seguins-Cohorn, Historien de la Société en France des SAR"
 references:
   - title: "Armand Louis de Gontaut"
     author: "Wikipedia"

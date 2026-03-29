@@ -1,7 +1,7 @@
 ---
 title: "The Chasseurs Volontaires de Saint-Domingue"
 description: "The epic of an Afro-Caribbean regiment engaged in the American War of Independence"
-author: "Thierry de Seguins-Cohorn"
+author: "Comte Thierry de Seguins-Cohorn, Historian of the Society in France of the SAR"
 references:
   - title: "L'Alliance franco-Américaine"
     author: "Bulletin de la Société en France des Fils de la Révolution Américaine, N° 38 et 39, année 2019"
