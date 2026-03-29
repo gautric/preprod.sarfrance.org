@@ -27,17 +27,6 @@
 .agenda-card-link { white-space: nowrap; color: var(--primary); text-decoration: none; font-weight: 600; }
 .agenda-card-link:hover { text-decoration: underline; }
 
-/* Mini-map Leaflet — small square on the right */
-.page-card--has-map { display: flex; align-items: stretch; gap: 0; padding-right: 0; overflow: hidden; }
-.page-card--has-map .page-card-body { flex: 1; min-width: 0; padding-right: 14px; }
-.agenda-map { width: 360px; min-width: 360px; height: auto; min-height: 120px; border-radius: 0; overflow: hidden; z-index: 0; flex-shrink: 0; }
-
-@media (max-width: 768px) {
-    .page-card--has-map { flex-direction: column; padding-right: 14px; padding-bottom: 0; }
-    .page-card--has-map .page-card-body { padding-right: 0; padding-bottom: 10px; }
-    .agenda-map { width: 100%; min-width: 0; height: 120px; min-height: 0; border-radius: 0; margin: 0 -18px -14px; width: calc(100% + 36px); }
-}
-
 /* Type icons — emoji via CSS */
 .agenda-type.type-conference::before,
 .filter-btn.type-conference::before      { content: "🎤 "; }

@@ -6,46 +6,73 @@ periodes:
         description: "Virginie : première colonie anglaise à Jamestown (Chesapeake)."
         tags: [amérique, colonies]
         wikipedia: "https://fr.wikipedia.org/wiki/Jamestown_(Virginie)"
+        location: "Jamestown, Virginie"
+        lat: 37.2096
+        lon: -76.7780
       - date: "1620-12-26"
         titre: "Le Mayflower au Massachusetts"
         description: "Arrivée du Mayflower : fondation du Massachusetts."
         tags: [amérique, colonies]
         wikipedia: "https://fr.wikipedia.org/wiki/Mayflower"
+        location: "Plymouth, Massachusetts"
+        lat: 41.9584
+        lon: -70.6673
       - date: "1682-04-09"
         titre: "Les Français créent la Louisiane"
         description: "La France établit la Louisiane en Amérique du Nord."
         tags: [france, colonies]
         wikipedia: "https://fr.wikipedia.org/wiki/Louisiane_fran%C3%A7aise"
+        location: "Louisiane"
+        lat: 30.9843
+        lon: -91.9623
       - date: "1732-02-22"
         titre: "Naissance de George Washington"
         description: "Naissance de George Washington, futur commandant en chef et premier président."
         tags: [amérique, personnalité]
         wikipedia: "https://fr.wikipedia.org/wiki/George_Washington"
+        location: "Westmoreland County, Virginie"
+        lat: 38.1510
+        lon: -76.8613
       - date: "1745-05-11"
         titre: "Bataille de Fontenoy"
         description: "Victoire française à Fontenoy."
         tags: [france, bataille]
         wikipedia: "https://fr.wikipedia.org/wiki/Bataille_de_Fontenoy_(1745)"
+        location: "Fontenoy, Belgique"
+        lat: 50.5700
+        lon: 3.4700
       - date: "1754-05-27"
         titre: "Washington en Ohio – Jumonville assassiné"
         description: "Le lieutenant-colonel Washington en Ohio. L'officier français Jumonville est assassiné."
         tags: [amérique, france, bataille]
         wikipedia: "https://fr.wikipedia.org/wiki/Affaire_Jumonville"
+        location: "Jumonville Glen, Pennsylvanie"
+        lat: 39.8628
+        lon: -79.5881
       - date: "1757-09-06"
         titre: "Naissance de La Fayette"
         description: "Naissance de Marie-Joseph Paul Yves Roch Gilbert du Motier, marquis de La Fayette."
         tags: [france, personnalité]
         wikipedia: "https://fr.wikipedia.org/wiki/Gilbert_du_Motier_de_La_Fayette"
+        location: "Chavaniac-Lafayette, Auvergne"
+        lat: 45.1167
+        lon: 3.5833
       - date: "1759-09-16"
         titre: "Chute de Québec – Mort de Montcalm"
         description: "Chute de Québec et mort du marquis de Montcalm."
         tags: [france, bataille]
         wikipedia: "https://fr.wikipedia.org/wiki/Bataille_des_plaines_d%27Abraham"
+        location: "Québec, Canada"
+        lat: 46.8008
+        lon: -71.2135
       - date: "1763-02-10"
         titre: "Traité de Paris"
         description: "Traité de Paris mettant fin à la Guerre de Sept Ans. La France perd le Canada."
         tags: [france, angleterre, diplomatie]
         wikipedia: "https://fr.wikipedia.org/wiki/Trait%C3%A9_de_Paris_(1763)"
+        location: "Paris, France"
+        lat: 48.8566
+        lon: 2.3522
 
   - nom: "Les Préludes (1764-1775)"
     events:
@@ -54,61 +81,97 @@ periodes:
         description: "Le Parlement britannique impose le Sugar Act aux colonies."
         tags: [angleterre, colonies, taxation]
         wikipedia: "https://fr.wikipedia.org/wiki/Sugar_Act"
+        location: "Londres, Angleterre"
+        lat: 51.4995
+        lon: -0.1248
       - date: "1765-03-22"
         titre: "Stamp Act"
         description: "Le Stamp Act provoque la colère des colons américains."
         tags: [angleterre, colonies, taxation]
         wikipedia: "https://fr.wikipedia.org/wiki/Stamp_Act"
+        location: "Londres, Angleterre"
+        lat: 51.4995
+        lon: -0.1248
       - date: "1765-10-19"
         titre: "Déclaration des droits et griefs"
         description: "Déclaration des droits et griefs à New York."
         tags: [amérique, politique]
         wikipedia: "https://fr.wikipedia.org/wiki/Congr%C3%A8s_du_Stamp_Act"
+        location: "New York"
+        lat: 40.7128
+        lon: -74.0060
       - date: "1770-03-05"
         titre: "Massacre de Boston"
         description: "Des soldats britanniques tirent sur la foule à Boston."
         tags: [amérique, angleterre]
         wikipedia: "https://fr.wikipedia.org/wiki/Massacre_de_Boston"
+        location: "Boston, Massachusetts"
+        lat: 42.3601
+        lon: -71.0589
       - date: "1773-12-16"
         titre: "Boston Tea Party"
         description: "Les colons jettent le thé britannique dans le port de Boston."
         tags: [amérique, révolte]
         wikipedia: "https://fr.wikipedia.org/wiki/Boston_Tea_Party"
+        location: "Boston, Massachusetts"
+        lat: 42.3521
+        lon: -71.0511
       - date: "1774-05-12"
         titre: "Avènement de Louis XVI"
         description: "Louis XVI monte sur le trône de France."
         tags: [france, politique]
         wikipedia: "https://fr.wikipedia.org/wiki/Louis_XVI"
+        location: "Versailles, France"
+        lat: 48.8049
+        lon: 2.1204
       - date: "1774-07-21"
         titre: "Vergennes aux Affaires étrangères"
         description: "Le comte de Vergennes est nommé aux Affaires étrangères."
         tags: [france, diplomatie]
         wikipedia: "https://fr.wikipedia.org/wiki/Charles_Gravier_de_Vergennes"
+        location: "Versailles, France"
+        lat: 48.8049
+        lon: 2.1204
       - date: "1774-09-05"
         titre: "Premier Congrès continental"
         description: "Premier Congrès continental à Philadelphie."
         tags: [amérique, politique]
         wikipedia: "https://fr.wikipedia.org/wiki/Premier_Congr%C3%A8s_continental"
+        location: "Philadelphie, Pennsylvanie"
+        lat: 39.9486
+        lon: -75.1499
       - date: "1775-04-18"
         titre: "Combat de Lexington"
         description: "Premier combat de la Guerre d'Indépendance à Lexington."
         tags: [amérique, angleterre, bataille]
         wikipedia: "https://fr.wikipedia.org/wiki/Batailles_de_Lexington_et_Concord"
+        location: "Lexington, Massachusetts"
+        lat: 42.4493
+        lon: -71.2272
       - date: "1775-05-10"
         titre: "Second Congrès continental"
         description: "Ouverture du Second Congrès continental."
         tags: [amérique, politique]
         wikipedia: "https://fr.wikipedia.org/wiki/Second_Congr%C3%A8s_continental"
+        location: "Philadelphie, Pennsylvanie"
+        lat: 39.9486
+        lon: -75.1499
       - date: "1775-06-15"
         titre: "Washington Commandant en Chef"
         description: "George Washington est nommé Commandant en Chef de l'armée continentale."
         tags: [amérique, personnalité]
         wikipedia: "https://fr.wikipedia.org/wiki/George_Washington"
+        location: "Philadelphie, Pennsylvanie"
+        lat: 39.9486
+        lon: -75.1499
       - date: "1775-06-17"
         titre: "Bataille de Bunker Hill"
         description: "Combat de Bunker Hill près de Boston."
         tags: [amérique, angleterre, bataille]
         wikipedia: "https://fr.wikipedia.org/wiki/Bataille_de_Bunker_Hill"
+        location: "Charlestown, Massachusetts"
+        lat: 42.3764
+        lon: -71.0609
 
   - nom: "L'Indépendance et l'aide secrète (1776-1777)"
     events:
@@ -117,21 +180,33 @@ periodes:
         description: "Les Treize Colonies déclarent leur indépendance. Vergennes finance Beaumarchais pour l'aide secrète."
         tags: [amérique, france, politique]
         wikipedia: "https://fr.wikipedia.org/wiki/D%C3%A9claration_d%27ind%C3%A9pendance_des_%C3%89tats-Unis"
+        location: "Philadelphie, Pennsylvanie"
+        lat: 39.9489
+        lon: -75.1500
       - date: "1776-10-11"
         titre: "Bataille de Valcour Island"
         description: "Bataille de Valcour Island. Les insurgents sont stoppés au Canada."
         tags: [amérique, angleterre, bataille]
         wikipedia: "https://fr.wikipedia.org/wiki/Bataille_de_l%27%C3%AEle_Valcour"
+        location: "Île Valcour, lac Champlain"
+        lat: 44.6217
+        lon: -73.4340
       - date: "1776-11-16"
         titre: "Lord Howe prend New York"
         description: "Les Britanniques s'emparent de New York."
         tags: [angleterre, bataille]
         wikipedia: "https://fr.wikipedia.org/wiki/Bataille_de_Long_Island"
+        location: "New York"
+        lat: 40.7128
+        lon: -74.0060
       - date: "1777-01-02"
         titre: "Washington victorieux à Trenton"
         description: "Victoire de Washington à Trenton."
         tags: [amérique, bataille]
         wikipedia: "https://fr.wikipedia.org/wiki/Bataille_de_Trenton"
+        location: "Trenton, New Jersey"
+        lat: 40.2206
+        lon: -74.7641
       - date: "1777-04-13"
         titre: "La Rouërie en Amérique"
         description: "Le marquis de La Rouërie arrive en Amérique."
@@ -142,21 +217,33 @@ periodes:
         description: "La Fayette et le baron de Kalb débarquent en Amérique."
         tags: [france, volontaires, personnalité]
         wikipedia: "https://fr.wikipedia.org/wiki/Gilbert_du_Motier_de_La_Fayette"
+        location: "Georgetown, Caroline du Sud"
+        lat: 33.3710
+        lon: -79.2945
       - date: "1777-07-31"
         titre: "La Fayette major général"
         description: "La Fayette est nommé major général de l'armée continentale."
         tags: [france, amérique, personnalité]
         wikipedia: "https://fr.wikipedia.org/wiki/Gilbert_du_Motier_de_La_Fayette"
+        location: "Philadelphie, Pennsylvanie"
+        lat: 39.9486
+        lon: -75.1499
       - date: "1777-09-11"
         titre: "Échec à Brandywine"
         description: "Échec des insurgents à Brandywine."
         tags: [amérique, angleterre, bataille]
         wikipedia: "https://fr.wikipedia.org/wiki/Bataille_de_Brandywine"
+        location: "Chadds Ford, Pennsylvanie"
+        lat: 39.8715
+        lon: -75.5910
       - date: "1777-10-17"
         titre: "Capitulation de Saratoga"
         description: "Capitulation de Burgoyne à Saratoga. Tournant de la guerre."
         tags: [amérique, angleterre, bataille]
         wikipedia: "https://fr.wikipedia.org/wiki/Bataille_de_Saratoga"
+        location: "Saratoga, New York"
+        lat: 42.9993
+        lon: -73.6354
 
   - nom: "L'Alliance franco-américaine (1778-1779)"
     events:
@@ -165,46 +252,73 @@ periodes:
         description: "Signature du Traité d'amitié et de commerce et du Traité d'alliance entre la France et les États-Unis."
         tags: [france, amérique, diplomatie]
         wikipedia: "https://fr.wikipedia.org/wiki/Trait%C3%A9_d%27alliance_franco-am%C3%A9ricain"
+        location: "Paris, France"
+        lat: 48.8566
+        lon: 2.3522
       - date: "1778-04-13"
         titre: "D'Estaing appareille de Toulon"
         description: "L'amiral d'Estaing appareille de Toulon avec la première escadre française."
         tags: [france, marine]
         wikipedia: "https://fr.wikipedia.org/wiki/Charles_Henri_d%27Estaing"
+        location: "Toulon, France"
+        lat: 43.1242
+        lon: 5.9280
       - date: "1778-05-12"
         titre: "Steuben à Valley Forge"
         description: "Le baron de Steuben devient inspecteur à Valley Forge, réorganisant l'armée continentale."
         tags: [amérique, volontaires]
         wikipedia: "https://fr.wikipedia.org/wiki/Friedrich_Wilhelm_von_Steuben"
+        location: "Valley Forge, Pennsylvanie"
+        lat: 40.0996
+        lon: -75.4463
       - date: "1778-07-27"
         titre: "Combat d'Ouessant"
         description: "Premier combat naval majeur entre les flottes française et britannique."
         tags: [france, angleterre, marine, bataille]
         wikipedia: "https://fr.wikipedia.org/wiki/Bataille_d%27Ouessant_(1778)"
+        location: "Île d'Ouessant, France"
+        lat: 48.4614
+        lon: -5.0890
       - date: "1778-09-07"
         titre: "Bouillé prend La Dominique"
         description: "Le marquis de Bouillé s'empare de La Dominique aux Antilles."
         tags: [france, bataille]
         wikipedia: "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Claude_Amour_du_Bouill%C3%A9"
+        location: "La Dominique"
+        lat: 15.4150
+        lon: -61.3710
       - date: "1779-02-06"
         titre: "Retour de La Fayette à Brest"
         description: "La Fayette rentre en France pour plaider la cause américaine."
         tags: [france, personnalité]
         wikipedia: "https://fr.wikipedia.org/wiki/Gilbert_du_Motier_de_La_Fayette"
+        location: "Brest, France"
+        lat: 48.3904
+        lon: -4.4861
       - date: "1779-04-19"
         titre: "Traité d'Aranjuez"
         description: "Traité d'Aranjuez : l'Espagne entre en guerre aux côtés de la France."
         tags: [france, diplomatie]
         wikipedia: "https://fr.wikipedia.org/wiki/Trait%C3%A9_d%27Aranjuez_(1779)"
+        location: "Aranjuez, Espagne"
+        lat: 40.0333
+        lon: -3.6000
       - date: "1779-07-04"
         titre: "Prise de La Grenade"
         description: "Victoire française à La Grenade."
         tags: [france, bataille]
         wikipedia: "https://fr.wikipedia.org/wiki/Bataille_de_la_Grenade_(1779)"
+        location: "La Grenade"
+        lat: 12.1165
+        lon: -61.6790
       - date: "1779-10-09"
         titre: "Échec à Savannah"
         description: "Échec du siège de Savannah. D'Estaing est blessé."
         tags: [france, amérique, bataille]
         wikipedia: "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Savannah_(1779)"
+        location: "Savannah, Géorgie"
+        lat: 32.0809
+        lon: -81.0912
 
   - nom: "Le Corps Expéditionnaire (1780)"
     events:
@@ -213,6 +327,9 @@ periodes:
         description: "L'amiral de Guichen appareille de Brest pour les Antilles."
         tags: [france, marine]
         wikipedia: "https://fr.wikipedia.org/wiki/Luc_Urbain_de_Bouexic_de_Guichen"
+        location: "Brest, France"
+        lat: 48.3904
+        lon: -4.4861
       - date: "1780-04-27"
         titre: "Second séjour de La Fayette"
         description: "La Fayette repart en Amérique pour son second séjour."
@@ -223,26 +340,41 @@ periodes:
         description: "Le chevalier de Ternay et le Corps Expéditionnaire de Rochambeau appareillent de Brest."
         tags: [france, marine, corps-expéditionnaire]
         wikipedia: "https://fr.wikipedia.org/wiki/Charles-Henri-Louis_d%27Arsac_de_Ternay"
+        location: "Brest, France"
+        lat: 48.3904
+        lon: -4.4861
       - date: "1780-05-12"
         titre: "Clinton prend Charleston"
         description: "Les Britanniques s'emparent de Charleston."
         tags: [angleterre, bataille]
         wikipedia: "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Charleston_(1780)"
+        location: "Charleston, Caroline du Sud"
+        lat: 32.7765
+        lon: -79.9311
       - date: "1780-07-14"
         titre: "Rochambeau à Newport"
         description: "Le Corps Expéditionnaire de Rochambeau débarque à Newport, Rhode Island."
         tags: [france, amérique, corps-expéditionnaire]
         wikipedia: "https://fr.wikipedia.org/wiki/Jean-Baptiste_Donatien_de_Vimeur_de_Rochambeau"
+        location: "Newport, Rhode Island"
+        lat: 41.4901
+        lon: -71.3128
       - date: "1780-08-16"
         titre: "Défaite de Camden – Mort de Kalb"
         description: "Cornwallis défait Gates à Camden. Le baron de Kalb est tué au combat."
         tags: [amérique, angleterre, france, bataille]
         wikipedia: "https://fr.wikipedia.org/wiki/Bataille_de_Camden"
+        location: "Camden, Caroline du Sud"
+        lat: 34.2468
+        lon: -80.6070
       - date: "1780-09-20"
         titre: "Rochambeau rencontre Washington"
         description: "Première rencontre entre Rochambeau et Washington pour planifier la campagne."
         tags: [france, amérique, personnalité]
         wikipedia: "https://fr.wikipedia.org/wiki/Jean-Baptiste_Donatien_de_Vimeur_de_Rochambeau"
+        location: "Hartford, Connecticut"
+        lat: 41.7658
+        lon: -72.6734
 
   - nom: "Yorktown et la victoire (1781)"
     events:
@@ -251,36 +383,57 @@ periodes:
         description: "Premier combat naval dans la baie de Chesapeake."
         tags: [france, angleterre, marine, bataille]
         wikipedia: "https://fr.wikipedia.org/wiki/Bataille_de_la_baie_de_Chesapeake_(1781)"
+        location: "Baie de Chesapeake, Virginie"
+        lat: 37.0384
+        lon: -76.0874
       - date: "1781-03-22"
         titre: "De Grasse appareille de Brest"
         description: "L'amiral de Grasse appareille de Brest avec sa flotte."
         tags: [france, marine]
         wikipedia: "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Joseph_Paul_de_Grasse"
+        location: "Brest, France"
+        lat: 48.3904
+        lon: -4.4861
       - date: "1781-04-29"
         titre: "De Grasse dégage Fort Royal"
         description: "De Grasse dégage Fort Royal à la Martinique."
         tags: [france, marine, bataille]
         wikipedia: "https://fr.wikipedia.org/wiki/Bataille_de_Fort-Royal"
+        location: "Fort-de-France, Martinique"
+        lat: 14.6161
+        lon: -61.0588
       - date: "1781-06-01"
         titre: "De Grasse prend Tobago"
         description: "L'amiral de Grasse s'empare de Tobago."
         tags: [france, bataille]
         wikipedia: "https://fr.wikipedia.org/wiki/Bataille_de_Tobago"
+        location: "Tobago"
+        lat: 11.2500
+        lon: -60.6667
       - date: "1781-08-19"
         titre: "Rochambeau franchit l'Hudson"
         description: "Les armées française et américaine se mettent en marche vers le sud."
         tags: [france, amérique, corps-expéditionnaire]
         wikipedia: "https://fr.wikipedia.org/wiki/Jean-Baptiste_Donatien_de_Vimeur_de_Rochambeau"
+        location: "King's Ferry, New York"
+        lat: 41.2401
+        lon: -73.9712
       - date: "1781-09-06"
         titre: "Bataille de la Chesapeake"
         description: "De Grasse engage et repousse la flotte anglaise au large de la Chesapeake. Victoire navale décisive."
         tags: [france, angleterre, marine, bataille]
         wikipedia: "https://fr.wikipedia.org/wiki/Bataille_de_la_baie_de_Chesapeake_(1781)"
+        location: "Cap Henry, Virginie"
+        lat: 36.9280
+        lon: -76.0074
       - date: "1781-10-19"
         titre: "Capitulation de Yorktown"
         description: "Cornwallis capitule à Yorktown. 6 000 Anglais et 2 000 Allemands désarmés. Victoire décisive de Rochambeau, de Grasse et La Fayette."
         tags: [france, amérique, angleterre, bataille, corps-expéditionnaire]
         wikipedia: "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Yorktown"
+        location: "Yorktown, Virginie"
+        lat: 37.2388
+        lon: -76.5097
 
   - nom: "La Paix (1782-1789)"
     events:
@@ -289,11 +442,17 @@ periodes:
         description: "Bouillé et de Grasse prennent Saint-Christophe aux Antilles."
         tags: [france, bataille]
         wikipedia: "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Brimstone_Hill"
+        location: "Brimstone Hill, Saint-Christophe"
+        lat: 17.3500
+        lon: -62.8333
       - date: "1782-04-12"
         titre: "Défaite des Saintes"
         description: "Rodney défait de Grasse à la bataille des Saintes."
         tags: [france, angleterre, marine, bataille]
         wikipedia: "https://fr.wikipedia.org/wiki/Bataille_des_Saintes"
+        location: "Les Saintes, Guadeloupe"
+        lat: 15.8667
+        lon: -61.6333
       - date: "1782-01-01"
         titre: "Victoires de Suffren"
         description: "Dans l'Océan Indien, le bailli de Suffren enchaîne les victoires navales."
@@ -304,25 +463,38 @@ periodes:
         description: "Le Corps Expéditionnaire français rembarque à Boston."
         tags: [france, corps-expéditionnaire]
         wikipedia: "https://fr.wikipedia.org/wiki/Exp%C3%A9dition_de_Rochambeau"
+        location: "Boston, Massachusetts"
+        lat: 42.3601
+        lon: -71.0589
       - date: "1783-09-03"
         titre: "Paix de Versailles"
         description: "Traité de Versailles. L'Angleterre reconnaît l'indépendance des États-Unis."
         tags: [france, amérique, angleterre, diplomatie]
         wikipedia: "https://fr.wikipedia.org/wiki/Trait%C3%A9_de_Versailles_(1783)"
+        location: "Versailles, France"
+        lat: 48.8049
+        lon: 2.1204
       - date: "1787-09-17"
         titre: "Constitution des États-Unis"
         description: "Adoption de la Constitution des États-Unis d'Amérique."
         tags: [amérique, politique]
         wikipedia: "https://fr.wikipedia.org/wiki/Constitution_des_%C3%89tats-Unis"
+        location: "Philadelphie, Pennsylvanie"
+        lat: 39.9486
+        lon: -75.1499
       - date: "1789-04-30"
         titre: "Washington Président"
         description: "George Washington est élu premier président des États-Unis."
         tags: [amérique, personnalité, politique]
         wikipedia: "https://fr.wikipedia.org/wiki/George_Washington"
+        location: "New York"
+        lat: 40.7074
+        lon: -74.0113
       - date: "1789-05-05"
         titre: "Ouverture des États Généraux"
         description: "Ouverture des États Généraux à Versailles. Début de la Révolution Française."
         tags: [france, politique]
         wikipedia: "https://fr.wikipedia.org/wiki/%C3%89tats_g%C3%A9n%C3%A9raux_de_1789"
-
-
+        location: "Versailles, France"
+        lat: 48.8049
+        lon: 2.1204

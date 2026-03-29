@@ -21,6 +21,9 @@ $(function() {
     var $filters = $('.filter-btn[data-tag]');
     var $items = $('.tl-row[data-tags]');
 
+    // Mini-maps Leaflet (shared helper from map.js)
+    initPageCardMaps();
+
     $filters.on('click', function() {
         $filters.removeClass('active');
         $(this).addClass('active');

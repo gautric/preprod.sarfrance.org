@@ -1,6 +1,7 @@
 {{ define "head" }}
 {{- $css := resources.Get "css/chronologie.css" | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 {{ end }}
 {{ define "main" }}
 <section class="page-content">
@@ -26,23 +27,29 @@
                 {{ $firstTag := index .tags 0 }}
                 <div class="tl-row" data-tags="{{ delimit .tags "," }}">
                     <div class="tl-dot"></div>
-                    <div class="page-card">
-                        <div class="page-card-header">
-                            <span class="page-card-date" data-iso-date="{{ .date }}">{{ .date }}</span>
-                            <div class="page-card-tags">
-                                {{ range .tags }}
-                                <span class="tag tag-{{ . | urlize }}">{{ i18n (printf "chrono_tag_%s" .) }}</span>
-                                {{ end }}
+                    <div class="page-card{{ if and .lat .lon (ne (printf "%v" .lat) "0") }} page-card--has-map{{ end }}">
+                        <div class="page-card-body">
+                            <div class="page-card-header">
+                                <span class="page-card-date" data-iso-date="{{ .date }}">{{ .date }}</span>
+                                <div class="page-card-tags">
+                                    {{ range .tags }}
+                                    <span class="tag tag-{{ . | urlize }}">{{ i18n (printf "chrono_tag_%s" .) }}</span>
+                                    {{ end }}
+                                </div>
                             </div>
+                            <h3 class="page-card-title">
+                                {{ if .wikipedia }}
+                                <a href="{{ .wikipedia }}" target="_blank" rel="noopener noreferrer" class="page-card-link">{{ .titre }}</a>
+                                {{ else }}
+                                {{ .titre }}
+                                {{ end }}
+                            </h3>
+                            <p class="page-card-desc">{{ .description }}</p>
+                            {{ with .location }}<div class="chrono-card-meta"><span class="chrono-card-location">📍 {{ . }}</span></div>{{ end }}
                         </div>
-                        <h3 class="page-card-title">
-                            {{ if .wikipedia }}
-                            <a href="{{ .wikipedia }}" target="_blank" rel="noopener noreferrer" class="page-card-link">{{ .titre }}</a>
-                            {{ else }}
-                            {{ .titre }}
-                            {{ end }}
-                        </h3>
-                        <p class="page-card-desc">{{ .description }}</p>
+                        {{ if and .lat .lon (ne (printf "%v" .lat) "0") }}
+                        <div class="page-card-map" data-lat="{{ .lat }}" data-lon="{{ .lon }}" data-location="{{ .location }}"></div>
+                        {{ end }}
                     </div>
                 </div>
                 {{ end }}
@@ -53,6 +60,9 @@
 </section>
 {{ end }}
 {{ define "scripts" }}
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+{{- $mapJS := resources.Get "js/map.js" | resources.Fingerprint }}
+<script src="{{ $mapJS.RelPermalink }}" integrity="{{ $mapJS.Data.Integrity }}"></script>
 {{- $js := resources.Get "js/chronologie.js" | resources.Fingerprint }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 {{ end }}

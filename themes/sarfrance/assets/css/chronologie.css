@@ -3,6 +3,11 @@
 /* Chronologie uses .tl-axis with less bottom padding */
 .chrono-tl { padding-bottom: 10px; }
 
+/* Location meta inside chrono cards */
+.chrono-card-meta { font-size: 0.82rem; color: var(--text-muted); margin-top: 6px; }
+.chrono-card-meta:empty { display: none; }
+.chrono-card-location { white-space: nowrap; }
+
 /* Tag icons — emoji via CSS (shared between .tag and .filter-btn) */
 .tag-france::before           { content: '🇫🇷 '; }
 .tag-amerique::before         { content: '🇺🇸 '; }
