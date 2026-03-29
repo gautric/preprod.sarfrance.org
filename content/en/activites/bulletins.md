@@ -1,20 +1,12 @@
 ---
-title: "Publications"
-description: "SAR France publications"
+title: "Newsletter"
+description: "SAR France newsletter: L'Alliance Franco-Américaine"
 ---
 
 ## L'Alliance Franco-Américaine
 
-SAR France publishes an annual journal: L'Alliance Franco-Américaine, the latest issue of which is available from our [secretariat](/en/contact/#secretariat).
+SAR France publishes an annual journal, L'Alliance Franco-Américaine, produced by its members. This newsletter is reserved for members of the Society and available from our [secretariat](/en/contact/#secretariat).
 
-## Books
+To receive the newsletter, you may [join the Society](/en/contact/nous-rejoindre/).
 
-- **"La glorieuse campagne du comte de Grasse"** – A collective work commenting on the campaign journal of a ship garrison officer, René-Calixte de Labat de Lapeyrière, rich in insights and previously unpublished information (Éditions SPM, 2010).
-
-- **"France's contribution to American Independence"** – An educational film in English, with a bilingual Franco-English booklet, providing an overview of the diplomatic, economic, and military resources deployed by France (Directed by Geneviève Husson, Images en tête Production 2011, double DVD, 45 minutes).
-
-- **"La France au secours de l'Amérique"** – An analysis of the Particular Expedition of General Count de Rochambeau and the Chevalier de Ternay, by Jacques de Trentinian (Éd. SPM, June 2016), with the collaboration of the History Committee members.
-
-## Library
-
-The Society maintains a library available for consultation at the [secretariat](/en/contact/#secretariat), gathering books, documents, and archives relating to the American War of Independence and the history of Franco-American relations.
+See also our [other publications](/en/activites/publications/).

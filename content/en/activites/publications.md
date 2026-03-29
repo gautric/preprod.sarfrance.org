@@ -3,6 +3,8 @@ title: "Other Publications"
 description: "Books and other publications by SAR France"
 ---
 
+The works listed below are specific projects undertaken by the Society or its members. They are available for purchase from our [secretariat](/en/contact/#secretariat).
+
 ## Books
 
 - **"La glorieuse campagne du comte de Grasse"** – A collective work commenting on the campaign journal of a ship garrison officer, René-Calixte de Labat de Lapeyrière, rich in insights and previously unpublished information (Éditions SPM, 2010).

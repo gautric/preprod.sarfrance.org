@@ -118,20 +118,25 @@ languages:
           parent: "activites"
           weight: 3
         - identifier: "bulletins"
-          name: "Publications"
+          name: "Bulletin"
           url: "/activites/bulletins/"
           parent: "activites"
           weight: 4
+        - identifier: "publications"
+          name: "Autres publications"
+          url: "/activites/publications/"
+          parent: "activites"
+          weight: 5
         - identifier: "prix-trentinian"
           name: "Prix « Jacques de Trentinian »"
           url: "/activites/prix-trentinian/"
           parent: "activites"
-          weight: 5
+          weight: 6
         - identifier: "bibliotheque"
           name: "Bibliothèque"
           url: "/activites/bibliotheque/"
           parent: "activites"
-          weight: 6
+          weight: 7
         # Submenus - Contact
         - identifier: "formulaire"
           name: "Nous contacter"
@@ -265,20 +270,25 @@ languages:
           parent: "activites"
           weight: 3
         - identifier: "bulletins"
-          name: "Publications"
+          name: "Newsletter"
           url: "/en/activites/bulletins/"
           parent: "activites"
           weight: 4
+        - identifier: "publications"
+          name: "Other Publications"
+          url: "/en/activites/publications/"
+          parent: "activites"
+          weight: 5
         - identifier: "prix-trentinian"
           name: "\"Jacques de Trentinian\" Award"
           url: "/en/activites/prix-trentinian/"
           parent: "activites"
-          weight: 5
+          weight: 6
         - identifier: "bibliotheque"
           name: "Library"
           url: "/en/activites/bibliotheque/"
           parent: "activites"
-          weight: 6
+          weight: 7
         # Submenus - Contact
         - identifier: "formulaire"
           name: "Contact Us"

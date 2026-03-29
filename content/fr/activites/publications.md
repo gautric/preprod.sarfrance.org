@@ -3,6 +3,8 @@ title: "Autres Publications"
 description: "Ouvrages et autres publications de SAR France"
 ---
 
+Les ouvrages ci-dessous sont des projets ponctuels réalisés à l'initiative de la Société ou de ses membres. Ils sont disponibles à la vente auprès de notre [secrétariat](/contact/#secretariat).
+
 ## Ouvrages
 
 - **« La glorieuse campagne du comte de Grasse »** – Œuvre collective en commentaire du Journal de campagne d'un officier des garnisons de vaisseau, René-Calixte de Labat de Lapeyrière, riche d'éclairages et d'informations inédites (Éditions SPM, 2010).
