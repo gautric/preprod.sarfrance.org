@@ -111,4 +111,4 @@ From the Cincinnati insignia, the eagle has been retained — the same eagle tha
 
 ---
 
-See also: [The NSSAR](/en/organisation/nssar/) — [Purpose of SAR France](/en/organisation/objet-et-histoire/) — [Sister Societies](/en/organisation/societes/)
+See also: [The NSSAR](/en/organisation/nssar/) — [Purpose and Mission](/en/organisation/objet-et-vocation/) — [Sister Societies](/en/organisation/societes/)

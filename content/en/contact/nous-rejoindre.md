@@ -3,7 +3,7 @@ title: "Join Us"
 description: "Admission requirements, documents to provide and registration fees"
 ---
 
-To discover the missions of SAR France, see the [Purpose of SAR France](/en/organisation/objet-et-histoire/) page.
+To discover the missions of SAR France, see the [Purpose and Mission](/en/organisation/objet-et-vocation/) page.
 
 ## Who Can Join?
 

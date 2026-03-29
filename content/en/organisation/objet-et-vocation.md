@@ -1,5 +1,5 @@
 ---
-title: "Purpose of SAR France"
+title: "Purpose and Mission"
 description: "Threefold transatlantic, historical and cultural mission of SAR France"
 ---
 

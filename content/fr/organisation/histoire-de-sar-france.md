@@ -111,5 +111,5 @@ De l'insigne des [Cincinnati](/organisation/societes/), on a conservé l'aigle, 
 
 ---
 
-Voir aussi : [La NSSAR](/organisation/nssar/) — [Objet de SAR France](/organisation/objet-et-histoire/) — [Sociétés sœurs](/organisation/societes/)
+Voir aussi : [La NSSAR](/organisation/nssar/) — [Objet et Vocation](/organisation/objet-et-vocation/) — [Sociétés sœurs](/organisation/societes/)
 

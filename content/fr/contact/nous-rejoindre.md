@@ -3,7 +3,7 @@ title: "Nous rejoindre"
 description: "Conditions d'admission, documents à produire et frais d'inscription"
 ---
 
-Pour découvrir les missions de SAR France, consultez la page [Objet de SAR France](/organisation/objet-et-histoire/).
+Pour découvrir les missions de SAR France, consultez la page [Objet et Vocation](/organisation/objet-et-vocation/).
 
 ## Qui peut adhérer ?
 

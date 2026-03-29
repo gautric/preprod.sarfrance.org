@@ -88,7 +88,7 @@ Dossier : `content/fr/organisation/`
 | Page sur le site | Fichier |
 |---|---|
 | NSSAR | `nssar.md` |
-| Objet de SAR France | `objet-et-histoire.md` |
+| Objet et Vocation | `objet-et-vocation.md` |
 | Statuts & Règlement | `statuts.md` |
 | Autres sociétés françaises | `societes.md` |
 
@@ -152,7 +152,7 @@ Dossier : `content/fr/contact/`
 |---|---|
 | Nous contacter | `_index.md` |
 | Nous rejoindre | `nous-rejoindre.md` |
-| Cotisation et don | `cotisation.md` |
+| Cotisation et dons | `cotisation.md` |
 | Mentions légales | `mentions-legales.md` |
 
 ### Fichiers de données

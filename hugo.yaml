@@ -58,9 +58,9 @@ languages:
           url: "/organisation/nssar/"
           parent: "organisation"
           weight: 3
-        - identifier: "objet-et-histoire"
-          name: "Objet de SAR France"
-          url: "/organisation/objet-et-histoire/"
+        - identifier: "objet-et-vocation"
+          name: "Objet et Vocation"
+          url: "/organisation/objet-et-vocation/"
           parent: "organisation"
           weight: 4
         - identifier: "statuts"
@@ -69,7 +69,7 @@ languages:
           parent: "organisation"
           weight: 5
         - identifier: "societes"
-          name: "Autres sociétés françaises"
+          name: "Sociétés sœurs"
           url: "/organisation/societes/"
           parent: "organisation"
           weight: 6
@@ -154,7 +154,7 @@ languages:
           parent: "contact"
           weight: 2
         - identifier: "cotisation"
-          name: "Cotisation et don"
+          name: "Cotisation et dons"
           url: "/contact/cotisation/"
           parent: "contact"
           weight: 3
@@ -215,9 +215,9 @@ languages:
           url: "/en/organisation/nssar/"
           parent: "organisation"
           weight: 2
-        - identifier: "objet-et-histoire"
-          name: "Purpose of SAR France"
-          url: "/en/organisation/objet-et-histoire/"
+        - identifier: "objet-et-vocation"
+          name: "Purpose and Mission"
+          url: "/en/organisation/objet-et-vocation/"
           parent: "organisation"
           weight: 3
         - identifier: "statuts"

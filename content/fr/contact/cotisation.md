@@ -1,5 +1,5 @@
 ---
-title: "Cotisation et don"
+title: "Cotisation et dons"
 description: "Cotisation annuelle, don et avantage fiscal – Association reconnue d'utilité publique"
 ---
 

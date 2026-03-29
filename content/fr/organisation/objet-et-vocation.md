@@ -1,5 +1,5 @@
 ---
-title: "Objet de SAR France"
+title: "Objet et Vocation"
 description: "Triple vocation transatlantique, historique et culturelle de SAR France"
 ---
 
