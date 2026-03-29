@@ -4,8 +4,9 @@ $(function() {
     var locale = (lang === 'en-US' || lang === 'en') ? 'en' : 'fr';
     moment.locale(locale);
 
-    var dateFmt = 'D MMMM YYYY';
-    var dateTimeFmt = 'D MMMM YYYY, HH:mm';
+    var dateFmt = (locale === 'en') ? 'MMMM D, YYYY' : 'D MMMM YYYY';
+    var timeFmt = (locale === 'en') ? 'h:mm A' : 'HH:mm';
+    var dateTimeFmt = dateFmt + ', ' + timeFmt;
 
     // Format month labels
     $('.tl-group-title[data-month-date]').each(function() {
@@ -23,7 +24,14 @@ $(function() {
         var fmt = (interval[0].indexOf('T') !== -1) ? dateTimeFmt : dateFmt;
         if (interval.length > 1) {
             var end = moment(interval[1]);
-            $(this).text(start.format(fmt) + ' \u2013 ' + end.format(dateFmt));
+            var sameDay = start.isSame(end, 'day');
+            var endFmt;
+            if (sameDay) {
+                endFmt = (interval[1].indexOf('T') !== -1) ? timeFmt : dateFmt;
+            } else {
+                endFmt = (interval[1].indexOf('T') !== -1) ? dateTimeFmt : dateFmt;
+            }
+            $(this).text(start.format(fmt) + ' \u2013 ' + end.format(endFmt));
         } else {
             $(this).text(start.format(fmt));
         }

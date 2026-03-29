@@ -447,14 +447,14 @@ events:
     link: ""
     lat: 48.8675
     lon: 2.2362
-  - date: "2026-05-20"
-    title: "Sortie dans le Loiret avec les Amis de Rochambeau"
+  - date: "2026-05-20T09:45/2026-05-20T16:00"
+    title: "Sortie dans le Loiret – Musée Mémorial de la Shoah (Pithiviers) et Atelier Musée de l'Imprimerie (Malesherbes)"
     type: visite
-    description: ""
-    location: "Loiret"
+    description: "9h45 visite guidée du Musée Mémorial de la Shoah (Pl. de la Gare, Pithiviers), déjeuner sur place, 14h visite guidée de l'Atelier Musée de l'Imprimerie (70 rue du Général Patton, Malesherbes). Trajet en covoiturage."
+    location: "Pithiviers et Malesherbes (Loiret)"
     link: ""
-    lat: 47.9135
-    lon: 1.7601
+    lat: 48.1717
+    lon: 2.2522
   - date: "2026-05-25/2026-05-26"
     title: "Memorial Day"
     type: commémoration

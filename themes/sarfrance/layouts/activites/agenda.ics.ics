@@ -28,9 +28,16 @@ DTSTART;VALUE=DATE:{{ $startClean }}
 {{- end }}
 {{- if $hasEnd -}}
 {{- $endRaw := index $intervalParts 1 -}}
+{{- if strings.Contains $endRaw "T" -}}
+{{- $dtParts := split $endRaw "T" -}}
+{{- $datePart := replace (index $dtParts 0) "-" "" -}}
+{{- $timePart := replace (index $dtParts 1) ":" "" }}
+DTEND;TZID=Europe/Paris:{{ $datePart }}T{{ $timePart }}
+{{- else -}}
 {{- $endTime := time.AsTime (printf "%sT00:00:00Z" $endRaw) -}}
 {{- $endPlusOne := $endTime.AddDate 0 0 1 }}
 DTEND;VALUE=DATE:{{ $endPlusOne.Format "20060102" }}
+{{- end }}
 {{- end }}
 SUMMARY:{{ .title }}
 {{- if and .description (ne .description "") }}
