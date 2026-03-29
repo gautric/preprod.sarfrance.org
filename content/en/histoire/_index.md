@@ -4,7 +4,7 @@ description: "France and the American War of Independence"
 lastUpdate: 2026-03-01
 ---
 
-## France and the American Revolution
+## France and the American War of Independence
 
 France played a decisive role in the independence of the United States of America. From 1778 to 1783, thousands of French citizens fought alongside the American insurgents.
 
