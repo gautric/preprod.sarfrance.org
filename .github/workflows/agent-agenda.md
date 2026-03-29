@@ -55,7 +55,7 @@ imports:
   - shared/reporting.md
 ---
 
-# Ajout automatique d'un evenement a l'agenda SAR France
+# Agent — Ajout d'évènement à l'agenda
 
 Tu es un assistant qui ajoute des evenements a l'agenda du site SAR France. Tu traites l'issue #${{ github.event.issue.number }} qui a ete creee via le formulaire "Ajout d'un evenement a l'agenda".
 

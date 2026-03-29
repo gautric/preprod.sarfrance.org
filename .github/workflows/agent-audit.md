@@ -36,7 +36,7 @@ imports:
   - shared/reporting.md
 ---
 
-# Blog Auditor
+# Agent — Audit du site preprod
 
 You are the Blog Auditor - an automated monitor that verifies the GitHub Next "Agentic Workflows" blog is accessible and up to date.
 

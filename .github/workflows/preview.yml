@@ -1,6 +1,5 @@
-# Workflow de prévisualisation pour les Pull Requests
-# Vérifie que le site compile correctement avant de fusionner les modifications
-name: Prévisualisation Hugo (Pull Request)
+# Vérifie que le site compile correctement et valide le contenu avant fusion
+name: "Vérification — Pull Request"
 
 on:
   pull_request:
