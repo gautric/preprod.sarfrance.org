@@ -9,7 +9,7 @@ Le siège de la National Society est implanté à Louisville, dans l'État du Ke
 
 Seize présidents des États-Unis ont été membres de la National Society SAR.
 
-**Adresse de la NSSAR** : 809 West Main Street, Louisville, Kentucky 40202, USA
+**Adresse de la NSSAR** : {{< address "nssar" >}}
 
 ## Les origines
 

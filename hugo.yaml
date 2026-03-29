@@ -310,6 +310,7 @@ params:
     city: "Paris"
     country: "France"
     full: "20 rue Bosquet, 75007 Paris, France"
+    nssar: "809 West Main Street, Louisville, Kentucky 40202, USA"
   contact:
     email: "sarfrance.sons@gmail.com"
     phone: "01 40 62 97 19"

@@ -39,7 +39,7 @@ lastUpdate: 2026-03-01
 
 SAR France is affiliated with the National Society Sons of the American Revolution (NSSAR), headquartered in Louisville, Kentucky, United States.
 
-**Address**: 809 West Main Street, Louisville, KY 40202, USA  
+**Address**: {{< address "nssar" >}}  
 **Website**: [www.sar.org](https://www.sar.org)
 
 </div>

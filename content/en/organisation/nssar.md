@@ -9,7 +9,7 @@ The headquarters of the National Society is located in Louisville, Kentucky. The
 
 Sixteen Presidents of the United States have been members of the National Society SAR.
 
-**NSSAR Address**: 809 West Main Street, Louisville, Kentucky 40202, USA
+**NSSAR Address**: {{< address "nssar" >}}
 
 ## Origins
 
