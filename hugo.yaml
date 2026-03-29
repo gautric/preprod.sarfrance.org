@@ -43,70 +43,85 @@ languages:
           url: "/contact/"
           weight: 5
         # Submenus - Organisation
+        - identifier: "organisation-index"
+          name: "Organisation"
+          url: "/organisation/"
+          parent: "organisation"
+          weight: 1
         - identifier: "nssar"
           name: "NSSAR"
           url: "/organisation/nssar/"
           parent: "organisation"
-          weight: 1
+          weight: 2
         - identifier: "objet-et-histoire"
           name: "Objet de SAR France"
           url: "/organisation/objet-et-histoire/"
           parent: "organisation"
-          weight: 2
+          weight: 3
         - identifier: "statuts"
           name: "Statuts & Règlement"
           url: "/organisation/statuts/"
           parent: "organisation"
-          weight: 3
+          weight: 4
         - identifier: "societes"
           name: "Autres sociétés françaises"
           url: "/organisation/societes/"
           parent: "organisation"
-          weight: 4
+          weight: 5
         # Submenus - Histoire
+        - identifier: "histoire-index"
+          name: "Histoire"
+          url: "/histoire/"
+          parent: "histoire"
+          weight: 1
         - identifier: "histoire-sar-france"
           name: "Histoire de SAR France"
           url: "/histoire/histoire-de-sar-france/"
           parent: "histoire"
-          weight: 1
+          weight: 2
         - identifier: "chronologie"
           name: "Chronologie"
           url: "/histoire/chronologie/"
           parent: "histoire"
-          weight: 2
+          weight: 3
         - identifier: "operations"
           name: "Opérations militaires"
           url: "/histoire/operations/"
           parent: "histoire"
-          weight: 3
+          weight: 4
         - identifier: "chefs"
           name: "Chefs militaires et volontaires"
           url: "/histoire/chefs-militaires/"
           parent: "histoire"
-          weight: 4
+          weight: 5
         - identifier: "hauts-lieux"
           name: "Hauts lieux en France"
           url: "/histoire/hauts-lieux/"
           parent: "histoire"
-          weight: 5
+          weight: 6
         - identifier: "pertes-francaises"
           name: "Pertes françaises"
           url: "/histoire/pertes-francaises/"
           parent: "histoire"
-          weight: 6
+          weight: 7
         - identifier: "strategies"
           name: "Stratégies et politique françaises"
           url: "/histoire/strategies-et-politique-francaises/"
           parent: "histoire"
-          weight: 7
+          weight: 8
         # Submenus - Activités
+        - identifier: "activites-index"
+          name: "Activités"
+          url: "/activites/"
+          parent: "activites"
+          weight: 1
         - identifier: "agenda"
           name: "Agenda"
           url: "/activites/agenda-2026/"
           params:
             dynamic_year: true
           parent: "activites"
-          weight: 1
+          weight: 2
         - identifier: "dictionnaire"
           name: "Dictionnaire biographique"
           url: "/activites/dictionnaire/"
@@ -185,6 +200,11 @@ languages:
           url: "/en/contact/"
           weight: 5
         # Submenus - Organization
+        - identifier: "organisation-index"
+          name: "Organization"
+          url: "/en/organisation/"
+          parent: "organisation"
+          weight: 0
         - identifier: "nssar"
           name: "NSSAR"
           url: "/en/organisation/nssar/"
@@ -206,6 +226,11 @@ languages:
           parent: "organisation"
           weight: 4
         # Submenus - History
+        - identifier: "histoire-index"
+          name: "History"
+          url: "/en/histoire/"
+          parent: "histoire"
+          weight: 0
         - identifier: "histoire-sar-france"
           name: "History of SAR France"
           url: "/en/histoire/histoire-de-sar-france/"
@@ -242,6 +267,11 @@ languages:
           parent: "histoire"
           weight: 7
         # Submenus - Activities
+        - identifier: "activites-index"
+          name: "Activities"
+          url: "/en/activites/"
+          parent: "activites"
+          weight: 0
         - identifier: "agenda"
           name: "Calendar"
           url: "/en/activites/agenda-2026/"
