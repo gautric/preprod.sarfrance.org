@@ -10,18 +10,18 @@ SAR France organise tout au long de l'année des activités visant à perpétuer
 
 ### Conférences et manifestations commémoratives
 
-Interventions pour faire mieux connaître à nos membres et à nos amis américains notre histoire commune, et notamment préciser divers épisodes mal connus.
+Interventions pour faire mieux connaître à nos membres et à nos amis américains notre histoire commune, et notamment préciser divers épisodes mal connus. Consultez notre [agenda](/activites/agenda-2026/) pour découvrir les prochains événements.
 
 ### Recherche historique
 
 - Recueil et exploitation d'archives familiales méconnues
-- Prix de Thèse des SAR — Prix « Jacques de Trentinian » — pour encourager la recherche historique
-- Dictionnaire biographique des ancêtres SAR France
+- [Prix « Jacques de Trentinian »](/activites/prix-trentinian/) — pour encourager la recherche historique
+- [Dictionnaire biographique](/activites/dictionnaire/) des ancêtres SAR France
 
 ### Publications
 
-- Revue « L'Alliance Franco-Américaine »
-- Ouvrages collectifs et films éducatifs
+- Revue « L'Alliance Franco-Américaine » et ouvrages collectifs — voir la page [Revue et publications](/activites/publications/)
+- [Bibliothèque](/activites/bibliotheque/) — inventaire des ouvrages de la Société
 
 ### Événements récents
 

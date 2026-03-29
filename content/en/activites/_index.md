@@ -10,18 +10,18 @@ SAR France organizes activities throughout the year to perpetuate the memory of 
 
 ### Conferences and Commemorative Events
 
-Presentations to help our members and American friends better understand our shared history, including lesser-known episodes.
+Presentations to help our members and American friends better understand our shared history, including lesser-known episodes. See our [agenda](/en/activites/agenda-2026/) for upcoming events.
 
 ### Historical Research
 
 - Collection and analysis of little-known family archives
-- SAR Thesis Award — "Jacques de Trentinian" Prize — to encourage historical research
-- Biographical dictionary of SAR France ancestors
+- ["Jacques de Trentinian" Prize](/en/activites/prix-trentinian/) — to encourage historical research
+- [Biographical dictionary](/en/activites/dictionnaire/) of SAR France ancestors
 
 ### Publications
 
-- "L'Alliance Franco-Américaine" journal
-- Collective works and educational films
+- "L'Alliance Franco-Américaine" journal and collective works — see [Journal and publications](/en/activites/publications/)
+- [Library](/en/activites/bibliotheque/) — catalogue of the Society's collection
 
 ### Recent Events
 
