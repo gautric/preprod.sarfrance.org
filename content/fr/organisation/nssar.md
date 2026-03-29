@@ -25,7 +25,7 @@ Le 30 avril 1889, dans la Long Room de Fraunces Tavern à New York, là même o�
 
 ### 1906 : la Charte du Congrès
 
-L'année 1906 est marquée par l'octroi par le Sénat et la Chambre des Représentants d'une Charte portant la signature du 26^e Président, Theodore Roosevelt, membre des Sons depuis 1898.
+L'année 1906 est marquée par l'octroi par le Sénat et la Chambre des Représentants d'une Charte portant la signature du 26<sup>e</sup> Président, Theodore Roosevelt, membre des Sons depuis 1898.
 
 L'article 2 de cette Charte décrit l'esprit qui anime toujours les Sons of the American Revolution :
 

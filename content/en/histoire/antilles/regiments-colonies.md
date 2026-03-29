@@ -77,7 +77,7 @@ See the detailed article: [The Chasseurs Volontaires de Saint-Domingue](/en/hist
 
 **Colonels:**
 1. Joseph Bigeard de Saint Maurice, 9 October 1777
-2. Poncin Duchemin de Chenneville, 1 January 1781
+2. Poncin Duchemin de Chenneville, 1<sup>st</sup> January 1781
 3. David Charpentier de Cossigny, 17 February 1782
 
 **Operations:**

@@ -23,7 +23,7 @@ En 1765, le [duc de Choiseul](https://fr.wikipedia.org/wiki/%C3%89tienne_Fran%C3
 
 C'est dans cet esprit que le [comte de Boynes](https://fr.wikipedia.org/wiki/Pierre_%C3%89tienne_Bourgeois_de_Boynes), nommé secrétaire d'État à la marine en 1771, anticipant la reprise possible d'un conflit avec la Grande-Bretagne, réorganisa la présence militaire française dans les colonies. Dans les Antilles, par l'ordonnance du Roi [Louis XV](https://fr.wikipedia.org/wiki/Louis_XV) du 18 août 1772, quatre régiments d'infanterie coloniale furent créés, tenant garnison permanente dans les Antilles. Il s'agissait des régiments de la Martinique, de la Guadeloupe, du [Cap-Français](https://fr.wikipedia.org/wiki/Cap-Ha%C3%AFtien) et du [Port-au-Prince](https://fr.wikipedia.org/wiki/Port-au-Prince).
 
-L'armée coloniale représentait ainsi, en 1775, 15 bataillons d'infanterie et 11 compagnies d'artillerie. Les différentes compagnies de canonniers-bombardiers recréées de 1764 à 1775 furent remplacées en 1784 par un régiment d'artillerie coloniale, « le Royal artillerie des colonies », dont la 5^e brigade à 4 compagnies fut installée à [Port-Louis](https://fr.wikipedia.org/wiki/Port-Louis_(Guadeloupe)).
+L'armée coloniale représentait ainsi, en 1775, 15 bataillons d'infanterie et 11 compagnies d'artillerie. Les différentes compagnies de canonniers-bombardiers recréées de 1764 à 1775 furent remplacées en 1784 par un régiment d'artillerie coloniale, « le Royal artillerie des colonies », dont la 5<sup>e</sup> brigade à 4 compagnies fut installée à [Port-Louis](https://fr.wikipedia.org/wiki/Port-Louis_(Guadeloupe)).
 
 ## Les renforts venus de France
 

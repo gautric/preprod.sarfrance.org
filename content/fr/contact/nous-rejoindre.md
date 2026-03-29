@@ -11,7 +11,7 @@ description: "Rejoignez SAR France — vocation, conditions d'admission et déma
 - Promouvoir la création de chapitres européens
 
 ### Historique : la France a donné l'indépendance aux États-Unis
-- Étudier cette guerre mondiale du XVIII^e siècle
+- Étudier cette guerre mondiale du XVIII<sup>e</sup> siècle
 - Développer nos ressources historiques
 
 ### Culturelle : nous aimons nous souvenir et mettre en valeur notre histoire

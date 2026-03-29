@@ -73,11 +73,11 @@ Les États-Unis, sauvés par Cuba. Clin d'œil de l'histoire.
 
 La réponse est rendue délicate par le fait que les Allemands reconnaissent pour compatriotes tous ceux qui parlent leur langue, ou ont parlé un jour un dialecte s'y apparentant, alors que, pour nous, est Français celui qui a choisi de l'être.
 
-Le lobbying germanique aux USA, où une part importante de la population a un ou plusieurs ancêtres venus de l'Europe allemande au XIX^e siècle, a toujours été très actif, au point que lors du premier centenaire de Yorktown, le général Boulanger, qui conduisait la délégation française dut refuser de débarquer tant que des couleurs Allemandes seraient affichées au côté des nôtres. Situation identique revécue par les Sons de France à Yorktown en 2001 : le Deutschland über alles sur la Redoute 9.
+Le lobbying germanique aux USA, où une part importante de la population a un ou plusieurs ancêtres venus de l'Europe allemande au XIX<sup>e</sup> siècle, a toujours été très actif, au point que lors du premier centenaire de Yorktown, le général Boulanger, qui conduisait la délégation française dut refuser de débarquer tant que des couleurs Allemandes seraient affichées au côté des nôtres. Situation identique revécue par les Sons de France à Yorktown en 2001 : le Deutschland über alles sur la Redoute 9.
 
 Ainsi, le héros de Camden, né Jean Kalb en Bavière et entré à 20 ans dans les armées françaises, y ayant fait plus de trente années de carrière, marié en France et devenu le baron de Kalb (seul nom qu'il ait porté en France et aux États-Unis), est-il rebaptisé « von Kalb »…
 
-De même Steuben, que sa situation délicate obligeait à quitter Paris et que Saint-Germain orienta vers Franklin : il vécut le reste de sa vie en Amérique comme baron de Steuben, signant de ce nom la constitution des Cincinnati et ses dernières volontés. Il a été rebaptisé « von Steuben » au début du XX^e siècle.
+De même Steuben, que sa situation délicate obligeait à quitter Paris et que Saint-Germain orienta vers Franklin : il vécut le reste de sa vie en Amérique comme baron de Steuben, signant de ce nom la constitution des Cincinnati et ses dernières volontés. Il a été rebaptisé « von Steuben » au début du XX<sup>e</sup> siècle.
 
 Il y eut moins de mille germanophones du côté des Alliés, contre 29 166 débarqués aux États-Unis par les Anglais.
 

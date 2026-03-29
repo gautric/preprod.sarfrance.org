@@ -33,7 +33,7 @@ Le tableau ci-dessous recense les pertes françaises, en mer et sur terre, lors 
 | 24 mai | 1781 | Actif contre Nonsuch | Boadès | 5 | 28 | 33 | | | | 5 | 28 | 33 |
 | 15 juil. | 1781 | Fée contre Nymph (cap Saint-Nicolas) | Boubée | 60 | 100 | 160 | | | | 60 | 100 | 160 |
 | 21 juil. | 1781 | Île Royale (Cap-Breton) | LaTouche Tréville | 6 | 16 | 22 | | | | 6 | 16 | 22 |
-| 1^er sept. | 1781 | Magicienne contre Chatam (Boston) | La Bouchetière | 27 | 54 | 81 | 5 | | | 32 | 54 | 86 |
+| 1<sup>er</sup> sept. | 1781 | Magicienne contre Chatam (Boston) | La Bouchetière | 27 | 54 | 81 | 5 | | | 32 | 54 | 86 |
 | 5 sept. | 1781 | [Chesapeake (bataille des caps) 2](https://fr.wikipedia.org/wiki/Bataille_de_la_Chesapeake) | [de Grasse](https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Joseph_Paul_de_Grasse) | 39 | 184 | 223 | | | | 39 | 184 | 223 |
 | 5 – 18 oct. | 1781 | [Yorktown](https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Yorktown) (Virginie) | [Rochambeau](https://fr.wikipedia.org/wiki/Jean-Baptiste_Donatien_de_Vimeur_de_Rochambeau) | | | | 50 | 127 | 177 | 50 | 127 | 177 |
 | 25 nov. | 1781 | Prise de Saint-Eustache | Bouillé | | | | 12 | | 12 | 12 | | 12 |
