@@ -46,3 +46,49 @@ inclusion: always
 - Les noms propres français (lieux, personnes, institutions) conservent leur graphie française, accents compris.
 - Les termes historiques français consacrés peuvent être maintenus en français avec une traduction entre parenthèses à la première occurrence (ex. : « Corps expéditionnaire (Expeditionary Corps) »).
 - Les titres de noblesse et grades militaires français sont conservés tels quels : « marquis de Lafayette », « comte de Rochambeau ».
+
+## Pages d'index de section (`_index.md`)
+
+Chaque page d'accueil de section (`content/{lang}/section/_index.md`) suit une structure uniforme (Organisation, Histoire, Activités, Contact).
+
+### Structure requise
+
+1. **Introduction** — Un court paragraphe présentant l'objet et le périmètre de la section
+2. **Sous-sections thématiques** (`## Titre`) — Chaque thème majeur reçoit son propre `##` avec un paragraphe développé (pas une simple liste à puces). Les liens vers les sous-pages sont tissés naturellement dans le texte.
+3. **Actualités récentes** (facultatif) — Une courte liste de faits marquants ou mises à jour
+4. **« Pour en savoir plus » / « Learn More »** — Une section de clôture avec une liste à puces renvoyant vers toutes les sous-pages de la section, chacune accompagnée d'une courte description après un tiret
+
+### Squelette type
+
+```markdown
+---
+title: "Titre de la section"
+description: "Description courte"
+lastUpdate: YYYY-MM-DD
+---
+
+## Paragraphe d'introduction
+
+Un ou deux paragraphes présentant la section.
+
+## Premier thème
+
+Paragraphe développé avec [lien contextuel](/section/sous-page/) vers une sous-page.
+
+## Second thème
+
+Autre paragraphe développé avec des liens pertinents.
+
+## Pour en savoir plus
+
+- [Sous-page A](/section/sous-page-a/) – Description courte
+- [Sous-page B](/section/sous-page-b/) – Description courte
+```
+
+### Règles
+
+- Les liens français n'ont pas de préfixe de langue (`/activites/...`)
+- Utiliser `##` pour les titres de contenu (le `title` du front matter sert de `<h1>`)
+- Garder les liens contextuels — les intégrer dans les phrases plutôt que lister des URL nues
+- La liste « Pour en savoir plus » doit référencer toutes les sous-pages navigables de la section
+- Quand un titre de section couvre deux sujets distincts, le scinder en deux `##` séparés
