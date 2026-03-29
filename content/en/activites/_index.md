@@ -20,7 +20,7 @@ Presentations to help our members and American friends better understand our sha
 
 ### Publications
 
-- "L'Alliance Franco-Américaine" bulletin
+- "L'Alliance Franco-Américaine" journal
 - Collective works and educational films
 
 ### Recent Events

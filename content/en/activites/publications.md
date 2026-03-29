@@ -1,11 +1,17 @@
 ---
-title: "Other Publications"
-description: "Books and other publications by SAR France"
+title: "Journal and Publications"
+description: "Annual journal and works published by SAR France"
 ---
 
-The works listed below are specific projects undertaken by the Society or its members. They are available for purchase from our [secretariat](/en/contact/#secretariat).
+## Journal "L'Alliance Franco-Américaine"
+
+SAR France publishes an annual journal, "L'Alliance Franco-Américaine", produced by its members. This journal is reserved for members of the Society and available from our [secretariat](/en/contact/#secretariat).
+
+To receive the journal, you may [join the Society](/en/contact/nous-rejoindre/).
 
 ## Books
+
+The works listed below are projects undertaken by the Society or its members. They are available for purchase from our [secretariat](/en/contact/#secretariat).
 
 - **"La glorieuse campagne du comte de Grasse"** – A collective work commenting on the campaign journal of a ship garrison officer, René-Calixte de Labat de Lapeyrière, rich in insights and previously unpublished information (Éditions SPM, 2010).
 

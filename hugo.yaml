@@ -117,26 +117,21 @@ languages:
           url: "/activites/dictionnaire/"
           parent: "activites"
           weight: 3
-        - identifier: "bulletins"
-          name: "Bulletin"
-          url: "/activites/bulletins/"
-          parent: "activites"
-          weight: 4
         - identifier: "publications"
-          name: "Autres publications"
+          name: "Revue et publications"
           url: "/activites/publications/"
           parent: "activites"
-          weight: 5
+          weight: 4
         - identifier: "prix-trentinian"
           name: "Prix « Jacques de Trentinian »"
           url: "/activites/prix-trentinian/"
           parent: "activites"
-          weight: 6
+          weight: 5
         - identifier: "bibliotheque"
           name: "Bibliothèque"
           url: "/activites/bibliotheque/"
           parent: "activites"
-          weight: 7
+          weight: 6
         # Submenus - Contact
         - identifier: "formulaire"
           name: "Nous contacter"
@@ -269,26 +264,21 @@ languages:
           url: "/en/activites/dictionnaire/"
           parent: "activites"
           weight: 3
-        - identifier: "bulletins"
-          name: "Newsletter"
-          url: "/en/activites/bulletins/"
-          parent: "activites"
-          weight: 4
         - identifier: "publications"
-          name: "Other Publications"
+          name: "Journal and Publications"
           url: "/en/activites/publications/"
           parent: "activites"
-          weight: 5
+          weight: 4
         - identifier: "prix-trentinian"
           name: "\"Jacques de Trentinian\" Award"
           url: "/en/activites/prix-trentinian/"
           parent: "activites"
-          weight: 6
+          weight: 5
         - identifier: "bibliotheque"
           name: "Library"
           url: "/en/activites/bibliotheque/"
           parent: "activites"
-          weight: 7
+          weight: 6
         # Submenus - Contact
         - identifier: "formulaire"
           name: "Contact Us"

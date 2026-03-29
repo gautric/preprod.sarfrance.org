@@ -141,8 +141,7 @@ Dossier : `content/fr/activites/`
 | Agenda (année en cours) | `agenda-2026.md` |
 | Événements | `evenements.md` |
 | Dictionnaire biographique | `dictionnaire.md` |
-| Bulletin | `bulletins.md` |
-| Publications | `publications.md` |
+| Revue et publications | `publications.md` |
 | Prix Jacques de Trentinian | `prix-trentinian.md` |
 | Bibliothèque | `bibliotheque.md` |
 

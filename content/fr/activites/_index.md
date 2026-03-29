@@ -20,7 +20,7 @@ Interventions pour faire mieux connaître à nos membres et à nos amis américa
 
 ### Publications
 
-- Bulletin « L'Alliance Franco-Américaine »
+- Revue « L'Alliance Franco-Américaine »
 - Ouvrages collectifs et films éducatifs
 
 ### Événements récents
