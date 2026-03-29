@@ -20,7 +20,7 @@ From 1775, maritime convoys brought substantial reinforcements to the colonial g
 
 ## Local Recruitment
 
-Experiments in recruiting from local populations were also conducted. [Bouillé](/histoire/biographies/bouille/)'s volunteers in Martinique were drawn from former soldiers or adventurous young men. The grenadiers of Martinique, "Whites," and the chasseurs, "Free men," were men subject to the militia who agreed to serve for the duration of the conflict in the regular army.
+Experiments in recruiting from local populations were also conducted. [Bouillé](/en/histoire/biographies/bouille/)'s volunteers in Martinique were drawn from former soldiers or adventurous young men. The grenadiers of Martinique, "Whites," and the chasseurs, "Free men," were men subject to the militia who agreed to serve for the duration of the conflict in the regular army.
 
 The same type of recruitment was carried out in Saint-Domingue (present-day Haiti), and thus by two ordinances dated 12 March 1779, the Governor General of Saint-Domingue, the Count d'Argout, created on one hand the Grenadier Volunteers corps, with white soldiers who had preferably served in the army, and on the other hand the Chasseurs-Volontaires de Saint-Domingue corps, marking "the full confidence [of King Louis XVI] in his Free subjects, People of colour."
 
