@@ -107,11 +107,6 @@ languages:
             dynamic_year: true
           parent: "activites"
           weight: 1
-        - identifier: "evenements"
-          name: "Événements"
-          url: "/activites/evenements/"
-          parent: "activites"
-          weight: 2
         - identifier: "dictionnaire"
           name: "Dictionnaire biographique"
           url: "/activites/dictionnaire/"
@@ -254,11 +249,6 @@ languages:
             dynamic_year: true
           parent: "activites"
           weight: 1
-        - identifier: "evenements"
-          name: "Events"
-          url: "/en/activites/evenements/"
-          parent: "activites"
-          weight: 2
         - identifier: "dictionnaire"
           name: "Biographical Dictionary"
           url: "/en/activites/dictionnaire/"

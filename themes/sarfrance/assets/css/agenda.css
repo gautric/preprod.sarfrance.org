@@ -1,12 +1,5 @@
 /* Agenda Page — specific styles (shared base in filters.css) */
 
-/* Export bar (ICS download) */
-.agenda-export { display: flex; align-items: center; gap: 16px; padding: 20px 0 0; flex-wrap: wrap; }
-.agenda-export__btn { display: inline-flex; align-items: center; gap: 8px; padding: 10px 22px; background: var(--primary); color: var(--white); border-radius: 6px; font-size: 0.9rem; font-weight: 600; transition: background 0.2s ease; }
-.agenda-export__btn:hover { background: var(--primary-dark); color: var(--white); }
-.agenda-export__btn svg { flex-shrink: 0; }
-.agenda-export__hint { font-size: 0.8rem; color: var(--text-muted); font-style: italic; }
-
 /* Year navigation */
 .agenda-nav { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; padding: 30px 0 15px; }
 .agenda-nav .filter-btn:hover { border-color: var(--primary); color: var(--primary); }
@@ -44,7 +37,5 @@
 .filter-btn.type-exposition::before      { content: "🖼️ "; }
 
 @media (max-width: 768px) {
-    .agenda-export { flex-direction: column; align-items: flex-start; gap: 8px; }
-    .agenda-export__btn { font-size: 0.82rem; padding: 8px 16px; }
     .agenda-nav { gap: 5px; }
 }

@@ -139,7 +139,6 @@ Dossier : `content/fr/activites/`
 | Page sur le site | Fichier |
 |---|---|
 | Agenda (année en cours) | `agenda-2026.md` |
-| Événements | `evenements.md` |
 | Dictionnaire biographique | `dictionnaire.md` |
 | Revue et publications | `publications.md` |
 | Prix Jacques de Trentinian | `prix-trentinian.md` |
@@ -203,7 +202,7 @@ Les pages de texte utilisent le format **Markdown**. C'est un format simple : vo
 **Étape 1 — Trouver le fichier**
 
 1. Depuis la page du projet, cliquez sur le dossier `content/fr`
-2. Naviguez jusqu'au fichier à modifier (par exemple `activites/evenements.md`)
+2. Naviguez jusqu'au fichier à modifier (par exemple `activites/publications.md`)
 
 **Étape 2 — Ouvrir l'éditeur**
 
