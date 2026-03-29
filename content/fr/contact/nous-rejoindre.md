@@ -3,22 +3,7 @@ title: "Nous rejoindre"
 description: "Rejoignez SAR France — vocation, conditions d'admission et démarches"
 ---
 
-## SAR France a une triple vocation
-
-### Transatlantique : cultiver l'amitié franco-américaine
-- Faciliter les séjours culturels ou professionnels aux USA
-- Échanger avec les Américains de France
-- Promouvoir la création de chapitres européens
-
-### Historique : la France a donné l'indépendance aux États-Unis
-- Étudier cette guerre mondiale du XVIII<sup>e</sup> siècle
-- Développer nos ressources historiques
-
-### Culturelle : nous aimons nous souvenir et mettre en valeur notre histoire
-- Lors de conférences, à Paris et en régions
-- Au cours de voyages en Amérique
-
----
+Pour découvrir les missions de SAR France, consultez la page [Objet de SAR France](/organisation/objet-et-histoire/).
 
 ## Qui peut adhérer ?
 

@@ -3,22 +3,7 @@ title: "Join Us"
 description: "Join SAR France — mission, admission requirements, and procedures"
 ---
 
-## SAR France Has a Threefold Mission
-
-### Transatlantic: Fostering Franco-American Friendship
-- Facilitating cultural or professional stays in the USA
-- Exchanging with Americans in France
-- Promoting the creation of European chapters
-
-### Historical: France Gave Independence to the United States
-- Studying this 18th-century world war
-- Developing our historical resources
-
-### Cultural: We Love to Remember and Showcase Our History
-- Through conferences, in Paris and across France
-- During trips to America
-
----
+To discover the missions of SAR France, see the [Purpose of SAR France](/en/organisation/objet-et-histoire/) page.
 
 ## Who Can Join?
 
