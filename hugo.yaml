@@ -48,42 +48,42 @@ languages:
           url: "/organisation/"
           parent: "organisation"
           weight: 1
-        - identifier: "nssar"
-          name: "NSSAR"
-          url: "/organisation/nssar/"
+        - identifier: "histoire-sar-france"
+          name: "Histoire de SAR France"
+          url: "/organisation/histoire-de-sar-france/"
           parent: "organisation"
           weight: 2
+        - identifier: "nssar"
+          name: "La NSSAR"
+          url: "/organisation/nssar/"
+          parent: "organisation"
+          weight: 3
         - identifier: "objet-et-histoire"
           name: "Objet de SAR France"
           url: "/organisation/objet-et-histoire/"
           parent: "organisation"
-          weight: 3
+          weight: 4
         - identifier: "statuts"
           name: "Statuts & Règlement"
           url: "/organisation/statuts/"
           parent: "organisation"
-          weight: 4
+          weight: 5
         - identifier: "societes"
           name: "Autres sociétés françaises"
           url: "/organisation/societes/"
           parent: "organisation"
-          weight: 5
+          weight: 6
         # Submenus - Histoire
         - identifier: "histoire-index"
           name: "Histoire"
           url: "/histoire/"
           parent: "histoire"
           weight: 1
-        - identifier: "histoire-sar-france"
-          name: "Histoire de SAR France"
-          url: "/histoire/histoire-de-sar-france/"
-          parent: "histoire"
-          weight: 2
         - identifier: "chronologie"
           name: "Chronologie"
           url: "/histoire/chronologie/"
           parent: "histoire"
-          weight: 3
+          weight: 2
         - identifier: "operations"
           name: "Opérations militaires"
           url: "/histoire/operations/"
@@ -205,42 +205,42 @@ languages:
           url: "/en/organisation/"
           parent: "organisation"
           weight: 0
-        - identifier: "nssar"
-          name: "NSSAR"
-          url: "/en/organisation/nssar/"
+        - identifier: "histoire-sar-france"
+          name: "History of SAR France"
+          url: "/en/organisation/histoire-de-sar-france/"
           parent: "organisation"
           weight: 1
+        - identifier: "nssar"
+          name: "The NSSAR"
+          url: "/en/organisation/nssar/"
+          parent: "organisation"
+          weight: 2
         - identifier: "objet-et-histoire"
           name: "Purpose of SAR France"
           url: "/en/organisation/objet-et-histoire/"
           parent: "organisation"
-          weight: 2
+          weight: 3
         - identifier: "statuts"
           name: "Bylaws & Rules"
           url: "/en/organisation/statuts/"
           parent: "organisation"
-          weight: 3
+          weight: 4
         - identifier: "societes"
           name: "Other French Societies"
           url: "/en/organisation/societes/"
           parent: "organisation"
-          weight: 4
+          weight: 5
         # Submenus - History
         - identifier: "histoire-index"
           name: "History"
           url: "/en/histoire/"
           parent: "histoire"
           weight: 0
-        - identifier: "histoire-sar-france"
-          name: "History of SAR France"
-          url: "/en/histoire/histoire-de-sar-france/"
-          parent: "histoire"
-          weight: 1
         - identifier: "chronologie"
           name: "Timeline"
           url: "/en/histoire/chronologie/"
           parent: "histoire"
-          weight: 2
+          weight: 1
         - identifier: "operations"
           name: "Military Operations"
           url: "/en/histoire/operations/"

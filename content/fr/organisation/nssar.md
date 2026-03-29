@@ -34,4 +34,4 @@ L'article 2 de cette Charte décrit l'esprit qui anime toujours les Sons of the 
 
 *Comte Thierry de Seguins-Cohorn, Historien de la Société en France des SAR*
 
-Voir aussi : [Histoire de SAR France](/histoire/histoire-de-sar-france/)
+Voir aussi : [Histoire de SAR France](/organisation/histoire-de-sar-france/)

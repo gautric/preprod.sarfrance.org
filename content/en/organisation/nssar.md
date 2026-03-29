@@ -34,4 +34,4 @@ Article 2 of this Charter describes the spirit that still animates the Sons of t
 
 *Count Thierry de Seguins-Cohorn, Historian of the Society in France of the SAR*
 
-See also: [History of SAR France](/en/histoire/histoire-de-sar-france/)
+See also: [History of SAR France](/en/organisation/histoire-de-sar-france/)

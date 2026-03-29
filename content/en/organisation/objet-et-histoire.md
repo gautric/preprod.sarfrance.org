@@ -32,4 +32,4 @@ These objectives are carried out through three complementary missions:
 - Through conferences, in Paris and across France
 - During trips to America
 
-To learn more about the Society's history, see [History of SAR France](/en/histoire/histoire-de-sar-france/). To join us, visit the [Join Us](/en/contact/nous-rejoindre/) page.
+To learn more about the Society's history, see [History of SAR France](/en/organisation/histoire-de-sar-france/). To join us, visit the [Join Us](/en/contact/nous-rejoindre/) page.

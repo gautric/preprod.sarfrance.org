@@ -11,4 +11,4 @@ Ce prix récompense un travail de recherche universitaire (thèse ou mémoire) p
 
 Le maintien de ce prix est essentiel à la mission de reconnaissance d'utilité publique de la Société.
 
-Le prix porte le nom de [Jacques de Trentinian](/histoire/histoire-de-sar-france/), Historien de la Société, dont le rôle est décrit dans l'histoire de SAR France.
+Le prix porte le nom de [Jacques de Trentinian](/organisation/histoire-de-sar-france/), Historien de la Société, dont le rôle est décrit dans l'histoire de SAR France.

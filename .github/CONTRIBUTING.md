@@ -98,7 +98,7 @@ Dossier : `content/fr/histoire/`
 
 | Page sur le site | Fichier |
 |---|---|
-| Histoire de SAR France | `histoire-de-sar-france.md` |
+| Histoire de SAR France | `organisation/histoire-de-sar-france.md` |
 | Chronologie | `chronologie.md` |
 | Opérations militaires | `operations.md` |
 | Chefs militaires et volontaires | `chefs-militaires.md` |

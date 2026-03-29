@@ -34,7 +34,7 @@ L'ensemble des belligérants concluent la paix à Versailles, le 3 septembre 178
 
 ## Pour en savoir plus
 
-- [Histoire de SAR France](/histoire/histoire-de-sar-france/) – Histoire de la Société, ses couleurs et son insigne
+- [Histoire de SAR France](/organisation/histoire-de-sar-france/) – Histoire de la Société, ses couleurs et son insigne
 - [Chronologie](/histoire/chronologie/) – Présentation synoptique de l'histoire américaine et européenne
 - [Chefs militaires et volontaires](/histoire/chefs-militaires/) – Les principaux acteurs français du conflit
 - [Opérations militaires en Amérique du Nord](/histoire/operations/) – Le Corps Expéditionnaire et la campagne de Yorktown

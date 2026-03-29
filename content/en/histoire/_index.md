@@ -34,7 +34,7 @@ All the belligerents concluded peace at Versailles on September 3, 1783. England
 
 ## Learn More
 
-- [History of SAR France](/en/histoire/histoire-de-sar-france/) – History of the Society, its colors and insignia
+- [History of SAR France](/en/organisation/histoire-de-sar-france/) – History of the Society, its colors and insignia
 - [Timeline](/en/histoire/chronologie/) – A synoptic overview of American and European history
 - [Military Leaders and Volunteers](/en/histoire/chefs-militaires/) – The principal French actors of the conflict
 - [Military Operations in North America](/en/histoire/operations/) – The Expeditionary Corps and the Yorktown Campaign
