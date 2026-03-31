@@ -36,7 +36,7 @@ La Société en France des Fils de la Révolution Américaine est la première s
 ## Liaison avec la NSSAR
 
 - **Trustee de SAR France à la NSSAR (USA)** : Patrick Kelly
-- **Alternate Trustee** : Samuel Powel
+- **Alternate Trustee** : Samuel Powell
 - **Vice President General NSSAR (Europe District)** : Patrick Mesnard
 
 ## Délégations régionales

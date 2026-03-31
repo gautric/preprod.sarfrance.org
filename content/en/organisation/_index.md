@@ -36,7 +36,7 @@ The Society in France of the Sons of the American Revolution is the first state 
 ## NSSAR Liaison
 
 - **SAR France Trustee to NSSAR (USA)**: Patrick Kelly
-- **Alternate Trustee**: Samuel Powel
+- **Alternate Trustee**: Samuel Powell
 - **NSSAR Vice President General (Europe District)**: Patrick Mesnard
 
 ## Regional Delegations
