@@ -101,7 +101,7 @@ Dossier : `content/fr/histoire/`
 |---|---|
 | Chronologie | `chronologie.md` |
 | Opérations militaires | `operations.md` |
-| Chefs militaires et volontaires | `chefs-militaires.md` |
+| Chefs et volontaires | `chefs-et-volontaires.md` |
 | Hauts lieux en France | `hauts-lieux.md` |
 | Dictionnaire biographique | `notices.md` |
 | Pertes françaises | `pertes-francaises.md` |

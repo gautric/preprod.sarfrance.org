@@ -1,5 +1,5 @@
 ---
-title: "Le coût humain de la guerre pour la France"
+title: "Le coût humain"
 description: "Tableau des pertes françaises lors des batailles de la Guerre d'Indépendance (1778-1783)"
 ---
 
