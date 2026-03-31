@@ -27,8 +27,8 @@ languages:
           url: "/"
           weight: 1
         - identifier: "organisation"
-          name: "Organisation"
-          url: "/organisation/"
+          name: "La Société"
+          url: "/la-societe/"
           weight: 2
         - identifier: "histoire"
           name: "Histoire"
@@ -42,35 +42,35 @@ languages:
           name: "Contact"
           url: "/contact/"
           weight: 5
-        # Submenus - Organisation
+        # Submenus - La Société
         - identifier: "organisation-index"
-          name: "Organisation"
-          url: "/organisation/"
+          name: "La Société"
+          url: "/la-societe/"
           parent: "organisation"
           weight: 1
         - identifier: "histoire-sar-france"
-          name: "Histoire de SAR France"
-          url: "/organisation/histoire-de-sar-france/"
+          name: "Notre histoire"
+          url: "/la-societe/notre-histoire/"
           parent: "organisation"
           weight: 2
         - identifier: "nssar"
           name: "La NSSAR"
-          url: "/organisation/nssar/"
+          url: "/la-societe/nssar/"
           parent: "organisation"
           weight: 3
         - identifier: "objet-et-vocation"
-          name: "Objet et Vocation"
-          url: "/organisation/objet-et-vocation/"
+          name: "Mission et vocation"
+          url: "/la-societe/mission-et-vocation/"
           parent: "organisation"
           weight: 4
         - identifier: "statuts"
-          name: "Statuts & Règlement"
-          url: "/organisation/statuts/"
+          name: "Statuts et règlement"
+          url: "/la-societe/statuts/"
           parent: "organisation"
           weight: 5
         - identifier: "societes"
-          name: "Sociétés sœurs"
-          url: "/organisation/societes/"
+          name: "Sociétés amies et liens"
+          url: "/la-societe/societes-amies/"
           parent: "organisation"
           weight: 6
         # Submenus - Histoire
@@ -85,28 +85,28 @@ languages:
           parent: "histoire"
           weight: 2
         - identifier: "operations"
-          name: "Opérations militaires"
-          url: "/histoire/operations/"
+          name: "Campagnes et batailles"
+          url: "/histoire/campagnes-et-batailles/"
           parent: "histoire"
           weight: 4
         - identifier: "chefs"
-          name: "Chefs militaires et volontaires"
-          url: "/histoire/chefs-militaires/"
+          name: "Chefs et volontaires"
+          url: "/histoire/chefs-et-volontaires/"
           parent: "histoire"
           weight: 5
         - identifier: "hauts-lieux"
-          name: "Hauts lieux en France"
-          url: "/histoire/hauts-lieux/"
+          name: "Lieux de mémoire"
+          url: "/histoire/lieux-de-memoire/"
           parent: "histoire"
           weight: 6
         - identifier: "pertes-francaises"
-          name: "Pertes françaises"
-          url: "/histoire/pertes-francaises/"
+          name: "Le coût humain"
+          url: "/histoire/cout-humain/"
           parent: "histoire"
           weight: 7
         - identifier: "strategies"
-          name: "Stratégies et politique françaises"
-          url: "/histoire/strategies-et-politique-francaises/"
+          name: "La France dans la guerre"
+          url: "/histoire/la-france-dans-la-guerre/"
           parent: "histoire"
           weight: 8
         # Submenus - Activités
@@ -123,8 +123,8 @@ languages:
           parent: "activites"
           weight: 2
         - identifier: "dictionnaire"
-          name: "Dictionnaire biographique"
-          url: "/activites/dictionnaire/"
+          name: "Dictionnaire des ancêtres"
+          url: "/activites/dictionnaire-des-ancetres/"
           parent: "activites"
           weight: 3
         - identifier: "publications"
@@ -144,7 +144,7 @@ languages:
           weight: 6
         # Submenus - Contact
         - identifier: "formulaire"
-          name: "Nous contacter"
+          name: "Nous écrire"
           url: "/contact"
           parent: "contact"
           weight: 1
