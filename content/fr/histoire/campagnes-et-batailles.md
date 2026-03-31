@@ -30,7 +30,7 @@ Voir le [tableau détaillé des pertes françaises](/histoire/pertes-francaises/
 
 Outre le Corps Expéditionnaire, environ 230 officiers ou ingénieurs français combattirent dans les unités américaines, ainsi que des officiers d'origine étrangère au service de la France.
 
-Voir la page [Chefs militaires et volontaires](/histoire/chefs-militaires/) pour la liste complète et les portraits détaillés.
+Voir la page [Chefs et volontaires](/histoire/chefs-et-volontaires/) pour la liste complète et les portraits détaillés.
 
 ## Les Antilles françaises
 
