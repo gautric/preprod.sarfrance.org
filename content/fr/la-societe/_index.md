@@ -1,5 +1,5 @@
 ---
-title: "Organisation"
+title: "La Société"
 description: "Conseil d'administration, délégations régionales, secrétariat et liaison avec la NSSAR"
 lastUpdate: 2026-03-01
 ---

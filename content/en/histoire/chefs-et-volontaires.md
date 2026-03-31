@@ -1,5 +1,5 @@
 ---
-title: "Military Leaders and Volunteers"
+title: "Leaders and Volunteers"
 description: "French military leaders on land, in the Caribbean and at sea, and volunteers sent to America (1778-1783)"
 ---
 

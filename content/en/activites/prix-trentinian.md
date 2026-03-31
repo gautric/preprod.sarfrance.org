@@ -11,4 +11,4 @@ This prize rewards academic research (thesis or dissertation) on the American Wa
 
 Maintaining this prize is essential to the Society's mission as an organization recognized as being of public benefit.
 
-The prize is named after [Jacques de Trentinian](/en/organisation/histoire-de-sar-france/), Historian of the Society, whose role is described in the history of SAR France.
+The prize is named after [Jacques de Trentinian](/en/la-societe/notre-histoire/), Historian of the Society, whose role is described in the history of SAR France.

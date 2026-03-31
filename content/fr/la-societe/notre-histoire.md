@@ -1,5 +1,5 @@
 ---
-title: "Histoire de SAR France"
+title: "Notre histoire"
 description: "Du Chapitre de Paris (1897) à la reconnaissance d'utilité publique – Présidents, couleurs et insigne"
 lastUpdate: 2026-03-25
 author: "Comte Thierry de Seguins-Cohorn, Historien de la Société en France des SAR"
@@ -111,5 +111,5 @@ De l'insigne des [Cincinnati](/organisation/societes/), on a conservé l'aigle, 
 
 ---
 
-Voir aussi : [La NSSAR](/organisation/nssar/) — [Objet et Vocation](/organisation/objet-et-vocation/) — [Sociétés sœurs](/organisation/societes/)
+Voir aussi : [La NSSAR](/la-societe/nssar/) — [Mission et vocation](/la-societe/mission-et-vocation/) — [Sociétés amies et liens](/la-societe/societes-amies/)
 

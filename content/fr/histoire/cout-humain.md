@@ -1,5 +1,5 @@
 ---
-title: "Le coût humain de la guerre pour la France"
+title: "Le coût humain"
 description: "Tableau des pertes françaises lors des batailles de la Guerre d'Indépendance (1778-1783)"
 ---
 
@@ -81,4 +81,4 @@ Le tableau ci-dessous recense les pertes françaises, en mer et sur terre, lors 
 
 Selon l'étude détaillée de Warrington Dawson (en 1936), **2 112 Français ont perdu la vie sur le sol ou dans les eaux américaines**, soit 1 113 soldats plus 999 marins (en grande majorité morts de maladie).
 
-Voir aussi : [Opérations militaires en Amérique du Nord](/histoire/operations/) — [Le comte de Rochambeau](/histoire/biographies/rochambeau/) — [Le comte de Grasse](/histoire/biographies/de-grasse/) — [Le marquis de Bouillé](/histoire/biographies/bouille/)
+Voir aussi : [Campagnes et batailles](/histoire/campagnes-et-batailles/) — [Le comte de Rochambeau](/histoire/biographies/rochambeau/) — [Le comte de Grasse](/histoire/biographies/de-grasse/) — [Le marquis de Bouillé](/histoire/biographies/bouille/)

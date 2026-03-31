@@ -1,5 +1,5 @@
 ---
-title: "Objet et Vocation"
+title: "Mission et vocation"
 description: "Triple vocation transatlantique, historique et culturelle de SAR France"
 ---
 
@@ -32,4 +32,4 @@ Ces objectifs se déclinent en trois vocations complémentaires :
 - Lors de conférences, à Paris et en régions
 - Au cours de voyages en Amérique
 
-Pour en savoir plus sur l'histoire de la Société, voir [Histoire de SAR France](/organisation/histoire-de-sar-france/). Pour nous rejoindre, consultez la page [Nous rejoindre](/contact/nous-rejoindre/).
+Pour en savoir plus sur l'histoire de la Société, voir [Notre histoire](/la-societe/notre-histoire/). Pour nous rejoindre, consultez la page [Nous rejoindre](/contact/nous-rejoindre/).

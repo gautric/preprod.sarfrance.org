@@ -34,11 +34,11 @@ All the belligerents concluded peace at Versailles on September 3, 1783. England
 
 ## Learn More
 
-- [History of SAR France](/en/organisation/histoire-de-sar-france/) – History of the Society, its colors and insignia
+- [Our History](/en/la-societe/notre-histoire/) – History of the Society, its colors and insignia
 - [Timeline](/en/histoire/chronologie/) – A synoptic overview of American and European history
-- [Military Leaders and Volunteers](/en/histoire/chefs-militaires/) – The principal French actors of the conflict
-- [Military Operations in North America](/en/histoire/operations/) – The Expeditionary Corps and the Yorktown Campaign
-- [The Human Cost of the War](/en/histoire/pertes-francaises/) – French soldiers and sailors killed or wounded
-- [French Strategies and Politics](/en/histoire/strategies-et-politique-francaises/) – Adversaries and allies in the American War
-- [Historic Sites in France](/en/histoire/hauts-lieux/) – Sites of remembrance of the War of Independence
-- [Biographical Notices](/en/histoire/notices/) – Biographical dictionary of certified SAR France ancestors
+- [Leaders and Volunteers](/en/histoire/chefs-et-volontaires/) – The principal French actors of the conflict
+- [Campaigns and Battles](/en/histoire/campagnes-et-batailles/) – The Expeditionary Corps and the Yorktown Campaign
+- [The Human Cost](/en/histoire/cout-humain/) – French soldiers and sailors killed or wounded
+- [France in the War](/en/histoire/la-france-dans-la-guerre/) – Adversaries and allies in the American War
+- [Sites of Remembrance](/en/histoire/lieux-de-memoire/) – Sites of remembrance of the War of Independence
+- [Biographical Notices](/en/histoire/notices/) – Ancestors' dictionary of certified SAR France ancestors

@@ -24,13 +24,13 @@ Suffren and his squadron, bound for India, would detach at the Azores, as would 
 
 Arriving at Saint-Domingue with 24 ships on July 16, in preparation for the Franco-Spanish operation against Jamaica decided at Versailles, de Grasse found [Rochambeau](/en/histoire/biographies/rochambeau/)'s messages there. He then decided to gather all available resources and concentrate them to urgently reinforce the Expeditionary Corps. The need for speed, and what Rochambeau hinted at regarding his strategic preferences, led him to opt for a convergence on the **Chesapeake** Bay rather than before New York.
 
-He attempted to borrow against his own assets to cover the pay of Washington's and Rochambeau's men (but had to resort to the merchants of Havana for this purpose), placed the merchant vessels under Spanish protection at Saint-Domingue, embarked 3,300 men under the command of the Marquis de Saint-Simon, and raced toward his objective, evading Hood's squadron. His intervention in the Chesapeake Bay in September 1781 would prove decisive for the victory at Yorktown (see [Military Operations](/en/histoire/operations/) for the detailed account of the campaign).
+He attempted to borrow against his own assets to cover the pay of Washington's and Rochambeau's men (but had to resort to the merchants of Havana for this purpose), placed the merchant vessels under Spanish protection at Saint-Domingue, embarked 3,300 men under the command of the Marquis de Saint-Simon, and raced toward his objective, evading Hood's squadron. His intervention in the Chesapeake Bay in September 1781 would prove decisive for the victory at Yorktown (see [Campaigns and Battles](/en/histoire/campagnes-et-batailles/) for the detailed account of the campaign).
 
 Back in the [Caribbean](/en/histoire/antilles/soutien-antilles/), where Bouillé had retaken **Saint Eustatius**. Together the two generals captured **Saint Kitts**, then de Grasse seized **Montserrat**.
 
 The planned operation against Jamaica was mounted in the spring, but Admiral Rodney, who had joined Hood in the area, held a certain superiority (more numerous ships, but above all faster ones with superior close-range artillery). After an indecisive first engagement on April 9 and several French tactical errors, the Battle of the Saintes saw the loss of five ships, including that of the commander-in-chief, who fell into the hands of a **Rodney** who had conducted his attack remarkably well. A court-martial convened at the admiral's request in 1784 would rule on the responsibilities of the various unit commanders.
 
-An undeniable defeat for the French (see the [casualty table](/en/histoire/pertes-francaises/)), this battle would prove a Pyrrhic victory for their adversaries:
+An undeniable defeat for the French (see the [casualty table](/en/histoire/cout-humain/)), this battle would prove a Pyrrhic victory for their adversaries:
 
 - de Grasse had saved his precious convoy,
 - the English fleet had been battered enough to no longer appear in the Caribbean, from where French convoys easily returned to France with their valuable goods,

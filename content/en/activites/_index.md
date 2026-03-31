@@ -19,7 +19,7 @@ Members are invited to attend ceremonies in memory of French and American combat
 The Society actively encourages historical research on the American War of Independence and Franco-American relations of that era. This mission takes several forms:
 
 - Collection and analysis of little-known family archives
-- Compilation of a [biographical dictionary](/en/activites/dictionnaire/) of SAR France members' ancestors, comprising 150 entries available upon request
+- Compilation of a [ancestors' dictionary](/en/activites/dictionnaire-des-ancetres/) of SAR France members' ancestors, comprising 150 entries available upon request
 - Award of the ["Jacques de Trentinian" Prize](/en/activites/prix-trentinian/), recognizing academic research on the American War of Independence
 
 ## Publications
@@ -37,7 +37,7 @@ The Society also maintains a [library](/en/activites/bibliotheque/) of books, do
 ## Learn More
 
 - [Agenda 2026](/en/activites/agenda-2026/) – Calendar of events for the current year
-- [Biographical Dictionary](/en/activites/dictionnaire/) – Biographical notices of SAR France ancestors
+- [Ancestors' Dictionary](/en/activites/dictionnaire-des-ancetres/) – Biographical notices of SAR France ancestors
 - ["Jacques de Trentinian" Prize](/en/activites/prix-trentinian/) – Thesis award for historical research
 - [Journal and Publications](/en/activites/publications/) – Annual journal and works of the Society
 - [Library](/en/activites/bibliotheque/) – Catalogue of the Society's collection

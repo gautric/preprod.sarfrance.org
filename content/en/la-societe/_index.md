@@ -1,5 +1,5 @@
 ---
-title: "Organization"
+title: "The Society"
 description: "Board of directors, regional delegations, secretariat and NSSAR liaison"
 lastUpdate: 2026-03-01
 ---

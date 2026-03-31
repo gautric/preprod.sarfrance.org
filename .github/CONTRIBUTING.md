@@ -81,16 +81,17 @@ Le site est **bilingue** (français et anglais). Quand vous modifiez un fichier 
 
 ## Où se trouvent les fichiers
 
-### Pages de texte — Rubrique « Organisation »
+### Pages de texte — Rubrique « La Société »
 
-Dossier : `content/fr/organisation/`
+Dossier : `content/fr/la-societe/`
 
 | Page sur le site | Fichier |
 |---|---|
-| NSSAR | `nssar.md` |
-| Objet et Vocation | `objet-et-vocation.md` |
-| Statuts & Règlement | `statuts.md` |
-| Autres sociétés françaises | `societes.md` |
+| La NSSAR | `nssar.md` |
+| Mission et vocation | `mission-et-vocation.md` |
+| Notre histoire | `notre-histoire.md` |
+| Statuts et règlement | `statuts.md` |
+| Sociétés amies et liens | `societes-amies.md` |
 
 ### Pages de texte — Rubrique « Histoire »
 
@@ -98,14 +99,13 @@ Dossier : `content/fr/histoire/`
 
 | Page sur le site | Fichier |
 |---|---|
-| Histoire de SAR France | `organisation/histoire-de-sar-france.md` |
 | Chronologie | `chronologie.md` |
-| Opérations militaires | `operations.md` |
-| Chefs militaires et volontaires | `chefs-militaires.md` |
-| Hauts lieux en France | `hauts-lieux.md` |
+| Campagnes et batailles | `campagnes-et-batailles.md` |
+| Chefs et volontaires | `chefs-et-volontaires.md` |
+| Lieux de mémoire | `lieux-de-memoire.md` |
 | Dictionnaire biographique | `notices.md` |
-| Pertes françaises | `pertes-francaises.md` |
-| Stratégies et politique françaises | `strategies-et-politique-francaises.md` |
+| Le coût humain | `cout-humain.md` |
+| La France dans la guerre | `la-france-dans-la-guerre.md` |
 
 ### Pages de texte — Rubrique « Histoire / Antilles »
 
@@ -116,6 +116,7 @@ Dossier : `content/fr/histoire/antilles/`
 | Les Antilles françaises (index) | `_index.md` |
 | Le soutien des Antilles françaises | `soutien-antilles.md` |
 | Régiments et Corps des Colonies | `regiments-colonies.md` |
+| Les Chasseurs Volontaires de Saint-Domingue | `chasseurs-volontaires.md` |
 
 ### Pages de texte — Rubrique « Histoire / Biographies »
 
@@ -139,7 +140,7 @@ Dossier : `content/fr/activites/`
 | Page sur le site | Fichier |
 |---|---|
 | Agenda (année en cours) | `agenda-2026.md` |
-| Dictionnaire biographique | `dictionnaire.md` |
+| Dictionnaire des ancêtres | `dictionnaire-des-ancetres.md` |
 | Revue et publications | `publications.md` |
 | Prix Jacques de Trentinian | `prix-trentinian.md` |
 | Bibliothèque | `bibliotheque.md` |

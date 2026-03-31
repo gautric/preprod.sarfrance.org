@@ -1,5 +1,5 @@
 ---
-title: "History of SAR France"
+title: "Our History"
 description: "From the Paris Chapter (1897) to recognition as a public benefit organization – Presidents, colors and insignia"
 lastUpdate: 2026-03-25
 author: "Count Thierry de Seguins-Cohorn, Historian of the Society in France of the SAR"
@@ -17,7 +17,7 @@ references:
 
 ### Founding of a Chapter in Paris in 1897
 
-At the founding meeting of the [National Society of the Sons of the American Revolution (NSSAR)](/en/organisation/nssar/) on April 30, 1889, in New York, a Frenchman, Edmond, marquis de La Fayette (1818–1890), was among the seventeen vice-presidents elected that day. At the time, however, he likely represented only himself — and his illustrious grandfather, of course!
+At the founding meeting of the [National Society of the Sons of the American Revolution (NSSAR)](/en/la-societe/nssar/) on April 30, 1889, in New York, a Frenchman, Edmond, marquis de La Fayette (1818–1890), was among the seventeen vice-presidents elected that day. At the time, however, he likely represented only himself — and his illustrious grandfather, of course!
 
 {{< figure src="/images/histoire-sar-france/edmond-marquis-de-la-fayette.jpg" caption="Edmond du Motier, marquis de La Fayette" >}}
 
@@ -89,7 +89,7 @@ It is also fitting to mention Jacques, comte de Trentinian, Historian of the Soc
 
 ## The Colors of the Society of the Sons of the American Revolution
 
-In 1890, at the Louisville Congress, blue and white were adopted as the colors of the Society of the Sons of the American Revolution. These colors were also those of the [Society of the Cincinnati](/en/organisation/societes/), although the blue of the Sons was darker than that of the Cincinnati. In 1898, at the 9th Congress held in Morristown, New Jersey, a third shade was added: buff. These three colors were those of the uniforms worn by General Washington's troops during the War of Independence. They are the colors that now adorn our insignia and fly on our flag.
+In 1890, at the Louisville Congress, blue and white were adopted as the colors of the Society of the Sons of the American Revolution. These colors were also those of the [Society of the Cincinnati](/en/la-societe/societes-amies/), although the blue of the Sons was darker than that of the Cincinnati. In 1898, at the 9th Congress held in Morristown, New Jersey, a third shade was added: buff. These three colors were those of the uniforms worn by General Washington's troops during the War of Independence. They are the colors that now adorn our insignia and fly on our flag.
 
 {{< figure src="/images/histoire-sar-france/couleurs-sar.jpg" caption="The colors of the Society of the Sons of the American Revolution" >}}
 
@@ -103,12 +103,12 @@ The insignia of the Sons of the American Revolution was designed and created in 
 
 {{< figure src="/images/histoire-sar-france/insigne-sar.jpg" caption="The insignia of the Society of the Sons of the American Revolution" >}}
 
-This insignia takes the form of a cross suspended from an eagle. The cross is covered in white enamel and each of its eight points is extended by a golden pearl. It is directly inspired by two French decorations — one created by King Louis XIV, the Order of Saint Louis, and the other by Emperor Napoleon I, the Legion of Honor — and by an American decoration, the insignia of the [Society of the Cincinnati](/en/organisation/societes/), designed in 1783 by a French officer, Major Lenfant, the future architect of the city of Washington.
+This insignia takes the form of a cross suspended from an eagle. The cross is covered in white enamel and each of its eight points is extended by a golden pearl. It is directly inspired by two French decorations — one created by King Louis XIV, the Order of Saint Louis, and the other by Emperor Napoleon I, the Legion of Honor — and by an American decoration, the insignia of the [Society of the Cincinnati](/en/la-societe/societes-amies/), designed in 1783 by a French officer, Major Lenfant, the future architect of the city of Washington.
 
 From the Order of Saint Louis, the insignia has retained the cross, but at its center is the profile of George Washington, surrounded by the motto "Libertas et Patria." From the Legion of Honor, it has borrowed the laurel branches, which replace the fleurs-de-lis. The Order of Saint Louis, which was the first decoration given by the King of France in recognition of the military merit of officers regardless of their birth, was bound to appeal to the Americans. This choice also recalls the eminent role played by Louis XVI in committing France to a conflict without which American independence could not have been achieved. It pays tribute to the action of French troops alongside American forces, whose officers were numerous in wearing this cross. Finally, this cross places the Society under the protection of God, as is customary for an American patriotic association: God Bless America!
 
-From the insignia of the [Cincinnati](/en/organisation/societes/), the eagle has been retained, which appears on the Great Seal of the United States of America, created in 1782. It recalls that both Societies honor the combatants of the War of Independence — through the eldest of their descendants for the older society, and through their entire lineage for the other.
+From the insignia of the [Cincinnati](/en/la-societe/societes-amies/), the eagle has been retained, which appears on the Great Seal of the United States of America, created in 1782. It recalls that both Societies honor the combatants of the War of Independence — through the eldest of their descendants for the older society, and through their entire lineage for the other.
 
 ---
 
-See also: [The NSSAR](/en/organisation/nssar/) — [Purpose and Mission](/en/organisation/objet-et-vocation/) — [Sister Societies](/en/organisation/societes/)
+See also: [The NSSAR](/en/la-societe/nssar/) — [Mission and Purpose](/en/la-societe/mission-et-vocation/) — [Allied Societies and Links](/en/la-societe/societes-amies/)

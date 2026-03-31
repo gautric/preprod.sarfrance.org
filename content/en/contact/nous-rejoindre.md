@@ -3,7 +3,7 @@ title: "Join Us"
 description: "Admission requirements, documents to provide and registration fees"
 ---
 
-To discover the missions of SAR France, see the [Purpose and Mission](/en/organisation/objet-et-vocation/) page.
+To discover the missions of SAR France, see the [Mission and Purpose](/en/la-societe/mission-et-vocation/) page.
 
 ## Who Can Join?
 
@@ -46,8 +46,8 @@ A tax reduction of {{< param "avantage_fiscal_pct" >}}% of these amounts is gran
 
 Help the Society thrive:
 - Encourage the men in your family to join the Sons
-- Why not the ladies to the [DAR (Daughters of the American Revolution)](/en/organisation/societes/)
-- And the younger ones to the [CAR (Children of the American Revolution)](/en/organisation/societes/)
+- Why not the ladies to the [DAR (Daughters of the American Revolution)](/en/la-societe/societes-amies/)
+- And the younger ones to the [CAR (Children of the American Revolution)](/en/la-societe/societes-amies/)
 
 ### Participate in Our Committees
 - Historical studies and research

@@ -1,5 +1,5 @@
 ---
-title: "Sociétés sœurs et liens utiles"
+title: "Sociétés amies et liens"
 description: "DAR, CAR, Cincinnati de France, sociétés SAR à l'étranger et associations historiques"
 ---
 
