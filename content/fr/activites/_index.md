@@ -19,7 +19,7 @@ Les membres de la Société sont invités à participer aux cérémonies à la m
 La Société encourage activement la recherche historique sur la Guerre d'Amérique et les relations franco-américaines de cette époque. Cette mission se décline en plusieurs axes :
 
 - Recueil et exploitation d'archives familiales méconnues
-- Constitution d'un [dictionnaire biographique](/activites/dictionnaire/) des ancêtres des membres de SAR France, riche de 150 notices consultables sur demande
+- Constitution d'un [dictionnaire des ancêtres](/activites/dictionnaire-des-ancetres/) des ancêtres des membres de SAR France, riche de 150 notices consultables sur demande
 - Attribution du [prix « Jacques de Trentinian »](/activites/prix-trentinian/), récompensant un travail de recherche universitaire portant sur la Guerre d'Indépendance américaine
 
 ## Publications
@@ -37,7 +37,7 @@ La Société dispose également d'une [bibliothèque](/activites/bibliotheque/) 
 ## Pour en savoir plus
 
 - [Agenda 2026](/activites/agenda-2026/) – Calendrier des événements de l'année en cours
-- [Dictionnaire biographique](/activites/dictionnaire/) – Notices biographiques des ancêtres SAR France
+- [Dictionnaire des ancêtres](/activites/dictionnaire-des-ancetres/) – Notices biographiques des ancêtres SAR France
 - [Prix « Jacques de Trentinian »](/activites/prix-trentinian/) – Prix de thèse pour la recherche historique
 - [Revue et publications](/activites/publications/) – Revue annuelle et ouvrages de la Société
 - [Bibliothèque](/activites/bibliotheque/) – Inventaire des ouvrages de la Société

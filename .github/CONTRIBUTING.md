@@ -102,7 +102,7 @@ Dossier : `content/fr/histoire/`
 | Chronologie | `chronologie.md` |
 | Opérations militaires | `operations.md` |
 | Chefs et volontaires | `chefs-et-volontaires.md` |
-| Hauts lieux en France | `hauts-lieux.md` |
+| Lieux de mémoire | `lieux-de-memoire.md` |
 | Dictionnaire biographique | `notices.md` |
 | Pertes françaises | `pertes-francaises.md` |
 | La France dans la guerre | `la-france-dans-la-guerre.md` |
