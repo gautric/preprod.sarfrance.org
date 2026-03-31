@@ -24,7 +24,7 @@ Cette campagne est exemplaire à divers titres :
 
 L'amiral de Grasse débarque le 2 septembre les 3 000 hommes de Saint-Simon prélevés aux Antilles. Il devance la flotte anglaise dans la baie, puis l'engage et la repousse au large le 6 septembre. Venant du Nord à marches forcées, Washington et Rochambeau arrivent le 17. Le siège s'organise, les principales redoutes sont emportées le 14 octobre. Cornwallis est contraint de capituler le 19 octobre 1781. Six mille Anglais et deux mille Allemands sont désarmés, 214 pièces saisies.
 
-Voir le [tableau détaillé des pertes françaises](/histoire/pertes-francaises/) et la page [Stratégies et politique françaises](/histoire/strategies-et-politique-francaises/) pour le contexte diplomatique.
+Voir le [tableau détaillé des pertes françaises](/histoire/pertes-francaises/) et la page [La France dans la guerre](/histoire/la-france-dans-la-guerre/) pour le contexte diplomatique.
 
 ## Les volontaires
 

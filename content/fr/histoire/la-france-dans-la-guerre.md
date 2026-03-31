@@ -1,5 +1,5 @@
 ---
-title: "Stratégies et politique françaises"
+title: "La France dans la guerre"
 description: "Politique de Louis XVI, rôle de l'Espagne, financement de Yorktown et forces allemandes"
 ---
 
