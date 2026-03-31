@@ -105,7 +105,7 @@ Dossier : `content/fr/histoire/`
 | Hauts lieux en France | `hauts-lieux.md` |
 | Dictionnaire biographique | `notices.md` |
 | Pertes françaises | `pertes-francaises.md` |
-| Stratégies et politique françaises | `strategies-et-politique-francaises.md` |
+| La France dans la guerre | `la-france-dans-la-guerre.md` |
 
 ### Pages de texte — Rubrique « Histoire / Antilles »
 

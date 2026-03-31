@@ -37,7 +37,7 @@ L'ensemble des belligérants concluent la paix à Versailles, le 3 septembre 178
 - [Notre histoire](/la-societe/notre-histoire/) – Histoire de la Société, ses couleurs et son insigne
 - [Chronologie](/histoire/chronologie/) – Présentation synoptique de l'histoire américaine et européenne
 - [Chefs militaires et volontaires](/histoire/chefs-militaires/) – Les principaux acteurs français du conflit
-- [Opérations militaires en Amérique du Nord](/histoire/operations/) – Le Corps Expéditionnaire et la campagne de Yorktown
+- [Campagnes et batailles](/histoire/campagnes-et-batailles/) – Le Corps Expéditionnaire et la campagne de Yorktown
 - [Le coût humain de la guerre](/histoire/pertes-francaises/) – Soldats et marins français tués ou blessés
 - [La France dans la guerre](/histoire/la-france-dans-la-guerre/) – Adversaires et alliés dans la Guerre d'Amérique
 - [Hauts lieux en France](/histoire/hauts-lieux/) – Lieux de mémoire de la Guerre d'Indépendance
