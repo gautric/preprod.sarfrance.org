@@ -100,11 +100,11 @@ Dossier : `content/fr/histoire/`
 | Page sur le site | Fichier |
 |---|---|
 | Chronologie | `chronologie.md` |
-| Opérations militaires | `operations.md` |
+| Campagnes et batailles | `campagnes-et-batailles.md` |
 | Chefs et volontaires | `chefs-et-volontaires.md` |
 | Lieux de mémoire | `lieux-de-memoire.md` |
 | Dictionnaire biographique | `notices.md` |
-| Pertes françaises | `pertes-francaises.md` |
+| Le coût humain | `cout-humain.md` |
 | La France dans la guerre | `la-france-dans-la-guerre.md` |
 
 ### Pages de texte — Rubrique « Histoire / Antilles »
@@ -116,6 +116,7 @@ Dossier : `content/fr/histoire/antilles/`
 | Les Antilles françaises (index) | `_index.md` |
 | Le soutien des Antilles françaises | `soutien-antilles.md` |
 | Régiments et Corps des Colonies | `regiments-colonies.md` |
+| Les Chasseurs Volontaires de Saint-Domingue | `chasseurs-volontaires.md` |
 
 ### Pages de texte — Rubrique « Histoire / Biographies »
 
@@ -139,7 +140,7 @@ Dossier : `content/fr/activites/`
 | Page sur le site | Fichier |
 |---|---|
 | Agenda (année en cours) | `agenda-2026.md` |
-| Dictionnaire biographique | `dictionnaire.md` |
+| Dictionnaire des ancêtres | `dictionnaire-des-ancetres.md` |
 | Revue et publications | `publications.md` |
 | Prix Jacques de Trentinian | `prix-trentinian.md` |
 | Bibliothèque | `bibliotheque.md` |

@@ -1,5 +1,5 @@
 ---
-title: "Purpose and Mission"
+title: "Mission and Purpose"
 description: "Threefold transatlantic, historical and cultural mission of SAR France"
 ---
 
@@ -32,4 +32,4 @@ These objectives are carried out through three complementary missions:
 - Through conferences, in Paris and across France
 - During trips to America
 
-To learn more about the Society's history, see [History of SAR France](/en/organisation/histoire-de-sar-france/). To join us, visit the [Join Us](/en/contact/nous-rejoindre/) page.
+To learn more about the Society's history, see [Our History](/en/la-societe/notre-histoire/). To join us, visit the [Join Us](/en/contact/nous-rejoindre/) page.

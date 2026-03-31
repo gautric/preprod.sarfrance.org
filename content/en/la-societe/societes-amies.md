@@ -1,5 +1,5 @@
 ---
-title: "Sister Societies and Useful Links"
+title: "Allied Societies and Links"
 description: "DAR, CAR, Cincinnati of France, SAR societies abroad and historical associations"
 ---
 

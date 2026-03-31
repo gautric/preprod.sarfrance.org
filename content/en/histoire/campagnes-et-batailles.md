@@ -1,5 +1,5 @@
 ---
-title: "Military Operations in North America"
+title: "Campaigns and Battles"
 description: "Rochambeau's Expeditionary Corps, the Chesapeake strategy and the victory at Yorktown (1781)"
 ---
 
@@ -24,13 +24,13 @@ This campaign is exemplary in several respects:
 
 Admiral de Grasse landed the 3,000 men of Saint-Simon, drawn from the Caribbean, on September 2. He arrived ahead of the British fleet in the bay, then engaged and repelled it on September 6. Coming from the north by forced marches, Washington and Rochambeau arrived on the 17th. The siege was organized, and the main redoubts were taken on October 14. Cornwallis was forced to surrender on October 19, 1781. Six thousand British and two thousand German soldiers were disarmed, and 214 cannons were seized.
 
-See the [detailed French casualty table](/en/histoire/pertes-francaises/) and the [French Strategies and Politics](/en/histoire/strategies-et-politique-francaises/) page for the diplomatic context.
+See the [detailed French casualty table](/en/histoire/cout-humain/) and the [France in the War](/en/histoire/la-france-dans-la-guerre/) page for the diplomatic context.
 
 ## The Volunteers
 
 In addition to the Expeditionary Corps, approximately 230 French officers or engineers fought in American units, along with officers of foreign origin in French service.
 
-See the [Military Leaders and Volunteers](/en/histoire/chefs-militaires/) page for the complete list and detailed portraits.
+See the [Leaders and Volunteers](/en/histoire/chefs-et-volontaires/) page for the complete list and detailed portraits.
 
 ## The French Antilles
 

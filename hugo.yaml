@@ -184,8 +184,8 @@ languages:
           url: "/en/"
           weight: 1
         - identifier: "organisation"
-          name: "Organization"
-          url: "/en/organisation/"
+          name: "The Society"
+          url: "/en/la-societe/"
           weight: 2
         - identifier: "histoire"
           name: "History"
@@ -199,35 +199,35 @@ languages:
           name: "Contact"
           url: "/en/contact/"
           weight: 5
-        # Submenus - Organization
+        # Submenus - The Society
         - identifier: "organisation-index"
-          name: "Organization"
-          url: "/en/organisation/"
+          name: "The Society"
+          url: "/en/la-societe/"
           parent: "organisation"
           weight: 0
         - identifier: "histoire-sar-france"
-          name: "History of SAR France"
-          url: "/en/organisation/histoire-de-sar-france/"
+          name: "Our History"
+          url: "/en/la-societe/notre-histoire/"
           parent: "organisation"
           weight: 1
         - identifier: "nssar"
           name: "The NSSAR"
-          url: "/en/organisation/nssar/"
+          url: "/en/la-societe/nssar/"
           parent: "organisation"
           weight: 2
         - identifier: "objet-et-vocation"
-          name: "Purpose and Mission"
-          url: "/en/organisation/objet-et-vocation/"
+          name: "Mission and Purpose"
+          url: "/en/la-societe/mission-et-vocation/"
           parent: "organisation"
           weight: 3
         - identifier: "statuts"
-          name: "Bylaws & Rules"
-          url: "/en/organisation/statuts/"
+          name: "Bylaws and Rules"
+          url: "/en/la-societe/statuts/"
           parent: "organisation"
           weight: 4
         - identifier: "societes"
-          name: "Other French Societies"
-          url: "/en/organisation/societes/"
+          name: "Allied Societies and Links"
+          url: "/en/la-societe/societes-amies/"
           parent: "organisation"
           weight: 5
         # Submenus - History
@@ -242,28 +242,28 @@ languages:
           parent: "histoire"
           weight: 1
         - identifier: "operations"
-          name: "Military Operations"
-          url: "/en/histoire/operations/"
+          name: "Campaigns and Battles"
+          url: "/en/histoire/campagnes-et-batailles/"
           parent: "histoire"
           weight: 3
         - identifier: "chefs"
-          name: "Military Leaders & Volunteers"
-          url: "/en/histoire/chefs-militaires/"
+          name: "Leaders and Volunteers"
+          url: "/en/histoire/chefs-et-volontaires/"
           parent: "histoire"
           weight: 4
         - identifier: "hauts-lieux"
-          name: "Historic Sites in France"
-          url: "/en/histoire/hauts-lieux/"
+          name: "Sites of Remembrance"
+          url: "/en/histoire/lieux-de-memoire/"
           parent: "histoire"
           weight: 5
         - identifier: "pertes-francaises"
-          name: "French Casualties"
-          url: "/en/histoire/pertes-francaises/"
+          name: "The Human Cost"
+          url: "/en/histoire/cout-humain/"
           parent: "histoire"
           weight: 6
         - identifier: "strategies"
-          name: "French Strategies and Politics"
-          url: "/en/histoire/strategies-et-politique-francaises/"
+          name: "France in the War"
+          url: "/en/histoire/la-france-dans-la-guerre/"
           parent: "histoire"
           weight: 7
         # Submenus - Activities
@@ -280,8 +280,8 @@ languages:
           parent: "activites"
           weight: 1
         - identifier: "dictionnaire"
-          name: "Biographical Dictionary"
-          url: "/en/activites/dictionnaire/"
+          name: "Ancestors' Dictionary"
+          url: "/en/activites/dictionnaire-des-ancetres/"
           parent: "activites"
           weight: 3
         - identifier: "publications"
@@ -301,7 +301,7 @@ languages:
           weight: 6
         # Submenus - Contact
         - identifier: "formulaire"
-          name: "Contact Us"
+          name: "Write to Us"
           url: "/en/contact"
           parent: "contact"
           weight: 1

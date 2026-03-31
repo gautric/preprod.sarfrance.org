@@ -27,7 +27,7 @@ The war had begun.
 
 ### What factors led the British Parliament to accept the principle of independence for the thirteen colonies?
 
-Undeniably, the news of Cornwallis's capitulation at [Yorktown](/en/histoire/operations/), which would have been accepted with composure a few months earlier by King George III's government, was the element that tipped Parliament. Indeed, it combined with other setbacks of this world war:
+Undeniably, the news of Cornwallis's capitulation at [Yorktown](/en/histoire/campagnes-et-batailles/), which would have been accepted with composure a few months earlier by King George III's government, was the element that tipped Parliament. Indeed, it combined with other setbacks of this world war:
 
 * defeats in India, …
 * the loss of West Florida and Tobago, …
@@ -41,7 +41,7 @@ Undeniably, the news of Cornwallis's capitulation at [Yorktown](/en/histoire/ope
 
 ### Did France wish to pursue a separate war with England?
 
-In early June 1782, Castries was informed of the loss of five ships at the [Battle of the Saintes](/en/histoire/pertes-francaises/), and, summarizing the situation in a remarkable strategic analysis, prepared a new combined intervention (probably unbeatable) against Jamaica. The two governments of Paris and Madrid entrusted it to the Comte d'Estaing. The plan quickly became known in London, thanks to its Parisian spies.
+In early June 1782, Castries was informed of the loss of five ships at the [Battle of the Saintes](/en/histoire/cout-humain/), and, summarizing the situation in a remarkable strategic analysis, prepared a new combined intervention (probably unbeatable) against Jamaica. The two governments of Paris and Madrid entrusted it to the Comte d'Estaing. The plan quickly became known in London, thanks to its Parisian spies.
 
 At the same time, Vergennes sought to accelerate peace negotiations. Faced with the Russian threat against Turkey, he wanted to obtain a combined intervention by France and … Great Britain! The negotiations were slowed by Spain's demands, which, let us recall, was not an ally of the United States — whose independence it had refused to recognize — but of France.
 

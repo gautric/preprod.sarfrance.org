@@ -1,5 +1,5 @@
 ---
-title: "The Human Cost of the War for France"
+title: "The Human Cost"
 description: "French casualty table from the battles of the War of Independence (1778-1783)"
 ---
 
@@ -81,4 +81,4 @@ The table below lists French casualties, at sea and on land, during the major ba
 
 According to Warrington Dawson's detailed study (1936), **2,112 French citizens lost their lives on American soil or in American waters**, comprising 1,113 soldiers and 999 sailors (the vast majority from disease).
 
-See also: [Military Operations in North America](/en/histoire/operations/) — [Count de Rochambeau](/en/histoire/biographies/rochambeau/) — [Count de Grasse](/en/histoire/biographies/de-grasse/) — [Marquis de Bouillé](/en/histoire/biographies/bouille/)
+See also: [Campaigns and Battles](/en/histoire/campagnes-et-batailles/) — [Count de Rochambeau](/en/histoire/biographies/rochambeau/) — [Count de Grasse](/en/histoire/biographies/de-grasse/) — [Marquis de Bouillé](/en/histoire/biographies/bouille/)
