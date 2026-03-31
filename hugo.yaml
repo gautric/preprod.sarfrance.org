@@ -204,81 +204,81 @@ languages:
           name: "The Society"
           url: "/en/la-societe/"
           parent: "organisation"
-          weight: 0
+          weight: 1
         - identifier: "histoire-sar-france"
           name: "Our History"
           url: "/en/la-societe/notre-histoire/"
           parent: "organisation"
-          weight: 1
+          weight: 2
         - identifier: "nssar"
           name: "The NSSAR"
           url: "/en/la-societe/nssar/"
           parent: "organisation"
-          weight: 2
+          weight: 3
         - identifier: "objet-et-vocation"
           name: "Mission and Purpose"
           url: "/en/la-societe/mission-et-vocation/"
           parent: "organisation"
-          weight: 3
+          weight: 4
         - identifier: "statuts"
           name: "Bylaws and Rules"
           url: "/en/la-societe/statuts/"
           parent: "organisation"
-          weight: 4
+          weight: 5
         - identifier: "societes"
           name: "Allied Societies and Links"
           url: "/en/la-societe/societes-amies/"
           parent: "organisation"
-          weight: 5
+          weight: 6
         # Submenus - History
         - identifier: "histoire-index"
           name: "History"
           url: "/en/histoire/"
           parent: "histoire"
-          weight: 0
+          weight: 1
         - identifier: "chronologie"
           name: "Timeline"
           url: "/en/histoire/chronologie/"
           parent: "histoire"
-          weight: 1
+          weight: 2
         - identifier: "operations"
           name: "Campaigns and Battles"
           url: "/en/histoire/campagnes-et-batailles/"
           parent: "histoire"
-          weight: 3
+          weight: 4
         - identifier: "chefs"
           name: "Leaders and Volunteers"
           url: "/en/histoire/chefs-et-volontaires/"
           parent: "histoire"
-          weight: 4
+          weight: 5
         - identifier: "hauts-lieux"
           name: "Sites of Remembrance"
           url: "/en/histoire/lieux-de-memoire/"
           parent: "histoire"
-          weight: 5
+          weight: 6
         - identifier: "pertes-francaises"
           name: "The Human Cost"
           url: "/en/histoire/cout-humain/"
           parent: "histoire"
-          weight: 6
+          weight: 7
         - identifier: "strategies"
           name: "France in the War"
           url: "/en/histoire/la-france-dans-la-guerre/"
           parent: "histoire"
-          weight: 7
+          weight: 8
         # Submenus - Activities
         - identifier: "activites-index"
           name: "Activities"
           url: "/en/activites/"
           parent: "activites"
-          weight: 0
+          weight: 1
         - identifier: "agenda"
           name: "Calendar"
           url: "/en/activites/agenda-2026/"
           params:
             dynamic_year: true
           parent: "activites"
-          weight: 1
+          weight: 2
         - identifier: "dictionnaire"
           name: "Ancestors' Dictionary"
           url: "/en/activites/dictionnaire-des-ancetres/"
