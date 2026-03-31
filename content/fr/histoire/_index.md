@@ -40,5 +40,5 @@ L'ensemble des belligérants concluent la paix à Versailles, le 3 septembre 178
 - [Campagnes et batailles](/histoire/campagnes-et-batailles/) – Le Corps Expéditionnaire et la campagne de Yorktown
 - [Le coût humain](/histoire/cout-humain/) – Soldats et marins français tués ou blessés
 - [La France dans la guerre](/histoire/la-france-dans-la-guerre/) – Adversaires et alliés dans la Guerre d'Amérique
-- [Hauts lieux en France](/histoire/hauts-lieux/) – Lieux de mémoire de la Guerre d'Indépendance
+- [Lieux de mémoire](/histoire/lieux-de-memoire/) – Lieux de mémoire de la Guerre d'Indépendance
 - [Notices biographiques](/histoire/notices/) – Dictionnaire biographique des ancêtres SAR France homologués
