@@ -3,7 +3,7 @@ title: "Nous rejoindre"
 description: "Conditions d'admission, documents à produire et frais d'inscription"
 ---
 
-Pour découvrir les missions de SAR France, consultez la page [Objet et Vocation](/organisation/objet-et-vocation/).
+Pour découvrir les missions de SAR France, consultez la page [Mission et vocation](/la-societe/mission-et-vocation/).
 
 ## Qui peut adhérer ?
 
@@ -46,8 +46,8 @@ Une réduction d'impôt de {{< param "avantage_fiscal_pct" >}}% de ces montants 
 
 Faites vivre la Société :
 - Faites adhérer aux « Sons » les hommes de votre famille
-- Pourquoi pas les dames aux [DAR (Daughters of the American Revolution)](/organisation/societes/)
-- Pour les plus jeunes aux [CAR (Children of the American Revolution)](/organisation/societes/)
+- Pourquoi pas les dames aux [DAR (Daughters of the American Revolution)](/la-societe/societes-amies/)
+- Pour les plus jeunes aux [CAR (Children of the American Revolution)](/la-societe/societes-amies/)
 
 ### Participez à nos commissions
 - Études et recherches en histoire

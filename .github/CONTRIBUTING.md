@@ -81,16 +81,17 @@ Le site est **bilingue** (français et anglais). Quand vous modifiez un fichier 
 
 ## Où se trouvent les fichiers
 
-### Pages de texte — Rubrique « Organisation »
+### Pages de texte — Rubrique « La Société »
 
-Dossier : `content/fr/organisation/`
+Dossier : `content/fr/la-societe/`
 
 | Page sur le site | Fichier |
 |---|---|
-| NSSAR | `nssar.md` |
-| Objet et Vocation | `objet-et-vocation.md` |
-| Statuts & Règlement | `statuts.md` |
-| Autres sociétés françaises | `societes.md` |
+| La NSSAR | `nssar.md` |
+| Mission et vocation | `mission-et-vocation.md` |
+| Notre histoire | `notre-histoire.md` |
+| Statuts et règlement | `statuts.md` |
+| Sociétés amies et liens | `societes-amies.md` |
 
 ### Pages de texte — Rubrique « Histoire »
 
@@ -98,7 +99,6 @@ Dossier : `content/fr/histoire/`
 
 | Page sur le site | Fichier |
 |---|---|
-| Histoire de SAR France | `organisation/histoire-de-sar-france.md` |
 | Chronologie | `chronologie.md` |
 | Opérations militaires | `operations.md` |
 | Chefs militaires et volontaires | `chefs-militaires.md` |
