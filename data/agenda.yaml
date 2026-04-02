@@ -447,6 +447,14 @@ events:
     link: ""
     lat: 48.8675
     lon: 2.2362
+  - date: "2026-04-18"
+    title: "Reconstitution historique et commémoration au château de Fontainebleau"
+    type: commémoration
+    description: "Reconstitution des voyages d'automne de la cour. Commémoration le samedi avec les SAR et les Cincinnati en hommage aux troupes françaises de la guerre d'Indépendance américaine."
+    location: "Château de Fontainebleau"
+    link: "https://www.chateaudefontainebleau.fr/wp-content/uploads/2026/01/www.chateaudefontainebleau.fr-marie-antoinette-et-louis-xvi-au-chateau-de-fontainebleau-marie-antoinette-et-louis-xvi-au-chateau-de-fontainebleau.pdf"
+    lat: 48.4014
+    lon: 2.6986
   - date: "2026-05-20T09:45/2026-05-20T16:00"
     title: "Sortie dans le Loiret – Musée Mémorial de la Shoah (Pithiviers) et Atelier Musée de l'Imprimerie (Malesherbes)"
     type: visite
