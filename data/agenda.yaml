@@ -375,6 +375,14 @@ events:
     type: visite
     description: ""
     location: ""
+  - date: "2025-12-18T18:00:00/2025-12-18T20:00:00"
+    title: "Conférence « Atlas historique de la mer » et présentation des collections du musée national de la Marine"
+    type: 400ans-marine-nationale
+    description: "Conférence de C. Grataloup et J. de Preneuf sur l'Atlas historique de la mer (éd. Les Arènes-L'Histoire, 2026). Présentation « 400 ans de Marine » par B. de Sainte-Marie."
+    location: "Musée national de la Marine, Paris Trocadéro"
+    link: ""
+    lat: 48.8622
+    lon: 2.2884
   - date: "2026-01-17"
     title: "Conférence de Patrick Villiers à Versailles"
     type: conférence
@@ -383,6 +391,14 @@ events:
     link: ""
     lat: 48.8035
     lon: 2.1267
+  - date: "2026-01-29T18:00:00/2026-01-29T20:00:00"
+    title: "Conférence sur « La Flore » et présentation de l'odyssée de La Flore dans les fonds du SHD"
+    type: 400ans-marine-nationale
+    description: "Conférence sur l'ouvrage La Flore. De la frégate au croiseur (1847-1900) par CF A. Lannéhoa. Présentation par M. Chouleur (SHD Rochefort)."
+    location: "Service historique de la Défense, Vincennes"
+    link: ""
+    lat: 48.8429
+    lon: 2.4358
   - date: "2026-02-06T18:00:00"
     title: "Assemblée générale de SAR France et dîner au Palais du Luxembourg"
     type: assemblée
@@ -439,6 +455,14 @@ events:
     link: "https://www.archives-nationales.culture.gouv.fr/evenements/lafayette-entre-france-et-amerique-histoire-et-legende"
     lat: 48.8609
     lon: 2.3571
+  - date: "2026-04-02T17:00:00/2026-04-02T20:00:00"
+    title: "Visite de l'exposition Lafayette et conférence sur les convois durant la guerre d'Indépendance américaine"
+    type: 400ans-marine-nationale
+    description: "Visite guidée de l'exposition Lafayette par A. Douchin (17 h). Conférence de P. Villiers sur les convois et escortes à travers l'Atlantique (18 h). Archives nationales."
+    location: "Archives nationales, site de Paris"
+    link: ""
+    lat: 48.8604
+    lon: 2.358
   - date: "2026-04-04T15:00:00"
     title: "Conférence « Les frères Vioménil dans la guerre d'Indépendance américaine » au musée des Beaux-Arts de Nancy"
     type: conférence
@@ -455,6 +479,14 @@ events:
     link: ""
     lat: 48.8675
     lon: 2.2362
+  - date: "2026-04-16T18:00:00/2026-04-16T20:00:00"
+    title: "Conférence « Commémorer les 400 ans de la Marine » et présentation des collections sur la navigation en Océanie"
+    type: 400ans-marine-nationale
+    description: "Conférence du CA (2S) F. Guichard. Présentation des collections Océanie et des aménagements du paquebot Île-de-France par L. Surrel."
+    location: "Musée national de la Marine, Paris Trocadéro"
+    link: ""
+    lat: 48.8622
+    lon: 2.2884
   - date: "2026-04-18"
     title: "Reconstitution historique et commémoration au château de Fontainebleau"
     type: commémoration
@@ -479,6 +511,14 @@ events:
     link: ""
     lat: 48.8723
     lon: 2.2177
+  - date: "2026-05-28T18:00:00/2026-05-28T20:00:00"
+    title: "Conférence « L'histoire maritime à travers les sortilèges de la peinture » et visite de l'exposition « La Marine et les peintres »"
+    type: 400ans-marine-nationale
+    description: "Conférence et visite guidée par B. de Sainte-Marie au musée national de la Marine."
+    location: "Musée national de la Marine, Paris Trocadéro"
+    link: ""
+    lat: 48.8622
+    lon: 2.2884
   - date: "2026-06-20T08:30:00/2026-06-22T11:00:00"
     title: "Centenaire de SAR France au Puy du Fou"
     type: commémoration
@@ -495,14 +535,14 @@ events:
     link: "https://www.sar.org"
     lat: 36.0726
     lon: -79.792
-  - date: "2026-10-01/2026-10-03"
-    title: "Fall leadership meeting de la NSSAR à Louisville (KY)"
-    type: nssar
-    description: "The Galt House."
-    location: "The Galt House, Louisville, Kentucky"
-    link: "https://www.sar.org"
-    lat: 38.2542
-    lon: -85.7594
+  - date: "2026-09-24T18:00:00/2026-09-24T20:00:00"
+    title: "Conférence « Sea Power ? De Grasse et Vaudreuil » et présentation de la guerre d'Indépendance dans les fonds du SHD"
+    type: 400ans-marine-nationale
+    description: "Conférence de O. Chaline et J-M. Kowalski sur l'ouvrage Sea Power ? (éd. Sorbonne Université Presses, 2025). Présentation par B. Fonck et J-F. Dubos."
+    location: "Service historique de la Défense, Vincennes"
+    link: ""
+    lat: 48.8429
+    lon: 2.4358
   - date: "2026-09-30T18:30:00"
     title: "Ravivage de la Flamme sous l'Arc de Triomphe"
     type: commémoration
@@ -511,3 +551,35 @@ events:
     link: ""
     lat: 48.8738
     lon: 2.295
+  - date: "2026-10-01/2026-10-03"
+    title: "Fall leadership meeting de la NSSAR à Louisville (KY)"
+    type: nssar
+    description: "The Galt House."
+    location: "The Galt House, Louisville, Kentucky"
+    link: "https://www.sar.org"
+    lat: 38.2542
+    lon: -85.7594
+  - date: "2026-10-22T18:00:00/2026-10-22T20:00:00"
+    title: "Conférence « La Marine et les opérations extérieures 1958-2011 » et visite de l'exposition « Les trésors de la Marine »"
+    type: 400ans-marine-nationale
+    description: "Conférence de D. Guillemin (SHD). Présentation d'archives opérationnelles récentes et visite guidée de l'exposition."
+    location: "Service historique de la Défense, Vincennes"
+    link: ""
+    lat: 48.8429
+    lon: 2.4358
+  - date: "2026-11-26T18:00:00/2026-11-26T20:00:00"
+    title: "Conférence « La genèse de la Force Océanique Stratégique 1945-1972 » et présentation des premiers submersibles à Rochefort"
+    type: 400ans-marine-nationale
+    description: "Conférence de P. Boureille (SHD). Présentation de C. Drahé (musée national de la Marine à Rochefort) sur l'aventure des premiers submersibles."
+    location: "Musée national de la Marine, Paris Trocadéro"
+    link: ""
+    lat: 48.8622
+    lon: 2.2884
+  - date: "2026-12-17T18:00:00/2026-12-17T20:00:00"
+    title: "Présentation d'archives et conférence « L'enseignement et la formation maritime (XIXe – début XXe siècle) »"
+    type: 400ans-marine-nationale
+    description: "Conférence de M. Bessot (Archives nationales) et P. Pelissier (Université du Havre) sur l'enseignement et la formation maritime."
+    location: "Archives nationales, site de Paris"
+    link: ""
+    lat: 48.8604
+    lon: 2.358
