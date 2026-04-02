@@ -35,6 +35,10 @@
 .filter-btn.type-visite::before          { content: "🏰 "; }
 .agenda-type.type-exposition::before,
 .filter-btn.type-exposition::before      { content: "🖼️ "; }
+.agenda-type.type-250freedom::before,
+.filter-btn.type-250freedom::before      { content: "🗽 "; }
+.agenda-type.type-400ans-marine-nationale::before,
+.filter-btn.type-400ans-marine-nationale::before { content: "⚓ "; }
 
 @media (max-width: 768px) {
     .agenda-nav { gap: 5px; }

@@ -91,6 +91,8 @@
 .type-reunion         { background-color: var(--color-slate); }
 .type-visite          { background-color: var(--color-plum); }
 .type-exposition      { background-color: var(--color-copper); }
+.type-250freedom      { background-color: var(--color-royal-blue); }
+.type-400ans-marine-nationale { background-color: var(--color-dark-blue); }
 
 /* Chronologie tags  (13 items — full palette minus navy) */
 .tag-france           { background-color: var(--color-royal-blue); }
@@ -147,6 +149,8 @@
 .filter-btn.active.type-reunion         { background-color: var(--color-slate); border-color: var(--color-slate); }
 .filter-btn.active.type-visite          { background-color: var(--color-plum); border-color: var(--color-plum); }
 .filter-btn.active.type-exposition      { background-color: var(--color-copper); border-color: var(--color-copper); }
+.filter-btn.active.type-250freedom      { background-color: var(--color-royal-blue); border-color: var(--color-royal-blue); }
+.filter-btn.active.type-400ans-marine-nationale { background-color: var(--color-dark-blue); border-color: var(--color-dark-blue); }
 
 /* Chronologie tags — active filters */
 .filter-btn.active.tag-france           { background-color: var(--color-royal-blue); border-color: var(--color-royal-blue); }

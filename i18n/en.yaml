@@ -203,6 +203,10 @@
   translation: "Visit"
 - id: agenda_type_exposition
   translation: "Exhibition"
+- id: agenda_type_250freedom
+  translation: "250Freedom"
+- id: agenda_type_400ans-marine-nationale
+  translation: "400 Years of the French Navy"
 
 # Notices tags
 - id: notices_tag_officier-marine
