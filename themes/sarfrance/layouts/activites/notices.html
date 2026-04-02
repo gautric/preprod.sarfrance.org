@@ -29,26 +29,26 @@
         <div class="notices-grid">
             {{ range .Site.Data.notices.notices }}
             <div class="page-card notice-card" data-tags="{{ delimit .tags "," }}"
-                 data-search="{{ .nom | lower }} {{ .prenom | lower }} {{ .fonction | lower }}">
+                 data-search="{{ .lastname | lower }} {{ .firstname | lower }} {{ .role | lower }}">
                 <div class="notice-name">
-                    {{ if .biographie }}
-                    <a href="{{ partial "lang-prefix.html" $ }}/histoire/biographies/{{ .biographie }}/" >
-                        <span class="notice-nom">{{ .nom }}</span>
-                        {{ with .prenom }}<span class="notice-prenom">{{ . }}</span>{{ end }}
-                        {{ with .particule }}<span class="notice-particule">({{ . }})</span>{{ end }}
+                    {{ if .biography }}
+                    <a href="{{ partial "lang-prefix.html" $ }}/histoire/biographies/{{ .biography }}/" >
+                        <span class="notice-lastname">{{ .lastname }}</span>
+                        {{ with .firstname }}<span class="notice-firstname">{{ . }}</span>{{ end }}
+                        {{ with .particle }}<span class="notice-particle">({{ . }})</span>{{ end }}
                     </a>
                     {{ else }}
-                    <span class="notice-nom">{{ .nom }}</span>
-                    {{ with .prenom }}<span class="notice-prenom">{{ . }}</span>{{ end }}
-                    {{ with .particule }}<span class="notice-particule">({{ . }})</span>{{ end }}
+                    <span class="notice-lastname">{{ .lastname }}</span>
+                    {{ with .firstname }}<span class="notice-firstname">{{ . }}</span>{{ end }}
+                    {{ with .particle }}<span class="notice-particle">({{ . }})</span>{{ end }}
                     {{ end }}
                 </div>
-                <p class="notice-fonction">{{ .fonction }}</p>
-                {{ if or .naissance .deces }}
+                <p class="notice-role">{{ .role }}</p>
+                {{ if or .birth .death }}
                 <p class="notice-dates">
-                    {{ with .naissance }}{{ . }}{{ end }}{{ with .lieuNaissance }}, {{ . }}{{ end }}
-                    {{ if and .naissance .deces }} – {{ end }}
-                    {{ with .deces }}† {{ . }}{{ end }}{{ with .lieuDeces }}, {{ . }}{{ end }}
+                    {{ with .birth }}{{ . }}{{ end }}{{ with .birthplace }}, {{ . }}{{ end }}
+                    {{ if and .birth .death }} – {{ end }}
+                    {{ with .death }}† {{ . }}{{ end }}{{ with .deathplace }}, {{ . }}{{ end }}
                 </p>
                 {{ end }}
                 <div class="page-card-tags">

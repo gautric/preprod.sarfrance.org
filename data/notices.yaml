@@ -1,1069 +1,1069 @@
 revision: '2026-03-01'
 count: 150
 notices:
-- nom: ABOVILLE
-  prenom: François Marie
-  particule: d'
-  fonction: Colonel, commandant l'artillerie à Yorktown
+- lastname: ABOVILLE
+  firstname: François Marie
+  particle: d'
+  role: Colonel, commandant l'artillerie à Yorktown
   tags:
   - officier-terre
   - artillerie
   - corps-expeditionnaire
-  naissance: 23 janvier 1730
-  lieuNaissance: Brest
-  deces: 1er novembre 1817
-  lieuDeces: Paris
-- nom: ABZAC de LA DOUZE de CAZENAC
-  prenom: Jean-Baptiste Charles
-  particule: d'
-  fonction: Lieutenant au Royal-Italien
+  birth: 23 janvier 1730
+  birthplace: Brest
+  death: 1er novembre 1817
+  deathplace: Paris
+- lastname: ABZAC de LA DOUZE de CAZENAC
+  firstname: Jean-Baptiste Charles
+  particle: d'
+  role: Lieutenant au Royal-Italien
   tags:
   - officier-terre
-- nom: AGUE de la VOÛTE
-  prenom: Charles René
-  particule: ''
-  fonction: S/Lt au régiment d'Agenois
+- lastname: AGUE de la VOÛTE
+  firstname: Charles René
+  particle: ''
+  role: S/Lt au régiment d'Agenois
   tags:
   - officier-terre
-- nom: ALLEMAGNE
-  prenom: Claude
-  particule: d'
-  fonction: Soldat au régiment de Hainault. Général
+- lastname: ALLEMAGNE
+  firstname: Claude
+  particle: d'
+  role: Soldat au régiment de Hainault. Général
   tags:
   - soldat
-  naissance: 8 novembre 1754
-  lieuNaissance: Belley
-  deces: 24 juin 1813
-  lieuDeces: Nemours
-- nom: APPLETON
-  prenom: Nathaniel
-  particule: ''
-  fonction: Chapelain du 1er Congrès de la Révolte en 1774
+  birth: 8 novembre 1754
+  birthplace: Belley
+  death: 24 juin 1813
+  deathplace: Nemours
+- lastname: APPLETON
+  firstname: Nathaniel
+  particle: ''
+  role: Chapelain du 1er Congrès de la Révolte en 1774
   tags:
   - chapelain
   - americain
-  naissance: 14 janvier 1741
-  lieuNaissance: Norwich
-  deces: 14 juin 1801
-  lieuDeces: Londres
-- nom: AUBENTON
-  prenom: Marcel Ambroise
-  particule: d'
-  fonction: Officier de Marine, Directeur de l'artillerie
+  birth: 14 janvier 1741
+  birthplace: Norwich
+  death: 14 juin 1801
+  deathplace: Londres
+- lastname: AUBENTON
+  firstname: Marcel Ambroise
+  particle: d'
+  role: Officier de Marine, Directeur de l'artillerie
   tags:
   - officier-marine
   - artillerie
-- nom: AUGUSTIN de BOURGUISSON
-  prenom: Pierre Charles René
-  particule: d'
-  fonction: Capitaine au régiment d'Agenois
+- lastname: AUGUSTIN de BOURGUISSON
+  firstname: Pierre Charles René
+  particle: d'
+  role: Capitaine au régiment d'Agenois
   tags:
   - officier-terre
-- nom: AURE
-  prenom: Jean Antoine
-  particule: d'
-  fonction: Régisseur des vivres au corps de Rochambeau
+- lastname: AURE
+  firstname: Jean Antoine
+  particle: d'
+  role: Régisseur des vivres au corps de Rochambeau
   tags:
   - diplomate
   - corps-expeditionnaire
-- nom: BALGUERIE
-  prenom: Jean Étienne
-  particule: ''
-  fonction: Capitaine de navires
+- lastname: BALGUERIE
+  firstname: Jean Étienne
+  particle: ''
+  role: Capitaine de navires
   tags:
   - armateur-corsaire
-- nom: BARRIGUE de FONTAINIEU
-  prenom: Prosper
-  particule: de
-  fonction: Officier de Marine
+- lastname: BARRIGUE de FONTAINIEU
+  firstname: Prosper
+  particle: de
+  role: Officier de Marine
   tags:
   - officier-marine
-  naissance: 17 juin 1760
-  lieuNaissance: Marseille
-  deces: 28 septembre 1850
-  lieuDeces: Marseille
-- nom: BEAUMONT de VERNEUIL d'AUTY
-  prenom: Guillaume Joseph
-  particule: de
-  fonction: Officier de Marine
+  birth: 17 juin 1760
+  birthplace: Marseille
+  death: 28 septembre 1850
+  deathplace: Marseille
+- lastname: BEAUMONT de VERNEUIL d'AUTY
+  firstname: Guillaume Joseph
+  particle: de
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: BERTHE de GISANCOURT de POMMERY
-  prenom: Marie Louis Florimond
-  particule: ''
-  fonction: Officier au régiment de Touraine
+- lastname: BERTHE de GISANCOURT de POMMERY
+  firstname: Marie Louis Florimond
+  particle: ''
+  role: Officier au régiment de Touraine
   tags:
   - officier-terre
-- nom: BERTON de BALBES duc de CRILLON
-  prenom: Louis
-  particule: ''
-  fonction: Lieutenant Général dans l'armée espagnole
+- lastname: BERTON de BALBES duc de CRILLON
+  firstname: Louis
+  particle: ''
+  role: Lieutenant Général dans l'armée espagnole
   tags:
   - officier-terre
-  naissance: 22 février 1717
-  lieuNaissance: Avignon
-  deces: 9 avril 1796
-  lieuDeces: Madrid
-- nom: BESSEY de la VOUTE
-  prenom: René Esprit Isaac
-  particule: de
-  fonction: Officier de Marine
+  birth: 22 février 1717
+  birthplace: Avignon
+  death: 9 avril 1796
+  deathplace: Madrid
+- lastname: BESSEY de la VOUTE
+  firstname: René Esprit Isaac
+  particle: de
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: BOREL
-  prenom: Pierre
-  particule: ''
-  fonction: Lieutenant au régiment d'Attakapas
+- lastname: BOREL
+  firstname: Pierre
+  particle: ''
+  role: Lieutenant au régiment d'Attakapas
   tags:
   - officier-terre
-  naissance: 24 avril 1947
-  lieuNaissance: Pobla de Segur
-- nom: BOÜAN
-  prenom: Louis Anne Patern
-  particule: ''
-  fonction: Ingénieur Militaire au corps de Rochambeau
+  birth: 24 avril 1947
+  birthplace: Pobla de Segur
+- lastname: BOÜAN
+  firstname: Louis Anne Patern
+  particle: ''
+  role: Ingénieur Militaire au corps de Rochambeau
   tags:
   - genie
   - corps-expeditionnaire
-- nom: BOUËXIC de GUICHEN
-  prenom: Luc Urbain
-  particule: ''
-  fonction: Lieutenant Général, Chef d'Escadre
+- lastname: BOUËXIC de GUICHEN
+  firstname: Luc Urbain
+  particle: ''
+  role: Lieutenant Général, Chef d'Escadre
   tags:
   - officier-marine
-  naissance: 21 juin 1712
-  lieuNaissance: Fougères
-  deces: 13 janvier 1790
-  lieuDeces: Morlaix
-- nom: BOUILLÉ
-  prenom: François-Claude-Amour
-  particule: de
-  fonction: Gouverneur général des Îles du Vent
+  birth: 21 juin 1712
+  birthplace: Fougères
+  death: 13 janvier 1790
+  deathplace: Morlaix
+- lastname: BOUILLÉ
+  firstname: François-Claude-Amour
+  particle: de
+  role: Gouverneur général des Îles du Vent
   tags:
   - officier-terre
   - diplomate
-  biographie: bouille
-  naissance: 19 novembre 1739
-  lieuNaissance: Saint-Èble (Haute-Loire)
-  deces: 14 novembre 1800
-  lieuDeces: Londres (Grande-Bretagne)
-- nom: BOUGAINVILLE
-  prenom: Louis Antoine
-  particule: de
-  fonction: Chef d'escadre navale
+  biography: bouille
+  birth: 19 novembre 1739
+  birthplace: Saint-Èble (Haute-Loire)
+  death: 14 novembre 1800
+  deathplace: Londres (Grande-Bretagne)
+- lastname: BOUGAINVILLE
+  firstname: Louis Antoine
+  particle: de
+  role: Chef d'escadre navale
   tags:
   - officier-marine
-  naissance: 11 novembre 1729
-  lieuNaissance: Paris
-  deces: 31 août 1811
-  lieuDeces: Paris
-- nom: BOURDON de VATRY
-  prenom: Marc-Antoine
-  particule: ''
-  fonction: Secrétaire Général du corps expéditionnaire
+  birth: 11 novembre 1729
+  birthplace: Paris
+  death: 31 août 1811
+  deathplace: Paris
+- lastname: BOURDON de VATRY
+  firstname: Marc-Antoine
+  particle: ''
+  role: Secrétaire Général du corps expéditionnaire
   tags:
   - diplomate
   - corps-expeditionnaire
-  naissance: 2 février 1754
-  lieuNaissance: Paris
-  deces: 17 mai 1839
-  lieuDeces: Paris
-- nom: BRISOUT de BARNEVILLE
-  prenom: Nicolas Denis
-  particule: ''
-  fonction: Aide de camp de Viomenil
+  birth: 2 février 1754
+  birthplace: Paris
+  death: 17 mai 1839
+  deathplace: Paris
+- lastname: BRISOUT de BARNEVILLE
+  firstname: Nicolas Denis
+  particle: ''
+  role: Aide de camp de Viomenil
   tags:
   - aide-de-camp
   - corps-expeditionnaire
-- nom: BRUIX
-  prenom: Étienne Eustache
-  particule: ''
-  fonction: Officier de Marine
+- lastname: BRUIX
+  firstname: Étienne Eustache
+  particle: ''
+  role: Officier de Marine
   tags:
   - officier-marine
-  naissance: 17 juillet 1759
-  lieuNaissance: Saint-Domingue
-  deces: 18 mars 1805
-  lieuDeces: Paris
-- nom: BUTLER
-  prenom: Zebulon
-  particule: ''
-  fonction: Colonel armée du Connecticut
+  birth: 17 juillet 1759
+  birthplace: Saint-Domingue
+  death: 18 mars 1805
+  deathplace: Paris
+- lastname: BUTLER
+  firstname: Zebulon
+  particle: ''
+  role: Colonel armée du Connecticut
   tags:
   - officier-terre
   - americain
-- nom: BUYSSON des AIX
-  prenom: Charles François
-  particule: du
-  fonction: Aide de camp de de Kalb
+- lastname: BUYSSON des AIX
+  firstname: Charles François
+  particle: du
+  role: Aide de camp de de Kalb
   tags:
   - aide-de-camp
-  naissance: 19 août 1752
-  lieuNaissance: Treban
-  deces: 19 mars 1786
-  lieuDeces: Moulins
-- nom: CAFFIN
-  prenom: Benoist Charles
-  particule: ''
-  fonction: Soldat au régiment d'Auxerrois
+  birth: 19 août 1752
+  birthplace: Treban
+  death: 19 mars 1786
+  deathplace: Moulins
+- lastname: CAFFIN
+  firstname: Benoist Charles
+  particle: ''
+  role: Soldat au régiment d'Auxerrois
   tags:
   - soldat
-- nom: CAMECASSE
-  prenom: Jean
-  particule: ''
-  fonction: Armateur du Coureur
+- lastname: CAMECASSE
+  firstname: Jean
+  particle: ''
+  role: Armateur du Coureur
   tags:
   - armateur-corsaire
-- nom: CARO
-  prenom: Jacques François
-  particule: ''
-  fonction: Officier de Marine
+- lastname: CARO
+  firstname: Jacques François
+  particle: ''
+  role: Officier de Marine
   tags:
   - officier-marine
-  naissance: 30 novembre 1874
-  lieuNaissance: palais de Blenheim
-  deces: 24 janvier 1965
-  lieuDeces: Hyde Park Gate
-- nom: CAUPOS
-  prenom: Étienne
-  particule: ''
-  fonction: Timonier et aide-pilote de navires
+  birth: 30 novembre 1874
+  birthplace: palais de Blenheim
+  death: 24 janvier 1965
+  deathplace: Hyde Park Gate
+- lastname: CAUPOS
+  firstname: Étienne
+  particle: ''
+  role: Timonier et aide-pilote de navires
   tags:
   - officier-marine
-- nom: CAVELIER de CUVERVILLE
-  prenom: Louis Hyacinthe
-  particule: ''
-  fonction: Capitaine de Vaisseau, Escadre de Suffren
+- lastname: CAVELIER de CUVERVILLE
+  firstname: Louis Hyacinthe
+  particle: ''
+  role: Capitaine de Vaisseau, Escadre de Suffren
   tags:
   - officier-marine
-  naissance: 9 février 1744
-  lieuNaissance: Granchain
-  deces: 18 juin 1805
-  lieuDeces: Granchain
-- nom: CHABANNES de CURTON LA PALICE
-  prenom: Jean-Frédéric
-  particule: de
-  fonction: Aide de camp de Vioménil
-  tags:
-  - aide-de-camp
-  - corps-expeditionnaire
-- nom: CHABRAND
-  prenom: Louis
-  particule: ''
-  fonction: Soldat au régiment de Hainault
-  tags:
-  - soldat
-  naissance: 6 juillet 1832
-  lieuNaissance: château de Schönbrunn
-  deces: 19 juin 1867
-  lieuDeces: Santiago de Querétaro
-- nom: CHAFFAULT de BESNÉ
-  prenom: Louis Charles
-  particule: du
-  fonction: Officier de Marine, Lt-Général
-  tags:
-  - officier-marine
-  naissance: 29 février 1708
-  lieuNaissance: Montaigu
-  deces: 29 juin 1794
-  lieuDeces: manoir de la Hautière
-- nom: CHAMPEAUX
-  prenom: Jacques
-  particule: ''
-  fonction: Sergent dans l'Agenais
-  tags:
-  - soldat
-- nom: CHARET
-  prenom: Pierre
-  particule: ''
-  fonction: Armateur du corsaire La Pallas
-  tags:
-  - armateur-corsaire
-  naissance: 2 mai 1763
-  lieuNaissance: Couffé
-  deces: 26 mars 1796
-  lieuDeces: Nantes
-- nom: CHARPY
-  prenom: Jean Louis
-  particule: ''
-  fonction: Officier au Régiment Armagnac Infanterie
-  tags:
-  - officier-terre
-  naissance: 17 novembre 1867
-  lieuNaissance: 7e arrondissement de Paris
-  deces: 16 septembre 1946
-  lieuDeces: 7e arrondissement de Paris
-- nom: CHESNEL
-  prenom: François
-  particule: de
-  fonction: Aide-Major de l'Armée des Indes
-  tags:
-  - officier-terre
-- nom: CHOSSAT de MONTBURON
-  prenom: Claude François Marie
-  particule: de
-  fonction: Officier au Régiment d'Auvergne
-  tags:
-  - officier-terre
-- nom: CILLART de SUVILLE
-  prenom: Armand François Marie
-  particule: de
-  fonction: Capitaine de Vaisseau
-  tags:
-  - officier-marine
-  naissance: 1er février 1730
-  lieuNaissance: Séglien
-  deces: 30 juin 1801
-  lieuDeces: Jersey
-- nom: COHORN de LA PALUN
-  prenom: Alexandre
-  particule: de
-  fonction: Capitaine de Vaisseau
-  tags:
-  - officier-marine
-- nom: COLLEVILLE
-  prenom: Jacques Augustin
-  particule: ''
-  fonction: Armateur de corsaires au Havre
-  tags:
-  - armateur-corsaire
-- nom: COUDÉ
-  prenom: Louis Marie
-  particule: ''
-  fonction: Officier de Marine
-  tags:
-  - officier-marine
-- nom: COÜEDIC de KERGOUALER
-  prenom: Charles Louis
-  particule: ''
-  fonction: Officier de Marine
-  tags:
-  - officier-marine
-- nom: CROMOT du BOURG
-  prenom: Maxime
-  particule: ''
-  fonction: Aide de camp de Rochambeau
+  birth: 9 février 1744
+  birthplace: Granchain
+  death: 18 juin 1805
+  deathplace: Granchain
+- lastname: CHABANNES de CURTON LA PALICE
+  firstname: Jean-Frédéric
+  particle: de
+  role: Aide de camp de Vioménil
   tags:
   - aide-de-camp
   - corps-expeditionnaire
-- nom: CUSTINE
-  prenom: Adam Philippe
-  particule: de
-  fonction: Colonel Régiment de Saintonge
+- lastname: CHABRAND
+  firstname: Louis
+  particle: ''
+  role: Soldat au régiment de Hainault
+  tags:
+  - soldat
+  birth: 6 juillet 1832
+  birthplace: château de Schönbrunn
+  death: 19 juin 1867
+  deathplace: Santiago de Querétaro
+- lastname: CHAFFAULT de BESNÉ
+  firstname: Louis Charles
+  particle: du
+  role: Officier de Marine, Lt-Général
+  tags:
+  - officier-marine
+  birth: 29 février 1708
+  birthplace: Montaigu
+  death: 29 juin 1794
+  deathplace: manoir de la Hautière
+- lastname: CHAMPEAUX
+  firstname: Jacques
+  particle: ''
+  role: Sergent dans l'Agenais
+  tags:
+  - soldat
+- lastname: CHARET
+  firstname: Pierre
+  particle: ''
+  role: Armateur du corsaire La Pallas
+  tags:
+  - armateur-corsaire
+  birth: 2 mai 1763
+  birthplace: Couffé
+  death: 26 mars 1796
+  deathplace: Nantes
+- lastname: CHARPY
+  firstname: Jean Louis
+  particle: ''
+  role: Officier au Régiment Armagnac Infanterie
+  tags:
+  - officier-terre
+  birth: 17 novembre 1867
+  birthplace: 7e arrondissement de Paris
+  death: 16 septembre 1946
+  deathplace: 7e arrondissement de Paris
+- lastname: CHESNEL
+  firstname: François
+  particle: de
+  role: Aide-Major de l'Armée des Indes
+  tags:
+  - officier-terre
+- lastname: CHOSSAT de MONTBURON
+  firstname: Claude François Marie
+  particle: de
+  role: Officier au Régiment d'Auvergne
+  tags:
+  - officier-terre
+- lastname: CILLART de SUVILLE
+  firstname: Armand François Marie
+  particle: de
+  role: Capitaine de Vaisseau
+  tags:
+  - officier-marine
+  birth: 1er février 1730
+  birthplace: Séglien
+  death: 30 juin 1801
+  deathplace: Jersey
+- lastname: COHORN de LA PALUN
+  firstname: Alexandre
+  particle: de
+  role: Capitaine de Vaisseau
+  tags:
+  - officier-marine
+- lastname: COLLEVILLE
+  firstname: Jacques Augustin
+  particle: ''
+  role: Armateur de corsaires au Havre
+  tags:
+  - armateur-corsaire
+- lastname: COUDÉ
+  firstname: Louis Marie
+  particle: ''
+  role: Officier de Marine
+  tags:
+  - officier-marine
+- lastname: COÜEDIC de KERGOUALER
+  firstname: Charles Louis
+  particle: ''
+  role: Officier de Marine
+  tags:
+  - officier-marine
+- lastname: CROMOT du BOURG
+  firstname: Maxime
+  particle: ''
+  role: Aide de camp de Rochambeau
+  tags:
+  - aide-de-camp
+  - corps-expeditionnaire
+- lastname: CUSTINE
+  firstname: Adam Philippe
+  particle: de
+  role: Colonel Régiment de Saintonge
   tags:
   - officier-terre
   - corps-expeditionnaire
-- nom: GRASSE TILLY
-  prenom: François Joseph Paul
-  particule: de
-  fonction: Lieutenant-général des armées navales, héros de la Chesapeake
+- lastname: GRASSE TILLY
+  firstname: François Joseph Paul
+  particle: de
+  role: Lieutenant-général des armées navales, héros de la Chesapeake
   tags:
   - officier-marine
-  biographie: de-grasse
-  naissance: 13 septembre 1722
-  lieuNaissance: Le Bar-sur-Loup (Provence)
-  deces: 11 janvier 1788
-  lieuDeces: Tilly (Île-de-France)
-- nom: DENTZEL
-  prenom: Georges Frédéric
-  particule: ''
-  fonction: Chapelain dans Royal-Deux-Ponts
+  biography: de-grasse
+  birth: 13 septembre 1722
+  birthplace: Le Bar-sur-Loup (Provence)
+  death: 11 janvier 1788
+  deathplace: Tilly (Île-de-France)
+- lastname: DENTZEL
+  firstname: Georges Frédéric
+  particle: ''
+  role: Chapelain dans Royal-Deux-Ponts
   tags:
   - chapelain
   - corps-expeditionnaire
-- nom: DESLANDES
-  prenom: Nicolas
-  particule: ''
-  fonction: Armateur de navires corsaires
+- lastname: DESLANDES
+  firstname: Nicolas
+  particle: ''
+  role: Armateur de navires corsaires
   tags:
   - armateur-corsaire
-- nom: DEYDIER de PIERREFEU
-  prenom: Louis
-  particule: ''
-  fonction: Officier de Marine, Capitaine de Vaisseau
+- lastname: DEYDIER de PIERREFEU
+  firstname: Louis
+  particle: ''
+  role: Officier de Marine, Capitaine de Vaisseau
   tags:
   - officier-marine
-- nom: DIGNAC
-  prenom: Pierre Jean
-  particule: ''
-  fonction: Armateur et capitaine corsaire
+- lastname: DIGNAC
+  firstname: Pierre Jean
+  particle: ''
+  role: Armateur et capitaine corsaire
   tags:
   - armateur-corsaire
-- nom: DINET de MONTROND
-  prenom: Pierre
-  particule: ''
-  fonction: Caporal au Régiment de Poitou. Embarqué
+- lastname: DINET de MONTROND
+  firstname: Pierre
+  particle: ''
+  role: Caporal au Régiment de Poitou. Embarqué
   tags:
   - soldat
-- nom: DREZEN
-  prenom: Yves
-  particule: ''
-  fonction: Mousse sur La Couronne
+- lastname: DREZEN
+  firstname: Yves
+  particle: ''
+  role: Mousse sur La Couronne
   tags:
   - officier-marine
-- nom: DAMAS
-  prenom: Claude-Charles
-  particule: de
-  fonction: Vicomte de Marillac, officier du Corps Expéditionnaire
+- lastname: DAMAS
+  firstname: Claude-Charles
+  particle: de
+  role: Vicomte de Marillac, officier du Corps Expéditionnaire
   tags:
   - officier-terre
   - corps-expeditionnaire
-  biographie: damas
-  naissance: '1733'
-  deces: '1805'
-- nom: DROUHOT
-  prenom: Jacques
-  particule: ''
-  fonction: Capitaine en second des chasseurs, de Lauzun
+  biography: damas
+  birth: '1733'
+  death: '1805'
+- lastname: DROUHOT
+  firstname: Jacques
+  particle: ''
+  role: Capitaine en second des chasseurs, de Lauzun
   tags:
   - officier-terre
   - legion-lauzun
-- nom: DUBOYS de LA BERNARDE
-  prenom: Jean Hélie
-  particule: ''
-  fonction: Aide Maréchal des Logis au camp de Vaissieux
+- lastname: DUBOYS de LA BERNARDE
+  firstname: Jean Hélie
+  particle: ''
+  role: Aide Maréchal des Logis au camp de Vaissieux
   tags:
   - aide-de-camp
-- nom: DUGAY
-  prenom: Arnaud
-  particule: ''
-  fonction: Capitaine corsaire
+- lastname: DUGAY
+  firstname: Arnaud
+  particle: ''
+  role: Capitaine corsaire
   tags:
   - armateur-corsaire
-- nom: ELLOY
-  prenom: Guillain Maurice Pierre
-  particule: d'
-  fonction: S-Lt Régiment de Dillon
+- lastname: ELLOY
+  firstname: Guillain Maurice Pierre
+  particle: d'
+  role: S-Lt Régiment de Dillon
   tags:
   - officier-terre
-- nom: ETHIS de CORNY
-  prenom: Louis Dominique
-  particule: ''
-  fonction: Commissaire des Guerres de Rochambeau
+- lastname: ETHIS de CORNY
+  firstname: Louis Dominique
+  particle: ''
+  role: Commissaire des Guerres de Rochambeau
   tags:
   - diplomate
   - corps-expeditionnaire
-- nom: FABRÉ
-  prenom: Adrien Jean-Pierre
-  particule: ''
-  fonction: Chirurgien de Marine
+- lastname: FABRÉ
+  firstname: Adrien Jean-Pierre
+  particle: ''
+  role: Chirurgien de Marine
   tags:
   - chirurgien
-- nom: FERRÉ de SAINT ROMAIN de PÉROUX
-  prenom: Jean
-  particule: ''
-  fonction: Capitaine au Régiment de Champagne
+- lastname: FERRÉ de SAINT ROMAIN de PÉROUX
+  firstname: Jean
+  particle: ''
+  role: Capitaine au Régiment de Champagne
   tags:
   - officier-terre
-- nom: FLOWERS
-  prenom: Valentine
-  particule: ''
-  fonction: Soldat dans la Milice de Virginie
+- lastname: FLOWERS
+  firstname: Valentine
+  particle: ''
+  role: Soldat dans la Milice de Virginie
   tags:
   - soldat
   - volontaire
   - americain
-- nom: FONTANGES
-  prenom: François
-  particule: de
-  fonction: Major Général au débarquement de Savannah
+- lastname: FONTANGES
+  firstname: François
+  particle: de
+  role: Major Général au débarquement de Savannah
   tags:
   - officier-terre
-- nom: GANTÈS
-  prenom: Pierre Aimé Hilarion
-  particule: de
-  fonction: Officier de Marine
+- lastname: GANTÈS
+  firstname: Pierre Aimé Hilarion
+  particle: de
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: GÉRARD de RAYNEVAL
-  prenom: Joseph Mathias
-  particule: ''
-  fonction: Négociateur des traités de Paris de 1783
+- lastname: GÉRARD de RAYNEVAL
+  firstname: Joseph Mathias
+  particle: ''
+  role: Négociateur des traités de Paris de 1783
   tags:
   - diplomate
-- nom: GIRARD de VASSON
-  prenom: André
-  particule: ''
-  fonction: Officier de Marine
+- lastname: GIRARD de VASSON
+  firstname: André
+  particle: ''
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: GOËSBRIAND
-  prenom: Christophe
-  particule: de
-  fonction: Officier de Marine
+- lastname: GOËSBRIAND
+  firstname: Christophe
+  particle: de
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: GONTAUT
-  prenom: Armand Louis
-  particule: de
-  fonction: Duc de Lauzun, puis duc de Biron, commandant la Légion de Lauzun
+- lastname: GONTAUT
+  firstname: Armand Louis
+  particle: de
+  role: Duc de Lauzun, puis duc de Biron, commandant la Légion de Lauzun
   tags:
   - officier-terre
   - legion-lauzun
   - corps-expeditionnaire
-  biographie: lauzun
-  naissance: 13 avril 1747
-  lieuNaissance: Paris
-  deces: 31 décembre 1793
-  lieuDeces: Paris (guillotiné)
-- nom: GOYS de MÉZEYRAC
-  prenom: Louis Antoine
-  particule: ''
-  fonction: Officier au Régiment de Viennois Infanterie
+  biography: lauzun
+  birth: 13 avril 1747
+  birthplace: Paris
+  death: 31 décembre 1793
+  deathplace: Paris (guillotiné)
+- lastname: GOYS de MÉZEYRAC
+  firstname: Louis Antoine
+  particle: ''
+  role: Officier au Régiment de Viennois Infanterie
   tags:
   - officier-terre
-- nom: GRIMOÜARD
-  prenom: Nicolas
-  particule: de
-  fonction: Officier de Marine Capitaine de Vaisseau
+- lastname: GRIMOÜARD
+  firstname: Nicolas
+  particle: de
+  role: Officier de Marine Capitaine de Vaisseau
   tags:
   - officier-marine
-- nom: GUESTIER
-  prenom: Daniel
-  particule: ''
-  fonction: Matelot
+- lastname: GUESTIER
+  firstname: Daniel
+  particle: ''
+  role: Matelot
   tags:
   - officier-marine
-- nom: GUILHEMIN
-  prenom: Jean-Louis
-  particule: ''
-  fonction: Sergent Major, Régiment de Bourbonnais
+- lastname: GUILHEMIN
+  firstname: Jean-Louis
+  particle: ''
+  role: Sergent Major, Régiment de Bourbonnais
   tags:
   - soldat
   - corps-expeditionnaire
-- nom: GUSSE
-  prenom: Jean-François
-  particule: ''
-  fonction: Sergent au Régiment de Touraine
+- lastname: GUSSE
+  firstname: Jean-François
+  particle: ''
+  role: Sergent au Régiment de Touraine
   tags:
   - soldat
-- nom: HAUDRY de JANVRY
-  prenom: André Pierre
-  particule: ''
-  fonction: Officier de Marine
+- lastname: HAUDRY de JANVRY
+  firstname: André Pierre
+  particle: ''
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: HUON de KERMADEC
-  prenom: Jean Marie
-  particule: ''
-  fonction: Officier de Marine. Escadre de Suffren
+- lastname: HUON de KERMADEC
+  firstname: Jean Marie
+  particle: ''
+  role: Officier de Marine. Escadre de Suffren
   tags:
   - officier-marine
-- nom: IVORY de CORBON
-  prenom: Alexis Claude
-  particule: d'
-  fonction: Lieutenant mineur à Strasbourg-Artillerie
+- lastname: IVORY de CORBON
+  firstname: Alexis Claude
+  particle: d'
+  role: Lieutenant mineur à Strasbourg-Artillerie
   tags:
   - officier-terre
   - artillerie
-- nom: JACKSON
-  prenom: Michael
-  particule: ''
-  fonction: Officier armée continentale du Massachusetts
+- lastname: JACKSON
+  firstname: Michael
+  particle: ''
+  role: Officier armée continentale du Massachusetts
   tags:
   - officier-terre
   - americain
-- nom: KALB
-  prenom: Jean
-  particule: de
-  fonction: Officier français et major général US
+- lastname: KALB
+  firstname: Jean
+  particle: de
+  role: Officier français et major général US
   tags:
   - officier-terre
   - americain
-- nom: KERGARIOU-LOCMARIA
-  prenom: Thibault René
-  particule: de
-  fonction: Officier de Marine
+- lastname: KERGARIOU-LOCMARIA
+  firstname: Thibault René
+  particle: de
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: LABAT de LAPEYRIERE
-  prenom: René-Calixte
-  particule: de
-  fonction: Officier de Marine
+- lastname: LABAT de LAPEYRIERE
+  firstname: René-Calixte
+  particle: de
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: LA BURTHE de PACHAS
-  prenom: Jacques Antoine
-  particule: de
-  fonction: Officier au Régiment de Soissonnais
+- lastname: LA BURTHE de PACHAS
+  firstname: Jacques Antoine
+  particle: de
+  role: Officier au Régiment de Soissonnais
   tags:
   - officier-terre
   - corps-expeditionnaire
-- nom: LACORDAIRE
-  prenom: Nicolas
-  particule: ''
-  fonction: Chirurgien de Marine
+- lastname: LACORDAIRE
+  firstname: Nicolas
+  particle: ''
+  role: Chirurgien de Marine
   tags:
   - chirurgien
-- nom: LA FORGUE de BELLEGARDE
-  prenom: Denis François Calixte
-  particule: de
-  fonction: Officier au Régiment de Saintonge
+- lastname: LA FORGUE de BELLEGARDE
+  firstname: Denis François Calixte
+  particle: de
+  role: Officier au Régiment de Saintonge
   tags:
   - officier-terre
   - corps-expeditionnaire
-- nom: LA MYRE MORY
-  prenom: André Jérôme
-  particule: ''
-  fonction: Officier au Régiment d'Auxerrois
+- lastname: LA MYRE MORY
+  firstname: André Jérôme
+  particle: ''
+  role: Officier au Régiment d'Auxerrois
   tags:
   - officier-terre
-- nom: LAPRUN
-  prenom: Pierre
-  particule: ''
-  fonction: Capitaine dans Auxonne-Artillerie
+- lastname: LAPRUN
+  firstname: Pierre
+  particle: ''
+  role: Capitaine dans Auxonne-Artillerie
   tags:
   - officier-terre
   - artillerie
-- nom: LAROCHE
-  prenom: Antoine
-  particule: ''
-  fonction: Chirurgien Major des armées
+- lastname: LAROCHE
+  firstname: Antoine
+  particle: ''
+  role: Chirurgien Major des armées
   tags:
   - chirurgien
-- nom: LA ROCHENÉGLY
-  prenom: Gabriel François
-  particule: de
-  fonction: Lieutenant au régiment de Gâtinais
+- lastname: LA ROCHENÉGLY
+  firstname: Gabriel François
+  particle: de
+  role: Lieutenant au régiment de Gâtinais
   tags:
   - officier-terre
-- nom: LAU d'ALLEMANS
-  prenom: Pierre-Marie
-  particule: du
-  fonction: Mestre de camp en second Agenois-Infanterie
+- lastname: LAU d'ALLEMANS
+  firstname: Pierre-Marie
+  particle: du
+  role: Mestre de camp en second Agenois-Infanterie
   tags:
   - officier-terre
-- nom: LECOUR GRANDMAISON
-  prenom: Jean-Baptiste
-  particule: ''
-  fonction: Officier de Marine
+- lastname: LECOUR GRANDMAISON
+  firstname: Jean-Baptiste
+  particle: ''
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: LE MASNE
-  prenom: Jacques
-  particule: ''
-  fonction: Armateur nantais
+- lastname: LE MASNE
+  firstname: Jacques
+  particle: ''
+  role: Armateur nantais
   tags:
   - armateur-corsaire
-- nom: LERAY de CHAUMONT
-  prenom: Jacques Donatien
-  particule: ''
-  fonction: French father of AR
+- lastname: LERAY de CHAUMONT
+  firstname: Jacques Donatien
+  particle: ''
+  role: French father of AR
   tags:
   - diplomate
-- nom: LE ROUX
-  prenom: Joseph Marie
-  particule: ''
-  fonction: Second capitaine Transporteur
+- lastname: LE ROUX
+  firstname: Joseph Marie
+  particle: ''
+  role: Second capitaine Transporteur
   tags:
   - officier-marine
-- nom: LESCAN
-  prenom: Yves
-  particule: ''
-  fonction: Officier de Marine
+- lastname: LESCAN
+  firstname: Yves
+  particle: ''
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: LE SEIGNEUR du CHEVALIER
-  prenom: René Adrien
-  particule: ''
-  fonction: Capitaine au régiment de Bourbonnais
+- lastname: LE SEIGNEUR du CHEVALIER
+  firstname: René Adrien
+  particle: ''
+  role: Capitaine au régiment de Bourbonnais
   tags:
   - officier-terre
   - corps-expeditionnaire
-- nom: LIBERGE de GRANCHAIN
-  prenom: Guillaume
-  particule: ''
-  fonction: Officier de Marine
+- lastname: LIBERGE de GRANCHAIN
+  firstname: Guillaume
+  particle: ''
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: LINCEL
-  prenom: Charles François Victor
-  particule: de
-  fonction: Officier de Marine
+- lastname: LINCEL
+  firstname: Charles François Victor
+  particle: de
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: LINIERS
-  prenom: Jacques
-  particule: de
-  fonction: Officier dans la marine espagnole
+- lastname: LINIERS
+  firstname: Jacques
+  particle: de
+  role: Officier dans la marine espagnole
   tags:
   - officier-marine
-- nom: LUSTRAC
-  prenom: Joseph
-  particule: de
-  fonction: Officier de Marine
+- lastname: LUSTRAC
+  firstname: Joseph
+  particle: de
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: LYONS de MONCHEAUX
-  prenom: Mille Waast Edouard
-  particule: des
-  fonction: Capitaine au régiment de Strasbourg-Artillerie
+- lastname: LYONS de MONCHEAUX
+  firstname: Mille Waast Edouard
+  particle: des
+  role: Capitaine au régiment de Strasbourg-Artillerie
   tags:
   - officier-terre
   - artillerie
-- nom: MAILLOUX
-  prenom: Pierre Vincent
-  particule: ''
-  fonction: Private au Régiment Bedel
+- lastname: MAILLOUX
+  firstname: Pierre Vincent
+  particle: ''
+  role: Private au Régiment Bedel
   tags:
   - soldat
   - americain
-- nom: MANDAT
-  prenom: Adrien
-  particule: de
-  fonction: Garde-Marine
+- lastname: MANDAT
+  firstname: Adrien
+  particle: de
+  role: Garde-Marine
   tags:
   - officier-marine
-- nom: MARBOTIN de RUBÉRAN
-  prenom: Jean-Baptiste
-  particule: ''
-  fonction: Officier de Marine
+- lastname: MARBOTIN de RUBÉRAN
+  firstname: Jean-Baptiste
+  particle: ''
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: MARTIN de BONSONGE
-  prenom: Charles Michel
-  particule: ''
-  fonction: Cne canonniers garde-côtes, Dir art. La Rochelle
+- lastname: MARTIN de BONSONGE
+  firstname: Charles Michel
+  particle: ''
+  role: Cne canonniers garde-côtes, Dir art. La Rochelle
   tags:
   - officier-terre
   - artillerie
-- nom: MARTIN d'ESCRIENNE
-  prenom: Alexandre Louis
-  particule: ''
-  fonction: Lieutenant au régiment d'Auxonne
+- lastname: MARTIN d'ESCRIENNE
+  firstname: Alexandre Louis
+  particle: ''
+  role: Lieutenant au régiment d'Auxonne
   tags:
   - officier-terre
   - artillerie
-- nom: MASLE
-  prenom: Jacques Marie Emmanuel
-  particule: du
-  fonction: Chirurgien de Marine
+- lastname: MASLE
+  firstname: Jacques Marie Emmanuel
+  particle: du
+  role: Chirurgien de Marine
   tags:
   - chirurgien
-- nom: MEHERENC de SAINT-PIERRE
-  prenom: Auguste Bonable
-  particule: de
-  fonction: Officier de Marine
+- lastname: MEHERENC de SAINT-PIERRE
+  firstname: Auguste Bonable
+  particle: de
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: MENOU
-  prenom: Louis Armand François
-  particule: de
-  fonction: Capitaine au Régiment de Soissonnais
+- lastname: MENOU
+  firstname: Louis Armand François
+  particle: de
+  role: Capitaine au Régiment de Soissonnais
   tags:
   - officier-terre
   - corps-expeditionnaire
-- nom: MONDION d'ARTIGNY
-  prenom: Louis-Auguste
-  particule: de
-  fonction: Officier au régiment de Foix-Infanterie
+- lastname: MONDION d'ARTIGNY
+  firstname: Louis-Auguste
+  particle: de
+  role: Officier au régiment de Foix-Infanterie
   tags:
   - officier-terre
-- nom: MONTMORIN-SAINT-HEREM
-  prenom: Armand Marc
-  particule: de
-  fonction: Ambassadeur de France à Madrid
+- lastname: MONTMORIN-SAINT-HEREM
+  firstname: Armand Marc
+  particle: de
+  role: Ambassadeur de France à Madrid
   tags:
   - diplomate
-- nom: MORAND du PUCH
-  prenom: Élie
-  particule: ''
-  fonction: Officier au régiment d'Enghien-Infanterie
+- lastname: MORAND du PUCH
+  firstname: Élie
+  particle: ''
+  role: Officier au régiment d'Enghien-Infanterie
   tags:
   - officier-terre
-- nom: ORILLARD de VILLEMANZY
-  prenom: Jacques Pierre
-  particule: ''
-  fonction: Commissaire des guerres
+- lastname: ORILLARD de VILLEMANZY
+  firstname: Jacques Pierre
+  particle: ''
+  role: Commissaire des guerres
   tags:
   - diplomate
-- nom: PARCEVAUX
-  prenom: Ambroise
-  particule: de
-  fonction: Officier de Marine
+- lastname: PARCEVAUX
+  firstname: Ambroise
+  particle: de
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: PARDAILLAN
-  prenom: Pierre
-  particule: de
-  fonction: Gouverneur division Sud de Saint-Domingue
+- lastname: PARDAILLAN
+  firstname: Pierre
+  particle: de
+  role: Gouverneur division Sud de Saint-Domingue
   tags:
   - diplomate
-- nom: PAVET de COURTEILLE
-  prenom: Charles Jacques René
-  particule: ''
-  fonction: Chirurgien major de Marine
+- lastname: PAVET de COURTEILLE
+  firstname: Charles Jacques René
+  particle: ''
+  role: Chirurgien major de Marine
   tags:
   - chirurgien
-- nom: PELTIER
-  prenom: Jean
-  particule: ''
-  fonction: Armateur
+- lastname: PELTIER
+  firstname: Jean
+  particle: ''
+  role: Armateur
   tags:
   - armateur-corsaire
-- nom: PÉNEAU
-  prenom: François
-  particule: ''
-  fonction: Chirurgien major de Marine
+- lastname: PÉNEAU
+  firstname: François
+  particle: ''
+  role: Chirurgien major de Marine
   tags:
   - chirurgien
-- nom: PERCIN
-  prenom: Charles Michel
-  particule: de
-  fonction: Officier de dragons, chef de milices
+- lastname: PERCIN
+  firstname: Charles Michel
+  particle: de
+  role: Officier de dragons, chef de milices
   tags:
   - officier-terre
   - volontaire
-- nom: PERCIN de SEILH
-  prenom: Claude Bernard
-  particule: de
-  fonction: Officier Milice en Martinique puis Rt de Hainaut
+- lastname: PERCIN de SEILH
+  firstname: Claude Bernard
+  particle: de
+  role: Officier Milice en Martinique puis Rt de Hainaut
   tags:
   - officier-terre
   - volontaire
-- nom: PERRIN-BRASSAC
-  prenom: François
-  particule: de
-  fonction: Officier au Régiment d'Auxerrois
+- lastname: PERRIN-BRASSAC
+  firstname: François
+  particle: de
+  role: Officier au Régiment d'Auxerrois
   tags:
   - officier-terre
-- nom: PINET de BORDE des FOREST
-  prenom: Jean Daniel
-  particule: ''
-  fonction: Officier au Régiment d'Auvergne
+- lastname: PINET de BORDE des FOREST
+  firstname: Jean Daniel
+  particle: ''
+  role: Officier au Régiment d'Auvergne
   tags:
   - officier-terre
-- nom: PRÉVOST de SANSAC de TRAVERSAY
-  prenom: Auguste
-  particule: ''
-  fonction: Officier de Marine
+- lastname: PRÉVOST de SANSAC de TRAVERSAY
+  firstname: Auguste
+  particle: ''
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: RAILLARD
-  prenom: Pierre-Marie
-  particule: ''
-  fonction: Pilote, puis Officier de marine
+- lastname: RAILLARD
+  firstname: Pierre-Marie
+  particle: ''
+  role: Pilote, puis Officier de marine
   tags:
   - officier-marine
-- nom: REED
-  prenom: Jonathan
-  particule: ''
-  fonction: Volontaire, Minutemen du Massachusetts
+- lastname: REED
+  firstname: Jonathan
+  particle: ''
+  role: Volontaire, Minutemen du Massachusetts
   tags:
   - volontaire
   - americain
-- nom: REGNAULD
-  prenom: Jacques Mathieu
-  particule: ''
-  fonction: Officier de Marine
+- lastname: REGNAULD
+  firstname: Jacques Mathieu
+  particle: ''
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: REIBLÉ
-  prenom: Jacob
-  particule: ''
-  fonction: Fusilier au Royal Deux Ponts
+- lastname: REIBLÉ
+  firstname: Jacob
+  particle: ''
+  role: Fusilier au Royal Deux Ponts
   tags:
   - soldat
   - corps-expeditionnaire
-- nom: REYNAUD de VILLEVERD
-  prenom: Jean François
-  particule: ''
-  fonction: Colonel corps de St Domingue
+- lastname: REYNAUD de VILLEVERD
+  firstname: Jean François
+  particle: ''
+  role: Colonel corps de St Domingue
   tags:
   - officier-terre
-- nom: RIBAULT de LAUGARDIERE
-  prenom: Antoine
-  particule: ''
-  fonction: Officier au Royal Roussillon, en Inde
+- lastname: RIBAULT de LAUGARDIERE
+  firstname: Antoine
+  particle: ''
+  role: Officier au Royal Roussillon, en Inde
   tags:
   - officier-terre
-- nom: RICHMOND
-  prenom: Zébulon
-  particule: ''
-  fonction: Soldat au 6ème Régiment Continental
+- lastname: RICHMOND
+  firstname: Zébulon
+  particle: ''
+  role: Soldat au 6ème Régiment Continental
   tags:
   - soldat
   - americain
-- nom: ROBIN de BEAUREGARD de BARBENTANE
-  prenom: Etienne-Claude
-  particule: de
-  fonction: Officier de Marine
+- lastname: ROBIN de BEAUREGARD de BARBENTANE
+  firstname: Etienne-Claude
+  particle: de
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: ROOLS de GOURSOLAS de LAUBIÈRE
-  prenom: Joseph Nicolas
-  particule: ''
-  fonction: Officier de Marine
+- lastname: ROOLS de GOURSOLAS de LAUBIÈRE
+  firstname: Joseph Nicolas
+  particle: ''
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: ROQUEFEUIL-LABISTOUR
-  prenom: Jean-Baptiste
-  particule: ''
-  fonction: Officier de Marine
+- lastname: ROQUEFEUIL-LABISTOUR
+  firstname: Jean-Baptiste
+  particle: ''
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: ROQUEPLAN de LESTRADE
-  prenom: Claude Amable Vincent
-  particule: ''
-  fonction: Lt Colonel au Royal Auvergne
+- lastname: ROQUEPLAN de LESTRADE
+  firstname: Claude Amable Vincent
+  particle: ''
+  role: Lt Colonel au Royal Auvergne
   tags:
   - officier-terre
-- nom: ROUJÉ
-  prenom: Antoine
-  particule: ''
-  fonction: Volontaire dans les milices
+- lastname: ROUJÉ
+  firstname: Antoine
+  particle: ''
+  role: Volontaire dans les milices
   tags:
   - volontaire
-- nom: RUFFO de BONNEVAL
-  prenom: Mériadec
-  particule: ''
-  fonction: Officier de Marine
+- lastname: RUFFO de BONNEVAL
+  firstname: Mériadec
+  particle: ''
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: SABOULIN-BOLLENA
-  prenom: Armand Pierre François
-  particule: ''
-  fonction: Garde marine
+- lastname: SABOULIN-BOLLENA
+  firstname: Armand Pierre François
+  particle: ''
+  role: Garde marine
   tags:
   - officier-marine
-- nom: SAINT-EXUPERY
-  prenom: Georges Alexandre Césarée
-  particule: de
-  fonction: Officier au Régiment de la Sarre
+- lastname: SAINT-EXUPERY
+  firstname: Georges Alexandre Césarée
+  particle: de
+  role: Officier au Régiment de la Sarre
   tags:
   - officier-terre
-- nom: SAINT JOHN de CREVECŒUR
-  prenom: Michel Guillaume
-  particule: ''
-  fonction: Consul de France aux États-Unis
+- lastname: SAINT JOHN de CREVECŒUR
+  firstname: Michel Guillaume
+  particle: ''
+  role: Consul de France aux États-Unis
   tags:
   - diplomate
-- nom: SANCTOS
-  prenom: Jacques François
-  particule: de
-  fonction: Capitaine en second de navires corsaires
+- lastname: SANCTOS
+  firstname: Jacques François
+  particle: de
+  role: Capitaine en second de navires corsaires
   tags:
   - armateur-corsaire
-- nom: SOCHET des TOUCHES
-  prenom: Charles René
-  particule: ''
-  fonction: Capitaine de Vaisseaux
+- lastname: SOCHET des TOUCHES
+  firstname: Charles René
+  particle: ''
+  role: Capitaine de Vaisseaux
   tags:
   - officier-marine
-- nom: SOLLIER
-  prenom: Jean-François
-  particule: ''
-  fonction: Sergent-Major à Auvergne Infanterie
+- lastname: SOLLIER
+  firstname: Jean-François
+  particle: ''
+  role: Sergent-Major à Auvergne Infanterie
   tags:
   - soldat
-- nom: SORBIER de POUGNADORESSE
-  prenom: Jean-François
-  particule: ''
-  fonction: Officier du Génie
+- lastname: SORBIER de POUGNADORESSE
+  firstname: Jean-François
+  particle: ''
+  role: Officier du Génie
   tags:
   - genie
-- nom: SORET de BOISBRUNET
-  prenom: Alexandre
-  particule: ''
-  fonction: Officier au Régiment d'Angoumois
+- lastname: SORET de BOISBRUNET
+  firstname: Alexandre
+  particle: ''
+  role: Officier au Régiment d'Angoumois
   tags:
   - officier-terre
-- nom: STEELE
-  prenom: John
-  particule: ''
-  fonction: Officier 1er Rgt Pennsylvania Line
+- lastname: STEELE
+  firstname: John
+  particle: ''
+  role: Officier 1er Rgt Pennsylvania Line
   tags:
   - officier-terre
   - americain
-- nom: SURENNE
-  prenom: François Frédéric
-  particule: de
-  fonction: Officier au Régiment d'Auxerrois
+- lastname: SURENNE
+  firstname: François Frédéric
+  particle: de
+  role: Officier au Régiment d'Auxerrois
   tags:
   - officier-terre
-- nom: SUZANNET
-  prenom: Pierre Alexandre
-  particule: de
-  fonction: Officier de Marine
+- lastname: SUZANNET
+  firstname: Pierre Alexandre
+  particle: de
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: TACHOT
-  prenom: Claude François
-  particule: ''
-  fonction: Sergent dans l'Auxerrois
+- lastname: TACHOT
+  firstname: Claude François
+  particle: ''
+  role: Sergent dans l'Auxerrois
   tags:
   - soldat
-- nom: TARLÉ
-  prenom: Benoist-Joseph
-  particule: de
-  fonction: Intendant au corps expéditionnaire
+- lastname: TARLÉ
+  firstname: Benoist-Joseph
+  particle: de
+  role: Intendant au corps expéditionnaire
   tags:
   - diplomate
   - corps-expeditionnaire
-- nom: THIBAUT de MENONVILLE
-  prenom: François-Louis
-  particule: ''
-  fonction: Aide-Major Général du Corps de Rochambeau
+- lastname: THIBAUT de MENONVILLE
+  firstname: François-Louis
+  particle: ''
+  role: Aide-Major Général du Corps de Rochambeau
   tags:
   - aide-de-camp
   - corps-expeditionnaire
-- nom: THOMASSIN de PEYNIER
-  prenom: Antoine
-  particule: de
-  fonction: Capitaine de Vaisseau, Commandant le Fendant
+- lastname: THOMASSIN de PEYNIER
+  firstname: Antoine
+  particle: de
+  role: Capitaine de Vaisseau, Commandant le Fendant
   tags:
   - officier-marine
-- nom: TILGHMAN
-  prenom: Tench
-  particule: ''
-  fonction: Officier Régt d'Infanterie Légère de Philadelphie
+- lastname: TILGHMAN
+  firstname: Tench
+  particle: ''
+  role: Officier Régt d'Infanterie Légère de Philadelphie
   tags:
   - officier-terre
   - americain
-- nom: TASTES de LILANCOUR
-  prenom: Jean-Baptiste
-  particule: de
-  fonction: Officier ayant servi durant la Guerre d'Indépendance
+- lastname: TASTES de LILANCOUR
+  firstname: Jean-Baptiste
+  particle: de
+  role: Officier ayant servi durant la Guerre d'Indépendance
   tags:
   - officier-terre
-  biographie: tastes-de-lilancour
-  naissance: '1730'
-  deces: '1803'
-- nom: TRENTINIAN
-  prenom: Jean Jacques
-  particule: de
-  fonction: Capitaine des chasseurs, Légion de Lauzun
+  biography: tastes-de-lilancour
+  birth: '1730'
+  death: '1803'
+- lastname: TRENTINIAN
+  firstname: Jean Jacques
+  particle: de
+  role: Capitaine des chasseurs, Légion de Lauzun
   tags:
   - officier-terre
   - legion-lauzun
-- nom: TURPIN
-  prenom: Jean-Baptiste
-  particule: de
-  fonction: Officier de Marine
+- lastname: TURPIN
+  firstname: Jean-Baptiste
+  particle: de
+  role: Officier de Marine
   tags:
   - officier-marine
-- nom: VENCE
-  prenom: Jean Gaspard
-  particule: ''
-  fonction: Capitaine Corsaire aux Antilles
+- lastname: VENCE
+  firstname: Jean Gaspard
+  particle: ''
+  role: Capitaine Corsaire aux Antilles
   tags:
   - armateur-corsaire
-- nom: VÉRON de La BORIE
-  prenom: Jean André
-  particule: de
-  fonction: Gouverneur particulier de l'île de la Grenade
+- lastname: VÉRON de La BORIE
+  firstname: Jean André
+  particle: de
+  role: Gouverneur particulier de l'île de la Grenade
   tags:
   - diplomate
-- nom: VIENOT de VAUBLANC
-  prenom: ''
-  particule: ''
-  fonction: Lt aux chasseurs volontaires de St Domingue
+- lastname: VIENOT de VAUBLANC
+  firstname: ''
+  particle: ''
+  role: Lt aux chasseurs volontaires de St Domingue
   tags:
   - officier-terre
   - volontaire
-- nom: VOIZE
-  prenom: Jacques
-  particule: de
-  fonction: Vice-Consul à Tunis
+- lastname: VOIZE
+  firstname: Jacques
+  particle: de
+  role: Vice-Consul à Tunis
   tags:
   - diplomate
