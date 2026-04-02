@@ -30,7 +30,7 @@ Retour aux [Antilles](/histoire/antilles/soutien-antilles/), où Bouillé a repr
 
 L'opération prévue sur la Jamaïque est montée au printemps, mais l'amiral Rodney, qui a rejoint Hood dans les parages, dispose d'une certaine supériorité (vaisseaux plus nombreux, mais surtout plus rapides et ayant acquis une artillerie supérieure en combats rapprochés). Après un premier combat indécis le 9 avril et quelques erreurs tactiques françaises, la bataille au large des Saintes verra la perte de cinq vaisseaux, dont celui du général en chef, qui tombe aux mains d'un **Rodney** qui a remarquablement bien conduit son attaque. Un conseil de guerre constitué à la demande de l'amiral en 1784 se prononcera sur les responsabilités des différents chefs d'unité.
 
-Défaite incontestable pour les Français (voir le [tableau des pertes](/histoire/pertes-francaises/)), ce combat sera pour leurs adversaires une victoire à la Pyrrhus :
+Défaite incontestable pour les Français (voir le [tableau des pertes](/histoire/cout-humain/)), ce combat sera pour leurs adversaires une victoire à la Pyrrhus :
 
 - de Grasse a sauvé son précieux convoi,
 - la flotte anglaise a été assez malmenée pour ne plus paraître aux Antilles, d'où nos convois rejoignent facilement la France avec leurs précieuses denrées,

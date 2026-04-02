@@ -110,4 +110,4 @@ Voir l'article détaillé : [Les Chasseurs Volontaires de Saint-Domingue](/histo
 
 ---
 
-Voir aussi : [Le coût humain de la guerre](/histoire/pertes-francaises/) pour le détail des pertes lors de ces batailles, et la biographie du [comte de Grasse](/histoire/biographies/de-grasse/) dont les opérations navales impliquaient nombre de ces régiments.
+Voir aussi : [Le coût humain de la guerre](/histoire/cout-humain/) pour le détail des pertes lors de ces batailles, et la biographie du [comte de Grasse](/histoire/biographies/de-grasse/) dont les opérations navales impliquaient nombre de ces régiments.

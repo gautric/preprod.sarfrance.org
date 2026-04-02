@@ -30,7 +30,7 @@ Armand Louis de Gontaut, duc de Lauzun puis duc de Biron, soldat et homme politi
 
 Directement issue, début 1780, des Volontaires étrangers de la marine créés en 1778 pour la Guerre d'Amérique, la Légion des Volontaires Étrangers de Lauzun a vécu l'exacte durée de sa participation à l'Expédition particulière confiée au [comte de Rochambeau](/histoire/biographies/rochambeau/). Elle était composée de sept compagnies dont cinq partirent avec Rochambeau : grenadiers, chasseurs, artilleurs et deux escadrons de hussards. Les deux compagnies de fusiliers partirent plus tard et participèrent, sous Kersaint, à la reprise des comptoirs hollandais d'Amérique centrale.
 
-Elle a assuré principalement les missions de flanc-garde et de liaison de cette armée et s'est notamment illustrée aux White Plains et surtout en refoulant la cavalerie de Tarleton à l'intérieur du fort de Gloucester lors du [siège d'Yorktown](/histoire/operations/).
+Elle a assuré principalement les missions de flanc-garde et de liaison de cette armée et s'est notamment illustrée aux White Plains et surtout en refoulant la cavalerie de Tarleton à l'intérieur du fort de Gloucester lors du [siège d'Yorktown](/histoire/campagnes-et-batailles/).
 
 Cette action, chronologiquement la première du siège, valut à son chef d'être désigné par Rochambeau pour apporter au Roi la nouvelle de la victoire. Dernière unité française présente en Amérique, la Légion a quitté la Delaware en mai 1783 et a été dissoute peu après son retour, donnant naissance aux Hussards de Lauzun.
 
