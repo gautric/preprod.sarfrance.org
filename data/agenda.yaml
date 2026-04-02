@@ -431,6 +431,14 @@ events:
     link: ""
     lat: 45.7578
     lon: 4.832
+  - date: "2026-04-01/2026-07-14"
+    title: "Exposition « Lafayette, entre France et Amérique » aux Archives nationales"
+    type: exposition
+    description: "Exposition gratuite consacrée au marquis de Lafayette, à l'occasion du 250e anniversaire de la Déclaration d'Indépendance des États-Unis. Documents rares, caricatures et objets."
+    location: "Archives nationales, Hôtel de Soubise, Paris"
+    link: "https://www.archives-nationales.culture.gouv.fr/evenements/lafayette-entre-france-et-amerique-histoire-et-legende"
+    lat: 48.8609
+    lon: 2.3571
   - date: "2026-04-04T15:00:00"
     title: "Conférence « Les frères Vioménil dans la guerre d'Indépendance américaine » au musée des Beaux-Arts de Nancy"
     type: conférence
