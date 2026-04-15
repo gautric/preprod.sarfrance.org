@@ -1,3 +1,4 @@
+{{- $prefix := partial "lang-prefix.html" . -}}
 {{ if .IsHome }}
 <script type="application/ld+json">
 {
@@ -8,6 +9,8 @@
   "url": "{{ .Site.BaseURL }}",
   "logo": "{{ .Site.BaseURL }}images/icons/og-image.png",
   "description": "{{ .Site.Params.description }}",
+  "email": "{{ .Site.Params.contact.email }}",
+  "telephone": "{{ .Site.Params.contact.phone }}",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "{{ .Site.Params.address.street }}",
@@ -19,7 +22,19 @@
     "@type": "Organization",
     "name": "National Society of the Sons of the American Revolution",
     "url": "https://www.sar.org"
-  }
+  },
+  "sameAs": [
+    "https://www.sar.org"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ .Site.Title }}",
+  "url": "{{ .Site.BaseURL }}",
+  "inLanguage": "{{ .Lang }}"
 }
 </script>
 {{ else }}
@@ -30,6 +45,7 @@
   "name": "{{ .Title }}",
   "description": "{{ .Description | default .Site.Params.description }}",
   "url": "{{ .Permalink }}",
+  "inLanguage": "{{ .Lang }}",
   "isPartOf": {
     "@type": "WebSite",
     "name": "{{ .Site.Title }}",
@@ -37,4 +53,105 @@
   }
 }
 </script>
+{{- /* BreadcrumbList for non-home pages */ -}}
+{{- $crumbs := slice -}}
+{{- $crumbs = $crumbs | append (dict "name" (i18n "home" | default "Accueil") "url" (printf "%s%s/" .Site.BaseURL (strings.TrimPrefix "/" $prefix))) -}}
+{{- $parts := split (strings.TrimPrefix "/" (strings.TrimSuffix "/" .RelPermalink)) "/" -}}
+{{- $acc := "" -}}
+{{- range $i, $seg := $parts -}}
+  {{- if and (ne $seg "") (or (ne $seg "en") (ne $i 0)) -}}
+    {{- $acc = printf "%s/%s" $acc $seg -}}
+    {{- $url := printf "%s%s/" $.Site.BaseURL (strings.TrimPrefix "/" $acc) -}}
+    {{- $name := $seg | humanize | title -}}
+    {{- if eq (add $i 1) (len $parts) -}}{{- $name = $.Title -}}{{- end -}}
+    {{- $crumbs = $crumbs | append (dict "name" $name "url" $url) -}}
+  {{- end -}}
+{{- end -}}
+{{- if gt (len $crumbs) 1 }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {{- range $i, $c := $crumbs }}{{ if $i }},{{ end }}
+    {
+      "@type": "ListItem",
+      "position": {{ add $i 1 }},
+      "name": {{ $c.name | jsonify }},
+      "item": {{ $c.url | jsonify }}
+    }
+    {{- end }}
+  ]
+}
+</script>
+{{- end }}
+{{- /* Person schema on biography pages */ -}}
+{{- if and (in .RelPermalink "/biographies/") (not .IsSection) }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ .Title | jsonify }},
+  "description": {{ (.Description | default .Site.Params.description) | jsonify }},
+  "url": {{ .Permalink | jsonify }}{{ with .Params.author }},
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "url": {{ $.Permalink | jsonify }}
+  }{{ end }}
+}
+</script>
+{{- end }}
+{{- /* Event list on agenda pages */ -}}
+{{- if eq .Layout "agenda" -}}
+{{- $agendaYear := .Site.Params.currentAgendaYear | default (now.Format "2006") -}}
+{{- $year := .Params.year | default $agendaYear -}}
+{{- $events := where .Site.Data.agenda.events "date" "ge" (printf "%s-01-01" $year) -}}
+{{- $events = where $events "date" "le" (printf "%s-12-31" $year) }}
+{{- if $events }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {{- range $i, $e := $events }}{{ if $i }},{{ end }}
+    {{- $startDate := $e.date -}}
+    {{- $endDate := "" -}}
+    {{- if in $e.date "/" -}}
+      {{- $parts := split $e.date "/" -}}
+      {{- $startDate = index $parts 0 -}}
+      {{- $endDate = index $parts 1 -}}
+    {{- end }}
+    {
+      "@type": "ListItem",
+      "position": {{ add $i 1 }},
+      "item": {
+        "@type": "Event",
+        "name": {{ $e.title | jsonify }},
+        "startDate": {{ $startDate | jsonify }}{{ with $endDate }},
+        "endDate": {{ . | jsonify }}{{ end }}{{ with $e.description }},
+        "description": {{ . | jsonify }}{{ end }}{{ with $e.location }},
+        "location": {
+          "@type": "Place",
+          "name": {{ . | jsonify }}{{ if and $e.lat $e.lon (ne (printf "%v" $e.lat) "0") }},
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": {{ $e.lat }},
+            "longitude": {{ $e.lon }}
+          }{{ end }}
+        }{{ end }},
+        "organizer": {
+          "@type": "Organization",
+          "name": "SAR France",
+          "url": {{ $.Site.BaseURL | jsonify }}
+        },
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    }
+    {{- end }}
+  ]
+}
+</script>
+{{- end }}
+{{- end }}
 {{ end }}

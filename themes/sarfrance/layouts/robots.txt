@@ -1,4 +1,9 @@
+{{- if or (in .Site.BaseURL "preprod") (in .Site.BaseURL "localhost") -}}
+User-agent: *
+Disallow: /
+{{- else -}}
 User-agent: *
 Allow: /
 
 Sitemap: {{ .Site.BaseURL }}sitemap.xml
+{{- end }}

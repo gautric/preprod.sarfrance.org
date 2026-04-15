@@ -1,0 +1,28 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  {{ range .Data.Pages }}
+  {{- $priority := 0.5 -}}
+  {{- $changefreq := "monthly" -}}
+  {{- if .IsHome -}}
+    {{- $priority = 1.0 -}}{{- $changefreq = "weekly" -}}
+  {{- else if eq .Kind "section" -}}
+    {{- $priority = 0.8 -}}{{- $changefreq = "weekly" -}}
+  {{- else if eq .Layout "agenda" -}}
+    {{- $priority = 0.8 -}}{{- $changefreq = "weekly" -}}
+  {{- else if in .RelPermalink "/biographies/" -}}
+    {{- $priority = 0.7 -}}{{- $changefreq = "yearly" -}}
+  {{- else if in .RelPermalink "/histoire/" -}}
+    {{- $priority = 0.7 -}}{{- $changefreq = "yearly" -}}
+  {{- else if in .RelPermalink "/la-societe/" -}}
+    {{- $priority = 0.6 -}}{{- $changefreq = "monthly" -}}
+  {{- end }}
+  <url>
+    <loc>{{ .Permalink }}</loc>{{ if not .Lastmod.IsZero }}
+    <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>{{ end }}
+    <changefreq>{{ $changefreq }}</changefreq>
+    <priority>{{ $priority }}</priority>{{ if .IsTranslated }}{{ range .AllTranslations }}
+    <xhtml:link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}"/>{{ end }}{{ end }}
+  </url>
+  {{ end }}
+</urlset>
