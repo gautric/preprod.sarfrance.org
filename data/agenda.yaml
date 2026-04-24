@@ -551,6 +551,14 @@ events:
     link: ""
     lat: 48.8429
     lon: 2.4358
+  - date: "2026-09-26"
+    title: "Commémoration du 250ème anniversaire"
+    type: conférence
+    description: ""
+    location: "Château de Caumale, Escalans"
+    link: ""
+    lat: 43.9834
+    lon: 0.0337
   - date: "2026-09-30T18:30:00"
     title: "Ravivage de la Flamme sous l'Arc de Triomphe"
     type: commémoration
