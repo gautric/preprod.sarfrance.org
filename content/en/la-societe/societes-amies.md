@@ -1,7 +1,15 @@
 ---
 title: "Allied Societies and Links"
-description: "DAR, CAR, Cincinnati of France, SAR societies abroad and historical associations"
+description: "Cincinnati of France, DAR, CAR, SAR societies abroad and historical associations"
 ---
+
+## Society of the Cincinnati of France
+
+Originating in 1784 from the society of friends created around Washington in May 1783 by the officers of his army, on the initiative of General Knox, the Society of the Cincinnati of France was dispersed in 1792 by the revolutionary turmoil. Restored in 1922, after the renewed brotherhood of arms during World War I, it admits one representative — and only one, the eldest — per family of an original officer.
+
+**Useful links:**
+- [Society of the Cincinnati of France](https://www.cincinnatidefrance.fr/)
+- [The Society of the Cincinnati (USA)](https://www.societyofthecincinnati.org/)
 
 ## Daughters of the American Revolution (DAR)
 
@@ -26,22 +34,14 @@ To become a member of the Royal Auvergne Society Chapter in France, one must fir
 
 Registration fees with the NSCAR are €23. The annual membership fee is €20 for the first child and €16 for additional children in the same family.
 
-## Society of the Cincinnati of France
-
-Originating in 1784 from the society of friends created around Washington in May 1783 by the officers of his army, on the initiative of General Knox, the Society of the Cincinnati of France was dispersed in 1792 by the revolutionary turmoil. Restored in 1922, after the renewed brotherhood of arms during World War I, it admits one representative — and only one, the eldest — per family of an original officer.
-
-**Useful links:**
-- [Society of the Cincinnati of France](https://www.cincinnatidefrance.fr/)
-- [The Society of the Cincinnati (USA)](https://www.societyofthecincinnati.org/)
-
 ## SAR Societies Abroad
 
 The NSSAR has societies in several countries outside the United States:
 
-- [Canada Society SAR](https://www.canadasar.ca/)
 - [Germany Society SAR](http://www.germanysocietysar.org/)
 - [Spain Society SAR](https://www.spainsar.org/)
 - [UK Society SAR](https://uksocietysar.org/)
+- [Canada Society SAR](https://www.canadasar.ca/)
 
 ## Embassy and Consulates of France in the United States
 

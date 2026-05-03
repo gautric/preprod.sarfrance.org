@@ -36,3 +36,5 @@
 - [x] 32. Page d'accueil : remontée des trois blocs « Transatlantique », « Historique » et « Culturelle » juste après le défilé de photos — les blocs sont désormais placés entre le carrousel et les prochains événements, afin de les rapprocher du texte d'introduction qui les mentionne
 - [x] 33. Contact > Nous rejoindre : titre « Faites vivre la Société : » transformé en `###` (suppression des deux-points, alignement sur le titre « Participez à nos commissions » de même niveau) — FR/EN
 - [x] 34. Organisation > La Société > Liaison avec la NSSAR : précision que William Schwedtke assure le rôle d'Alternate Trustee jusqu'au 30 juin 2026, Samuel Powell prenant la relève à compter du 1^er juillet 2026 — FR/EN
+- [x] 35. Organisation > Sociétés amies et liens : remontée de la rubrique « Société des Cincinnati de France » juste avant « Daughters of the American Revolution (DAR) » — FR/EN
+- [x] 36. Organisation > Sociétés amies et liens > Sociétés SAR à l'étranger : « Canada Society SAR » descendue en fin de liste, après « UK Society SAR » — FR/EN
