@@ -241,6 +241,25 @@ a:hover {
     padding-left: 25px;
 }
 
+/* Language switcher flag icons */
+.flag-icon {
+    display: inline-block;
+    width: 20px;
+    height: 14px;
+    vertical-align: middle;
+    border: none;
+    border-radius: 0;
+}
+
+.lang-switch > a .flag-icon {
+    width: 22px;
+    height: 15px;
+}
+
+.submenu .flag-icon {
+    margin-right: 6px;
+}
+
 /* Mobile Menu Toggle */
 .menu-toggle {
     display: none;
