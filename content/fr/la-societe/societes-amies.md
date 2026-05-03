@@ -59,10 +59,18 @@ La NSSAR compte des sociétés dans plusieurs pays en dehors des États-Unis :
 - [Consulat général de France à San Francisco](https://us.diplomatie.gouv.fr/fr/consulat-general-de-france-san-francisco)
 - [Consulat général de France à Washington](https://us.diplomatie.gouv.fr/fr/consulat-general-de-france-washington-dc)
 
+## Ambassade et consulats des États-Unis en France
+
+- [Ambassade des États-Unis d'Amérique en France](https://fr.usembassy.gov/fr/) — Paris
+- [Consulat des États-Unis à Bordeaux](https://fr.usembassy.gov/fr/u-s-consulate-bordeaux/)
+- [Consulat des États-Unis à Lyon](https://fr.usembassy.gov/fr/consul-lyon/)
+- [Consulat général des États-Unis à Marseille](https://fr.usembassy.gov/fr/u-s-consulate-general-marseille/)
+- [Consulat des États-Unis à Rennes](https://fr.usembassy.gov/fr/u-s-consulate-rennes/)
+- [Consulat général des États-Unis à Strasbourg](https://fr.usembassy.gov/fr/u-s-consulate-general-strasbourg/)
+
 ## Relations franco-américaines
 
 - [Cercle France Amériques](https://france-ameriques.org/)
-- [Ambassade des États-Unis d'Amérique en France](https://fr.usembassy.gov/)
 - [Journal international France-Amérique](http://www.france-amerique.com/)
 
 ## Associations historiques et patrimoniales

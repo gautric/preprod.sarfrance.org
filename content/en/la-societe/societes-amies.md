@@ -57,10 +57,18 @@ The NSSAR has societies in several countries outside the United States:
 - [Consulate General of France in San Francisco](https://us.diplomatie.gouv.fr/en/consulate-general-france-san-francisco)
 - [Consulate General of France in Washington](https://us.diplomatie.gouv.fr/en/consulate-general-france-washington-dc)
 
+## U.S. Embassy and Consulates in France
+
+- [U.S. Embassy in France](https://fr.usembassy.gov/) — Paris
+- [U.S. Consulate in Bordeaux](https://fr.usembassy.gov/u-s-consulate-bordeaux/)
+- [U.S. Consulate in Lyon](https://fr.usembassy.gov/consul-lyon/)
+- [U.S. Consulate General in Marseille](https://fr.usembassy.gov/u-s-consulate-general-marseille/)
+- [U.S. Consulate in Rennes](https://fr.usembassy.gov/u-s-consulate-rennes/)
+- [U.S. Consulate General in Strasbourg](https://fr.usembassy.gov/u-s-consulate-general-strasbourg/)
+
 ## Franco-American Relations
 
 - [Cercle France Amériques](https://france-ameriques.org/)
-- [Embassy of the United States of America in France](https://fr.usembassy.gov/)
 - [France-Amérique International Journal](http://www.france-amerique.com/)
 
 ## Historical and Heritage Associations

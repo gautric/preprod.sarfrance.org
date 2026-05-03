@@ -38,3 +38,4 @@
 - [x] 34. Organisation > La Société > Liaison avec la NSSAR : précision que William Schwedtke assure le rôle d'Alternate Trustee jusqu'au 30 juin 2026, Samuel Powell prenant la relève à compter du 1^er juillet 2026 — FR/EN
 - [x] 35. Organisation > Sociétés amies et liens : remontée de la rubrique « Société des Cincinnati de France » juste avant « Daughters of the American Revolution (DAR) » — FR/EN
 - [x] 36. Organisation > Sociétés amies et liens > Sociétés SAR à l'étranger : « Canada Society SAR » descendue en fin de liste, après « UK Society SAR » — FR/EN
+- [x] 37. Organisation > Sociétés amies et liens : ajout de la rubrique « Ambassade et consulats des États-Unis en France » juste après « Ambassade et consulats de France aux États-Unis » — ambassade (Paris), consulats de Bordeaux, Lyon, Marseille, Rennes et Strasbourg avec liens vers fr.usembassy.gov — FR/EN
