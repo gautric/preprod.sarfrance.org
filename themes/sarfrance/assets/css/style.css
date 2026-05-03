@@ -837,6 +837,18 @@ a:hover {
     opacity: 1;
 }
 
+.footer-col p a {
+    color: var(--gold);
+    opacity: 1;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: all 0.3s ease;
+}
+
+.footer-col p a:hover {
+    color: var(--white);
+}
+
 .social-links {
     display: flex;
     gap: 15px;
