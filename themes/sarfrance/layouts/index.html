@@ -36,6 +36,28 @@
     {{ end }}
 </section>
 
+<section class="features">
+    <div class="container">
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🌍</div>
+                <h3>{{ i18n "transatlantic" }}</h3>
+                <p>{{ i18n "transatlantic_desc" }}</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📜</div>
+                <h3>{{ i18n "historical" }}</h3>
+                <p>{{ i18n "historical_desc" }}</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🏛️</div>
+                <h3>{{ i18n "cultural" }}</h3>
+                <p>{{ i18n "cultural_desc" }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 {{ with .Site.Data.agenda }}
 {{ $today := now.Format "2006-01-02" }}
 {{ $upcoming := slice }}
@@ -72,28 +94,6 @@
 </section>
 {{ end }}
 {{ end }}
-
-<section class="features">
-    <div class="container">
-        <div class="features-grid">
-            <div class="feature-card">
-                <div class="feature-icon">🌍</div>
-                <h3>{{ i18n "transatlantic" }}</h3>
-                <p>{{ i18n "transatlantic_desc" }}</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">📜</div>
-                <h3>{{ i18n "historical" }}</h3>
-                <p>{{ i18n "historical_desc" }}</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">🏛️</div>
-                <h3>{{ i18n "cultural" }}</h3>
-                <p>{{ i18n "cultural_desc" }}</p>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="cta">
     <div class="container">
