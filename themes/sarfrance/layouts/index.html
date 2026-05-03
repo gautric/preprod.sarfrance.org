@@ -76,11 +76,11 @@
         <div class="events-grid">
             {{ range first 3 $upcoming }}
             {{ $startDate := index (split .date "/") 0 }}
-            {{ $eventDate := time (index (split $startDate "T") 0) }}
+            {{ $eventDate := time.AsTime (index (split $startDate "T") 0) }}
             <article class="event-card">
                 <div class="event-date">
-                    <span class="day">{{ $eventDate.Format "02" }}</span>
-                    <span class="month">{{ $eventDate.Format "Jan" }}</span>
+                    <span class="day">{{ $eventDate.Format "2" }}</span>
+                    <span class="month">{{ time.Format "Jan" $eventDate }}</span>
                 </div>
                 <div class="event-info">
                     <h3>{{ .title }}</h3>

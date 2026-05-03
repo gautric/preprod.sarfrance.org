@@ -30,7 +30,7 @@
                     <div class="page-card{{ if and .lat .lon (ne (printf "%v" .lat) "0") }} page-card--has-map{{ end }}">
                         <div class="page-card-body">
                             <div class="page-card-header">
-                                <span class="page-card-date" data-iso-date="{{ .date }}">{{ .date }}</span>
+                                <span class="page-card-date">{{ time.Format ":date_long" (time.AsTime .date) }}</span>
                                 <div class="page-card-tags">
                                     {{ range .tags }}
                                     <span class="tag tag-{{ . | urlize }}">{{ i18n (printf "chrono_tag_%s" .) }}</span>

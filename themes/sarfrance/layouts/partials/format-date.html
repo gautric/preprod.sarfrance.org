@@ -1,0 +1,112 @@
+{{- /*
+    format-date.html — Format an ISO date string using Hugo's native locale-aware time.Format.
+
+    Usage:
+      {{ partial "format-date.html" (dict "date" "2026-03-15" "ctx" .) }}
+      {{ partial "format-date.html" (dict "date" "2026-03-15T18:00:00" "ctx" .) }}
+      {{ partial "format-date.html" (dict "date" "2026-03-03/2026-03-31" "ctx" .) }}
+
+    Output (fr): 15 mars 2026 / 15 mars 2026, 18h00 / 3 – 31 mars 2026
+    Output (en): March 15, 2026 / March 15, 2026, 6:00 PM / March 3 – March 31, 2026
+*/ -}}
+{{- $raw := .date -}}
+{{- $ctx := .ctx -}}
+{{- $isEn := eq $ctx.Lang "en" -}}
+{{- $intervalParts := split $raw "/" -}}
+{{- $startRaw := index $intervalParts 0 -}}
+{{- $hasEnd := gt (len $intervalParts) 1 -}}
+
+{{- /* --- Helper: format time portion --- */ -}}
+{{- /* Parse start date/time */ -}}
+{{- $startTimeParts := split $startRaw "T" -}}
+{{- $startDateStr := index $startTimeParts 0 -}}
+{{- $startHasTime := gt (len $startTimeParts) 1 -}}
+{{- $startDate := time.AsTime $startDateStr -}}
+{{- $startFormatted := time.Format ":date_long" $startDate -}}
+
+{{- $startTimeStr := "" -}}
+{{- if $startHasTime -}}
+    {{- $tp := index $startTimeParts 1 -}}
+    {{- $colonCount := len (findRE ":" $tp) -}}
+    {{- if eq $colonCount 1 -}}{{- $tp = printf "%s:00" $tp -}}{{- end -}}
+    {{- $startFull := time.AsTime (printf "%sT%sZ" $startDateStr $tp) -}}
+    {{- if $isEn -}}
+        {{- $startTimeStr = $startFull.Format "3:04 PM" -}}
+    {{- else -}}
+        {{- $startTimeStr = printf "%sh%s" ($startFull.Format "15") ($startFull.Format "04") -}}
+    {{- end -}}
+{{- end -}}
+
+{{- if $hasEnd -}}
+    {{- /* --- Parse end date/time --- */ -}}
+    {{- $endRaw := index $intervalParts 1 -}}
+    {{- $endTimeParts := split $endRaw "T" -}}
+    {{- $endDateStr := index $endTimeParts 0 -}}
+    {{- $endHasTime := gt (len $endTimeParts) 1 -}}
+    {{- $endDate := time.AsTime $endDateStr -}}
+    {{- $endFormatted := time.Format ":date_long" $endDate -}}
+
+    {{- $endTimeStr := "" -}}
+    {{- if $endHasTime -}}
+        {{- $tp := index $endTimeParts 1 -}}
+        {{- $colonCount := len (findRE ":" $tp) -}}
+        {{- if eq $colonCount 1 -}}{{- $tp = printf "%s:00" $tp -}}{{- end -}}
+        {{- $endFull := time.AsTime (printf "%sT%sZ" $endDateStr $tp) -}}
+        {{- if $isEn -}}
+            {{- $endTimeStr = $endFull.Format "3:04 PM" -}}
+        {{- else -}}
+            {{- $endTimeStr = printf "%sh%s" ($endFull.Format "15") ($endFull.Format "04") -}}
+        {{- end -}}
+    {{- end -}}
+
+    {{- /* --- Interval formatting --- */ -}}
+    {{- $sameDay := eq $startDateStr $endDateStr -}}
+    {{- $startMonthNum := $startDate.Format "01" -}}
+    {{- $endMonthNum := $endDate.Format "01" -}}
+    {{- $startYear := $startDate.Format "2006" -}}
+    {{- $endYear := $endDate.Format "2006" -}}
+    {{- $sameMonth := and (eq $startMonthNum $endMonthNum) (eq $startYear $endYear) -}}
+    {{- $sameYear := eq $startYear $endYear -}}
+
+    {{- if $sameDay -}}
+        {{- /* Same day: show full date, optionally with time range */ -}}
+        {{- if and $startHasTime $endHasTime -}}
+            {{- printf "%s, %s – %s" $startFormatted $startTimeStr $endTimeStr -}}
+        {{- else if $startHasTime -}}
+            {{- printf "%s, %s" $startFormatted $startTimeStr -}}
+        {{- else -}}
+            {{- $startFormatted -}}
+        {{- end -}}
+    {{- else if $sameMonth -}}
+        {{- /* Same month: compact format */ -}}
+        {{- $startDay := $startDate.Format "2" -}}
+        {{- $endDay := $endDate.Format "2" -}}
+        {{- $startMonth := time.Format "January" $startDate -}}
+        {{- if $isEn -}}
+            {{- printf "%s %s – %s, %s" $startMonth $startDay $endDay $startYear -}}
+        {{- else -}}
+            {{- printf "%s – %s %s %s" $startDay $endDay $startMonth $startYear -}}
+        {{- end -}}
+    {{- else if $sameYear -}}
+        {{- /* Same year: show both month+day, year once */ -}}
+        {{- $startDay := $startDate.Format "2" -}}
+        {{- $endDay := $endDate.Format "2" -}}
+        {{- $startMonth := time.Format "January" $startDate -}}
+        {{- $endMonth := time.Format "January" $endDate -}}
+        {{- if $isEn -}}
+            {{- printf "%s %s – %s %s, %s" $startMonth $startDay $endMonth $endDay $startYear -}}
+        {{- else -}}
+            {{- printf "%s %s – %s %s %s" $startDay $startMonth $endDay $endMonth $startYear -}}
+        {{- end -}}
+    {{- else -}}
+        {{- /* Different years: show full dates */ -}}
+        {{- printf "%s – %s" $startFormatted $endFormatted -}}
+    {{- end -}}
+{{- else -}}
+    {{- /* --- Single date --- */ -}}
+    {{- if $startHasTime -}}
+        {{- printf "%s, %s" $startFormatted $startTimeStr -}}
+    {{- else -}}
+        {{- $startFormatted -}}
+    {{- end -}}
+{{- end -}}

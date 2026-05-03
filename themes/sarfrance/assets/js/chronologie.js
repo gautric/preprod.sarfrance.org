@@ -1,28 +1,11 @@
-/* Chronologie - date formatting & tag filtering */
+/* Chronologie — tag filtering & Leaflet mini-maps */
 $(function() {
-    var lang = $('html').attr('lang') || 'fr-FR';
-    var locale = (lang === 'en-US' || lang === 'en') ? 'en-US' : 'fr-FR';
-
-    // Format dates
-    $('.page-card-date[data-iso-date]').each(function() {
-        var isoDate = $(this).attr('data-iso-date');
-        if (isoDate) {
-            try {
-                var p = isoDate.split('-');
-                var date = new Date(parseInt(p[0]), parseInt(p[1]) - 1, parseInt(p[2]));
-                $(this).text(date.toLocaleDateString(locale, { year: 'numeric', month: 'long', day: 'numeric' }));
-            } catch (e) {
-                console.warn('Failed to parse date:', isoDate);
-            }
-        }
-    });
+    // Mini-maps Leaflet (shared helper from map.js)
+    initPageCardMaps();
 
     // Tag filtering
     var $filters = $('.filter-btn[data-tag]');
     var $items = $('.tl-row[data-tags]');
-
-    // Mini-maps Leaflet (shared helper from map.js)
-    initPageCardMaps();
 
     $filters.on('click', function() {
         $filters.removeClass('active');
