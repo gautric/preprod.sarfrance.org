@@ -44,7 +44,7 @@ A tax reduction of {{< param "avantage_fiscal_pct" >}}% of these amounts is gran
 
 ## Already a Member?
 
-Help the Society thrive:
+### Help the Society Thrive
 - Encourage the men in your family to join the Sons
 - Why not the ladies to the [DAR (Daughters of the American Revolution)](/en/la-societe/societes-amies/)
 - And the younger ones to the [CAR (Children of the American Revolution)](/en/la-societe/societes-amies/)
