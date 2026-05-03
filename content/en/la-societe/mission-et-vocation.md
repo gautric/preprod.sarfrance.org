@@ -3,9 +3,9 @@ title: "Mission and Purpose"
 description: "Threefold transatlantic, historical and cultural mission of SAR France"
 ---
 
-## Purpose of SAR France
+## Purpose of the Society SAR France
 
-Founded to perpetuate the legacy of the Franco-American alliance forged during the War of Independence, SAR France pursues the following objectives:
+Founded to perpetuate the legacy of the Franco-American alliance forged during the War of Independence, the Society SAR France pursues the following objectives:
 
 - To cherish and preserve the memory of those who, during the American War of Independence, worked to establish the independence of the American people.
 
