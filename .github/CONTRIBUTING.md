@@ -141,6 +141,7 @@ Dossier : `content/fr/activites/`
 |---|---|
 | Agenda (année en cours) | `agenda-2026.md` |
 | Dictionnaire des ancêtres | `dictionnaire-des-ancetres.md` |
+| Éphémérides | `ephemerides.md` |
 | Revue et publications | `publications.md` |
 | Prix Jacques de Trentinian | `prix-trentinian.md` |
 | Bibliothèque | `bibliotheque.md` |

@@ -142,6 +142,11 @@ languages:
           url: "/activites/bibliotheque/"
           parent: "activites"
           weight: 6
+        - identifier: "ephemerides"
+          name: "Éphémérides"
+          url: "/activites/ephemerides/"
+          parent: "activites"
+          weight: 7
         # Submenus - Contact
         - identifier: "formulaire"
           name: "Nous écrire"
@@ -299,6 +304,11 @@ languages:
           url: "/en/activites/bibliotheque/"
           parent: "activites"
           weight: 6
+        - identifier: "ephemerides"
+          name: "Ephemerides"
+          url: "/en/activites/ephemerides/"
+          parent: "activites"
+          weight: 7
         # Submenus - Contact
         - identifier: "formulaire"
           name: "Write to Us"
