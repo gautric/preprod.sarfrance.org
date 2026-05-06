@@ -5,7 +5,7 @@ description: "Triple vocation transatlantique, historique et culturelle de SAR F
 
 ## Objet de la Société SAR France
 
-Fondée pour perpétuer l'héritage de l'alliance franco-américaine scellée durant la Guerre d'Indépendance, la Société SAR France poursuit les objectifs suivants :
+Fondée pour perpétuer l'héritage de l'alliance franco-américaine scellée durant la Guerre d'Indépendance américaine, la Société SAR France poursuit les objectifs suivants :
 
 - Aimer et conserver le souvenir de ceux qui, pendant la Guerre d'Indépendance américaine, travaillèrent à établir l'indépendance du peuple américain.
 

@@ -61,10 +61,7 @@ The NSSAR has societies in several countries outside the United States:
 
 - [U.S. Embassy in France](https://fr.usembassy.gov/) — Paris
 - [U.S. Consulate in Bordeaux](https://fr.usembassy.gov/u-s-consulate-bordeaux/)
-- [U.S. Consulate in Lyon](https://fr.usembassy.gov/consul-lyon/)
-- [U.S. Consulate General in Marseille](https://fr.usembassy.gov/u-s-consulate-general-marseille/)
-- [U.S. Consulate in Rennes](https://fr.usembassy.gov/u-s-consulate-rennes/)
-- [U.S. Consulate General in Strasbourg](https://fr.usembassy.gov/u-s-consulate-general-strasbourg/)
+
 
 ## Franco-American Relations
 

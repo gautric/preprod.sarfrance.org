@@ -36,7 +36,7 @@ La Société en France des Fils de la Révolution Américaine est la première s
 ## Liaison avec la NSSAR
 
 - **Trustee de SAR France à la NSSAR (USA)** : Patrick Kelly
-- **Alternate Trustee** : William Schwedtke (jusqu'au 30 juin 2026) puis Samuel Powell (à compter du 1^er juillet 2026)
+- **Alternate Trustee** : William Schwedtke (jusqu'au 30 juin 2026) puis Samuel Powell (à compter du 1er juillet 2026)
 - **Vice President General NSSAR (Europe District)** : Patrick Mesnard
 
 ## Délégations régionales

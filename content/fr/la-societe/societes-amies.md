@@ -63,10 +63,6 @@ La NSSAR compte des sociétés dans plusieurs pays en dehors des États-Unis :
 
 - [Ambassade des États-Unis d'Amérique en France](https://fr.usembassy.gov/fr/) — Paris
 - [Consulat des États-Unis à Bordeaux](https://fr.usembassy.gov/fr/u-s-consulate-bordeaux/)
-- [Consulat des États-Unis à Lyon](https://fr.usembassy.gov/fr/consul-lyon/)
-- [Consulat général des États-Unis à Marseille](https://fr.usembassy.gov/fr/u-s-consulate-general-marseille/)
-- [Consulat des États-Unis à Rennes](https://fr.usembassy.gov/fr/u-s-consulate-rennes/)
-- [Consulat général des États-Unis à Strasbourg](https://fr.usembassy.gov/fr/u-s-consulate-general-strasbourg/)
 
 ## Relations franco-américaines
 
