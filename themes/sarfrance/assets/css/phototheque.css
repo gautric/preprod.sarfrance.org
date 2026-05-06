@@ -1,0 +1,142 @@
+/* Phototheque gallery */
+
+.gallery-section {
+    margin-bottom: 2.5rem;
+}
+
+.gallery-section h2 {
+    margin-bottom: 1rem;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: flex-end;
+}
+
+.gallery-item {
+    height: 150px;
+    overflow: hidden;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    flex-grow: 1;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    position: relative;
+}
+
+.gallery-item img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 4px;
+}
+
+/* Lightbox overlay */
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.lightbox.active {
+    display: flex;
+}
+
+.lightbox img {
+    max-width: 90vw;
+    max-height: 80vh;
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+.lightbox-caption {
+    color: #fff;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    text-align: center;
+    max-width: 80vw;
+    font-style: italic;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    color: #fff;
+    font-size: 2.5rem;
+    cursor: pointer;
+    line-height: 1;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+    background: none;
+    border: none;
+    font-family: inherit;
+}
+
+.lightbox-close:hover {
+    opacity: 1;
+}
+
+.lightbox-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 3rem;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+    background: none;
+    border: none;
+    padding: 1rem;
+    line-height: 1;
+}
+
+.lightbox-nav:hover {
+    opacity: 1;
+}
+
+.lightbox-prev {
+    left: 1rem;
+}
+
+.lightbox-next {
+    right: 1rem;
+}
+
+@media (max-width: 768px) {
+    .gallery-item {
+        height: 100px;
+    }
+
+    .gallery-item img {
+        height: 100px;
+    }
+
+    .lightbox img {
+        max-width: 95vw;
+        max-height: 70vh;
+    }
+
+    .lightbox-nav {
+        font-size: 2rem;
+    }
+}

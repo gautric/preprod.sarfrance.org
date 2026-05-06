@@ -1,0 +1,55 @@
+{{ define "head" }}
+{{- $css := resources.Get "css/phototheque.css" | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{ end }}
+
+{{ define "main" }}
+<article class="page-content">
+    {{ partial "page-header.html" . }}
+    <div class="container">
+        <div class="content">
+            {{/* Render intro text (everything before the first ## year heading) */}}
+            {{ $content := .RawContent }}
+            {{ $sections := split $content "## 20" }}
+            {{ $intro := index $sections 0 }}
+            {{ $intro | markdownify }}
+        </div>
+
+        {{/* Parse year sections and render as galleries */}}
+        {{ range $i, $section := after 1 $sections }}
+        {{ $lines := split (printf "## 20%s" $section) "\n" }}
+        {{ $title := index $lines 0 | replaceRE "^## " "" }}
+        <div class="gallery-section">
+            <h2>{{ $title }}</h2>
+            <div class="gallery-grid">
+                {{ range after 1 $lines }}
+                {{ if findRE `!\[` . }}
+                {{ $alt := replaceRE `^!\[([^\]]*)\].*$` "$1" . }}
+                {{ $src := replaceRE `^!\[[^\]]*\]\(([^)]+)\).*$` "$1" . }}
+                {{ if ne $src . }}
+                <div class="gallery-item">
+                    <img src="{{ $src }}" alt="{{ $alt }}" data-full="{{ $src }}" loading="lazy">
+                </div>
+                {{ end }}
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</article>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox" role="dialog" aria-label="Image viewer">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <button class="lightbox-nav lightbox-prev" aria-label="Previous">&#10094;</button>
+    <button class="lightbox-nav lightbox-next" aria-label="Next">&#10095;</button>
+    <img src="" alt="">
+    <p class="lightbox-caption"></p>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+{{- $js := resources.Get "js/phototheque.js" | resources.Fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+{{ end }}

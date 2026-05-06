@@ -1,6 +1,7 @@
 ---
 title: "Photothèque"
 description: "Galerie photographique des cérémonies, commémorations et événements de SAR France"
+layout: "phototheque"
 ---
 
 ## Présentation

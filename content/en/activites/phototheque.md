@@ -1,6 +1,7 @@
 ---
 title: "Photo Gallery"
 description: "Photographic gallery of SAR France ceremonies, commemorations and events"
+layout: "phototheque"
 ---
 
 ## Overview
