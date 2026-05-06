@@ -42,3 +42,4 @@ La Société dispose également d'une [bibliothèque](/activites/bibliotheque/) 
 - [Revue et publications](/activites/publications/) – Revue annuelle et ouvrages de la Société
 - [Bibliothèque](/activites/bibliotheque/) – Inventaire des ouvrages de la Société
 - [Éphémérides](/activites/ephemerides/) – Fiches historiques illustrées sur les événements de la Guerre d'Indépendance
+- [Photothèque](/activites/phototheque/) – Galerie photographique des cérémonies et événements de la Société

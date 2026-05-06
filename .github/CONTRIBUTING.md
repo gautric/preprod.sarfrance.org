@@ -145,6 +145,7 @@ Dossier : `content/fr/activites/`
 | Revue et publications | `publications.md` |
 | Prix Jacques de Trentinian | `prix-trentinian.md` |
 | Bibliothèque | `bibliotheque.md` |
+| Photothèque | `phototheque.md` |
 
 ### Pages de texte — Rubrique « Contact »
 

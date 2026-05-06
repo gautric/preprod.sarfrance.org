@@ -20,7 +20,7 @@ Thumbs.db
 # Project-specific
 sarfrance/*
 sarfrance.zip
-*.pdf
+
 mail-notices-biographiques.txt
 scripts/process_books.py
 .gitignore
@@ -33,3 +33,14 @@ scripts/update_books.py
 .gitignore
 BOOKS_SUMMARY.md
 .gitignore
+1 Le soutien des Antilles françaises à la guerre de l’Indépendance américaine.pdf
+3 Régiments et Corps des Colonies durant la guerre de l’Indépendance américaine.pdf
+4 Les Chasseurs Volontaires de  Saint Domingue l’épopée d’un régiment  afro-antillais .pdf
+5 L’insigne de la Société des Fils de la Révolution Américaine.pdf
+6 Les couleurs de la Société des Fils de la Révolution Américaine.pdf
+21 François-Claude-Amour, marquis de Bouillé.pdf
+22 Claude-Charles de Damas, vicomte de Marillac.pdf
+23 Jean-Baptiste de Tastes de Lilancour.pdf
+Gabarit & charte typographique SAR France.pdf
+Histoire de la Société en France des Fils de la Révolution Américaine 2024 (1).pdf
+SAR BIBLI inventaire 01 avril 2025.pdf

@@ -42,3 +42,4 @@ The Society also maintains a [library](/en/activites/bibliotheque/) of books, do
 - [Journal and Publications](/en/activites/publications/) – Annual journal and works of the Society
 - [Library](/en/activites/bibliotheque/) – Catalogue of the Society's collection
 - [Ephemerides](/en/activites/ephemerides/) – Illustrated historical fact sheets on the events of the War of Independence
+- [Photo Gallery](/en/activites/phototheque/) – Photographs from ceremonies and events of the Society

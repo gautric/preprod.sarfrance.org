@@ -147,6 +147,11 @@ languages:
           url: "/activites/ephemerides/"
           parent: "activites"
           weight: 7
+        - identifier: "phototheque"
+          name: "Photothèque"
+          url: "/activites/phototheque/"
+          parent: "activites"
+          weight: 8
         # Submenus - Contact
         - identifier: "formulaire"
           name: "Nous écrire"
@@ -309,6 +314,11 @@ languages:
           url: "/en/activites/ephemerides/"
           parent: "activites"
           weight: 7
+        - identifier: "phototheque"
+          name: "Photo Gallery"
+          url: "/en/activites/phototheque/"
+          parent: "activites"
+          weight: 8
         # Submenus - Contact
         - identifier: "formulaire"
           name: "Write to Us"
