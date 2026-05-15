@@ -39,3 +39,5 @@
 - [x] 35. Organisation > Sociétés amies et liens : remontée de la rubrique « Société des Cincinnati de France » juste avant « Daughters of the American Revolution (DAR) » — FR/EN
 - [x] 36. Organisation > Sociétés amies et liens > Sociétés SAR à l'étranger : « Canada Society SAR » descendue en fin de liste, après « UK Society SAR » — FR/EN
 - [x] 37. Organisation > Sociétés amies et liens : ajout de la rubrique « Ambassade et consulats des États-Unis en France » juste après « Ambassade et consulats de France aux États-Unis » — ambassade (Paris), consulats de Bordeaux, Lyon, Marseille, Rennes et Strasbourg avec liens vers fr.usembassy.gov — FR/EN
+
+- [x] 28. Éphémérides : déplacement de la rubrique « Activités » vers « Histoire » (en dernière position du sous-menu), suppression de la mention « publiées entre 2018 et 2019 » dans le paragraphe de présentation (FR/EN) pour rendre la page intemporelle, mise à jour des pages d'index de section et du menu hugo.yaml

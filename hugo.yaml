@@ -109,6 +109,11 @@ languages:
           url: "/histoire/la-france-dans-la-guerre/"
           parent: "histoire"
           weight: 8
+        - identifier: "ephemerides"
+          name: "Éphémérides"
+          url: "/histoire/ephemerides/"
+          parent: "histoire"
+          weight: 9
         # Submenus - Activités
         - identifier: "activites-index"
           name: "Activités"
@@ -142,16 +147,11 @@ languages:
           url: "/activites/bibliotheque/"
           parent: "activites"
           weight: 6
-        - identifier: "ephemerides"
-          name: "Éphémérides"
-          url: "/activites/ephemerides/"
-          parent: "activites"
-          weight: 7
         - identifier: "phototheque"
           name: "Photothèque"
           url: "/activites/phototheque/"
           parent: "activites"
-          weight: 8
+          weight: 7
         # Submenus - Contact
         - identifier: "formulaire"
           name: "Nous écrire"
@@ -276,6 +276,11 @@ languages:
           url: "/en/histoire/la-france-dans-la-guerre/"
           parent: "histoire"
           weight: 8
+        - identifier: "ephemerides"
+          name: "Ephemerides"
+          url: "/en/histoire/ephemerides/"
+          parent: "histoire"
+          weight: 9
         # Submenus - Activities
         - identifier: "activites-index"
           name: "Activities"
@@ -309,16 +314,11 @@ languages:
           url: "/en/activites/bibliotheque/"
           parent: "activites"
           weight: 6
-        - identifier: "ephemerides"
-          name: "Ephemerides"
-          url: "/en/activites/ephemerides/"
-          parent: "activites"
-          weight: 7
         - identifier: "phototheque"
           name: "Photo Gallery"
           url: "/en/activites/phototheque/"
           parent: "activites"
-          weight: 8
+          weight: 7
         # Submenus - Contact
         - identifier: "formulaire"
           name: "Write to Us"

@@ -42,3 +42,4 @@ L'ensemble des belligérants concluent la paix à Versailles, le 3 septembre 178
 - [La France dans la guerre](/histoire/la-france-dans-la-guerre/) – Adversaires et alliés dans la Guerre d'Amérique
 - [Lieux de mémoire](/histoire/lieux-de-memoire/) – Lieux de mémoire de la Guerre d'Indépendance
 - [Notices biographiques](/histoire/notices/) – Dictionnaire des ancêtres SAR France homologués
+- [Éphémérides](/histoire/ephemerides/) – Fiches historiques illustrées sur les événements de la Guerre d'Indépendance

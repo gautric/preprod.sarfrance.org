@@ -5,7 +5,7 @@ description: "Illustrated historical fact sheets retracing the major events of t
 
 ## Overview
 
-The SAR France ephemerides are a collection of illustrated historical fact sheets, published between 2018 and 2019, devoted to the landmark events of the American War of Independence and the Franco-American alliance. Each sheet, written by members of the History Committee, places a feat of arms, a diplomatic episode, or a historical figure in context, on the anniversary date of the event.
+The SAR France ephemerides are a collection of illustrated historical fact sheets devoted to the landmark events of the American War of Independence and the Franco-American alliance. Each sheet, written by members of the History Committee, places a feat of arms, a diplomatic episode, or a historical figure in context, on the anniversary date of the event.
 
 These documents serve as a historical outreach tool, designed to bring the French contribution to American independence to the widest possible audience.
 

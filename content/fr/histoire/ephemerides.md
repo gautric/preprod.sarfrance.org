@@ -5,7 +5,7 @@ description: "Fiches historiques illustrées retraçant les grands événements 
 
 ## Présentation
 
-Les éphémérides de SAR France sont une collection de fiches historiques illustrées, publiées entre 2018 et 2019, consacrées aux événements marquants de la Guerre d'Indépendance américaine et de l'alliance franco-américaine. Chaque fiche, rédigée par les membres du Comité d'Histoire, replace un fait d'armes, un épisode diplomatique ou un personnage dans son contexte, à la date anniversaire de l'événement.
+Les éphémérides de SAR France sont une collection de fiches historiques illustrées consacrées aux événements marquants de la Guerre d'Indépendance américaine et de l'alliance franco-américaine. Chaque fiche, rédigée par les membres du Comité d'Histoire, replace un fait d'armes, un épisode diplomatique ou un personnage dans son contexte, à la date anniversaire de l'événement.
 
 Ces documents constituent un outil de vulgarisation historique destiné à faire connaître au plus grand nombre la contribution française à l'indépendance des États-Unis.
 

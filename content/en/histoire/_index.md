@@ -42,3 +42,4 @@ All the belligerents concluded peace at Versailles on September 3, 1783. England
 - [France in the War](/en/histoire/la-france-dans-la-guerre/) – Adversaries and allies in the American War
 - [Sites of Remembrance](/en/histoire/lieux-de-memoire/) – Sites of remembrance of the War of Independence
 - [Biographical Notices](/en/histoire/notices/) – Ancestors' dictionary of certified SAR France ancestors
+- [Ephemerides](/en/histoire/ephemerides/) – Illustrated historical fact sheets on the events of the War of Independence
