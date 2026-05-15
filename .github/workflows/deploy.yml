@@ -42,7 +42,7 @@ defaults:
     shell: bash
 
 env:
-  HUGO_VERSION: 0.157.0
+  HUGO_VERSION: 0.161.1
   NODE_VERSION: '24'
   PYTHON_VERSION: '3.13'
 

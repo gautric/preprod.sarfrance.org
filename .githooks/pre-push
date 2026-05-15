@@ -1,0 +1,5 @@
+#!/bin/bash
+# Git pre-push hook — verifies Hugo version sync before pushing.
+# Install with: git config core.hooksPath .githooks
+
+exec scripts/check-hugo-version.sh

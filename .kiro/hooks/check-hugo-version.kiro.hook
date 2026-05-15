@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "name": "Hugo Version Sync Check",
+  "description": "Verifies that the locally installed Hugo version matches the version defined in .github/workflows/deploy.yml. Run before pushing to prevent CI build failures.",
+  "version": "1",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "runCommand",
+    "command": "LOCAL_VERSION=$(hugo version 2>/dev/null | grep -oE '[0-9]+\\.[0-9]+\\.[0-9]+' | head -1); CI_VERSION=$(grep -m1 'HUGO_VERSION:' .github/workflows/deploy.yml | grep -oE '[0-9]+\\.[0-9]+\\.[0-9]+'); PREVIEW_VERSION=$(grep -m1 'HUGO_VERSION:' .github/workflows/preview.yml | grep -oE '[0-9]+\\.[0-9]+\\.[0-9]+'); echo \"Local Hugo:   $LOCAL_VERSION\"; echo \"deploy.yml:   $CI_VERSION\"; echo \"preview.yml:  $PREVIEW_VERSION\"; if [ \"$LOCAL_VERSION\" != \"$CI_VERSION\" ] || [ \"$LOCAL_VERSION\" != \"$PREVIEW_VERSION\" ]; then echo ''; echo '❌ VERSION MISMATCH — update workflows before pushing'; exit 1; else echo ''; echo '✅ All Hugo versions in sync'; fi",
+    "timeout": 10
+  }
+}
