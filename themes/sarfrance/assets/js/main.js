@@ -11,13 +11,15 @@ $(function() {
         $menuToggle.attr('aria-expanded', !expanded);
     });
 
-    // Mobile submenu toggle
-    if ($(window).width() <= 768) {
-        $('.has-submenu > a').on('click', function(e) {
+    // Mobile submenu toggle — uses matchMedia so it adapts on resize/rotation
+    var mobileQuery = window.matchMedia('(max-width: 768px)');
+
+    $('.has-submenu > a').on('click', function(e) {
+        if (mobileQuery.matches) {
             e.preventDefault();
             $(this).parent().toggleClass('active');
-        });
-    }
+        }
+    });
 
     // Smooth scroll for anchor links
     $('a[href^="#"]').on('click', function(e) {
