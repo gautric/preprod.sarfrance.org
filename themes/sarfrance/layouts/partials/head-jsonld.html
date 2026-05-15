@@ -105,7 +105,7 @@
 {{- if eq .Layout "agenda" -}}
 {{- $agendaYear := .Site.Params.currentAgendaYear | default (now.Format "2006") -}}
 {{- $year := .Params.year | default $agendaYear -}}
-{{- $events := where .Site.Data.agenda.events "date" "ge" (printf "%s-01-01" $year) -}}
+{{- $events := where hugo.Data.agenda.events "date" "ge" (printf "%s-01-01" $year) -}}
 {{- $events = where $events "date" "le" (printf "%s-12-31" $year) }}
 {{- if $events }}
 <script type="application/ld+json">

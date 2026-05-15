@@ -1,8 +1,8 @@
-{{- $books := .Site.Data.books.books -}}
-{{- $categories := .Site.Data.metadata.books.categories -}}
+{{- $books := hugo.Data.books.books -}}
+{{- $categories := hugo.Data.metadata.books.categories -}}
 {{- $seeBook := i18n "bibli_see_book" -}}
 {
-  "revision": {{ .Site.Data.books.revision | jsonify }},
+  "revision": {{ hugo.Data.books.revision | jsonify }},
   "categories": {
     {{- $first := true -}}
     {{- range $categories -}}

@@ -7,8 +7,8 @@
 {{- $prefix := partial "lang-prefix.html" . -}}
 {{- $agendaYear := .Site.Params.currentAgendaYear | default (now.Format "2006") -}}
 {{ $year := .Params.year | default $agendaYear }}
-{{ $types := .Site.Data.metadata.agenda.types }}
-{{ $events := where .Site.Data.agenda.events "date" "ge" (printf "%s-01-01" $year) }}
+{{ $types := hugo.Data.metadata.agenda.types }}
+{{ $events := where hugo.Data.agenda.events "date" "ge" (printf "%s-01-01" $year) }}
 {{ $events = where $events "date" "le" (printf "%s-12-31" $year) }}
 {{ $usedTypes := slice }}
 {{ range $events }}{{ $usedTypes = $usedTypes | append .type }}{{ end }}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default .Lang }}">
+<html lang="{{ .Site.Language.Locale | default .Lang }}">
 <head>
     {{- partial "head-meta.html" . }}
     {{- partial "head-favicons.html" . }}

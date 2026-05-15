@@ -4,11 +4,11 @@
 {{ end }}
 {{ define "main" }}
 <section class="page-content">
-    {{ $bibMeta := printf "<p class=\"page-meta\"><span class=\"page-meta-count\">%d %s</span> — <span>%s : %s</span></p>" (len .Site.Data.books.books) (i18n "bibli_count") (i18n "bibli_revision") .Site.Data.books.revision }}
+    {{ $bibMeta := printf "<p class=\"page-meta\"><span class=\"page-meta-count\">%d %s</span> — <span>%s : %s</span></p>" (len hugo.Data.books.books) (i18n "bibli_count") (i18n "bibli_revision") hugo.Data.books.revision }}
     {{ partial "page-header.html" (dict "ctx" . "desc" (i18n "bibli_desc") "extra" $bibMeta) }}
     <div class="container">
         <div class="content">
-            <p>{{ i18n "bibli_intro" (dict "Count" (len .Site.Data.books.books)) }}</p>
+            <p>{{ i18n "bibli_intro" (dict "Count" (len hugo.Data.books.books)) }}</p>
             <p>{{ i18n "bibli_available" | safeHTML }}</p>
         </div>
 
@@ -20,7 +20,7 @@
 
         <div class="page-filters" role="group" aria-label="{{ i18n "filter_by_category" }}">
             <button class="filter-btn active" data-cat="all">{{ i18n "filter_all" }}</button>
-            {{ range .Site.Data.metadata.books.categories }}
+            {{ range hugo.Data.metadata.books.categories }}
             {{ $i18nKey := printf "bibli_cat_%s" . }}
             <button class="filter-btn cat-{{ . | urlize }}" data-cat="{{ . }}">{{ i18n $i18nKey }}</button>
             {{ end }}

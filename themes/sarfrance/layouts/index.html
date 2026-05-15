@@ -12,7 +12,7 @@
             <p class="hero-desc">{{ .Site.Params.heroDesc }}</p>
         </div>
     </div>
-    {{ with .Site.Data.carousel }}
+    {{ with hugo.Data.carousel }}
     <div class="hero-carousel">
         <div class="carousel-track">
             {{ range . }}
@@ -58,7 +58,7 @@
     </div>
 </section>
 
-{{ with .Site.Data.agenda }}
+{{ with hugo.Data.agenda }}
 {{ $today := now.Format "2006-01-02" }}
 {{ $upcoming := slice }}
 {{ range .events }}

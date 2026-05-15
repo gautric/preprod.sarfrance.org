@@ -8,8 +8,8 @@ enableRobotsTXT: true
 
 languages:
   fr:
-    languageCode: "fr-FR"
-    languageName: "Français"
+    locale: "fr-FR"
+    label: "Français"
     title: "SAR France - Les Fils de la Révolution Américaine"
     weight: 1
     contentDir: "content/fr"
@@ -175,8 +175,8 @@ languages:
           weight: 4
 
   en:
-    languageCode: "en-US"
-    languageName: "English"
+    locale: "en-US"
+    label: "English"
     title: "SAR France - The Sons of the American Revolution"
     weight: 2
     contentDir: "content/en"
