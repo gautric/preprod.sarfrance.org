@@ -133,6 +133,26 @@ Dossier : `content/fr/histoire/biographies/`
 | Le comte de Rochambeau | `rochambeau.md` |
 | Jean-Baptiste de Tastes de Lilancour | `tastes-de-lilancour.md` |
 
+### Pages de texte — Rubrique « Histoire / Éphémérides »
+
+Dossier : `content/fr/histoire/ephemerides/`
+
+| Page sur le site | Fichier |
+|---|---|
+| Éphémérides (index) | `_index.md` |
+| L'amiral d'Estaing appareille | `amiral-estaing.md` |
+| L'amiral d'Orvilliers | `amiral-orvilliers.md` |
+| Combat naval de la Chesapeake | `combat-chesapeake.md` |
+| Benjamin Franklin écrit à Peter Collinson | `franklin-collinson.md` |
+| La Fayette de retour aux États-Unis | `lafayette-etats-unis.md` |
+| La mort de Louis XVI | `mort-louis-xvi.md` |
+| Un ouragan aux Antilles | `ouragan-antilles.md` |
+| Prise de l'île de la Dominique | `prise-dominique.md` |
+| Prise de Saint-Christophe, Montserrat et Niévès | `saint-christophe.md` |
+| Le siège de Pensacola | `siege-pensacola.md` |
+| Victoire de Suffren à La Praya | `suffren-praya.md` |
+| Washington élu premier Président | `washington-president.md` |
+
 ### Pages de texte — Rubrique « Activités »
 
 Dossier : `content/fr/activites/`
