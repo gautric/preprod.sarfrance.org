@@ -5,6 +5,7 @@ defaultContentLanguage: "fr"
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 enableRobotsTXT: true
+enableGitInfo: true
 
 languages:
   fr:

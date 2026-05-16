@@ -64,7 +64,7 @@
       {{- with $book.isbn }}<span class="book-isbn">ISBN {{ . }}</span>{{ end }}
       {{- with $book.inLanguage }}<span class="book-lang book-lang-{{ . }}"></span>{{ end }}
     </div>
-    {{- with $book.image }}<img class="book-cover" src="{{ . }}" alt="" loading="lazy">{{ end }}
+    {{- with $book.image }}<img class="book-cover" src="{{ . }}" alt="{{ $book.name }}" loading="lazy">{{ end }}
   </div>
   {{- end }}
 </div>

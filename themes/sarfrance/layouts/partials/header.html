@@ -33,10 +33,10 @@
                     {{ end }}
                 {{ end }}
                 <li class="has-submenu lang-switch">
-                    <a href="#" aria-label="{{ if eq .Lang "fr" }}Changer de langue{{ else }}Change language{{ end }}">{{ if eq .Lang "fr" }}<img src="/images/icons/flag-fr.svg" alt="" class="flag-icon" width="20" height="14">{{ else }}<img src="/images/icons/flag-us.svg" alt="" class="flag-icon" width="20" height="14">{{ end }}</a>
+                    <a href="#" aria-label="{{ if eq .Lang "fr" }}Changer de langue{{ else }}Change language{{ end }}">{{ if eq .Lang "fr" }}<img src="/images/icons/flag-fr.svg" alt="Français" class="flag-icon" width="20" height="14">{{ else }}<img src="/images/icons/flag-us.svg" alt="English" class="flag-icon" width="20" height="14">{{ end }}</a>
                     <ul class="submenu">
-                        <li{{ if eq .Lang "fr" }} class="active"{{ end }}><a href="{{ $frURL }}" lang="fr" hreflang="fr"><img src="/images/icons/flag-fr.svg" alt="" class="flag-icon" width="20" height="14"> Français</a></li>
-                        <li{{ if eq .Lang "en" }} class="active"{{ end }}><a href="{{ $enURL }}" lang="en" hreflang="en"><img src="/images/icons/flag-us.svg" alt="" class="flag-icon" width="20" height="14"> English</a></li>
+                        <li{{ if eq .Lang "fr" }} class="active"{{ end }}><a href="{{ $frURL }}" lang="fr" hreflang="fr"><img src="/images/icons/flag-fr.svg" alt="Français" class="flag-icon" width="20" height="14"> Français</a></li>
+                        <li{{ if eq .Lang "en" }} class="active"{{ end }}><a href="{{ $enURL }}" lang="en" hreflang="en"><img src="/images/icons/flag-us.svg" alt="English" class="flag-icon" width="20" height="14"> English</a></li>
                     </ul>
                 </li>
             </ul>
