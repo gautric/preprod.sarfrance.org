@@ -511,11 +511,11 @@ events:
     link: ""
     lat: 48.1717
     lon: 2.2522
-  - date: "2026-05-25/2026-05-26"
+  - date: "2026-05-24
     title: "Memorial Day"
     type: commémoration
-    description: "Cérémonies du Memorial Day à Suresnes et Marnes-la-Coquette."
-    location: "Cimetière américain de Suresnes"
+    description: "Cérémonies du Memorial Day à Suresnes et à Marnes-la-Coquette."
+    location: "Cimetière américain de Suresnes et Mémorial de l'Escadrille Lafayette à Marnes-la-Coquette"
     link: ""
     lat: 48.8723
     lon: 2.2177
