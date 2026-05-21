@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Locale | default .Lang }}">
 <head>
+    {{- template "_internal/google_analytics.html" . }}
     {{- partial "head-meta.html" . }}
     {{- partial "head-favicons.html" . }}
     <!-- CSS: colors → style → filters → page-specific -->

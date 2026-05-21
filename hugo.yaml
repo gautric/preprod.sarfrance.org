@@ -342,6 +342,10 @@ languages:
           parent: "contact"
           weight: 4
 
+services:
+  googleAnalytics:
+    ID: "G-GB2VPBQ424"
+
 params:
   currentAgendaYear: 2026
   githubRepo: "https://github.com/gautric/preprod.sarfrance.org"
