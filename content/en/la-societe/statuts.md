@@ -1,7 +1,7 @@
 ---
-title: "Bylaws and Rules"
-description: "Bylaws adopted on March 22, 2024 and excerpts from the internal rules of SAR France"
-lastUpdate: 2025-02-11
+title: "Bylaws, Internal Rules and Charter"
+description: "Bylaws adopted on March 22, 2024, excerpts from the internal rules, and code of ethics and conduct of SAR France"
+lastUpdate: 2025-05-21
 ---
 
 ## Bylaws
@@ -11,6 +11,10 @@ The new bylaws of the association were adopted at the Extraordinary General Asse
 The decision to amend the bylaws was motivated by the desire to manage general assembly and board of directors meetings electronically. This option had only been granted temporarily during the COVID crisis.
 
 The Ministry of the Interior requested that the bylaws be brought into compliance with the standard bylaws validated by the Council of State. It was decided to modify the method of appointing directors, who are now elected all at once — rather than by halves — but still for two-year terms, by the general assembly.
+
+A copy of these new bylaws is available below:
+
+[SAR France Bylaws (PDF)](/documents/statuts-sarfrance.pdf)
 
 ## Internal Rules (excerpt)
 
@@ -53,3 +57,19 @@ The members of the bureau, within their respective areas of responsibility, shal
 The association's activities are carried out through regional delegations established at various locations throughout the national territory, which do not have legal personality. Members of the association belong to the regional delegation corresponding to their address declared at the headquarters. The distribution of branches is proposed by the bureau and approved by the board of directors.
 
 Delegations may also be established abroad; they are governed in the same manner as regional delegations established in France.
+
+To obtain a complete copy of the internal rules, you may send your request by email to sarfrance.sons@gmail.com
+
+## Code of Ethics and Conduct
+
+Since its founding, SAR France has based its action on the following values, which it considers essential:
+
+- trust in its members for the management of their projects and commitments on behalf of the association and its objectives,
+- clarity and transparency in its relationship with its members, third-party stakeholders, and other institutions involved in pursuing the association's objectives,
+- a respectful approach in the treatment of historical facts.
+
+SAR France encourages the development of initiatives related to its purpose. To this end, the association cooperates with public and private partners from both the commercial and non-commercial sectors, taking their expectations into account, with the sole objective of fulfilling its mission.
+
+It also strives to report to all its stakeholders, particularly its members and donors, on the results and impact of its action in a regular, transparent, and impartial manner. It places the fulfilment of its mission, as defined by its corporate purpose, at the forefront of its concerns.
+
+In order to reflect these values, SAR France has established a code of ethics and conduct. This charter applies to all members of the association and aims to guide their behaviour and actions on a daily basis. To obtain a copy, you may send your request by email to sarfrance.sons@gmail.com

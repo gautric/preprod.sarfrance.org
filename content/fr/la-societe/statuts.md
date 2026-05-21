@@ -1,7 +1,7 @@
 ---
-title: "Statuts et règlement"
-description: "Statuts adoptés le 22 mars 2024 et extraits du règlement intérieur de SAR France"
-lastUpdate: 2025-02-11
+title: "Statuts, règlement intérieur et charte"
+description: "Statuts adoptés le 22 mars 2024, extraits du règlement intérieur et charte d'éthique et de déontologie de SAR France"
+lastUpdate: 2025-05-21
 ---
 
 ## Statuts
@@ -11,6 +11,10 @@ Les nouveaux statuts de l'association ont été adoptés lors de l'Assemblée g�
 La décision de modifier les statuts a été motivée par le souci de pouvoir gérer les réunions d'assemblée générale et de conseil d'administration par voie dématérialisée. Cette faculté n'avait été accordée que de façon temporaire au moment de la crise du COVID.
 
 Le ministère de l'intérieur a demandé que les statuts soient mis en conformité avec les statuts types validés par le Conseil d'État. Il a été décidé de modifier le mode de désignation des administrateurs qui sont désormais élus en une fois, et non par moitié, mais toujours pour deux ans, par l'assemblée générale.
+
+Une copie de ces nouveaux statuts figure ci-après :
+
+[Statuts de SAR France (PDF)](/documents/statuts-sarfrance.pdf)
 
 ## Règlement intérieur (extrait)
 
@@ -53,3 +57,19 @@ Les membres du bureau, dans leur domaine de compétence respectif, font droit à
 L'action de l'association est relayée par des délégations régionales implantées sur divers sites du territoire national qui n'ont pas la personnalité morale. Les adhérents de l'association relèvent de la délégation régionale correspondant à leur adresse déclarée au siège. La répartition des établissements est proposée par le bureau et est approuvée par le conseil d'administration.
 
 Des délégations peuvent également être créées à l'étranger ; elles sont régies comme les délégations régionales établies en France.
+
+Pour obtenir une copie de l'intégralité du règlement intérieur, vous pouvez adresser votre demande par courrier électronique à sarfrance.sons@gmail.com
+
+## Charte d'éthique et de déontologie
+
+Depuis sa création, SAR France a fondé son action sur le respect des valeurs suivantes qu'elle considère essentielles :
+
+- confiance dans ses membres pour la gestion de leurs projets et de leurs engagements au profit de l'association et de ses objectifs,
+- clarté et transparence dans la relation avec ses membres, les tiers intervenants et les autres institutions intervenant dans le cadre des objectifs de l'association,
+- approche respectueuse dans le traitement des faits historiques.
+
+SAR France encourage le développement d'initiatives autour de son objet. Pour cela, l'association coopère avec des partenaires, publics et privés, issus des secteurs marchand et non marchand, en prenant en compte leurs attentes, avec pour seul objectif l'accomplissement de sa mission.
+
+Elle s'attache également à rendre compte à l'ensemble de ses parties prenantes, notamment ses membres et donateurs, des résultats et de l'impact de son action de façon régulière, transparente et impartiale. Elle place en tête de ses préoccupations la réalisation de sa mission issue de son objet social.
+
+Afin de refléter ces valeurs, SAR France a mis en place une charte d'éthique et de déontologie. Cette charte s'applique à tous les membres de l'association et vise à guider leurs comportements et actions au quotidien. Pour en obtenir une copie, vous pouvez adresser votre demande par courrier électronique à sarfrance.sons@gmail.com
