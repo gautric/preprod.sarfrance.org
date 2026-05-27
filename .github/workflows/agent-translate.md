@@ -25,7 +25,7 @@ safe-outputs:
     labels: [traduction]
     draft: false
     max: 1
-    expires: 30
+    expires: 30d
     preserve-branch-name: false
     allowed-files:
       - content/en/**

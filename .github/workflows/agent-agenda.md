@@ -27,15 +27,15 @@ safe-outputs:
     reviewers: [gautric]
     draft: false
     max: 1
-    expires: 14
+    expires: 14d
     preserve-branch-name: true
     allowed-files:
       - data/agenda.yaml
     protected-files: allowed
   push-to-pull-request-branch:
     target: "*"
-    title-prefix: "📅 Agenda : "
-    labels: [agenda]
+    required-title-prefix: "📅 Agenda : "
+    required-labels: [agenda]
     max: 1
     allowed-files:
       - data/agenda.yaml
