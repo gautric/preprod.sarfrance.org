@@ -65,7 +65,7 @@ Un robot vérifie que tout est correct (build Hugo)
        ↓
 Si tout va bien, le site est mis à jour automatiquement
        ↓
-Le résultat est visible sur preprod.sarfrance.org en quelques minutes
+Le résultat est visible sur www.sarfrance.org en quelques minutes
 ```
 
 Le site est **bilingue** (français et anglais). Quand vous modifiez un fichier français, un robot traduit automatiquement la version anglaise et soumet une proposition de traduction pour relecture.
@@ -412,7 +412,7 @@ Commit sur main
      ↓
 Vérification automatique : build Hugo + validation des fichiers
      ↓
-Si tout est correct → déploiement sur preprod.sarfrance.org (≈ 3 min)
+Si tout est correct → déploiement sur www.sarfrance.org (≈ 3 min)
      ↓
 Si un fichier français a été modifié → traduction automatique FR→EN
 proposée en Pull Request pour relecture
