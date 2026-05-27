@@ -1,4 +1,4 @@
-baseURL: "https://preprod.sarfrance.org/"
+baseURL: "https://www.sarfrance.org/"
 title: "SAR France"
 theme: "sarfrance"
 defaultContentLanguage: "fr"
