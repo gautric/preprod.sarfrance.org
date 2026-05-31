@@ -527,6 +527,14 @@ events:
     link: ""
     lat: 48.8622
     lon: 2.2884
+  - date: "2026-06-01T00:00:00"
+    title: "Mise en ligne du nouveau site SAR France"
+    type: visite
+    description: ""
+    location: "Siège de SAR France"
+    link: ""
+    lat: 44.8885
+    lon: 1.2150
   - date: "2026-06-13T10:00:00"
     title: "Cérémonie du Souvenir au Mémorial du Cimetière Américain"
     type: "Commémoration"
