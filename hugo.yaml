@@ -344,7 +344,7 @@ languages:
 
 services:
   googleAnalytics:
-    ID: "G-GB2VPBQ424"
+    ID: "G-W4TG2424QZ"
 
 params:
   currentAgendaYear: 2026
