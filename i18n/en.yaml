@@ -1,3 +1,5 @@
+- id: skip_to_content
+  translation: "Skip to content"
 - id: upcoming_events
   translation: "Upcoming Events"
 - id: view_full_calendar

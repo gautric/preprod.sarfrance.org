@@ -52,6 +52,7 @@ jobs:
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
       - name: Build with Hugo
+        id: hugo-build
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
@@ -65,7 +66,7 @@ jobs:
         run: |
           echo "## 🏗️ Résultat du build Hugo" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          if [ $? -eq 0 ]; then
+          if [ "${{ steps.hugo-build.outcome }}" = "success" ]; then
             echo "✅ Le site compile correctement." >> $GITHUB_STEP_SUMMARY
           else
             echo "❌ Erreur de compilation. Vérifiez les logs ci-dessus." >> $GITHUB_STEP_SUMMARY

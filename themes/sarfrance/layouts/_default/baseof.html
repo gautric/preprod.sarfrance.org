@@ -13,8 +13,9 @@
     {{- partial "head-jsonld.html" . }}
 </head>
 <body>
+    <a href="#main-content" class="skip-link">{{ i18n "skip_to_content" }}</a>
     {{- partial "header.html" . -}}
-    <main class="gold-accent">
+    <main id="main-content" class="gold-accent">
         {{- block "main" . }}{{- end }}
     </main>
     {{- partial "footer.html" . -}}

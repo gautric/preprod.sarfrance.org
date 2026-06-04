@@ -19,6 +19,29 @@
     --font-body: var(--font-janson);
 }
 
+/* ---- Skip to content (WCAG 2.4.1) ---- */
+.skip-link {
+    position: absolute;
+    top: -100%;
+    left: 16px;
+    z-index: 10000;
+    padding: 8px 16px;
+    background: var(--navy-blue, #1b2a4a);
+    color: #fff;
+    font-family: var(--font-body);
+    font-size: 0.875rem;
+    border-radius: 0 0 4px 4px;
+    text-decoration: underline;
+    transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+    top: 0;
+    color: #fff;
+    outline: 2px solid var(--primary, #ad2c11);
+    outline-offset: 2px;
+}
+
 /* ---- Reset ---- */
 *, *::before, *::after {
     margin: 0;
