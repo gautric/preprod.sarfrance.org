@@ -34,7 +34,7 @@
 ## Hosting & Deployment
 - Primary: GitHub Pages via GitHub Actions (`.github/workflows/hugo.yml`)
 - Alternative: S3 + CloudFront (`deploy.sh`, `infrastructure/deploy.sh`)
-- CNAME: `preprod.sarfrance.org`
+- CNAME: `www.sarfrance.org`
 
 ## CI/CD
 - On push to `main`: build + deploy to GitHub Pages
@@ -51,7 +51,7 @@ hugo server --buildDrafts
 hugo --minify
 
 # Build with custom base URL
-hugo --minify --baseURL "https://preprod.sarfrance.org/"
+hugo --minify --baseURL "https://www.sarfrance.org/"
 
 # Clean build
 hugo --gc --cleanDestinationDir

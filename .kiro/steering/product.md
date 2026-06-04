@@ -22,5 +22,5 @@ SAR France (Société en France des Fils de la Révolution Américaine) is the F
 - Commit messages and contributor-facing documentation are written in French
 
 ## Domain
-- Production: `sarfrance.org`
-- Preproduction: `preprod.sarfrance.org`
+- Production: `www.sarfrance.org` (served via GitHub Pages, CNAME in repo root)
+- GitHub repo: `https://github.com/gautric/preprod.sarfrance.org`
