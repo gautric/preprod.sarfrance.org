@@ -21,7 +21,7 @@ defaults:
     shell: bash
 
 env:
-  HUGO_VERSION: 0.161.1
+  HUGO_VERSION: 0.162.1
   NODE_VERSION: '24'
 
 jobs:
