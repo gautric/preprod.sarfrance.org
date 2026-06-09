@@ -511,6 +511,14 @@ events:
     link: ""
     lat: 48.1717
     lon: 2.2522
+  - date: "2026-05-20T10:30:00"
+    title: "Cérémonie au cimetière de Picpus"
+    type: commémoration
+    description: ""
+    location: "35 rue de Picpus 75012 Paris"
+    link: ""
+    lat: 48.8442
+    lon: 2.3964
   - date: "2026-05-24"
     title: "Memorial Day"
     type: commémoration
