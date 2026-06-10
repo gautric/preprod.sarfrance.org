@@ -25,14 +25,11 @@ mail-notices-biographiques.txt
 scripts/process_books.py
 .gitignore
 SAR  BIBLI inventaire 31 décembre 2025.xls
-.gitignore
 scripts/check_drafts.py
 scripts/read_excel.py
 scripts/update_books.py
 .gitignore
-.gitignore
 BOOKS_SUMMARY.md
-.gitignore
 1 Le soutien des Antilles françaises à la guerre de l’Indépendance américaine.pdf
 3 Régiments et Corps des Colonies durant la guerre de l’Indépendance américaine.pdf
 4 Les Chasseurs Volontaires de  Saint Domingue l’épopée d’un régiment  afro-antillais .pdf
@@ -44,3 +41,5 @@ BOOKS_SUMMARY.md
 Gabarit & charte typographique SAR France.pdf
 Histoire de la Société en France des Fils de la Révolution Américaine 2024 (1).pdf
 SAR BIBLI inventaire 01 avril 2025.pdf
+infrastructure/contact-form/.aws-sam/build/**
+infrastructure/contact-form/src/node_modules/**
