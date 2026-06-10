@@ -54,9 +54,7 @@ SAR France is affiliated with the National Society Sons of the American Revoluti
 
 ## Contact Form {#contact-form}
 
-<form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
-  <input type="hidden" name="access_key" value="29cee0a1-6737-4155-bfb6-4b80d4e2f687">
-  <input type="hidden" name="subject" value="New message from sarfrance.org">
+<form class="contact-form" id="contact-form" action="{{ site.Params.contactApiUrl }}" method="POST" novalidate>
   <div class="form-row">
     <div class="form-group">
       <label for="nom">Last Name <span class="required" aria-hidden="true">*</span></label>
@@ -87,5 +85,6 @@ SAR France is affiliated with the National Society Sons of the American Revoluti
     <textarea id="message" name="message" rows="6" placeholder="Your message…" required></textarea>
   </div>
   <p class="form-note">Fields marked with <span class="required">*</span> are required.</p>
-  <button type="submit" class="btn btn-primary form-submit">Send</button>
+  <div class="form-feedback" id="form-feedback" role="alert" aria-live="polite"></div>
+  <button type="submit" class="btn btn-primary form-submit" id="form-submit">Send</button>
 </form>

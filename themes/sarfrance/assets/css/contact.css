@@ -7,3 +7,33 @@
     box-shadow: 0 2px 12px var(--shadow);
     z-index: 1;
 }
+
+/* Form feedback messages */
+.form-feedback {
+    margin: 0.75rem 0;
+    padding: 0;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    min-height: 1.4em;
+}
+
+.form-feedback.feedback-error {
+    color: #c0392b;
+    padding: 0.75rem 1rem;
+    background: #fdecea;
+    border-radius: 6px;
+    border: 1px solid #f5c6cb;
+}
+
+.form-feedback.feedback-success {
+    color: #1e7e34;
+    padding: 0.75rem 1rem;
+    background: #d4edda;
+    border-radius: 6px;
+    border: 1px solid #c3e6cb;
+}
+
+.form-submit:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}

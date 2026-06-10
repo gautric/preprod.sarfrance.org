@@ -54,9 +54,7 @@ SAR France est affiliée à la National Society Sons of the American Revolution 
 
 ## Formulaire de contact {#formulaire-de-contact}
 
-<form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
-  <input type="hidden" name="access_key" value="29cee0a1-6737-4155-bfb6-4b80d4e2f687">
-  <input type="hidden" name="subject" value="Nouveau message depuis sarfrance.org">
+<form class="contact-form" id="contact-form" novalidate>
   <div class="form-row">
     <div class="form-group">
       <label for="nom">Nom <span class="required" aria-hidden="true">*</span></label>
@@ -87,5 +85,6 @@ SAR France est affiliée à la National Society Sons of the American Revolution 
     <textarea id="message" name="message" rows="6" placeholder="Votre message…" required></textarea>
   </div>
   <p class="form-note">Les champs marqués d'un <span class="required">*</span> sont obligatoires.</p>
-  <button type="submit" class="btn btn-primary form-submit">Envoyer</button>
+  <div class="form-feedback" id="form-feedback" role="alert" aria-live="polite"></div>
+  <button type="submit" class="btn btn-primary form-submit" id="form-submit">Envoyer</button>
 </form>
