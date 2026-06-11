@@ -10,7 +10,7 @@ notices:
   - artillerie
   - corps-expeditionnaire
   birth: 23 janvier 1730
-  birthplace: Brest
+  birthplace: Brest (Bretagne)
   death: 1er novembre 1817
   deathplace: Paris
 - lastname: ABZAC de LA DOUZE de CAZENAC
@@ -32,9 +32,9 @@ notices:
   tags:
   - soldat
   birth: 8 novembre 1754
-  birthplace: Belley
+  birthplace: Belley (Bugey)
   death: 24 juin 1813
-  deathplace: Nemours
+  deathplace: Nemours (Seine-et-Marne)
 - lastname: APPLETON
   firstname: Nathaniel
   particle: ''
@@ -43,9 +43,9 @@ notices:
   - chapelain
   - americain
   birth: 14 janvier 1741
-  birthplace: Norwich
+  birthplace: Norwich (colonie du Connecticut)
   death: 14 juin 1801
-  deathplace: Londres
+  deathplace: Londres (Grande-Bretagne)
 - lastname: AUBENTON
   firstname: Marcel Ambroise
   particle: d'
@@ -101,9 +101,9 @@ notices:
   tags:
   - officier-terre
   birth: 22 février 1717
-  birthplace: Avignon
+  birthplace: Avignon (États pontificaux)
   death: 9 avril 1796
-  deathplace: Madrid
+  deathplace: Madrid (Espagne)
 - lastname: BESSEY de la VOUTE
   firstname: René Esprit Isaac
   particle: de
@@ -117,7 +117,7 @@ notices:
   tags:
   - officier-terre
   birth: 24 avril 1947
-  birthplace: Pobla de Segur
+  birthplace: Pobla de Segur (Catalogne, Espagne)
 - lastname: BOÜAN
   firstname: Louis Anne Patern
   particle: ''
@@ -132,9 +132,9 @@ notices:
   tags:
   - officier-marine
   birth: 21 juin 1712
-  birthplace: Fougères
+  birthplace: Fougères (Bretagne)
   death: 13 janvier 1790
-  deathplace: Morlaix
+  deathplace: Morlaix (Finistère)
 - lastname: BOUILLÉ
   firstname: François-Claude-Amour
   particle: de
@@ -182,7 +182,7 @@ notices:
   tags:
   - officier-marine
   birth: 17 juillet 1759
-  birthplace: Saint-Domingue
+  birthplace: Saint-Domingue (colonie française)
   death: 18 mars 1805
   deathplace: Paris
 - lastname: BUTLER
@@ -199,9 +199,9 @@ notices:
   tags:
   - aide-de-camp
   birth: 19 août 1752
-  birthplace: Treban
+  birthplace: Treban (Bourbonnais)
   death: 19 mars 1786
-  deathplace: Moulins
+  deathplace: Moulins (Bourbonnais)
 - lastname: CAFFIN
   firstname: Benoist Charles
   particle: ''
@@ -221,9 +221,9 @@ notices:
   tags:
   - officier-marine
   birth: 30 novembre 1874
-  birthplace: palais de Blenheim
+  birthplace: palais de Blenheim (Angleterre)
   death: 24 janvier 1965
-  deathplace: Hyde Park Gate
+  deathplace: Hyde Park Gate (Londres, Angleterre)
 - lastname: CAUPOS
   firstname: Étienne
   particle: ''
@@ -237,9 +237,9 @@ notices:
   tags:
   - officier-marine
   birth: 9 février 1744
-  birthplace: Granchain
+  birthplace: Granchain (Normandie)
   death: 18 juin 1805
-  deathplace: Granchain
+  deathplace: Granchain (Eure)
 - lastname: CHABANNES de CURTON LA PALICE
   firstname: Jean-Frédéric
   particle: de
@@ -254,9 +254,9 @@ notices:
   tags:
   - soldat
   birth: 6 juillet 1832
-  birthplace: château de Schönbrunn
+  birthplace: château de Schönbrunn (Vienne, Autriche)
   death: 19 juin 1867
-  deathplace: Santiago de Querétaro
+  deathplace: Santiago de Querétaro (Mexique)
 - lastname: CHAFFAULT de BESNÉ
   firstname: Louis Charles
   particle: du
@@ -264,9 +264,9 @@ notices:
   tags:
   - officier-marine
   birth: 29 février 1708
-  birthplace: Montaigu
+  birthplace: Montaigu (Poitou)
   death: 29 juin 1794
-  deathplace: manoir de la Hautière
+  deathplace: manoir de la Hautière (Loire-Atlantique)
 - lastname: CHAMPEAUX
   firstname: Jacques
   particle: ''
@@ -280,7 +280,7 @@ notices:
   tags:
   - armateur-corsaire
   birth: 2 mai 1763
-  birthplace: Couffé
+  birthplace: Couffé (Bretagne)
   death: 26 mars 1796
   deathplace: Nantes
 - lastname: CHARPY
@@ -312,9 +312,9 @@ notices:
   tags:
   - officier-marine
   birth: 1er février 1730
-  birthplace: Séglien
+  birthplace: Séglien (Bretagne)
   death: 30 juin 1801
-  deathplace: Jersey
+  deathplace: Jersey (îles Anglo-Normandes)
 - lastname: COHORN de LA PALUN
   firstname: Alexandre
   particle: de
