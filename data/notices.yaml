@@ -150,19 +150,19 @@ notices:
   death: 13 janvier 1790
   deathplace: Morlaix (Bretagne)
   wikipedia: "https://fr.wikipedia.org/wiki/Luc_Urbain_du_Bouëxic_de_Guichen"
-- lastname: BOUILLÉ
-  firstname: François-Claude-Amour
-  particle: de
-  role: Gouverneur général des Îles du Vent
-  tags:
-  - officier-terre
-  - diplomate
-  biography: bouille
-  birth: 19 novembre 1739
-  birthplace: Saint-Èble (Auvergne)
-  death: 14 novembre 1800
-  deathplace: Londres (Grande-Bretagne)
-  wikipedia: "https://fr.wikipedia.org/wiki/François_Claude_de_Bouillé"
+# - lastname: BOUILLÉ
+#   firstname: François-Claude-Amour
+#   particle: de
+#   role: Gouverneur général des Îles du Vent
+#   tags:
+#   - officier-terre
+#   - diplomate
+#   biography: bouille
+#   birth: 19 novembre 1739
+#   birthplace: Saint-Èble (Auvergne)
+#   death: 14 novembre 1800
+#   deathplace: Londres (Grande-Bretagne)
+#   wikipedia: "https://fr.wikipedia.org/wiki/François_Claude_de_Bouillé"
 - lastname: BOUGAINVILLE
   firstname: Louis Antoine
   particle: de
@@ -426,16 +426,16 @@ notices:
   role: Mousse sur La Couronne
   tags:
   - officier-marine
-- lastname: DAMAS
-  firstname: Claude-Charles
-  particle: de
-  role: Vicomte de Marillac, officier du Corps Expéditionnaire
-  tags:
-  - officier-terre
-  - corps-expeditionnaire
-  biography: damas
-  birth: '1733'
-  death: '1805'
+# - lastname: DAMAS
+#   firstname: Claude-Charles
+#   particle: de
+#   role: Vicomte de Marillac, officier du Corps Expéditionnaire
+#   tags:
+#   - officier-terre
+#   - corps-expeditionnaire
+#   biography: damas
+#   birth: '1733'
+#   death: '1805'
 - lastname: DROUHOT
   firstname: Jacques
   particle: ''
@@ -530,20 +530,20 @@ notices:
   role: Officier de Marine
   tags:
   - officier-marine
-- lastname: GONTAUT
-  firstname: Armand Louis
-  particle: de
-  role: Duc de Lauzun, puis duc de Biron, commandant la Légion de Lauzun
-  tags:
-  - officier-terre
-  - legion-lauzun
-  - corps-expeditionnaire
-  biography: lauzun
-  birth: 13 avril 1747
-  birthplace: Paris
-  death: 31 décembre 1793
-  deathplace: Paris (guillotiné)
-  wikipedia: "https://fr.wikipedia.org/wiki/Armand_Louis_de_Gontaut-Biron"
+# - lastname: GONTAUT
+#   firstname: Armand Louis
+#   particle: de
+#   role: Duc de Lauzun, puis duc de Biron, commandant la Légion de Lauzun
+#   tags:
+#   - officier-terre
+#   - legion-lauzun
+#   - corps-expeditionnaire
+#   biography: lauzun
+#   birth: 13 avril 1747
+#   birthplace: Paris
+#   death: 31 décembre 1793
+#   deathplace: Paris (guillotiné)
+#   wikipedia: "https://fr.wikipedia.org/wiki/Armand_Louis_de_Gontaut-Biron"
 - lastname: GOYS de MÉZEYRAC
   firstname: Louis Antoine
   particle: ''
