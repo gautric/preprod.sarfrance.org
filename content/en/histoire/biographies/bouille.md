@@ -10,7 +10,7 @@ references:
 
 French general and colonial administrator, the Marquis de Bouillé distinguished himself during the Seven Years' War before being appointed governor of Guadeloupe in 1768. Named governor of Martinique in 1777, then Governor General of the Windward Islands in 1778, he led France's Caribbean operations during the American War of Independence, pinning down the British fleet in the Antilles and recapturing numerous islands from the British.
 
-- **Born**: 19 November 1739, Saint-Èble (Haute-Loire)
+- **Born**: 19 November 1739, Saint-Èble (Auvergne)
 - **Died**: 14 November 1800, London (Great Britain)
 - **Rank**: Maréchal de Camp
 

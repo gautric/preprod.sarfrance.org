@@ -9,9 +9,9 @@ references:
     url: "https://en.wikipedia.org/wiki/Louis_Guillouet,_comte_d%27Orvilliers"
 ---
 
-Louis Guillouet d'Orvilliers, born at Moulins (Allier) on 26 March 1710 and died in 1792, was a Lieutenant General of Naval Forces who commanded the Brest fleet during the American War of Independence. He won the Battle of Ushant on 27 July 1778.
+Louis Guillouet d'Orvilliers, born at Moulins (Bourbonnais) on 26 March 1710 and died in 1792, was a Lieutenant General of Naval Forces who commanded the Brest fleet during the American War of Independence. He won the Battle of Ushant on 27 July 1778.
 
-- **Birth**: 26 March 1710, Moulins (Allier)
+- **Birth**: 26 March 1710, Moulins (Bourbonnais)
 - **Death**: 1792
 - **Rank**: Lieutenant General of Naval Forces
 - **Notable action**: Victory at Ushant (27 July 1778)

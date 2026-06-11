@@ -10,7 +10,7 @@ references:
 
 Général français et administrateur colonial, le marquis de Bouillé se distingua pendant la guerre de Sept Ans avant d'être nommé gouverneur de la Guadeloupe en 1768. Nommé gouverneur de la Martinique en 1777, puis gouverneur général des Isles du Vent en 1778, il mena les opérations caribéennes de la France pendant la Guerre d'Indépendance américaine, fixant la flotte britannique dans les Antilles et reprenant de nombreuses îles aux Anglais.
 
-- **Naissance** : 19 novembre 1739, Saint-Èble (Haute-Loire)
+- **Naissance** : 19 novembre 1739, Saint-Èble (Auvergne)
 - **Décès** : 14 novembre 1800, Londres (Grande-Bretagne)
 - **Grade** : Maréchal de Camp
 

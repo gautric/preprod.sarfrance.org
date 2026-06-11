@@ -9,9 +9,9 @@ references:
     url: "https://fr.wikipedia.org/wiki/Louis_Guillouet_de_Kersaint"
 ---
 
-Louis Guillouet d'Orvilliers, né à Moulins (Allier) le 26 mars 1710 et mort en 1792, fut lieutenant général des armées navales et commanda l'armée navale de Brest pendant la Guerre d'Indépendance américaine. Il remporta la bataille d'Ouessant le 27 juillet 1778.
+Louis Guillouet d'Orvilliers, né à Moulins (Bourbonnais) le 26 mars 1710 et mort en 1792, fut lieutenant général des armées navales et commanda l'armée navale de Brest pendant la Guerre d'Indépendance américaine. Il remporta la bataille d'Ouessant le 27 juillet 1778.
 
-- **Naissance** : 26 mars 1710, Moulins (Allier)
+- **Naissance** : 26 mars 1710, Moulins (Bourbonnais)
 - **Décès** : 1792
 - **Grade** : Lieutenant général des armées navales
 - **Fait d'armes** : Victoire d'Ouessant (27 juillet 1778)
