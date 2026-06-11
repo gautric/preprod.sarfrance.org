@@ -1,4 +1,4 @@
-revision: '2026-03-01'
+revision: '2026-06-11'
 count: 150
 notices:
 - lastname: ABOVILLE
@@ -908,12 +908,17 @@ notices:
   role: Lt Colonel au Royal Auvergne
   tags:
   - officier-terre
-- lastname: ROUJÉ
+- lastname: ROUGÉ ou ROUJÉ
   firstname: Antoine
   particle: ''
-  role: Volontaire dans les milices
+  role: Volontaire au 3e bataillon de Hainaut en Amérique, futur général de brigade
   tags:
   - volontaire
+  - officier-terre
+  birth: 20 février 1763
+  birthplace: Cap-Français (Saint-Domingue)
+  death: 17 octobre 1831
+  deathplace: Saint-Orens-de-Gameville (Haute-Garonne)
 - lastname: RUFFO de BONNEVAL
   firstname: Mériadec
   particle: ''
