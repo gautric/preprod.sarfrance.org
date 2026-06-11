@@ -8,15 +8,17 @@ references:
     url: "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Claude_Amour,_marquis_de_Bouill%C3%A9"
 ---
 
-French general and colonial administrator, the Marquis de Bouillé distinguished himself during the Seven Years' War before being appointed governor of Guadeloupe in 1768. Named Governor General of the French Antilles in 1777, he led France's Caribbean operations during the American War of Independence, recapturing numerous islands from the British.
+French general and colonial administrator, the Marquis de Bouillé distinguished himself during the Seven Years' War before being appointed governor of Guadeloupe in 1768. Named governor of Martinique in 1777, then Governor General of the Windward Islands in 1778, he led France's Caribbean operations during the American War of Independence, pinning down the British fleet in the Antilles and recapturing numerous islands from the British.
 
 - **Born**: 19 November 1739, Saint-Èble (Haute-Loire)
 - **Died**: 14 November 1800, London (Great Britain)
 - **Rank**: Maréchal de Camp
 
-Governor of Guadeloupe since 1767, the Marquis de Bouillé was appointed Governor General of Martinique on 5 May 1777 and Maréchal de Camp on 27 October 1778. He reorganized the Martinique militia and in 1778 created a unit composed of white, mulatto and free black Martinicans: the "Volontaires de Bouillé," who proved highly effective against the British.
+An officer of the French royal army, Claude-François-Amour, Marquis de Bouillé, became in 1761 mestre de camp of an infantry regiment bearing his own name, "Bouillé," which in 1762 was renamed the "Régiment de Vexin." In August 1765 he embarked with his regiment for Martinique. Governor of Guadeloupe since 1768, he was appointed governor of Martinique in 1777 and promoted to maréchal de camp on 27 October 1778.
 
-From July 1778 he served as Governor General of the Windward Islands (Guadeloupe, Martinique and Saint Lucia). On 6 September 1778, he captured Dominica from the British, in May 1781 Tobago, in November 1781 Sint Eustatius, Saint Martin and Saba, on 13 February 1782 Saint Kitts and Nevis, and finally on 22 February 1782 the island of Montserrat.
+He reorganized the Martinique militia and in 1778 created a unit composed of white, mulatto and free black Martinicans: the "Volontaires de Bouillé," who proved highly effective against the British.
+
+From 1778, as Governor General of the Windward Islands (Guadeloupe, Martinique and Saint Lucia), he pinned down the British fleet in the Antilles and recaptured numerous islands from the British: Dominica in 1778, Tobago then Sint Eustatius in 1781, Saint Martin, Saba, Saint Kitts and Nevis, and finally Montserrat in 1782. In 1783 he returned to France.
 
 See also: [The Support of the French Antilles](/en/histoire/antilles/soutien-antilles/) and the [Colonial Regiments and Corps](/en/histoire/antilles/regiments-colonies/).
 
