@@ -56,6 +56,15 @@
                     <span class="tag tag-{{ . | urlize }}">{{ i18n (printf "notices_tag_%s" .) }}</span>
                     {{ end }}
                 </div>
+                {{ with .wikipedia }}
+                <div class="notice-links">
+                    <a href="{{ . }}" class="notice-wiki-link" target="_blank" rel="noopener noreferrer"
+                       title="{{ i18n "notices_wikipedia" }}" aria-label="{{ i18n "notices_wikipedia" }}">
+                        {{ partial "icon-wikipedia.html" . }}
+                        <span>{{ i18n "notices_wikipedia" }}</span>
+                    </a>
+                </div>
+                {{ end }}
             </div>
             {{ end }}
         </div>

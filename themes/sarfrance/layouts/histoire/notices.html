@@ -44,8 +44,19 @@
                     <span class="tag tag-{{ . | urlize }}">{{ i18n (printf "notices_tag_%s" .) }}</span>
                     {{ end }}
                 </div>
-                {{ with .biography }}
-                <a href="{{ partial "lang-prefix.html" $ }}/histoire/biographies/{{ . }}/" class="notice-bio-link">{{ i18n "notices_read_bio" }}</a>
+                {{ if or .biography .wikipedia }}
+                <div class="notice-links">
+                    {{ with .biography }}
+                    <a href="{{ partial "lang-prefix.html" $ }}/histoire/biographies/{{ . }}/" class="notice-bio-link">{{ i18n "notices_read_bio" }}</a>
+                    {{ end }}
+                    {{ with .wikipedia }}
+                    <a href="{{ . }}" class="notice-wiki-link" target="_blank" rel="noopener noreferrer"
+                       title="{{ i18n "notices_wikipedia" }}" aria-label="{{ i18n "notices_wikipedia" }}">
+                        {{ partial "icon-wikipedia.html" . }}
+                        <span>{{ i18n "notices_wikipedia" }}</span>
+                    </a>
+                    {{ end }}
+                </div>
                 {{ end }}
             </div>
             {{ end }}

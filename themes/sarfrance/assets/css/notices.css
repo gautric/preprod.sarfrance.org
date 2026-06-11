@@ -11,6 +11,8 @@
 /* Card — left accent border */
 .notice-card {
     border-left: 3px solid var(--primary);
+    display: flex;
+    flex-direction: column;
 }
 
 .notice-card:hover {
@@ -87,10 +89,19 @@
 .tag.tag-americain::before,
 .filter-btn.tag-americain::before             { content: "🇺🇸 "; }
 
+/* Card footer links (biography + Wikipedia) — pinned to the bottom, aligned across cards */
+.notice-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+    margin-top: auto;
+    padding-top: 10px;
+}
+
 /* Biography link */
 .notice-bio-link {
     display: inline-block;
-    margin-top: 8px;
     font-size: 0.82rem;
     color: var(--primary);
     text-decoration: none;
@@ -104,6 +115,29 @@
 
 .notice-bio-link:hover {
     color: var(--primary-dark);
+    text-decoration: underline;
+}
+
+/* Wikipedia link */
+.notice-wiki-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.notice-wiki-icon {
+    flex: 0 0 auto;
+    width: auto;
+    height: 0.95em;
+}
+
+.notice-wiki-link:hover {
+    color: var(--navy-blue);
     text-decoration: underline;
 }
 

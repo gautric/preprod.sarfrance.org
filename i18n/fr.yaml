@@ -84,6 +84,8 @@
   translation: "Rechercher un nom, un prénom, une fonction…"
 - id: notices_no_result
   translation: "Aucun résultat trouvé"
+- id: notices_wikipedia
+  translation: "Consulter sur Wikipédia"
 - id: notices_read_bio
   translation: "Lire la biographie"
 

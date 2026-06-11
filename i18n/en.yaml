@@ -86,6 +86,8 @@
   translation: "No results found"
 - id: notices_read_bio
   translation: "Read biography"
+- id: notices_wikipedia
+  translation: "View on Wikipedia"
 
 # Footer
 - id: footer_organisation

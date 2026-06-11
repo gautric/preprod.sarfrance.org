@@ -1,3 +1,15 @@
+# Dictionnaire biographique des ancêtres SAR France
+#
+# Champs d'une notice :
+#   lastname    (obligatoire) Nom de famille en capitales
+#   firstname   Prénom(s)
+#   particle    Particule nobiliaire (de, du, d', des…)
+#   role        (obligatoire) Fonction ou grade pendant la guerre d'Indépendance
+#   tags        (obligatoire) Liste de clés définies dans data/metadata/notices.yaml
+#   birth / birthplace   Date et lieu de naissance
+#   death / deathplace   Date et lieu de décès
+#   biography   Identifiant de la page biographique interne (content/*/histoire/biographies/<id>/)
+#   wikipedia   URL de la fiche Wikipédia (de préférence en français) — rend un lien à icône Wikipédia
 revision: '2026-06-11'
 count: 150
 notices:
@@ -13,6 +25,7 @@ notices:
   birthplace: Brest (Bretagne)
   death: 1er novembre 1817
   deathplace: Paris
+  wikipedia: "https://fr.wikipedia.org/wiki/François_Marie_d'Aboville"
 - lastname: ABZAC de LA DOUZE de CAZENAC
   firstname: Jean-Baptiste Charles
   particle: d'
@@ -104,6 +117,7 @@ notices:
   birthplace: Avignon (États pontificaux)
   death: 9 avril 1796
   deathplace: Madrid (Espagne)
+  wikipedia: "https://en.wikipedia.org/wiki/Louis_des_Balbes_de_Berton_de_Crillon,_1st_Duke_of_Mahón"
 - lastname: BESSEY de la VOUTE
   firstname: René Esprit Isaac
   particle: de
@@ -135,6 +149,7 @@ notices:
   birthplace: Fougères (Bretagne)
   death: 13 janvier 1790
   deathplace: Morlaix (Finistère)
+  wikipedia: "https://fr.wikipedia.org/wiki/Luc_Urbain_du_Bouëxic_de_Guichen"
 - lastname: BOUILLÉ
   firstname: François-Claude-Amour
   particle: de
@@ -147,6 +162,7 @@ notices:
   birthplace: Saint-Èble (Haute-Loire)
   death: 14 novembre 1800
   deathplace: Londres (Grande-Bretagne)
+  wikipedia: "https://fr.wikipedia.org/wiki/François_Claude_de_Bouillé"
 - lastname: BOUGAINVILLE
   firstname: Louis Antoine
   particle: de
@@ -157,6 +173,7 @@ notices:
   birthplace: Paris
   death: 31 août 1811
   deathplace: Paris
+  wikipedia: "https://fr.wikipedia.org/wiki/Louis-Antoine_de_Bougainville"
 - lastname: BOURDON de VATRY
   firstname: Marc-Antoine
   particle: ''
@@ -168,6 +185,7 @@ notices:
   birthplace: Paris
   death: 17 mai 1839
   deathplace: Paris
+  wikipedia: "https://fr.wikipedia.org/wiki/Marc_Antoine_Bourdon_de_Vatry"
 - lastname: BRISOUT de BARNEVILLE
   firstname: Nicolas Denis
   particle: ''
@@ -185,6 +203,7 @@ notices:
   birthplace: Saint-Domingue (colonie française)
   death: 18 mars 1805
   deathplace: Paris
+  wikipedia: "https://fr.wikipedia.org/wiki/Étienne_Eustache_Bruix"
 - lastname: BUTLER
   firstname: Zebulon
   particle: ''
@@ -196,6 +215,7 @@ notices:
   birthplace: Ipswich (colonie du Massachusetts)
   death: 28 juillet 1795
   deathplace: Wilkes-Barre (Pennsylvanie, États-Unis)
+  wikipedia: "https://en.wikipedia.org/wiki/Zebulon_Butler"
 - lastname: BUYSSON des AIX
   firstname: Charles François
   particle: du
@@ -271,6 +291,7 @@ notices:
   birthplace: Montaigu (Poitou)
   death: 29 juin 1794
   deathplace: manoir de la Hautière (Loire-Atlantique)
+  wikipedia: "https://fr.wikipedia.org/wiki/Louis_Charles_du_Chaffault_de_Besné"
 - lastname: CHAMPEAUX
   firstname: Jacques
   particle: ''
@@ -347,6 +368,7 @@ notices:
   birthplace: Pluguffan (Bretagne)
   death: 7 janvier 1780
   deathplace: Brest (Bretagne)
+  wikipedia: "https://fr.wikipedia.org/wiki/Charles_Louis_du_Couëdic"
 - lastname: CROMOT du BOURG
   firstname: Maxime
   particle: ''
@@ -365,6 +387,7 @@ notices:
   birthplace: Metz (Lorraine)
   death: 28 août 1793
   deathplace: Paris (guillotiné)
+  wikipedia: "https://fr.wikipedia.org/wiki/Adam_Philippe_de_Custine"
 - lastname: GRASSE TILLY
   firstname: François Joseph Paul
   particle: de
@@ -376,6 +399,7 @@ notices:
   birthplace: Le Bar-sur-Loup (Provence)
   death: 11 janvier 1788
   deathplace: Tilly (Île-de-France)
+  wikipedia: "https://fr.wikipedia.org/wiki/François_Joseph_Paul_de_Grasse"
 - lastname: DENTZEL
   firstname: Georges Frédéric
   particle: ''
@@ -383,6 +407,7 @@ notices:
   tags:
   - chapelain
   - corps-expeditionnaire
+  wikipedia: "https://fr.wikipedia.org/wiki/Georges_Frédéric_Dentzel"
 - lastname: DESLANDES
   firstname: Nicolas
   particle: ''
@@ -458,6 +483,7 @@ notices:
   birth: '1736'
   birthplace: Metz (Lorraine)
   death: '1790'
+  wikipedia: "https://fr.wikipedia.org/wiki/Louis_Ethis_de_Corny"
 - lastname: FABRÉ
   firstname: Adrien Jean-Pierre
   particle: ''
@@ -486,6 +512,7 @@ notices:
   - officier-terre
   birth: '1740'
   birthplace: château de la Fauconnière à Gannat (Bourbonnais)
+  wikipedia: "https://fr.wikipedia.org/wiki/François_de_Fontanges"
 - lastname: GANTÈS
   firstname: Pierre Aimé Hilarion
   particle: de
@@ -502,6 +529,7 @@ notices:
   birthplace: Masevaux (Alsace)
   death: 31 décembre 1812
   deathplace: Paris
+  wikipedia: "https://fr.wikipedia.org/wiki/Joseph_Mathias_Gérard_de_Rayneval"
 - lastname: GIRARD de VASSON
   firstname: André
   particle: ''
@@ -527,6 +555,7 @@ notices:
   birthplace: Paris
   death: 31 décembre 1793
   deathplace: Paris (guillotiné)
+  wikipedia: "https://fr.wikipedia.org/wiki/Armand_Louis_de_Gontaut-Biron"
 - lastname: GOYS de MÉZEYRAC
   firstname: Louis Antoine
   particle: ''
@@ -603,6 +632,7 @@ notices:
   birthplace: Hüttendorf (Bavière, Allemagne)
   death: 19 août 1780
   deathplace: Camden (Caroline du Sud, États-Unis)
+  wikipedia: "https://fr.wikipedia.org/wiki/Johann_de_Kalb"
 - lastname: KERGARIOU-LOCMARIA
   firstname: Thibault René
   particle: de
@@ -687,6 +717,7 @@ notices:
   birth: 1er septembre 1726
   birthplace: Nantes
   death: 22 février 1803
+  wikipedia: "https://fr.wikipedia.org/wiki/Jacques-Donatien_Le_Ray_de_Chaumont"
 - lastname: LE ROUX
   firstname: Joseph Marie
   particle: ''
@@ -728,6 +759,7 @@ notices:
   birthplace: Niort (Poitou)
   death: 26 août 1810
   deathplace: Córdoba (Argentine)
+  wikipedia: "https://fr.wikipedia.org/wiki/Santiago_de_Liniers"
 - lastname: LUSTRAC
   firstname: Joseph
   particle: de
@@ -808,6 +840,7 @@ notices:
   birth: 13 octobre 1745
   death: 2 septembre 1792
   deathplace: Paris (massacres de septembre)
+  wikipedia: "https://fr.wikipedia.org/wiki/Armand_Marc_de_Montmorin_Saint-Hérem"
 - lastname: MORAND du PUCH
   firstname: Élie
   particle: ''
@@ -962,6 +995,7 @@ notices:
   birthplace: Cap-Français (Saint-Domingue)
   death: 17 octobre 1831
   deathplace: Saint-Orens-de-Gameville (Haute-Garonne)
+  wikipedia: "https://fr.wikipedia.org/wiki/Antoine_Rougé"
 - lastname: RUFFO de BONNEVAL
   firstname: Mériadec
   particle: ''
@@ -990,6 +1024,7 @@ notices:
   birthplace: Caen (Normandie)
   death: 12 novembre 1813
   deathplace: Sarcelles (Val-d'Oise)
+  wikipedia: "https://en.wikipedia.org/wiki/J._Hector_St._John_de_Crèvecœur"
 - lastname: SANCTOS
   firstname: Jacques François
   particle: de
@@ -1002,6 +1037,7 @@ notices:
   role: Capitaine de Vaisseaux
   tags:
   - officier-marine
+  wikipedia: "https://en.wikipedia.org/wiki/Charles_René_Dominique_Sochet,_Chevalier_Destouches"
 - lastname: SOLLIER
   firstname: Jean-François
   particle: ''
@@ -1076,6 +1112,7 @@ notices:
   birthplace: comté de Talbot (province du Maryland)
   death: 18 avril 1786
   deathplace: Baltimore (Maryland, États-Unis)
+  wikipedia: "https://en.wikipedia.org/wiki/Tench_Tilghman"
 - lastname: TASTES de LILANCOUR
   firstname: Jean-Baptiste
   particle: de
