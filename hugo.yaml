@@ -354,6 +354,7 @@ services:
 
 params:
   currentAgendaYear: 2026
+  brand: "SAR France"
   githubRepo: "https://github.com/gautric/preprod.sarfrance.org"
   contactApiUrl: "https://klx7vrwe41.execute-api.eu-west-1.amazonaws.com/prod/contact"
   address:

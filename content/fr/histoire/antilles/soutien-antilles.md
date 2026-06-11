@@ -1,5 +1,6 @@
 ---
 title: "Le soutien des Antilles françaises à la guerre de l'Indépendance américaine"
+seoTitle: "Le soutien des Antilles françaises"
 description: "Réorganisation militaire des colonies, renforts et apport décisif à Yorktown (1781)"
 author: "Comte Thierry de Seguins-Cohorn, Historien de la Société en France des SAR"
 references:

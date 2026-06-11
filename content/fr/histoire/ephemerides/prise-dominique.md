@@ -1,6 +1,6 @@
 ---
 title: "Prise de l'île de la Dominique"
-description: "Le 7 septembre 1778, le marquis de Bouillé s'empare de l'île britannique de la Dominique, première conquête française de la Guerre d'Indépendance aux Antilles"
+description: "Le 7 septembre 1778, le marquis de Bouillé s'empare de la Dominique, première conquête française de la Guerre d'Indépendance aux Antilles"
 author: "Philippe Henrat, membre du Comité d'Histoire des SAR"
 date: "1778-09-07"
 references:

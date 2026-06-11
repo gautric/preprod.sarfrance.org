@@ -1,5 +1,6 @@
 ---
 title: "The Last Naval Battle of the American Revolution"
+seoTitle: "The Last Naval Battle (1783)"
 description: "On 10 March 1783, off Cape Canaveral, Captains John Barry and John Green fought the last naval engagement of the War of Independence"
 author: "Henry Williams (SAR)"
 date: "1783-03-10"

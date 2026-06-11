@@ -1,5 +1,6 @@
 ---
 title: "Régiments et Corps des Colonies durant la guerre de l'Indépendance américaine"
+seoTitle: "Régiments des Colonies (1778-1783)"
 description: "Dix régiments coloniaux français aux Antilles, dans l'Océan Indien et aux Indes (1778-1783)"
 author: "Comte Thierry de Seguins-Cohorn, Historien de la Société en France des SAR"
 ---

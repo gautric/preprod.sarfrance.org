@@ -1,5 +1,6 @@
 ---
 title: "The National Society of the Sons of the American Revolution"
+seoTitle: "The NSSAR – Parent Society of the SAR"
 description: "Origins, founding in 1889 and Congressional Charter of 1906 of the parent society in Louisville (Kentucky)"
 author: "Comte Thierry de Seguins-Cohorn, Historian of the Society in France of the SAR"
 ---

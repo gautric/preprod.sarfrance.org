@@ -1,6 +1,6 @@
 ---
 title: "Un ouragan aux Antilles"
-description: "Le Grand Ouragan du 10-16 octobre 1780, la plus meurtrière des tempêtes de l'Atlantique nord, dévasta les Petites Antilles en pleine Guerre d'Indépendance américaine"
+description: "Le Grand Ouragan du 10-16 octobre 1780, la plus meurtrière des tempêtes de l'Atlantique nord, dévasta les Petites Antilles"
 author: "Philippe Henrat, membre du Comité d'Histoire des SAR"
 date: "1780-10-11"
 references:

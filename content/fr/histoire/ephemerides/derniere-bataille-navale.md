@@ -1,5 +1,6 @@
 ---
 title: "La dernière bataille navale de la Révolution américaine"
+seoTitle: "La dernière bataille navale (1783)"
 description: "Le 10 mars 1783, au large du cap Canaveral, les capitaines John Barry et John Green livrent le dernier combat naval de la Guerre d'Indépendance"
 author: "Henry Williams (SAR)"
 date: "1783-03-10"

@@ -1,6 +1,6 @@
 ---
 title: "Lafayette Returns to the United States"
-description: "On 21 March 1825, the marquis de Lafayette laid the cornerstone of the General Nathanael Greene memorial in Savannah, during his triumphal tour of the United States"
+description: "On 21 March 1825, Lafayette laid the cornerstone of the General Nathanael Greene memorial in Savannah, during his tour of the United States"
 author: "Henry Williams (SAR)"
 date: "1825-03-21"
 references:

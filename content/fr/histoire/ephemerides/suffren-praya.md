@@ -1,6 +1,6 @@
 ---
 title: "Victoire de Suffren à La Praya"
-description: "Le 16 avril 1781, le capitaine de vaisseau Suffren attaque l'escadre anglaise au mouillage dans le havre portugais de Porto Praya, sauvant la colonie du Cap"
+description: "Le 16 avril 1781, Suffren attaque l'escadre anglaise au mouillage de Porto Praya, sauvant la colonie du Cap"
 author: "Philippe Henrat, membre du Comité d'Histoire des SAR"
 date: "1781-04-16"
 references:

@@ -1,5 +1,6 @@
 ---
 title: "Colonial Regiments and Corps during the American War of Independence"
+seoTitle: "Colonial Regiments (1778-1783)"
 description: "Ten French colonial regiments in the Antilles, Indian Ocean and India (1778-1783)"
 author: "Comte Thierry de Seguins-Cohorn, Historian of the Society in France of the SAR"
 ---

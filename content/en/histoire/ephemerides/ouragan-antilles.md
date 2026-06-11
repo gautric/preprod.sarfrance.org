@@ -1,6 +1,6 @@
 ---
 title: "A Hurricane in the West Indies"
-description: "The Great Hurricane of 10–16 October 1780, the deadliest storm in North Atlantic history, devastated the Lesser Antilles during the American War of Independence"
+description: "The Great Hurricane of 10–16 October 1780, the deadliest storm in North Atlantic history, devastated the Lesser Antilles"
 author: "Philippe Henrat, member of the SAR History Committee"
 date: "1780-10-11"
 references:

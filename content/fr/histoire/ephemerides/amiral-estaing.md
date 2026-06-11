@@ -1,6 +1,6 @@
 ---
 title: "L'amiral d'Estaing appareille"
-description: "Le 13 avril 1778, l'escadre du vice-amiral d'Estaing quitte Toulon pour les côtes américaines, première force navale française envoyée au secours des Insurgents"
+description: "Le 13 avril 1778, l'escadre du vice-amiral d'Estaing quitte Toulon pour l'Amérique, première force navale française envoyée aux Insurgents"
 author: "Philippe Henrat, membre du Comité d'Histoire des SAR"
 date: "1778-04-13"
 references:

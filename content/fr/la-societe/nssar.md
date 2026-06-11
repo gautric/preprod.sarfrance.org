@@ -1,5 +1,6 @@
 ---
 title: "La National Society of the Sons of the American Revolution"
+seoTitle: "La NSSAR – société mère des SAR"
 aliases:
   - "/organisation/nssar/"
 description: "Origines, fondation en 1889 et Charte du Congrès de 1906 de la société mère à Louisville (Kentucky)"

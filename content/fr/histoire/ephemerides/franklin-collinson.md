@@ -1,6 +1,6 @@
 ---
 title: "Benjamin Franklin écrit à Peter Collinson"
-description: "Le 28 mars 1747, Benjamin Franklin écrit à Peter Collinson à Londres au sujet de ses études sur l'électricité, première d'une série de lettres qui le rendront célèbre"
+description: "Le 28 mars 1747, Benjamin Franklin écrit à Peter Collinson, à Londres, au sujet de ses études sur l'électricité"
 author: "Henry Williams (SAR)"
 date: "1747-03-28"
 references:

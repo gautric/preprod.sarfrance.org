@@ -1,5 +1,7 @@
 {{- $desc := .Description | default .Site.Params.description -}}
-{{- $title := cond .IsHome .Site.Title (printf "%s | %s" .Title .Site.Title) -}}
+{{- $pageTitle := .Params.seoTitle | default .Title -}}
+{{- $brand := .Site.Params.brand | default "SAR France" -}}
+{{- $title := cond .IsHome .Site.Title (printf "%s | %s" $pageTitle $brand) -}}
 {{- $ogTitle := cond .IsHome .Site.Title .Title -}}
 {{- $ogImage := .Params.image | default (printf "%simages/icons/og-image.png" .Site.BaseURL) -}}
 {{- if not (or (hasPrefix $ogImage "http://") (hasPrefix $ogImage "https://")) -}}

@@ -1,6 +1,6 @@
 ---
 title: "La Fayette de retour aux États-Unis"
-description: "Le 21 mars 1825, le marquis de La Fayette pose la première pierre du mémorial du général Nathanael Greene à Savannah, lors de sa tournée triomphale des États-Unis"
+description: "Le 21 mars 1825, La Fayette pose la première pierre du mémorial du général Nathanael Greene à Savannah, lors de sa tournée aux États-Unis"
 author: "Henry Williams (SAR)"
 date: "1825-03-21"
 references:
