@@ -58,7 +58,7 @@ La Société en France des Fils de la Révolution Américaine est la première s
 - **Île-de-France** : Florian de Roux (Paris), Gérard Priet (Versailles), Bertrand Savatier (Fontainebleau)
 - **Languedoc (Uzès)** : Comte Thierry de Seguins-Cohorn
 - **Normandie** : Jacques de Pesquidoux, Mathieu Farges (Rouen)
-- **Occitanie ouest (Toulouse)** : Yves Parmentier
+- **Occitanie ouest (Toulouse)** : Guy Parmentier
 - **Orléanais** : Martin Boyer, Patrick Villiers
 - **Provence / Alpes / Côte d'Azur** : Christian Guidi, Antoine Comby
 - **Rhône-Alpes (Lyon)** : Antoine Comby
