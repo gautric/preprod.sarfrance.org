@@ -130,7 +130,7 @@ notices:
   role: Lieutenant au régiment d'Attakapas
   tags:
   - officier-terre
-  birth: 24 avril 1947
+  birth: 24 avril 1747
   birthplace: Pobla de Segur (Catalogne, Espagne)
 - lastname: BOÜAN
   firstname: Louis Anne Patern
@@ -244,10 +244,6 @@ notices:
   role: Officier de Marine
   tags:
   - officier-marine
-  birth: 30 novembre 1874
-  birthplace: palais de Blenheim (Angleterre)
-  death: 24 janvier 1965
-  deathplace: Hyde Park Gate (Londres, Angleterre)
 - lastname: CAUPOS
   firstname: Étienne
   particle: ''
@@ -277,10 +273,6 @@ notices:
   role: Soldat au régiment de Hainault
   tags:
   - soldat
-  birth: 6 juillet 1832
-  birthplace: château de Schönbrunn (Vienne, Autriche)
-  death: 19 juin 1867
-  deathplace: Santiago de Querétaro (Mexique)
 - lastname: CHAFFAULT de BESNÉ
   firstname: Louis Charles
   particle: du
@@ -314,10 +306,6 @@ notices:
   role: Officier au Régiment Armagnac Infanterie
   tags:
   - officier-terre
-  birth: 17 novembre 1867
-  birthplace: 7e arrondissement de Paris
-  death: 16 septembre 1946
-  deathplace: 7e arrondissement de Paris
 - lastname: CHESNEL
   firstname: François
   particle: de
