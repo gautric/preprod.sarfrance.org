@@ -1,5 +1,7 @@
 ---
 title: "Ephemerides"
+aliases:
+  - "/en/ephemerides/"
 description: "Illustrated historical fact sheets retracing the major events of the American War of Independence"
 ---
 

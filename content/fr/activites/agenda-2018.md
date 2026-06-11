@@ -1,5 +1,7 @@
 ---
 title: "Agenda 2018"
+aliases:
+  - "/2018-2/"
 description: "Calendrier des conférences, cérémonies et événements de SAR France en 2018"
 layout: "agenda"
 type: "activites"

@@ -1,5 +1,7 @@
 ---
 title: "La National Society of the Sons of the American Revolution"
+aliases:
+  - "/organisation/nssar/"
 description: "Origines, fondation en 1889 et Charte du Congrès de 1906 de la société mère à Louisville (Kentucky)"
 author: "Comte Thierry de Seguins-Cohorn, Historien de la Société en France des SAR"
 ---

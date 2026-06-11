@@ -1,5 +1,8 @@
 ---
 title: "Chefs et volontaires"
+aliases:
+  - "/histoire/chefs-militaires/"
+  - "/histoire/volontaires/"
 description: "Chefs militaires français sur terre, aux Antilles et sur mer, et volontaires envoyés en Amérique (1778-1783)"
 ---
 

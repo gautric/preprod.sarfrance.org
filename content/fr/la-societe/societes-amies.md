@@ -1,5 +1,8 @@
 ---
 title: "Sociétés amies et liens"
+aliases:
+  - "/organisation/societes-francaises/"
+  - "/histoire/liens/"
 description: "Cincinnati de France, DAR, CAR, sociétés SAR à l'étranger et associations historiques"
 ---
 

@@ -1,5 +1,8 @@
 ---
 title: "Le coût humain"
+aliases:
+  - "/histoire/le-cout-humain-de-la-guerre-pour-la-france/"
+  - "/pertes-en-hommes-1778-1783/"
 description: "Tableau des pertes françaises lors des batailles de la Guerre d'Indépendance (1778-1783)"
 ---
 

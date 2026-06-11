@@ -1,5 +1,8 @@
 ---
 title: "Revue et publications"
+aliases:
+  - "/publications/"
+  - "/bulletins/"
 description: "Revue « L'Alliance Franco-Américaine » et ouvrages publiés par SAR France"
 ---
 

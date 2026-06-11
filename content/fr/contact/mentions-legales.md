@@ -1,5 +1,8 @@
 ---
 title: "Mentions légales"
+aliases:
+  - "/mentions-legales/"
+  - "/presentation/decret-du-31-decembre-2013/"
 description: "Éditeur, hébergement, conception du site et protection des données (RGPD)"
 ---
 

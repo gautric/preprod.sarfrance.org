@@ -1,5 +1,8 @@
 ---
 title: "La France dans la guerre"
+aliases:
+  - "/histoire/strategies-et-politique-francaises/"
+  - "/histoire/la-paix-de-1783/"
 description: "Politique de Louis XVI, rôle de l'Espagne, financement de Yorktown et forces allemandes"
 ---
 

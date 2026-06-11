@@ -143,6 +143,7 @@ Dossier : `content/fr/histoire/ephemerides/`
 | L'amiral d'Estaing appareille | `amiral-estaing.md` |
 | L'amiral d'Orvilliers | `amiral-orvilliers.md` |
 | Combat naval de la Chesapeake | `combat-chesapeake.md` |
+| La dernière bataille navale de la Révolution américaine | `derniere-bataille-navale.md` |
 | Benjamin Franklin écrit à Peter Collinson | `franklin-collinson.md` |
 | La Fayette de retour aux États-Unis | `lafayette-etats-unis.md` |
 | La mort de Louis XVI | `mort-louis-xvi.md` |

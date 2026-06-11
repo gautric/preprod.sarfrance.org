@@ -1,5 +1,9 @@
 ---
 title: "Nous rejoindre"
+aliases:
+  - "/presentation/nous-rejoindre/"
+  - "/conditions-et-modalites-dadmission/"
+  - "/presentation/conditions-et-modalites-dadmission/"
 description: "Conditions d'admission, documents à produire et frais d'inscription"
 ---
 

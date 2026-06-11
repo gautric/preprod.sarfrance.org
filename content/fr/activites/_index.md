@@ -1,5 +1,12 @@
 ---
 title: "Activités"
+aliases:
+  - "/actualites-generales/"
+  - "/actualites-membres/"
+  - "/2021/12/28/actualites-generales-2/"
+  - "/2015-2/"
+  - "/2016-2/"
+  - "/2017-2/"
 description: "Conférences, cérémonies, voyages d'étude, publications et recherche historique"
 lastUpdate: 2026-03-01
 ---

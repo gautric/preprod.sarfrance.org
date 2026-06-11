@@ -7,6 +7,11 @@ removePathAccents: true
 enableRobotsTXT: true
 enableGitInfo: true
 
+# Le site n'utilise pas de taxonomies : on évite les pages vides /tags/ et /categories/
+disableKinds:
+  - taxonomy
+  - term
+
 
 languages:
   fr:
@@ -157,7 +162,7 @@ languages:
         # Submenus - Contact
         - identifier: "formulaire"
           name: "Nous écrire"
-          url: "/contact"
+          url: "/contact/"
           parent: "contact"
           weight: 1
         - identifier: "nous-rejoindre"
@@ -324,7 +329,7 @@ languages:
         # Submenus - Contact
         - identifier: "formulaire"
           name: "Write to Us"
-          url: "/en/contact"
+          url: "/en/contact/"
           parent: "contact"
           weight: 1
         - identifier: "nous-rejoindre"

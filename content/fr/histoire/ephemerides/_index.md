@@ -1,5 +1,7 @@
 ---
 title: "Éphémérides"
+aliases:
+  - "/ephemerides/"
 description: "Fiches historiques illustrées retraçant les grands événements de la Guerre d'Indépendance américaine"
 ---
 

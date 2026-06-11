@@ -1,5 +1,8 @@
 ---
 title: "Statuts, règlement intérieur et charte"
+aliases:
+  - "/organisation/statuts/"
+  - "/organisation/reglement-interieur/"
 description: "Statuts adoptés le 22 mars 2024, extraits du règlement intérieur et charte d'éthique et de déontologie de SAR France"
 lastUpdate: 2025-05-21
 ---

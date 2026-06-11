@@ -1,5 +1,7 @@
 ---
 title: "Mission et vocation"
+aliases:
+  - "/presentation/objet-de-la-societe-en-france-des-fils-de-la-revolution-americaine/"
 description: "Triple vocation transatlantique, historique et culturelle de SAR France"
 ---
 

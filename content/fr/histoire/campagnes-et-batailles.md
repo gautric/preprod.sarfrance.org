@@ -1,5 +1,7 @@
 ---
 title: "Campagnes et batailles"
+aliases:
+  - "/histoire/operations-militaires-en-amerique-du-nord/"
 description: "Corps Expéditionnaire de Rochambeau, choix de la Chesapeake et victoire de Yorktown (1781)"
 ---
 

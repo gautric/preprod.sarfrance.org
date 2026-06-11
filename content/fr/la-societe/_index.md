@@ -1,5 +1,10 @@
 ---
 title: "La Société"
+aliases:
+  - "/organisation/organisation-des-sar-en-france/"
+  - "/organisation/secretariat/"
+  - "/organisation/conseil-consultatif-dhistoire/"
+  - "/organisation/annuaire/"
 description: "Conseil d'administration, délégations régionales, secrétariat et liaison avec la NSSAR"
 lastUpdate: 2026-03-01
 ---
