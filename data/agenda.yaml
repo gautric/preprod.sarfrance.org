@@ -551,6 +551,14 @@ events:
     link: ""
     lat: 48.2809
     lon: 2.156
+  - date: "2026-06-14T15:00:00"
+    title: "Conférence de Patrick Villiers"
+    type: conférence
+    description: "Le vaisseau Le Beaumont, rebaptisé Le Lyon, au service de l'indépendance américaine"
+    location: "20 rue Chastes 76000 Dieppe"
+    link: ""
+    lat: 49.9237
+    lon: 1.0721
   - date: "2026-06-20/2026-06-22"
     title: "Centenaire de SAR France au Puy du Fou"
     type: commémoration
