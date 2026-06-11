@@ -192,6 +192,10 @@ notices:
   tags:
   - officier-terre
   - americain
+  birth: 23 janvier 1731
+  birthplace: Ipswich (colonie du Massachusetts)
+  death: 28 juillet 1795
+  deathplace: Wilkes-Barre (Pennsylvanie, États-Unis)
 - lastname: BUYSSON des AIX
   firstname: Charles François
   particle: du
@@ -339,6 +343,10 @@ notices:
   role: Officier de Marine
   tags:
   - officier-marine
+  birth: 17 mars 1740
+  birthplace: Pluguffan (Bretagne)
+  death: 7 janvier 1780
+  deathplace: Brest (Bretagne)
 - lastname: CROMOT du BOURG
   firstname: Maxime
   particle: ''
@@ -353,6 +361,10 @@ notices:
   tags:
   - officier-terre
   - corps-expeditionnaire
+  birth: 4 février 1740
+  birthplace: Metz (Lorraine)
+  death: 28 août 1793
+  deathplace: Paris (guillotiné)
 - lastname: GRASSE TILLY
   firstname: François Joseph Paul
   particle: de
@@ -443,6 +455,9 @@ notices:
   tags:
   - diplomate
   - corps-expeditionnaire
+  birth: '1736'
+  birthplace: Metz (Lorraine)
+  death: '1790'
 - lastname: FABRÉ
   firstname: Adrien Jean-Pierre
   particle: ''
@@ -469,6 +484,8 @@ notices:
   role: Major Général au débarquement de Savannah
   tags:
   - officier-terre
+  birth: '1740'
+  birthplace: château de la Fauconnière à Gannat (Bourbonnais)
 - lastname: GANTÈS
   firstname: Pierre Aimé Hilarion
   particle: de
@@ -481,6 +498,10 @@ notices:
   role: Négociateur des traités de Paris de 1783
   tags:
   - diplomate
+  birth: 24 février 1736
+  birthplace: Masevaux (Alsace)
+  death: 31 décembre 1812
+  deathplace: Paris
 - lastname: GIRARD de VASSON
   firstname: André
   particle: ''
@@ -518,6 +539,10 @@ notices:
   role: Officier de Marine Capitaine de Vaisseau
   tags:
   - officier-marine
+  birth: 25 janvier 1743
+  birthplace: Fontenay-le-Comte (Poitou)
+  death: 7 février 1794
+  deathplace: Rochefort (Charente-Maritime)
 - lastname: GUESTIER
   firstname: Daniel
   particle: ''
@@ -549,6 +574,10 @@ notices:
   role: Officier de Marine. Escadre de Suffren
   tags:
   - officier-marine
+  birth: 15 août 1747
+  birthplace: Brest (Bretagne)
+  death: 31 mai 1796
+  deathplace: Brest (Finistère)
 - lastname: IVORY de CORBON
   firstname: Alexis Claude
   particle: d'
@@ -570,6 +599,10 @@ notices:
   tags:
   - officier-terre
   - americain
+  birth: 29 juin 1721
+  birthplace: Hüttendorf (Bavière, Allemagne)
+  death: 19 août 1780
+  deathplace: Camden (Caroline du Sud, États-Unis)
 - lastname: KERGARIOU-LOCMARIA
   firstname: Thibault René
   particle: de
@@ -651,6 +684,9 @@ notices:
   role: French father of AR
   tags:
   - diplomate
+  birth: 1er septembre 1726
+  birthplace: Nantes
+  death: 22 février 1803
 - lastname: LE ROUX
   firstname: Joseph Marie
   particle: ''
@@ -688,6 +724,10 @@ notices:
   role: Officier dans la marine espagnole
   tags:
   - officier-marine
+  birth: 25 juillet 1753
+  birthplace: Niort (Poitou)
+  death: 26 août 1810
+  deathplace: Córdoba (Argentine)
 - lastname: LUSTRAC
   firstname: Joseph
   particle: de
@@ -765,6 +805,9 @@ notices:
   role: Ambassadeur de France à Madrid
   tags:
   - diplomate
+  birth: 13 octobre 1745
+  death: 2 septembre 1792
+  deathplace: Paris (massacres de septembre)
 - lastname: MORAND du PUCH
   firstname: Élie
   particle: ''
@@ -943,6 +986,10 @@ notices:
   role: Consul de France aux États-Unis
   tags:
   - diplomate
+  birth: 31 janvier 1735
+  birthplace: Caen (Normandie)
+  death: 12 novembre 1813
+  deathplace: Sarcelles (Val-d'Oise)
 - lastname: SANCTOS
   firstname: Jacques François
   particle: de
@@ -1025,6 +1072,10 @@ notices:
   tags:
   - officier-terre
   - americain
+  birth: 25 décembre 1744
+  birthplace: comté de Talbot (province du Maryland)
+  death: 18 avril 1786
+  deathplace: Baltimore (Maryland, États-Unis)
 - lastname: TASTES de LILANCOUR
   firstname: Jean-Baptiste
   particle: de
