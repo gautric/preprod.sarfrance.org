@@ -356,7 +356,7 @@ params:
   currentAgendaYear: 2026
   brand: "SAR France"
   githubRepo: "https://github.com/gautric/preprod.sarfrance.org"
-  contactApiUrl: "https://klx7vrwe41.execute-api.eu-west-1.amazonaws.com/prod/contact"
+  contactApiUrl: "https://api.contact.sarfrance.org/contact"
   address:
     street: "20 rue Bosquet"
     zipCode: "75007"
