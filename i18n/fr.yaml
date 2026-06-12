@@ -235,6 +235,8 @@
   translation: "Volontaire / Milice"
 - id: notices_tag_chapelain
   translation: "Chapelain"
+- id: notices_tag_artiste
+  translation: "Artiste / Musicien"
 - id: notices_tag_corps-expeditionnaire
   translation: "Corps Expéditionnaire"
 - id: notices_tag_legion-lauzun

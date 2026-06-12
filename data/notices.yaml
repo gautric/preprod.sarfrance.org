@@ -11,8 +11,8 @@
 #   particle    Particule nobiliaire (de, du, d', des…)
 #   role        (obligatoire) Fonction ou grade pendant la guerre d'Indépendance
 #   tags        (obligatoire) Liste de clés définies dans data/metadata/notices.yaml
-revision: '2026-06-11'
-count: 150
+revision: '2026-06-12'
+count: 156
 notices:
 - lastname: ABOVILLE
   firstname: François Marie
@@ -103,6 +103,12 @@ notices:
   role: Officier de Marine
   tags:
   - officier-marine
+- lastname: BLOIS de La CALANDE
+  firstname: Aymar
+  particle: de
+  role: Officier de Marine
+  tags:
+  - officier-marine
 - lastname: BOREL
   firstname: Pierre
   particle: ''
@@ -148,6 +154,12 @@ notices:
   tags:
   - diplomate
   - corps-expeditionnaire
+- lastname: BOYVIN d'HARDANCOURT
+  firstname: Anne-Louise
+  particle: ''
+  role: Musicienne, compositrice de la Marche des Insurgents
+  tags:
+  - artiste
 - lastname: BRISOUT de BARNEVILLE
   firstname: Nicolas Denis
   particle: ''
@@ -186,6 +198,12 @@ notices:
   role: Armateur du Coureur
   tags:
   - armateur-corsaire
+- lastname: CARNE de CARNAVALET
+  firstname: Louis François Marie
+  particle: de
+  role: Officier de Marine
+  tags:
+  - officier-marine
 - lastname: CARO
   firstname: Jacques François
   particle: ''
@@ -628,6 +646,12 @@ notices:
   role: Officier dans la marine espagnole
   tags:
   - officier-marine
+- lastname: LOPPIN de MONMORT
+  firstname: Claude Bernard
+  particle: ''
+  role: Aide de camp de Miromesnil
+  tags:
+  - aide-de-camp
 - lastname: LUSTRAC
   firstname: Joseph
   particle: de
@@ -711,6 +735,13 @@ notices:
   role: Officier au régiment d'Enghien-Infanterie
   tags:
   - officier-terre
+- lastname: MORRIS
+  firstname: Lewis III
+  particle: ''
+  role: Général de l'Armée Continentale
+  tags:
+  - officier-terre
+  - americain
 - lastname: ORILLARD de VILLEMANZY
   firstname: Jacques Pierre
   particle: ''
@@ -885,6 +916,12 @@ notices:
   role: Capitaine en second de navires corsaires
   tags:
   - armateur-corsaire
+- lastname: SEGUINS de VAISSIEUX
+  firstname: Alexandre
+  particle: de
+  role: Colonel commandant le régiment de la Martinique
+  tags:
+  - officier-terre
 - lastname: SOCHET des TOUCHES
   firstname: Charles René
   particle: ''
