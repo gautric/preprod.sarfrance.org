@@ -82,6 +82,8 @@
 .filter-btn.tag-volontaire::before            { content: "🙋 "; }
 .tag.tag-chapelain::before,
 .filter-btn.tag-chapelain::before             { content: "✝️ "; }
+.tag.tag-artiste::before,
+.filter-btn.tag-artiste::before               { content: "🎵 "; }
 .tag.tag-corps-expeditionnaire::before,
 .filter-btn.tag-corps-expeditionnaire::before { content: "🦅 "; }
 .tag.tag-legion-lauzun::before,
