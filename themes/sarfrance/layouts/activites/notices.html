@@ -31,40 +31,16 @@
             <div class="page-card notice-card" data-tags="{{ delimit .tags "," }}"
                  data-search="{{ .lastname | lower }} {{ .firstname | lower }} {{ .role | lower }}">
                 <div class="notice-name">
-                    {{ if .biography }}
-                    <a href="{{ partial "lang-prefix.html" $ }}/histoire/biographies/{{ .biography }}/" >
-                        <span class="notice-lastname">{{ .lastname }}</span>
-                        {{ with .firstname }}<span class="notice-firstname">{{ . }}</span>{{ end }}
-                        {{ with .particle }}<span class="notice-particle">({{ . }})</span>{{ end }}
-                    </a>
-                    {{ else }}
                     <span class="notice-lastname">{{ .lastname }}</span>
                     {{ with .firstname }}<span class="notice-firstname">{{ . }}</span>{{ end }}
                     {{ with .particle }}<span class="notice-particle">({{ . }})</span>{{ end }}
-                    {{ end }}
                 </div>
                 <p class="notice-role">{{ .role }}</p>
-                {{ if or .birth .death }}
-                <p class="notice-dates">
-                    {{ with .birth }}{{ . }}{{ end }}{{ with .birthplace }}, {{ . }}{{ end }}
-                    {{ if and .birth .death }} – {{ end }}
-                    {{ with .death }}† {{ . }}{{ end }}{{ with .deathplace }}, {{ . }}{{ end }}
-                </p>
-                {{ end }}
                 <div class="page-card-tags">
                     {{ range .tags }}
                     <span class="tag tag-{{ . | urlize }}">{{ i18n (printf "notices_tag_%s" .) }}</span>
                     {{ end }}
                 </div>
-                {{ with .wikipedia }}
-                <div class="notice-links">
-                    <a href="{{ . }}" class="notice-wiki-link" target="_blank" rel="noopener noreferrer"
-                       title="{{ i18n "notices_wikipedia" }}" aria-label="{{ i18n "notices_wikipedia" }}">
-                        {{ partial "icon-wikipedia.html" . }}
-                        <span>{{ i18n "notices_wikipedia" }}</span>
-                    </a>
-                </div>
-                {{ end }}
             </div>
             {{ end }}
         </div>

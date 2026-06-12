@@ -1,4 +1,9 @@
-# Dictionnaire biographique des ancêtres SAR France
+# Liste des notices biographiques homologuées des ancêtres SAR France
+#
+# Cette page publie uniquement la LISTE des notices homologuées (nom + fonction),
+# afin d'informer les membres de leur existence. Le contenu biographique, les dates,
+# les sources et les liens externes ne sont pas diffusés sur le site public : la
+# consultation d'une notice se fait sur demande contrôlée auprès de la Société.
 #
 # Champs d'une notice :
 #   lastname    (obligatoire) Nom de famille en capitales
@@ -6,10 +11,6 @@
 #   particle    Particule nobiliaire (de, du, d', des…)
 #   role        (obligatoire) Fonction ou grade pendant la guerre d'Indépendance
 #   tags        (obligatoire) Liste de clés définies dans data/metadata/notices.yaml
-#   birth / birthplace   Date et lieu de naissance
-#   death / deathplace   Date et lieu de décès
-#   biography   Identifiant de la page biographique interne (content/*/histoire/biographies/<id>/)
-#   wikipedia   URL de la fiche Wikipédia (de préférence en français) — rend un lien à icône Wikipédia
 revision: '2026-06-11'
 count: 150
 notices:
@@ -21,11 +22,6 @@ notices:
   - officier-terre
   - artillerie
   - corps-expeditionnaire
-  birth: 23 janvier 1730
-  birthplace: Brest (Bretagne)
-  death: 1er novembre 1817
-  deathplace: Paris
-  wikipedia: "https://fr.wikipedia.org/wiki/François_Marie_d'Aboville"
 - lastname: ABZAC de LA DOUZE de CAZENAC
   firstname: Jean-Baptiste Charles
   particle: d'
@@ -44,10 +40,6 @@ notices:
   role: Soldat au régiment de Hainault. Général
   tags:
   - soldat
-  birth: 8 novembre 1754
-  birthplace: Belley (Bugey)
-  death: 24 juin 1813
-  deathplace: Nemours (Seine-et-Marne)
 - lastname: APPLETON
   firstname: Nathaniel
   particle: ''
@@ -55,10 +47,6 @@ notices:
   tags:
   - chapelain
   - americain
-  birth: 14 janvier 1741
-  birthplace: Norwich (colonie du Connecticut)
-  death: 14 juin 1801
-  deathplace: Londres (Grande-Bretagne)
 - lastname: AUBENTON
   firstname: Marcel Ambroise
   particle: d'
@@ -91,10 +79,6 @@ notices:
   role: Officier de Marine
   tags:
   - officier-marine
-  birth: 17 juin 1760
-  birthplace: Marseille
-  death: 28 septembre 1850
-  deathplace: Marseille
 - lastname: BEAUMONT de VERNEUIL d'AUTY
   firstname: Guillaume Joseph
   particle: de
@@ -113,11 +97,6 @@ notices:
   role: Lieutenant Général dans l'armée espagnole
   tags:
   - officier-terre
-  birth: 22 février 1717
-  birthplace: Avignon (États pontificaux)
-  death: 9 avril 1796
-  deathplace: Madrid (Espagne)
-  wikipedia: "https://en.wikipedia.org/wiki/Louis_des_Balbes_de_Berton_de_Crillon,_1st_Duke_of_Mahón"
 - lastname: BESSEY de la VOUTE
   firstname: René Esprit Isaac
   particle: de
@@ -130,8 +109,6 @@ notices:
   role: Lieutenant au régiment d'Attakapas
   tags:
   - officier-terre
-  birth: 24 avril 1747
-  birthplace: Pobla de Segur (Catalogne, Espagne)
 - lastname: BOÜAN
   firstname: Louis Anne Patern
   particle: ''
@@ -145,11 +122,6 @@ notices:
   role: Lieutenant Général, Chef d'Escadre
   tags:
   - officier-marine
-  birth: 21 juin 1712
-  birthplace: Fougères (Bretagne)
-  death: 13 janvier 1790
-  deathplace: Morlaix (Bretagne)
-  wikipedia: "https://fr.wikipedia.org/wiki/Luc_Urbain_du_Bouëxic_de_Guichen"
 # - lastname: BOUILLÉ
 #   firstname: François-Claude-Amour
 #   particle: de
@@ -169,11 +141,6 @@ notices:
   role: Chef d'escadre navale
   tags:
   - officier-marine
-  birth: 11 novembre 1729
-  birthplace: Paris
-  death: 31 août 1811
-  deathplace: Paris
-  wikipedia: "https://fr.wikipedia.org/wiki/Louis-Antoine_de_Bougainville"
 - lastname: BOURDON de VATRY
   firstname: Marc-Antoine
   particle: ''
@@ -181,11 +148,6 @@ notices:
   tags:
   - diplomate
   - corps-expeditionnaire
-  birth: 2 février 1754
-  birthplace: Paris
-  death: 17 mai 1839
-  deathplace: Paris
-  wikipedia: "https://fr.wikipedia.org/wiki/Marc_Antoine_Bourdon_de_Vatry"
 - lastname: BRISOUT de BARNEVILLE
   firstname: Nicolas Denis
   particle: ''
@@ -199,11 +161,6 @@ notices:
   role: Officier de Marine
   tags:
   - officier-marine
-  birth: 17 juillet 1759
-  birthplace: Saint-Domingue (colonie française)
-  death: 18 mars 1805
-  deathplace: Paris
-  wikipedia: "https://fr.wikipedia.org/wiki/Étienne_Eustache_Bruix"
 - lastname: BUTLER
   firstname: Zebulon
   particle: ''
@@ -211,21 +168,12 @@ notices:
   tags:
   - officier-terre
   - americain
-  birth: 23 janvier 1731
-  birthplace: Ipswich (colonie du Massachusetts)
-  death: 28 juillet 1795
-  deathplace: Wilkes-Barre (Pennsylvanie, États-Unis)
-  wikipedia: "https://en.wikipedia.org/wiki/Zebulon_Butler"
 - lastname: BUYSSON des AIX
   firstname: Charles François
   particle: du
   role: Aide de camp de Kalb - Brigadier general US
   tags:
   - aide-de-camp
-  birth: 19 août 1752
-  birthplace: Treban (Bourbonnais)
-  death: 19 mars 1786
-  deathplace: Moulins (Bourbonnais)
 - lastname: CAFFIN
   firstname: Benoist Charles
   particle: ''
@@ -256,10 +204,6 @@ notices:
   role: Capitaine de Vaisseau, Escadre de Suffren
   tags:
   - officier-marine
-  birth: 9 février 1744
-  birthplace: Granchain (Normandie)
-  death: 18 juin 1805
-  deathplace: Granchain (Eure)
 - lastname: CHABANNES de CURTON LA PALICE
   firstname: Jean-Frédéric
   particle: de
@@ -279,11 +223,6 @@ notices:
   role: Officier de Marine, Lt-Général
   tags:
   - officier-marine
-  birth: 29 février 1708
-  birthplace: Montaigu (Poitou)
-  death: 29 juin 1794
-  deathplace: manoir de la Hautière (Loire-Atlantique)
-  wikipedia: "https://fr.wikipedia.org/wiki/Louis_Charles_du_Chaffault_de_Besné"
 - lastname: CHAMPEAUX
   firstname: Jacques
   particle: ''
@@ -296,10 +235,6 @@ notices:
   role: Armateur du corsaire La Pallas
   tags:
   - armateur-corsaire
-  birth: 2 mai 1763
-  birthplace: Couffé (Bretagne)
-  death: 26 mars 1796
-  deathplace: Nantes
 - lastname: CHARPY
   firstname: Jean Louis
   particle: ''
@@ -324,10 +259,6 @@ notices:
   role: Capitaine de Vaisseau
   tags:
   - officier-marine
-  birth: 1er février 1730
-  birthplace: Séglien (Bretagne)
-  death: 30 juin 1801
-  deathplace: Jersey (îles Anglo-Normandes)
 - lastname: COHORN de LA PALUN
   firstname: Alexandre
   particle: de
@@ -352,11 +283,6 @@ notices:
   role: Officier de Marine
   tags:
   - officier-marine
-  birth: 17 mars 1740
-  birthplace: Pluguffan (Bretagne)
-  death: 7 janvier 1780
-  deathplace: Brest (Bretagne)
-  wikipedia: "https://fr.wikipedia.org/wiki/Charles_Louis_du_Couëdic"
 - lastname: CROMOT du BOURG
   firstname: Maxime
   particle: ''
@@ -371,23 +297,12 @@ notices:
   tags:
   - officier-terre
   - corps-expeditionnaire
-  birth: 4 février 1740
-  birthplace: Metz (Lorraine)
-  death: 28 août 1793
-  deathplace: Paris (guillotiné)
-  wikipedia: "https://fr.wikipedia.org/wiki/Adam_Philippe_de_Custine"
 - lastname: GRASSE TILLY
   firstname: François Joseph Paul
   particle: de
   role: Lieutenant-général des armées navales, héros de la Chesapeake
   tags:
   - officier-marine
-  biography: de-grasse
-  birth: 13 septembre 1722
-  birthplace: Le Bar-sur-Loup (Provence)
-  death: 11 janvier 1788
-  deathplace: Tilly (Île-de-France)
-  wikipedia: "https://fr.wikipedia.org/wiki/François_Joseph_Paul_de_Grasse"
 - lastname: DENTZEL
   firstname: Georges Frédéric
   particle: ''
@@ -395,7 +310,6 @@ notices:
   tags:
   - chapelain
   - corps-expeditionnaire
-  wikipedia: "https://fr.wikipedia.org/wiki/Georges_Frédéric_Dentzel"
 - lastname: DESLANDES
   firstname: Nicolas
   particle: ''
@@ -468,10 +382,6 @@ notices:
   tags:
   - diplomate
   - corps-expeditionnaire
-  birth: '1736'
-  birthplace: Metz (Lorraine)
-  death: '1790'
-  wikipedia: "https://fr.wikipedia.org/wiki/Louis_Ethis_de_Corny"
 - lastname: FABRÉ
   firstname: Adrien Jean-Pierre
   particle: ''
@@ -498,9 +408,6 @@ notices:
   role: Major Général au débarquement de Savannah
   tags:
   - officier-terre
-  birth: '1740'
-  birthplace: château de la Fauconnière à Gannat (Bourbonnais)
-  wikipedia: "https://fr.wikipedia.org/wiki/François_de_Fontanges"
 - lastname: GANTÈS
   firstname: Pierre Aimé Hilarion
   particle: de
@@ -513,11 +420,6 @@ notices:
   role: Négociateur des traités de Paris de 1783
   tags:
   - diplomate
-  birth: 24 février 1736
-  birthplace: Masevaux (Alsace)
-  death: 31 décembre 1812
-  deathplace: Paris
-  wikipedia: "https://fr.wikipedia.org/wiki/Joseph_Mathias_Gérard_de_Rayneval"
 - lastname: GIRARD de VASSON
   firstname: André
   particle: ''
@@ -556,10 +458,6 @@ notices:
   role: Officier de Marine Capitaine de Vaisseau
   tags:
   - officier-marine
-  birth: 25 janvier 1743
-  birthplace: Fontenay-le-Comte (Poitou)
-  death: 7 février 1794
-  deathplace: Rochefort (Charente-Maritime)
 - lastname: GUESTIER
   firstname: Daniel
   particle: ''
@@ -591,10 +489,6 @@ notices:
   role: Officier de Marine. Escadre de Suffren
   tags:
   - officier-marine
-  birth: 15 août 1747
-  birthplace: Brest (Bretagne)
-  death: 31 mai 1796
-  deathplace: Brest (Finistère)
 - lastname: IVORY de CORBON
   firstname: Alexis Claude
   particle: d'
@@ -616,11 +510,6 @@ notices:
   tags:
   - officier-terre
   - americain
-  birth: 29 juin 1721
-  birthplace: Hüttendorf (Bavière, Allemagne)
-  death: 19 août 1780
-  deathplace: Camden (Caroline du Sud, États-Unis)
-  wikipedia: "https://fr.wikipedia.org/wiki/Johann_de_Kalb"
 - lastname: KERGARIOU-LOCMARIA
   firstname: Thibault René
   particle: de
@@ -702,10 +591,6 @@ notices:
   role: French father of AR
   tags:
   - diplomate
-  birth: 1er septembre 1726
-  birthplace: Nantes
-  death: 22 février 1803
-  wikipedia: "https://fr.wikipedia.org/wiki/Jacques-Donatien_Le_Ray_de_Chaumont"
 - lastname: LE ROUX
   firstname: Joseph Marie
   particle: ''
@@ -743,11 +628,6 @@ notices:
   role: Officier dans la marine espagnole
   tags:
   - officier-marine
-  birth: 25 juillet 1753
-  birthplace: Niort (Poitou)
-  death: 26 août 1810
-  deathplace: Córdoba (Argentine)
-  wikipedia: "https://fr.wikipedia.org/wiki/Santiago_de_Liniers"
 - lastname: LUSTRAC
   firstname: Joseph
   particle: de
@@ -825,10 +705,6 @@ notices:
   role: Ambassadeur de France à Madrid
   tags:
   - diplomate
-  birth: 13 octobre 1745
-  death: 2 septembre 1792
-  deathplace: Paris (massacres de septembre)
-  wikipedia: "https://fr.wikipedia.org/wiki/Armand_Marc_de_Montmorin_Saint-Hérem"
 - lastname: MORAND du PUCH
   firstname: Élie
   particle: ''
@@ -979,11 +855,6 @@ notices:
   tags:
   - volontaire
   - officier-terre
-  birth: 20 février 1763
-  birthplace: Cap-Français (Saint-Domingue)
-  death: 17 octobre 1831
-  deathplace: Saint-Orens-de-Gameville (Haute-Garonne)
-  wikipedia: "https://fr.wikipedia.org/wiki/Antoine_Rougé"
 - lastname: RUFFO de BONNEVAL
   firstname: Mériadec
   particle: ''
@@ -1008,11 +879,6 @@ notices:
   role: Consul de France aux États-Unis
   tags:
   - diplomate
-  birth: 31 janvier 1735
-  birthplace: Caen (Normandie)
-  death: 12 novembre 1813
-  deathplace: Sarcelles (Val-d'Oise)
-  wikipedia: "https://en.wikipedia.org/wiki/J._Hector_St._John_de_Crèvecœur"
 - lastname: SANCTOS
   firstname: Jacques François
   particle: de
@@ -1025,7 +891,6 @@ notices:
   role: Capitaine de Vaisseaux
   tags:
   - officier-marine
-  wikipedia: "https://en.wikipedia.org/wiki/Charles_René_Dominique_Sochet,_Chevalier_Destouches"
 - lastname: SOLLIER
   firstname: Jean-François
   particle: ''
@@ -1096,20 +961,12 @@ notices:
   tags:
   - officier-terre
   - americain
-  birth: 25 décembre 1744
-  birthplace: comté de Talbot (province du Maryland)
-  death: 18 avril 1786
-  deathplace: Baltimore (Maryland, États-Unis)
-  wikipedia: "https://en.wikipedia.org/wiki/Tench_Tilghman"
 - lastname: TASTES de LILANCOUR
   firstname: Jean-Baptiste
   particle: de
   role: Officier ayant servi durant la Guerre d'Indépendance
   tags:
   - officier-terre
-  biography: tastes-de-lilancour
-  birth: '1730'
-  death: '1803'
 - lastname: TRENTINIAN
   firstname: Jean Jacques
   particle: de
