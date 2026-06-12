@@ -114,12 +114,30 @@
   "@type": "ItemList",
   "itemListElement": [
     {{- range $i, $e := $events }}{{ if $i }},{{ end }}
-    {{- $startDate := $e.date -}}
-    {{- $endDate := "" -}}
+    {{- $startRaw := $e.date -}}
+    {{- $endRaw := "" -}}
     {{- if in $e.date "/" -}}
       {{- $parts := split $e.date "/" -}}
-      {{- $startDate = index $parts 0 -}}
-      {{- $endDate = index $parts 1 -}}
+      {{- $startRaw = index $parts 0 -}}
+      {{- $endRaw = index $parts 1 -}}
+    {{- end -}}
+    {{- /* Normalize to full ISO 8601 with Europe/Paris offset when a time component is present; date-only values are left as-is (valid ISO 8601 all-day dates). */ -}}
+    {{- $startDate := $startRaw -}}
+    {{- if in $startRaw "T" -}}
+      {{- $tp := split $startRaw "T" -}}
+      {{- $t := index $tp 1 -}}
+      {{- if eq (len (findRE ":" $t)) 1 -}}{{- $t = printf "%s:00" $t -}}{{- end -}}
+      {{- $startDate = (time.AsTime (printf "%sT%s" (index $tp 0) $t) "Europe/Paris").Format "2006-01-02T15:04:05-07:00" -}}
+    {{- end -}}
+    {{- $endDate := "" -}}
+    {{- if $endRaw -}}
+      {{- $endDate = $endRaw -}}
+      {{- if in $endRaw "T" -}}
+        {{- $tp := split $endRaw "T" -}}
+        {{- $t := index $tp 1 -}}
+        {{- if eq (len (findRE ":" $t)) 1 -}}{{- $t = printf "%s:00" $t -}}{{- end -}}
+        {{- $endDate = (time.AsTime (printf "%sT%s" (index $tp 0) $t) "Europe/Paris").Format "2006-01-02T15:04:05-07:00" -}}
+      {{- end -}}
     {{- end }}
     {
       "@type": "ListItem",
@@ -129,16 +147,16 @@
         "name": {{ $e.title | jsonify }},
         "startDate": {{ $startDate | jsonify }}{{ with $endDate }},
         "endDate": {{ . | jsonify }}{{ end }}{{ with $e.description }},
-        "description": {{ . | jsonify }}{{ end }}{{ with $e.location }},
+        "description": {{ . | jsonify }}{{ end }},
         "location": {
           "@type": "Place",
-          "name": {{ . | jsonify }}{{ if and $e.lat $e.lon (ne (printf "%v" $e.lat) "0") }},
+          "name": {{ with $e.location }}{{ . | jsonify }}{{ else }}{{ "France" | jsonify }}{{ end }}{{ if and $e.lat $e.lon (ne (printf "%v" $e.lat) "0") }},
           "geo": {
             "@type": "GeoCoordinates",
             "latitude": {{ $e.lat }},
             "longitude": {{ $e.lon }}
           }{{ end }}
-        }{{ end }},
+        },
         "organizer": {
           "@type": "Organization",
           "name": "SAR France",
