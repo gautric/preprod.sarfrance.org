@@ -1,4 +1,3 @@
-{{- $prefix := partial "lang-prefix.html" . -}}
 {{ if .IsHome }}
 <script type="application/ld+json">
 {
@@ -53,53 +52,45 @@
   }
 }
 </script>
-{{- /* BreadcrumbList for non-home pages */ -}}
+{{- /* BreadcrumbList for non-home pages — built from page ancestors so every
+       "item" URL is the page's canonical .Permalink (valid, absolute, with the
+       correct language prefix and trailing slash). This avoids hand-built URLs
+       that produced "https://www.sarfrance.org//" (double slash) on French pages
+       and dropped the "/en/" prefix on English pages. */ -}}
 {{- $crumbs := slice -}}
-{{- $crumbs = $crumbs | append (dict "name" (i18n "home" | default "Accueil") "url" (printf "%s%s/" .Site.BaseURL (strings.TrimPrefix "/" $prefix))) -}}
-{{- $parts := split (strings.TrimPrefix "/" (strings.TrimSuffix "/" .RelPermalink)) "/" -}}
-{{- $acc := "" -}}
-{{- range $i, $seg := $parts -}}
-  {{- if and (ne $seg "") (or (ne $seg "en") (ne $i 0)) -}}
-    {{- $acc = printf "%s/%s" $acc $seg -}}
-    {{- $url := printf "%s%s/" $.Site.BaseURL (strings.TrimPrefix "/" $acc) -}}
-    {{- $name := $seg | humanize | title -}}
-    {{- if eq (add $i 1) (len $parts) -}}{{- $name = $.Title -}}{{- end -}}
-    {{- $crumbs = $crumbs | append (dict "name" $name "url" $url) -}}
-  {{- end -}}
+{{- range .Ancestors.Reverse -}}
+  {{- $name := .LinkTitle -}}
+  {{- if .IsHome -}}{{- $name = (i18n "home" | default "Accueil") -}}{{- end -}}
+  {{- $crumbs = $crumbs | append (dict "name" $name "url" .Permalink) -}}
 {{- end -}}
+{{- $crumbs = $crumbs | append (dict "name" .Title "url" .Permalink) -}}
 {{- if gt (len $crumbs) 1 }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {{- range $i, $c := $crumbs }}{{ if $i }},{{ end }}
-    {
-      "@type": "ListItem",
-      "position": {{ add $i 1 }},
-      "name": {{ $c.name | jsonify }},
-      "item": {{ $c.url | jsonify }}
-    }
-    {{- end }}
-  ]
-}
-</script>
+{{- $items := slice -}}
+{{- range $i, $c := $crumbs -}}
+  {{- $items = $items | append (dict
+      "@type" "ListItem"
+      "position" (add $i 1)
+      "name" $c.name
+      "item" $c.url) -}}
+{{- end -}}
+{{- $breadcrumb := dict
+    "@context" "https://schema.org"
+    "@type" "BreadcrumbList"
+    "itemListElement" $items -}}
+<script type="application/ld+json">{{ $breadcrumb | jsonify (dict "indent" "  ") | safeJS }}</script>
 {{- end }}
 {{- /* Person schema on biography pages */ -}}
 {{- if and (in .RelPermalink "/biographies/") (not .IsSection) }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": {{ .Title | jsonify }},
-  "description": {{ (.Description | default .Site.Params.description) | jsonify }},
-  "url": {{ .Permalink | jsonify }}{{ with .Params.author }},
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "url": {{ $.Permalink | jsonify }}
-  }{{ end }}
-}
-</script>
+{{- $person := dict
+    "@context" "https://schema.org"
+    "@type" "Person"
+    "name" .Title
+    "description" (.Description | default .Site.Params.description)
+    "url" .Permalink -}}
+{{- with .Params.author -}}
+  {{- $person = merge $person (dict "mainEntityOfPage" (dict "@type" "WebPage" "url" $.Permalink)) -}}
+{{- end -}}
+<script type="application/ld+json">{{ $person | jsonify (dict "indent" "  ") | safeJS }}</script>
 {{- end }}
 {{- /* Event list on agenda pages */ -}}
 {{- if eq .Layout "agenda" -}}
@@ -108,68 +99,57 @@
 {{- $events := where hugo.Data.agenda.events "date" "ge" (printf "%s-01-01" $year) -}}
 {{- $events = where $events "date" "le" (printf "%s-12-31" $year) }}
 {{- if $events }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "itemListElement": [
-    {{- range $i, $e := $events }}{{ if $i }},{{ end }}
-    {{- $startRaw := $e.date -}}
-    {{- $endRaw := "" -}}
-    {{- if in $e.date "/" -}}
-      {{- $parts := split $e.date "/" -}}
-      {{- $startRaw = index $parts 0 -}}
-      {{- $endRaw = index $parts 1 -}}
-    {{- end -}}
-    {{- /* Normalize to full ISO 8601 with Europe/Paris offset when a time component is present; date-only values are left as-is (valid ISO 8601 all-day dates). */ -}}
-    {{- $startDate := $startRaw -}}
-    {{- if in $startRaw "T" -}}
-      {{- $tp := split $startRaw "T" -}}
+{{- $items := slice -}}
+{{- range $i, $e := $events -}}
+  {{- $startRaw := $e.date -}}
+  {{- $endRaw := "" -}}
+  {{- if in $e.date "/" -}}
+    {{- $parts := split $e.date "/" -}}
+    {{- $startRaw = index $parts 0 -}}
+    {{- $endRaw = index $parts 1 -}}
+  {{- end -}}
+  {{- /* Normalize to full ISO 8601 with Europe/Paris offset when a time component is present; date-only values are left as-is (valid ISO 8601 all-day dates). */ -}}
+  {{- $startDate := $startRaw -}}
+  {{- if in $startRaw "T" -}}
+    {{- $tp := split $startRaw "T" -}}
+    {{- $t := index $tp 1 -}}
+    {{- if eq (len (findRE ":" $t)) 1 -}}{{- $t = printf "%s:00" $t -}}{{- end -}}
+    {{- $startDate = (time.AsTime (printf "%sT%s" (index $tp 0) $t) "Europe/Paris").Format "2006-01-02T15:04:05-07:00" -}}
+  {{- end -}}
+  {{- $endDate := "" -}}
+  {{- if $endRaw -}}
+    {{- $endDate = $endRaw -}}
+    {{- if in $endRaw "T" -}}
+      {{- $tp := split $endRaw "T" -}}
       {{- $t := index $tp 1 -}}
       {{- if eq (len (findRE ":" $t)) 1 -}}{{- $t = printf "%s:00" $t -}}{{- end -}}
-      {{- $startDate = (time.AsTime (printf "%sT%s" (index $tp 0) $t) "Europe/Paris").Format "2006-01-02T15:04:05-07:00" -}}
+      {{- $endDate = (time.AsTime (printf "%sT%s" (index $tp 0) $t) "Europe/Paris").Format "2006-01-02T15:04:05-07:00" -}}
     {{- end -}}
-    {{- $endDate := "" -}}
-    {{- if $endRaw -}}
-      {{- $endDate = $endRaw -}}
-      {{- if in $endRaw "T" -}}
-        {{- $tp := split $endRaw "T" -}}
-        {{- $t := index $tp 1 -}}
-        {{- if eq (len (findRE ":" $t)) 1 -}}{{- $t = printf "%s:00" $t -}}{{- end -}}
-        {{- $endDate = (time.AsTime (printf "%sT%s" (index $tp 0) $t) "Europe/Paris").Format "2006-01-02T15:04:05-07:00" -}}
-      {{- end -}}
-    {{- end }}
-    {
-      "@type": "ListItem",
-      "position": {{ add $i 1 }},
-      "item": {
-        "@type": "Event",
-        "name": {{ $e.title | jsonify }},
-        "startDate": {{ $startDate | jsonify }}{{ with $endDate }},
-        "endDate": {{ . | jsonify }}{{ end }}{{ with $e.description }},
-        "description": {{ . | jsonify }}{{ end }},
-        "location": {
-          "@type": "Place",
-          "name": {{ with $e.location }}{{ . | jsonify }}{{ else }}{{ "France" | jsonify }}{{ end }}{{ if and $e.lat $e.lon (ne (printf "%v" $e.lat) "0") }},
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": {{ $e.lat }},
-            "longitude": {{ $e.lon }}
-          }{{ end }}
-        },
-        "organizer": {
-          "@type": "Organization",
-          "name": "SAR France",
-          "url": {{ $.Site.BaseURL | jsonify }}
-        },
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
-      }
-    }
-    {{- end }}
-  ]
-}
-</script>
+  {{- end -}}
+  {{- $place := dict "@type" "Place" "name" ($e.location | default "France") -}}
+  {{- if and $e.lat $e.lon (ne (printf "%v" $e.lat) "0") -}}
+    {{- $place = merge $place (dict "geo" (dict "@type" "GeoCoordinates" "latitude" $e.lat "longitude" $e.lon)) -}}
+  {{- end -}}
+  {{- $event := dict
+      "@type" "Event"
+      "name" $e.title
+      "startDate" $startDate
+      "location" $place
+      "organizer" (dict "@type" "Organization" "name" "SAR France" "url" $.Site.BaseURL)
+      "eventStatus" "https://schema.org/EventScheduled"
+      "eventAttendanceMode" "https://schema.org/OfflineEventAttendanceMode" -}}
+  {{- with $endDate }}{{- $event = merge $event (dict "endDate" .) -}}{{- end -}}
+  {{- with $e.description }}{{- $event = merge $event (dict "description" .) -}}{{- end -}}
+  {{- $items = $items | append (dict
+      "@type" "ListItem"
+      "position" (add $i 1)
+      "item" $event) -}}
+{{- end -}}
+{{- $itemList := dict
+    "@context" "https://schema.org"
+    "@type" "ItemList"
+    "itemListElement" $items -}}
+<script type="application/ld+json">{{ $itemList | jsonify (dict "indent" "  ") | safeJS }}</script>
 {{- end }}
 {{- end }}
 {{ end }}

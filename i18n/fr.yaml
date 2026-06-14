@@ -1,3 +1,5 @@
+- id: home
+  translation: "Accueil"
 - id: skip_to_content
   translation: "Aller au contenu"
 - id: upcoming_events

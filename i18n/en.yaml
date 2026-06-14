@@ -1,3 +1,5 @@
+- id: home
+  translation: "Home"
 - id: skip_to_content
   translation: "Skip to content"
 - id: upcoming_events
