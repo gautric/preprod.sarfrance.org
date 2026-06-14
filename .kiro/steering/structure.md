@@ -136,4 +136,4 @@ Additional fields:
 - `link` — external URL (wraps the title as a link)
 - `lat` / `lon` — coordinates for the Leaflet mini-map on the card (set to `0` to suppress map)
 
-Older events (pre-2026) may omit extended fields — that is expected and valid.
+All events should include the extended fields (`description`, `location`, `link`, `lat`, `lon`) whenever the information is available, regardless of date. For a physical venue, always provide `location` and the corresponding `lat`/`lon` coordinates so the Leaflet mini-map can render. Use `lat: 0` / `lon: 0` only for events with no physical location (e.g. videoconferences). Older events that still lack these fields should be completed as the information becomes available.

@@ -2,108 +2,253 @@ events:
   - date: "2018-03-16"
     title: "Assemblée générale de la Société à l'École Militaire"
     type: assemblée
+    description: ""
+    location: "École Militaire, Paris"
+    link: ""
+    lat: 48.8518
+    lon: 2.3048
   - date: "2018-03-29/2018-04-30"
     title: "Expositions « La Marine au siècle des Lumières » à Montpellier et « L'escadre de d'Estaing » à Toulon, avec conférences de P. Villiers"
     type: exposition
   - date: "2018-05-12"
     title: "Conférence du Dr Alain Gaillard sur La Motte-Picquet au Cercle Louis XVI à Nantes"
     type: conférence
+    description: ""
+    location: "Nantes"
+    link: ""
+    lat: 47.2186
+    lon: -1.5541
   - date: "2018-05-27"
     title: "Cérémonies du Memorial Day à Marnes-la-Coquette et Suresnes"
     type: commémoration
+    description: ""
+    location: "Cimetière américain de Suresnes"
+    link: ""
+    lat: 48.8723
+    lon: 2.2177
   - date: "2018-06-10/2018-06-20"
     title: "Voyage du Centenaire sur les lieux de la participation américaine à la Grande Guerre"
     type: visite
   - date: "2018-06-25"
     title: "Cérémonie au cimetière de Picpus en présence de l'ambassadeur des États-Unis"
     type: commémoration
+    description: ""
+    location: "Cimetière de Picpus, 35 rue de Picpus, 75012 Paris"
+    link: ""
+    lat: 48.844
+    lon: 2.4004
   - date: "2018-07-13/2018-07-18"
     title: "Congrès de la NSSAR à Houston (Texas)"
     type: nssar
+    description: ""
+    location: "Houston, Texas"
+    link: ""
+    lat: 29.7589
+    lon: -95.3677
   - date: "2018-09-12"
     title: "Ravivage de la Flamme sous l'Arc de Triomphe"
     type: commémoration
+    description: ""
+    location: "Arc de Triomphe, Paris"
+    link: ""
+    lat: 48.8738
+    lon: 2.295
   - date: "2018-10-15"
     title: "Conférence du Dr A. Gaillard sur La Motte-Picquet à France-Amériques"
     type: conférence
+    description: ""
+    location: "Cercle France-Amériques, 9 avenue Franklin Roosevelt, 75008 Paris"
+    link: ""
+    lat: 48.8659
+    lon: 2.31
   - date: "2018-10-20"
     title: "Conférence de J-M Robine à Blaye sur les Aquitains dans la guerre d'indépendance"
     type: conférence
+    description: ""
+    location: "Blaye"
+    link: ""
+    lat: 45.1271
+    lon: -0.6636
   - date: "2018-11-11"
     title: "Veillée organisée par le Comité de la Flamme sous l'Arc de Triomphe"
     type: commémoration
+    description: ""
+    location: "Arc de Triomphe, Paris"
+    link: ""
+    lat: 48.8738
+    lon: 2.295
   - date: "2018-12-17"
     title: "Rencontre des jeunes Sons au Harry's Bar à Paris"
     type: réunion
+    description: ""
+    location: "Harry's Bar, 5 rue Daunou, 75002 Paris"
+    link: ""
+    lat: 48.8692
+    lon: 2.3321
   - date: "2019-02-28/2019-03-03"
     title: "Spring leadership meeting de la NSSAR à Louisville (KY)"
     type: nssar
+    description: ""
+    location: "Louisville, Kentucky"
+    link: ""
+    lat: 38.2542
+    lon: -85.7594
   - date: "2019-03-15"
     title: "Assemblée générale de SAR France à l'École militaire suivie d'un dîner dans la Rotonde Gabriel"
     type: assemblée
+    description: ""
+    location: "École Militaire, Paris"
+    link: ""
+    lat: 48.8518
+    lon: 2.3048
   - date: "2019-03-23/2019-03-24"
     title: "Week-end en Belgique – Conférence de P. Villiers à Ostende, visites de Bruges et Damme"
     type: visite
+    description: ""
+    location: "Ostende, Belgique"
+    link: ""
+    lat: 51.2259
+    lon: 2.9195
   - date: "2019-04-27"
     title: "Départ de l'Hermione de Rochefort pour son voyage en Normandie"
     type: commémoration
+    description: ""
+    location: "Rochefort"
+    link: ""
+    lat: 45.9367
+    lon: -0.9616
   - date: "2019-05-18"
     title: "Inauguration de l'exposition « La France et l'indépendance américaine » au château de Berzé"
     type: exposition
+    description: ""
+    location: "Château de Berzé-le-Châtel (Saône-et-Loire)"
+    link: ""
+    lat: 46.3869
+    lon: 4.6889
   - date: "2019-05-23/2019-05-27"
     title: "Debord de Loire à Saint-Nazaire et Nantes"
     type: commémoration
+    description: ""
+    location: "Saint-Nazaire"
+    link: ""
+    lat: 47.2734
+    lon: -2.2139
   - date: "2019-05-26"
     title: "Cérémonies du Memorial Day en province et en région parisienne"
     type: commémoration
   - date: "2019-06-06/2019-06-16"
     title: "Armada de Rouen avec la participation de l'Hermione"
     type: commémoration
+    description: ""
+    location: "Rouen"
+    link: ""
+    lat: 49.4405
+    lon: 1.094
   - date: "2019-06-26"
     title: "Cérémonie au cimetière de Picpus"
     type: commémoration
+    description: ""
+    location: "Cimetière de Picpus, 35 rue de Picpus, 75012 Paris"
+    link: ""
+    lat: 48.844
+    lon: 2.4004
   - date: "2019-06-28"
     title: "Cérémonie devant les statues rénovées de Pershing et La Fayette à Versailles"
     type: commémoration
+    description: ""
+    location: "Versailles"
+    link: ""
+    lat: 48.8035
+    lon: 2.1267
   - date: "2019-07-04"
     title: "Independence Day"
     type: commémoration
   - date: "2019-07-05/2019-07-11"
     title: "Congrès de la NSSAR à Costa Mesa (CA)"
     type: nssar
+    description: ""
+    location: "Costa Mesa, Californie"
+    link: ""
+    lat: 33.6633
+    lon: -117.9033
   - date: "2019-09-07"
     title: "Vernissage de l'exposition de Sanary sur les marins et la guerre d'indépendance"
     type: exposition
+    description: ""
+    location: "Sanary-sur-Mer"
+    link: ""
+    lat: 43.1177
+    lon: 5.8009
   - date: "2019-09-19/2019-09-21"
     title: "Fall leadership meeting de la NSSAR à Louisville (KY)"
     type: nssar
+    description: ""
+    location: "Louisville, Kentucky"
+    link: ""
+    lat: 38.2542
+    lon: -85.7594
   - date: "2019-09-30"
     title: "Conférence du Prof. F. David « La Conférence de la Paix de Paris et le Wilsonisme » à France-Amériques"
     type: conférence
+    description: ""
+    location: "Cercle France-Amériques, 9 avenue Franklin Roosevelt, 75008 Paris"
+    link: ""
+    lat: 48.8659
+    lon: 2.31
   - date: "2019-10-02"
     title: "Ravivage de la Flamme sous l'Arc de Triomphe"
     type: commémoration
+    description: ""
+    location: "Arc de Triomphe, Paris"
+    link: ""
+    lat: 48.8738
+    lon: 2.295
   - date: "2019-11-13"
     title: "Conférence du Prof. A. Gaillard sur l'Amiral du Chaffault à Nantes"
     type: conférence
+    description: ""
+    location: "Nantes"
+    link: ""
+    lat: 47.2186
+    lon: -1.5541
   - date: "2019-11-20"
     title: "Conférence du Prof. P. Villiers sur les corsaires de l'océan Indien à Paris"
     type: conférence
   - date: "2019-12-12"
     title: "Conférence de J-Y de Trogoff sur l'artillerie américaine dans la 1re guerre mondiale à Nantes"
     type: conférence
+    description: ""
+    location: "Nantes"
+    link: ""
+    lat: 47.2186
+    lon: -1.5541
   - date: "2020-01-07"
     title: "Conférence du Prof. A. Gaillard sur La Motte-Picquet à Nantes"
     type: conférence
+    description: ""
+    location: "Nantes"
+    link: ""
+    lat: 47.2186
+    lon: -1.5541
   - date: "2020-01-16"
     title: "Réunion de travail des associations franco-américaines à Paris"
     type: réunion
   - date: "2020-02-27/2020-02-29"
     title: "Spring leadership meeting à Louisville (KY)"
     type: nssar
+    description: ""
+    location: "Louisville, Kentucky"
+    link: ""
+    lat: 38.2542
+    lon: -85.7594
   - date: "2020-03-06"
     title: "Assemblée générale de SAR France suivie d'un dîner à l'École militaire"
     type: assemblée
+    description: ""
+    location: "École Militaire, Paris"
+    link: ""
+    lat: 48.8518
+    lon: 2.3048
   - date: "2020-03-07"
     title: "Réunion des délégués régionaux de SAR France à Paris"
     type: réunion
@@ -116,15 +261,35 @@ events:
   - date: "2020-07-08"
     title: "Cérémonie au cimetière de Picpus sur la tombe de La Fayette (en petit comité)"
     type: commémoration
+    description: ""
+    location: "Cimetière de Picpus, 35 rue de Picpus, 75012 Paris"
+    link: ""
+    lat: 48.844
+    lon: 2.4004
   - date: "2020-08-22/2020-08-23"
     title: "3e édition de la reconstitution du camp de Vaussieux (Calvados)"
     type: commémoration
+    description: ""
+    location: "Vaussieux, Vaux-sur-Seulles (Calvados)"
+    link: ""
+    lat: 49.2602
+    lon: -0.6283
   - date: "2020-09-08"
     title: "Conférence de P. Villiers sur les combats de Jean Bart à Saint-Malo"
     type: conférence
+    description: ""
+    location: "Saint-Malo"
+    link: ""
+    lat: 48.6495
+    lon: -2.026
   - date: "2020-09-23"
     title: "Ravivage de la Flamme sous l'Arc de Triomphe"
     type: commémoration
+    description: ""
+    location: "Arc de Triomphe, Paris"
+    link: ""
+    lat: 48.8738
+    lon: 2.295
   - date: "2020-12-20"
     title: "Remise du prix Jacques de Trentinian à Mme Florence Prudhomme"
     type: conférence
@@ -137,39 +302,94 @@ events:
   - date: "2021-07-07"
     title: "Cérémonie au cimetière de Picpus en comité restreint"
     type: commémoration
+    description: ""
+    location: "Cimetière de Picpus, 35 rue de Picpus, 75012 Paris"
+    link: ""
+    lat: 48.844
+    lon: 2.4004
   - date: "2021-07-10/2021-07-15"
     title: "Congrès de la NSSAR à Renton (WA)"
     type: nssar
+    description: ""
+    location: "Renton, Washington"
+    link: ""
+    lat: 47.4799
+    lon: -122.2034
   - date: "2021-09-19"
     title: "Journée franco-américaine à Grasse"
     type: commémoration
+    description: ""
+    location: "Grasse"
+    link: ""
+    lat: 43.6589
+    lon: 6.9239
   - date: "2021-09-21"
     title: "Colloque sur l'apogée de la Marine Royale à Versailles"
     type: conférence
+    description: ""
+    location: "Versailles"
+    link: ""
+    lat: 48.8035
+    lon: 2.1267
   - date: "2021-09-23/2021-09-24"
     title: "Fall leadership meeting de la NSSAR à Louisville (KY)"
     type: nssar
+    description: ""
+    location: "Louisville, Kentucky"
+    link: ""
+    lat: 38.2542
+    lon: -85.7594
   - date: "2021-09-25"
     title: "Colloque des « Amis de Rochambeau » à Vendôme"
     type: conférence
+    description: ""
+    location: "Vendôme"
+    link: ""
+    lat: 47.7934
+    lon: 1.0662
   - date: "2021-09-29"
     title: "Ravivage de la Flamme sous l'Arc de Triomphe"
     type: commémoration
+    description: ""
+    location: "Arc de Triomphe, Paris"
+    link: ""
+    lat: 48.8738
+    lon: 2.295
   - date: "2021-10-09/2021-10-10"
     title: "Week-end à Saint-Omer"
     type: visite
+    description: ""
+    location: "Saint-Omer"
+    link: ""
+    lat: 50.7516
+    lon: 2.2534
   - date: "2021-10-18"
     title: "Inauguration de la statue de Rochambeau à Yorktown"
     type: commémoration
+    description: ""
+    location: "Yorktown, Virginie"
+    link: ""
+    lat: 37.2357
+    lon: -76.5136
   - date: "2022-02-26"
     title: "Soutenance de la thèse de M. Le Pottier sur Duportail"
     type: conférence
   - date: "2022-03-03/2022-03-04"
     title: "Spring leadership meeting de la NSSAR à Louisville (KY)"
     type: nssar
+    description: ""
+    location: "Louisville, Kentucky"
+    link: ""
+    lat: 38.2542
+    lon: -85.7594
   - date: "2022-03-25"
     title: "Assemblée générale de SAR France à Paris"
     type: assemblée
+    description: ""
+    location: "Paris"
+    link: ""
+    lat: 48.8535
+    lon: 2.3484
   - date: "2022-05-30"
     title: "Cérémonies du Memorial Day"
     type: commémoration
@@ -179,21 +399,46 @@ events:
   - date: "2022-07-05"
     title: "Cérémonie au cimetière de Picpus"
     type: commémoration
+    description: ""
+    location: "Cimetière de Picpus, 35 rue de Picpus, 75012 Paris"
+    link: ""
+    lat: 48.844
+    lon: 2.4004
   - date: "2022-07-10/2022-07-15"
     title: "Congrès de la NSSAR à Savannah (GE)"
     type: nssar
+    description: ""
+    location: "Savannah, Géorgie"
+    link: ""
+    lat: 32.079
+    lon: -81.0921
   - date: "2022-09-12/2022-09-18"
     title: "Exposition sur l'amiral de Grasse à Grasse"
     type: exposition
+    description: ""
+    location: "Grasse"
+    link: ""
+    lat: 43.6589
+    lon: 6.9239
   - date: "2022-09-20"
     title: "300e anniversaire de la naissance de l'Amiral de Grasse"
     type: commémoration
   - date: "2022-09-29/2022-10-01"
     title: "Fall leadership meeting à Louisville"
     type: nssar
+    description: ""
+    location: "Louisville, Kentucky"
+    link: ""
+    lat: 38.2542
+    lon: -85.7594
   - date: "2022-10-05"
     title: "Ravivage de la Flamme sous l'Arc de Triomphe avec les CAR"
     type: commémoration
+    description: ""
+    location: "Arc de Triomphe, Paris"
+    link: ""
+    lat: 48.8738
+    lon: 2.295
   - date: "2022-11-11"
     title: "Participation aux cérémonies à Suresnes et Versailles"
     type: commémoration
@@ -203,69 +448,164 @@ events:
   - date: "2023-03-02/2023-03-03"
     title: "Spring leadership meeting de la NSSAR à Louisville (KY)"
     type: nssar
+    description: ""
+    location: "Louisville, Kentucky"
+    link: ""
+    lat: 38.2542
+    lon: -85.7594
   - date: "2023-03-17"
     title: "Assemblée générale de SAR France à l'Institut Catholique de Paris"
     type: assemblée
+    description: ""
+    location: "Institut Catholique de Paris, 21 rue d'Assas, 75006 Paris"
+    link: ""
+    lat: 48.849
+    lon: 2.3299
   - date: "2023-03-19"
     title: "Conférence du Prof. P. Villiers à Tours sur la première bataille de la Chesapeake"
     type: conférence
+    description: ""
+    location: "Tours"
+    link: ""
+    lat: 47.39
+    lon: 0.6889
   - date: "2023-03-27"
     title: "Conférence du Prof. P. Villiers au Cercle France-Amériques sur les navires négriers français"
     type: conférence
+    description: ""
+    location: "Cercle France-Amériques, 9 avenue Franklin Roosevelt, 75008 Paris"
+    link: ""
+    lat: 48.8659
+    lon: 2.31
   - date: "2023-03-27"
     title: "Réunion des délégués régionaux de SAR France"
     type: réunion
   - date: "2023-05-28"
     title: "Memorial Day au monument de Marnes-la-Coquette et au cimetière de Suresnes"
     type: commémoration
+    description: ""
+    location: "Cimetière américain de Suresnes"
+    link: ""
+    lat: 48.8723
+    lon: 2.2177
   - date: "2023-06-05"
     title: "Conférence de Florence Prudhomme (prix Jacques de Trentinian 2023) à France-Amériques"
     type: conférence
+    description: ""
+    location: "Cercle France-Amériques, 9 avenue Franklin Roosevelt, 75008 Paris"
+    link: ""
+    lat: 48.8659
+    lon: 2.31
   - date: "2023-07-02"
     title: "Pique-nique annuel des CAR (Children of the American Revolution)"
     type: réunion
   - date: "2023-07-03/2023-07-06"
     title: "Académie d'été de la Fondation Saint-Omer Valeurs Transatlantiques"
     type: conférence
+    description: ""
+    location: "Saint-Omer"
+    link: ""
+    lat: 50.7516
+    lon: 2.2534
   - date: "2023-07-04"
     title: "Cérémonie au monument Pershing La Fayette à Versailles"
     type: commémoration
+    description: ""
+    location: "Versailles"
+    link: ""
+    lat: 48.8035
+    lon: 2.1267
   - date: "2023-07-05"
     title: "Cérémonie au cimetière de Picpus"
     type: commémoration
+    description: ""
+    location: "Cimetière de Picpus, 35 rue de Picpus, 75012 Paris"
+    link: ""
+    lat: 48.844
+    lon: 2.4004
   - date: "2023-07-15/2023-07-19"
     title: "Congrès de la NSSAR à Orlando (Floride)"
     type: nssar
+    description: ""
+    location: "Orlando, Floride"
+    link: ""
+    lat: 28.5421
+    lon: -81.379
   - date: "2023-10-04"
     title: "Ravivage de la Flamme sous l'Arc de Triomphe"
     type: commémoration
+    description: ""
+    location: "Arc de Triomphe, Paris"
+    link: ""
+    lat: 48.8738
+    lon: 2.295
   - date: "2023-10-12"
     title: "Conférence au château de Castries par le Prof. P. Villiers"
     type: conférence
+    description: ""
+    location: "Château de Castries (Hérault)"
+    link: ""
+    lat: 43.6777
+    lon: 3.9875
   - date: "2023-10-14"
     title: "Journée Histoire & Patrimoine à Châtellerault"
     type: visite
+    description: ""
+    location: "Châtellerault"
+    link: ""
+    lat: 46.818
+    lon: 0.5458
   - date: "2023-11-11"
     title: "Cérémonies à Marnes-la-Coquette, Suresnes et l'Arc de Triomphe"
     type: commémoration
   - date: "2023-11-12"
     title: "Journée à Bordeaux et Talence – Les juifs bordelais et la guerre d'indépendance"
     type: conférence
+    description: ""
+    location: "Bordeaux"
+    link: ""
+    lat: 44.8412
+    lon: -0.58
   - date: "2023-11-28"
     title: "Conférence de Mme Le Masne sur la Bretagne dans la guerre d'indépendance à Pornichet"
     type: conférence
+    description: ""
+    location: "Pornichet"
+    link: ""
+    lat: 47.2613
+    lon: -2.3364
   - date: "2023-11-28"
     title: "Conférence de l'Ambassadeur Philippe Étienne à l'invitation des Cincinnati au Jockey Club"
     type: conférence
+    description: ""
+    location: "Jockey Club, 2 rue Rabelais, 75008 Paris"
+    link: ""
+    lat: 48.8707
+    lon: 2.3127
   - date: "2024-02-29"
     title: "Spring leadership meeting de la NSSAR à Louisville (KY)"
     type: nssar
+    description: ""
+    location: "Louisville, Kentucky"
+    link: ""
+    lat: 38.2542
+    lon: -85.7594
   - date: "2024-03-22"
     title: "Assemblée générale de SAR France à l'Institut Catholique de Paris"
     type: assemblée
+    description: ""
+    location: "Institut Catholique de Paris, 21 rue d'Assas, 75006 Paris"
+    link: ""
+    lat: 48.849
+    lon: 2.3299
   - date: "2024-03-22"
     title: "Dîner annuel de SAR France au Palais du Luxembourg"
     type: assemblée
+    description: ""
+    location: "Palais du Luxembourg, Paris"
+    link: ""
+    lat: 48.8485
+    lon: 2.3378
   - date: "2024-04-06/2024-04-20"
     title: "Voyage en France du President General de la NSSAR"
     type: nssar
@@ -275,18 +615,38 @@ events:
   - date: "2024-05-16"
     title: "Conférence d'Hervé du Boisbaudry à la mairie du 7e arrondissement"
     type: conférence
+    description: ""
+    location: "Mairie du 7e arrondissement, 116 rue de Grenelle, 75007 Paris"
+    link: ""
+    lat: 48.8573
+    lon: 2.3204
   - date: "2024-05-25/2024-05-26"
     title: "Cérémonies du Memorial Day en France et en Belgique"
     type: commémoration
   - date: "2024-07-03"
     title: "Cérémonie au cimetière de Picpus"
     type: commémoration
+    description: ""
+    location: "Cimetière de Picpus, 35 rue de Picpus, 75012 Paris"
+    link: ""
+    lat: 48.844
+    lon: 2.4004
   - date: "2024-07-04"
     title: "Independence Day – Cérémonie au monument Pershing La Fayette de Versailles"
     type: commémoration
+    description: ""
+    location: "Versailles"
+    link: ""
+    lat: 48.8035
+    lon: 2.1267
   - date: "2024-07-10/2024-07-16"
     title: "Congrès de la NSSAR à Lancaster (PA)"
     type: nssar
+    description: ""
+    location: "Lancaster, Pennsylvanie"
+    link: ""
+    lat: 40.038
+    lon: -76.3057
   - date: "2024-09-05"
     title: "242e anniversaire de la bataille de Chesapeake par la Marine Nationale"
     type: commémoration
@@ -296,30 +656,65 @@ events:
   - date: "2024-09-15"
     title: "62e Journée Franco-Américaine Amiral de Grasse"
     type: commémoration
+    description: ""
+    location: "Grasse"
+    link: ""
+    lat: 43.6589
+    lon: 6.9239
   - date: "2024-10-02"
     title: "Ravivage de la Flamme sous l'Arc de Triomphe"
     type: commémoration
+    description: ""
+    location: "Arc de Triomphe, Paris"
+    link: ""
+    lat: 48.8738
+    lon: 2.295
   - date: "2024-10-09"
     title: "Assemblée générale extraordinaire (validation des nouveaux statuts)"
     type: assemblée
   - date: "2024-10-12/2024-10-13"
     title: "Week-end SAR France dans le Bordelais"
     type: visite
+    description: ""
+    location: "Bordeaux"
+    link: ""
+    lat: 44.8412
+    lon: -0.58
   - date: "2024-11-07/2024-12-25"
     title: "Exposition « Les Bourbonnais aux Amériques » à Moulins"
     type: exposition
+    description: ""
+    location: "Moulins (Allier)"
+    link: ""
+    lat: 46.5661
+    lon: 3.3332
   - date: "2024-11-09"
     title: "Journée à Versailles sur les pas du général Dentzel"
     type: visite
+    description: ""
+    location: "Versailles"
+    link: ""
+    lat: 48.8035
+    lon: 2.1267
   - date: "2025-01-16"
     title: "Conférence sur le futur maréchal Berthier (Cincinnati)"
     type: conférence
   - date: "2025-02-06"
     title: "Visite de la résidence de l'ambassadeur des États-Unis à Paris"
     type: visite
+    description: ""
+    location: "Hôtel de Pontalba, 41 rue du Faubourg Saint-Honoré, 75008 Paris"
+    link: ""
+    lat: 48.8697
+    lon: 2.3186
   - date: "2025-02-07"
     title: "Assemblée générale et dîner de SAR France au Palais du Luxembourg"
     type: assemblée
+    description: ""
+    location: "Palais du Luxembourg, Paris"
+    link: ""
+    lat: 48.8485
+    lon: 2.3378
   - date: "2025-02-11"
     title: "Validation des nouveaux statuts de SAR France"
     type: assemblée
@@ -332,36 +727,86 @@ events:
   - date: "2025-03-15"
     title: "Conférence sur Leray de Chaumont et Franklin à Nantes"
     type: conférence
+    description: ""
+    location: "Nantes"
+    link: ""
+    lat: 47.2186
+    lon: -1.5541
   - date: "2025-03-20"
     title: "Visite de la résidence de l'ambassadeur des États-Unis à Paris"
     type: visite
+    description: ""
+    location: "Hôtel de Pontalba, 41 rue du Faubourg Saint-Honoré, 75008 Paris"
+    link: ""
+    lat: 48.8697
+    lon: 2.3186
   - date: "2025-03-29"
     title: "Conférence sur l'amiral Jean-Gaspard Vence à Tonnerre"
     type: conférence
+    description: ""
+    location: "Tonnerre (Yonne)"
+    link: ""
+    lat: 47.8565
+    lon: 3.9733
   - date: "2025-04-07"
     title: "Réunion au Puy du Fou pour préparer le Centenaire de SAR France"
     type: réunion
+    description: ""
+    location: "Puy du Fou, Les Epesses"
+    link: ""
+    lat: 46.8888
+    lon: -0.9304
   - date: "2025-05-25"
     title: "Memorial Day"
     type: commémoration
   - date: "2025-06-14"
     title: "Inauguration de la Promenade Royal Deux-Ponts à Sathonay-Camp"
     type: commémoration
+    description: ""
+    location: "Sathonay-Camp"
+    link: ""
+    lat: 45.8244
+    lon: 4.8748
   - date: "2025-06-25"
     title: "Cérémonie au cimetière de Picpus"
     type: commémoration
+    description: ""
+    location: "Cimetière de Picpus, 35 rue de Picpus, 75012 Paris"
+    link: ""
+    lat: 48.844
+    lon: 2.4004
   - date: "2025-07-02"
     title: "Dîner des membres d'Île-de-France au Cercle Interallié"
     type: réunion
+    description: ""
+    location: "Cercle de l'Union interalliée, 33 rue du Faubourg Saint-Honoré, 75008 Paris"
+    link: ""
+    lat: 48.8692
+    lon: 2.32
   - date: "2025-07-12/2025-07-18"
     title: "Congrès de la NSSAR à Uncasville, Connecticut"
     type: nssar
+    description: ""
+    location: "Uncasville, Connecticut"
+    link: ""
+    lat: 41.4347
+    lon: -72.11
   - date: "2025-10-11"
     title: "Journée à Blaye (Gironde)"
     type: visite
+    description: ""
+    location: "Blaye (Gironde)"
+    link: ""
+    lat: 45.1271
+    lon: -0.6636
   - date: "2025-11-19"
     title: "Ravivage de la Flamme sous l'Arc de Triomphe"
     type: commémoration
+    description: ""
+    location: "Arc de Triomphe, Paris"
+    link: ""
+    lat: 48.8738
+    lon: 2.295
   - date: "2025-11-26"
     title: "Réunion préparatoire du 250e anniversaire de la Déclaration d'Indépendance avec l'ambassade des États-Unis"
     type: réunion
@@ -369,12 +814,18 @@ events:
     title: "Visite de l'Hôtel Saint-Florentin (Hôtel Talleyrand)"
     type: visite
     description: ""
-    location: ""
+    location: "Hôtel de Saint-Florentin (Hôtel de Talleyrand), 2 rue Saint-Florentin, 75001 Paris"
+    link: ""
+    lat: 48.8665
+    lon: 2.3235
   - date: "2025-12-06"
     title: "Visite de l'exposition « Excellences » – Bibliothèque de Versailles"
     type: visite
     description: ""
-    location: ""
+    location: "Bibliothèque municipale de Versailles, 5 rue de l'Indépendance Américaine, 78000 Versailles"
+    link: ""
+    lat: 48.8045
+    lon: 2.1248
   - date: "2025-12-18T18:00:00/2025-12-18T20:00:00"
     title: "Conférence « Atlas historique de la mer » et présentation des collections du musée national de la Marine"
     type: 400ans-marine-nationale
