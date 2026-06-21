@@ -54,7 +54,7 @@ SAR France is affiliated with the National Society Sons of the American Revoluti
 
 ## Contact Form {#contact-form}
 
-<form class="contact-form" id="contact-form" action="{{ site.Params.contactApiUrl }}" method="POST" novalidate>
+<form class="contact-form" id="contact-form" novalidate>
   <div class="form-row">
     <div class="form-group">
       <label for="nom">Last Name <span class="required" aria-hidden="true">*</span></label>
@@ -86,5 +86,6 @@ SAR France is affiliated with the National Society Sons of the American Revoluti
   </div>
   <p class="form-note">Fields marked with <span class="required">*</span> are required.</p>
   <div class="form-feedback" id="form-feedback" role="alert" aria-live="polite"></div>
+  <div id="turnstile-container" class="turnstile-box"></div>
   <button type="submit" class="btn btn-primary form-submit" id="form-submit">Send</button>
 </form>

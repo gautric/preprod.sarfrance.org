@@ -37,3 +37,9 @@
     opacity: 0.6;
     cursor: not-allowed;
 }
+
+/* Cloudflare Turnstile widget spacing */
+.turnstile-box {
+    margin: 0 0 1rem;
+    min-height: 65px;
+}

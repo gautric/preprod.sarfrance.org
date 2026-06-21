@@ -30,6 +30,25 @@ $(function () {
     var isEnglish = window.location.pathname.indexOf('/en/') === 0;
     var homeUrl = isEnglish ? '/en/' : '/';
 
+    /* ─── Cloudflare Turnstile (anti-spam) ──────────────────────────────────────── */
+    var turnstileKey = $('.page-content').data('turnstile-key');
+    var turnstileWidgetId = null;
+
+    // Render the widget explicitly once the Turnstile script has loaded.
+    function renderTurnstile() {
+        if (!turnstileKey || !$('#turnstile-container').length) return;
+        if (typeof window.turnstile === 'undefined') {
+            // Script not ready yet — retry shortly.
+            window.setTimeout(renderTurnstile, 200);
+            return;
+        }
+        turnstileWidgetId = window.turnstile.render('#turnstile-container', {
+            sitekey: String(turnstileKey),
+            language: isEnglish ? 'en' : 'fr'
+        });
+    }
+    renderTurnstile();
+
     $form.on('submit', function (e) {
         e.preventDefault();
 
@@ -57,6 +76,24 @@ $(function () {
             return;
         }
 
+        // Require a Turnstile token before sending (when the widget is enabled).
+        var turnstileToken = '';
+        if (turnstileKey) {
+            if (typeof window.turnstile === 'undefined' || turnstileWidgetId === null) {
+                showError(isEnglish
+                    ? 'The anti-spam verification is still loading. Please wait a moment and try again.'
+                    : 'La vérification anti-spam est en cours de chargement. Veuillez patienter un instant puis réessayer.');
+                return;
+            }
+            turnstileToken = window.turnstile.getResponse(turnstileWidgetId) || '';
+            if (!turnstileToken) {
+                showError(isEnglish
+                    ? 'Please complete the anti-spam verification.'
+                    : 'Veuillez valider la vérification anti-spam.');
+                return;
+            }
+        }
+
         // Disable button during submission
         $submit.prop('disabled', true).text(isEnglish ? 'Sending…' : 'Envoi en cours…');
 
@@ -69,7 +106,9 @@ $(function () {
                 prenom: prenom,
                 email: email,
                 objet: objet,
-                message: message
+                message: message,
+                // Cloudflare Turnstile token — verified server-side via siteverify.
+                'cf-turnstile-response': turnstileToken
             }),
             success: function () {
                 // Redirect to homepage on success
@@ -77,6 +116,11 @@ $(function () {
             },
             error: function (xhr) {
                 $submit.prop('disabled', false).text(isEnglish ? 'Send' : 'Envoyer');
+
+                // Turnstile tokens are single-use — reset so the user can retry.
+                if (turnstileWidgetId !== null && typeof window.turnstile !== 'undefined') {
+                    window.turnstile.reset(turnstileWidgetId);
+                }
 
                 var errorMsg;
                 try {

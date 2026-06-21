@@ -86,5 +86,6 @@ SAR France est affiliée à la National Society Sons of the American Revolution 
   </div>
   <p class="form-note">Les champs marqués d'un <span class="required">*</span> sont obligatoires.</p>
   <div class="form-feedback" id="form-feedback" role="alert" aria-live="polite"></div>
+  <div id="turnstile-container" class="turnstile-box"></div>
   <button type="submit" class="btn btn-primary form-submit" id="form-submit">Envoyer</button>
 </form>
