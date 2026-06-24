@@ -1,5 +1,7 @@
-/* Notices — search & tag filtering */
-$(function() {
+/* Notices — search & tag filtering (vanilla) */
+SAR.onReady(function () {
+    'use strict';
+
     FilterEngine({
         filterSelector: '.filter-btn[data-tag]',
         filterAttr: 'data-tag',

@@ -1,5 +1,5 @@
 /* ============================================================
-   SAR FRANCE — Filter Engine
+   SAR FRANCE — Filter Engine (vanilla, no dependency)
    Shared filtering, search & group visibility logic.
 
    Usage:
@@ -10,18 +10,23 @@
      filterAttr      — data attribute on buttons holding the value (e.g. 'data-tag', 'data-type')
      itemSelector    — selector for filterable items (required)
      itemAttr        — data attribute on items holding tag/type values (e.g. 'data-tags', 'data-type')
-     multiValue      — true if itemAttr contains comma-separated values (default: false)
+     multiValue      — true if itemAttr contains comma-separated values (default: true)
      searchSelector  — selector for search input (optional, enables text search)
      searchAttr      — data attribute on items holding searchable text (default: 'data-search')
      noResultSelector — selector for "no result" element (optional)
-     noResultMethod  — 'toggle' (jQuery .toggle) or 'hidden' (prop hidden) (default: 'toggle')
+     noResultMethod  — 'toggle' (show/hide via .hidden class) or 'hidden' (native hidden attribute) (default: 'toggle')
      groupSelector   — selector for group containers (optional, enables group show/hide)
      groupItemSelector — selector for items inside a group to check visibility (optional, defaults to itemSelector + ':not(.hidden)')
      groupMode       — 'container' (items inside .tl-group) or 'sibling' (month rows followed by item rows) (default: 'container')
+
+   @param {object} options
+   @returns {{ applyFilters: () => void }} public API
    ============================================================ */
 
 // eslint-disable-next-line no-unused-vars
 function FilterEngine(options) {
+    'use strict';
+
     var filterAttr = options.filterAttr || 'data-tag';
     var itemAttr = options.itemAttr || 'data-tags';
     var multiValue = options.multiValue !== false;
@@ -29,25 +34,30 @@ function FilterEngine(options) {
     var noResultMethod = options.noResultMethod || 'toggle';
     var groupMode = options.groupMode || 'container';
 
-    var $filters = $(options.filterSelector);
-    var $items = $(options.itemSelector);
-    var $search = options.searchSelector ? $(options.searchSelector) : null;
-    var $noResult = options.noResultSelector ? $(options.noResultSelector) : null;
+    var filters = SAR.selectAll(options.filterSelector);
+    var items = SAR.selectAll(options.itemSelector);
+    var search = options.searchSelector ? document.querySelector(options.searchSelector) : null;
+    var noResult = options.noResultSelector ? document.querySelector(options.noResultSelector) : null;
 
     var activeFilter = 'all';
 
-    function matchesFilter($el) {
+    /** @param {Element} el */
+    function matchesFilter(el) {
         if (activeFilter === 'all') return true;
-        var val = $el.attr(itemAttr) || '';
+        var val = el.getAttribute(itemAttr) || '';
         if (multiValue) {
             return val.split(',').indexOf(activeFilter) !== -1;
         }
         return val === activeFilter;
     }
 
-    function matchesSearch($el, query) {
+    /**
+     * @param {Element} el
+     * @param {string} query lowercased search query
+     */
+    function matchesSearch(el, query) {
         if (!query) return true;
-        var text = ($el.attr(searchAttr) || '').toLowerCase();
+        var text = (el.getAttribute(searchAttr) || '').toLowerCase();
         return text.indexOf(query) !== -1;
     }
 
@@ -55,46 +65,46 @@ function FilterEngine(options) {
         if (!options.groupSelector) return;
 
         if (groupMode === 'container') {
-            $(options.groupSelector).each(function() {
-                var selector = options.groupItemSelector || (options.itemSelector + ':not(.hidden)');
-                var visible = $(this).find(selector).length;
-                $(this).toggle(visible > 0);
+            var selector = options.groupItemSelector || (options.itemSelector + ':not(.hidden)');
+            SAR.selectAll(options.groupSelector).forEach(function (group) {
+                var visible = group.querySelectorAll(selector).length;
+                group.classList.toggle('hidden', visible === 0);
             });
         } else if (groupMode === 'sibling') {
             // Agenda-style: group header rows followed by item rows as siblings
             var groupSel = options.groupSelector;
-            $(groupSel).each(function() {
-                var $next = $(this).next();
+            SAR.selectAll(groupSel).forEach(function (header) {
+                var next = header.nextElementSibling;
                 var hasVisible = false;
-                while ($next.length && !$next.is(groupSel)) {
-                    if ($next.is(options.itemSelector) && !$next.hasClass('hidden')) {
+                while (next && !next.matches(groupSel)) {
+                    if (next.matches(options.itemSelector) && !next.classList.contains('hidden')) {
                         hasVisible = true;
                         break;
                     }
-                    $next = $next.next();
+                    next = next.nextElementSibling;
                 }
-                $(this).toggle(hasVisible);
+                header.classList.toggle('hidden', !hasVisible);
             });
         }
     }
 
+    /** @param {number} visibleCount */
     function updateNoResult(visibleCount) {
-        if (!$noResult) return;
+        if (!noResult) return;
         if (noResultMethod === 'hidden') {
-            $noResult.prop('hidden', visibleCount > 0);
+            noResult.hidden = visibleCount > 0;
         } else {
-            $noResult.toggle(visibleCount === 0);
+            noResult.classList.toggle('hidden', visibleCount !== 0);
         }
     }
 
     function applyFilters() {
-        var query = $search ? $search.val().toLowerCase().trim() : '';
+        var query = search ? search.value.toLowerCase().trim() : '';
         var visibleCount = 0;
 
-        $items.each(function() {
-            var $el = $(this);
-            var visible = matchesFilter($el) && matchesSearch($el, query);
-            $el.toggleClass('hidden', !visible);
+        items.forEach(function (el) {
+            var visible = matchesFilter(el) && matchesSearch(el, query);
+            el.classList.toggle('hidden', !visible);
             if (visible) visibleCount++;
         });
 
@@ -103,16 +113,18 @@ function FilterEngine(options) {
     }
 
     // Bind filter buttons
-    $filters.on('click', function() {
-        $filters.removeClass('active');
-        $(this).addClass('active');
-        activeFilter = $(this).attr(filterAttr);
-        applyFilters();
+    filters.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            filters.forEach(function (b) { b.classList.remove('active'); });
+            btn.classList.add('active');
+            activeFilter = btn.getAttribute(filterAttr);
+            applyFilters();
+        });
     });
 
     // Bind search input
-    if ($search) {
-        $search.on('input', applyFilters);
+    if (search) {
+        search.addEventListener('input', applyFilters);
     }
 
     // Public API

@@ -1,33 +1,46 @@
-/* Hero Carousel */
-$(function() {
-    var $track = $('.carousel-track');
-    if (!$track.length) return;
+/* Hero Carousel (vanilla) */
+SAR.onReady(function () {
+    'use strict';
 
-    var $slides = $track.find('.carousel-slide');
-    var $dots = $('.carousel-dot');
-    var $prev = $('.carousel-prev');
-    var $next = $('.carousel-next');
+    var track = document.querySelector('.carousel-track');
+    if (!track) return;
+
+    var slides = track.querySelectorAll('.carousel-slide');
+    var dots = SAR.selectAll('.carousel-dot');
+    var prev = document.querySelector('.carousel-prev');
+    var next = document.querySelector('.carousel-next');
     var current = 0;
     var timer;
 
     function goTo(index) {
-        current = (index + $slides.length) % $slides.length;
-        $track.css('transform', 'translateX(-' + current * 100 + '%)');
-        $dots.removeClass('active').eq(current).addClass('active');
+        current = (index + slides.length) % slides.length;
+        track.style.transform = 'translateX(-' + (current * 100) + '%)';
+        dots.forEach(function (dot, i) {
+            dot.classList.toggle('active', i === current);
+        });
     }
 
     function autoPlay() {
-        timer = setInterval(function() { goTo(current + 1); }, 7500);
+        timer = window.setInterval(function () { goTo(current + 1); }, 7500);
     }
 
     function resetTimer() {
-        clearInterval(timer);
+        window.clearInterval(timer);
         autoPlay();
     }
 
-    $prev.on('click', function() { goTo(current - 1); resetTimer(); });
-    $next.on('click', function() { goTo(current + 1); resetTimer(); });
-    $dots.on('click', function() { goTo(Number($(this).data('index'))); resetTimer(); });
+    if (prev) {
+        prev.addEventListener('click', function () { goTo(current - 1); resetTimer(); });
+    }
+    if (next) {
+        next.addEventListener('click', function () { goTo(current + 1); resetTimer(); });
+    }
+    dots.forEach(function (dot) {
+        dot.addEventListener('click', function () {
+            goTo(Number(dot.dataset.index));
+            resetTimer();
+        });
+    });
 
     autoPlay();
 });

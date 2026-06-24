@@ -1,4 +1,5 @@
-<script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
+{{- $utilsJS := resources.Get "js/utils.js" | resources.Fingerprint }}
+<script src="{{ $utilsJS.RelPermalink }}" integrity="{{ $utilsJS.Data.Integrity }}"></script>
 {{- $mainJS := resources.Get "js/main.js" | resources.Fingerprint }}
 <script src="{{ $mainJS.RelPermalink }}" integrity="{{ $mainJS.Data.Integrity }}"></script>
 {{- $filterJS := resources.Get "js/filter-engine.js" | resources.Fingerprint }}

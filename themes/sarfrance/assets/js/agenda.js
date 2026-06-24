@@ -1,5 +1,7 @@
-/* Agenda — type filtering & Leaflet mini-maps */
-$(function() {
+/* Agenda — type filtering & Leaflet mini-maps (vanilla) */
+SAR.onReady(function () {
+    'use strict';
+
     initPageCardMaps();
 
     FilterEngine({

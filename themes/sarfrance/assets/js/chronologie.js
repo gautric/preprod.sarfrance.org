@@ -1,5 +1,7 @@
-/* Chronologie — tag filtering & Leaflet mini-maps */
-$(function() {
+/* Chronologie — tag filtering & Leaflet mini-maps (vanilla) */
+SAR.onReady(function () {
+    'use strict';
+
     initPageCardMaps();
 
     FilterEngine({

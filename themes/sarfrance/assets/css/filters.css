@@ -3,6 +3,14 @@
    Used by agenda, chronologie, notices, bibliothèque, hauts-lieux
    ============================================================ */
 
+/* ---- Utilities ---- */
+/* Generic visibility helper toggled by the JS filter engine. Applies to
+   items, group containers and "no result" messages alike. */
+.hidden,
+[hidden] {
+    display: none !important;
+}
+
 /* ---- Filter pills ---- */
 .filter-btn {
     padding: 6px 16px;

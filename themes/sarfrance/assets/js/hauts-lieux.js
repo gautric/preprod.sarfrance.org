@@ -1,5 +1,7 @@
-/* Hauts lieux — tag filtering, text search & Leaflet mini-maps */
-$(function() {
+/* Hauts lieux — tag filtering, text search & Leaflet mini-maps (vanilla) */
+SAR.onReady(function () {
+    'use strict';
+
     initPageCardMaps();
 
     FilterEngine({
