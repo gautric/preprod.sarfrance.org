@@ -78,6 +78,8 @@
             iso = new Isotope('.book-grid', {
                 itemSelector: '.book-card',
                 layoutMode: 'vertical',
+                // Use the plain function filter (no jQuery in the project)
+                isJQueryFiltering: false,
                 getSortData: {
                     title: '[data-title]',
                     author: '[data-author]',
@@ -103,10 +105,13 @@
             var query = searchInput ? searchInput.value.toLowerCase().trim() : '';
 
             iso.arrange({
-                filter: function () {
-                    var cats = (this.getAttribute('data-cat') || '').split(' ');
+                // Vanilla Isotope calls the filter function with the element as
+                // its first argument (with jQuery it was bound to `this`).
+                filter: function (itemElem) {
+                    var el = itemElem || this;
+                    var cats = (el.getAttribute('data-cat') || '').split(' ');
                     var matchesCat = activeCat === 'all' || cats.indexOf(activeCat) !== -1;
-                    var matchesSearch = !query || (this.getAttribute('data-search') || '').indexOf(query) !== -1;
+                    var matchesSearch = !query || (el.getAttribute('data-search') || '').indexOf(query) !== -1;
                     return matchesCat && matchesSearch;
                 }
             });
