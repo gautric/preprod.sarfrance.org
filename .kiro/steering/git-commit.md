@@ -40,7 +40,7 @@ Utiliser le format **Conventional Commits** :
 | `contact`      | `content/*/contact/`                                |
 | `home`         | Page d'accueil, carousel                            |
 | `theme`        | `themes/sarfrance-theme/` (layouts, CSS, JS)        |
-| `config`       | `hugo.yaml`, menus, paramètres du site              |
+| `config`       | `config/` (config Hugo, menus, paramètres du site) |
 | `ci`           | `.github/workflows/`, scripts de déploiement        |
 | `steering`     | `.kiro/steering/`                                   |
 | `i18n`         | `i18n/fr.yaml`, `i18n/en.yaml`                     |

@@ -15,7 +15,7 @@ CNAME                           @gautric @SARFrance
 
 # ── Partie technique (gautric uniquement) ──────────────────────────
 # Configuration Hugo
-hugo.yaml                       @gautric
+config/                         @gautric
 
 # Thème (templates, CSS, JS)
 themes/                         @gautric

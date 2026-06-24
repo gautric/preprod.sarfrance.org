@@ -1,0 +1,154 @@
+# Main menu — English
+# Equivalent to languages.en.menus.main in the former monolithic hugo.yaml.
+main:
+  - identifier: "accueil"
+    name: "Home"
+    url: "/en/"
+    weight: 1
+  - identifier: "organisation"
+    name: "The Society"
+    url: "/en/la-societe/"
+    weight: 2
+  - identifier: "histoire"
+    name: "History"
+    url: "/en/histoire/"
+    weight: 3
+  - identifier: "activites"
+    name: "Activities"
+    url: "/en/activites/"
+    weight: 4
+  - identifier: "contact"
+    name: "Contact"
+    url: "/en/contact/"
+    weight: 5
+  # Submenus - The Society
+  - identifier: "organisation-index"
+    name: "The Society"
+    url: "/en/la-societe/"
+    parent: "organisation"
+    weight: 1
+  - identifier: "histoire-sar-france"
+    name: "Our History"
+    url: "/en/la-societe/notre-histoire/"
+    parent: "organisation"
+    weight: 2
+  - identifier: "nssar"
+    name: "The NSSAR"
+    url: "/en/la-societe/nssar/"
+    parent: "organisation"
+    weight: 3
+  - identifier: "objet-et-vocation"
+    name: "Mission and Purpose"
+    url: "/en/la-societe/mission-et-vocation/"
+    parent: "organisation"
+    weight: 4
+  - identifier: "statuts"
+    name: "Bylaws, Rules and Charter"
+    url: "/en/la-societe/statuts/"
+    parent: "organisation"
+    weight: 5
+  - identifier: "societes"
+    name: "Allied Societies and Links"
+    url: "/en/la-societe/societes-amies/"
+    parent: "organisation"
+    weight: 6
+  # Submenus - History
+  - identifier: "histoire-index"
+    name: "History"
+    url: "/en/histoire/"
+    parent: "histoire"
+    weight: 1
+  - identifier: "chronologie"
+    name: "Timeline"
+    url: "/en/histoire/chronologie/"
+    parent: "histoire"
+    weight: 2
+  - identifier: "operations"
+    name: "Campaigns and Battles"
+    url: "/en/histoire/campagnes-et-batailles/"
+    parent: "histoire"
+    weight: 4
+  - identifier: "chefs"
+    name: "Leaders and Volunteers"
+    url: "/en/histoire/chefs-et-volontaires/"
+    parent: "histoire"
+    weight: 5
+  - identifier: "hauts-lieux"
+    name: "Sites of Remembrance"
+    url: "/en/histoire/lieux-de-memoire/"
+    parent: "histoire"
+    weight: 6
+  - identifier: "pertes-francaises"
+    name: "The Human Cost"
+    url: "/en/histoire/cout-humain/"
+    parent: "histoire"
+    weight: 7
+  - identifier: "strategies"
+    name: "France in the War"
+    url: "/en/histoire/la-france-dans-la-guerre/"
+    parent: "histoire"
+    weight: 8
+  - identifier: "ephemerides"
+    name: "Ephemerides"
+    url: "/en/histoire/ephemerides/"
+    parent: "histoire"
+    weight: 9
+  # Submenus - Activities
+  - identifier: "activites-index"
+    name: "Activities"
+    url: "/en/activites/"
+    parent: "activites"
+    weight: 1
+  - identifier: "agenda"
+    name: "Calendar"
+    url: "/en/activites/agenda-2026/"
+    params:
+      dynamic_year: true
+    parent: "activites"
+    weight: 2
+  - identifier: "dictionnaire"
+    name: "Ancestors' Dictionary"
+    url: "/en/activites/dictionnaire-des-ancetres/"
+    parent: "activites"
+    weight: 3
+  - identifier: "publications"
+    name: "Journal and Publications"
+    url: "/en/activites/publications/"
+    parent: "activites"
+    weight: 4
+  - identifier: "prix-trentinian"
+    name: "\"Jacques de Trentinian\" Award"
+    url: "/en/activites/prix-trentinian/"
+    parent: "activites"
+    weight: 5
+  - identifier: "bibliotheque"
+    name: "Library"
+    url: "/en/activites/bibliotheque/"
+    parent: "activites"
+    weight: 6
+  - identifier: "phototheque"
+    name: "Photo Gallery"
+    url: "/en/activites/phototheque/"
+    parent: "activites"
+    weight: 7
+  # Submenus - Contact
+  - identifier: "formulaire"
+    name: "Write to Us"
+    url: "/en/contact/"
+    parent: "contact"
+    weight: 1
+  - identifier: "nous-rejoindre"
+    name: "Join Us"
+    url: "/en/contact/nous-rejoindre/"
+    parent: "contact"
+    weight: 2
+  - identifier: "cotisation"
+    name: "Dues and Donations"
+    url: "/en/contact/cotisation/"
+    parent: "contact"
+    weight: 3
+  - identifier: "mentions-legales"
+    name: "Legal Notice"
+    url: "/en/contact/mentions-legales/"
+    parent: "contact"
+    weight: 4

@@ -1,0 +1,50 @@
+# Configuration principale du site
+# Découpée depuis l'ancien hugo.yaml monolithique (racine) :
+#   - languages.yaml       → bloc `languages` (sans les menus)
+#   - menus.fr.yaml        → menu principal français
+#   - menus.en.yaml        → menu principal anglais
+#   - params.yaml          → bloc `params` global
+# Hugo fusionne automatiquement tous les fichiers de ce dossier.
+baseURL: "https://www.sarfrance.org/"
+title: "SAR France"
+theme: "sarfrance"
+defaultContentLanguage: "fr"
+defaultContentLanguageInSubdir: false
+removePathAccents: true
+enableRobotsTXT: true
+enableGitInfo: true
+
+# Le site n'utilise pas de taxonomies : on évite les pages vides /tags/ et /categories/
+disableKinds:
+  - taxonomy
+  - term
+
+services:
+  googleAnalytics:
+    ID: "G-W4TG2424QZ"
+
+outputFormats:
+  ics:
+    mediaType: "text/calendar"
+    baseName: "index"
+    isPlainText: true
+    notAlternative: true
+  json:
+    mediaType: "application/json"
+    baseName: "index"
+    isPlainText: true
+    notAlternative: true
+
+mediaTypes:
+  text/calendar:
+    suffixes:
+      - "ics"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+sitemap:
+  changefreq: "monthly"
+  priority: 0.5

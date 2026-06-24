@@ -2,7 +2,15 @@
 
 ```
 .
-├── hugo.yaml                  # Site configuration (menus, params, markup, languages)
+├── config/                    # Site configuration (merged by Hugo)
+│   ├── _default/
+│   │   ├── hugo.yaml          # Core settings, markup, sitemap, output formats, services
+│   │   ├── languages.yaml     # Multilingual languages block (per-language params, no menus)
+│   │   ├── menus.fr.yaml      # French main menu
+│   │   ├── menus.en.yaml      # English main menu
+│   │   └── params.yaml        # Global params (agenda year, address, contact, fees, Turnstile)
+│   └── development/
+│       └── hugo.yaml          # Dev overrides (localhost baseURL, used by hugo server)
 ├── content/
 │   ├── fr/                    # French content (default language)
 │   │   ├── _index.md          # Homepage FR
@@ -53,16 +61,16 @@
 
 ## Key Conventions
 
-- Content sections map 1:1 to top-level menu items in `hugo.yaml`
+- Content sections map 1:1 to top-level menu items in `config/_default/menus.fr.yaml` / `menus.en.yaml`
 - Each section folder has an `_index.md` for the section landing page
 - Agenda pages are year-based: `agenda-2024.md`, `agenda-2025.md`, `agenda-2026.md`
-- The agenda menu link in `hugo.yaml` should point to the current year's agenda
+- The agenda menu link in `config/_default/menus.fr.yaml` / `menus.en.yaml` should point to the current year's agenda
 - Custom layouts exist for `activites/agenda`, `activites/bibliotheque`, `activites/notices`, `histoire/chronologie`, `histoire/hauts-lieux`, `histoire/notices`, and `contact/contact`; all other pages use `_default/single.html`
-- The theme directory is `themes/sarfrance/` and the theme key in `hugo.yaml` is `sarfrance` — changes to templates/CSS/JS go there
+- The theme directory is `themes/sarfrance/` and the theme key in `config/_default/hugo.yaml` is `sarfrance` — changes to templates/CSS/JS go there
 - Content images (carousel photos, illustrations, etc.) live in the root `static/` directory, organized in topic subfolders (e.g. `static/images/carousel/`, `static/images/histoire-sar-france/`). Never put content images in `themes/sarfrance/static/` — the theme's `static/` is reserved for theme-intrinsic assets only. This keeps content assets in the main repo and avoids coupling them to the submodule.
 - The root `layouts/` directory is empty and reserved for theme overrides if needed
 - Data files in `data/` use structured YAML with typed entries (event types, tags, periods)
-- Tag/type colors are defined as CSS classes in `colors.css`, named `tag-{key}` or `type-{key}` where `{key}` is the urlized YAML key (e.g., YAML key `révolte` → CSS class `tag-revolte`). Templates derive the class name via `{{ $key | urlize }}`. The `removePathAccents = true` setting in `hugo.yaml` ensures `urlize` strips accents. Never use inline `style=` or `color:` fields in YAML — add a new CSS class in `colors.css` instead.
+- Tag/type colors are defined as CSS classes in `colors.css`, named `tag-{key}` or `type-{key}` where `{key}` is the urlized YAML key (e.g., YAML key `révolte` → CSS class `tag-revolte`). Templates derive the class name via `{{ $key | urlize }}`. The `removePathAccents = true` setting in `config/_default/hugo.yaml` ensures `urlize` strips accents. Never use inline `style=` or `color:` fields in YAML — add a new CSS class in `colors.css` instead.
 - `filters.css` defines shared UI components used across all data-driven pages (agenda, chronologie, notices, bibliothèque, hauts-lieux):
   - `.filter-btn` — pill-shaped filter buttons (base + `.active` state)
   - `.page-filters` — flex container for filter button groups
@@ -81,18 +89,18 @@
 - jQuery 4.x is loaded from CDN in `baseof.html` and is the standard JS framework — use `$()` selectors and jQuery methods, not vanilla DOM APIs
 - JS load order in `baseof.html`: jQuery CDN → `main.js` (global). Page-specific scripts (e.g., `agenda.js`, `chronologie.js`, `notices.js`, `carousel.js`) are loaded in their respective layout templates.
 - Language prefix logic is centralized in the `lang-prefix.html` partial — use `{{ partial "lang-prefix.html" . }}` instead of inline `{{ if eq .Lang "en" }}/en{{ end }}` checks
-- The `currentAgendaYear` param in `hugo.yaml` drives the agenda year across menus, homepage, and 404 — update it once per year instead of searching for hardcoded years
-- The `githubRepo` param in `hugo.yaml` configures the GitHub repository URL used by the page-contribute widget
+- The `currentAgendaYear` param in `config/_default/params.yaml` drives the agenda year across menus, homepage, and 404 — update it once per year instead of searching for hardcoded years
+- The `githubRepo` param in `config/_default/params.yaml` configures the GitHub repository URL used by the page-contribute widget
 - The `footerText` param uses `{year}` placeholder, replaced at build time by `now.Format "2006"` — no manual year updates needed
 
 ## Multilanguage Architecture
 
-- Hugo's built-in multilingual mode is configured in `hugo.yaml` under `languages`
+- Hugo's built-in multilingual mode is configured in `config/_default/languages.yaml`
 - Default language: `fr` (French, weight 1) — served at root `/`
 - Secondary language: `en` (English, weight 2) — served under `/en/`
 - `defaultContentLanguageInSubdir = false` means French pages have no `/fr/` prefix
 - Content directories: `content/fr/` and `content/en/` (set via `contentDir` per language)
-- Each language has its own full menu tree defined in `hugo.yaml` (`languages.fr.menus.main`, `languages.en.menus.main`)
+- Each language has its own full menu tree in its own file (`config/_default/menus.fr.yaml`, `config/_default/menus.en.yaml`)
 - English menu URLs are prefixed with `/en/` (e.g. `/en/organisation/nssar/`)
 - Language-specific params (description, heroTitle, footerText, etc.) live under `languages.XX.params`
 - UI strings (button labels, section titles, etc.) use `{{ i18n "key" }}` and are defined in `i18n/fr.yaml` and `i18n/en.yaml`
@@ -108,16 +116,16 @@
 
 - `page-contribute.html` partial renders an edit icon in the page header of every `single.html` page
 - On hover/focus, a dropdown shows links to open GitHub issues (bug report, content modification) pre-filled with the page title
-- Links point to the GitHub repo configured via `params.githubRepo` in `hugo.yaml`, using issue templates from `.github/ISSUE_TEMPLATE/`
+- Links point to the GitHub repo configured via `params.githubRepo` in `config/_default/params.yaml`, using issue templates from `.github/ISSUE_TEMPLATE/`
 - Labels are translated via i18n keys (`contribute_error`, `contribute_comment`, etc.)
 - The widget is invoked automatically by `page-header.html` — do not call it directly in layout templates
 
 ## Shortcodes
 
 - `{{< books genre="marine" >}}` — renders a filtered book grid from `data/books.yaml`; params: `genre`, `author`, `limit`
-- `{{< contact >}}` or `{{< contact "phone" >}}` — inlines a contact value from `hugo.yaml` `params.contact`
+- `{{< contact >}}` or `{{< contact "phone" >}}` — inlines a contact value from `config/_default/params.yaml` `contact`
 - `{{< param "key" >}}` — inlines any site param value
-- `{{< address >}}` — renders the full address from `hugo.yaml` `params.address`
+- `{{< address >}}` — renders the full address from `config/_default/params.yaml` `address`
 
 ## Agenda Event Fields
 

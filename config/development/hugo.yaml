@@ -1,0 +1,4 @@
+# Surcharges pour l'environnement de développement (hugo server).
+# Fusionné par-dessus config/_default/. `hugo server` utilise cet
+# environnement par défaut ; `hugo` (build) utilise « production ».
+baseURL: "http://localhost:1313/"

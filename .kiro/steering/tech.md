@@ -2,8 +2,13 @@
 
 ## Static Site Generator
 - Hugo (extended) v0.157.0 minimum
-- Configuration: `hugo.yaml` (YAML format)
-- Theme: `sarfrance` (custom, in `themes/sarfrance/`, loaded as a git submodule — theme key in `hugo.yaml` is `sarfrance`)
+- Configuration: split across the `config/` directory (YAML format), merged automatically by Hugo:
+  - `config/_default/hugo.yaml` — core settings, markup, sitemap, output formats, services
+  - `config/_default/languages.yaml` — multilingual `languages` block (per-language params, without menus)
+  - `config/_default/menus.fr.yaml` / `config/_default/menus.en.yaml` — main menu per language
+  - `config/_default/params.yaml` — global `params` (agenda year, address, contact, fees, Turnstile key…)
+  - `config/development/hugo.yaml` — development overrides (localhost `baseURL`, used by `hugo server`)
+- Theme: `sarfrance` (custom, in `themes/sarfrance/`, loaded as a git submodule — theme key in `config/_default/hugo.yaml` is `sarfrance`)
 
 ## Frontend
 - Plain HTML templates (Go templates / Hugo templating)

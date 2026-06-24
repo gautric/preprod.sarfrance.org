@@ -1,0 +1,25 @@
+# Paramètres globaux du site (non liés à une langue)
+currentAgendaYear: 2026
+brand: "SAR France"
+githubRepo: "https://github.com/gautric/preprod.sarfrance.org"
+contactApiUrl: "https://api.contact.sarfrance.org/contact"
+# Cloudflare Turnstile public site key for the contact form anti-spam widget.
+# Replace the test key below with the real site key from the Cloudflare dashboard.
+# Test key "1x00000000000000000000AA" always passes (dev only).
+turnstileSiteKey: "0x4AAAAAADovafrxp7-wW8sQ"
+address:
+  street: "20 rue Bosquet"
+  zipCode: "75007"
+  city: "Paris"
+  country: "France"
+  full: "20 rue Bosquet, 75007 Paris, France"
+  nssar: "809 West Main Street, Louisville, Kentucky 40202, USA"
+contact:
+  email: "sarfrance.sons@gmail.com"
+  phone: "01 40 62 97 19"
+fees:
+  cotisation: 110
+  chancellerie: 20
+  premiere_inscription: 130
+  reduction_pct: 50
+  avantage_fiscal_pct: 66

@@ -1,0 +1,154 @@
+# Menu principal — Français
+# Équivaut à languages.fr.menus.main dans l'ancien hugo.yaml monolithique.
+main:
+  - identifier: "accueil"
+    name: "Accueil"
+    url: "/"
+    weight: 1
+  - identifier: "organisation"
+    name: "La Société"
+    url: "/la-societe/"
+    weight: 2
+  - identifier: "histoire"
+    name: "Histoire"
+    url: "/histoire/"
+    weight: 3
+  - identifier: "activites"
+    name: "Activités"
+    url: "/activites/"
+    weight: 4
+  - identifier: "contact"
+    name: "Contact"
+    url: "/contact/"
+    weight: 5
+  # Sous-menus - La Société
+  - identifier: "organisation-index"
+    name: "La Société"
+    url: "/la-societe/"
+    parent: "organisation"
+    weight: 1
+  - identifier: "histoire-sar-france"
+    name: "Notre histoire"
+    url: "/la-societe/notre-histoire/"
+    parent: "organisation"
+    weight: 2
+  - identifier: "nssar"
+    name: "La NSSAR"
+    url: "/la-societe/nssar/"
+    parent: "organisation"
+    weight: 3
+  - identifier: "objet-et-vocation"
+    name: "Mission et vocation"
+    url: "/la-societe/mission-et-vocation/"
+    parent: "organisation"
+    weight: 4
+  - identifier: "statuts"
+    name: "Statuts, règlement et charte"
+    url: "/la-societe/statuts/"
+    parent: "organisation"
+    weight: 5
+  - identifier: "societes"
+    name: "Sociétés amies et liens"
+    url: "/la-societe/societes-amies/"
+    parent: "organisation"
+    weight: 6
+  # Sous-menus - Histoire
+  - identifier: "histoire-index"
+    name: "Histoire"
+    url: "/histoire/"
+    parent: "histoire"
+    weight: 1
+  - identifier: "chronologie"
+    name: "Chronologie"
+    url: "/histoire/chronologie/"
+    parent: "histoire"
+    weight: 2
+  - identifier: "operations"
+    name: "Campagnes et batailles"
+    url: "/histoire/campagnes-et-batailles/"
+    parent: "histoire"
+    weight: 4
+  - identifier: "chefs"
+    name: "Chefs et volontaires"
+    url: "/histoire/chefs-et-volontaires/"
+    parent: "histoire"
+    weight: 5
+  - identifier: "hauts-lieux"
+    name: "Lieux de mémoire"
+    url: "/histoire/lieux-de-memoire/"
+    parent: "histoire"
+    weight: 6
+  - identifier: "pertes-francaises"
+    name: "Le coût humain"
+    url: "/histoire/cout-humain/"
+    parent: "histoire"
+    weight: 7
+  - identifier: "strategies"
+    name: "La France dans la guerre"
+    url: "/histoire/la-france-dans-la-guerre/"
+    parent: "histoire"
+    weight: 8
+  - identifier: "ephemerides"
+    name: "Éphémérides"
+    url: "/histoire/ephemerides/"
+    parent: "histoire"
+    weight: 9
+  # Sous-menus - Activités
+  - identifier: "activites-index"
+    name: "Activités"
+    url: "/activites/"
+    parent: "activites"
+    weight: 1
+  - identifier: "agenda"
+    name: "Agenda"
+    url: "/activites/agenda-2026/"
+    params:
+      dynamic_year: true
+    parent: "activites"
+    weight: 2
+  - identifier: "dictionnaire"
+    name: "Dictionnaire des ancêtres"
+    url: "/activites/dictionnaire-des-ancetres/"
+    parent: "activites"
+    weight: 3
+  - identifier: "publications"
+    name: "Revue et publications"
+    url: "/activites/publications/"
+    parent: "activites"
+    weight: 4
+  - identifier: "prix-trentinian"
+    name: "Prix « Jacques de Trentinian »"
+    url: "/activites/prix-trentinian/"
+    parent: "activites"
+    weight: 5
+  - identifier: "bibliotheque"
+    name: "Bibliothèque"
+    url: "/activites/bibliotheque/"
+    parent: "activites"
+    weight: 6
+  - identifier: "phototheque"
+    name: "Photothèque"
+    url: "/activites/phototheque/"
+    parent: "activites"
+    weight: 7
+  # Sous-menus - Contact
+  - identifier: "formulaire"
+    name: "Nous écrire"
+    url: "/contact/"
+    parent: "contact"
+    weight: 1
+  - identifier: "nous-rejoindre"
+    name: "Nous rejoindre"
+    url: "/contact/nous-rejoindre/"
+    parent: "contact"
+    weight: 2
+  - identifier: "cotisation"
+    name: "Cotisation et dons"
+    url: "/contact/cotisation/"
+    parent: "contact"
+    weight: 3
+  - identifier: "mentions-legales"
+    name: "Mentions légales"
+    url: "/contact/mentions-legales/"
+    parent: "contact"
+    weight: 4

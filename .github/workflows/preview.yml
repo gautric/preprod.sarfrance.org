@@ -9,7 +9,7 @@ on:
       - 'data/**'
       - 'static/**'
       - 'layouts/**'
-      - 'hugo.yaml'
+      - 'config/**'
       - 'assets/**'
 
 permissions:
