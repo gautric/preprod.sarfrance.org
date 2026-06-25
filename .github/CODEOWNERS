@@ -11,7 +11,7 @@ content/                        @gautric @SARFrance
 data/                           @gautric @SARFrance
 static/                         @gautric @SARFrance
 i18n/                           @gautric @SARFrance
-CNAME                           @gautric @SARFrance
+CNAME                           @gautric
 
 # ── Partie technique (gautric uniquement) ──────────────────────────
 # Configuration Hugo
