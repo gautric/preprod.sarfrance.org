@@ -40,7 +40,6 @@
       "numberOfPages": {{ $book.numberOfPages | default 0 }},
       "bookFormat": {{ $book.bookFormat | default "" | jsonify }},
       "isbn": {{ $book.isbn | default "" | jsonify }},
-      "image": {{ $book.image | default "" | jsonify }},
       "gallica": {{ $book.gallica | default "" | jsonify }},
       "inLanguage": {{ $book.inLanguage | default "" | jsonify }},
       "genre": {{ $book.genre | jsonify }}

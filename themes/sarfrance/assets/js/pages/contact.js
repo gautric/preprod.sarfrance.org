@@ -9,27 +9,30 @@
 
     /* ─── Leaflet Maps ──────────────────────────────────────────────────────── */
     function initMaps() {
-        if (typeof L === 'undefined') return;
-
-        var tileUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-        var tileAttr = '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>';
+        if (!SAR.map.available()) return;
 
         var parisEl = document.getElementById('map-paris');
         if (parisEl) {
             /* SAR France — 20 rue Bosquet, 75007 Paris */
-            var mapParis = L.map(parisEl).setView([48.8561, 2.3067], 16);
-            L.tileLayer(tileUrl, { attribution: tileAttr, maxZoom: 18 }).addTo(mapParis);
-            L.marker([48.8561, 2.3067]).addTo(mapParis)
-                .bindPopup(parisEl.dataset.popup || '').openPopup();
+            SAR.map.create(parisEl, {
+                center: [48.8561, 2.3067],
+                zoom: 16,
+                marker: true,
+                popup: parisEl.dataset.popup || '',
+                openPopup: true
+            });
         }
 
         var louisvilleEl = document.getElementById('map-louisville');
         if (louisvilleEl) {
             /* NSSAR — 809 W Main St, Louisville, KY */
-            var mapLouisville = L.map(louisvilleEl).setView([38.2574, -85.7665], 16);
-            L.tileLayer(tileUrl, { attribution: tileAttr, maxZoom: 18 }).addTo(mapLouisville);
-            L.marker([38.2574, -85.7665]).addTo(mapLouisville)
-                .bindPopup(louisvilleEl.dataset.popup || '').openPopup();
+            SAR.map.create(louisvilleEl, {
+                center: [38.2574, -85.7665],
+                zoom: 16,
+                marker: true,
+                popup: louisvilleEl.dataset.popup || '',
+                openPopup: true
+            });
         }
     }
 
@@ -44,8 +47,8 @@
         var apiUrl = pageContent ? pageContent.dataset.contactApi : '';
 
         // Determine home URL based on language (detect /en/ prefix)
-        var isEnglish = window.location.pathname.indexOf('/en/') === 0;
-        var homeUrl = isEnglish ? '/en/' : '/';
+        var isEnglish = SAR.isEnglish();
+        var homeUrl = SAR.homeUrl();
 
         /* ─── Cloudflare Turnstile (anti-spam) ──────────────────────────────── */
         var turnstileKey = pageContent ? pageContent.dataset.turnstileKey : '';

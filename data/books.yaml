@@ -14,7 +14,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: Acquisition
   status: valid
@@ -29,7 +28,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: 'http://catalogue.bnf.fr/ark:/12148/cb35478239q/f1.highres'
   gallica: 'http://catalogue.bnf.fr/ark:/12148/cb35478239q'
   source: ''
   status: valid
@@ -44,7 +42,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -59,7 +56,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k3392621n/f11.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k3392621n'
   source: Don Vergennes
   status: valid
@@ -74,7 +70,6 @@ books:
   genre:
   - histoire-generale
   isbn: '9782950893048'
-  image: ''
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -89,7 +84,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Colleville
   status: valid
@@ -104,7 +98,6 @@ books:
   genre:
   - histoire-generale
   isbn: '9782221053645'
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k48120278/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k48120278'
   source: Don Vergennes
   status: valid
@@ -119,7 +112,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -135,7 +127,6 @@ books:
   genre:
   - biographie
   isbn: '9782843461217'
-  image: ''
   gallica: ''
   source: Don M. Boyer
   status: valid
@@ -150,7 +141,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: Don E. Sutton
   status: valid
@@ -165,7 +155,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: Don E. Sutton
   status: valid
@@ -180,7 +169,6 @@ books:
   genre:
   - lieux-historiques
   isbn: '9780895872173'
-  image: 'http://books.google.com/books/content?id=qAd9ngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don Trentinian
   status: valid
@@ -195,7 +183,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: 'http://books.google.com/books/content?id=VhW3vF_C39IC&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -210,7 +197,6 @@ books:
   genre:
   - marine
   isbn: '9782903178185'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -225,7 +211,6 @@ books:
   genre:
   - biographie
   isbn: '9782262007546'
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k33618127/f9.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k33618127'
   source: ''
   status: valid
@@ -240,7 +225,6 @@ books:
   genre:
   - biographie
   isbn: '9782262007546'
-  image: ''
   gallica: ''
   source: ''
   status: duplicated
@@ -255,7 +239,6 @@ books:
   genre:
   - biographie
   isbn: '9782262007546'
-  image: ''
   gallica: ''
   source: Don Vergennes
   status: duplicated
@@ -270,7 +253,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: 'http://books.google.com/books/content?id=9_1nAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -285,7 +267,6 @@ books:
   genre:
   - divers
   isbn: '9782822408783'
-  image: 'http://books.google.com/books/content?id=N6yxCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don Beigbeder
   status: valid
@@ -300,7 +281,6 @@ books:
   genre:
   - sources
   isbn: ''
-  image: ''
   gallica: ''
   source: Fonds U. Bonnel
   status: valid
@@ -315,7 +295,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: 'http://books.google.com/books/content?id=7HZwAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k6365363p'
   source: Don Vergennes
   status: valid
@@ -330,7 +309,6 @@ books:
   genre:
   - histoire-generale
   isbn: '9782737357633'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -345,7 +323,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: 'http://books.google.com/books/content?id=g4kGAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don M. Boyer
   status: valid
@@ -360,7 +337,6 @@ books:
   genre:
   - gia
   isbn: '9782759900336'
-  image: 'http://books.google.com/books/content?id=rAhFDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -375,7 +351,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: Don auteur
   status: valid
@@ -390,7 +365,6 @@ books:
   genre:
   - divers
   isbn: '9791034396276'
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k30458519/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k30458519'
   source: ''
   status: valid
@@ -405,7 +379,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: 'http://books.google.com/books/content?id=tg_oAAYahKAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Acquisition
   status: valid
@@ -420,7 +393,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: 'http://books.google.com/books/content?id=CetKAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Acquisition
   status: valid
@@ -435,7 +407,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: 'http://books.google.com/books/content?id=CetKAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Acquisition
   status: valid
@@ -450,7 +421,6 @@ books:
   genre:
   - histoire-generale
   isbn: '9782350771335'
-  image: 'http://books.google.com/books/content?id=HZkNAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Acquisition
   status: valid
@@ -465,7 +435,6 @@ books:
   genre:
   - histoire-generale
   isbn: '9782350771335'
-  image: 'http://books.google.com/books/content?id=HZkNAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: duplicated
@@ -480,7 +449,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: 'http://books.google.com/books/content?id=DnYsAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -495,7 +463,6 @@ books:
   genre:
   - repertoires
   isbn: '9782350774053'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -510,7 +477,6 @@ books:
   genre:
   - repertoires
   isbn: '9782350774053'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -525,7 +491,6 @@ books:
   genre:
   - repertoires
   isbn: '9780785981336'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -540,7 +505,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: 'http://books.google.com/books/content?id=DnYsAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -555,7 +519,6 @@ books:
   genre:
   - repertoires
   isbn: '9780785981336'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -570,7 +533,6 @@ books:
   genre:
   - biographie
   isbn: '9782731412703'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -585,7 +547,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don M. Boyer
   status: valid
@@ -600,7 +561,6 @@ books:
   genre:
   - gia
   isbn: '9780861589647'
-  image: 'https://gallica.bnf.fr/ark:/12148/bd6t57506587/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bd6t57506587'
   source: Don Vergennes
   status: valid
@@ -615,7 +575,6 @@ books:
   genre:
   - genealogie
   isbn: '9780785982562'
-  image: ''
   gallica: ''
   source: Don J.-M. Robine
   status: valid
@@ -630,7 +589,6 @@ books:
   genre:
   - histoire-generale
   isbn: '9782329295268'
-  image: 'http://books.google.com/books/content?id=k4_YxwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k9601826k'
   source: Don M. Boyer
   status: valid
@@ -645,7 +603,6 @@ books:
   genre:
   - divers
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Rideau
   status: valid
@@ -660,7 +617,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: 'http://books.google.com/books/content?id=V5B9AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -675,7 +631,6 @@ books:
   genre:
   - marine
   isbn: '9782841411931'
-  image: 'http://books.google.com/books/content?id=TyfVLsCF9v4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don M. Boyer
   status: valid
@@ -690,7 +645,6 @@ books:
   genre:
   - gia
   isbn: '9780313052552'
-  image: 'http://books.google.com/books/content?id=SFDeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -705,7 +659,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -720,7 +673,6 @@ books:
   genre:
   - biographie
   isbn: '9781602069503'
-  image: 'http://books.google.com/books/content?id=qUzr9c30ApkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -735,7 +687,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -750,7 +701,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Noailles
   status: valid
@@ -765,7 +715,6 @@ books:
   genre:
   - repertoires
   isbn: '9782860500302'
-  image: ''
   gallica: ''
   source: Don Rideau
   status: valid
@@ -780,7 +729,6 @@ books:
   genre:
   - sources
   isbn: '9781359272034'
-  image: 'http://books.google.com/books/content?id=xCU4vgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -795,7 +743,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -810,7 +757,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -825,7 +771,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: 'http://books.google.com/books/content?id=Nal2AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don éditeur
   status: valid
@@ -840,7 +785,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: 'http://books.google.com/books/content?id=f01eAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -855,7 +799,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: 'http://books.google.com/books/content?id=wiRYAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -870,7 +813,6 @@ books:
   genre:
   - genealogie
   isbn: ''
-  image: 'http://books.google.com/books/content?id=YyNLAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k55650702'
   source: Don M. Boyer
   status: valid
@@ -885,7 +827,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k5609478k/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k5609478k'
   source: ''
   status: valid
@@ -900,7 +841,6 @@ books:
   genre:
   - marine
   isbn: '9782014030020'
-  image: 'http://books.google.com/books/content?id=P-NmzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don M. Boyer
   status: valid
@@ -915,7 +855,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k6325558z/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k6325558z'
   source: Don M. Boyer
   status: valid
@@ -930,7 +869,6 @@ books:
   genre:
   - histoire-generale
   isbn: '9782706811838'
-  image: ''
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -945,7 +883,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -960,7 +897,6 @@ books:
   genre:
   - genealogie
   isbn: '9782867813627'
-  image: 'http://books.google.com/books/content?id=_dPyI1WvuVcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k6305423v'
   source: ''
   status: valid
@@ -975,7 +911,6 @@ books:
   genre:
   - genealogie
   isbn: ''
-  image: 'http://books.google.com/books/content?id=MxkmjFj8-V8C&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don J.-M. Robine
   status: valid
@@ -990,7 +925,6 @@ books:
   genre:
   - histoire-generale
   isbn: '9780943235158'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -1005,7 +939,6 @@ books:
   genre:
   - lieux-historiques
   isbn: ''
-  image: 'http://books.google.com/books/content?id=mAOkuX57fBEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k6370638c'
   source: ''
   status: valid
@@ -1020,7 +953,6 @@ books:
   genre:
   - biographie
   isbn: '9782262054311'
-  image: 'http://books.google.com/books/content?id=PcdXDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k4801278p'
   source: ''
   status: valid
@@ -1035,7 +967,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -1050,7 +981,6 @@ books:
   genre:
   - gia
   isbn: '9781855321670'
-  image: 'http://books.google.com/books/content?id=vhAqvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -1065,7 +995,6 @@ books:
   genre:
   - histoire-generale
   isbn: '9780850458503'
-  image: 'http://books.google.com/books/content?id=5KBWvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -1080,7 +1009,6 @@ books:
   genre:
   - histoire-generale
   isbn: '9781855326231'
-  image: 'http://books.google.com/books/content?id=_IMXvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -1095,7 +1023,6 @@ books:
   genre:
   - histoire-generale
   isbn: '9780919316188'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -1110,7 +1037,6 @@ books:
   genre:
   - gia
   isbn: '9781478791836'
-  image: 'http://books.google.com/books/content?id=v7E7swEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don E. L. Sutton
   status: valid
@@ -1125,7 +1051,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: 'http://books.google.com/books/content?id=FGlUAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -1140,7 +1065,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: 'http://books.google.com/books/content?id=rEQjAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -1155,7 +1079,6 @@ books:
   genre:
   - marine
   isbn: '9782364452794'
-  image: ''
   gallica: ''
   source: Don éditeur
   status: valid
@@ -1170,7 +1093,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'http://books.google.com/books/content?id=ycfRFE1KVR4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -1185,7 +1107,6 @@ books:
   genre:
   - marine
   isbn: '9782402101738'
-  image: 'http://books.google.com/books/content?id=CZRYDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -1200,7 +1121,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'http://books.google.com/books/content?id=jCM3AQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -1215,7 +1135,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'http://books.google.com/books/content?id=qtlWAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -1230,7 +1149,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'http://books.google.com/books/content?id=OsRCAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -1245,7 +1163,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: Don M dern cart
   status: valid
@@ -1260,7 +1177,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: 'http://books.google.com/books/content?id=Laq3tHpe4DMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don Saint-Girons
   status: valid
@@ -1275,7 +1191,6 @@ books:
   genre:
   - biographie
   isbn: '9782213016719'
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k712873/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k712873'
   source: Don Vergennes
   status: valid
@@ -1290,7 +1205,6 @@ books:
   genre:
   - histoire-generale
   isbn: '9782867813627'
-  image: 'http://books.google.com/books/content?id=_dPyI1WvuVcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -1305,7 +1219,6 @@ books:
   genre:
   - divers
   isbn: '9782867813627'
-  image: 'http://books.google.com/books/content?id=_dPyI1WvuVcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don auteur
   status: valid
@@ -1320,7 +1233,6 @@ books:
   genre:
   - gia
   isbn: '9780807807453'
-  image: 'http://books.google.com/books/content?id=yxgV0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don Ph. Henrat
   status: valid
@@ -1335,7 +1247,6 @@ books:
   genre:
   - genealogie
   isbn: ''
-  image: 'http://books.google.com/books/content?id=D6rvAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don M. Boyer
   status: valid
@@ -1350,7 +1261,6 @@ books:
   genre:
   - biographie
   isbn: '9782759600144'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -1365,7 +1275,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: 'http://books.google.com/books/content?id=6ZJqqh6L5hkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -1380,7 +1289,6 @@ books:
   genre:
   - biographie
   isbn: '9781505903270'
-  image: 'http://books.google.com/books/content?id=1ZchrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -1395,7 +1303,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -1410,7 +1317,6 @@ books:
   genre:
   - biographie
   isbn: '9782905700339'
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k33592057/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k33592057'
   source: ''
   status: valid
@@ -1425,7 +1331,6 @@ books:
   genre:
   - biographie
   isbn: '9782340112407'
-  image: 'http://books.google.com/books/content?id=NYiSEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k6512015r'
   source: ''
   status: valid
@@ -1440,7 +1345,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'http://books.google.com/books/content?id=kUBnAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -1455,7 +1359,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'http://books.google.com/books/content?id=bbnTNr-2PBgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -1470,7 +1373,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -1485,7 +1387,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'http://books.google.com/books/content?id=QUsCMtNt5_oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -1500,7 +1401,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -1515,7 +1415,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'http://books.google.com/books/content?id=vYWzxi5BjBUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -1530,7 +1429,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'http://books.google.com/books/content?id=6cN-yFq_8X8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -1545,7 +1443,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'http://books.google.com/books/content?id=2F8BKkWLY-UC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -1560,7 +1457,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'http://books.google.com/books/content?id=ydcRAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -1575,7 +1471,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'http://books.google.com/books/content?id=Fjb8gEHjBxAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -1590,7 +1485,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'http://books.google.com/books/content?id=1ci6kgatWzMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -1605,7 +1499,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'http://books.google.com/books/content?id=1ci6kgatWzMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -1620,7 +1513,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'http://books.google.com/books/content?id=6Ks9AAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -1635,7 +1527,6 @@ books:
   genre:
   - marine
   isbn: '9782296452602'
-  image: 'http://books.google.com/books/content?id=hJrUCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -1650,7 +1541,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: Don B. Desthieux
   status: valid
@@ -1666,7 +1556,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k9789065v/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k9789065v'
   source: ''
   status: valid
@@ -1681,7 +1570,6 @@ books:
   genre:
   - gia
   isbn: '9782877540797'
-  image: 'http://books.google.com/books/content?id=PYeZGPtJTE0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -1696,7 +1584,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -1711,7 +1598,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -1726,7 +1612,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: 'http://books.google.com/books/content?id=4qwRakO6QykC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -1741,7 +1626,6 @@ books:
   genre:
   - gia
   isbn: '9782916403694'
-  image: 'http://books.google.com/books/content?id=qSS9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k213549s'
   source: ''
   status: valid
@@ -1756,7 +1640,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -1771,7 +1654,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: 'http://books.google.com/books/content?id=nfliRF-biPAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -1786,7 +1668,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: 'http://books.google.com/books/content?id=Vst2AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -1801,7 +1682,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: 'http://books.google.com/books/content?id=9YoMAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -1816,7 +1696,6 @@ books:
   genre:
   - histoire-generale
   isbn: '9782905118561'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -1831,7 +1710,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: 'http://books.google.com/books/content?id=-9wEdUHdi84C&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -1846,7 +1724,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -1861,7 +1738,6 @@ books:
   genre:
   - histoire-generale
   isbn: '9781563110283'
-  image: 'http://books.google.com/books/content?id=8Jyj2TEPgNsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don Louisiana SAR
   status: valid
@@ -1876,7 +1752,6 @@ books:
   genre:
   - lieux-historiques
   isbn: ''
-  image: 'http://books.google.com/books/content?id=Fno-AAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -1891,7 +1766,6 @@ books:
   genre:
   - lieux-historiques
   isbn: ''
-  image: 'http://books.google.com/books/content?id=OotNYNf766AC&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -1906,7 +1780,6 @@ books:
   genre:
   - lieux-historiques
   isbn: '9782952011709'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -1921,7 +1794,6 @@ books:
   genre:
   - lieux-historiques
   isbn: ''
-  image: 'http://books.google.com/books/content?id=1U8YT9nBu5cC&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -1936,7 +1808,6 @@ books:
   genre:
   - lieux-historiques
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -1951,7 +1822,6 @@ books:
   genre:
   - lieux-historiques
   isbn: '9780516046815'
-  image: 'http://books.google.com/books/content?id=rfp8iD-76esC&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -1966,7 +1836,6 @@ books:
   genre:
   - lieux-historiques
   isbn: ''
-  image: ''
   gallica: ''
   source: Entrée
   status: valid
@@ -1981,7 +1850,6 @@ books:
   genre:
   - lieux-historiques
   isbn: '9782840164340'
-  image: 'http://books.google.com/books/content?id=hPtwEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -1996,7 +1864,6 @@ books:
   genre:
   - lieux-historiques
   isbn: ''
-  image: 'http://books.google.com/books/content?id=TfEEAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -2011,7 +1878,6 @@ books:
   genre:
   - lieux-historiques
   isbn: ''
-  image: 'http://books.google.com/books/content?id=aD4KAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -2026,7 +1892,6 @@ books:
   genre:
   - lieux-historiques
   isbn: ''
-  image: 'http://books.google.com/books/content?id=x1IhAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -2041,7 +1906,6 @@ books:
   genre:
   - lieux-historiques
   isbn: ''
-  image: 'http://books.google.com/books/content?id=WvgTAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -2056,7 +1920,6 @@ books:
   genre:
   - genealogie
   isbn: '9782912259646'
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k6261856s/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k6261856s'
   source: ''
   status: valid
@@ -2071,7 +1934,6 @@ books:
   genre:
   - genealogie
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -2086,7 +1948,6 @@ books:
   genre:
   - sources
   isbn: ''
-  image: 'http://books.google.com/books/content?id=D8yxshMo8w0C&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Fonds U. Bonnel
   status: valid
@@ -2101,7 +1962,6 @@ books:
   genre:
   - sources
   isbn: ''
-  image: 'http://books.google.com/books/content?id=bQMUAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Fonds U. Bonnel
   status: valid
@@ -2116,7 +1976,6 @@ books:
   genre:
   - sources
   isbn: ''
-  image: 'http://books.google.com/books/content?id=Ollf1k0KPQMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Fonds U. Bonnel
   status: valid
@@ -2131,7 +1990,6 @@ books:
   genre:
   - sources
   isbn: ''
-  image: 'http://books.google.com/books/content?id=4j5uAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Fonds U. Bonnel
   status: valid
@@ -2146,7 +2004,6 @@ books:
   genre:
   - sources
   isbn: ''
-  image: 'http://books.google.com/books/content?id=nB-4AAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Fonds U. Bonnel
   status: valid
@@ -2161,7 +2018,6 @@ books:
   genre:
   - sources
   isbn: ''
-  image: 'http://books.google.com/books/content?id=FOQxAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -2176,7 +2032,6 @@ books:
   genre:
   - sources
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -2191,7 +2046,6 @@ books:
   genre:
   - catalogues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=f5-rvCDvfI4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -2206,7 +2060,6 @@ books:
   genre:
   - catalogues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=5rGxAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bd6t5922930p'
   source: Don G. Priet
   status: valid
@@ -2221,7 +2074,6 @@ books:
   genre:
   - catalogues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=_DiTAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -2236,7 +2088,6 @@ books:
   genre:
   - catalogues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=FSt3AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -2251,7 +2102,6 @@ books:
   genre:
   - catalogues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=0LsOAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -2266,7 +2116,6 @@ books:
   genre:
   - catalogues
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -2281,7 +2130,6 @@ books:
   genre:
   - catalogues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=uF_fAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -2296,7 +2144,6 @@ books:
   genre:
   - catalogues
   isbn: '9782262019860'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -2311,7 +2158,6 @@ books:
   genre:
   - catalogues
   isbn: '9782110944351'
-  image: ''
   gallica: ''
   source: Don Fr Am Foun
   status: valid
@@ -2326,7 +2172,6 @@ books:
   genre:
   - catalogues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=43XjqWsFuj0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -2341,7 +2186,6 @@ books:
   genre:
   - catalogues
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k3043976v/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k3043976v'
   source: ''
   status: valid
@@ -2356,7 +2200,6 @@ books:
   genre:
   - catalogues
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Rochambeau
   status: valid
@@ -2371,7 +2214,6 @@ books:
   genre:
   - catalogues
   isbn: '9782311103106'
-  image: 'http://books.google.com/books/content?id=GtosEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -2386,7 +2228,6 @@ books:
   genre:
   - catalogues
   isbn: '9782759241767'
-  image: 'http://books.google.com/books/content?id=jxmeEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -2401,7 +2242,6 @@ books:
   genre:
   - catalogues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=QOtOAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Entrée
   status: valid
@@ -2416,7 +2256,6 @@ books:
   genre:
   - catalogues
   isbn: ''
-  image: ''
   gallica: ''
   source: Don M. Boyer
   status: valid
@@ -2431,7 +2270,6 @@ books:
   genre:
   - catalogues
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -2446,7 +2284,6 @@ books:
   genre:
   - catalogues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=zgNaAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -2461,7 +2298,6 @@ books:
   genre:
   - catalogues
   isbn: '9782906524361'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -2476,7 +2312,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: ''
   gallica: ''
   source: Don M. Boyer
   status: valid
@@ -2491,7 +2326,6 @@ books:
   genre:
   - revues
   isbn: '9780245506086'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -2506,7 +2340,6 @@ books:
   genre:
   - revues
   isbn: '9782818704950'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -2521,7 +2354,6 @@ books:
   genre:
   - revues
   isbn: '9780245506376'
-  image: 'http://books.google.com/books/content?id=o6eyHAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -2536,7 +2368,6 @@ books:
   genre:
   - revues
   isbn: '9780245508387'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -2551,7 +2382,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=Xuo4AQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -2566,7 +2396,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=Apo5AQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -2581,7 +2410,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=4fWNqTHz6I8C&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -2596,7 +2424,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: duplicated
@@ -2611,7 +2438,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=xPenZRzHhP8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -2626,7 +2452,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -2641,7 +2466,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -2656,7 +2480,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=ezWZGJC_S-EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -2671,7 +2494,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -2686,7 +2508,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=7S3-GW7YJC0C&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don Hanotaux
   status: valid
@@ -2701,7 +2522,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=8f53u-Q0b8MC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -2716,7 +2536,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=-vNrx-7Z-pEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -2731,7 +2550,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=3mo7AAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -2746,7 +2564,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=BoVqmcwj9j0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -2761,7 +2578,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Trentinian
   status: valid
@@ -2776,7 +2592,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -2791,7 +2606,6 @@ books:
   genre:
   - revues
   isbn: '9791027102624'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -2806,7 +2620,6 @@ books:
   genre:
   - revues
   isbn: '9782903179861'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -2821,7 +2634,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -2836,7 +2648,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -2851,7 +2662,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -2866,7 +2676,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=KYDbAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don E. d'Aboville
   status: valid
@@ -2881,7 +2690,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: ''
   gallica: ''
   source: Don E. d'Aboville
   status: valid
@@ -2896,7 +2704,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: ''
   gallica: ''
   source: Don E. d'Aboville
   status: valid
@@ -2911,7 +2718,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: ''
   gallica: ''
   source: Don E. d'Aboville
   status: valid
@@ -2926,7 +2732,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=BWsKAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don E. d'Aboville
   status: valid
@@ -2941,7 +2746,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: ''
   gallica: ''
   source: Don E. d'Aboville
   status: valid
@@ -2956,7 +2760,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: ''
   gallica: ''
   source: Don E. d'Aboville
   status: valid
@@ -2971,7 +2774,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: ''
   gallica: ''
   source: Don E. d'Aboville
   status: valid
@@ -2986,7 +2788,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=8aWfAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don E. d'Aboville
   status: valid
@@ -3001,7 +2802,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=HPIHAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -3016,7 +2816,6 @@ books:
   genre:
   - revues
   isbn: '9782307088868'
-  image: 'http://books.google.com/books/content?id=YhLqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -3031,7 +2830,6 @@ books:
   genre:
   - revues
   isbn: '9782307088868'
-  image: 'http://books.google.com/books/content?id=YhLqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -3046,7 +2844,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: 'http://books.google.com/books/content?id=Sq5JAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -3061,7 +2858,6 @@ books:
   genre:
   - revues
   isbn: '9782842050610'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3076,7 +2872,6 @@ books:
   genre:
   - divers
   isbn: '9782867814082'
-  image: 'http://books.google.com/books/content?id=5RPyQAumWmgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don Révauger
   status: valid
@@ -3091,7 +2886,6 @@ books:
   genre:
   - divers
   isbn: ''
-  image: ''
   gallica: ''
   source: Entrée
   status: valid
@@ -3106,7 +2900,6 @@ books:
   genre:
   - histoire-generale
   isbn: '9782849343357'
-  image: ''
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -3121,7 +2914,6 @@ books:
   genre:
   - histoire-generale
   isbn: '9782350390918'
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k9754496d/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k9754496d'
   source: ''
   status: valid
@@ -3136,7 +2928,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3151,7 +2942,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3166,7 +2956,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3181,7 +2970,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3196,7 +2984,6 @@ books:
   genre:
   - gia
   isbn: '9782205027044'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3211,7 +2998,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3226,7 +3012,6 @@ books:
   genre:
   - lieux-historiques
   isbn: '9781501715891'
-  image: 'http://books.google.com/books/content?id=4VBtDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don participants
   status: valid
@@ -3241,7 +3026,6 @@ books:
   genre:
   - lieux-historiques
   isbn: ''
-  image: 'http://books.google.com/books/content?id=-GS-lBuCymsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -3256,7 +3040,6 @@ books:
   genre:
   - repertoires
   isbn: '9782750410636'
-  image: ''
   gallica: ''
   source: Don Chatelain
   status: valid
@@ -3271,7 +3054,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: 'http://books.google.com/books/content?id=dyBTXtnUjTUC&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k65709399'
   source: ''
   status: valid
@@ -3286,7 +3068,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: 'http://books.google.com/books/content?id=lQ8aAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k30685451'
   source: Don Vergennes
   status: valid
@@ -3301,7 +3082,6 @@ books:
   genre:
   - lieux-historiques
   isbn: '9781608877850'
-  image: 'http://books.google.com/books/content?id=TgUKswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don M. Boyer
   status: valid
@@ -3316,7 +3096,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3331,7 +3110,6 @@ books:
   genre:
   - divers
   isbn: ''
-  image: ''
   gallica: ''
   source: Don J. Langlet
   status: valid
@@ -3346,7 +3124,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3361,7 +3138,6 @@ books:
   genre:
   - divers
   isbn: '9780962145131'
-  image: 'http://books.google.com/books/content?id=nvUxItIp5qYC&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -3376,7 +3152,6 @@ books:
   genre:
   - divers
   isbn: '9780962145117'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3391,7 +3166,6 @@ books:
   genre:
   - divers
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3406,7 +3180,6 @@ books:
   genre:
   - divers
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3421,7 +3194,6 @@ books:
   genre:
   - divers
   isbn: '9780962145148'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3436,7 +3208,6 @@ books:
   genre:
   - divers
   isbn: '9780962145155'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3451,7 +3222,6 @@ books:
   genre:
   - divers
   isbn: '9782246804284'
-  image: 'http://books.google.com/books/content?id=_I-YeUYIHSwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -3466,7 +3236,6 @@ books:
   genre:
   - gia
   isbn: '9782344020920'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3481,7 +3250,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Colleville
   status: valid
@@ -3496,7 +3264,6 @@ books:
   genre:
   - lieux-historiques
   isbn: '9782749127248'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3511,7 +3278,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: 'http://books.google.com/books/content?id=UasaAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don Rideau
   status: valid
@@ -3526,7 +3292,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3541,7 +3306,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3556,7 +3320,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'http://books.google.com/books/content?id=KuJ1AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -3571,7 +3334,6 @@ books:
   genre:
   - genealogie
   isbn: '9782953492699'
-  image: ''
   gallica: ''
   source: Don auteur
   status: valid
@@ -3586,7 +3348,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k3368437v/f13.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k3368437v'
   source: Acquisition
   status: valid
@@ -3601,7 +3362,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: 'http://books.google.com/books/content?id=nUc4AQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -3616,7 +3376,6 @@ books:
   genre:
   - genealogie
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k3041790t/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k3041790t'
   source: ''
   status: valid
@@ -3631,7 +3390,6 @@ books:
   genre:
   - catalogues
   isbn: '9782854081268'
-  image: ''
   gallica: ''
   source: Entrée
   status: valid
@@ -3646,7 +3404,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3661,7 +3418,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3676,7 +3432,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Bély
   status: valid
@@ -3691,7 +3446,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'http://books.google.com/books/content?id=s6DDX1bs-iAC&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -3706,7 +3460,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3721,7 +3474,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Colleville
   status: valid
@@ -3736,7 +3488,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Dédicace auteur
   status: valid
@@ -3751,7 +3502,6 @@ books:
   genre:
   - marine
   isbn: '9782353130436'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3766,7 +3516,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3782,7 +3531,6 @@ books:
   genre:
   - biographie
   isbn: '9791092338164'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3797,7 +3545,6 @@ books:
   genre:
   - biographie
   isbn: '9791090361874'
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k3321271x/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k3321271x'
   source: Acquisition
   status: valid
@@ -3812,7 +3559,6 @@ books:
   genre:
   - lieux-historiques
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Chambrun
   status: valid
@@ -3827,7 +3573,6 @@ books:
   genre:
   - histoire-generale
   isbn: '9782251390420'
-  image: ''
   gallica: ''
   source: Don J.-M. Robine
   status: valid
@@ -3842,7 +3587,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'http://books.google.com/books/content?id=TSJVAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -3857,7 +3601,6 @@ books:
   genre:
   - biographie
   isbn: '9791037613899'
-  image: 'http://books.google.com/books/content?id=tt_5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -3872,7 +3615,6 @@ books:
   genre:
   - histoire-generale
   isbn: '9782307022459'
-  image: 'http://books.google.com/books/content?id=P2zKDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -3887,7 +3629,6 @@ books:
   genre:
   - lieux-historiques
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Ph. Henrat
   status: valid
@@ -3902,7 +3643,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3917,7 +3657,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -3932,7 +3671,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'http://books.google.com/books/content?id=fNh2AAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -3947,7 +3685,6 @@ books:
   genre:
   - sources
   isbn: ''
-  image: ''
   gallica: ''
   source: Fonds U. Bonnel
   status: valid
@@ -3962,7 +3699,6 @@ books:
   genre:
   - sources
   isbn: ''
-  image: ''
   gallica: ''
   source: Fonds U. Bonnel
   status: valid
@@ -3977,7 +3713,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: 'http://books.google.com/books/content?id=6t4hAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don Trentinian
   status: valid
@@ -3992,7 +3727,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Spieth
   status: valid
@@ -4007,7 +3741,6 @@ books:
   genre:
   - marine
   isbn: '9782375024850'
-  image: 'http://books.google.com/books/content?id=WvZXEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don éditeur
   status: valid
@@ -4022,7 +3755,6 @@ books:
   genre:
   - divers
   isbn: '9782747572286'
-  image: 'http://books.google.com/books/content?id=e5H7gvHK0KQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -4037,7 +3769,6 @@ books:
   genre:
   - lieux-historiques
   isbn: '9782812309502'
-  image: ''
   gallica: ''
   source: Don Cincinnati
   status: valid
@@ -4052,7 +3783,6 @@ books:
   genre:
   - lieux-historiques
   isbn: '9782918734437'
-  image: ''
   gallica: ''
   source: Don Vergès
   status: valid
@@ -4067,7 +3797,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'http://books.google.com/books/content?id=ea4gAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -4082,7 +3811,6 @@ books:
   genre:
   - sources
   isbn: ''
-  image: ''
   gallica: ''
   source: Fonds U. Bonnel
   status: valid
@@ -4097,7 +3825,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'http://books.google.com/books/content?id=uDoRAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don Ph. Henrat
   status: valid
@@ -4112,7 +3839,6 @@ books:
   genre:
   - gia
   isbn: '9782701804330'
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k556612/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k556612'
   source: Don Ph. Henrat
   status: valid
@@ -4127,7 +3853,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: Don J.-M. Robine
   status: valid
@@ -4142,7 +3867,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: Don J. Langlet
   status: valid
@@ -4157,7 +3881,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -4172,7 +3895,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: 'http://books.google.com/books/content?id=FdSnXG_i2EkC&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -4187,7 +3909,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: 'http://books.google.com/books/content?id=J-wRAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -4202,7 +3923,6 @@ books:
   genre:
   - marine
   isbn: '9781892142191'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -4217,7 +3937,6 @@ books:
   genre:
   - marine
   isbn: '9782702845585'
-  image: ''
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -4232,7 +3951,6 @@ books:
   genre:
   - biographie
   isbn: '9782850231520'
-  image: ''
   gallica: ''
   source: Don Ph. Henrat
   status: valid
@@ -4247,7 +3965,6 @@ books:
   genre:
   - genealogie
   isbn: '9782358160568'
-  image: ''
   gallica: ''
   source: 'Don Jayet & Saint-Girons'
   status: valid
@@ -4262,7 +3979,6 @@ books:
   genre:
   - marine
   isbn: '9782981442413'
-  image: ''
   gallica: ''
   source: Entrée
   status: valid
@@ -4277,7 +3993,6 @@ books:
   genre:
   - catalogues
   isbn: '9782296336605'
-  image: 'http://books.google.com/books/content?id=PzLJpIj5QHAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -4292,7 +4007,6 @@ books:
   genre:
   - repertoires
   isbn: '9782868880208'
-  image: ''
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -4307,7 +4021,6 @@ books:
   genre:
   - repertoires
   isbn: '9782868880208'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -4322,7 +4035,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k1163471/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k1163471'
   source: Don Vergennes
   status: valid
@@ -4337,7 +4049,6 @@ books:
   genre:
   - lieux-historiques
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -4352,7 +4063,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -4367,7 +4077,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -4382,7 +4091,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don auteur
   status: valid
@@ -4397,7 +4105,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don auteur
   status: valid
@@ -4412,7 +4119,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don auteur
   status: valid
@@ -4427,7 +4133,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -4442,7 +4147,6 @@ books:
   genre:
   - biographie
   isbn: '9791037608741'
-  image: 'http://books.google.com/books/content?id=5OP5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k3402298k'
   source: Don Bély
   status: valid
@@ -4457,7 +4161,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: 'http://books.google.com/books/content?id=teNnAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -4472,7 +4175,6 @@ books:
   genre:
   - repertoires
   isbn: '9782868880208'
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -4487,7 +4189,6 @@ books:
   genre:
   - marine
   isbn: '9782912259998'
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k118128n/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k118128n'
   source: ''
   status: valid
@@ -4502,7 +4203,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -4517,7 +4217,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: 'http://books.google.com/books/content?id=nqExOBGrFWAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -4532,7 +4231,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -4547,7 +4245,6 @@ books:
   genre:
   - genealogie
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -4562,7 +4259,6 @@ books:
   genre:
   - gia
   isbn: '9791028302771'
-  image: ''
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -4577,7 +4273,6 @@ books:
   genre:
   - genealogie
   isbn: ''
-  image: 'http://books.google.com/books/content?id=R6j3G0P0iWcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -4592,7 +4287,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -4607,7 +4301,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -4622,7 +4315,6 @@ books:
   genre:
   - gia
   isbn: '9780820359458'
-  image: 'http://books.google.com/books/content?id=2SVJEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
   gallica: ''
   source: ''
   status: valid
@@ -4637,7 +4329,6 @@ books:
   genre:
   - biographie
   isbn: '9782952144629'
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k3212211/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k3212211'
   source: Prêt
   status: valid
@@ -4652,7 +4343,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: Don E. Sutton
   status: valid
@@ -4667,7 +4357,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Le Masne
   status: valid
@@ -4682,7 +4371,6 @@ books:
   genre:
   - marine
   isbn: '9791069965973'
-  image: ''
   gallica: ''
   source: Don Le Masne
   status: valid
@@ -4697,7 +4385,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: Prix Trentinian
   status: valid
@@ -4712,7 +4399,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -4727,7 +4413,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k3364518m/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k3364518m'
   source: Don Vergennes
   status: valid
@@ -4742,7 +4427,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -4757,7 +4441,6 @@ books:
   genre:
   - sources
   isbn: ''
-  image: ''
   gallica: ''
   source: Fonds U. Bonnel
   status: valid
@@ -4772,7 +4455,6 @@ books:
   genre:
   - sources
   isbn: ''
-  image: ''
   gallica: ''
   source: Fonds U. Bonnel
   status: valid
@@ -4787,7 +4469,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Vaissière
   status: valid
@@ -4802,7 +4483,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k4800533t/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k4800533t'
   source: Don Vergennes
   status: valid
@@ -4817,7 +4497,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -4832,7 +4511,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -4847,7 +4525,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -4862,7 +4539,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -4877,7 +4553,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -4892,7 +4567,6 @@ books:
   genre:
   - sources
   isbn: ''
-  image: ''
   gallica: ''
   source: Fonds U. Bonnel
   status: valid
@@ -4907,7 +4581,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -4922,7 +4595,6 @@ books:
   genre:
   - genealogie
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -4937,7 +4609,6 @@ books:
   genre:
   - genealogie
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -4952,7 +4623,6 @@ books:
   genre:
   - genealogie
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -4967,7 +4637,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: Don M. Boyer
   status: valid
@@ -4982,7 +4651,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -4997,7 +4665,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -5012,7 +4679,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -5027,7 +4693,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Trentinian
   status: valid
@@ -5042,7 +4707,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -5057,7 +4721,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: Entrée
   status: valid
@@ -5072,7 +4735,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k3386753x/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k3386753x'
   source: Don Chatelain
   status: valid
@@ -5087,7 +4749,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -5102,7 +4763,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -5117,7 +4777,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: Don auteur
   status: valid
@@ -5132,7 +4791,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: Don J.-M. Robine
   status: valid
@@ -5147,7 +4805,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Vaissière
   status: valid
@@ -5162,7 +4819,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -5177,7 +4833,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -5192,7 +4847,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -5207,7 +4861,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -5222,7 +4875,6 @@ books:
   genre:
   - lieux-historiques
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -5237,7 +4889,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k58358195/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k58358195'
   source: Dédicace auteur
   status: valid
@@ -5252,7 +4903,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: Don auteur
   status: valid
@@ -5267,7 +4917,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -5282,7 +4931,6 @@ books:
   genre:
   - catalogues
   isbn: ''
-  image: ''
   gallica: ''
   source: Entrée
   status: valid
@@ -5297,7 +4945,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: Don E. d'Aboville
   status: valid
@@ -5312,7 +4959,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -5327,7 +4973,6 @@ books:
   genre:
   - sources
   isbn: ''
-  image: ''
   gallica: ''
   source: Fonds U. Bonnel
   status: valid
@@ -5342,7 +4987,6 @@ books:
   genre:
   - sources
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Vergennes
   status: duplicated
@@ -5357,7 +5001,6 @@ books:
   genre:
   - sources
   isbn: ''
-  image: ''
   gallica: ''
   source: Fonds U. Bonnel
   status: valid
@@ -5372,7 +5015,6 @@ books:
   genre:
   - sources
   isbn: ''
-  image: ''
   gallica: ''
   source: Fonds U. Bonnel
   status: valid
@@ -5387,7 +5029,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k9747774h/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k9747774h'
   source: Don Hanotaux
   status: valid
@@ -5402,7 +5043,6 @@ books:
   genre:
   - genealogie
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -5417,7 +5057,6 @@ books:
   genre:
   - divers
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -5432,7 +5071,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k65498855/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k65498855'
   source: Don E. Sutton
   status: valid
@@ -5447,7 +5085,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k65498855/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k65498855'
   source: ''
   status: valid
@@ -5462,7 +5099,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: Don J.-M. Robine
   status: valid
@@ -5477,7 +5113,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: Don J.-M. Robine
   status: valid
@@ -5492,7 +5127,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: Don J.-M. Robine
   status: valid
@@ -5507,7 +5141,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -5522,7 +5155,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -5537,7 +5169,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -5552,7 +5183,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Prix Trentinian
   status: valid
@@ -5567,7 +5197,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: Don J.-M. Robine
   status: valid
@@ -5582,7 +5211,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: Don J.-M. Robine
   status: valid
@@ -5597,7 +5225,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Ch. d'Aboville
   status: valid
@@ -5612,7 +5239,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -5627,7 +5253,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -5642,7 +5267,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -5657,7 +5281,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: Don auteur
   status: valid
@@ -5672,7 +5295,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -5687,7 +5309,6 @@ books:
   genre:
   - genealogie
   isbn: ''
-  image: ''
   gallica: ''
   source: Don J.-M. Robine
   status: valid
@@ -5702,7 +5323,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k9811538h/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k9811538h'
   source: Don Trentinian
   status: valid
@@ -5718,7 +5338,6 @@ books:
   genre:
   - revues
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -5733,7 +5352,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k108724r/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k108724r'
   source: ''
   status: valid
@@ -5748,7 +5366,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -5763,7 +5380,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: Don P. de Viry
   status: valid
@@ -5778,7 +5394,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -5794,7 +5409,6 @@ books:
   genre:
   - divers
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k64486603/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k64486603'
   source: Don J. Jausseran
   status: valid
@@ -5809,7 +5423,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -5824,7 +5437,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Trentinian
   status: valid
@@ -5839,7 +5451,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: Don P. de Gaschignard
   status: valid
@@ -5854,7 +5465,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: Entrée
   status: valid
@@ -5869,7 +5479,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k115878q/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k115878q'
   source: Don Vergennes
   status: valid
@@ -5884,7 +5493,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k3360990g/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k3360990g'
   source: Don M. Boyer
   status: valid
@@ -5899,7 +5507,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -5914,7 +5521,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -5929,7 +5535,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -5945,7 +5550,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -5961,7 +5565,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -5977,7 +5580,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -5993,7 +5595,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -6008,7 +5609,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k9815641k/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k9815641k'
   source: Don M. Boyer
   status: valid
@@ -6023,7 +5623,6 @@ books:
   genre:
   - sources
   isbn: ''
-  image: ''
   gallica: ''
   source: Fonds U. Bonnel
   status: valid
@@ -6038,7 +5637,6 @@ books:
   genre:
   - sources
   isbn: ''
-  image: ''
   gallica: ''
   source: Fonds U. Bonnel
   status: valid
@@ -6053,7 +5651,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -6068,7 +5665,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -6083,7 +5679,6 @@ books:
   genre:
   - catalogues
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Vaissière
   status: valid
@@ -6098,7 +5693,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -6113,7 +5707,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don G. Priet
   status: valid
@@ -6128,7 +5721,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k57125662/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k57125662'
   source: ''
   status: valid
@@ -6143,7 +5735,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -6158,7 +5749,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -6173,7 +5763,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -6188,7 +5777,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -6203,7 +5791,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Trentinian
   status: valid
@@ -6218,7 +5805,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Trentinian
   status: valid
@@ -6233,7 +5819,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Trentinian
   status: valid
@@ -6248,7 +5833,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Trentinian
   status: valid
@@ -6263,7 +5847,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Trentinian
   status: valid
@@ -6278,7 +5861,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Trentinian
   status: valid
@@ -6293,7 +5875,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Trentinian
   status: valid
@@ -6308,7 +5889,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Trentinian
   status: valid
@@ -6323,7 +5903,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Trentinian
   status: valid
@@ -6338,7 +5917,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Trentinian
   status: valid
@@ -6353,7 +5931,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Trentinian
   status: valid
@@ -6368,7 +5945,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -6383,7 +5959,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -6398,7 +5973,6 @@ books:
   genre:
   - histoire-generale
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -6413,7 +5987,6 @@ books:
   genre:
   - divers
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k3391082z/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k3391082z'
   source: Don J.-M. Robine
   status: valid
@@ -6428,7 +6001,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -6443,7 +6015,6 @@ books:
   genre:
   - catalogues
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Vergennes
   status: valid
@@ -6458,7 +6029,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -6473,7 +6043,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don M. Boyer
   status: valid
@@ -6488,7 +6057,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -6503,7 +6071,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don M. Boyer
   status: valid
@@ -6518,7 +6085,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don M. Boyer
   status: valid
@@ -6533,7 +6099,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don M. Boyer
   status: valid
@@ -6548,7 +6113,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Achat
   status: valid
@@ -6563,7 +6127,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Achat
   status: valid
@@ -6578,7 +6141,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don M. Boyer
   status: valid
@@ -6593,7 +6155,6 @@ books:
   genre:
   - divers
   isbn: ''
-  image: 'https://gallica.bnf.fr/ark:/12148/bpt6k3329971t/f1.highres'
   gallica: 'https://gallica.bnf.fr/ark:/12148/bpt6k3329971t'
   source: ''
   status: valid
@@ -6608,7 +6169,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -6623,7 +6183,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Montjamont
   status: duplicated
@@ -6638,7 +6197,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -6653,7 +6211,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -6668,7 +6225,6 @@ books:
   genre:
   - repertoires
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -6683,7 +6239,6 @@ books:
   genre:
   - lieux-historiques
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Ambassade US
   status: valid
@@ -6698,7 +6253,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -6713,7 +6267,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -6728,7 +6281,6 @@ books:
   genre:
   - biographie
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -6744,7 +6296,6 @@ books:
   genre:
   - marine
   isbn: ''
-  image: ''
   gallica: ''
   source: Don Sainte-Preuve
   status: valid
@@ -6759,7 +6310,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -6774,7 +6324,6 @@ books:
   genre:
   - gia
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -6789,7 +6338,6 @@ books:
   genre:
   - genealogie
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid
@@ -6804,7 +6352,6 @@ books:
   genre:
   - genealogie
   isbn: ''
-  image: ''
   gallica: ''
   source: ''
   status: valid

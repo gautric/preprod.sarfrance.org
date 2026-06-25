@@ -2,9 +2,8 @@
 SAR.onReady(function () {
     'use strict';
 
-    initPageCardMaps();
-
-    FilterEngine({
+    SAR.initTimelinePage({
+        withMaps: true,
         filterSelector: '.filter-btn[data-type]',
         filterAttr: 'data-type',
         itemSelector: '.tl-row[data-type]',

@@ -44,7 +44,10 @@
 │   │   ├── 404.html           # Error page
 │   │   └── robots.txt         # Robots template
 │   ├── assets/css/            # style.css, colors.css, filters.css, agenda.css, bibliotheque.css, carousel.css, chronologie.css, contact.css, hauts-lieux.css, notices.css (Hugo asset pipeline)
-│   ├── assets/js/             # utils.js (shared SAR helpers), main.js, filter-engine.js, map.js, agenda.js, bibliotheque.js, carousel.js, chronologie.js, contact.js, hauts-lieux.js, notices.js, phototheque.js (vanilla JS, Hugo asset pipeline)
+│   ├── assets/js/             # Vanilla JS, organised in tiers (Hugo asset pipeline):
+│   │   ├── core.js            #   single bundle of global SAR helpers (DOM, lang, net, dom, leaflet)
+│   │   ├── shared/            #   filter-engine.js, timeline-page.js (reusable cross-page modules)
+│   │   └── pages/             #   main.js, carousel.js, agenda.js, chronologie.js, hauts-lieux.js, notices.js, bibliotheque.js, phototheque.js, contact.js
 │   └── static/                # Theme-only static files (currently empty — content images live in root static/)
 ├── static/                    # Static assets copied as-is (site images, icons, favicons)
 │   ├── images/carousel/       # Carousel photos (homepage)
@@ -86,9 +89,9 @@
 - CSS load order in `baseof.html`: `colors.css` → `style.css` → `filters.css` → page-specific CSS. This ensures variables are available, then base styles, then shared filter styles, then page overrides.
 - CSS and JS files live in `themes/sarfrance-theme/assets/` (not `static/`) and are processed through Hugo's asset pipeline with `resources.Get` + `resources.Fingerprint` for cache busting and SRI integrity hashes
 - JavaScript must never be inlined in HTML templates — all JS lives in external `.js` files under `themes/sarfrance/assets/js/`
-- Vanilla JavaScript only (no jQuery, no framework) — use native DOM APIs (`querySelector`, `addEventListener`, `classList`, `dataset`, `fetch`). Shared helpers live on the global `SAR` namespace in `utils.js`: `SAR.onReady(fn)` and `SAR.selectAll(selector[, ctx])`
-- JS load order: `site-scripts.html` (partial in `baseof.html`) loads `utils.js` → `main.js` → `filter-engine.js` (→ `carousel.js` on the homepage). Page-specific scripts (e.g., `agenda.js`, `chronologie.js`, `hauts-lieux.js`, `notices.js`, `bibliotheque.js`, `contact.js`, `phototheque.js`, and `map.js` where mini-maps are used) are loaded in their layout's `{{ define "scripts" }}` block, which renders after the partial. `utils.js` must always load first so `SAR` is defined before any consumer.
-- Shared global functions: `FilterEngine` (`filter-engine.js`) drives filter/search/group visibility on data pages; `initPageCardMaps` (`map.js`) initialises Leaflet mini-maps on cards. Both are intentionally global so page scripts can call them.
+- Vanilla JavaScript only (no jQuery, no framework) — use native DOM APIs (`querySelector`, `addEventListener`, `classList`, `dataset`, `fetch`). Shared helpers live on the global `SAR` namespace in a single `core.js` bundle: `SAR.onReady` / `SAR.selectAll` (DOM), `SAR.isEnglish` / `SAR.lang` / `SAR.homeUrl` (language), `SAR.fetchJSON` (network), `SAR.activate` (single-active-button), `SAR.map` / `initPageCardMaps` (Leaflet)
+- JS load order: `site-scripts.html` (partial in `baseof.html`) loads `core.js` → `shared/filter-engine.js` → `pages/main.js` (→ `pages/carousel.js` on the homepage). Page-specific scripts (e.g., `pages/agenda.js`, `pages/chronologie.js`, `pages/hauts-lieux.js`, `pages/notices.js`, `pages/bibliotheque.js`, `pages/contact.js`, `pages/phototheque.js`, plus `shared/timeline-page.js` where timelines are used) are loaded in their layout's `{{ define "scripts" }}` block, which renders after the partial. `core.js` must always load first so `SAR` is defined before any consumer.
+- Shared global functions: `FilterEngine` (`shared/filter-engine.js`) drives filter/search/group visibility on data pages; `SAR.initTimelinePage` (`shared/timeline-page.js`) wraps `FilterEngine` + maps for timeline pages; `initPageCardMaps` (`core.js`) initialises Leaflet mini-maps on cards. These are intentionally global so page scripts can call them.
 - Language prefix logic is centralized in the `lang-prefix.html` partial — use `{{ partial "lang-prefix.html" . }}` instead of inline `{{ if eq .Lang "en" }}/en{{ end }}` checks
 - The `currentAgendaYear` param in `config/_default/params.yaml` drives the agenda year across menus, homepage, and 404 — update it once per year instead of searching for hardcoded years
 - The `githubRepo` param in `config/_default/params.yaml` configures the GitHub repository URL used by the page-contribute widget

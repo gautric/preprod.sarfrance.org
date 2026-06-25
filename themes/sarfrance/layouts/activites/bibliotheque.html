@@ -48,6 +48,6 @@
 {{ define "scripts" }}
 <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js" integrity="sha384-vtH+5pZsjdWxaTWlFSCrWM6i0TIG0HKOqJbPo91LB35dvWpVzuWdJeVoNweP+eoY" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/mustache@4.2.0/mustache.min.js" integrity="sha384-WASZCYHGuIg0bwkJEH65mhmbKS1x4/VKI2bzElPKmL5B3e0UaH45nIdqOm+BUuRA" crossorigin="anonymous"></script>
-{{- $js := resources.Get "js/bibliotheque.js" | resources.Fingerprint }}
+{{- $js := resources.Get "js/pages/bibliotheque.js" | resources.Fingerprint }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 {{ end }}

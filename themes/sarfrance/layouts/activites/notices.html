@@ -48,6 +48,6 @@
 </section>
 {{ end }}
 {{ define "scripts" }}
-{{- $js := resources.Get "js/notices.js" | resources.Fingerprint }}
+{{- $js := resources.Get "js/pages/notices.js" | resources.Fingerprint }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 {{ end }}

@@ -50,6 +50,6 @@
 {{ end }}
 
 {{ define "scripts" }}
-{{- $js := resources.Get "js/phototheque.js" | resources.Fingerprint }}
+{{- $js := resources.Get "js/pages/phototheque.js" | resources.Fingerprint }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 {{ end }}

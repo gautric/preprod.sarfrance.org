@@ -21,6 +21,6 @@
 {{- if site.Params.turnstileSiteKey }}
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" defer></script>
 {{- end }}
-{{- $js := resources.Get "js/contact.js" | resources.Fingerprint }}
+{{- $js := resources.Get "js/pages/contact.js" | resources.Fingerprint }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 {{ end }}

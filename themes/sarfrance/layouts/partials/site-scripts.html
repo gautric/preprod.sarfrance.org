@@ -1,10 +1,13 @@
-{{- $utilsJS := resources.Get "js/utils.js" | resources.Fingerprint }}
-<script src="{{ $utilsJS.RelPermalink }}" integrity="{{ $utilsJS.Data.Integrity }}"></script>
-{{- $mainJS := resources.Get "js/main.js" | resources.Fingerprint }}
-<script src="{{ $mainJS.RelPermalink }}" integrity="{{ $mainJS.Data.Integrity }}"></script>
-{{- $filterJS := resources.Get "js/filter-engine.js" | resources.Fingerprint }}
+{{- /* Core helpers — single bundle, loaded first & globally so every module can rely on SAR.* */ -}}
+{{- $coreJS := resources.Get "js/core.js" | resources.Fingerprint }}
+<script src="{{ $coreJS.RelPermalink }}" integrity="{{ $coreJS.Data.Integrity }}"></script>
+{{- /* Shared modules */ -}}
+{{- $filterJS := resources.Get "js/shared/filter-engine.js" | resources.Fingerprint }}
 <script src="{{ $filterJS.RelPermalink }}" integrity="{{ $filterJS.Data.Integrity }}"></script>
+{{- /* Site-wide page behaviour */ -}}
+{{- $mainJS := resources.Get "js/pages/main.js" | resources.Fingerprint }}
+<script src="{{ $mainJS.RelPermalink }}" integrity="{{ $mainJS.Data.Integrity }}"></script>
 {{- if .IsHome }}
-{{- $carouselJS := resources.Get "js/carousel.js" | resources.Fingerprint }}
+{{- $carouselJS := resources.Get "js/pages/carousel.js" | resources.Fingerprint }}
 <script src="{{ $carouselJS.RelPermalink }}" integrity="{{ $carouselJS.Data.Integrity }}"></script>
 {{- end }}

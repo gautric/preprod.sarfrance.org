@@ -55,7 +55,7 @@
     padding-bottom: 40px;
 }
 
-/* Card — full-width row, image pinned right */
+/* Card — full-width row */
 .book-card {
     display: flex;
     align-items: center;
@@ -84,28 +84,6 @@
     gap: 0 8px;
     flex: 1 1 0%;
     min-width: 0;
-}
-
-.book-cover {
-    width: 36px;
-    height: 50px;
-    object-fit: cover;
-    border-radius: 2px;
-    flex: 0 0 36px;
-    margin-left: auto;
-    box-shadow: 0 1px 3px var(--shadow);
-    cursor: pointer;
-    transition: transform 0.2s ease;
-    position: relative;
-    z-index: 1;
-}
-
-.book-cover:hover {
-    transform: scale(4);
-    transform-origin: right center;
-    z-index: 10;
-    box-shadow: 0 4px 20px var(--shadow-dark);
-    border-radius: 3px;
 }
 
 .book-name {

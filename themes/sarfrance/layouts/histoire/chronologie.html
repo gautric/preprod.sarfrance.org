@@ -61,8 +61,8 @@
 {{ end }}
 {{ define "scripts" }}
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-{{- $mapJS := resources.Get "js/map.js" | resources.Fingerprint }}
-<script src="{{ $mapJS.RelPermalink }}" integrity="{{ $mapJS.Data.Integrity }}"></script>
-{{- $js := resources.Get "js/chronologie.js" | resources.Fingerprint }}
+{{- $timelineJS := resources.Get "js/shared/timeline-page.js" | resources.Fingerprint }}
+<script src="{{ $timelineJS.RelPermalink }}" integrity="{{ $timelineJS.Data.Integrity }}"></script>
+{{- $js := resources.Get "js/pages/chronologie.js" | resources.Fingerprint }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 {{ end }}

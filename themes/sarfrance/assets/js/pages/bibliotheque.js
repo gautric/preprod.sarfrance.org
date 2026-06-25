@@ -21,7 +21,7 @@
         var iso = null;
 
         var template = [
-            '<div class="book-card{{#image}} has-cover{{/image}}" data-cat="{{genreStr}}" data-search="{{searchStr}}" data-lang="{{inLanguage}}" data-title="{{titleLower}}" data-author="{{authorLower}}">',
+            '<div class="book-card" data-cat="{{genreStr}}" data-search="{{searchStr}}" data-lang="{{inLanguage}}" data-title="{{titleLower}}" data-author="{{authorLower}}">',
                 '<div class="book-card-text">',
                     '{{#catLabel}}<span class="tag cat-{{catKey}}">{{catLabel}}</span>{{/catLabel}}',
                     '<span class="book-name">',
@@ -37,7 +37,6 @@
                     '{{#isbn}}<span class="book-isbn">ISBN {{isbn}}</span>{{/isbn}}',
                     '{{#inLanguage}}<span class="book-lang book-lang-{{inLanguage}}"></span>{{/inLanguage}}',
                 '</div>',
-                '{{#image}}<img class="book-cover" src="{{image}}" alt="" loading="lazy">{{/image}}',
             '</div>'
         ].join('');
         Mustache.parse(template);
@@ -55,7 +54,6 @@
                 numberOfPages: book.numberOfPages,
                 bookFormat: book.bookFormat,
                 isbn: book.isbn,
-                image: book.image,
                 gallica: book.gallica,
                 inLanguage: book.inLanguage,
                 genreStr: book.genre,
@@ -124,8 +122,7 @@
 
         catFilters.forEach(function (btn) {
             btn.addEventListener('click', function () {
-                catFilters.forEach(function (b) { b.classList.remove('active'); });
-                btn.classList.add('active');
+                SAR.activate(catFilters, btn);
                 activeCat = btn.getAttribute('data-cat');
                 applyFilters();
             });
@@ -142,8 +139,7 @@
                     var arrow = btn.querySelector('.sort-arrow');
                     if (arrow) arrow.textContent = dir === 'asc' ? '▼' : '▲';
                 } else {
-                    sortBtns.forEach(function (b) { b.classList.remove('active'); });
-                    btn.classList.add('active');
+                    SAR.activate(sortBtns, btn);
                 }
 
                 if (iso) {
@@ -157,11 +153,7 @@
 
         /* Fetch JSON, render cards via Mustache, then init Isotope */
         if (jsonUrl) {
-            fetch(jsonUrl)
-                .then(function (res) {
-                    if (!res.ok) throw new Error('HTTP ' + res.status);
-                    return res.json();
-                })
+            SAR.fetchJSON(jsonUrl)
                 .then(function (data) {
                     categories = data.categories || {};
                     seeBookLabel = data.seeBookLabel || '';
