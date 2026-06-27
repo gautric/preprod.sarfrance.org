@@ -1026,6 +1026,14 @@ events:
     link: "https://www.puydufou.com"
     lat: 46.8888
     lon: -0.9304
+  - date: "2026-07-04T12:00:00"
+    title: "250e anniversaire de l'Indépendance américaine"
+    type: commémoration
+    description: "Garden party organisée par l'American Club of Paris"
+    location: "Musée de Montmartre, 12 rue Cortot"
+    link: ""
+    lat: 48.8880
+    lon: 2.3406
   - date: "2026-07-10/2026-07-16"
     title: "Congrès annuel de la NSSAR à Greensboro (NC)"
     type: nssar
