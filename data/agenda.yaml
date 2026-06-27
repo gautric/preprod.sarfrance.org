@@ -1026,6 +1026,14 @@ events:
     link: "https://www.puydufou.com"
     lat: 46.8888
     lon: -0.9304
+  - date: "2026-07-04T10:00:00"
+    title: "Hommage au Maréchal de Rochambeau"
+    type: commémoration
+    description: "Cérémonie organisée par l'association « Les Amis de Rochambeau »"
+    location: "Place Saint-Martin à Vendôme"
+    link: ""
+    lat: 47.7915
+    lon: 1.0676
   - date: "2026-07-04T12:00:00"
     title: "250e anniversaire de l'Indépendance américaine"
     type: commémoration
