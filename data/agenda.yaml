@@ -1050,6 +1050,14 @@ events:
     link: "https://www.sar.org"
     lat: 36.0726
     lon: -79.792
+  - date: "2026-09-23T15:00:00"
+    title: "Conférence de Patrick Villiers"
+    type: conférence
+    description: "Le rôle des vaisseaux de la Compagnie des Indes dans la guerre d'Indépendance"
+    location: "2 rue de la Cale-Orry, Lorient"
+    link: ""
+    lat: 47.7477
+    lon: -3.3661
   - date: "2026-09-24T18:00:00/2026-09-24T20:00:00"
     title: "Conférence « Sea Power ? De Grasse et Vaudreuil » et présentation de la guerre d'Indépendance dans les fonds du SHD"
     type: 400ans-marine-nationale
