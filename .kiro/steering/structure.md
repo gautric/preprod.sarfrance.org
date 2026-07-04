@@ -35,21 +35,26 @@
 │   └── en.yaml                # English labels
 ├── data/                      # YAML data files consumed by templates
 │   ├── agenda.yaml            # Events with types, dates, titles
+│   ├── books.yaml             # Library inventory (consumed by the books shortcode)
 │   ├── carousel.yaml          # Homepage carousel images
 │   ├── chronologie.yaml       # Historical timeline with periods and events
-│   └── notices.yaml           # Biographical notices for the dictionary
+│   ├── notices.yaml           # Biographical notices for the dictionary
+│   ├── fr/lieux-de-memoire.yaml  # Sites of remembrance — FR content data
+│   ├── en/lieux-de-memoire.yaml  # Sites of remembrance — EN content data
+│   └── metadata/              # Structural metadata (types/tags/categories): agenda.yaml, books.yaml, chronologie.yaml, lieux-de-memoire.yaml, notices.yaml
 ├── themes/sarfrance/          # Custom Hugo theme (git submodule, theme key: "sarfrance")
 │   ├── layouts/
 │   │   ├── _default/          # baseof.html, list.html, single.html
-│   │   ├── partials/          # header.html, footer.html, head-meta.html, head-favicons.html, head-css.html, head-fonts.html, head-jsonld.html, site-scripts.html, page-contribute.html, page-header.html, lang-prefix.html
+│   │   ├── partials/          # header.html, footer.html, head-meta.html, head-favicons.html, head-css.html, head-fonts.html, head-jsonld.html, site-scripts.html, page-contribute.html, page-header.html, lang-prefix.html, book.html, format-date.html, icon-wikipedia.html
 │   │   ├── shortcodes/        # param.html, address.html, books.html, contact.html
-│   │   ├── activites/         # agenda.html, agenda.ics.ics, notices.html, bibliotheque.html, bibliotheque.json.json
+│   │   ├── activites/         # agenda.html, agenda.ics.ics, notices.html, bibliotheque.html, bibliotheque.json.json, phototheque.html
 │   │   ├── histoire/          # chronologie.html, notices.html, lieux-de-memoire.html
 │   │   ├── contact/           # contact.html
 │   │   ├── index.html         # Homepage template
 │   │   ├── 404.html           # Error page
-│   │   └── robots.txt         # Robots template
-│   ├── assets/css/            # style.css, colors.css, filters.css, agenda.css, bibliotheque.css, carousel.css, chronologie.css, contact.css, lieux-de-memoire.css, notices.css (Hugo asset pipeline)
+│   │   ├── robots.txt         # Robots template
+│   │   └── sitemap.xml        # Sitemap template
+│   ├── assets/css/            # style.css, colors.css, filters.css, agenda.css, bibliotheque.css, carousel.css, chronologie.css, contact.css, lieux-de-memoire.css, notices.css, phototheque.css (Hugo asset pipeline)
 │   ├── assets/js/             # Vanilla JS, organised in tiers (Hugo asset pipeline):
 │   │   ├── core.js            #   single bundle of global SAR helpers (DOM, lang, net, dom, leaflet)
 │   │   ├── shared/            #   filter-engine.js, timeline-page.js (reusable cross-page modules)
