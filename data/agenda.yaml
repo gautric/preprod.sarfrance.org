@@ -1090,6 +1090,14 @@ events:
     link: "https://www.sar.org"
     lat: 38.2542
     lon: -85.7594
+  - date: "2026-10-10T09:45:00"
+    title: "Journée en Médoc (Gironde)"
+    type: visite
+    description: "Visite guidée et dégustation au château Giscours (Labarde), puis conférence de Jean-Mathieu Robine sur Claude Anne de Saint-Simon, officier à Yorktown, et déjeuner à Blanquefort."
+    location: "Château Giscours, Labarde (Gironde)"
+    link: ""
+    lat: 45.0089
+    lon: -0.6464
   - date: "2026-10-22T18:00:00/2026-10-22T20:00:00"
     title: "Conférence « La Marine et les opérations extérieures 1958-2011 » et visite de l'exposition « Les trésors de la Marine »"
     type: 400ans-marine-nationale
