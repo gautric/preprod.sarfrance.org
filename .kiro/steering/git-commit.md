@@ -36,10 +36,10 @@ Utiliser le format **Conventional Commits** :
 |----------------|----------------------------------------------------|
 | `histoire`     | `content/*/histoire/`, chronologie, notices         |
 | `activites`    | `content/*/activites/`, agenda, publications        |
-| `organisation` | `content/*/organisation/`                           |
+| `la-societe`   | `content/*/la-societe/`                             |
 | `contact`      | `content/*/contact/`                                |
 | `home`         | Page d'accueil, carousel                            |
-| `theme`        | `themes/sarfrance-theme/` (layouts, CSS, JS)        |
+| `theme`        | `themes/sarfrance/` (layouts, CSS, JS)              |
 | `config`       | `config/` (config Hugo, menus, paramètres du site) |
 | `ci`           | `.github/workflows/`, scripts de déploiement        |
 | `steering`     | `.kiro/steering/`                                   |
@@ -54,7 +54,7 @@ docs(histoire): Add French casualties page and update contributing guide
 feat(theme): Add language switcher to header navigation
 fix(activites): Correct agenda event date sorting order
 style(notices): Add emoji icons to tag and filter button elements via CSS
-refactor(organisation): Consolidate purpose and bylaws into unified statutes page
+refactor(la-societe): Consolidate purpose and bylaws into unified statutes page
 chore(config): Migrate Hugo configuration from TOML to YAML format
 i18n: Add missing English translations for contact section
 data: Update 2026 agenda with spring conference dates
