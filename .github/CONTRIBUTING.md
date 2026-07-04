@@ -68,7 +68,7 @@ Si tout va bien, le site est mis à jour automatiquement
 Le résultat est visible sur www.sarfrance.org en quelques minutes
 ```
 
-Le site est **bilingue** (français et anglais). Quand vous modifiez un fichier français, un robot traduit automatiquement la version anglaise et soumet une proposition de traduction pour relecture.
+Le site est **bilingue** (français et anglais). La version anglaise est produite par une traduction du français vers l'anglais que le webmaster lance manuellement, avec l'assistance d'un robot ; la traduction obtenue est ensuite proposée en relecture avant publication.
 
 ### Les deux types de fichiers
 
@@ -87,6 +87,7 @@ Dossier : `content/fr/la-societe/`
 
 | Page sur le site | Fichier |
 |---|---|
+| La Société (index) | `_index.md` |
 | La NSSAR | `nssar.md` |
 | Mission et vocation | `mission-et-vocation.md` |
 | Notre histoire | `notre-histoire.md` |
@@ -99,6 +100,7 @@ Dossier : `content/fr/histoire/`
 
 | Page sur le site | Fichier |
 |---|---|
+| Histoire (index) | `_index.md` |
 | Chronologie | `chronologie.md` |
 | Campagnes et batailles | `campagnes-et-batailles.md` |
 | Chefs et volontaires | `chefs-et-volontaires.md` |
@@ -160,9 +162,9 @@ Dossier : `content/fr/activites/`
 
 | Page sur le site | Fichier |
 |---|---|
+| Activités (index) | `_index.md` |
 | Agenda (année en cours) | `agenda-2026.md` |
 | Dictionnaire des ancêtres | `dictionnaire-des-ancetres.md` |
-| Éphémérides | `ephemerides.md` |
 | Revue et publications | `publications.md` |
 | Prix Jacques de Trentinian | `prix-trentinian.md` |
 | Bibliothèque | `bibliotheque.md` |
@@ -190,7 +192,7 @@ Dossier : `data/`
 | Chronologie historique | `data/chronologie.yaml` | Directement ou via le webmaster |
 | Notices biographiques | `data/notices.yaml` | Via le webmaster |
 | Bibliothèque (inventaire) | `data/books.yaml` | Via le formulaire dédié (voir section [Bibliothèque](#ajouter-un-livre-à-la-bibliothèque)) |
-| Hauts lieux en France | `data/fr/hauts-lieux.yaml` | Via le webmaster |
+| Lieux de mémoire en France | `data/fr/lieux-de-memoire.yaml` | Via le webmaster |
 
 ---
 
@@ -294,7 +296,7 @@ L'ajout d'un événement à l'agenda est **automatisé** : vous remplissez un fo
 | Description | Non | Texte, 200 car. max | `Cérémonie annuelle en présence de l'ambassadeur.` |
 
 **Types d'événements disponibles :**
-`conférence` · `assemblée` · `commémoration` · `nssar` · `réunion` · `visite` · `exposition`
+`conférence` · `assemblée` · `commémoration` · `nssar` · `réunion` · `visite` · `exposition` · `250freedom` · `400ans-marine-nationale`
 
 **Étape 3 — Soumettre**
 
@@ -335,7 +337,7 @@ Le webmaster valide → l'événement apparaît sur le site
 | Titre | ✅ | `La Marine de Louis XVI` |
 | Éditeur | Non | `Éditions Fayard` |
 | Année de publication | Non | `2005` |
-| Langue | ✅ | `fr` ou `en` |
+| Langue | ✅ | `fr`, `en`, `de`, `es` ou `it` |
 | Nombre de pages | Non | `341` |
 | Format | Non | `Broché`, `Cartonné`, `Relié` |
 | Catégorie | ✅ | `marine`, `biographie`, `gia`… |
@@ -397,7 +399,7 @@ Si vous préférez ne pas modifier les fichiers vous-même, créez une **demande
 | 📚 **Ajout d'un livre à la bibliothèque** | Ajouter un ouvrage à la bibliothèque |
 | 📝 **Demande de modification de contenu** | Corriger ou mettre à jour du texte existant |
 | 📄 **Demande de nouvelle page** | Créer une nouvelle rubrique ou page |
-| 🐛 **Signaler un problème** | Lien cassé, problème d'affichage, erreur |
+| 🐛 **Signaler un problème sur le site** | Lien cassé, problème d'affichage, erreur |
 
 4. Remplissez le formulaire et cliquez sur **Submit new issue**
 5. Le webmaster sera notifié et prendra en charge votre demande
@@ -415,8 +417,8 @@ Vérification automatique : build Hugo + validation des fichiers
      ↓
 Si tout est correct → déploiement sur www.sarfrance.org (≈ 3 min)
      ↓
-Si un fichier français a été modifié → traduction automatique FR→EN
-proposée en Pull Request pour relecture
+Si un fichier français a été modifié → le webmaster peut lancer manuellement
+la traduction FR→EN, ensuite proposée en Pull Request pour relecture
 ```
 
 ### Si vous avez proposé une modification (Pull Request)
@@ -456,9 +458,9 @@ Quand vous soumettez le formulaire **📅 Ajout d'un événement à l'agenda**, 
 - Insère l'événement dans le fichier `data/agenda.yaml` au bon endroit
 - Crée une Pull Request pour relecture par le webmaster
 
-### Traduction automatique FR → EN
+### Traduction FR → EN (sur demande)
 
-Quand un fichier français (`content/fr/`) ou une clé de traduction (`i18n/fr.yaml`) est modifié sur le site, un robot traduit automatiquement le contenu en anglais et crée une Pull Request pour relecture humaine avant publication.
+La traduction du français vers l'anglais n'est pas déclenchée automatiquement à chaque modification : c'est le webmaster qui la lance manuellement, lorsqu'il le juge opportun, pour un fichier français (`content/fr/`) ou une clé de traduction (`i18n/fr.yaml`). Un robot produit alors la traduction en anglais et crée une Pull Request soumise à une relecture humaine avant publication.
 
 ### Fermeture automatique des demandes expirées
 

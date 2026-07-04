@@ -109,7 +109,7 @@
 .tag-taxation         { background-color: var(--color-copper); }
 .tag-revolte          { background-color: var(--color-khaki); }
 
-/* Notices tags  (13 items — full palette minus olive) */
+/* Notices tags  (14 items — full palette) */
 .tag-officier-marine  { background-color: var(--color-navy); }
 .tag-officier-terre   { background-color: var(--color-olive); }
 .tag-soldat           { background-color: var(--color-burgundy); }
@@ -121,6 +121,7 @@
 .tag-aide-de-camp     { background-color: var(--color-khaki); }
 .tag-volontaire       { background-color: var(--color-crimson); }
 .tag-chapelain        { background-color: var(--color-plum); }
+.tag-artiste          { background-color: var(--color-slate); }
 .tag-legion-lauzun    { background-color: var(--color-brown); }
 .tag-americain        { background-color: var(--color-royal-blue); }
 
@@ -179,6 +180,7 @@
 .filter-btn.active.tag-aide-de-camp     { background-color: var(--color-khaki); border-color: var(--color-khaki); }
 .filter-btn.active.tag-volontaire       { background-color: var(--color-crimson); border-color: var(--color-crimson); }
 .filter-btn.active.tag-chapelain        { background-color: var(--color-plum); border-color: var(--color-plum); }
+.filter-btn.active.tag-artiste          { background-color: var(--color-slate); border-color: var(--color-slate); }
 .filter-btn.active.tag-legion-lauzun    { background-color: var(--color-brown); border-color: var(--color-brown); }
 .filter-btn.active.tag-americain        { background-color: var(--color-royal-blue); border-color: var(--color-royal-blue); }
 

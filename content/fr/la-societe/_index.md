@@ -6,7 +6,7 @@ aliases:
   - "/organisation/conseil-consultatif-dhistoire/"
   - "/organisation/annuaire/"
 description: "Conseil d'administration, délégations régionales, secrétariat et liaison avec la NSSAR"
-lastUpdate: 2026-03-01
+lastUpdate: 2026-07-04
 ---
 
 ### Sommaire de la page
@@ -90,3 +90,11 @@ La Société dispose d'un conseil consultatif d'histoire, composé de six à dou
 - Recueil et exploitation d'archives familiales méconnues
 - Mise en œuvre du Prix de Thèse des SAR « Prix Jacques de Trentinian »
 - Publications et études historiques
+
+## Pour en savoir plus
+
+- [La National Society of the Sons of the American Revolution](/la-societe/nssar/) – La société mère, à Louisville : ses origines, sa fondation en 1889 et la Charte du Congrès de 1906
+- [Mission et vocation](/la-societe/mission-et-vocation/) – La triple vocation transatlantique, historique et culturelle de la Société
+- [Notre histoire](/la-societe/notre-histoire/) – Du Chapitre de Paris de 1897 à la reconnaissance d'utilité publique : présidents, couleurs et insigne
+- [Statuts, règlement intérieur et charte](/la-societe/statuts/) – Les statuts adoptés le 22 mars 2024, des extraits du règlement intérieur et la charte d'éthique et de déontologie
+- [Sociétés amies et liens](/la-societe/societes-amies/) – La Société des Cincinnati de France, les DAR, les CAR et les sociétés SAR à l'étranger

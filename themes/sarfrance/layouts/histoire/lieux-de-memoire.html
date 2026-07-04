@@ -1,10 +1,10 @@
 {{ define "head" }}
-{{- $css := resources.Get "css/hauts-lieux.css" | resources.Fingerprint }}
+{{- $css := resources.Get "css/lieux-de-memoire.css" | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 {{ end }}
 {{ define "main" }}
-{{ $data := index (index hugo.Data .Lang) "hauts-lieux" }}
+{{ $data := index (index hugo.Data .Lang) "lieux-de-memoire" }}
 {{ $totalLieux := 0 }}
 {{ range $data.regions }}{{ $totalLieux = add $totalLieux (len .lieux) }}{{ end }}
 <section class="page-content">
@@ -17,7 +17,7 @@
 
         <div class="page-filters" role="group" aria-label="{{ i18n "filter_by_category" }}">
             <button class="filter-btn active" data-tag="all">{{ i18n "filter_all" }}</button>
-            {{ range (index hugo.Data.metadata "hauts-lieux").tags }}
+            {{ range (index hugo.Data.metadata "lieux-de-memoire").tags }}
             <button class="filter-btn tag-{{ . | urlize }}" data-tag="{{ . }}">{{ i18n (printf "hl_tag_%s" .) }}</button>
             {{ end }}
         </div>
@@ -89,6 +89,6 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 {{- $timelineJS := resources.Get "js/shared/timeline-page.js" | resources.Fingerprint }}
 <script src="{{ $timelineJS.RelPermalink }}" integrity="{{ $timelineJS.Data.Integrity }}"></script>
-{{- $js := resources.Get "js/pages/hauts-lieux.js" | resources.Fingerprint }}
+{{- $js := resources.Get "js/pages/lieux-de-memoire.js" | resources.Fingerprint }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 {{ end }}

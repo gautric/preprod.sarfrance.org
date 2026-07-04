@@ -3,7 +3,7 @@ title: "Contact"
 description: "Secrétariat SAR France à Paris, siège NSSAR à Louisville et formulaire de contact"
 layout: "contact"
 type: "contact"
-lastUpdate: 2026-03-01
+lastUpdate: 2026-07-04
 ---
 
 ### Sommaire de la page
@@ -89,3 +89,9 @@ SAR France est affiliée à la National Society Sons of the American Revolution 
   <div id="turnstile-container" class="turnstile-box"></div>
   <button type="submit" class="btn btn-primary form-submit" id="form-submit">Envoyer</button>
 </form>
+
+## Pour en savoir plus
+
+- [Nous rejoindre](/contact/nous-rejoindre/) – Conditions d'admission, documents à produire et frais d'inscription
+- [Cotisation et dons](/contact/cotisation/) – Paiement en ligne, montants de la cotisation et avantage fiscal
+- [Mentions légales](/contact/mentions-legales/) – Éditeur, hébergement, conditions d'utilisation et protection des données (RGPD)

@@ -14,14 +14,20 @@
 ├── content/
 │   ├── fr/                    # French content (default language)
 │   │   ├── _index.md          # Homepage FR
-│   │   ├── organisation/      # Organisation section
+│   │   ├── la-societe/        # La Société section (menu identifier stays "organisation")
 │   │   ├── histoire/          # History section
+│   │   │   ├── antilles/      # Antilles sub-section
+│   │   │   ├── biographies/   # Biographies sub-section
+│   │   │   └── ephemerides/   # Éphémérides sub-section
 │   │   ├── activites/         # Activities section (agenda, events, publications)
 │   │   └── contact/           # Contact section (forms, dues, donations, legal)
 │   └── en/                    # English content (mirror of fr/)
 │       ├── _index.md          # Homepage EN
-│       ├── organisation/
+│       ├── la-societe/
 │       ├── histoire/
+│       │   ├── antilles/
+│       │   ├── biographies/
+│       │   └── ephemerides/
 │       ├── activites/
 │       └── contact/
 ├── i18n/                      # UI string translations
@@ -38,23 +44,23 @@
 │   │   ├── partials/          # header.html, footer.html, head-meta.html, head-favicons.html, head-css.html, head-fonts.html, head-jsonld.html, site-scripts.html, page-contribute.html, page-header.html, lang-prefix.html
 │   │   ├── shortcodes/        # param.html, address.html, books.html, contact.html
 │   │   ├── activites/         # agenda.html, agenda.ics.ics, notices.html, bibliotheque.html, bibliotheque.json.json
-│   │   ├── histoire/          # chronologie.html, notices.html, hauts-lieux.html
+│   │   ├── histoire/          # chronologie.html, notices.html, lieux-de-memoire.html
 │   │   ├── contact/           # contact.html
 │   │   ├── index.html         # Homepage template
 │   │   ├── 404.html           # Error page
 │   │   └── robots.txt         # Robots template
-│   ├── assets/css/            # style.css, colors.css, filters.css, agenda.css, bibliotheque.css, carousel.css, chronologie.css, contact.css, hauts-lieux.css, notices.css (Hugo asset pipeline)
+│   ├── assets/css/            # style.css, colors.css, filters.css, agenda.css, bibliotheque.css, carousel.css, chronologie.css, contact.css, lieux-de-memoire.css, notices.css (Hugo asset pipeline)
 │   ├── assets/js/             # Vanilla JS, organised in tiers (Hugo asset pipeline):
 │   │   ├── core.js            #   single bundle of global SAR helpers (DOM, lang, net, dom, leaflet)
 │   │   ├── shared/            #   filter-engine.js, timeline-page.js (reusable cross-page modules)
-│   │   └── pages/             #   main.js, carousel.js, agenda.js, chronologie.js, hauts-lieux.js, notices.js, bibliotheque.js, phototheque.js, contact.js
+│   │   └── pages/             #   main.js, carousel.js, agenda.js, chronologie.js, lieux-de-memoire.js, notices.js, bibliotheque.js, phototheque.js, contact.js
 │   └── static/                # Theme-only static files (currently empty — content images live in root static/)
 ├── static/                    # Static assets copied as-is (site images, icons, favicons)
 │   ├── images/carousel/       # Carousel photos (homepage)
 ├── layouts/                   # Override directory (empty — all layouts live in theme)
 ├── public/                    # Generated output (gitignored in production)
 ├── .github/
-│   ├── workflows/             # CI: hugo.yml (deploy), hugo-preview.yml (PR checks)
+│   ├── workflows/             # CI: deploy.yml (deploy), preview.yml (PR checks) + agent-*.md/*.lock.yml, agentics-maintenance.yml, copilot-setup-steps.yml
 │   ├── CONTRIBUTING.md        # Contributor guide (French, for non-technical users)
 │   └── ISSUE_TEMPLATE/        # bug-site.yml, modification-contenu.yml, nouvelle-page.yml
 ├── infrastructure/            # AWS CloudFormation deployment scripts
@@ -68,13 +74,13 @@
 - Each section folder has an `_index.md` for the section landing page
 - Agenda pages are year-based: `agenda-2024.md`, `agenda-2025.md`, `agenda-2026.md`
 - The agenda menu link in `config/_default/menus.fr.yaml` / `menus.en.yaml` should point to the current year's agenda
-- Custom layouts exist for `activites/agenda`, `activites/bibliotheque`, `activites/notices`, `histoire/chronologie`, `histoire/hauts-lieux`, `histoire/notices`, and `contact/contact`; all other pages use `_default/single.html`
+- Custom layouts exist for `activites/agenda`, `activites/bibliotheque`, `activites/notices`, `histoire/chronologie`, `histoire/lieux-de-memoire`, `histoire/notices`, and `contact/contact`; all other pages use `_default/single.html`
 - The theme directory is `themes/sarfrance/` and the theme key in `config/_default/hugo.yaml` is `sarfrance` — changes to templates/CSS/JS go there
 - Content images (carousel photos, illustrations, etc.) live in the root `static/` directory, organized in topic subfolders (e.g. `static/images/carousel/`, `static/images/histoire-sar-france/`). Never put content images in `themes/sarfrance/static/` — the theme's `static/` is reserved for theme-intrinsic assets only. This keeps content assets in the main repo and avoids coupling them to the submodule.
 - The root `layouts/` directory is empty and reserved for theme overrides if needed
 - Data files in `data/` use structured YAML with typed entries (event types, tags, periods)
 - Tag/type colors are defined as CSS classes in `colors.css`, named `tag-{key}` or `type-{key}` where `{key}` is the urlized YAML key (e.g., YAML key `révolte` → CSS class `tag-revolte`). Templates derive the class name via `{{ $key | urlize }}`. The `removePathAccents = true` setting in `config/_default/hugo.yaml` ensures `urlize` strips accents. Never use inline `style=` or `color:` fields in YAML — add a new CSS class in `colors.css` instead.
-- `filters.css` defines shared UI components used across all data-driven pages (agenda, chronologie, notices, bibliothèque, hauts-lieux):
+- `filters.css` defines shared UI components used across all data-driven pages (agenda, chronologie, notices, bibliothèque, lieux-de-memoire):
   - `.filter-btn` — pill-shaped filter buttons (base + `.active` state)
   - `.page-filters` — flex container for filter button groups
   - `.tag` — small colored pills inside cards
@@ -87,10 +93,10 @@
 - Active filter color overrides (`.filter-btn.active.tag-xxx` / `.filter-btn.active.type-xxx`) are defined at the bottom of `colors.css`, keeping all color definitions in one place.
 - Emoji icons for tags/types are defined in page-specific CSS using `::before` on both `.tag.xxx` and `.filter-btn.xxx` selectors — never scoped to a parent container
 - CSS load order in `baseof.html`: `colors.css` → `style.css` → `filters.css` → page-specific CSS. This ensures variables are available, then base styles, then shared filter styles, then page overrides.
-- CSS and JS files live in `themes/sarfrance-theme/assets/` (not `static/`) and are processed through Hugo's asset pipeline with `resources.Get` + `resources.Fingerprint` for cache busting and SRI integrity hashes
+- CSS and JS files live in `themes/sarfrance/assets/` (not `static/`) and are processed through Hugo's asset pipeline with `resources.Get` + `resources.Fingerprint` for cache busting and SRI integrity hashes
 - JavaScript must never be inlined in HTML templates — all JS lives in external `.js` files under `themes/sarfrance/assets/js/`
 - Vanilla JavaScript only (no jQuery, no framework) — use native DOM APIs (`querySelector`, `addEventListener`, `classList`, `dataset`, `fetch`). Shared helpers live on the global `SAR` namespace in a single `core.js` bundle: `SAR.onReady` / `SAR.selectAll` (DOM), `SAR.isEnglish` / `SAR.lang` / `SAR.homeUrl` (language), `SAR.fetchJSON` (network), `SAR.activate` (single-active-button), `SAR.map` / `initPageCardMaps` (Leaflet)
-- JS load order: `site-scripts.html` (partial in `baseof.html`) loads `core.js` → `shared/filter-engine.js` → `pages/main.js` (→ `pages/carousel.js` on the homepage). Page-specific scripts (e.g., `pages/agenda.js`, `pages/chronologie.js`, `pages/hauts-lieux.js`, `pages/notices.js`, `pages/bibliotheque.js`, `pages/contact.js`, `pages/phototheque.js`, plus `shared/timeline-page.js` where timelines are used) are loaded in their layout's `{{ define "scripts" }}` block, which renders after the partial. `core.js` must always load first so `SAR` is defined before any consumer.
+- JS load order: `site-scripts.html` (partial in `baseof.html`) loads `core.js` → `shared/filter-engine.js` → `pages/main.js` (→ `pages/carousel.js` on the homepage). Page-specific scripts (e.g., `pages/agenda.js`, `pages/chronologie.js`, `pages/lieux-de-memoire.js`, `pages/notices.js`, `pages/bibliotheque.js`, `pages/contact.js`, `pages/phototheque.js`, plus `shared/timeline-page.js` where timelines are used) are loaded in their layout's `{{ define "scripts" }}` block, which renders after the partial. `core.js` must always load first so `SAR` is defined before any consumer.
 - Shared global functions: `FilterEngine` (`shared/filter-engine.js`) drives filter/search/group visibility on data pages; `SAR.initTimelinePage` (`shared/timeline-page.js`) wraps `FilterEngine` + maps for timeline pages; `initPageCardMaps` (`core.js`) initialises Leaflet mini-maps on cards. These are intentionally global so page scripts can call them.
 - Language prefix logic is centralized in the `lang-prefix.html` partial — use `{{ partial "lang-prefix.html" . }}` instead of inline `{{ if eq .Lang "en" }}/en{{ end }}` checks
 - The `currentAgendaYear` param in `config/_default/params.yaml` drives the agenda year across menus, homepage, and 404 — update it once per year instead of searching for hardcoded years
@@ -105,7 +111,7 @@
 - `defaultContentLanguageInSubdir = false` means French pages have no `/fr/` prefix
 - Content directories: `content/fr/` and `content/en/` (set via `contentDir` per language)
 - Each language has its own full menu tree in its own file (`config/_default/menus.fr.yaml`, `config/_default/menus.en.yaml`)
-- English menu URLs are prefixed with `/en/` (e.g. `/en/organisation/nssar/`)
+- English menu URLs are prefixed with `/en/` (e.g. `/en/la-societe/nssar/`)
 - Language-specific params (description, heroTitle, footerText, etc.) live under `languages.XX.params`
 - UI strings (button labels, section titles, etc.) use `{{ i18n "key" }}` and are defined in `i18n/fr.yaml` and `i18n/en.yaml`
 - Templates use `{{ .Lang }}` and `{{ eq .Lang "en" }}` to adapt behavior per language

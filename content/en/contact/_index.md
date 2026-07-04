@@ -3,7 +3,7 @@ title: "Contact"
 description: "SAR France Secretariat in Paris, NSSAR headquarters in Louisville and online contact form"
 layout: "contact"
 type: "contact"
-lastUpdate: 2026-03-01
+lastUpdate: 2026-07-04
 ---
 
 ### Page Contents
@@ -89,3 +89,9 @@ SAR France is affiliated with the National Society Sons of the American Revoluti
   <div id="turnstile-container" class="turnstile-box"></div>
   <button type="submit" class="btn btn-primary form-submit" id="form-submit">Send</button>
 </form>
+
+## Learn More
+
+- [Join Us](/en/contact/nous-rejoindre/) – Admission requirements, documents to provide and registration fees
+- [Dues and Donations](/en/contact/cotisation/) – Online payment, dues amounts and tax benefit
+- [Legal Notice](/en/contact/mentions-legales/) – Publisher, hosting, terms of use and data protection (GDPR)

@@ -1,7 +1,7 @@
 # Tech Stack
 
 ## Static Site Generator
-- Hugo (extended) v0.157.0 minimum
+- Hugo (extended) v0.163.3 (version épinglée en CI dans `deploy.yml` / `preview.yml` ; v0.157.0 minimum)
 - Configuration: split across the `config/` directory (YAML format), merged automatically by Hugo:
   - `config/_default/hugo.yaml` — core settings, markup, sitemap, output formats, services
   - `config/_default/languages.yaml` — multilingual `languages` block (per-language params, without menus)
@@ -17,9 +17,9 @@
 - Vanilla JavaScript only — no framework, no jQuery, no npm runtime dependencies
 - JavaScript files are organised in three tiers under `themes/sarfrance/assets/js/`:
   - `core.js` — single bundle of cross-cutting helpers on the global `SAR` namespace, loaded first and globally: `SAR.onReady` / `SAR.selectAll` (DOM), `SAR.isEnglish` / `SAR.lang` / `SAR.homeUrl` (language), `SAR.fetchJSON` (network), `SAR.activate` (single-active-button), `SAR.map` (OSM tile config + `SAR.map.create`) and the global `initPageCardMaps`. The Leaflet helpers stay inert until Leaflet's `L` global is present, so the bundle is safe on every page
-  - `shared/` — reusable cross-page modules: `filter-engine.js` (`FilterEngine`) and `timeline-page.js` (`SAR.initTimelinePage` — mutualises maps + FilterEngine setup for agenda/chronologie/hauts-lieux)
-  - `pages/` — one module per page/feature: `main.js`, `carousel.js`, `agenda.js`, `chronologie.js`, `hauts-lieux.js`, `notices.js`, `bibliotheque.js`, `phototheque.js`, `contact.js`
-- Third-party CDN scripts loaded per-page (not bundled): Leaflet 1.9.4 (agenda, contact, hauts-lieux), Moment.js 2.30 (agenda), Isotope 3 + Mustache 4 (bibliotheque)
+  - `shared/` — reusable cross-page modules: `filter-engine.js` (`FilterEngine`) and `timeline-page.js` (`SAR.initTimelinePage` — mutualises maps + FilterEngine setup for agenda/chronologie/lieux-de-memoire)
+  - `pages/` — one module per page/feature: `main.js`, `carousel.js`, `agenda.js`, `chronologie.js`, `lieux-de-memoire.js`, `notices.js`, `bibliotheque.js`, `phototheque.js`, `contact.js`
+- Third-party CDN scripts loaded per-page (not bundled): Leaflet 1.9.4 (agenda, contact, lieux-de-memoire), Moment.js 2.30 (agenda), Isotope 3 + Mustache 4 (bibliotheque)
 - No npm dependencies in production
 
 ## JavaScript Rules
@@ -27,7 +27,7 @@
 - Vanilla JavaScript only — no jQuery, no framework. Use native DOM APIs (`document.querySelector`, `addEventListener`, `classList`, `dataset`, `fetch`, etc.)
 - Use the shared `SAR` helpers from `core.js` (loaded globally before any page module): `SAR.onReady(fn)` to run code once the DOM is ready, `SAR.selectAll(selector[, ctx])` for a real `Array` of elements, `SAR.isEnglish()` / `SAR.lang()` / `SAR.homeUrl()` for language detection, `SAR.fetchJSON(url)` for JSON requests, and `SAR.activate(group, btn)` to toggle the single active button in a bar. Do not re-implement these in each file
 - For Leaflet maps, use `SAR.map.create(el, opts)` (from `core.js`) rather than calling `L.map`/`L.tileLayer` directly — it centralises the OSM tile URL and attribution. Card mini-maps use the shared `initPageCardMaps()`
-- For agenda/chronologie/hauts-lieux-style pages, call `SAR.initTimelinePage(config)` (from `shared/timeline-page.js`) instead of wiring `initPageCardMaps` + `FilterEngine` by hand
+- For agenda/chronologie/lieux-de-memoire-style pages, call `SAR.initTimelinePage(config)` (from `shared/timeline-page.js`) instead of wiring `initPageCardMaps` + `FilterEngine` by hand
 - Wrap page/module code so it does not leak globals: either `SAR.onReady(function () { 'use strict'; ... })` for entry points, or an IIFE for files that define internal helpers. Only deliberately shared functions (`FilterEngine`, `initPageCardMaps`) stay global
 - Reuse the shared `FilterEngine` (`shared/filter-engine.js`) for filter/search/group-visibility behaviour rather than writing bespoke filtering. Toggle visibility via the `.hidden` class (defined generically in `filters.css`) — never inline `style="display:none"`, which the class-based toggle cannot override
 - Use `fetch` (via `SAR.fetchJSON` or directly with `async/await`/promises) for network requests, never `XMLHttpRequest`
@@ -44,14 +44,16 @@
 - When adding a new UI string, always add the key to both `i18n/fr.yaml` and `i18n/en.yaml`
 
 ## Hosting & Deployment
-- Primary: GitHub Pages via GitHub Actions (`.github/workflows/hugo.yml`)
+- Primary: GitHub Pages via GitHub Actions (`.github/workflows/deploy.yml`)
 - Alternative: S3 + CloudFront (`deploy.sh`, `infrastructure/deploy.sh`)
 - CNAME: `www.sarfrance.org`
 
 ## CI/CD
-- On push to `main`: build + deploy to GitHub Pages
-- Daily rebuild at 06:00 UTC (cron) to keep upcoming events current
-- On PR: preview build + content validation (front matter check, YAML validation)
+- On push to `main`: build + deploy to GitHub Pages (`.github/workflows/deploy.yml`)
+- Daily rebuild at 06:00 UTC (cron, in `deploy.yml`) to keep upcoming events current
+- On PR: preview build + content validation (front matter check, YAML validation) (`.github/workflows/preview.yml`)
+- Agentic workflows: `agent-agenda` (issue agenda → géocodage → PR sur `data/agenda.yaml`) and `agent-translate` (traduction FR→EN, déclenchement manuel), each with a `.md` source and a compiled `.lock.yml`
+- Maintenance: `agentics-maintenance.yml` (fermeture des issues/PR/discussions expirées) and `copilot-setup-steps.yml` (installation de la CLI gh-aw)
 
 ## Common Commands
 

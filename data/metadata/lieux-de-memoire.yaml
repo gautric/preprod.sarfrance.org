@@ -1,4 +1,4 @@
-# Hauts-lieux tags — keys match tag values used in data/fr/hauts-lieux.yaml and data/en/hauts-lieux.yaml
+# Lieux de mémoire tags — keys match tag values used in data/fr/lieux-de-memoire.yaml and data/en/lieux-de-memoire.yaml
 # Labels are resolved via i18n keys: hl_tag_<key>
 tags:
   - résidence

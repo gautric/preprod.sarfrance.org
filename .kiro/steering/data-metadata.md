@@ -23,7 +23,7 @@ All YAML data files in `data/` follow a two-file pattern that separates content 
 | `data/agenda.yaml` | `data/metadata/agenda.yaml` | `agenda_type_` | `types` — list of event type keys |
 | `data/notices.yaml` | `data/metadata/notices.yaml` | `notices_tag_` | `tags` — list of tag keys |
 | `data/chronologie.yaml` | `data/metadata/chronologie.yaml` | `chrono_tag_` | `tags` — list of tag keys |
-| `data/fr/hauts-lieux.yaml` + `data/en/hauts-lieux.yaml` | `data/metadata/hauts-lieux.yaml` | `hl_tag_` | `tags` — list of tag keys |
+| `data/fr/lieux-de-memoire.yaml` + `data/en/lieux-de-memoire.yaml` | `data/metadata/lieux-de-memoire.yaml` | `hl_tag_` | `tags` — list of tag keys |
 
 ## Rules
 
@@ -32,7 +32,7 @@ All YAML data files in `data/` follow a two-file pattern that separates content 
 3. Each metadata domain uses a consistent i18n key prefix: `<prefix><key>` (e.g. `agenda_type_conférence`, `notices_tag_officier-marine`)
 4. When adding a new tag/type/category, add the key to the metadata file AND add i18n entries in both `i18n/fr.yaml` and `i18n/en.yaml`
 5. Templates access metadata via `.Site.Data.metadata.<name>.<field>` (e.g. `.Site.Data.metadata.agenda.types`)
-6. For hyphenated metadata file names, use `index` in templates: `(index .Site.Data.metadata "hauts-lieux").tags`
+6. For hyphenated metadata file names, use `index` in templates: `(index .Site.Data.metadata "lieux-de-memoire").tags`
 7. Templates render labels via `{{ i18n (printf "<prefix>%s" $key) }}`
 8. Templates access content data via `.Site.Data.<name>.<field>` (e.g. `.Site.Data.agenda.events`)
 9. For language-specific data (`data/fr/`, `data/en/`), the per-language files contain only content (no tag definitions)

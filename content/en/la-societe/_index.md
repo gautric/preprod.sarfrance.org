@@ -1,7 +1,7 @@
 ---
 title: "The Society"
 description: "Board of directors, regional delegations, secretariat and NSSAR liaison"
-lastUpdate: 2026-03-01
+lastUpdate: 2026-07-04
 ---
 
 ### Page Contents
@@ -85,3 +85,11 @@ The Society has an Advisory History Committee, composed of six to twelve recogni
 - Collection and analysis of little-known family archives
 - Implementation of the SAR Thesis Award "Jacques de Trentinian Prize"
 - Publications and historical studies
+
+## Learn More
+
+- [The National Society of the Sons of the American Revolution](/en/la-societe/nssar/) – The parent society in Louisville: its origins, its 1889 founding and the Congressional Charter of 1906
+- [Mission and Purpose](/en/la-societe/mission-et-vocation/) – The threefold transatlantic, historical and cultural mission of the Society
+- [Our History](/en/la-societe/notre-histoire/) – From the Paris Chapter of 1897 to recognition as a public benefit organization: presidents, colors and insignia
+- [Bylaws, Internal Rules and Charter](/en/la-societe/statuts/) – The bylaws adopted on March 22, 2024, excerpts from the internal rules and the code of ethics and conduct
+- [Allied Societies and Links](/en/la-societe/societes-amies/) – The Society of the Cincinnati of France, the DAR, the CAR and SAR societies abroad
