@@ -34,7 +34,6 @@ L'ensemble des belligérants concluent la paix à Versailles, le 3 septembre 178
 
 ## Pour en savoir plus
 
-- [Notre histoire](/la-societe/notre-histoire/) – Histoire de la Société, ses couleurs et son insigne
 - [Chronologie](/histoire/chronologie/) – Présentation synoptique de l'histoire américaine et européenne
 - [Chefs et volontaires](/histoire/chefs-et-volontaires/) – Les principaux acteurs français du conflit
 - [Campagnes et batailles](/histoire/campagnes-et-batailles/) – Le Corps Expéditionnaire et la campagne de Yorktown

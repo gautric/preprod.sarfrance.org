@@ -34,7 +34,6 @@ All the belligerents concluded peace at Versailles on September 3, 1783. England
 
 ## Learn More
 
-- [Our History](/en/la-societe/notre-histoire/) – History of the Society, its colors and insignia
 - [Timeline](/en/histoire/chronologie/) – A synoptic overview of American and European history
 - [Leaders and Volunteers](/en/histoire/chefs-et-volontaires/) – The principal French actors of the conflict
 - [Campaigns and Battles](/en/histoire/campagnes-et-batailles/) – The Expeditionary Corps and the Yorktown Campaign
