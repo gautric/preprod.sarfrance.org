@@ -996,7 +996,7 @@ events:
     lon: 2.3059
   - date: "2026-06-13T10:00:00"
     title: "Cérémonie du Souvenir au Mémorial du Cimetière Américain"
-    type: "Commémoration"
+    type: commémoration
     description: "Hommage aux 543 combattants inhumés en ce lieu de 1944 à 1948"
     location: "Villeneuve-sur-Auvers"
     link: ""
