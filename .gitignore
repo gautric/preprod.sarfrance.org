@@ -34,3 +34,4 @@ infrastructure/contact-form/.aws-sam/build/**
 infrastructure/contact-form/src/node_modules/**
 infrastructure/**
 reference/**
+.kiro/tmp/public_audit
