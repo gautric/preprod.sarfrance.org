@@ -1,5 +1,5 @@
 {{ define "head" }}
-{{- $css := resources.Get "css/notices.css" | resources.Fingerprint }}
+{{- $css := partial "asset.html" "css/notices.css" }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 {{ end }}
 {{ define "main" }}
@@ -44,6 +44,6 @@
 </section>
 {{ end }}
 {{ define "scripts" }}
-{{- $js := resources.Get "js/pages/notices.js" | resources.Fingerprint }}
+{{- $js := partial "asset.html" "js/pages/notices.js" }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 {{ end }}

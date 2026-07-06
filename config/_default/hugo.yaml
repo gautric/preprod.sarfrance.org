@@ -48,3 +48,12 @@ markup:
 sitemap:
   changefreq: "monthly"
   priority: 0.5
+
+# Autorise le téléchargement des fichiers de polices (woff/woff2) via
+# resources.GetRemote lors de l'auto-hébergement des Google Fonts en production
+# (head-fonts.html). Par défaut, GetRemote n'autorise qu'une liste restreinte de
+# types MIME ; on l'étend aux polices.
+security:
+  http:
+    mediaTypes:
+      - "^font/woff2?$"

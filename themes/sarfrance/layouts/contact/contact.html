@@ -1,5 +1,5 @@
 {{ define "head" }}
-{{- $css := resources.Get "css/contact.css" | resources.Fingerprint }}
+{{- $css := partial "asset.html" "css/contact.css" }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 {{- if site.Params.turnstileSiteKey }}
@@ -21,6 +21,6 @@
 {{- if site.Params.turnstileSiteKey }}
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" defer></script>
 {{- end }}
-{{- $js := resources.Get "js/pages/contact.js" | resources.Fingerprint }}
+{{- $js := partial "asset.html" "js/pages/contact.js" }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 {{ end }}

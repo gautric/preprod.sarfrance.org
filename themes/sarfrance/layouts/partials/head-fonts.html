@@ -1,3 +1,42 @@
+{{- /*
+  Fonts loading strategy:
+    - Production (hugo.IsProduction): self-host Google Fonts. The CSS2 stylesheet
+      and every .woff2 file it references are fetched at build time via
+      resources.GetRemote, rewritten to local fingerprinted URLs, then minified
+      and fingerprinted. This removes the render-blocking third-party request and
+      avoids sending visitor IPs to Google (RGPD/CNIL).
+    - Development (hugo server) or if the remote fetch fails: fall back to the
+      Google-hosted stylesheet so local builds stay fast and offline-tolerant.
+*/ -}}
+{{- $fontsURL := "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" -}}
+{{- $ua := "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" -}}
+{{- $selfHosted := false -}}
+{{- if hugo.IsProduction -}}
+  {{- $result := try (resources.GetRemote $fontsURL (dict "headers" (dict "User-Agent" $ua))) -}}
+  {{- with $result.Err -}}
+    {{- warnf "head-fonts.html: could not fetch Google Fonts stylesheet, falling back to external link (%s)" . -}}
+  {{- else with $result.Value -}}
+    {{- $css := .Content -}}
+    {{- range findRE `https://fonts\.gstatic\.com/[^)]+` $css -}}
+      {{- $u := . -}}
+      {{- $font := try (resources.GetRemote $u) -}}
+      {{- with $font.Err -}}
+        {{- warnf "head-fonts.html: could not fetch font file %q (%s)" $u . -}}
+      {{- else with $font.Value -}}
+        {{- /* Copy to a path that keeps the .woff2 suffix so the published file
+             is served with the correct MIME type, then fingerprint it. */ -}}
+        {{- $local := (resources.Copy (printf "fonts/%s" (path.Base $u)) .) | resources.Fingerprint -}}
+        {{- $css = replace $css $u $local.RelPermalink -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $fonts := resources.FromString "css/fonts.bundle.css" $css | resources.Minify | resources.Fingerprint -}}
+    <link rel="preload" as="style" href="{{ $fonts.RelPermalink }}">
+    <link rel="stylesheet" href="{{ $fonts.RelPermalink }}" integrity="{{ $fonts.Data.Integrity }}">
+    {{- $selfHosted = true -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $selfHosted -}}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link href="{{ $fontsURL }}" rel="stylesheet">
+{{- end -}}

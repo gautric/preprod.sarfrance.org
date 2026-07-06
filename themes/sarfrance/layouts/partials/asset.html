@@ -1,0 +1,18 @@
+{{- /*
+  asset.html — process a pipeline asset (CSS/JS) consistently.
+  Input: the asset path relative to assets/ (a string), e.g. "css/style.css".
+  Behaviour:
+    - always fingerprinted (cache busting + SRI integrity hash)
+    - minified only in production builds (hugo.IsProduction), so `hugo server`
+      keeps readable, debuggable assets during local development.
+  Returns the processed resource (use .RelPermalink and .Data.Integrity).
+*/ -}}
+{{- $r := resources.Get . -}}
+{{- with $r -}}
+  {{- if hugo.IsProduction -}}
+    {{- $r = . | resources.Minify | resources.Fingerprint -}}
+  {{- else -}}
+    {{- $r = . | resources.Fingerprint -}}
+  {{- end -}}
+{{- end -}}
+{{- return $r -}}

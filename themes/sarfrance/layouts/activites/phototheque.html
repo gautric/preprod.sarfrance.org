@@ -1,5 +1,5 @@
 {{ define "head" }}
-{{- $css := resources.Get "css/phototheque.css" | resources.Fingerprint }}
+{{- $css := partial "asset.html" "css/phototheque.css" }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 {{ end }}
 
@@ -50,6 +50,6 @@
 {{ end }}
 
 {{ define "scripts" }}
-{{- $js := resources.Get "js/pages/phototheque.js" | resources.Fingerprint }}
+{{- $js := partial "asset.html" "js/pages/phototheque.js" }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 {{ end }}
