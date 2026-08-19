@@ -1,0 +1,18 @@
+{
+  "hooks": {
+    "PostToolUseFailure": [
+      {
+        "matcher": "Bash",
+        "if": "Bash(git push*)",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '(.tool_response.stdout // \"\") + \"\\n\" + (.tool_response.stderr // \"\")' | grep -q 'Hugo version mismatch' && make bump-hugo-ci && git add .github/workflows/deploy.yml .github/workflows/preview.yml Makefile && git commit -m 'chore(ci): align Hugo CI version with local' && printf '{\"hookSpecificOutput\":{\"hookEventName\":\"PostToolUseFailure\",\"additionalContext\":\"Hugo version mismatch fixed — CI files aligned to local Hugo version. Retry git push.\"}}'",
+            "timeout": 30,
+            "statusMessage": "Fixing Hugo version mismatch..."
+          }
+        ]
+      }
+    ]
+  }
+}

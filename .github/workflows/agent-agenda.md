@@ -44,6 +44,7 @@ safe-outputs:
     max: 2
 
 tools:
+  bash: ["cat", "ls", "find", "grep", "head", "tail", "wc"]
   web-fetch:
   github:
     toolsets: [issues, pull_requests]

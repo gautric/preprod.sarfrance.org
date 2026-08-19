@@ -1,6 +1,6 @@
 # SAR France — Commandes de développement local
 
-HUGO_VERSION_CI := 0.164.0
+HUGO_VERSION_CI := 0.165.0
 
 # Extension gh Agentic Workflows (gh-aw)
 GH_AW_REPO := github/gh-aw
