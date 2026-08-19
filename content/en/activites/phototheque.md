@@ -10,13 +10,13 @@ The SAR France photo gallery brings together photographs taken during commemorat
 
 ## 2026
 
-![245th commemoration of the Battle of Guilford Court House, March 15, 1781](/images/phototheque/2026-03-guilford-court-house-2.png)
+![245th commemoration of the Battle of Guilford Court House, March 15, 1781](/images/phototheque/2026-03-guilford-court-house-2.jpg)
 *245<sup>th</sup> commemoration of the Battle of Guilford Court House, March 15, 1781*
 
 ![Grave of Baron de Lustrac in Norfolk](/images/phototheque/2026-03-tombe-lustrac-norfolk.jpg)
 *Grave of Baron de Lustrac in Norfolk*
 
-![245th anniversary of the "Crossing of the Dan" river](/images/phototheque/2026-03-guilford-court-house-1.png)
+![245th anniversary of the "Crossing of the Dan" river](/images/phototheque/2026-03-guilford-court-house-1.jpg)
 *245<sup>th</sup> anniversary of the "Crossing of the Dan" river – South Boston (VA), February 12–14, 2026*
 
 ![Our Trustee carries our colors at the Leadership Meeting](/images/phototheque/2026-02-crossing-dan.jpg)
@@ -33,19 +33,19 @@ The SAR France photo gallery brings together photographs taken during commemorat
 ![Our Île-de-France Delegate and his guests at the Cercle Interallié, July 2, 2025](/images/phototheque/2025-07-cercle-interallie-1.jpg)
 *Our Île-de-France Delegate and his guests at the Cercle Interallié, July 2, 2025*
 
-![Dinner of Île-de-France members at the Cercle Interallié, July 2, 2025](/images/phototheque/2025-07-cercle-interallie-diner.png)
+![Dinner of Île-de-France members at the Cercle Interallié, July 2, 2025](/images/phototheque/2025-07-cercle-interallie-diner.jpg)
 *Dinner of Île-de-France members at the Cercle Interallié, July 2, 2025*
 
-![Lafayette's grave at the conclusion of the ceremony on June 25, 2025](/images/phototheque/2025-06-picpus-1.png)
+![Lafayette's grave at the conclusion of the ceremony on June 25, 2025](/images/phototheque/2025-06-picpus-1.jpg)
 *Lafayette's grave at the conclusion of the ceremony on June 25, 2025*
 
 ![The United States flag guard at Picpus, June 25, 2025](/images/phototheque/2025-06-picpus-4.jpg)
 *The United States flag guard at Picpus, June 25, 2025*
 
-![Changing of the United States flag at Picpus Cemetery, June 25, 2025](/images/phototheque/2025-07-cercle-interallie-2.png)
+![Changing of the United States flag at Picpus Cemetery, June 25, 2025](/images/phototheque/2025-07-cercle-interallie-2.jpg)
 *Changing of the United States flag at Picpus Cemetery, June 25, 2025*
 
-![Officials before Lafayette's grave – Picpus Cemetery, June 25, 2025](/images/phototheque/2025-06-picpus-3.png)
+![Officials before Lafayette's grave – Picpus Cemetery, June 25, 2025](/images/phototheque/2025-06-picpus-3.jpg)
 *Officials before Lafayette's grave – Picpus Cemetery, June 25, 2025*
 
 ![Remembrance ceremony at Villeneuve-sur-Auvers, May 27, 2025](/images/phototheque/2025-05-villeneuve-sur-auvers.jpg)
@@ -77,7 +77,7 @@ The SAR France photo gallery brings together photographs taken during commemorat
 
 ## 2024
 
-![In the footsteps of General Dentzel at the Ermitage de Versailles, November 9, 2024](/images/phototheque/2024-11-dentzel-versailles.png)
+![In the footsteps of General Dentzel at the Ermitage de Versailles, November 9, 2024](/images/phototheque/2024-11-dentzel-versailles.jpg)
 *In the footsteps of General Dentzel at the Ermitage de Versailles, November 9, 2024*
 
 ![SAR weekend in the Bordeaux region, October 12–13, 2024](/images/phototheque/2024-10-week-end-bordelais.png)
@@ -98,31 +98,31 @@ The SAR France photo gallery brings together photographs taken during commemorat
 ![243rd anniversary of the Battle of the Capes – Virginia, September 7, 2024](/images/phototheque/2024-09-bataille-caps-marine.jpg)
 *243<sup>rd</sup> anniversary of the Battle of the Capes – Virginia, September 7, 2024, with the participation of the French Navy*
 
-![Officials before Lafayette's grave at Picpus Cemetery, July 3, 2024](/images/phototheque/2024-07-picpus-4.png)
+![Officials before Lafayette's grave at Picpus Cemetery, July 3, 2024](/images/phototheque/2024-07-picpus-4.jpg)
 *Officials before Lafayette's grave at Picpus Cemetery, July 3, 2024*
 
-![A new American flag is raised over Lafayette's grave](/images/phototheque/2024-07-picpus-3.png)
+![A new American flag is raised over Lafayette's grave](/images/phototheque/2024-07-picpus-3.jpg)
 *A new American flag is raised over Lafayette's grave – Picpus, July 3, 2024*
 
-![Our flag and the United States flag guard – Picpus Cemetery](/images/phototheque/2024-07-picpus-2.png)
+![Our flag and the United States flag guard – Picpus Cemetery](/images/phototheque/2024-07-picpus-2.jpg)
 *Our flag and the United States flag guard – Picpus Cemetery, July 3, 2024*
 
-![Lafayette's grave – Picpus Cemetery, July 3, 2024](/images/phototheque/2024-07-picpus-1.png)
+![Lafayette's grave – Picpus Cemetery, July 3, 2024](/images/phototheque/2024-07-picpus-1.jpg)
 *Lafayette's grave – Picpus Cemetery, July 3, 2024*
 
-![Our flag bearer at the American Cemetery of Suresnes, May 26, 2024](/images/phototheque/2024-05-suresnes-porte-drapeau.png)
+![Our flag bearer at the American Cemetery of Suresnes, May 26, 2024](/images/phototheque/2024-05-suresnes-porte-drapeau.jpg)
 *Our flag bearer at the American Cemetery of Suresnes, May 26, 2024*
 
-![Our flag at the American Cemetery of Suresnes for Memorial Day 2024](/images/phototheque/2024-05-suresnes-memorial-day.png)
+![Our flag at the American Cemetery of Suresnes for Memorial Day 2024](/images/phototheque/2024-05-suresnes-memorial-day.jpg)
 *In the foreground, our flag is present at the American Cemetery of Suresnes for Memorial Day 2024*
 
-![A senator salutes our flag at Villeneuve-sur-Auvers](/images/phototheque/2024-05-villeneuve-senateur.png)
+![A senator salutes our flag at Villeneuve-sur-Auvers](/images/phototheque/2024-05-villeneuve-senateur.jpg)
 *A senator salutes our flag at Villeneuve-sur-Auvers*
 
-![Our flag bearer and the representative of the United States Embassy at Villeneuve-sur-Auvers](/images/phototheque/2024-05-villeneuve-ambassade.png)
+![Our flag bearer and the representative of the United States Embassy at Villeneuve-sur-Auvers](/images/phototheque/2024-05-villeneuve-ambassade.jpg)
 *Our flag bearer and the representative of the United States Embassy at Villeneuve-sur-Auvers*
 
-![Ceremony at the Villeneuve-sur-Auvers memorial (Essonne), May 25, 2024](/images/phototheque/2024-05-villeneuve-sur-auvers.png)
+![Ceremony at the Villeneuve-sur-Auvers memorial (Essonne), May 25, 2024](/images/phototheque/2024-05-villeneuve-sur-auvers.jpg)
 *Ceremony at the Villeneuve-sur-Auvers memorial (Essonne), May 25, 2024*
 
 ![National Resistance Day in Grasse, May 27, 2024](/images/phototheque/2024-05-journee-resistance-grasse.jpeg)
@@ -140,7 +140,7 @@ The SAR France photo gallery brings together photographs taken during commemorat
 ![The SAR and Royal Deux-Ponts flags](/images/phototheque/2024-04-drapeaux-sar-royal-deux-ponts.jpg)
 *The SAR and Royal Deux-Ponts flags*
 
-![Our "Compatriots" with the American Scouts at Omaha Beach](/images/phototheque/2024-04-scouts-omaha-beach.png)
+![Our "Compatriots" with the American Scouts at Omaha Beach](/images/phototheque/2024-04-scouts-omaha-beach.jpg)
 *Our "Compatriots" with the American Scouts at Omaha Beach, April 20, 2024*
 
 ![NATO Parade, April 20, 2024, Norfolk (VA)](/images/phototheque/2024-04-nato-parade-norfolk.jpg)

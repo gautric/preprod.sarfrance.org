@@ -35,3 +35,5 @@ infrastructure/contact-form/src/node_modules/**
 infrastructure/**
 reference/**
 .kiro/tmp/public_audit
+.kiro/audits/*
+.kiro/tmp/*

@@ -12,13 +12,13 @@ La photothèque de SAR France rassemble les clichés pris lors des cérémonies 
 
 ## 2026
 
-![245e commémoration de la bataille de Guilford Court House, 15 mars 1781](/images/phototheque/2026-03-guilford-court-house-2.png)
+![245e commémoration de la bataille de Guilford Court House, 15 mars 1781](/images/phototheque/2026-03-guilford-court-house-2.jpg)
 *245<sup>e</sup> commémoration de la bataille de Guilford Court House, 15 mars 1781*
 
 ![Tombe du Baron de Lustrac à Norfolk](/images/phototheque/2026-03-tombe-lustrac-norfolk.jpg)
 *Tombe du Baron de Lustrac à Norfolk*
 
-![245e anniversaire du « Crossing of the Dan » river](/images/phototheque/2026-03-guilford-court-house-1.png)
+![245e anniversaire du « Crossing of the Dan » river](/images/phototheque/2026-03-guilford-court-house-1.jpg)
 *245<sup>e</sup> anniversaire du « Crossing of the Dan » river – South Boston (VA), 12 au 14 février 2026*
 
 ![Notre Trustee porte nos couleurs au Leadership Meeting](/images/phototheque/2026-02-crossing-dan.jpg)
@@ -35,19 +35,19 @@ La photothèque de SAR France rassemble les clichés pris lors des cérémonies 
 ![Notre Délégué Île-de-France et ses invités au Cercle Interallié, 2 juillet 2025](/images/phototheque/2025-07-cercle-interallie-1.jpg)
 *Notre Délégué Île-de-France et ses invités au Cercle Interallié, 2 juillet 2025*
 
-![Dîner des membres de l'Île-de-France au Cercle Interallié, 2 juillet 2025](/images/phototheque/2025-07-cercle-interallie-diner.png)
+![Dîner des membres de l'Île-de-France au Cercle Interallié, 2 juillet 2025](/images/phototheque/2025-07-cercle-interallie-diner.jpg)
 *Dîner des membres de l'Île-de-France au Cercle Interallié, 2 juillet 2025*
 
-![La tombe de La Fayette à l'issue de la cérémonie du 25 juin 2025](/images/phototheque/2025-06-picpus-1.png)
+![La tombe de La Fayette à l'issue de la cérémonie du 25 juin 2025](/images/phototheque/2025-06-picpus-1.jpg)
 *La tombe de La Fayette à l'issue de la cérémonie du 25 juin 2025*
 
 ![La garde au drapeau des États-Unis à Picpus, 25 juin 2025](/images/phototheque/2025-06-picpus-4.jpg)
 *La garde au drapeau des États-Unis à Picpus, 25 juin 2025*
 
-![Relève du drapeau des États-Unis au cimetière de Picpus, 25 juin 2025](/images/phototheque/2025-07-cercle-interallie-2.png)
+![Relève du drapeau des États-Unis au cimetière de Picpus, 25 juin 2025](/images/phototheque/2025-07-cercle-interallie-2.jpg)
 *Relève du drapeau des États-Unis au cimetière de Picpus, 25 juin 2025*
 
-![Les autorités devant la tombe de La Fayette – Cimetière de Picpus, 25 juin 2025](/images/phototheque/2025-06-picpus-3.png)
+![Les autorités devant la tombe de La Fayette – Cimetière de Picpus, 25 juin 2025](/images/phototheque/2025-06-picpus-3.jpg)
 *Les autorités devant la tombe de La Fayette – Cimetière de Picpus, 25 juin 2025*
 
 ![Cérémonie du souvenir à Villeneuve-sur-Auvers, 27 mai 2025](/images/phototheque/2025-05-villeneuve-sur-auvers.jpg)
@@ -79,7 +79,7 @@ La photothèque de SAR France rassemble les clichés pris lors des cérémonies 
 
 ## 2024
 
-![Sur les pas du Général Dentzel à l'Ermitage de Versailles, 9 novembre 2024](/images/phototheque/2024-11-dentzel-versailles.png)
+![Sur les pas du Général Dentzel à l'Ermitage de Versailles, 9 novembre 2024](/images/phototheque/2024-11-dentzel-versailles.jpg)
 *Sur les pas du Général Dentzel à l'Ermitage de Versailles, 9 novembre 2024*
 
 ![Week-end SAR dans le Bordelais, 12 et 13 octobre 2024](/images/phototheque/2024-10-week-end-bordelais.png)
@@ -100,31 +100,31 @@ La photothèque de SAR France rassemble les clichés pris lors des cérémonies 
 ![243e anniversaire de la Bataille des Caps – Virginie, 7 septembre 2024](/images/phototheque/2024-09-bataille-caps-marine.jpg)
 *243<sup>e</sup> anniversaire de la Bataille des Caps – Virginie, 7 septembre 2024, avec la participation de la Marine nationale*
 
-![Les autorités devant la tombe de La Fayette au cimetière de Picpus, 3 juillet 2024](/images/phototheque/2024-07-picpus-4.png)
+![Les autorités devant la tombe de La Fayette au cimetière de Picpus, 3 juillet 2024](/images/phototheque/2024-07-picpus-4.jpg)
 *Les autorités devant la tombe de La Fayette au cimetière de Picpus, 3 juillet 2024*
 
-![Un nouveau drapeau américain est hissé sur la tombe de La Fayette](/images/phototheque/2024-07-picpus-3.png)
+![Un nouveau drapeau américain est hissé sur la tombe de La Fayette](/images/phototheque/2024-07-picpus-3.jpg)
 *Un nouveau drapeau américain est hissé sur la tombe de La Fayette – Picpus, 3 juillet 2024*
 
-![Notre drapeau et la garde au drapeau des États-Unis – Cimetière de Picpus](/images/phototheque/2024-07-picpus-2.png)
+![Notre drapeau et la garde au drapeau des États-Unis – Cimetière de Picpus](/images/phototheque/2024-07-picpus-2.jpg)
 *Notre drapeau et la garde au drapeau des États-Unis – Cimetière de Picpus, 3 juillet 2024*
 
-![La tombe de La Fayette – Cimetière de Picpus, 3 juillet 2024](/images/phototheque/2024-07-picpus-1.png)
+![La tombe de La Fayette – Cimetière de Picpus, 3 juillet 2024](/images/phototheque/2024-07-picpus-1.jpg)
 *La tombe de La Fayette – Cimetière de Picpus, 3 juillet 2024*
 
-![Notre porte-drapeau au cimetière américain de Suresnes, 26 mai 2024](/images/phototheque/2024-05-suresnes-porte-drapeau.png)
+![Notre porte-drapeau au cimetière américain de Suresnes, 26 mai 2024](/images/phototheque/2024-05-suresnes-porte-drapeau.jpg)
 *Notre porte-drapeau au cimetière américain de Suresnes, 26 mai 2024*
 
-![Notre drapeau au cimetière américain de Suresnes pour le Memorial Day 2024](/images/phototheque/2024-05-suresnes-memorial-day.png)
+![Notre drapeau au cimetière américain de Suresnes pour le Memorial Day 2024](/images/phototheque/2024-05-suresnes-memorial-day.jpg)
 *Au premier plan, notre drapeau est présent au cimetière américain de Suresnes pour le Memorial Day 2024*
 
-![Un sénateur salue notre drapeau à Villeneuve-sur-Auvers](/images/phototheque/2024-05-villeneuve-senateur.png)
+![Un sénateur salue notre drapeau à Villeneuve-sur-Auvers](/images/phototheque/2024-05-villeneuve-senateur.jpg)
 *Un sénateur salue notre drapeau à Villeneuve-sur-Auvers*
 
-![Notre porte-drapeau et la représentante de l'ambassade des États-Unis à Villeneuve-sur-Auvers](/images/phototheque/2024-05-villeneuve-ambassade.png)
+![Notre porte-drapeau et la représentante de l'ambassade des États-Unis à Villeneuve-sur-Auvers](/images/phototheque/2024-05-villeneuve-ambassade.jpg)
 *Notre porte-drapeau et la représentante de l'ambassade des États-Unis à Villeneuve-sur-Auvers*
 
-![Cérémonie au mémorial de Villeneuve-sur-Auvers (Essonne), 25 mai 2024](/images/phototheque/2024-05-villeneuve-sur-auvers.png)
+![Cérémonie au mémorial de Villeneuve-sur-Auvers (Essonne), 25 mai 2024](/images/phototheque/2024-05-villeneuve-sur-auvers.jpg)
 *Cérémonie au mémorial de Villeneuve-sur-Auvers (Essonne), 25 mai 2024*
 
 ![Journée nationale de la Résistance à Grasse, 27 mai 2024](/images/phototheque/2024-05-journee-resistance-grasse.jpeg)
@@ -142,7 +142,7 @@ La photothèque de SAR France rassemble les clichés pris lors des cérémonies 
 ![Les drapeaux des SAR et du Royal Deux-Ponts](/images/phototheque/2024-04-drapeaux-sar-royal-deux-ponts.jpg)
 *Les drapeaux des SAR et du Royal Deux-Ponts*
 
-![Nos « Compatriots » avec les Scouts américains à Omaha Beach](/images/phototheque/2024-04-scouts-omaha-beach.png)
+![Nos « Compatriots » avec les Scouts américains à Omaha Beach](/images/phototheque/2024-04-scouts-omaha-beach.jpg)
 *Nos « Compatriots » avec les Scouts américains à Omaha Beach, 20 avril 2024*
 
 ![NATO Parade, 20 avril 2024, Norfolk (VA)](/images/phototheque/2024-04-nato-parade-norfolk.jpg)
