@@ -298,3 +298,8 @@
 
 - id: nssar_logo_alt
   translation: "Logo de la National Society of the Sons of the American Revolution"
+
+- id: main_nav
+  translation: "Navigation principale"
+- id: change_language
+  translation: "Changer de langue"
