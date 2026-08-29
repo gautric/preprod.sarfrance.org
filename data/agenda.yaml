@@ -1050,6 +1050,14 @@ events:
     link: "https://www.sar.org"
     lat: 36.0726
     lon: -79.792
+  - date: "2026-09-07T18:00:00"
+    title: "Commémoration de la Chesapeake"
+    type: commémoration
+    description: "À l'occasion de la commémoration de la Chesapeake, Allen Greenly, nouveau Président Général de la NSSAR, ravivera la Flamme sous l'Arc de Triomphe."
+    location: "Arc de Triomphe"
+    link: ""
+    lat: 48.8738
+    lon: 2.295
   - date: "2026-09-23T15:00:00"
     title: "Conférence de Patrick Villiers"
     type: conférence
