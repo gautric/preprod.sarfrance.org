@@ -1050,6 +1050,14 @@ events:
     link: "https://www.sar.org"
     lat: 36.0726
     lon: -79.792
+  - date: "2026-09-14T18:00:00"
+    title: "Conférence du cercle France-Amériques sur une régate franco-américaine"
+    type: conférence
+    description: "Récit de la régate menée conjointement par des élèves de l'École navale et des cadets de l'US Naval Academy, à l'occasion du 250e anniversaire de l'Indépendance des États-Unis et des 400 ans de la Marine. Réservation sur le site de France-Amériques."
+    location: "Cercle France-Amériques, 9 avenue Franklin Roosevelt, 75008 Paris"
+    link: ""
+    lat: 48.8659
+    lon: 2.31
   - date: "2026-09-07T18:00:00"
     title: "Commémoration de la Chesapeake"
     type: commémoration
