@@ -1058,6 +1058,14 @@ events:
     link: ""
     lat: 48.8659
     lon: 2.31
+  - date: "2026-09-15T18:30:00"
+    title: "Table ronde sur la bataille de la Chesapeake"
+    type: conférence
+    description: "Table ronde de la Société des Cincinnati de France sur cet affrontement naval décisif de la guerre d'Indépendance, suivie d'une séance de signature et d'un cocktail (participation : 30 €). Inscription selon les modalités de l'invitation."
+    location: "Amphithéâtre Garnier, École Militaire, Paris"
+    link: ""
+    lat: 48.8536
+    lon: 2.3049
   - date: "2026-09-07T18:00:00"
     title: "Commémoration de la Chesapeake"
     type: commémoration
