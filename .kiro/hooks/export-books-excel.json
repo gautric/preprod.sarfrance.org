@@ -1,0 +1,17 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Export Books Excel",
+      "description": "Regenerates static/documents/SAR_BIBLI_inventaire.xlsx from data/books.yaml whenever the YAML source is edited, keeping the downloadable Excel file on the website up to date.",
+      "trigger": "PostFileSave",
+      "matcher": "data/books\\.yaml$",
+      "action": {
+        "type": "command",
+        "command": "source .venv/bin/activate && python3 scripts/export_books_excel.py"
+      },
+      "timeout": 30,
+      "enabled": true
+    }
+  ]
+}
