@@ -1066,6 +1066,14 @@ events:
     link: ""
     lat: 48.8536
     lon: 2.3049
+  - date: "2026-09-17T18:00:00"
+    title: "Conférence de l'amiral Nerzic sur la Chesapeake"
+    type: conférence
+    description: "« 1781, The battles of the Virginia Capes. L'amiral de Grasse et la victoire de la Chesapeake », par le contre-amiral Jean-Yves Nerzic (SFHM). Salle B001 Moraud."
+    location: "Faculté Victor Segalen, 20 rue Duquesne, Brest"
+    link: ""
+    lat: 48.3906
+    lon: -4.4993
   - date: "2026-09-07T18:00:00"
     title: "Commémoration de la Chesapeake"
     type: commémoration
@@ -1090,11 +1098,11 @@ events:
     link: ""
     lat: 48.8429
     lon: 2.4358
-  - date: "2026-09-26"
-    title: "Commémoration du 250ème anniversaire"
-    type: conférence
-    description: ""
-    location: "Château de Caumale, Escalans"
+  - date: "2026-09-26T12:30:00"
+    title: "Journée du 250e anniversaire au château de Caumale"
+    type: 250freedom
+    description: "Journée organisée par les Amis du château de Caumale, avec les Cincinnati, les SAR et les DAR, pour le 250e anniversaire de l'Indépendance américaine. Déjeuner placé dès 12 h 30, concert à 16 h."
+    location: "Château de Caumale, 40310 Escalans"
     link: ""
     lat: 43.9834
     lon: 0.0337
