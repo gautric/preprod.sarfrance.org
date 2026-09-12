@@ -1,7 +1,7 @@
 ---
 title: "The Society"
 description: "Board of directors, regional delegations, secretariat and NSSAR liaison"
-lastUpdate: 2026-07-04
+lastUpdate: 2026-09-12
 ---
 
 ### Page Contents
@@ -36,7 +36,7 @@ The Society in France of the Sons of the American Revolution is the first state 
 ## NSSAR Liaison
 
 - **SAR France Trustee to NSSAR (USA)**: Patrick Kelly
-- **Alternate Trustee**: William Schwedtke (until June 30, 2026), then Samuel Powell (from July 1, 2026)
+- **Alternate Trustee**: Samuel Powell
 - **NSSAR Vice President General (Europe District)**: Patrick Mesnard
 
 ## Regional Delegations
@@ -51,7 +51,7 @@ The Society in France of the Sons of the American Revolution is the first state 
 - **Creuse (Aubusson)**: Bertrand Desthieux
 - **Hauts de France**: Olivier Partiot
 - **Île-de-France**: Florian de Roux (Paris), Gérard Priet (Versailles), Bertrand Savatier (Fontainebleau)
-- **Languedoc (Uzès)**: Comte Thierry de Seguins-Cohorn
+- **Languedoc (Uzès)**: Thierry de Seguins-Cohorn
 - **Normandy**: Jacques de Pesquidoux, Mathieu Farges (Rouen)
 - **Western Occitania (Toulouse)**: Yves Parmentier
 - **Orléanais**: Martin Boyer, Patrick Villiers

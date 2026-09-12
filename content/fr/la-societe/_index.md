@@ -6,7 +6,7 @@ aliases:
   - "/organisation/conseil-consultatif-dhistoire/"
   - "/organisation/annuaire/"
 description: "Conseil d'administration, délégations régionales, secrétariat et liaison avec la NSSAR"
-lastUpdate: 2026-07-04
+lastUpdate: 2026-09-12
 ---
 
 ### Sommaire de la page
@@ -41,7 +41,7 @@ La Société en France des Fils de la Révolution Américaine est la première s
 ## Liaison avec la NSSAR
 
 - **Trustee de SAR France à la NSSAR (USA)** : Patrick Kelly
-- **Alternate Trustee** : William Schwedtke (jusqu'au 30 juin 2026) puis Samuel Powell (à compter du 1er juillet 2026)
+- **Alternate Trustee** : Samuel Powell
 - **Vice President General NSSAR (Europe District)** : Patrick Mesnard
 
 ## Délégations régionales
@@ -56,9 +56,9 @@ La Société en France des Fils de la Révolution Américaine est la première s
 - **Creuse (Aubusson)** : Bertrand Desthieux
 - **Hauts de France** : Olivier Partiot
 - **Île-de-France** : Florian de Roux (Paris), Gérard Priet (Versailles), Bertrand Savatier (Fontainebleau)
-- **Languedoc (Uzès)** : Comte Thierry de Seguins-Cohorn
+- **Languedoc (Uzès)** : Thierry de Seguins-Cohorn
 - **Normandie** : Jacques de Pesquidoux, Mathieu Farges (Rouen)
-- **Occitanie ouest (Toulouse)** : Guy Parmentier
+- **Occitanie ouest (Toulouse)** : Yves Parmentier
 - **Orléanais** : Martin Boyer, Patrick Villiers
 - **Provence / Alpes / Côte d'Azur** : Christian Guidi, Antoine Comby
 - **Rhône-Alpes (Lyon)** : Antoine Comby
