@@ -4,13 +4,13 @@
 # Documentation : https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 #
 # Règle : seul @gautric (Greg) peut modifier la partie technique.
-#         Le contenu éditorial et les données sont gérés par @gautric et @SARFrance.
+#         Le contenu éditorial et les données sont gérés par @gautric @SARFrance @olivierdlb-80.
 
 # ── Contenu éditorial & données (gautric + SARFrance) ──────────────
-content/                        @gautric @SARFrance
-data/                           @gautric @SARFrance
-static/                         @gautric @SARFrance
-i18n/                           @gautric @SARFrance
+content/                        @gautric @SARFrance @olivierdlb-80
+data/                           @gautric @SARFrance @olivierdlb-80
+static/                         @gautric @SARFrance @olivierdlb-80
+i18n/                           @gautric @SARFrance @olivierdlb-80
 CNAME                           @gautric
 
 # ── Partie technique (gautric uniquement) ──────────────────────────
