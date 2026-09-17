@@ -69,7 +69,7 @@ La Société en France des Fils de la Révolution Américaine est la première s
 
 - **Comité consultatif d'histoire** : Martin Boyer
 - **Échanges familiaux avec les États-Unis d'Amérique** : Jean-Michel Saint-Girons
-- **Site internet** : Grégoire Autric et Olivier de La Bastide
+- **Site internet** : Olivier de La Bastide
 - **Réseaux sociaux** : Marc Baronnet et Jacques de Nucé de Lamothe
 - **Coordination communication** : Stéphane Meffre
 - **Recrutement** : Jérôme de Keréver
