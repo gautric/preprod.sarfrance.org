@@ -23,7 +23,7 @@ The Society in France of the Sons of the American Revolution is the first state 
 - **Treasurer**: Jacques de Nucé de Lamothe
 - **Deputy Treasurer**: Charles-Edouard de Broglie
 - **Proof Commissioner**: Loïc de Saint Pol
-- **Historian**: Comte Thierry de Seguins-Cohorn
+- **Historian**: Thierry de Seguins-Cohorn
 - **Director**: Michael Carter
 - **Director**: Erard Corbin de Mangoux
 - **Director**: Jérôme de Keréver
@@ -37,7 +37,7 @@ The Society in France of the Sons of the American Revolution is the first state 
 
 - **SAR France Trustee to NSSAR (USA)**: Patrick Kelly
 - **Alternate Trustee**: Samuel Powell
-- **NSSAR Vice President General (Europe District)**: Patrick Mesnard
+- **NSSAR Vice President General (Europe District)**: Hervé Audren de Kerdrel
 
 ## Regional Delegations
 
@@ -52,12 +52,24 @@ The Society in France of the Sons of the American Revolution is the first state 
 - **Hauts de France**: Olivier Partiot
 - **Île-de-France**: Florian de Roux (Paris), Gérard Priet (Versailles), Bertrand Savatier (Fontainebleau)
 - **Languedoc (Uzès)**: Thierry de Seguins-Cohorn
-- **Normandy**: Jacques de Pesquidoux, Mathieu Farges (Rouen)
+- **Normandy**: Jacques de Pesquidoux (Caen), Mathieu Farges (Rouen)
 - **Western Occitania (Toulouse)**: Yves Parmentier
 - **Orléanais**: Martin Boyer, Patrick Villiers
 - **Provence / Alps / French Riviera**: Christian Guidi, Antoine Comby
 - **Rhône-Alpes (Lyon)**: Antoine Comby
 - **Savoy / Switzerland**: Philippe de La Débutrie, Cyrille Joye
+
+## Other Delegated Responsibilities
+
+- **Advisory History Committee**: Martin Boyer
+- **Family Exchanges with the United States of America**: Jean-Michel Saint-Girons
+- **Website**: Olivier de La Bastide
+- **Social Media**: Marc Baronnet and Jacques de Nucé de Lamothe
+- **Communications Coordination**: Stéphane Meffre
+- **Recruitment**: Jérôme de Keréver
+- **Database and Directory**: Pierre-Nicolas de Tarlé
+- **NSSAR Relations and Dual Members**: Michael Carter
+- **Library and Biographical Dictionary**: Jean-Louis Chatelain
 
 ## Secretariat
 

@@ -6,7 +6,7 @@ aliases:
   - "/organisation/conseil-consultatif-dhistoire/"
   - "/organisation/annuaire/"
 description: "Conseil d'administration, délégations régionales, secrétariat et liaison avec la NSSAR"
-lastUpdate: 2026-09-12
+lastUpdate: 2026-09-17
 ---
 
 ### Sommaire de la page
@@ -14,6 +14,7 @@ lastUpdate: 2026-09-12
 - [Conseil d'administration](#conseil-dadministration)
 - [Liaison avec la NSSAR](#liaison-avec-la-nssar)
 - [Délégations régionales](#délégations-régionales)
+- [Autres responsabilités déléguées](#autres-responsabilités-déléguées)
 - [Secrétariat](#secrétariat)
 - [Conseil consultatif d'histoire](#conseil-consultatif-dhistoire)
 
@@ -28,7 +29,7 @@ La Société en France des Fils de la Révolution Américaine est la première s
 - **Trésorier** : Jacques de Nucé de Lamothe
 - **Trésorier adjoint** : Charles-Edouard de Broglie
 - **Commissaire aux preuves** : Loïc de Saint Pol
-- **Historien** : Comte Thierry de Seguins-Cohorn
+- **Historien** : Thierry de Seguins-Cohorn
 - **Administrateur** : Michael Carter
 - **Administrateur** : Erard Corbin de Mangoux
 - **Administrateur** : Jérôme de Keréver
@@ -42,7 +43,7 @@ La Société en France des Fils de la Révolution Américaine est la première s
 
 - **Trustee de SAR France à la NSSAR (USA)** : Patrick Kelly
 - **Alternate Trustee** : Samuel Powell
-- **Vice President General NSSAR (Europe District)** : Patrick Mesnard
+- **Vice President General NSSAR (Europe District)** : Hervé Audren de Kerdrel
 
 ## Délégations régionales
 
@@ -57,12 +58,24 @@ La Société en France des Fils de la Révolution Américaine est la première s
 - **Hauts de France** : Olivier Partiot
 - **Île-de-France** : Florian de Roux (Paris), Gérard Priet (Versailles), Bertrand Savatier (Fontainebleau)
 - **Languedoc (Uzès)** : Thierry de Seguins-Cohorn
-- **Normandie** : Jacques de Pesquidoux, Mathieu Farges (Rouen)
+- **Normandie** : Jacques de Pesquidoux (Caen), Mathieu Farges (Rouen)
 - **Occitanie ouest (Toulouse)** : Yves Parmentier
 - **Orléanais** : Martin Boyer, Patrick Villiers
 - **Provence / Alpes / Côte d'Azur** : Christian Guidi, Antoine Comby
 - **Rhône-Alpes (Lyon)** : Antoine Comby
 - **Savoie / Suisse** : Philippe de La Débutrie, Cyrille Joye
+
+## Autres responsabilités déléguées
+
+- **Comité consultatif d'histoire** : Martin Boyer
+- **Échanges familiaux avec les États-Unis d'Amérique** : Jean-Michel Saint-Girons
+- **Site internet** : Grégoire Autric et Olivier de La Bastide
+- **Réseaux sociaux** : Marc Baronnet et Jacques de Nucé de Lamothe
+- **Coordination communication** : Stéphane Meffre
+- **Recrutement** : Jérôme de Keréver
+- **Base de données et annuaire** : Pierre-Nicolas de Tarlé
+- **Relations NSSAR et dual members** : Michael Carter
+- **Bibliothèque et dictionnaire biographique** : Jean-Louis Chatelain
 
 ## Secrétariat
 
