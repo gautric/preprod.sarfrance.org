@@ -94,6 +94,8 @@
   - `.page-meta` + `.page-meta-count` + `.page-meta-hint` — count/revision info in page headers
   - `.page-card` — card with border, radius, hover shadow (+ `.page-card-header`, `.page-card-title`, `.page-card-date`, `.page-card-desc`, `.page-card-tags`, `.page-card-link`)
   - `.tl-axis` — vertical timeline container (+ `.tl-row`, `.tl-dot`, `.tl-dot--lg`, `.tl-group-title`)
+  - `.event-new` — "Nouveau / New" badge on recent agenda events (colours in `colors.css`)
+  - `.filter-btn-count` — count pill inside a filter button, outlined in `currentColor` so it stays legible in every button state
 - Page-specific CSS files should not duplicate these shared styles — only add page-specific overrides
 - Active filter color overrides (`.filter-btn.active.tag-xxx` / `.filter-btn.active.type-xxx`) are defined at the bottom of `colors.css`, keeping all color definitions in one place.
 - Emoji icons for tags/types are defined in page-specific CSS using `::before` on both `.tag.xxx` and `.filter-btn.xxx` selectors — never scoped to a parent container
@@ -162,11 +164,15 @@ Additional fields:
 
 All events should include the extended fields (`description`, `location`, `link`, `lat`, `lon`) whenever the information is available, regardless of date. For a physical venue, always provide `location` and the corresponding `lat`/`lon` coordinates so the Leaflet mini-map can render. Use `lat: 0` / `lon: 0` only for events with no physical location (e.g. videoconferences). Older events that still lack these fields should be completed as the information becomes available.
 
-## Agenda `update` Field and the "Nouveau / New" Badge
+## Agenda `update` Field, "Nouveau / New" Badge and Filter
 
 - Every event in `data/agenda.yaml` carries a technical `update` field holding the date of its last substantive change (creation counts as a change). It is the last key of each event block.
 - When adding or editing an event by hand, set `update` to the current date. Automated flows (`agent-agenda`, the `ajout-evenement-agenda` Kiro hook) do the same.
 - The historical baseline was reconstructed from the git history of `data/agenda.yaml` (and its `data/agenda.json` predecessor) by `scripts/agenda_update_dates.py`. Re-run it with `make agenda-dates` (or `python scripts/agenda_update_dates.py --write`) to recompute every date from git; schema-only refactors are ignored by the comparison, so they do not reset the dates.
-- `partials/event-new-badge.html` renders the badge when `update` is within `params.newEventDays` (15 days by default). The window is a single global param in `config/_default/params.yaml` — do not hardcode it in templates.
-- The badge is computed at build time. The daily rebuild scheduled in `deploy.yml` (06:00 UTC) makes it expire on its own, so no client-side JavaScript is involved.
-- The badge is used on the agenda pages (`activites/agenda.html`) and on the homepage upcoming-events cards (`index.html`). Styles: `.event-new` in `filters.css`, colours `--event-new-bg` / `--event-new-text` in `colors.css`, labels `event_new` / `event_new_title` in `i18n/fr.yaml` and `i18n/en.yaml`.
+- `partials/event-is-new.html` is the single source of truth for the freshness rule: it returns `true` when `update` falls within `params.newEventDays` (15 days by default, in `config/_default/params.yaml`). Never re-implement the comparison — call the partial.
+- `partials/event-new-badge.html` renders the badge via that partial. Used on the agenda pages (`activites/agenda.html`) and on the homepage upcoming-events cards (`index.html`).
+- Freshness is computed at build time. The daily rebuild scheduled in `deploy.yml` (06:00 UTC) makes the badge and the filter expire on their own, so no client-side JavaScript is involved in the date logic.
+- The agenda filter bar carries a "Nouveau / New" pill (`.filter-btn.filter-new`) with a count, rendered only when the displayed year holds at least one fresh event — same conditional pattern as `$usedTypes` for the type pills.
+- Adding `?new` to an agenda URL preselects that filter (e.g. `/activites/agenda-2026/?new`). Any form works: `?new`, `?new=1`, `?a=1&new`. When the displayed year holds no fresh event the pill is absent and the page falls back to "Tout / All" rather than showing an empty list. `pages/agenda.js` implements this by clicking the pill, so the `FilterEngine` binding stays the single place that owns active-button and visibility logic.
+- Agenda filter attributes: buttons carry `data-filter` (single value), rows carry `data-filters` (comma-separated: the event type, plus `nouveau` when fresh) and `pages/agenda.js` runs the shared `FilterEngine` with `multiValue: true`. The plural attribute name reflects that a row now holds several filterable values; do not put the freshness flag back into a `data-type` attribute.
+- Styles: `.event-new`, `.filter-btn.filter-new::before` and `.filter-btn-count` in `filters.css`; colours `--event-new-bg` / `--event-new-text` plus the `.filter-btn.filter-new.active` override in `colors.css`; labels `event_new`, `event_new_title` and `filter_events` in `i18n/fr.yaml` and `i18n/en.yaml`.

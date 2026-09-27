@@ -1,17 +1,12 @@
 {{- /*
     Badge « nouveau / new » pour un événement d'agenda.
 
-    Rend un badge lorsque l'attribut technique `update` de l'événement est
-    postérieur au seuil de fraîcheur (params.newEventDays, 15 jours par défaut).
-    Le calcul est fait au build : le site étant reconstruit chaque jour par la
-    tâche planifiée de deploy.yml, le badge disparaît automatiquement.
+    Rend un badge lorsque l'événement est récent au sens de
+    `event-is-new.html` (attribut `update` dans la fenêtre params.newEventDays).
 
     Appel : {{ partial "event-new-badge.html" . }} où « . » est l'événement
     (map issue de data/agenda.yaml).
 */ -}}
-{{- $days := int (site.Params.newEventDays | default 15) -}}
-{{- $threshold := (now.AddDate 0 0 (sub 0 $days)).Format "2006-01-02" -}}
-{{- $update := printf "%v" (.update | default "") -}}
-{{- if and (ne $update "") (ge $update $threshold) -}}
+{{- if partial "event-is-new.html" . -}}
 <span class="event-new" title="{{ i18n "event_new_title" }}">{{ i18n "event_new" }}</span>
 {{- end -}}

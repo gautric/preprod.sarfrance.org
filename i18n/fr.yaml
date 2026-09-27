@@ -54,6 +54,8 @@
   translation: "Navigation par année"
 - id: filter_by_type
   translation: "Filtrer par type"
+- id: filter_events
+  translation: "Filtrer les événements"
 - id: chronologie_desc
   translation: "Présentation synoptique de l'histoire américaine et européenne"
 - id: filter_by_category

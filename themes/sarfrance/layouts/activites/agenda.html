@@ -13,6 +13,9 @@
 {{ $usedTypes := slice }}
 {{ range $events }}{{ $usedTypes = $usedTypes | append .type }}{{ end }}
 {{ $usedTypes = $usedTypes | uniq }}
+{{/* Le filtre « nouveau » n'apparaît que si l'année affichée contient au moins un événement récent. */}}
+{{ $newCount := 0 }}
+{{ range $events }}{{ if partial "event-is-new.html" . }}{{ $newCount = add $newCount 1 }}{{ end }}{{ end }}
 {{ $i18nPrefix := "agenda_type_" }}
 <article class="page-content">
     {{ partial "page-header.html" (dict "ctx" . "title" (printf "%s %s" (i18n "agenda_title") $year) "desc" (i18n "agenda_desc")) }}
@@ -28,11 +31,14 @@
             <a href="{{ $prefix }}/activites/agenda-{{ $y }}/" class="filter-btn{{ if eq $y $year }} active{{ end }}">{{ $y }}</a>
             {{ end }}
         </nav>
-        <div class="page-filters agenda-filters" role="group" aria-label="{{ i18n "filter_by_type" }}">
-            <button class="filter-btn active" data-type="all">{{ i18n "filter_all" }}</button>
+        <div class="page-filters agenda-filters" role="group" aria-label="{{ i18n "filter_events" }}">
+            <button class="filter-btn active" data-filter="all">{{ i18n "filter_all" }}</button>
+            {{ if gt $newCount 0 }}
+            <button class="filter-btn filter-new" data-filter="nouveau" title="{{ i18n "event_new_title" }}">{{ i18n "event_new" }} <span class="filter-btn-count">{{ $newCount }}</span></button>
+            {{ end }}
             {{ range $types }}
             {{ if in $usedTypes . }}
-            <button class="filter-btn type-{{ . | urlize }}" data-type="{{ . }}">{{ i18n (printf "%s%s" $i18nPrefix .) }}</button>
+            <button class="filter-btn type-{{ . | urlize }}" data-filter="{{ . }}">{{ i18n (printf "%s%s" $i18nPrefix .) }}</button>
             {{ end }}
             {{ end }}
         </div>
@@ -48,7 +54,9 @@
                     </div>
                 {{ end }}
                 {{- $eventId := printf "%s-%s" .date (.title | urlize) -}}
-                <div class="tl-row" id="{{ $eventId }}" data-type="{{ .type }}">
+                {{- $isNew := partial "event-is-new.html" . -}}
+                {{/* data-filter(s) : valeurs filtrables de la ligne — le type, plus « nouveau » si l'événement est récent. */}}
+                <div class="tl-row" id="{{ $eventId }}" data-filters="{{ .type }}{{ if $isNew }},nouveau{{ end }}">
                     <div class="tl-dot type-{{ .type | urlize }}"></div>
                     <div class="page-card{{ if and .lat .lon (ne (printf "%v" .lat) "0") }} page-card--has-map{{ end }}">
                         <div class="page-card-body">

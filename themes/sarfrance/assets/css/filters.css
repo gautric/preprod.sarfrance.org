@@ -68,8 +68,26 @@
     white-space: nowrap;
 }
 
-.event-new::before {
+/* Icône partagée par le badge et son bouton de filtre */
+.event-new::before,
+.filter-btn.filter-new::before {
     content: "✦ ";
+}
+
+/* Compteur dans un bouton de filtre. Contour en `currentColor` : lisible sur
+   un bouton inactif comme sur un bouton actif, quelle que soit sa couleur. */
+.filter-btn-count {
+    display: inline-block;
+    min-width: 1.2em;
+    padding: 0 4px;
+    margin-left: 2px;
+    border: 1px solid currentColor;
+    border-radius: 10px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: center;
+    opacity: 0.75;
 }
 
 /* ---- Search ---- */

@@ -1,0 +1,18 @@
+{{- /*
+    Fraîcheur d'un événement d'agenda.
+
+    Renvoie `true` lorsque l'attribut technique `update` de l'événement est
+    postérieur au seuil de fraîcheur (params.newEventDays, 15 jours par défaut).
+    Le calcul est fait au build : le site étant reconstruit chaque jour par la
+    tâche planifiée de deploy.yml, la fraîcheur expire d'elle-même.
+
+    Règle unique partagée par le badge « nouveau » et le filtre de l'agenda :
+    ne pas rejouer ce calcul ailleurs.
+
+    Appel : {{ if partial "event-is-new.html" . }} où « . » est l'événement
+    (map issue de data/agenda.yaml).
+*/ -}}
+{{- $days := int (site.Params.newEventDays | default 15) -}}
+{{- $threshold := (now.AddDate 0 0 (sub 0 $days)).Format "2006-01-02" -}}
+{{- $update := printf "%v" (.update | default "") -}}
+{{- return and (ne $update "") (ge $update $threshold) -}}

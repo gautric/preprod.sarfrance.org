@@ -2,10 +2,13 @@
 
 HUGO_VERSION_CI := 0.165.0
 
+# Répertoire jetable pour les builds de vérification (hors public/)
+CHECK_DIR := /tmp/sarfrance-build-check
+
 # Extension gh Agentic Workflows (gh-aw)
 GH_AW_REPO := github/gh-aw
 
-.PHONY: serve build build-prod clean version \
+.PHONY: serve build build-prod build-check clean version \
         update update-hugo update-gh update-gh-ext update-gh-aw \
         tools-version doctor \
         aw-compile aw-recompile \
@@ -25,8 +28,16 @@ build-prod:
 	hugo --minify --baseURL "https://www.sarfrance.org/"
 
 ## Build propre (nettoyage du cache)
+## ⚠️ N'utilisez PAS cette cible pendant qu'un `hugo server` tourne : le nettoyage
+## de public/ et du cache d'assets casse les pages déjà servies par le serveur
+## (empreintes de fichiers introuvables → pages sans CSS ni JS).
 clean:
 	hugo --gc --cleanDestinationDir
+## Build de vérification isolé — sûr même avec un `hugo server` en cours
+## car il n'écrit ni dans public/ ni dans le cache partagé.
+build-check:
+	hugo --minify --destination $(CHECK_DIR) --cacheDir $(CHECK_DIR)/cache
+	@echo "✅ Build de vérification disponible dans $(CHECK_DIR)"
 
 ## Vérifier la version de Hugo (locale vs version épinglée en CI)
 version:

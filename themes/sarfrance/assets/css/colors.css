@@ -225,3 +225,10 @@
 .cat-catalogues        { background-color: var(--color-copper); }
 .cat-revues            { background-color: var(--color-khaki); }
 .cat-divers            { background-color: var(--color-slate); }
+
+/* Agenda — filtre « nouveau » : reprend les couleurs du badge d'événement récent */
+.filter-btn.filter-new.active {
+    background-color: var(--event-new-bg);
+    border-color: var(--event-new-bg);
+    color: var(--event-new-text);
+}
