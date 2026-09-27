@@ -1122,6 +1122,22 @@ events:
     link: "https://www.sar.org"
     lat: 38.2542
     lon: -85.7594
+  - date: "2026-10-08T18:30:00"
+    title: "Conférence de S. Meffre sur Jean-Gaspard Vence"
+    type: conférence
+    description: "Conférence de Stéphane Meffre, proposée par l'INTRA-MARINE, sur Jean-Gaspard Vence (1747-1808), corsaire aux Antilles sous pavillon américain, officier du Roi et amiral sous Bonaparte."
+    location: "École militaire, amphithéâtre Sabatier, Paris"
+    link: ""
+    lat: 48.8518
+    lon: 2.3048
+  - date: "2026-10-09T09:30:00"
+    title: "Les États-Unis et Versailles"
+    type: 250freedom
+    description: "Journée-rencontre « Les États-Unis et Versailles : 250 ans d'histoire partagée » : conférences sur La Fayette, Vergennes, Franklin et Jefferson. Traduction simultanée en anglais. Entrée gratuite sur réservation."
+    location: "Auditorium du Pavillon Dufour, château de Versailles"
+    link: ""
+    lat: 48.8044
+    lon: 2.1203
   - date: "2026-10-10T09:45:00"
     title: "Journée en Médoc (Gironde)"
     type: visite
@@ -1130,6 +1146,14 @@ events:
     link: ""
     lat: 45.0089
     lon: -0.6464
+  - date: "2026-10-12T18:30:00"
+    title: "Conférence sur l'aide française à l'Indépendance"
+    type: conférence
+    description: "Conférence sur l'engagement militaire français aux États-Unis de 1777 à 1782, organisée par le cercle France-Amériques. Accueil à partir de 18 h, verre amical à l'issue."
+    location: "Cercle France-Amériques, 9 avenue Franklin Roosevelt, 75008 Paris"
+    link: ""
+    lat: 48.8659
+    lon: 2.31
   - date: "2026-10-22T18:00:00/2026-10-22T20:00:00"
     title: "Conférence « La Marine et les opérations extérieures 1958-2011 » et visite de l'exposition « Les trésors de la Marine »"
     type: 400ans-marine-nationale
