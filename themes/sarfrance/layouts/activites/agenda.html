@@ -32,7 +32,7 @@
             {{ end }}
         </nav>
         <div class="page-filters agenda-filters" role="group" aria-label="{{ i18n "filter_events" }}">
-            <button class="filter-btn active" data-filter="all">{{ i18n "filter_all" }}</button>
+            <button class="filter-btn filter-all active" data-filter="all">{{ i18n "filter_all" }}</button>
             {{ if gt $newCount 0 }}
             <button class="filter-btn filter-new" data-filter="nouveau" title="{{ i18n "event_new_title" }}">{{ i18n "event_new" }} <span class="filter-btn-count">{{ $newCount }}</span></button>
             {{ end }}

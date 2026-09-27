@@ -96,6 +96,7 @@
   - `.tl-axis` — vertical timeline container (+ `.tl-row`, `.tl-dot`, `.tl-dot--lg`, `.tl-group-title`)
   - `.event-new` — "Nouveau / New" badge on recent agenda events (colours in `colors.css`)
   - `.filter-btn-count` — count pill inside a filter button, outlined in `currentColor` so it stays legible in every button state
+  - `.filter-btn.filter-all` — icon of the "Tout / All" button: a 3×3 grid of squares drawn as an SVG mask tinted with `currentColor`. Every "Tout / All" filter button must carry this class
 - Page-specific CSS files should not duplicate these shared styles — only add page-specific overrides
 - Active filter color overrides (`.filter-btn.active.tag-xxx` / `.filter-btn.active.type-xxx`) are defined at the bottom of `colors.css`, keeping all color definitions in one place.
 - Emoji icons for tags/types are defined in page-specific CSS using `::before` on both `.tag.xxx` and `.filter-btn.xxx` selectors — never scoped to a parent container

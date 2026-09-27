@@ -8,7 +8,7 @@
     {{ partial "page-header.html" (dict "ctx" . "desc" (i18n "chronologie_desc")) }}
     <div class="container">
         <div class="page-filters" role="group" aria-label="{{ i18n "filter_by_category" }}">
-            <button class="filter-btn active" data-tag="all">{{ i18n "filter_all" }}</button>
+            <button class="filter-btn filter-all active" data-tag="all">{{ i18n "filter_all" }}</button>
             {{ range hugo.Data.metadata.chronologie.tags }}
             <button class="filter-btn tag-{{ . | urlize }}" data-tag="{{ . }}">{{ i18n (printf "chrono_tag_%s" .) }}</button>
             {{ end }}

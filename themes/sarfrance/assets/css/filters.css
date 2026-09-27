@@ -74,6 +74,26 @@
     content: "✦ ";
 }
 
+/* Icône du bouton « Tout / All » : grille de neuf carrés (3 × 3). Aucun
+   caractère Unicode ne la rend de façon fiable : SVG appliqué en masque et
+   teinté en `currentColor`, pour suivre la couleur du texte du bouton, actif
+   ou non. */
+.filter-btn.filter-all::before {
+    content: "";
+    display: inline-block;
+    width: 0.85em;
+    height: 0.85em;
+    margin-right: 0.4em;
+    vertical-align: -0.1em;
+    background-color: currentColor;
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M0 0h4v4h-4zm6 0h4v4h-4zm6 0h4v4h-4zM0 6h4v4h-4zm6 0h4v4h-4zm6 0h4v4h-4zM0 12h4v4h-4zm6 0h4v4h-4zm6 0h4v4h-4z'/%3E%3C/svg%3E");
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M0 0h4v4h-4zm6 0h4v4h-4zm6 0h4v4h-4zM0 6h4v4h-4zm6 0h4v4h-4zm6 0h4v4h-4zM0 12h4v4h-4zm6 0h4v4h-4zm6 0h4v4h-4z'/%3E%3C/svg%3E");
+    mask-size: contain;
+    mask-repeat: no-repeat;
+}
+
 /* Compteur dans un bouton de filtre. Contour en `currentColor` : lisible sur
    un bouton inactif comme sur un bouton actif, quelle que soit sa couleur. */
 .filter-btn-count {

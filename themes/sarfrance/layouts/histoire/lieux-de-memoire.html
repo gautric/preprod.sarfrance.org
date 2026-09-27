@@ -16,7 +16,7 @@
         </div>
 
         <div class="page-filters" role="group" aria-label="{{ i18n "filter_by_category" }}">
-            <button class="filter-btn active" data-tag="all">{{ i18n "filter_all" }}</button>
+            <button class="filter-btn filter-all active" data-tag="all">{{ i18n "filter_all" }}</button>
             {{ range (index hugo.Data.metadata "lieux-de-memoire").tags }}
             <button class="filter-btn tag-{{ . | urlize }}" data-tag="{{ . }}">{{ i18n (printf "hl_tag_%s" .) }}</button>
             {{ end }}
