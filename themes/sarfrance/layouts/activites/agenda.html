@@ -54,7 +54,10 @@
                         <div class="page-card-body">
                             <div class="page-card-header">
                                 <span class="page-card-date">{{ partial "format-date.html" (dict "date" .date "ctx" $) }}</span>
-                                <span class="agenda-type type-{{ .type | urlize }}">{{ i18n (printf "%s%s" $i18nPrefix .type) }}</span>
+                                <span class="page-card-header-meta">
+                                    {{ partial "event-new-badge.html" . }}
+                                    <span class="agenda-type type-{{ .type | urlize }}">{{ i18n (printf "%s%s" $i18nPrefix .type) }}</span>
+                                </span>
                             </div>
                             <h3 class="page-card-title">{{ with .link }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}{{ .title }}{{ with .link }}</a>{{ end }}</h3>
                             {{ with .description }}<p class="page-card-desc">{{ . }}</p>{{ end }}

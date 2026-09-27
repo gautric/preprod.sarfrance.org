@@ -456,7 +456,12 @@ Quand vous soumettez le formulaire **📅 Ajout d'un événement à l'agenda**, 
 - Corrige les fautes d'orthographe évidentes
 - Géolocalise le lieu (coordonnées GPS via OpenStreetMap)
 - Insère l'événement dans le fichier `data/agenda.yaml` au bon endroit
+- Enregistre la date du jour dans le champ technique `update` de l'événement
 - Crée une Pull Request pour relecture par le webmaster
+
+### Badge « Nouveau » sur les événements récents
+
+Chaque événement de l'agenda porte un champ technique `update` : la date de son dernier ajout ou de sa dernière modification. Pendant les 15 jours qui suivent cette date, l'événement est signalé par un badge **Nouveau** sur la page d'agenda et sur la page d'accueil. Le badge disparaît ensuite tout seul, grâce à la reconstruction quotidienne du site — aucune action n'est nécessaire.
 
 ### Traduction FR → EN (sur demande)
 

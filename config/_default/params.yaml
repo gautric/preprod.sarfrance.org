@@ -1,5 +1,9 @@
 # Paramètres globaux du site (non liés à une langue)
 currentAgendaYear: 2026
+# Fenêtre de fraîcheur (en jours) du badge « nouveau » sur les événements
+# d'agenda : un événement dont l'attribut `update` est plus récent que ce
+# nombre de jours est signalé comme nouveau.
+newEventDays: 15
 brand: "SAR France"
 githubRepo: "https://github.com/gautric/preprod.sarfrance.org"
 contactApiUrl: "https://api.contact.sarfrance.org/contact"

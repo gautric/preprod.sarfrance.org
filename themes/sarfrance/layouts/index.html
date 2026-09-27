@@ -83,6 +83,7 @@
                     <span class="month">{{ time.Format "Jan" $eventDate }}</span>
                 </div>
                 <div class="event-info">
+                    {{ partial "event-new-badge.html" . }}
                     <h3>{{ .title }}</h3>
                     {{ with .location }}<span class="event-location">📍 {{ . }}</span>{{ end }}
                 </div>

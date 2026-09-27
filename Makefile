@@ -9,7 +9,8 @@ GH_AW_REPO := github/gh-aw
         update update-hugo update-gh update-gh-ext update-gh-aw \
         tools-version doctor \
         aw-compile aw-recompile \
-        bump-hugo-ci
+        bump-hugo-ci \
+        agenda-dates agenda-dates-check
 
 ## Serveur de développement (avec brouillons)
 serve:
@@ -33,6 +34,17 @@ version:
 	@hugo version
 	@echo "Version épinglée en CI (deploy.yml / preview.yml) : $(HUGO_VERSION_CI)"
 
+# ---------------------------------------------------------------------------
+# Agenda — attribut technique `update`
+# ---------------------------------------------------------------------------
+## Recalculer l'attribut `update` de chaque événement depuis l'historique git
+agenda-dates:
+	@test -d .venv || { echo "❌ Environnement virtuel .venv manquant"; exit 1; }
+	@. .venv/bin/activate && python scripts/agenda_update_dates.py --write
+## Afficher les dates calculées sans modifier data/agenda.yaml
+agenda-dates-check:
+	@test -d .venv || { echo "❌ Environnement virtuel .venv manquant"; exit 1; }
+	@. .venv/bin/activate && python scripts/agenda_update_dates.py --verbose
 # ---------------------------------------------------------------------------
 # Mise à jour de l'outillage (macOS / Homebrew)
 # ---------------------------------------------------------------------------

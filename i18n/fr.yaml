@@ -194,6 +194,11 @@
 - id: agenda_link
   translation: "En savoir plus"
 
+- id: event_new
+  translation: "Nouveau"
+- id: event_new_title
+  translation: "Événement ajouté ou mis à jour récemment"
+
 # Agenda types
 - id: agenda_type_conférence
   translation: "Conférence"

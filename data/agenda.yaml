@@ -7,9 +7,11 @@ events:
     link: ""
     lat: 48.8518
     lon: 2.3048
+    update: "2026-06-14"
   - date: "2018-03-29/2018-04-30"
     title: "Expositions « La Marine au siècle des Lumières » à Montpellier et « L'escadre de d'Estaing » à Toulon, avec conférences de P. Villiers"
     type: exposition
+    update: "2026-03-04"
   - date: "2018-05-12"
     title: "Conférence du Dr Alain Gaillard sur La Motte-Picquet au Cercle Louis XVI à Nantes"
     type: conférence
@@ -18,6 +20,7 @@ events:
     link: ""
     lat: 47.2186
     lon: -1.5541
+    update: "2026-06-14"
   - date: "2018-05-27"
     title: "Cérémonies du Memorial Day à Marnes-la-Coquette et Suresnes"
     type: commémoration
@@ -26,9 +29,11 @@ events:
     link: ""
     lat: 48.8723
     lon: 2.2177
+    update: "2026-06-14"
   - date: "2018-06-10/2018-06-20"
     title: "Voyage du Centenaire sur les lieux de la participation américaine à la Grande Guerre"
     type: visite
+    update: "2026-03-04"
   - date: "2018-06-25"
     title: "Cérémonie au cimetière de Picpus en présence de l'ambassadeur des États-Unis"
     type: commémoration
@@ -37,6 +42,7 @@ events:
     link: ""
     lat: 48.844
     lon: 2.4004
+    update: "2026-06-14"
   - date: "2018-07-13/2018-07-18"
     title: "Congrès de la NSSAR à Houston (Texas)"
     type: nssar
@@ -45,6 +51,7 @@ events:
     link: ""
     lat: 29.7589
     lon: -95.3677
+    update: "2026-06-14"
   - date: "2018-09-12"
     title: "Ravivage de la Flamme sous l'Arc de Triomphe"
     type: commémoration
@@ -53,6 +60,7 @@ events:
     link: ""
     lat: 48.8738
     lon: 2.295
+    update: "2026-06-14"
   - date: "2018-10-15"
     title: "Conférence du Dr A. Gaillard sur La Motte-Picquet à France-Amériques"
     type: conférence
@@ -61,6 +69,7 @@ events:
     link: ""
     lat: 48.8659
     lon: 2.31
+    update: "2026-06-14"
   - date: "2018-10-20"
     title: "Conférence de J-M Robine à Blaye sur les Aquitains dans la guerre d'indépendance"
     type: conférence
@@ -69,6 +78,7 @@ events:
     link: ""
     lat: 45.1271
     lon: -0.6636
+    update: "2026-06-14"
   - date: "2018-11-11"
     title: "Veillée organisée par le Comité de la Flamme sous l'Arc de Triomphe"
     type: commémoration
@@ -77,6 +87,7 @@ events:
     link: ""
     lat: 48.8738
     lon: 2.295
+    update: "2026-06-14"
   - date: "2018-12-17"
     title: "Rencontre des jeunes Sons au Harry's Bar à Paris"
     type: réunion
@@ -85,6 +96,7 @@ events:
     link: ""
     lat: 48.8692
     lon: 2.3321
+    update: "2026-06-14"
   - date: "2019-02-28/2019-03-03"
     title: "Spring leadership meeting de la NSSAR à Louisville (KY)"
     type: nssar
@@ -93,6 +105,7 @@ events:
     link: ""
     lat: 38.2542
     lon: -85.7594
+    update: "2026-06-14"
   - date: "2019-03-15"
     title: "Assemblée générale de SAR France à l'École militaire suivie d'un dîner dans la Rotonde Gabriel"
     type: assemblée
@@ -101,6 +114,7 @@ events:
     link: ""
     lat: 48.8518
     lon: 2.3048
+    update: "2026-06-14"
   - date: "2019-03-23/2019-03-24"
     title: "Week-end en Belgique – Conférence de P. Villiers à Ostende, visites de Bruges et Damme"
     type: visite
@@ -109,6 +123,7 @@ events:
     link: ""
     lat: 51.2259
     lon: 2.9195
+    update: "2026-06-14"
   - date: "2019-04-27"
     title: "Départ de l'Hermione de Rochefort pour son voyage en Normandie"
     type: commémoration
@@ -117,6 +132,7 @@ events:
     link: ""
     lat: 45.9367
     lon: -0.9616
+    update: "2026-06-14"
   - date: "2019-05-18"
     title: "Inauguration de l'exposition « La France et l'indépendance américaine » au château de Berzé"
     type: exposition
@@ -125,6 +141,7 @@ events:
     link: ""
     lat: 46.3869
     lon: 4.6889
+    update: "2026-06-14"
   - date: "2019-05-23/2019-05-27"
     title: "Debord de Loire à Saint-Nazaire et Nantes"
     type: commémoration
@@ -133,9 +150,11 @@ events:
     link: ""
     lat: 47.2734
     lon: -2.2139
+    update: "2026-06-14"
   - date: "2019-05-26"
     title: "Cérémonies du Memorial Day en province et en région parisienne"
     type: commémoration
+    update: "2026-03-04"
   - date: "2019-06-06/2019-06-16"
     title: "Armada de Rouen avec la participation de l'Hermione"
     type: commémoration
@@ -144,6 +163,7 @@ events:
     link: ""
     lat: 49.4405
     lon: 1.094
+    update: "2026-06-14"
   - date: "2019-06-26"
     title: "Cérémonie au cimetière de Picpus"
     type: commémoration
@@ -152,6 +172,7 @@ events:
     link: ""
     lat: 48.844
     lon: 2.4004
+    update: "2026-06-14"
   - date: "2019-06-28"
     title: "Cérémonie devant les statues rénovées de Pershing et La Fayette à Versailles"
     type: commémoration
@@ -160,9 +181,11 @@ events:
     link: ""
     lat: 48.8035
     lon: 2.1267
+    update: "2026-06-14"
   - date: "2019-07-04"
     title: "Independence Day"
     type: commémoration
+    update: "2026-03-04"
   - date: "2019-07-05/2019-07-11"
     title: "Congrès de la NSSAR à Costa Mesa (CA)"
     type: nssar
@@ -171,6 +194,7 @@ events:
     link: ""
     lat: 33.6633
     lon: -117.9033
+    update: "2026-06-14"
   - date: "2019-09-07"
     title: "Vernissage de l'exposition de Sanary sur les marins et la guerre d'indépendance"
     type: exposition
@@ -179,6 +203,7 @@ events:
     link: ""
     lat: 43.1177
     lon: 5.8009
+    update: "2026-06-14"
   - date: "2019-09-19/2019-09-21"
     title: "Fall leadership meeting de la NSSAR à Louisville (KY)"
     type: nssar
@@ -187,6 +212,7 @@ events:
     link: ""
     lat: 38.2542
     lon: -85.7594
+    update: "2026-06-14"
   - date: "2019-09-30"
     title: "Conférence du Prof. F. David « La Conférence de la Paix de Paris et le Wilsonisme » à France-Amériques"
     type: conférence
@@ -195,6 +221,7 @@ events:
     link: ""
     lat: 48.8659
     lon: 2.31
+    update: "2026-06-14"
   - date: "2019-10-02"
     title: "Ravivage de la Flamme sous l'Arc de Triomphe"
     type: commémoration
@@ -203,6 +230,7 @@ events:
     link: ""
     lat: 48.8738
     lon: 2.295
+    update: "2026-06-14"
   - date: "2019-11-13"
     title: "Conférence du Prof. A. Gaillard sur l'Amiral du Chaffault à Nantes"
     type: conférence
@@ -211,9 +239,11 @@ events:
     link: ""
     lat: 47.2186
     lon: -1.5541
+    update: "2026-06-14"
   - date: "2019-11-20"
     title: "Conférence du Prof. P. Villiers sur les corsaires de l'océan Indien à Paris"
     type: conférence
+    update: "2026-03-04"
   - date: "2019-12-12"
     title: "Conférence de J-Y de Trogoff sur l'artillerie américaine dans la 1re guerre mondiale à Nantes"
     type: conférence
@@ -222,6 +252,7 @@ events:
     link: ""
     lat: 47.2186
     lon: -1.5541
+    update: "2026-06-14"
   - date: "2020-01-07"
     title: "Conférence du Prof. A. Gaillard sur La Motte-Picquet à Nantes"
     type: conférence
@@ -230,9 +261,11 @@ events:
     link: ""
     lat: 47.2186
     lon: -1.5541
+    update: "2026-06-14"
   - date: "2020-01-16"
     title: "Réunion de travail des associations franco-américaines à Paris"
     type: réunion
+    update: "2026-03-04"
   - date: "2020-02-27/2020-02-29"
     title: "Spring leadership meeting à Louisville (KY)"
     type: nssar
@@ -241,6 +274,7 @@ events:
     link: ""
     lat: 38.2542
     lon: -85.7594
+    update: "2026-06-14"
   - date: "2020-03-06"
     title: "Assemblée générale de SAR France suivie d'un dîner à l'École militaire"
     type: assemblée
@@ -249,15 +283,19 @@ events:
     link: ""
     lat: 48.8518
     lon: 2.3048
+    update: "2026-06-14"
   - date: "2020-03-07"
     title: "Réunion des délégués régionaux de SAR France à Paris"
     type: réunion
+    update: "2026-03-04"
   - date: "2020-05-25"
     title: "Memorial Day aux États-Unis"
     type: commémoration
+    update: "2026-03-04"
   - date: "2020-07-04"
     title: "Independence Day"
     type: commémoration
+    update: "2026-03-04"
   - date: "2020-07-08"
     title: "Cérémonie au cimetière de Picpus sur la tombe de La Fayette (en petit comité)"
     type: commémoration
@@ -266,6 +304,7 @@ events:
     link: ""
     lat: 48.844
     lon: 2.4004
+    update: "2026-06-14"
   - date: "2020-08-22/2020-08-23"
     title: "3e édition de la reconstitution du camp de Vaussieux (Calvados)"
     type: commémoration
@@ -274,6 +313,7 @@ events:
     link: ""
     lat: 49.2602
     lon: -0.6283
+    update: "2026-06-14"
   - date: "2020-09-08"
     title: "Conférence de P. Villiers sur les combats de Jean Bart à Saint-Malo"
     type: conférence
@@ -282,6 +322,7 @@ events:
     link: ""
     lat: 48.6495
     lon: -2.026
+    update: "2026-06-14"
   - date: "2020-09-23"
     title: "Ravivage de la Flamme sous l'Arc de Triomphe"
     type: commémoration
@@ -290,15 +331,19 @@ events:
     link: ""
     lat: 48.8738
     lon: 2.295
+    update: "2026-06-14"
   - date: "2020-12-20"
     title: "Remise du prix Jacques de Trentinian à Mme Florence Prudhomme"
     type: conférence
+    update: "2026-03-04"
   - date: "2021-03-17"
     title: "Assemblée générale de SAR France en visioconférence"
     type: assemblée
+    update: "2026-03-04"
   - date: "2021-04-13"
     title: "Conférence de Patrick Villiers « Guerre de course et piraterie »"
     type: conférence
+    update: "2026-03-04"
   - date: "2021-07-07"
     title: "Cérémonie au cimetière de Picpus en comité restreint"
     type: commémoration
@@ -307,6 +352,7 @@ events:
     link: ""
     lat: 48.844
     lon: 2.4004
+    update: "2026-06-14"
   - date: "2021-07-10/2021-07-15"
     title: "Congrès de la NSSAR à Renton (WA)"
     type: nssar
@@ -315,6 +361,7 @@ events:
     link: ""
     lat: 47.4799
     lon: -122.2034
+    update: "2026-06-14"
   - date: "2021-09-19"
     title: "Journée franco-américaine à Grasse"
     type: commémoration
@@ -323,6 +370,7 @@ events:
     link: ""
     lat: 43.6589
     lon: 6.9239
+    update: "2026-06-14"
   - date: "2021-09-21"
     title: "Colloque sur l'apogée de la Marine Royale à Versailles"
     type: conférence
@@ -331,6 +379,7 @@ events:
     link: ""
     lat: 48.8035
     lon: 2.1267
+    update: "2026-06-14"
   - date: "2021-09-23/2021-09-24"
     title: "Fall leadership meeting de la NSSAR à Louisville (KY)"
     type: nssar
@@ -339,6 +388,7 @@ events:
     link: ""
     lat: 38.2542
     lon: -85.7594
+    update: "2026-06-14"
   - date: "2021-09-25"
     title: "Colloque des « Amis de Rochambeau » à Vendôme"
     type: conférence
@@ -347,6 +397,7 @@ events:
     link: ""
     lat: 47.7934
     lon: 1.0662
+    update: "2026-06-14"
   - date: "2021-09-29"
     title: "Ravivage de la Flamme sous l'Arc de Triomphe"
     type: commémoration
@@ -355,6 +406,7 @@ events:
     link: ""
     lat: 48.8738
     lon: 2.295
+    update: "2026-06-14"
   - date: "2021-10-09/2021-10-10"
     title: "Week-end à Saint-Omer"
     type: visite
@@ -363,6 +415,7 @@ events:
     link: ""
     lat: 50.7516
     lon: 2.2534
+    update: "2026-06-14"
   - date: "2021-10-18"
     title: "Inauguration de la statue de Rochambeau à Yorktown"
     type: commémoration
@@ -371,9 +424,11 @@ events:
     link: ""
     lat: 37.2357
     lon: -76.5136
+    update: "2026-06-14"
   - date: "2022-02-26"
     title: "Soutenance de la thèse de M. Le Pottier sur Duportail"
     type: conférence
+    update: "2026-03-04"
   - date: "2022-03-03/2022-03-04"
     title: "Spring leadership meeting de la NSSAR à Louisville (KY)"
     type: nssar
@@ -382,6 +437,7 @@ events:
     link: ""
     lat: 38.2542
     lon: -85.7594
+    update: "2026-06-14"
   - date: "2022-03-25"
     title: "Assemblée générale de SAR France à Paris"
     type: assemblée
@@ -390,12 +446,15 @@ events:
     link: ""
     lat: 48.8535
     lon: 2.3484
+    update: "2026-06-14"
   - date: "2022-05-30"
     title: "Cérémonies du Memorial Day"
     type: commémoration
+    update: "2026-03-04"
   - date: "2022-07-02"
     title: "240e anniversaire de la victoire de Yorktown à Rochambeau"
     type: commémoration
+    update: "2026-03-04"
   - date: "2022-07-05"
     title: "Cérémonie au cimetière de Picpus"
     type: commémoration
@@ -404,6 +463,7 @@ events:
     link: ""
     lat: 48.844
     lon: 2.4004
+    update: "2026-06-14"
   - date: "2022-07-10/2022-07-15"
     title: "Congrès de la NSSAR à Savannah (GE)"
     type: nssar
@@ -412,6 +472,7 @@ events:
     link: ""
     lat: 32.079
     lon: -81.0921
+    update: "2026-06-14"
   - date: "2022-09-12/2022-09-18"
     title: "Exposition sur l'amiral de Grasse à Grasse"
     type: exposition
@@ -420,9 +481,11 @@ events:
     link: ""
     lat: 43.6589
     lon: 6.9239
+    update: "2026-06-14"
   - date: "2022-09-20"
     title: "300e anniversaire de la naissance de l'Amiral de Grasse"
     type: commémoration
+    update: "2026-03-04"
   - date: "2022-09-29/2022-10-01"
     title: "Fall leadership meeting à Louisville"
     type: nssar
@@ -431,6 +494,7 @@ events:
     link: ""
     lat: 38.2542
     lon: -85.7594
+    update: "2026-06-14"
   - date: "2022-10-05"
     title: "Ravivage de la Flamme sous l'Arc de Triomphe avec les CAR"
     type: commémoration
@@ -439,12 +503,15 @@ events:
     link: ""
     lat: 48.8738
     lon: 2.295
+    update: "2026-06-14"
   - date: "2022-11-11"
     title: "Participation aux cérémonies à Suresnes et Versailles"
     type: commémoration
+    update: "2026-03-04"
   - date: "2022-12-08"
     title: "Conférence avec « Les Amis de Mahé de la Bourdonnais »"
     type: conférence
+    update: "2026-03-04"
   - date: "2023-03-02/2023-03-03"
     title: "Spring leadership meeting de la NSSAR à Louisville (KY)"
     type: nssar
@@ -453,6 +520,7 @@ events:
     link: ""
     lat: 38.2542
     lon: -85.7594
+    update: "2026-06-14"
   - date: "2023-03-17"
     title: "Assemblée générale de SAR France à l'Institut Catholique de Paris"
     type: assemblée
@@ -461,6 +529,7 @@ events:
     link: ""
     lat: 48.849
     lon: 2.3299
+    update: "2026-06-14"
   - date: "2023-03-19"
     title: "Conférence du Prof. P. Villiers à Tours sur la première bataille de la Chesapeake"
     type: conférence
@@ -469,6 +538,7 @@ events:
     link: ""
     lat: 47.39
     lon: 0.6889
+    update: "2026-06-14"
   - date: "2023-03-27"
     title: "Conférence du Prof. P. Villiers au Cercle France-Amériques sur les navires négriers français"
     type: conférence
@@ -477,9 +547,11 @@ events:
     link: ""
     lat: 48.8659
     lon: 2.31
+    update: "2026-06-14"
   - date: "2023-03-27"
     title: "Réunion des délégués régionaux de SAR France"
     type: réunion
+    update: "2026-03-04"
   - date: "2023-05-28"
     title: "Memorial Day au monument de Marnes-la-Coquette et au cimetière de Suresnes"
     type: commémoration
@@ -488,6 +560,7 @@ events:
     link: ""
     lat: 48.8723
     lon: 2.2177
+    update: "2026-06-14"
   - date: "2023-06-05"
     title: "Conférence de Florence Prudhomme (prix Jacques de Trentinian 2023) à France-Amériques"
     type: conférence
@@ -496,9 +569,11 @@ events:
     link: ""
     lat: 48.8659
     lon: 2.31
+    update: "2026-06-14"
   - date: "2023-07-02"
     title: "Pique-nique annuel des CAR (Children of the American Revolution)"
     type: réunion
+    update: "2026-03-04"
   - date: "2023-07-03/2023-07-06"
     title: "Académie d'été de la Fondation Saint-Omer Valeurs Transatlantiques"
     type: conférence
@@ -507,6 +582,7 @@ events:
     link: ""
     lat: 50.7516
     lon: 2.2534
+    update: "2026-06-14"
   - date: "2023-07-04"
     title: "Cérémonie au monument Pershing La Fayette à Versailles"
     type: commémoration
@@ -515,6 +591,7 @@ events:
     link: ""
     lat: 48.8035
     lon: 2.1267
+    update: "2026-06-14"
   - date: "2023-07-05"
     title: "Cérémonie au cimetière de Picpus"
     type: commémoration
@@ -523,6 +600,7 @@ events:
     link: ""
     lat: 48.844
     lon: 2.4004
+    update: "2026-06-14"
   - date: "2023-07-15/2023-07-19"
     title: "Congrès de la NSSAR à Orlando (Floride)"
     type: nssar
@@ -531,6 +609,7 @@ events:
     link: ""
     lat: 28.5421
     lon: -81.379
+    update: "2026-06-14"
   - date: "2023-10-04"
     title: "Ravivage de la Flamme sous l'Arc de Triomphe"
     type: commémoration
@@ -539,6 +618,7 @@ events:
     link: ""
     lat: 48.8738
     lon: 2.295
+    update: "2026-06-14"
   - date: "2023-10-12"
     title: "Conférence au château de Castries par le Prof. P. Villiers"
     type: conférence
@@ -547,6 +627,7 @@ events:
     link: ""
     lat: 43.6777
     lon: 3.9875
+    update: "2026-06-14"
   - date: "2023-10-14"
     title: "Journée Histoire & Patrimoine à Châtellerault"
     type: visite
@@ -555,9 +636,11 @@ events:
     link: ""
     lat: 46.818
     lon: 0.5458
+    update: "2026-06-14"
   - date: "2023-11-11"
     title: "Cérémonies à Marnes-la-Coquette, Suresnes et l'Arc de Triomphe"
     type: commémoration
+    update: "2026-03-04"
   - date: "2023-11-12"
     title: "Journée à Bordeaux et Talence – Les juifs bordelais et la guerre d'indépendance"
     type: conférence
@@ -566,6 +649,7 @@ events:
     link: ""
     lat: 44.8412
     lon: -0.58
+    update: "2026-06-14"
   - date: "2023-11-28"
     title: "Conférence de Mme Le Masne sur la Bretagne dans la guerre d'indépendance à Pornichet"
     type: conférence
@@ -574,6 +658,7 @@ events:
     link: ""
     lat: 47.2613
     lon: -2.3364
+    update: "2026-06-14"
   - date: "2023-11-28"
     title: "Conférence de l'Ambassadeur Philippe Étienne à l'invitation des Cincinnati au Jockey Club"
     type: conférence
@@ -582,6 +667,7 @@ events:
     link: ""
     lat: 48.8707
     lon: 2.3127
+    update: "2026-06-14"
   - date: "2024-02-29"
     title: "Spring leadership meeting de la NSSAR à Louisville (KY)"
     type: nssar
@@ -590,6 +676,7 @@ events:
     link: ""
     lat: 38.2542
     lon: -85.7594
+    update: "2026-06-14"
   - date: "2024-03-22"
     title: "Assemblée générale de SAR France à l'Institut Catholique de Paris"
     type: assemblée
@@ -598,6 +685,7 @@ events:
     link: ""
     lat: 48.849
     lon: 2.3299
+    update: "2026-06-14"
   - date: "2024-03-22"
     title: "Dîner annuel de SAR France au Palais du Luxembourg"
     type: assemblée
@@ -606,12 +694,15 @@ events:
     link: ""
     lat: 48.8485
     lon: 2.3378
+    update: "2026-06-14"
   - date: "2024-04-06/2024-04-20"
     title: "Voyage en France du President General de la NSSAR"
     type: nssar
+    update: "2026-03-04"
   - date: "2024-04-15"
     title: "Réunion des délégués régionaux de SAR France"
     type: réunion
+    update: "2026-03-04"
   - date: "2024-05-16"
     title: "Conférence d'Hervé du Boisbaudry à la mairie du 7e arrondissement"
     type: conférence
@@ -620,9 +711,11 @@ events:
     link: ""
     lat: 48.8573
     lon: 2.3204
+    update: "2026-06-14"
   - date: "2024-05-25/2024-05-26"
     title: "Cérémonies du Memorial Day en France et en Belgique"
     type: commémoration
+    update: "2026-03-04"
   - date: "2024-07-03"
     title: "Cérémonie au cimetière de Picpus"
     type: commémoration
@@ -631,6 +724,7 @@ events:
     link: ""
     lat: 48.844
     lon: 2.4004
+    update: "2026-06-14"
   - date: "2024-07-04"
     title: "Independence Day – Cérémonie au monument Pershing La Fayette de Versailles"
     type: commémoration
@@ -639,6 +733,7 @@ events:
     link: ""
     lat: 48.8035
     lon: 2.1267
+    update: "2026-06-14"
   - date: "2024-07-10/2024-07-16"
     title: "Congrès de la NSSAR à Lancaster (PA)"
     type: nssar
@@ -647,12 +742,15 @@ events:
     link: ""
     lat: 40.038
     lon: -76.3057
+    update: "2026-06-14"
   - date: "2024-09-05"
     title: "242e anniversaire de la bataille de Chesapeake par la Marine Nationale"
     type: commémoration
+    update: "2026-03-04"
   - date: "2024-09-07"
     title: "243e anniversaire de la Bataille des Caps en Virginie"
     type: commémoration
+    update: "2026-03-04"
   - date: "2024-09-15"
     title: "62e Journée Franco-Américaine Amiral de Grasse"
     type: commémoration
@@ -661,6 +759,7 @@ events:
     link: ""
     lat: 43.6589
     lon: 6.9239
+    update: "2026-06-14"
   - date: "2024-10-02"
     title: "Ravivage de la Flamme sous l'Arc de Triomphe"
     type: commémoration
@@ -669,9 +768,11 @@ events:
     link: ""
     lat: 48.8738
     lon: 2.295
+    update: "2026-06-14"
   - date: "2024-10-09"
     title: "Assemblée générale extraordinaire (validation des nouveaux statuts)"
     type: assemblée
+    update: "2026-03-04"
   - date: "2024-10-12/2024-10-13"
     title: "Week-end SAR France dans le Bordelais"
     type: visite
@@ -680,6 +781,7 @@ events:
     link: ""
     lat: 44.8412
     lon: -0.58
+    update: "2026-06-14"
   - date: "2024-11-07/2024-12-25"
     title: "Exposition « Les Bourbonnais aux Amériques » à Moulins"
     type: exposition
@@ -688,6 +790,7 @@ events:
     link: ""
     lat: 46.5661
     lon: 3.3332
+    update: "2026-06-14"
   - date: "2024-11-09"
     title: "Journée à Versailles sur les pas du général Dentzel"
     type: visite
@@ -696,9 +799,11 @@ events:
     link: ""
     lat: 48.8035
     lon: 2.1267
+    update: "2026-06-14"
   - date: "2025-01-16"
     title: "Conférence sur le futur maréchal Berthier (Cincinnati)"
     type: conférence
+    update: "2026-03-04"
   - date: "2025-02-06"
     title: "Visite de la résidence de l'ambassadeur des États-Unis à Paris"
     type: visite
@@ -707,6 +812,7 @@ events:
     link: ""
     lat: 48.8697
     lon: 2.3186
+    update: "2026-06-14"
   - date: "2025-02-07"
     title: "Assemblée générale et dîner de SAR France au Palais du Luxembourg"
     type: assemblée
@@ -715,15 +821,19 @@ events:
     link: ""
     lat: 48.8485
     lon: 2.3378
+    update: "2026-06-14"
   - date: "2025-02-11"
     title: "Validation des nouveaux statuts de SAR France"
     type: assemblée
+    update: "2026-03-04"
   - date: "2025-02-24"
     title: "Réunion des délégués régionaux de SAR France à Paris"
     type: réunion
+    update: "2026-03-04"
   - date: "2025-02-27/2025-03-01"
     title: "Spring leadership meeting à Louisville (KY)"
     type: nssar
+    update: "2026-03-04"
   - date: "2025-03-15"
     title: "Conférence sur Leray de Chaumont et Franklin à Nantes"
     type: conférence
@@ -732,6 +842,7 @@ events:
     link: ""
     lat: 47.2186
     lon: -1.5541
+    update: "2026-06-14"
   - date: "2025-03-20"
     title: "Visite de la résidence de l'ambassadeur des États-Unis à Paris"
     type: visite
@@ -740,6 +851,7 @@ events:
     link: ""
     lat: 48.8697
     lon: 2.3186
+    update: "2026-06-14"
   - date: "2025-03-29"
     title: "Conférence sur l'amiral Jean-Gaspard Vence à Tonnerre"
     type: conférence
@@ -748,6 +860,7 @@ events:
     link: ""
     lat: 47.8565
     lon: 3.9733
+    update: "2026-06-14"
   - date: "2025-04-07"
     title: "Réunion au Puy du Fou pour préparer le Centenaire de SAR France"
     type: réunion
@@ -756,9 +869,11 @@ events:
     link: ""
     lat: 46.8888
     lon: -0.9304
+    update: "2026-06-14"
   - date: "2025-05-25"
     title: "Memorial Day"
     type: commémoration
+    update: "2026-03-04"
   - date: "2025-06-14"
     title: "Inauguration de la Promenade Royal Deux-Ponts à Sathonay-Camp"
     type: commémoration
@@ -767,6 +882,7 @@ events:
     link: ""
     lat: 45.8244
     lon: 4.8748
+    update: "2026-06-14"
   - date: "2025-06-25"
     title: "Cérémonie au cimetière de Picpus"
     type: commémoration
@@ -775,6 +891,7 @@ events:
     link: ""
     lat: 48.844
     lon: 2.4004
+    update: "2026-06-14"
   - date: "2025-07-02"
     title: "Dîner des membres d'Île-de-France au Cercle Interallié"
     type: réunion
@@ -783,6 +900,7 @@ events:
     link: ""
     lat: 48.8692
     lon: 2.32
+    update: "2026-06-14"
   - date: "2025-07-12/2025-07-18"
     title: "Congrès de la NSSAR à Uncasville, Connecticut"
     type: nssar
@@ -791,6 +909,7 @@ events:
     link: ""
     lat: 41.4347
     lon: -72.11
+    update: "2026-06-14"
   - date: "2025-10-11"
     title: "Journée à Blaye (Gironde)"
     type: visite
@@ -799,6 +918,7 @@ events:
     link: ""
     lat: 45.1271
     lon: -0.6636
+    update: "2026-06-14"
   - date: "2025-11-19"
     title: "Ravivage de la Flamme sous l'Arc de Triomphe"
     type: commémoration
@@ -807,9 +927,11 @@ events:
     link: ""
     lat: 48.8738
     lon: 2.295
+    update: "2026-06-14"
   - date: "2025-11-26"
     title: "Réunion préparatoire du 250e anniversaire de la Déclaration d'Indépendance avec l'ambassade des États-Unis"
     type: réunion
+    update: "2026-03-04"
   - date: "2025-11-28"
     title: "Visite de l'Hôtel Saint-Florentin (Hôtel Talleyrand)"
     type: visite
@@ -818,6 +940,7 @@ events:
     link: ""
     lat: 48.8665
     lon: 2.3235
+    update: "2026-06-14"
   - date: "2025-12-06"
     title: "Visite de l'exposition « Excellences » – Bibliothèque de Versailles"
     type: visite
@@ -826,6 +949,7 @@ events:
     link: ""
     lat: 48.8045
     lon: 2.1248
+    update: "2026-06-14"
   - date: "2025-12-18T18:00:00/2025-12-18T20:00:00"
     title: "Conférence « Atlas historique de la mer » et présentation des collections du musée national de la Marine"
     type: 400ans-marine-nationale
@@ -834,6 +958,7 @@ events:
     link: ""
     lat: 48.8622
     lon: 2.2884
+    update: "2026-04-02"
   - date: "2026-01-17"
     title: "Conférence de Patrick Villiers à Versailles"
     type: conférence
@@ -842,6 +967,7 @@ events:
     link: ""
     lat: 48.8035
     lon: 2.1267
+    update: "2026-03-24"
   - date: "2026-01-29T18:00:00/2026-01-29T20:00:00"
     title: "Conférence sur « La Flore » et présentation de l'odyssée de La Flore dans les fonds du SHD"
     type: 400ans-marine-nationale
@@ -850,6 +976,7 @@ events:
     link: ""
     lat: 48.8429
     lon: 2.4358
+    update: "2026-04-02"
   - date: "2026-02-06T18:00:00"
     title: "Assemblée générale de SAR France et dîner au Palais du Luxembourg"
     type: assemblée
@@ -858,6 +985,7 @@ events:
     link: ""
     lat: 48.8485
     lon: 2.3378
+    update: "2026-03-28"
   - date: "2026-02-23"
     title: "Réunion des délégués régionaux en visioconférence"
     type: réunion
@@ -866,6 +994,7 @@ events:
     link: ""
     lat: 0
     lon: 0
+    update: "2026-03-04"
   - date: "2026-03-03/2026-03-31"
     title: "Exposition sur le Royal-Deux-Ponts à Lyon"
     type: exposition
@@ -874,6 +1003,7 @@ events:
     link: ""
     lat: 45.7578
     lon: 4.832
+    update: "2026-03-24"
   - date: "2026-03-05"
     title: "Spring leadership meeting de la NSSAR à Louisville (KY)"
     type: nssar
@@ -882,6 +1012,7 @@ events:
     link: "https://www.sar.org/app/uploads/E-packet-SPRING-2026.pdf"
     lat: 38.2542
     lon: -85.7594
+    update: "2026-03-25"
   - date: "2026-03-17"
     title: "Conférence de S. Meffre à Toulon sur Jean-Gaspard Vence"
     type: conférence
@@ -890,6 +1021,7 @@ events:
     link: ""
     lat: 43.1257
     lon: 5.9305
+    update: "2026-03-24"
   - date: "2026-03-18"
     title: "Conférence de J-M Robine à Lyon sur Georges-Frédéric Dentzel"
     type: conférence
@@ -898,6 +1030,7 @@ events:
     link: ""
     lat: 45.7578
     lon: 4.832
+    update: "2026-03-24"
   - date: "2026-04-01/2026-07-14"
     title: "Exposition « Lafayette, entre France et Amérique » aux Archives nationales"
     type: exposition
@@ -906,6 +1039,7 @@ events:
     link: "https://www.archives-nationales.culture.gouv.fr/evenements/lafayette-entre-france-et-amerique-histoire-et-legende"
     lat: 48.8609
     lon: 2.3571
+    update: "2026-04-02"
   - date: "2026-04-02T17:00:00/2026-04-02T20:00:00"
     title: "Visite de l'exposition Lafayette et conférence sur les convois durant la guerre d'Indépendance américaine"
     type: 400ans-marine-nationale
@@ -914,6 +1048,7 @@ events:
     link: ""
     lat: 48.8604
     lon: 2.358
+    update: "2026-04-02"
   - date: "2026-04-04T15:00:00"
     title: "Conférence « Les frères Vioménil dans la guerre d'Indépendance américaine » au musée des Beaux-Arts de Nancy"
     type: conférence
@@ -922,6 +1057,7 @@ events:
     link: ""
     lat: 48.6937
     lon: 6.1819
+    update: "2026-03-28"
   - date: "2026-04-09"
     title: "Conférence de Mme Mélonio « De la démocratie en Amérique » suivie d'un dîner au Polo de Paris"
     type: conférence
@@ -930,6 +1066,7 @@ events:
     link: ""
     lat: 48.8675
     lon: 2.2362
+    update: "2026-03-24"
   - date: "2026-04-16T18:00:00/2026-04-16T20:00:00"
     title: "Conférence « Commémorer les 400 ans de la Marine » et présentation des collections sur la navigation en Océanie"
     type: 400ans-marine-nationale
@@ -938,6 +1075,7 @@ events:
     link: ""
     lat: 48.8622
     lon: 2.2884
+    update: "2026-04-02"
   - date: "2026-04-18"
     title: "Reconstitution historique et commémoration au château de Fontainebleau"
     type: commémoration
@@ -946,6 +1084,7 @@ events:
     link: "https://www.chateaudefontainebleau.fr/wp-content/uploads/2026/01/www.chateaudefontainebleau.fr-marie-antoinette-et-louis-xvi-au-chateau-de-fontainebleau-marie-antoinette-et-louis-xvi-au-chateau-de-fontainebleau.pdf"
     lat: 48.4014
     lon: 2.6986
+    update: "2026-04-02"
   - date: "2026-04-21T19:00:00"
     title: "Conférence « La Guerre d'Indépendance américaine, la mission de Laurens et le chevalier Mauduit du Plessis »"
     type: conférence
@@ -954,6 +1093,7 @@ events:
     link: ""
     lat: 47.8055
     lon: -3.2755
+    update: "2026-04-16"
   - date: "2026-05-20T09:45/2026-05-20T16:00"
     title: "Sortie dans le Loiret – Musée Mémorial de la Shoah (Pithiviers) et Atelier Musée de l'Imprimerie (Malesherbes)"
     type: visite
@@ -962,6 +1102,7 @@ events:
     link: ""
     lat: 48.1717
     lon: 2.2522
+    update: "2026-03-29"
   - date: "2026-05-20T10:30:00"
     title: "Cérémonie au cimetière de Picpus"
     type: commémoration
@@ -970,6 +1111,7 @@ events:
     link: ""
     lat: 48.8442
     lon: 2.3964
+    update: "2026-06-09"
   - date: "2026-05-24"
     title: "Memorial Day"
     type: commémoration
@@ -978,6 +1120,7 @@ events:
     link: ""
     lat: 48.8723
     lon: 2.2177
+    update: "2026-05-16"
   - date: "2026-05-28T18:00:00/2026-05-28T20:00:00"
     title: "Conférence « L'histoire maritime à travers les sortilèges de la peinture » et visite de l'exposition « La Marine et les peintres »"
     type: 400ans-marine-nationale
@@ -986,6 +1129,7 @@ events:
     link: ""
     lat: 48.8622
     lon: 2.2884
+    update: "2026-04-02"
   - date: "2026-06-01T00:00:00"
     title: "Mise en ligne du nouveau site SAR France"
     type: visite
@@ -994,6 +1138,7 @@ events:
     link: ""
     lat: 48.8560
     lon: 2.3059
+    update: "2026-05-31"
   - date: "2026-06-13T10:00:00"
     title: "Cérémonie du Souvenir au Mémorial du Cimetière Américain"
     type: commémoration
@@ -1002,6 +1147,7 @@ events:
     link: ""
     lat: 48.2809
     lon: 2.156
+    update: "2026-05-30"
   - date: "2026-06-14T15:00:00"
     title: "Conférence de Patrick Villiers"
     type: conférence
@@ -1010,6 +1156,7 @@ events:
     link: ""
     lat: 49.9237
     lon: 1.0721
+    update: "2026-06-11"
   - date: "2026-06-13T15:00:00"
     title: "Conférence de Patrick Villiers"
     type: conférence
@@ -1018,6 +1165,7 @@ events:
     link: ""
     lat: 49.9237
     lon: 1.0721
+    update: "2026-06-11"
   - date: "2026-06-20/2026-06-22"
     title: "Centenaire de SAR France au Puy du Fou"
     type: commémoration
@@ -1026,6 +1174,7 @@ events:
     link: "https://www.puydufou.com"
     lat: 46.8888
     lon: -0.9304
+    update: "2026-05-28"
   - date: "2026-07-04T10:00:00"
     title: "Hommage au Maréchal de Rochambeau"
     type: commémoration
@@ -1034,6 +1183,7 @@ events:
     link: ""
     lat: 47.7915
     lon: 1.0676
+    update: "2026-06-27"
   - date: "2026-07-04T12:00:00"
     title: "250e anniversaire de l'Indépendance américaine"
     type: commémoration
@@ -1042,6 +1192,7 @@ events:
     link: ""
     lat: 48.8880
     lon: 2.3406
+    update: "2026-06-27"
   - date: "2026-07-10/2026-07-16"
     title: "Congrès annuel de la NSSAR à Greensboro (NC)"
     type: nssar
@@ -1050,6 +1201,7 @@ events:
     link: "https://www.sar.org"
     lat: 36.0726
     lon: -79.792
+    update: "2026-03-25"
   - date: "2026-09-14T18:00:00"
     title: "Conférence du cercle France-Amériques sur une régate franco-américaine"
     type: conférence
@@ -1058,6 +1210,7 @@ events:
     link: ""
     lat: 48.8659
     lon: 2.31
+    update: "2026-09-04"
   - date: "2026-09-15T18:30:00"
     title: "Table ronde sur la bataille de la Chesapeake"
     type: conférence
@@ -1066,6 +1219,7 @@ events:
     link: ""
     lat: 48.8536
     lon: 2.3049
+    update: "2026-09-04"
   - date: "2026-09-17T18:00:00"
     title: "Conférence de l'amiral Nerzic sur la Chesapeake"
     type: conférence
@@ -1074,6 +1228,7 @@ events:
     link: ""
     lat: 48.3906
     lon: -4.4993
+    update: "2026-09-10"
   - date: "2026-09-07T18:00:00"
     title: "Commémoration de la Chesapeake"
     type: commémoration
@@ -1082,6 +1237,7 @@ events:
     link: ""
     lat: 48.8738
     lon: 2.295
+    update: "2026-08-29"
   - date: "2026-09-23T15:00:00"
     title: "Conférence de Patrick Villiers"
     type: conférence
@@ -1090,6 +1246,7 @@ events:
     link: ""
     lat: 47.7477
     lon: -3.3661
+    update: "2026-07-02"
   - date: "2026-09-24T18:00:00/2026-09-24T20:00:00"
     title: "Conférence « Sea Power ? De Grasse et Vaudreuil » et présentation de la guerre d'Indépendance dans les fonds du SHD"
     type: 400ans-marine-nationale
@@ -1098,6 +1255,7 @@ events:
     link: ""
     lat: 48.8429
     lon: 2.4358
+    update: "2026-04-02"
   - date: "2026-09-26T12:30:00"
     title: "Journée du 250e anniversaire au château de Caumale"
     type: 250freedom
@@ -1106,6 +1264,7 @@ events:
     link: ""
     lat: 43.9834
     lon: 0.0337
+    update: "2026-09-10"
   - date: "2026-09-30T18:30:00"
     title: "Ravivage de la Flamme sous l'Arc de Triomphe"
     type: commémoration
@@ -1114,6 +1273,7 @@ events:
     link: ""
     lat: 48.8738
     lon: 2.295
+    update: "2026-03-28"
   - date: "2026-10-01/2026-10-03"
     title: "Fall leadership meeting de la NSSAR à Louisville (KY)"
     type: nssar
@@ -1122,6 +1282,7 @@ events:
     link: "https://www.sar.org"
     lat: 38.2542
     lon: -85.7594
+    update: "2026-03-25"
   - date: "2026-10-08T18:30:00"
     title: "Conférence de S. Meffre sur Jean-Gaspard Vence"
     type: conférence
@@ -1130,6 +1291,7 @@ events:
     link: ""
     lat: 48.8518
     lon: 2.3048
+    update: "2026-09-27"
   - date: "2026-10-09T09:30:00"
     title: "Les États-Unis et Versailles"
     type: 250freedom
@@ -1138,6 +1300,7 @@ events:
     link: ""
     lat: 48.8044
     lon: 2.1203
+    update: "2026-09-27"
   - date: "2026-10-10T09:45:00"
     title: "Journée en Médoc (Gironde)"
     type: visite
@@ -1146,6 +1309,7 @@ events:
     link: ""
     lat: 45.0089
     lon: -0.6464
+    update: "2026-07-04"
   - date: "2026-10-12T18:30:00"
     title: "Conférence sur l'aide française à l'Indépendance"
     type: conférence
@@ -1154,6 +1318,7 @@ events:
     link: ""
     lat: 48.8659
     lon: 2.31
+    update: "2026-09-27"
   - date: "2026-10-22T18:00:00/2026-10-22T20:00:00"
     title: "Conférence « La Marine et les opérations extérieures 1958-2011 » et visite de l'exposition « Les trésors de la Marine »"
     type: 400ans-marine-nationale
@@ -1162,6 +1327,7 @@ events:
     link: ""
     lat: 48.8429
     lon: 2.4358
+    update: "2026-04-02"
   - date: "2026-11-26T18:00:00/2026-11-26T20:00:00"
     title: "Conférence « La genèse de la Force Océanique Stratégique 1945-1972 » et présentation des premiers submersibles à Rochefort"
     type: 400ans-marine-nationale
@@ -1170,6 +1336,7 @@ events:
     link: ""
     lat: 48.8622
     lon: 2.2884
+    update: "2026-04-02"
   - date: "2026-12-17T18:00:00/2026-12-17T20:00:00"
     title: "Présentation d'archives et conférence « L'enseignement et la formation maritime (XIXe – début XXe siècle) »"
     type: 400ans-marine-nationale
@@ -1178,4 +1345,5 @@ events:
     link: ""
     lat: 48.8604
     lon: 2.358
+    update: "2026-04-02"
 

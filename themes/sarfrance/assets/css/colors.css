@@ -56,6 +56,10 @@
     /* Text on dark backgrounds */
     --white-85: rgba(255, 255, 255, 0.85);
 
+    /* Badge « nouveau » des événements récemment ajoutés ou mis à jour */
+    --event-new-bg: var(--gold);
+    --event-new-text: var(--navy-dark);
+
     /* --------------------------------------------------------
        Tag & type palette — named colors shared across
        agenda (type-), chronologie (tag-), and notices (tag-).

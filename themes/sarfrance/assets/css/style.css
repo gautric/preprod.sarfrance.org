@@ -521,6 +521,11 @@ a:hover {
     color: var(--navy-blue);
 }
 
+/* Badge « nouveau » au-dessus du titre de l'événement (styles dans filters.css) */
+.event-info .event-new {
+    margin-bottom: 6px;
+}
+
 .event-location { font-size: 0.82rem; color: var(--text-muted); }
 
 .event-info p {

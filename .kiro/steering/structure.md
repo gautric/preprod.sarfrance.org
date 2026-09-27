@@ -158,5 +158,15 @@ Additional fields:
 - `location` — venue name
 - `link` — external URL (wraps the title as a link)
 - `lat` / `lon` — coordinates for the Leaflet mini-map on the card (set to `0` to suppress map)
+- `update` — technical field: date (`"YYYY-MM-DD"`) of the last substantive change to the event. Always last in the block. Drives the "Nouveau / New" badge.
 
 All events should include the extended fields (`description`, `location`, `link`, `lat`, `lon`) whenever the information is available, regardless of date. For a physical venue, always provide `location` and the corresponding `lat`/`lon` coordinates so the Leaflet mini-map can render. Use `lat: 0` / `lon: 0` only for events with no physical location (e.g. videoconferences). Older events that still lack these fields should be completed as the information becomes available.
+
+## Agenda `update` Field and the "Nouveau / New" Badge
+
+- Every event in `data/agenda.yaml` carries a technical `update` field holding the date of its last substantive change (creation counts as a change). It is the last key of each event block.
+- When adding or editing an event by hand, set `update` to the current date. Automated flows (`agent-agenda`, the `ajout-evenement-agenda` Kiro hook) do the same.
+- The historical baseline was reconstructed from the git history of `data/agenda.yaml` (and its `data/agenda.json` predecessor) by `scripts/agenda_update_dates.py`. Re-run it with `make agenda-dates` (or `python scripts/agenda_update_dates.py --write`) to recompute every date from git; schema-only refactors are ignored by the comparison, so they do not reset the dates.
+- `partials/event-new-badge.html` renders the badge when `update` is within `params.newEventDays` (15 days by default). The window is a single global param in `config/_default/params.yaml` — do not hardcode it in templates.
+- The badge is computed at build time. The daily rebuild scheduled in `deploy.yml` (06:00 UTC) makes it expire on its own, so no client-side JavaScript is involved.
+- The badge is used on the agenda pages (`activites/agenda.html`) and on the homepage upcoming-events cards (`index.html`). Styles: `.event-new` in `filters.css`, colours `--event-new-bg` / `--event-new-text` in `colors.css`, labels `event_new` / `event_new_title` in `i18n/fr.yaml` and `i18n/en.yaml`.

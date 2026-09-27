@@ -54,6 +54,24 @@
     opacity: 0.85;
 }
 
+/* ---- Badge « nouveau » (événements récents de l'agenda) ---- */
+.event-new {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    background-color: var(--event-new-bg);
+    color: var(--event-new-text);
+    font-size: 0.66rem;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.event-new::before {
+    content: "✦ ";
+}
+
 /* ---- Search ---- */
 .page-search-wrap {
     padding: 24px 0 8px;
@@ -133,6 +151,15 @@
     align-items: center;
     margin-bottom: 4px;
     gap: 10px;
+}
+
+/* Groupe de badges aligné à droite de l'en-tête de carte */
+.page-card-header-meta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 .page-card-title {

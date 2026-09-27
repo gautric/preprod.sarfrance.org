@@ -121,3 +121,34 @@ jobs:
           if [ $ERRORS -gt 0 ]; then
             exit 1
           fi
+
+      - name: Vérifier l'attribut technique update de l'agenda
+        run: |
+          python3 - <<'PY' >> $GITHUB_STEP_SUMMARY
+          import re
+          import sys
+          import yaml
+
+          with open("data/agenda.yaml", encoding="utf-8") as handle:
+              events = yaml.safe_load(handle)["events"]
+
+          pattern = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+          missing = [e.get("title", "?") for e in events if not e.get("update")]
+          malformed = [
+              e.get("title", "?")
+              for e in events
+              if e.get("update") and not pattern.match(str(e["update"]))
+          ]
+
+          for title in missing:
+              print(f"❌ Événement sans attribut `update` : {title}")
+          for title in malformed:
+              print(f"❌ Attribut `update` mal formé (attendu AAAA-MM-JJ) : {title}")
+
+          if missing or malformed:
+              print("")
+              print("Corrigez avec `make agenda-dates` ou en ajoutant `update: \"AAAA-MM-JJ\"`.")
+              sys.exit(1)
+
+          print(f"✅ Les {len(events)} événements de l'agenda ont un attribut `update` valide.")
+          PY

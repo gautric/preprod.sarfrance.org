@@ -128,14 +128,16 @@ Chaque evenement a les champs suivants (dans cet ordre) :
     link: ""
     lat: 48.8566
     lon: 2.3522
+    update: "2026-02-01"
 ```
 
 ### Regles de format
 
-- Les valeurs `date`, `title`, `description`, `location`, `link` sont entre guillemets doubles
+- Les valeurs `date`, `title`, `description`, `location`, `link`, `update` sont entre guillemets doubles
 - Le champ `type` n'est PAS entre guillemets
 - Les champs `lat` et `lon` sont des nombres decimaux (4 decimales)
-- Les anciens evenements (avant 2025) n'ont que 3 champs (date, title, type). Ne les modifie pas.
+- Le champ `update` est technique : il porte la date du jour ou l'evenement est ajoute ou modifie, au format `"AAAA-MM-JJ"`. Il est TOUJOURS le dernier champ du bloc. Le site s'en sert pour afficher un badge « Nouveau » pendant 15 jours.
+- Les anciens evenements (avant 2025) n'ont que 4 champs (date, title, type, update). Ne les modifie pas.
 - Les evenements recents (2025+) ont tous les champs. Les nouveaux evenements doivent aussi avoir tous les champs.
 - L'indentation est de 2 espaces pour `- date:` et 4 espaces pour les champs suivants
 
@@ -199,6 +201,7 @@ conférence, assemblée, commémoration, nssar, réunion, visite, exposition
      - Preserver exactement le format existant (guillemets, indentation, ordre des champs)
      - Ne modifier AUCUN evenement existant (sauf celui a remplacer dans le cas d'une mise a jour)
      - Le champ `link` est toujours vide (`""`) pour les evenements ajoutes automatiquement
+     - Le champ `update` porte la date du jour (`"AAAA-MM-JJ"`, fuseau Europe/Paris) et se place en dernier dans le bloc. Sur une mise a jour de PR existante, remets-le a la date du jour.
 
 8. **Ecris le fichier et cree ou mets a jour la PR** :
    - **Si une PR existante a ete trouvee** : utilise le safe-output `push-to-pull-request-branch` pour pousser les modifications sur la branche de la PR existante. Indique le numero de la PR trouvee.
