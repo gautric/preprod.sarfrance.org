@@ -1,6 +1,6 @@
 # SAR France — Commandes de développement local
 
-HUGO_VERSION_CI := 0.165.0
+HUGO_VERSION_CI := 0.166.0
 
 # Répertoire jetable pour les builds de vérification (hors public/)
 CHECK_DIR := /tmp/sarfrance-build-check
