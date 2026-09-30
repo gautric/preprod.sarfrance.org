@@ -78,12 +78,13 @@
             {{ $startDate := index (split .date "/") 0 }}
             {{ $eventDate := time.AsTime (index (split $startDate "T") 0) }}
             <article class="event-card">
-                <div class="event-date">
+                {{/* Événement récent : pas de badge, la date prend les couleurs « nouveau » */}}
+                {{ $isNew := partial "event-is-new.html" . }}
+                <div class="event-date{{ if $isNew }} event-date--new{{ end }}"{{ if $isNew }} title="{{ i18n "event_new_title" }}"{{ end }}>
                     <span class="day">{{ $eventDate.Format "2" }}</span>
                     <span class="month">{{ time.Format "Jan" $eventDate }}</span>
                 </div>
                 <div class="event-info">
-                    {{ partial "event-new-badge.html" . }}
                     <h3>{{ .title }}</h3>
                     {{ with .location }}<span class="event-location">📍 {{ . }}</span>{{ end }}
                 </div>
