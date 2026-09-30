@@ -1283,6 +1283,15 @@ events:
     lat: 38.2542
     lon: -85.7594
     update: "2026-03-25"
+  - date: "2026-10-04T19:00:00"
+    title: "Rencontre avec Boyd Rutherford à Saint-Omer"
+    type: conférence
+    description: "Temps d'échange avec Boyd Rutherford, ancien Lieutenant-Gouverneur du Maryland, et la municipalité, avec François Decoster en visioconférence. Accessible à distance."
+    location: "Clos du Bailli, Saint-Omer"
+    link: ""
+    lat: 50.747
+    lon: 2.2529
+    update: "2026-09-30"
   - date: "2026-10-08T18:30:00"
     title: "Conférence de S. Meffre sur Jean-Gaspard Vence"
     type: conférence
