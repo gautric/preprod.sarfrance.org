@@ -143,13 +143,6 @@ tools-version:
 	@echo "gh aw  :"; gh aw version 2>/dev/null || echo "  non installée"
 	@echo "Extensions gh :"; gh extension list 2>/dev/null || echo "  aucune"
 
-## Vérifier la présence des outils requis
-doctor:
-	@echo "🔎 Vérification de l'outillage…"
-	@command -v brew >/dev/null 2>&1 && echo "  ✅ Homebrew" || echo "  ❌ Homebrew manquant"
-	@command -v hugo >/dev/null 2>&1 && echo "  ✅ Hugo" || echo "  ❌ Hugo manquant"
-	@command -v gh   >/dev/null 2>&1 && echo "  ✅ gh" || echo "  ❌ gh manquant"
-	@gh extension list 2>/dev/null | grep -q "$(GH_AW_REPO)" && echo "  ✅ extension gh-aw" || echo "  ⚠️  extension gh-aw manquante (make update-gh-aw)"
 
 # ---------------------------------------------------------------------------
 ##@ Synchronisation de la version Hugo épinglée en CI
@@ -186,13 +179,6 @@ aw-recompile:
 	@gh aw compile --purge
 	@echo "✅ Workflows recompilés."
 
-## Vérifier la présence des outils requis
-doctor:
-	@echo "🔎 Vérification de l'outillage…"
-	@command -v brew >/dev/null 2>&1 && echo "  ✅ Homebrew" || echo "  ❌ Homebrew manquant"
-	@command -v hugo >/dev/null 2>&1 && echo "  ✅ Hugo" || echo "  ❌ Hugo manquant"
-	@command -v gh   >/dev/null 2>&1 && echo "  ✅ gh" || echo "  ❌ gh manquant"
-	@gh extension list 2>/dev/null | grep -q "$(GH_AW_REPO)" && echo "  ✅ extension gh-aw" || echo "  ⚠️  extension gh-aw manquante (make update-gh-aw)"
 # ---------------------------------------------------------------------------
 ##@ Publication
 # ---------------------------------------------------------------------------
