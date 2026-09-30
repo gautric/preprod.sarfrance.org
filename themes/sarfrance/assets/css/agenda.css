@@ -10,6 +10,9 @@
 /* Timeline bottom padding override */
 .agenda-tl { padding-bottom: 40px; }
 
+/* Ancre depuis l'accueil : l'événement ciblé n'est pas masqué par l'en-tête collant */
+.agenda-tl .tl-row[id] { scroll-margin-top: 140px; }
+
 /* Type badge in card header */
 .agenda-type { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.7rem; color: var(--white); font-weight: 600; white-space: nowrap; }
 

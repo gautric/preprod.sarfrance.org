@@ -238,3 +238,14 @@
     background-color: var(--event-new-bg);
     color: var(--event-new-text);
 }
+
+/* Agenda — événement ciblé par l'ancre (lien depuis l'accueil) : rouge par défaut, or s'il est récent */
+.tl-row:target .page-card {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 1px var(--primary);
+}
+
+.tl-row[data-filters*="nouveau"]:target .page-card {
+    border-color: var(--event-new-bg);
+    box-shadow: 0 0 0 1px var(--event-new-bg);
+}

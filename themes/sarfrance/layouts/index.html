@@ -85,7 +85,10 @@
                     <span class="month">{{ time.Format "Jan" $eventDate }}</span>
                 </div>
                 <div class="event-info">
-                    <h3>{{ .title }}</h3>
+                    {{/* Lien vers la fiche de l'événement dans la page agenda de son année (même id que dans activites/agenda.html) */}}
+                    {{- $agendaPage := site.GetPage (printf "/activites/agenda-%s" (substr .date 0 4)) -}}
+                    {{- $eventId := printf "%s-%s" .date (.title | urlize) -}}
+                    <h3>{{ with $agendaPage }}<a href="{{ .RelPermalink }}#{{ $eventId }}">{{ end }}{{ .title }}{{ with $agendaPage }}</a>{{ end }}</h3>
                     {{ with .location }}<span class="event-location">📍 {{ . }}</span>{{ end }}
                 </div>
             </article>
