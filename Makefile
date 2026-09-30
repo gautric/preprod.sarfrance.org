@@ -47,8 +47,9 @@ help:
 		} \
 		{ n = 0 }' $(MAKEFILE_LIST)
 
-## Lancer le site en local (alias de `serve`)
-run: serve
+## Lancer le site en local (comme `serve`) et l'ouvrir dans le navigateur par défaut
+run:
+	hugo server --buildDrafts --openBrowser
 
 ## Serveur de développement (avec brouillons)
 serve:

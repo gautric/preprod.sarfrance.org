@@ -13,7 +13,8 @@ SAR France (Société en France des Fils de la Révolution Américaine) institut
 make help
 
 # Development server (with drafts)
-make run            # alias of `make serve`; or: hugo server --buildDrafts
+make run            # same as `make serve`, plus opens the default browser (hugo server --buildDrafts --openBrowser)
+make serve          # or: hugo server --buildDrafts (no browser)
 
 # Production build
 make build          # or: hugo --minify
