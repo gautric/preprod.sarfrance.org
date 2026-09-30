@@ -9,8 +9,11 @@ SAR France (Société en France des Fils de la Révolution Américaine) institut
 ## Commands
 
 ```bash
+# List every make target, grouped by section (default goal: plain `make` does the same)
+make help
+
 # Development server (with drafts)
-make serve          # or: hugo server --buildDrafts
+make run            # alias of `make serve`; or: hugo server --buildDrafts
 
 # Production build
 make build          # or: hugo --minify
@@ -26,6 +29,10 @@ make doctor
 
 # Update Hugo + CI version pins + gh extensions
 make update
+
+# Run `make update`, auto-commit the tooling files it changed (UPDATE_FILES), then git push
+# (refuses to start if those files already hold uncommitted changes)
+make push
 
 # Python scripts (activate venv first)
 source .venv/bin/activate
