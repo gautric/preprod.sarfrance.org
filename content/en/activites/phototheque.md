@@ -10,6 +10,27 @@ The SAR France photo gallery brings together photographs taken during commemorat
 
 ## 2026
 
+![The Arc de Triomphe during the Rekindling of the Flame, September 30, 2026](/images/phototheque/2026-09-ravivage-flamme-1.jpg)
+*The Arc de Triomphe during the Rekindling of the Flame, September 30, 2026*
+
+![Participants in the Rekindling of the Flame ceremony under the Arc de Triomphe, September 30, 2026](/images/phototheque/2026-09-ravivage-flamme-2.jpg)
+*Participants in the Rekindling of the Flame ceremony under the Arc de Triomphe, September 30, 2026*
+
+![Wreaths laid on the Tomb of the Unknown Soldier, September 30, 2026](/images/phototheque/2026-09-ravivage-flamme-3.jpg)
+*Wreaths laid on the Tomb of the Unknown Soldier, September 30, 2026*
+
+![Reception for the SAR France centennial at the Puy du Fou, June 20, 2026](/images/phototheque/2026-06-puy-du-fou-1.jpg)
+*Reception for the SAR France centennial at the Puy du Fou, June 20, 2026*
+
+![Speeches during the SAR France centennial celebration at the Puy du Fou, June 20, 2026](/images/phototheque/2026-06-puy-du-fou-2.jpg)
+*Speeches during the SAR France centennial celebration at the Puy du Fou, June 20, 2026*
+
+![Buffet for the SAR France centennial at the Puy du Fou, June 20, 2026](/images/phototheque/2026-06-puy-du-fou-3.jpg)
+*Buffet for the SAR France centennial at the Puy du Fou, June 20, 2026*
+
+![Fireworks during the Puy du Fou night show, SAR France centennial, night of June 20–21, 2026](/images/phototheque/2026-06-puy-du-fou-4.jpg)
+*Fireworks during the Puy du Fou night show, SAR France centennial, night of June 20–21, 2026*
+
 ![245th commemoration of the Battle of Guilford Court House, March 15, 1781](/images/phototheque/2026-03-guilford-court-house-2.jpg)
 *245<sup>th</sup> commemoration of the Battle of Guilford Court House, March 15, 1781*
 

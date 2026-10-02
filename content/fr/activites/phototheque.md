@@ -12,6 +12,27 @@ La photothèque de SAR France rassemble les clichés pris lors des cérémonies 
 
 ## 2026
 
+![L'Arc de Triomphe lors du Ravivage de la Flamme, 30 septembre 2026](/images/phototheque/2026-09-ravivage-flamme-1.jpg)
+*L'Arc de Triomphe lors du Ravivage de la Flamme, 30 septembre 2026*
+
+![Les participants à la cérémonie du Ravivage de la Flamme sous l'Arc de Triomphe, 30 septembre 2026](/images/phototheque/2026-09-ravivage-flamme-2.jpg)
+*Les participants à la cérémonie du Ravivage de la Flamme sous l'Arc de Triomphe, 30 septembre 2026*
+
+![Gerbes déposées sur la tombe du Soldat inconnu, 30 septembre 2026](/images/phototheque/2026-09-ravivage-flamme-3.jpg)
+*Gerbes déposées sur la tombe du Soldat inconnu, 30 septembre 2026*
+
+![Réception du centenaire de SAR France au Puy du Fou, 20 juin 2026](/images/phototheque/2026-06-puy-du-fou-1.jpg)
+*Réception du centenaire de SAR France au Puy du Fou, 20 juin 2026*
+
+![Allocutions lors de la célébration du centenaire de SAR France au Puy du Fou, 20 juin 2026](/images/phototheque/2026-06-puy-du-fou-2.jpg)
+*Allocutions lors de la célébration du centenaire de SAR France au Puy du Fou, 20 juin 2026*
+
+![Buffet du centenaire de SAR France au Puy du Fou, 20 juin 2026](/images/phototheque/2026-06-puy-du-fou-3.jpg)
+*Buffet du centenaire de SAR France au Puy du Fou, 20 juin 2026*
+
+![Feux d'artifice du spectacle nocturne du Puy du Fou, centenaire de SAR France, nuit du 20 au 21 juin 2026](/images/phototheque/2026-06-puy-du-fou-4.jpg)
+*Feux d'artifice du spectacle nocturne du Puy du Fou, centenaire de SAR France, nuit du 20 au 21 juin 2026*
+
 ![245e commémoration de la bataille de Guilford Court House, 15 mars 1781](/images/phototheque/2026-03-guilford-court-house-2.jpg)
 *245<sup>e</sup> commémoration de la bataille de Guilford Court House, 15 mars 1781*
 
