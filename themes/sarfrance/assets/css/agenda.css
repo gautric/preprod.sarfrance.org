@@ -22,6 +22,10 @@
 .agenda-card-location { white-space: nowrap; }
 .agenda-card-link { white-space: nowrap; color: var(--primary); text-decoration: none; font-weight: 600; }
 .agenda-card-link:hover { text-decoration: underline; }
+/* Lien vers les photos de l'événement dans la photothèque */
+.agenda-card-photos { white-space: nowrap; color: var(--primary); text-decoration: none; font-weight: 600; }
+.agenda-card-photos:hover,
+.agenda-card-photos:focus-visible { text-decoration: underline; }
 
 /* Type icons — emoji via CSS */
 .agenda-type.type-conference::before,

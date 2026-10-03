@@ -1,0 +1,33 @@
+{
+  "verdict": "CHANGES_REQUESTED",
+  "findings": [
+    {
+      "id": 1,
+      "severity": "blocking",
+      "confidence": "confirmed",
+      "label": "Photo du 6 février 2025 rattachée à l'AG du 7 février",
+      "file": "data/agenda.yaml",
+      "detail": "`2025-02-ag-senat-assemblee` (légende « Visite de la résidence de l'ambassadeur des États-Unis, 6 février 2025 ») est en tête de la liste `photos` de l'événement `2025-02-07` (AG et dîner au Palais du Luxembourg). Le lien 📷 du 7 février défile donc jusqu'à une photo de la résidence de l'ambassadeur et la surligne, alors que l'événement `2025-02-06` (visite de la résidence) ne surligne qu'une photo sur deux. Ce rattachement contredit le plan, qui attribuait la photo au 6 février. Constaté dans public/activites/agenda-2025/ et public/activites/phototheque/.",
+      "action": "Retirer `2025-02-ag-senat-assemblee` de la liste de `2025-02-07` (qui commence alors par `2025-02-ag-diner-jeunes`) et la placer en tête de celle de `2025-02-06`, avant `2025-02-residence-ambassadeur-usa`. Le total reste de 85 photos et `update` ne change pas."
+    },
+    {
+      "id": 2,
+      "severity": "non-blocking",
+      "confidence": "likely",
+      "label": "Rattachement incertain du Leadership Meeting 2026",
+      "file": "data/agenda.yaml",
+      "detail": "`2026-02-crossing-dan` (légende « Leadership Meeting », sans date ; fichier daté de février) est lié au Spring Leadership Meeting du 5 mars 2026. Le plan classe ce cas « Probable (à confirmer) ».",
+      "action": "Le soumettre explicitement à l'utilisateur lors de la validation."
+    },
+    {
+      "id": 3,
+      "severity": "non-blocking",
+      "confidence": "confirmed",
+      "label": "Règle d'ordre de `photos` contredite par Picpus 2020",
+      "file": ".kiro/steering/structure.md",
+      "detail": "La doc demande de mettre en tête la photo affichée en premier dans la galerie. Or `2020-07-08` met volontairement `2020-07-picpus-2` devant `2020-07-picpus-1`, rangée dans la section 2021 de la galerie.",
+      "action": "Mentionner l'exception (premier élément = première photo de la section de l'année de l'événement) ou reformuler la règle."
+    }
+  ],
+  "reviewDoc": "/Users/gautric/Source/web-apps/sarfrance/.agents/tasks/agenda-photo-links-review.md"
+}

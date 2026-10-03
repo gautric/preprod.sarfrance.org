@@ -2,6 +2,41 @@
 SAR.onReady(function () {
     'use strict';
 
+    highlightEvent();
+
+    /*
+     * Arrivée depuis le lien 📷 d'une carte de l'agenda (?event=<id de l'événement>) :
+     * met en évidence toutes les photos portant data-event="<id>", fait défiler jusqu'à
+     * la première (ou jusqu'à celle de l'ancre #photo-…) et annonce leur nombre.
+     */
+    function highlightEvent() {
+        var eventId = new URLSearchParams(window.location.search).get('event');
+        if (!eventId) return;
+
+        // Comparaison sur dataset : l'identifiant contient « / » et « : », inutilisables tels quels dans un sélecteur.
+        var matches = SAR.selectAll('.gallery-item[data-event]').filter(function (item) {
+            return item.dataset.event === eventId;
+        });
+        if (!matches.length) return;
+
+        matches.forEach(function (item) {
+            item.classList.add('photo--highlight');
+        });
+
+        var hashTarget = window.location.hash ? document.getElementById(window.location.hash.slice(1)) : null;
+        var first = matches.indexOf(hashTarget) !== -1 ? hashTarget : matches[0];
+        first.scrollIntoView({ block: 'start' });
+
+        var status = document.querySelector('.gallery-status');
+        if (status) {
+            var msg = matches.length === 1 ? status.dataset.msgOne : status.dataset.msgOther;
+            // Léger délai : une région aria-live modifiée pendant le chargement n'est pas toujours annoncée.
+            window.setTimeout(function () {
+                status.textContent = (msg || '').replace('{n}', matches.length);
+            }, 500);
+        }
+    }
+
     var lightbox = document.getElementById('lightbox');
     if (!lightbox) return;
 

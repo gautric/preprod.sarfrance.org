@@ -5,6 +5,8 @@
 {{ end }}
 {{ define "main" }}
 {{- $prefix := partial "lang-prefix.html" . -}}
+{{- /* Photothèque de la langue courante : cible des liens 📷 (champ `photos` des événements) */ -}}
+{{- $photoPage := site.GetPage "/activites/phototheque" -}}
 {{- $agendaYear := .Site.Params.currentAgendaYear | default (now.Format "2006") -}}
 {{ $year := .Params.year | default $agendaYear }}
 {{ $types := hugo.Data.metadata.agenda.types }}
@@ -71,7 +73,22 @@
                             {{ with .description }}<p class="page-card-desc">{{ . }}</p>{{ end }}
                             <div class="agenda-card-meta">
                                 {{ with .location }}<span class="agenda-card-location">📍 {{ . }}</span>{{ end }}
-
+                                {{- /* Lien 📷 : ?event= met en évidence toutes les photos de l'événement (phototheque.js),
+                                       #photo-<première> y fait défiler même sans JavaScript. Rendu seulement si la première photo existe. */ -}}
+                                {{- $ev := . -}}
+                                {{- with .photos -}}
+                                {{- $missing := slice -}}
+                                {{- range . -}}
+                                {{- if not (and $photoPage (strings.Contains $photoPage.RawContent (printf "/images/phototheque/%s." .))) -}}
+                                {{- $missing = $missing | append . -}}
+                                {{- warnf "agenda : photo %q introuvable dans la photothèque (événement %s « %s »)" . $ev.date $ev.title -}}
+                                {{- end -}}
+                                {{- end -}}
+                                {{- $first := index . 0 -}}
+                                {{- if not (in $missing $first) }}
+                                <a class="agenda-card-photos" href="{{ $photoPage.RelPermalink }}?event={{ $eventId }}#photo-{{ $first }}" title="{{ i18n "event_photos_title" }}"><span aria-hidden="true">📷</span> {{ i18n "event_photos" }}</a>
+                                {{- end -}}
+                                {{- end }}
                             </div>
                         </div>
                         {{ if and .lat .lon (ne (printf "%v" .lat) "0") }}

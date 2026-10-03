@@ -15,7 +15,23 @@
             {{ $intro | markdownify }}
         </div>
 
+        {{/* Rattachement photo → événement, d'après le champ `photos` de data/agenda.yaml.
+             L'identifiant reprend celui des cartes de l'agenda (id de .tl-row dans activites/agenda.html). */}}
+        {{ $photoEvents := dict }}
+        {{ range hugo.Data.agenda.events }}
+        {{ $eventId := printf "%s-%s" .date (.title | urlize) }}
+        {{ range $name := .photos }}
+        {{ with index $photoEvents $name }}{{ warnf "photothèque : photo %q rattachée à deux événements (%s, %s)" $name . $eventId }}{{ end }}
+        {{ $photoEvents = merge $photoEvents (dict $name $eventId) }}
+        {{ end }}
+        {{ end }}
+
+        {{/* Annonce du nombre de photos mises en évidence par phototheque.js ({n} = nombre) */}}
+        <p class="gallery-status" aria-live="polite" data-msg-one="{{ i18n "photo_highlight_one" }}" data-msg-other="{{ i18n "photo_highlight_other" }}"></p>
+
         {{/* Parse year sections and render as galleries */}}
+        {{/* Ancre photo-<fichier> : cible des liens 📷 de l'agenda ; id posé sur la première occurrence seulement, une photo pouvant figurer deux fois */}}
+        {{ $seenIds := slice }}
         {{ range $i, $section := after 1 $sections }}
         {{ $lines := split (printf "## 20%s" $section) "\n" }}
         {{ $title := index $lines 0 | replaceRE "^## " "" }}
@@ -27,8 +43,13 @@
                 {{ $alt := replaceRE `^!\[([^\]]*)\].*$` "$1" . }}
                 {{ $src := replaceRE `^!\[[^\]]*\]\(([^)]+)\).*$` "$1" . }}
                 {{ if ne $src . }}
-                <div class="gallery-item">
-                    <img src="{{ $src }}" alt="{{ $alt }}" data-full="{{ $src }}" loading="lazy">
+                {{ $name := path.BaseName $src }}
+                {{ $photoId := printf "photo-%s" $name }}
+                <div class="gallery-item"{{ if not (in $seenIds $photoId) }} id="{{ $photoId }}"{{ $seenIds = $seenIds | append $photoId }}{{ end }}{{ with index $photoEvents $name }} data-event="{{ . }}"{{ end }}>
+                    {{/* width/height intrinsèques : la largeur des vignettes dépend du format de l'image ; sans eux, les rangées
+                         se recomposent au chargement différé et décalent la photo ciblée par l'ancre ou par ?event= */}}
+                    {{ $file := printf "static%s" $src }}
+                    <img src="{{ $src }}" alt="{{ $alt }}" data-full="{{ $src }}"{{ if fileExists $file }}{{ with images.Config $file }} width="{{ .Width }}" height="{{ .Height }}"{{ end }}{{ end }} loading="lazy">
                 </div>
                 {{ end }}
                 {{ end }}

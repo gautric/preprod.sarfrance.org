@@ -60,6 +60,9 @@
     --event-new-bg: var(--gold);
     --event-new-text: var(--navy-dark);
 
+    /* Photothèque — contour des photos de l'événement ouvert depuis l'agenda (lien 📷) */
+    --photo-highlight: var(--primary);
+
     /* --------------------------------------------------------
        Tag & type palette — named colors shared across
        agenda (type-), chronologie (tag-), and notices (tag-).

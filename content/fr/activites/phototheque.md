@@ -65,7 +65,7 @@ La photothèque de SAR France rassemble les clichés pris lors des cérémonies 
 ![La garde au drapeau des États-Unis à Picpus, 25 juin 2025](/images/phototheque/2025-06-picpus-4.jpg)
 *La garde au drapeau des États-Unis à Picpus, 25 juin 2025*
 
-![Relève du drapeau des États-Unis au cimetière de Picpus, 25 juin 2025](/images/phototheque/2025-07-cercle-interallie-2.jpg)
+![Relève du drapeau des États-Unis au cimetière de Picpus, 25 juin 2025](/images/phototheque/2025-06-picpus-2.jpg)
 *Relève du drapeau des États-Unis au cimetière de Picpus, 25 juin 2025*
 
 ![Les autorités devant la tombe de La Fayette – Cimetière de Picpus, 25 juin 2025](/images/phototheque/2025-06-picpus-3.jpg)
@@ -92,8 +92,8 @@ La photothèque de SAR France rassemble les clichés pris lors des cérémonies 
 ![Assemblée générale au Sénat, 7 février 2025](/images/phototheque/2025-02-ag-senat-5.jpg)
 *Assemblée générale au Sénat, 7 février 2025*
 
-![Visite de la résidence de l'ambassadeur des États-Unis, 6 février 2025](/images/phototheque/2025-02-ag-senat-assemblee.jpg)
-*Visite de la résidence de l'ambassadeur des États-Unis, 6 février 2025*
+![La tribune de l'assemblée générale au Sénat, 7 février 2025](/images/phototheque/2025-02-ag-senat-assemblee.jpg)
+*La tribune de l'assemblée générale au Sénat, 7 février 2025*
 
 ![Visite de la résidence de l'ambassadeur des États-Unis](/images/phototheque/2025-02-residence-ambassadeur-usa.jpg)
 *Visite de la résidence de l'ambassadeur des États-Unis, 6 février 2025*
@@ -234,9 +234,6 @@ La photothèque de SAR France rassemble les clichés pris lors des cérémonies 
 
 ![Camp de Vaussieux, août 2020](/images/phototheque/2020-08-vaussieux-3.jpg)
 *Camp de Vaussieux, août 2020*
-
-![Cérémonie au cimetière de Picpus, 8 juillet 2020](/images/phototheque/2020-07-picpus-2.jpg)
-*Cérémonie au cimetière de Picpus, 8 juillet 2020*
 
 ![Cimetière de Picpus, 8 juillet 2020](/images/phototheque/2020-07-picpus-3.jpg)
 *Cimetière de Picpus, 8 juillet 2020*

@@ -31,6 +31,32 @@
     position: relative;
 }
 
+/* Ancre depuis l'agenda : la photo ciblée n'est pas masquée par l'en-tête collant */
+.gallery-item[id] {
+    scroll-margin-top: 140px;
+}
+
+/* Photos de l'événement ouvert depuis l'agenda (lien 📷) : contour épais, pas seulement une couleur.
+   :target couvre la première photo sans JavaScript ; .photo--highlight (posée par phototheque.js) toutes les autres. */
+.gallery-item:target,
+.gallery-item.photo--highlight {
+    outline: 4px solid var(--photo-highlight);
+    outline-offset: 2px;
+}
+
+/* Annonce aria-live du nombre de photos mises en évidence (lue par les lecteurs d'écran, invisible à l'écran) */
+.gallery-status {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 .gallery-item img {
     height: 150px;
     width: 100%;

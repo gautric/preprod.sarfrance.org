@@ -200,6 +200,14 @@
   translation: "Nouveau"
 - id: event_new_title
   translation: "Événement ajouté ou mis à jour récemment"
+- id: event_photos
+  translation: "Photos"
+- id: event_photos_title
+  translation: "Voir les photos de cet événement dans la photothèque"
+- id: photo_highlight_one
+  translation: "1 photo de cet événement est mise en évidence."
+- id: photo_highlight_other
+  translation: "{n} photos de cet événement sont mises en évidence."
 
 # Agenda types
 - id: agenda_type_conférence

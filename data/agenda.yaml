@@ -33,6 +33,17 @@ events:
   - date: "2018-06-10/2018-06-20"
     title: "Voyage du Centenaire sur les lieux de la participation américaine à la Grande Guerre"
     type: visite
+    photos:
+      - "2018-06-bois-belleau"
+      - "2018-06-flying-sammy-saint-nazaire"
+      - "2018-06-diner-adieu-paris"
+      - "2018-06-chateau-thierry-1"
+      - "2018-06-chateau-thierry-2"
+      - "2018-06-colleville-sur-mer"
+      - "2018-06-puy-du-fou-1"
+      - "2018-06-puy-du-fou-2"
+      - "2018-06-puy-du-fou-3"
+      - "2018-06-romagne-montfaucon"
     update: "2026-03-04"
   - date: "2018-06-25"
     title: "Cérémonie au cimetière de Picpus en présence de l'ambassadeur des États-Unis"
@@ -42,6 +53,9 @@ events:
     link: ""
     lat: 48.844
     lon: 2.4004
+    photos:
+      - "2018-06-picpus-1"
+      - "2018-06-picpus-2"
     update: "2026-06-14"
   - date: "2018-07-13/2018-07-18"
     title: "Congrès de la NSSAR à Houston (Texas)"
@@ -172,6 +186,8 @@ events:
     link: ""
     lat: 48.844
     lon: 2.4004
+    photos:
+      - "2019-06-picpus-lafayette"
     update: "2026-06-14"
   - date: "2019-06-28"
     title: "Cérémonie devant les statues rénovées de Pershing et La Fayette à Versailles"
@@ -194,6 +210,11 @@ events:
     link: ""
     lat: 33.6633
     lon: -117.9033
+    photos:
+      - "2019-07-congres-costa-mesa-1"
+      - "2019-07-congres-costa-mesa-2"
+      - "2019-07-congres-costa-mesa-3"
+      - "2019-07-congres-costa-mesa-4"
     update: "2026-06-14"
   - date: "2019-09-07"
     title: "Vernissage de l'exposition de Sanary sur les marins et la guerre d'indépendance"
@@ -203,6 +224,10 @@ events:
     link: ""
     lat: 43.1177
     lon: 5.8009
+    photos:
+      - "2019-08-sanary-exposition-1"
+      - "2019-08-sanary-exposition-2"
+      - "2019-08-sanary-exposition-3"
     update: "2026-06-14"
   - date: "2019-09-19/2019-09-21"
     title: "Fall leadership meeting de la NSSAR à Louisville (KY)"
@@ -230,6 +255,9 @@ events:
     link: ""
     lat: 48.8738
     lon: 2.295
+    photos:
+      - "2019-10-ravivage-flamme-1"
+      - "2019-10-ravivage-flamme-2"
     update: "2026-06-14"
   - date: "2019-11-13"
     title: "Conférence du Prof. A. Gaillard sur l'Amiral du Chaffault à Nantes"
@@ -283,6 +311,10 @@ events:
     link: ""
     lat: 48.8518
     lon: 2.3048
+    photos:
+      - "2020-03-diner-ecole-militaire-1"
+      - "2020-03-diner-ecole-militaire-2"
+      - "2020-03-diner-ecole-militaire-3"
     update: "2026-06-14"
   - date: "2020-03-07"
     title: "Réunion des délégués régionaux de SAR France à Paris"
@@ -304,6 +336,11 @@ events:
     link: ""
     lat: 48.844
     lon: 2.4004
+    photos:
+      - "2020-07-picpus-3"
+      - "2020-07-picpus-4"
+      - "2020-07-picpus-5"
+      - "2020-07-picpus-1"
     update: "2026-06-14"
   - date: "2020-08-22/2020-08-23"
     title: "3e édition de la reconstitution du camp de Vaussieux (Calvados)"
@@ -313,6 +350,10 @@ events:
     link: ""
     lat: 49.2602
     lon: -0.6283
+    photos:
+      - "2020-08-vaussieux-1"
+      - "2020-08-vaussieux-2"
+      - "2020-08-vaussieux-3"
     update: "2026-06-14"
   - date: "2020-09-08"
     title: "Conférence de P. Villiers sur les combats de Jean Bart à Saint-Malo"
@@ -424,6 +465,9 @@ events:
     link: ""
     lat: 37.2357
     lon: -76.5136
+    photos:
+      - "2021-10-yorktown-delegation"
+      - "2021-10-yorktown-statues"
     update: "2026-06-14"
   - date: "2022-02-26"
     title: "Soutenance de la thèse de M. Le Pottier sur Duportail"
@@ -463,6 +507,9 @@ events:
     link: ""
     lat: 48.844
     lon: 2.4004
+    photos:
+      - "2022-07-picpus-autorites"
+      - "2022-07-picpus-ambassadrice"
     update: "2026-06-14"
   - date: "2022-07-10/2022-07-15"
     title: "Congrès de la NSSAR à Savannah (GE)"
@@ -472,6 +519,8 @@ events:
     link: ""
     lat: 32.079
     lon: -81.0921
+    photos:
+      - "2022-07-grave-marking-savannah"
     update: "2026-06-14"
   - date: "2022-09-12/2022-09-18"
     title: "Exposition sur l'amiral de Grasse à Grasse"
@@ -503,6 +552,10 @@ events:
     link: ""
     lat: 48.8738
     lon: 2.295
+    photos:
+      - "2022-10-ravivage-flamme-1"
+      - "2022-10-ravivage-flamme-2"
+      - "2022-10-ravivage-flamme-3"
     update: "2026-06-14"
   - date: "2022-11-11"
     title: "Participation aux cérémonies à Suresnes et Versailles"
@@ -685,6 +738,8 @@ events:
     link: ""
     lat: 48.849
     lon: 2.3299
+    photos:
+      - "2024-03-ag-institut-catholique"
     update: "2026-06-14"
   - date: "2024-03-22"
     title: "Dîner annuel de SAR France au Palais du Luxembourg"
@@ -694,6 +749,11 @@ events:
     link: ""
     lat: 48.8485
     lon: 2.3378
+    photos:
+      - "2024-03-ag-diner-luxembourg"
+      - "2024-03-ag-hommage-franklin"
+      - "2024-03-ag-president-ambassade"
+      - "2024-03-ag-palais-luxembourg"
     update: "2026-06-14"
   - date: "2024-04-06/2024-04-20"
     title: "Voyage en France du President General de la NSSAR"
@@ -715,6 +775,13 @@ events:
   - date: "2024-05-25/2024-05-26"
     title: "Cérémonies du Memorial Day en France et en Belgique"
     type: commémoration
+    photos:
+      - "2024-05-suresnes-porte-drapeau"
+      - "2024-05-suresnes-memorial-day"
+      - "2024-05-villeneuve-senateur"
+      - "2024-05-villeneuve-ambassade"
+      - "2024-05-villeneuve-sur-auvers"
+      - "2024-05-memorial-day-draguignan"
     update: "2026-03-04"
   - date: "2024-07-03"
     title: "Cérémonie au cimetière de Picpus"
@@ -724,6 +791,11 @@ events:
     link: ""
     lat: 48.844
     lon: 2.4004
+    photos:
+      - "2024-07-picpus-4"
+      - "2024-07-picpus-3"
+      - "2024-07-picpus-2"
+      - "2024-07-picpus-1"
     update: "2026-06-14"
   - date: "2024-07-04"
     title: "Independence Day – Cérémonie au monument Pershing La Fayette de Versailles"
@@ -750,6 +822,9 @@ events:
   - date: "2024-09-07"
     title: "243e anniversaire de la Bataille des Caps en Virginie"
     type: commémoration
+    photos:
+      - "2024-09-bataille-caps-statue"
+      - "2024-09-bataille-caps-marine"
     update: "2026-03-04"
   - date: "2024-09-15"
     title: "62e Journée Franco-Américaine Amiral de Grasse"
@@ -768,6 +843,10 @@ events:
     link: ""
     lat: 48.8738
     lon: 2.295
+    photos:
+      - "2024-10-ravivage-flamme-1"
+      - "2024-10-ravivage-flamme-2"
+      - "2024-10-ravivage-flamme-3"
     update: "2026-06-14"
   - date: "2024-10-09"
     title: "Assemblée générale extraordinaire (validation des nouveaux statuts)"
@@ -781,6 +860,8 @@ events:
     link: ""
     lat: 44.8412
     lon: -0.58
+    photos:
+      - "2024-10-week-end-bordelais"
     update: "2026-06-14"
   - date: "2024-11-07/2024-12-25"
     title: "Exposition « Les Bourbonnais aux Amériques » à Moulins"
@@ -799,6 +880,8 @@ events:
     link: ""
     lat: 48.8035
     lon: 2.1267
+    photos:
+      - "2024-11-dentzel-versailles"
     update: "2026-06-14"
   - date: "2025-01-16"
     title: "Conférence sur le futur maréchal Berthier (Cincinnati)"
@@ -812,6 +895,8 @@ events:
     link: ""
     lat: 48.8697
     lon: 2.3186
+    photos:
+      - "2025-02-residence-ambassadeur-usa"
     update: "2026-06-14"
   - date: "2025-02-07"
     title: "Assemblée générale et dîner de SAR France au Palais du Luxembourg"
@@ -821,6 +906,12 @@ events:
     link: ""
     lat: 48.8485
     lon: 2.3378
+    photos:
+      - "2025-02-ag-diner-jeunes"
+      - "2025-02-ag-diner-president"
+      - "2025-02-ag-senat-salle-medicis"
+      - "2025-02-ag-senat-5"
+      - "2025-02-ag-senat-assemblee"
     update: "2026-06-14"
   - date: "2025-02-11"
     title: "Validation des nouveaux statuts de SAR France"
@@ -873,6 +964,9 @@ events:
   - date: "2025-05-25"
     title: "Memorial Day"
     type: commémoration
+    photos:
+      - "2025-05-memorial-day-suresnes"
+      - "2025-05-memorial-day-escadrille"
     update: "2026-03-04"
   - date: "2025-06-14"
     title: "Inauguration de la Promenade Royal Deux-Ponts à Sathonay-Camp"
@@ -891,6 +985,11 @@ events:
     link: ""
     lat: 48.844
     lon: 2.4004
+    photos:
+      - "2025-06-picpus-1"
+      - "2025-06-picpus-4"
+      - "2025-06-picpus-2"
+      - "2025-06-picpus-3"
     update: "2026-06-14"
   - date: "2025-07-02"
     title: "Dîner des membres d'Île-de-France au Cercle Interallié"
@@ -900,6 +999,9 @@ events:
     link: ""
     lat: 48.8692
     lon: 2.32
+    photos:
+      - "2025-07-cercle-interallie-1"
+      - "2025-07-cercle-interallie-diner"
     update: "2026-06-14"
   - date: "2025-07-12/2025-07-18"
     title: "Congrès de la NSSAR à Uncasville, Connecticut"
@@ -985,6 +1087,9 @@ events:
     link: ""
     lat: 48.8485
     lon: 2.3378
+    photos:
+      - "2026-02-diner-luxembourg"
+      - "2026-02-assemblee-generale"
     update: "2026-03-28"
   - date: "2026-02-23"
     title: "Réunion des délégués régionaux en visioconférence"
@@ -1012,6 +1117,8 @@ events:
     link: "https://www.sar.org/app/uploads/E-packet-SPRING-2026.pdf"
     lat: 38.2542
     lon: -85.7594
+    photos:
+      - "2026-02-crossing-dan"
     update: "2026-03-25"
   - date: "2026-03-17"
     title: "Conférence de S. Meffre à Toulon sur Jean-Gaspard Vence"
@@ -1174,6 +1281,11 @@ events:
     link: "https://www.puydufou.com"
     lat: 46.8888
     lon: -0.9304
+    photos:
+      - "2026-06-puy-du-fou-1"
+      - "2026-06-puy-du-fou-2"
+      - "2026-06-puy-du-fou-3"
+      - "2026-06-puy-du-fou-4"
     update: "2026-05-28"
   - date: "2026-07-04T10:00:00"
     title: "Hommage au Maréchal de Rochambeau"
@@ -1273,6 +1385,10 @@ events:
     link: ""
     lat: 48.8738
     lon: 2.295
+    photos:
+      - "2026-09-ravivage-flamme-1"
+      - "2026-09-ravivage-flamme-2"
+      - "2026-09-ravivage-flamme-3"
     update: "2026-03-28"
   - date: "2026-10-01/2026-10-03"
     title: "Fall leadership meeting de la NSSAR à Louisville (KY)"

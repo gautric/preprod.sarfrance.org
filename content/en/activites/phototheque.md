@@ -63,7 +63,7 @@ The SAR France photo gallery brings together photographs taken during commemorat
 ![The United States flag guard at Picpus, June 25, 2025](/images/phototheque/2025-06-picpus-4.jpg)
 *The United States flag guard at Picpus, June 25, 2025*
 
-![Changing of the United States flag at Picpus Cemetery, June 25, 2025](/images/phototheque/2025-07-cercle-interallie-2.jpg)
+![Changing of the United States flag at Picpus Cemetery, June 25, 2025](/images/phototheque/2025-06-picpus-2.jpg)
 *Changing of the United States flag at Picpus Cemetery, June 25, 2025*
 
 ![Officials before Lafayette's grave – Picpus Cemetery, June 25, 2025](/images/phototheque/2025-06-picpus-3.jpg)
@@ -90,8 +90,8 @@ The SAR France photo gallery brings together photographs taken during commemorat
 ![General assembly at the Senate, February 7, 2025](/images/phototheque/2025-02-ag-senat-5.jpg)
 *General assembly at the Senate, February 7, 2025*
 
-![Visit to the residence of the United States Ambassador, February 6, 2025](/images/phototheque/2025-02-ag-senat-assemblee.jpg)
-*Visit to the residence of the United States Ambassador, February 6, 2025*
+![The rostrum of the general assembly at the Senate, February 7, 2025](/images/phototheque/2025-02-ag-senat-assemblee.jpg)
+*The rostrum of the general assembly at the Senate, February 7, 2025*
 
 ![Visit to the residence of the United States Ambassador](/images/phototheque/2025-02-residence-ambassadeur-usa.jpg)
 *Visit to the residence of the United States Ambassador, February 6, 2025*
@@ -232,9 +232,6 @@ The SAR France photo gallery brings together photographs taken during commemorat
 
 ![Camp de Vaussieux, August 2020](/images/phototheque/2020-08-vaussieux-3.jpg)
 *Camp de Vaussieux, August 2020*
-
-![Ceremony at Picpus Cemetery, July 8, 2020](/images/phototheque/2020-07-picpus-2.jpg)
-*Ceremony at Picpus Cemetery, July 8, 2020*
 
 ![Picpus Cemetery, July 8, 2020](/images/phototheque/2020-07-picpus-3.jpg)
 *Picpus Cemetery, July 8, 2020*
