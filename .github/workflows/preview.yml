@@ -73,77 +73,47 @@ jobs:
     name: Validation du contenu
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    env:
+      PYTHON_VERSION: '3.13'
     steps:
       - name: Checkout
         uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+
+      - name: Setup Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Installer les dépendances Python
+        run: python -m pip install --quiet -r scripts/requirements.txt
 
       - name: Vérifier le front matter des fichiers Markdown
         run: |
           echo "## 📝 Vérification du contenu" >> $GITHUB_STEP_SUMMARY
           ERRORS=0
           for f in $(find content -name '*.md'); do
-            # Vérifier que le fichier commence par ---
             if ! head -1 "$f" | grep -q '^---'; then
               echo "❌ $f : en-tête front matter manquant (doit commencer par ---)" >> $GITHUB_STEP_SUMMARY
               ERRORS=$((ERRORS + 1))
             fi
-            # Vérifier que le front matter contient un title
             if ! sed -n '/^---$/,/^---$/p' "$f" | grep -q 'title:'; then
               echo "⚠️ $f : champ 'title' manquant dans le front matter" >> $GITHUB_STEP_SUMMARY
               ERRORS=$((ERRORS + 1))
             fi
           done
           if [ $ERRORS -eq 0 ]; then
-            echo "✅ Tous les fichiers de contenu sont valides." >> $GITHUB_STEP_SUMMARY
+            echo "✅ Front matter de tous les fichiers Markdown valide." >> $GITHUB_STEP_SUMMARY
           else
             echo "" >> $GITHUB_STEP_SUMMARY
-            echo "**$ERRORS problème(s) détecté(s)**" >> $GITHUB_STEP_SUMMARY
+            echo "**$ERRORS problème(s) détecté(s) dans le front matter**" >> $GITHUB_STEP_SUMMARY
             exit 1
           fi
 
-      - name: Vérifier le format YAML des fichiers data
+      - name: Cohérence des données (schémas, metadata, i18n, CSS, parité, agenda)
         run: |
-          ERRORS=0
-          for f in $(find data -name '*.yaml' -o -name '*.yml' 2>/dev/null); do
-            if ! python3 -c "import yaml, sys; yaml.safe_load(open(sys.argv[1]))" "$f" 2>/dev/null; then
-              echo "❌ $f : YAML invalide" >> $GITHUB_STEP_SUMMARY
-              ERRORS=$((ERRORS + 1))
-            fi
-          done
-          if [ $ERRORS -eq 0 ]; then
-            echo "✅ Tous les fichiers YAML sont valides." >> $GITHUB_STEP_SUMMARY
-          fi
-          if [ $ERRORS -gt 0 ]; then
-            exit 1
-          fi
-
-      - name: Vérifier l'attribut technique update de l'agenda
-        run: |
-          python3 - <<'PY' >> $GITHUB_STEP_SUMMARY
-          import re
-          import sys
-          import yaml
-
-          with open("data/agenda.yaml", encoding="utf-8") as handle:
-              events = yaml.safe_load(handle)["events"]
-
-          pattern = re.compile(r"^\d{4}-\d{2}-\d{2}$")
-          missing = [e.get("title", "?") for e in events if not e.get("update")]
-          malformed = [
-              e.get("title", "?")
-              for e in events
-              if e.get("update") and not pattern.match(str(e["update"]))
-          ]
-
-          for title in missing:
-              print(f"❌ Événement sans attribut `update` : {title}")
-          for title in malformed:
-              print(f"❌ Attribut `update` mal formé (attendu AAAA-MM-JJ) : {title}")
-
-          if missing or malformed:
-              print("")
-              print("Corrigez avec `make agenda-dates` ou en ajoutant `update: \"AAAA-MM-JJ\"`.")
-              sys.exit(1)
-
-          print(f"✅ Les {len(events)} événements de l'agenda ont un attribut `update` valide.")
-          PY
+          echo "## 🔎 Vérifications de cohérence des données" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          # `check_data.py` imprime son rapport en Markdown ; on le capture pour
+          # le pousser dans le résumé GitHub, puis on relaie son code de sortie.
+          python scripts/check_data.py | tee -a $GITHUB_STEP_SUMMARY
+          exit ${PIPESTATUS[0]}
