@@ -1,0 +1,80 @@
+# Bascule annuelle de l'agenda : crée au besoin les pages agenda-<année>.md
+# (FR/EN) à partir de celles de l'année précédente, met à jour
+# `currentAgendaYear` (params) et le lien « Agenda » des menus FR/EN vers
+# l'année en cours, puis commite sur main.
+# Le commit poussé avec GITHUB_TOKEN ne déclenche pas deploy.yml : la mise en
+# ligne intervient lors de la reconstruction quotidienne de 6 h UTC.
+name: "Agenda — bascule de l'année courante"
+on:
+  # Le 1er janvier à 5 h UTC
+  schedule:
+    - cron: '0 5 1 1 *'
+  # Exécution manuelle depuis l'onglet Actions
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: "agenda-year"
+  cancel-in-progress: false
+defaults:
+  run:
+    shell: bash
+jobs:
+  bump-year:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          ref: main
+      - name: Determine year
+        id: year
+        run: echo "year=$(date -u +%Y)" >> "$GITHUB_OUTPUT"
+      - name: Create missing agenda pages from previous year
+        env:
+          YEAR: ${{ steps.year.outputs.year }}
+        run: |
+          PREV=$((YEAR - 1))
+          for lang in fr en; do
+            page="content/${lang}/activites/agenda-${YEAR}.md"
+            [[ -f "$page" ]] && continue
+            source="content/${lang}/activites/agenda-${PREV}.md"
+            if [[ ! -f "$source" ]]; then
+              echo "::error file=${page}::Page d'agenda ${YEAR} absente (${lang}) et aucun modèle ${PREV} pour la créer."
+              exit 1
+            fi
+            # Copie de la page de l'année précédente : l'année n'est remplacée
+            # que dans le front matter (title, description, year), le corps
+            # pouvant citer des années historiques.
+            awk -v prev="$PREV" -v year="$YEAR" '
+              NR == 1 && /^---$/ { fm = 1; print; next }
+              fm && /^---$/      { fm = 0; print; next }
+              fm                 { gsub(prev, year) }
+                                 { print }
+            ' "$source" > "$page"
+            echo "Page créée : ${page} (depuis ${source})"
+            cat "$page"
+          done
+      - name: Update currentAgendaYear and menus
+        env:
+          YEAR: ${{ steps.year.outputs.year }}
+        run: |
+          sed -i -E "s/^currentAgendaYear: [0-9]{4}\$/currentAgendaYear: ${YEAR}/" config/_default/params.yaml
+          sed -i -E "s#(/activites/agenda-)[0-9]{4}/#\1${YEAR}/#" config/_default/menus.fr.yaml config/_default/menus.en.yaml
+          grep -qx "currentAgendaYear: ${YEAR}" config/_default/params.yaml \
+            || { echo "::error file=config/_default/params.yaml::currentAgendaYear introuvable ou non mis à jour."; exit 1; }
+          git --no-pager diff
+      - name: Commit and push
+        env:
+          YEAR: ${{ steps.year.outputs.year }}
+        run: |
+          git add config/_default/params.yaml config/_default/menus.fr.yaml config/_default/menus.en.yaml \
+            "content/fr/activites/agenda-${YEAR}.md" "content/en/activites/agenda-${YEAR}.md"
+          if git diff --cached --quiet; then
+            echo "currentAgendaYear vaut déjà ${YEAR} : aucun changement."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(agenda): bascule de currentAgendaYear sur ${YEAR}"
+          git push origin HEAD:main
