@@ -73,7 +73,10 @@ THIN_BORDER = Border(
 def load_books():
     with open(BOOKS_YAML, "r", encoding="utf-8") as f:
         data = yaml.safe_load(f)
-    return data["revision"], data["count"], data["books"]
+    books = data["books"]
+    # The YAML holds no `count:` field — the inventory count is derived from
+    # the actual number of entries so it stays in sync automatically.
+    return data["revision"], len(books), books
 
 
 def book_row(idx, b):

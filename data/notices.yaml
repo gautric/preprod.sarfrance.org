@@ -12,7 +12,6 @@
 #   role        (obligatoire) Fonction ou grade pendant la guerre d'Indépendance
 #   tags        (obligatoire) Liste de clés définies dans data/metadata/notices.yaml
 revision: '2026-06-12'
-count: 156
 notices:
 - lastname: ABOVILLE
   firstname: François Marie
