@@ -1,0 +1,35 @@
+# Mises à jour automatiques des dépendances. Les PR sont ouvertes mensuellement
+# pour limiter le bruit, et groupées par écosystème afin d'avoir une seule PR
+# par mois à relire par domaine.
+#
+# Note : les fichiers *.lock.yml dans .github/workflows/ sont régénérés par
+# `gh aw compile` (via `make aw-compile`). Ils ne doivent PAS être mis à jour
+# par Dependabot ; les versions des actions qu'ils référencent sont pilotées
+# par la version de l'extension gh-aw installée en local.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+      day: monday
+    open-pull-requests-limit: 5
+    groups:
+      actions:
+        patterns:
+          - "*"
+    ignore:
+      # Les workflows générés par gh-aw gardent leurs SHA alignés sur la version
+      # de l'extension (`make aw-compile` les remet à jour).
+      - dependency-name: "github/gh-aw-actions/*"
+
+  - package-ecosystem: pip
+    directory: /scripts
+    schedule:
+      interval: monthly
+      day: monday
+    open-pull-requests-limit: 3
+    groups:
+      python:
+        patterns:
+          - "*"

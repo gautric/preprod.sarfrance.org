@@ -18,7 +18,11 @@ on:
 
 permissions:
   contents: read
-  pull-requests: write
+
+# Un seul run par PR : si un nouveau commit arrive, on annule le précédent.
+concurrency:
+  group: "preview-${{ github.ref }}"
+  cancel-in-progress: true
 
 defaults:
   run:
@@ -26,34 +30,20 @@ defaults:
 
 env:
   HUGO_VERSION: 0.166.0
-  NODE_VERSION: '24'
 
 jobs:
   build-preview:
     name: Vérification du build Hugo
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
 
-      - name: Install Dart Sass
-        run: sudo snap install dart-sass
-
       - name: Checkout
-        uses: actions/checkout@v5
-        with:
-          submodules: recursive
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v5
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-          package-manager-cache: false
-
-      - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
 
       - name: Build with Hugo
         id: hugo-build
@@ -82,9 +72,10 @@ jobs:
   validate-content:
     name: Validation du contenu
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
 
       - name: Vérifier le front matter des fichiers Markdown
         run: |

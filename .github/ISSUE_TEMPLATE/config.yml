@@ -1,0 +1,13 @@
+# Oblige les contributeurs à passer par un des formulaires d'issue dédiés
+# (ajout d'évènement d'agenda, ajout de livre, signalement de bug, modification
+# de contenu, nouvelle page). Évite les issues en texte libre, difficiles à
+# router pour les relecteurs non techniques.
+blank_issues_enabled: false
+
+contact_links:
+  - name: 📝 Ouvrir une Pull Request directement
+    url: https://github.com/gautric/preprod.sarfrance.org/compare
+    about: Si vous êtes à l'aise avec Git, proposez directement vos modifications via une Pull Request.
+  - name: ✉️ Contacter la Société
+    url: https://www.sarfrance.org/contact/
+    about: Pour les questions qui ne relèvent pas du site (adhésion, cotisation, histoire…), passez par le formulaire de contact.
