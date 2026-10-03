@@ -1,3 +1,3 @@
-openpyxl>=3.1,<4
-pyyaml>=6.0,<7
-jsonschema>=4.20,<5
+openpyxl>=3.1.5,<4
+pyyaml>=6.0.3,<7
+jsonschema>=4.26.0,<5
