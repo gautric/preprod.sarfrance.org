@@ -11,6 +11,10 @@ on:
       - 'layouts/**'
       - 'config/**'
       - 'assets/**'
+      - 'scripts/**'
+      - 'themes/**'
+      - 'i18n/**'
+      - '.github/workflows/**'
 
 permissions:
   contents: read
