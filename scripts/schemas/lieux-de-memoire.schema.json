@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.sarfrance.org/schemas/lieux-de-memoire.schema.json",
+  "title": "Lieux de mémoire SAR France",
+  "type": "object",
+  "required": ["regions"],
+  "additionalProperties": false,
+  "properties": {
+    "references": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/reference"}
+    },
+    "regions": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/region"}
+    }
+  },
+  "$defs": {
+    "reference": {
+      "type": "object",
+      "required": ["title"],
+      "additionalProperties": true,
+      "properties": {
+        "title": {"type": "string", "minLength": 1},
+        "author": {"type": "string"},
+        "date": {"type": "string"},
+        "url": {"type": "string"},
+        "publisher": {"type": "string"},
+        "description": {"type": "string"}
+      }
+    },
+    "region": {
+      "type": "object",
+      "required": ["nom", "lieux"],
+      "additionalProperties": false,
+      "properties": {
+        "nom": {"type": "string", "minLength": 1},
+        "lieux": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/lieu"}
+        }
+      }
+    },
+    "lieu": {
+      "type": "object",
+      "required": ["titre", "tags"],
+      "additionalProperties": false,
+      "properties": {
+        "titre": {"type": "string", "minLength": 1},
+        "adresse": {"type": "string"},
+        "lat": {"type": "number", "minimum": -90, "maximum": 90},
+        "lon": {"type": "number", "minimum": -180, "maximum": 180},
+        "tags": {
+          "description": "Clés déclarées dans data/metadata/lieux-de-memoire.yaml (vérifié hors schéma).",
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "minItems": 1
+        },
+        "personnages": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "description": {"type": "string"},
+        "wikipedia": {"type": "string"},
+        "url": {"type": "string"}
+      }
+    }
+  }
+}

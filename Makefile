@@ -29,6 +29,7 @@ UPDATE_COMMIT_MSG := chore(ci): mise à jour de l'outillage (make update)
         aw-compile aw-recompile \
         bump-hugo-ci \
         agenda-dates agenda-dates-check \
+        check \
         push push-check
 
 # ---------------------------------------------------------------------------
@@ -81,6 +82,12 @@ version:
 	@echo "Version Hugo locale :"
 	@hugo version
 	@echo "Version épinglée en CI (deploy.yml / preview.yml) : $(HUGO_VERSION_CI)"
+
+## Lancer les vérifications de cohérence des données (schémas, metadata, i18n, CSS, parité, agenda)
+## Installe au besoin pyyaml / jsonschema dans le venv local.
+check:
+	@test -d .venv || { echo "❌ Environnement virtuel .venv manquant (python -m venv .venv)"; exit 1; }
+	@. .venv/bin/activate && python -m pip install --quiet -r scripts/requirements.txt && python scripts/check_data.py
 
 # ---------------------------------------------------------------------------
 ##@ Agenda — attribut technique `update`
