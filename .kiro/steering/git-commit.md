@@ -1,5 +1,7 @@
 ---
-inclusion: manual
+inclusion: auto
+name: git-commit
+description: "Rédiger un message de commit ou préparer un commit pour ce dépôt."
 ---
 
 # Convention de messages de commit Git

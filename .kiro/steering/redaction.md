@@ -1,5 +1,6 @@
 ---
-inclusion: always
+inclusion: fileMatch
+fileMatchPattern: ["content/**/*.md", "data/**/*.yaml", "i18n/*.yaml", ".github/CONTRIBUTING.md"]
 ---
 
 # Conventions rédactionnelles

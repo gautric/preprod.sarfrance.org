@@ -35,10 +35,12 @@ Tu ajoutes un nouvel évènement dans le fichier `data/agenda.yaml` du site SAR 
     link: ""
     lat: 48.8566
     lon: 2.3522
+    update: "2026-02-01"
 ```
-- `date`, `title`, `description`, `location`, `link` entre guillemets doubles ; `type` sans guillemets ; `lat`/`lon` en décimaux à 4 décimales.
+- `date`, `title`, `description`, `location`, `link`, `update` entre guillemets doubles ; `type` sans guillemets ; `lat`/`lon` en décimaux à 4 décimales.
 - Indentation : 2 espaces pour `- date:`, 4 espaces pour les champs suivants.
 - Le champ `link` reste toujours vide (`""`).
+- Le champ `update` est technique : porte la date du jour au format `"AAAA-MM-JJ"` et place-le TOUJOURS en dernier dans le bloc. Le site affiche un badge « Nouveau » pendant 15 jours à partir de cette date.
 
 ## Construction du champ `date`
 1. Avec heure : `"AAAA-MM-JJThh:mm:ss"`.

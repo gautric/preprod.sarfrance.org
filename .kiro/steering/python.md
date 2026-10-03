@@ -1,5 +1,6 @@
 ---
-inclusion: always
+inclusion: fileMatch
+fileMatchPattern: ["scripts/**", "**/*.py", "Makefile"]
 ---
 
 # Python Environment
