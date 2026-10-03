@@ -1,25 +1,25 @@
 # Tech Stack
 
 ## Static Site Generator
-- Hugo (extended) v0.163.3 (version épinglée en CI dans `deploy.yml` / `preview.yml` ; v0.157.0 minimum)
+- Hugo (extended) — version épinglée via `HUGO_VERSION_CI` dans `Makefile`, reflétée dans `.github/workflows/deploy.yml` et `.github/workflows/preview.yml` (`make bump-hugo-ci` les resynchronise sur la version locale)
 - Configuration: split across the `config/` directory (YAML format), merged automatically by Hugo:
   - `config/_default/hugo.yaml` — core settings, markup, sitemap, output formats, services
   - `config/_default/languages.yaml` — multilingual `languages` block (per-language params, without menus)
   - `config/_default/menus.fr.yaml` / `config/_default/menus.en.yaml` — main menu per language
   - `config/_default/params.yaml` — global `params` (agenda year, address, contact, fees, Turnstile key…)
   - `config/development/hugo.yaml` — development overrides (localhost `baseURL`, used by `hugo server`)
-- Theme: `sarfrance` (custom, in `themes/sarfrance/`, loaded as a git submodule — theme key in `config/_default/hugo.yaml` is `sarfrance`)
+- Theme: `sarfrance` (custom, in `themes/sarfrance/`, vendored directly in the repo — theme key in `config/_default/hugo.yaml` is `sarfrance`)
 
 ## Frontend
 - Plain HTML templates (Go templates / Hugo templating)
-- Vanilla CSS (no preprocessor beyond Dart Sass available in CI)
+- Vanilla CSS (no preprocessor)
 - CSS and JS processed through Hugo's asset pipeline (`resources.Get` + `resources.Fingerprint`) for cache busting and SRI integrity
 - Vanilla JavaScript only — no framework, no jQuery, no npm runtime dependencies
 - JavaScript files are organised in three tiers under `themes/sarfrance/assets/js/`:
   - `core.js` — single bundle of cross-cutting helpers on the global `SAR` namespace, loaded first and globally: `SAR.onReady` / `SAR.selectAll` (DOM), `SAR.isEnglish` / `SAR.lang` / `SAR.homeUrl` (language), `SAR.fetchJSON` (network), `SAR.activate` (single-active-button), `SAR.map` (OSM tile config + `SAR.map.create`) and the global `initPageCardMaps`. The Leaflet helpers stay inert until Leaflet's `L` global is present, so the bundle is safe on every page
   - `shared/` — reusable cross-page modules: `filter-engine.js` (`FilterEngine`) and `timeline-page.js` (`SAR.initTimelinePage` — mutualises maps + FilterEngine setup for agenda/chronologie/lieux-de-memoire)
   - `pages/` — one module per page/feature: `main.js`, `carousel.js`, `agenda.js`, `chronologie.js`, `lieux-de-memoire.js`, `notices.js`, `bibliotheque.js`, `phototheque.js`, `contact.js`
-- Third-party CDN scripts loaded per-page (not bundled): Leaflet 1.9.4 (agenda, contact, lieux-de-memoire), Moment.js 2.30 (agenda), Isotope 3 + Mustache 4 (bibliotheque)
+- Third-party CDN scripts loaded per-page (not bundled): Leaflet 1.9.4 (agenda, chronologie, contact, lieux-de-memoire), Moment.js 2.30 (agenda), Isotope 3 + Mustache 4 (bibliotheque)
 - No npm dependencies in production
 
 ## JavaScript Rules

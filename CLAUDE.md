@@ -25,9 +25,6 @@ make clean          # or: hugo --gc --cleanDestinationDir
 # Check tooling versions (Hugo local vs CI pinned)
 make version
 
-# Verify all required tools are installed
-make doctor
-
 # Update Hugo + CI version pins + gh extensions
 make update
 
@@ -52,7 +49,7 @@ python scripts/export_books_excel.py
 - `config/_default/params.yaml` — global params (agenda year, address, fees, Turnstile key)
 - `config/development/hugo.yaml` — localhost baseURL override for dev server
 
-**Theme** — `themes/sarfrance/` (git submodule, theme key: `sarfrance`). All templates, CSS, and JS live here.
+**Theme** — `themes/sarfrance/` (vendored directly in the repo, theme key: `sarfrance`). All templates, CSS, and JS live here.
 
 **Content** — `content/fr/` and `content/en/` mirror each other by path. Sections: `la-societe/`, `histoire/`, `activites/`, `contact/`.
 
@@ -85,7 +82,9 @@ Conventional Commits format: `<type>(<scope>): <description>`
 
 Types: `docs`, `feat`, `fix`, `style`, `refactor`, `chore`, `i18n`, `data`
 
-Language rule: French for association content changes (histoire, agenda, etc.), English for structural/technical changes (Hugo, framework, CI).
+Language rule (single source of truth: `.kiro/steering/git-commit.md`):
+- **French** for editorial/association content and data changes: `docs`, `data`, `i18n`, and `feat`/`fix`/`style` on scopes `histoire`, `activites`, `la-societe`, `contact`, `home`.
+- **English** for structural/technical/tooling changes: `chore`, `refactor`, and `feat`/`fix`/`style` on scopes `theme`, `config`, `ci`, `steering`.
 
 ## Content Rules
 

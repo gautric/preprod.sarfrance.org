@@ -14,10 +14,11 @@ Utiliser le format **Conventional Commits** :
 <type>(<scope>): <description>
 ```
 
-- La description commence par une majuscule, en anglais
+- La description commence par une majuscule
 - Pas de point final
 - Longueur max de la première ligne : 72 caractères
 - Si un corps est nécessaire, séparer par une ligne vide
+- Langue de la description : voir la règle unique dans « Règles supplémentaires » ci-dessous
 
 ## Types autorisés
 
@@ -66,7 +67,10 @@ data: Update 2026 agenda with spring conference dates
 
 - Un commit = un changement logique. Ne pas mélanger contenu FR et refactoring de template dans le même commit.
 - Quand un changement touche les deux langues (FR + EN), un seul commit suffit — pas besoin de séparer.
-- Lang : le commit oit etre en francais si le changement est un changement sur les infos de l association, histoire, agenda etc... en anglais si cela touche les modification structurelles du site, hugo, framework, technique etc...
+- **Langue de la description** :
+  - **Français** quand le changement porte sur le contenu éditorial, les données ou la vie de l'association : `docs`, `data`, `i18n`, et les `feat`/`fix`/`style` dont le scope est `histoire`, `activites`, `la-societe`, `contact`, `home`.
+  - **Anglais** quand le changement est structurel, technique ou touche à l'outillage : `chore`, `refactor`, et les `feat`/`fix`/`style` dont le scope est `theme`, `config`, `ci`, `steering`.
+  - En cas de doute, suivez la langue dominante des commits récents sur la zone touchée.
 - Quand un changement correspond à une tâche de `TASKS.md`, mentionner le numéro dans le corps du commit :
 
 ```

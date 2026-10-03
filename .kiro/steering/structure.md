@@ -42,10 +42,10 @@
 │   ├── fr/lieux-de-memoire.yaml  # Sites of remembrance — FR content data
 │   ├── en/lieux-de-memoire.yaml  # Sites of remembrance — EN content data
 │   └── metadata/              # Structural metadata (types/tags/categories): agenda.yaml, books.yaml, chronologie.yaml, lieux-de-memoire.yaml, notices.yaml
-├── themes/sarfrance/          # Custom Hugo theme (git submodule, theme key: "sarfrance")
+├── themes/sarfrance/          # Custom Hugo theme (vendored in repo, theme key: "sarfrance")
 │   ├── layouts/
 │   │   ├── _default/          # baseof.html, list.html, single.html
-│   │   ├── partials/          # header.html, footer.html, head-meta.html, head-favicons.html, head-css.html, head-fonts.html, head-jsonld.html, site-scripts.html, page-contribute.html, page-header.html, lang-prefix.html, book.html, format-date.html, icon-wikipedia.html
+│   │   ├── partials/          # header.html, footer.html, head-meta.html, head-favicons.html, head-css.html, head-fonts.html, head-jsonld.html, site-scripts.html, page-contribute.html, page-header.html, lang-prefix.html, book.html, format-date.html, icon-wikipedia.html, asset.html, event-is-new.html, event-new-badge.html
 │   │   ├── shortcodes/        # param.html, address.html, books.html, contact.html
 │   │   ├── activites/         # agenda.html, agenda.ics.ics, notices.html, bibliotheque.html, bibliotheque.json.json, phototheque.html
 │   │   ├── histoire/          # chronologie.html, notices.html, lieux-de-memoire.html
@@ -62,12 +62,11 @@
 │   └── static/                # Theme-only static files (currently empty — content images live in root static/)
 ├── static/                    # Static assets copied as-is (site images, icons, favicons)
 │   ├── images/carousel/       # Carousel photos (homepage)
-├── layouts/                   # Override directory (empty — all layouts live in theme)
 ├── public/                    # Generated output (gitignored in production)
 ├── .github/
 │   ├── workflows/             # CI: deploy.yml (deploy), preview.yml (PR checks) + agent-*.md/*.lock.yml, agentics-maintenance.yml, copilot-setup-steps.yml
 │   ├── CONTRIBUTING.md        # Contributor guide (French, for non-technical users)
-│   └── ISSUE_TEMPLATE/        # bug-site.yml, modification-contenu.yml, nouvelle-page.yml
+│   └── ISSUE_TEMPLATE/        # add-agenda-event.yml, ajout-livre.yml, bug-site.yml, modification-contenu.yml, nouvelle-page.yml
 ├── infrastructure/            # AWS CloudFormation deployment scripts
 ├── deploy.sh                  # S3/CloudFront deployment script
 └── TASKS.md                   # Task tracking log (completed site modifications)
@@ -81,10 +80,10 @@
 - The agenda menu link in `config/_default/menus.fr.yaml` / `menus.en.yaml` should point to the current year's agenda
 - Custom layouts exist for `activites/agenda`, `activites/bibliotheque`, `activites/notices`, `histoire/chronologie`, `histoire/lieux-de-memoire`, `histoire/notices`, and `contact/contact`; all other pages use `_default/single.html`
 - The theme directory is `themes/sarfrance/` and the theme key in `config/_default/hugo.yaml` is `sarfrance` — changes to templates/CSS/JS go there
-- Content images (carousel photos, illustrations, etc.) live in the root `static/` directory, organized in topic subfolders (e.g. `static/images/carousel/`, `static/images/histoire-sar-france/`). Never put content images in `themes/sarfrance/static/` — the theme's `static/` is reserved for theme-intrinsic assets only. This keeps content assets in the main repo and avoids coupling them to the submodule.
-- The root `layouts/` directory is empty and reserved for theme overrides if needed
+- Content images (carousel photos, illustrations, etc.) live in the root `static/` directory, organized in topic subfolders (e.g. `static/images/carousel/`, `static/images/histoire-sar-france/`). Never put content images in `themes/sarfrance/static/` — the theme's `static/` is reserved for theme-intrinsic assets only. This keeps content assets separate from theme assets, so a future theme swap would not drag content along.
+- No root `layouts/` directory exists today — all templates live in the theme. If a site-level override is ever needed, create `layouts/` at the repo root; Hugo picks it up with priority over the theme.
 - Data files in `data/` use structured YAML with typed entries (event types, tags, periods)
-- Tag/type colors are defined as CSS classes in `colors.css`, named `tag-{key}` or `type-{key}` where `{key}` is the urlized YAML key (e.g., YAML key `révolte` → CSS class `tag-revolte`). Templates derive the class name via `{{ $key | urlize }}`. The `removePathAccents = true` setting in `config/_default/hugo.yaml` ensures `urlize` strips accents. Never use inline `style=` or `color:` fields in YAML — add a new CSS class in `colors.css` instead.
+- Tag/type/category colors are defined as CSS classes in `colors.css`, with a domain-specific prefix matching the data file: `type-{key}` for `data/agenda.yaml`, `tag-{key}` for `data/notices.yaml`, `data/chronologie.yaml` and `data/{fr,en}/lieux-de-memoire.yaml`, `cat-{key}` for `data/books.yaml` (bibliothèque). `{key}` is the urlized YAML key (e.g., YAML key `révolte` → CSS class `tag-revolte`). Templates derive the class name via `{{ $key | urlize }}`. The `removePathAccents = true` setting in `config/_default/hugo.yaml` ensures `urlize` strips accents. Never use inline `style=` or `color:` fields in YAML — add a new CSS class in `colors.css` instead.
 - `filters.css` defines shared UI components used across all data-driven pages (agenda, chronologie, notices, bibliothèque, lieux-de-memoire):
   - `.filter-btn` — pill-shaped filter buttons (base + `.active` state)
   - `.page-filters` — flex container for filter button groups
@@ -123,12 +122,9 @@
 - `hreflang` alternate links are generated automatically in `baseof.html` when translations exist, including `x-default` pointing to the French version
 - Content files in `content/fr/` and `content/en/` are paired by identical file paths (e.g. `content/fr/histoire/chronologie.md` ↔ `content/en/histoire/chronologie.md`)
 
-## Page Contribute Widget
+## Page Header and Contribute Widget
 
 - `page-header.html` partial renders the `<h1>`, optional description, and the page-contribute widget. It accepts either a plain page context (`{{ partial "page-header.html" . }}`) or a dict with overrides (`{{ partial "page-header.html" (dict "ctx" . "title" "X" "desc" "Y" "extra" "<p>...</p>") }}`)
-
-## Page Contribute Widget
-
 - `page-contribute.html` partial renders an edit icon in the page header of every `single.html` page
 - On hover/focus, a dropdown shows links to open GitHub issues (bug report, content modification) pre-filled with the page title
 - Links point to the GitHub repo configured via `params.githubRepo` in `config/_default/params.yaml`, using issue templates from `.github/ISSUE_TEMPLATE/`

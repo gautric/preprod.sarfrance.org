@@ -25,7 +25,7 @@ UPDATE_COMMIT_MSG := chore(ci): mise à jour de l'outillage (make update)
 
 .PHONY: help run serve build build-prod build-check clean version \
         update update-hugo update-gh update-gh-ext update-gh-aw \
-        tools-version doctor \
+        tools-version \
         aw-compile aw-recompile \
         bump-hugo-ci \
         agenda-dates agenda-dates-check \

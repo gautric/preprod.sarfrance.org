@@ -32,14 +32,17 @@ Tu ajoutes un nouvel évènement dans le fichier `data/agenda.yaml` du site SAR 
     type: assemblée
     description: "Description courte"
     location: "Nom du lieu"
-    link: ""
+    link: "https://exemple.org/annonce"
     lat: 48.8566
     lon: 2.3522
+    photos:
+      - "2026-02-reunion-1"
     update: "2026-02-01"
 ```
 - `date`, `title`, `description`, `location`, `link`, `update` entre guillemets doubles ; `type` sans guillemets ; `lat`/`lon` en décimaux à 4 décimales.
 - Indentation : 2 espaces pour `- date:`, 4 espaces pour les champs suivants.
-- Le champ `link` reste toujours vide (`""`).
+- `link` : URL externe (annonce, programme, inscription…). Si l'utilisateur n'en fournit pas, laisse `""` ; ne l'invente jamais, ne visite jamais l'URL fournie.
+- `photos` : facultatif. Liste de noms de fichiers (sans extension) de la photothèque qui illustrent l'évènement (ex. `- "2026-09-ravivage-flamme-1"`). N'ajoute ce bloc que si l'utilisateur te fournit explicitement les noms de photos ; il n'est pas de ton ressort de deviner un nom. Place `photos` juste avant `update`. Détails complets dans `.kiro/steering/structure-agenda.md`.
 - Le champ `update` est technique : porte la date du jour au format `"AAAA-MM-JJ"` et place-le TOUJOURS en dernier dans le bloc. Le site affiche un badge « Nouveau » pendant 15 jours à partir de cette date.
 
 ## Construction du champ `date`
@@ -55,6 +58,6 @@ Tu ajoutes un nouvel évènement dans le fichier `data/agenda.yaml` du site SAR 
 
 ## Insertion
 - Lis `data/agenda.yaml`, insère le nouvel évènement à la bonne position chronologique (tri par date croissante) : juste avant la première entrée dont la date est postérieure.
-- Préserve exactement le format existant. Ne modifie AUCUN évènement existant. Ne touche pas aux anciens évènements (avant 2025) qui n'ont que 3 champs.
+- Préserve exactement le format existant. Ne modifie AUCUN évènement existant. Les évènements anciens (avant 2025) qui n'ont que les quatre champs techniques (`date`, `title`, `type`, `update`) doivent rester tels quels : n'y ajoute ni `description`, ni coordonnées, ni `photos`.
 
 Après modification, résume à l'utilisateur l'entrée ajoutée et toute correction de français apportée sous la forme `Correction (champ) : "original" → "corrigé" — raison`.

@@ -39,4 +39,3 @@ scripts/                        @gautric
 # Fichiers racine techniques
 .gitignore                      @gautric
 .gitattributes                  @gautric
-.gitmodules                     @gautric
