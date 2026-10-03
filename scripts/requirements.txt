@@ -1,2 +1,2 @@
-openpyxl>=3.1,<4
-pyyaml>=6.0,<7
+openpyxl>=3.1.5,<4
+pyyaml>=6.0.3,<7
