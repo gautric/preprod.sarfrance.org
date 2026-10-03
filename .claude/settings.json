@@ -7,9 +7,9 @@
         "hooks": [
           {
             "type": "command",
-            "command": "jq -r '(.tool_response.stdout // \"\") + \"\\n\" + (.tool_response.stderr // \"\")' | grep -q 'Hugo version mismatch' && make bump-hugo-ci && git add .github/workflows/deploy.yml .github/workflows/preview.yml Makefile && git commit -m 'chore(ci): align Hugo CI version with local' && printf '{\"hookSpecificOutput\":{\"hookEventName\":\"PostToolUseFailure\",\"additionalContext\":\"Hugo version mismatch fixed — CI files aligned to local Hugo version. Retry git push.\"}}'",
+            "command": "if jq -r '(.error // \"\") + \"\\n\" + ((.tool_response // \"\") | tostring)' | grep -q 'Hugo version mismatch'; then jq -n --arg c 'Échec du pre-push : la version Hugo locale diffère de celle de la CI (scripts/check-hugo-version.sh). Aucun fichier n’a été modifié ni committé. Ne corrige rien automatiquement ; propose à l’utilisateur l’une de ces deux voies : (1) lancer `make bump-hugo-ci`, qui aligne HUGO_VERSION de .github/workflows/deploy.yml et .github/workflows/preview.yml ainsi que HUGO_VERSION_CI du Makefile sur la version Hugo locale, relire le diff, committer ces trois fichiers puis relancer git push ; (2) utiliser `make push`, qui exige que Makefile, .gitattributes, .github/workflows et .github/aw soient sans modification non committée, lance make update (mise à jour de Hugo, de gh et de ses extensions, bump-hugo-ci, aw-compile), committe les fichiers d’outillage modifiés puis pousse la branche.' '{hookSpecificOutput: {hookEventName: \"PostToolUseFailure\", additionalContext: $c}}'; fi",
             "timeout": 30,
-            "statusMessage": "Fixing Hugo version mismatch..."
+            "statusMessage": "Vérification d’un écart de version Hugo…"
           }
         ]
       }
