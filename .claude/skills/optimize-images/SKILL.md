@@ -1,3 +1,8 @@
+---
+name: optimize-images
+description: Detects and optimizes images in static/ larger than 2 MB (photo PNG converted to JPG, 2000 px max, quality 85) and updates their references in content/. Use when new images are added or when asked to optimize images.
+---
+
 # Optimize Images
 
 Automatically detect and optimize images in `static/` that exceed 2 MB. Converts oversized PNGs (photos) to JPG and resizes all images to a maximum of 2000×2000 pixels at 85% JPEG quality.
@@ -15,9 +20,9 @@ Run this skill whenever new images are added to the repository (especially in `s
    - **JPG/JPEG over 2 MB**: resize in place with `magick "$f" -resize "2000x2000>" -quality 85 "$f"`.
    - **Skip**: PNGs under 2 MB, SVGs, anything in `static/images/icons/` (logos, favicons need transparency or exact dimensions).
 
-3. **Update content references** — for any PNG→JPG conversion, search all files in `content/` for the old `.png` path and replace with `.jpg`:
+3. **Update content references** — for any PNG→JPG conversion, search all files in `content/` for the old `.png` path and replace with `.jpg` (portable: no `sed -i ''`, no `**` glob, uses the project venv):
    ```bash
-   sed -i '' "s|/images/path/old-name.png|/images/path/old-name.jpg|g" content/**/*.md
+   source .venv/bin/activate && python -c 'import pathlib, sys; old, new = sys.argv[1:3]; [print("updated:", p) or p.write_text(p.read_text(encoding="utf-8").replace(old, new), encoding="utf-8") for p in pathlib.Path("content").rglob("*.md") if old in p.read_text(encoding="utf-8")]' "/images/path/old-name.png" "/images/path/old-name.jpg"
    ```
 
 4. **Verify build** — run `hugo --minify` to confirm no broken references.

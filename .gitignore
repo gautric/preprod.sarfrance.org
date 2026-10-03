@@ -23,18 +23,17 @@ sarfrance.zip
 
 mail-notices-biographiques.txt
 scripts/process_books.py
-.gitignore
 SAR  BIBLI inventaire 31 décembre 2025.xls
 scripts/check_drafts.py
 scripts/read_excel.py
 scripts/update_books.py
-.gitignore
 BOOKS_SUMMARY.md
 infrastructure/contact-form/.aws-sam/build/**
 infrastructure/contact-form/src/node_modules/**
 infrastructure/**
 reference/**
-.kiro/tmp/public_audit
 .kiro/audits/*
 .kiro/tmp/*
 sar1rappeldenosrdvdelarentre.zip
+.claude/settings.local.json
+.claude/worktrees/
