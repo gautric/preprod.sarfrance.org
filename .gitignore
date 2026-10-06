@@ -28,8 +28,7 @@ scripts/check_drafts.py
 scripts/read_excel.py
 scripts/update_books.py
 BOOKS_SUMMARY.md
-infrastructure/contact-form/.aws-sam/build/**
-infrastructure/contact-form/src/node_modules/**
+
 infrastructure/**
 reference/**
 .kiro/audits/*
@@ -37,3 +36,4 @@ reference/**
 sar1rappeldenosrdvdelarentre.zip
 .claude/settings.local.json
 .claude/worktrees/
+config/preprod/**
