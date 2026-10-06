@@ -46,8 +46,56 @@ env:
 
 
 jobs:
+  # Gate job : décide si un build est nécessaire.
+  # - push / workflow_dispatch : toujours (un contenu a changé, ou demande manuelle).
+  # - schedule (cron quotidien) : uniquement si un événement de data/agenda.yaml a eu
+  #   lieu la veille — ce jour-là il bascule du futur vers le passé et le rendu change ;
+  #   les autres jours, la sortie du cron serait identique à la veille.
+  gate:
+    name: Décider si un build est nécessaire
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      # Vient de l'étape « always » (push/dispatch) ou « cron » (schedule) ;
+      # une seule des deux s'exécute selon le déclencheur.
+      should_build: ${{ steps.always.outputs.should_build || steps.cron.outputs.should_build }}
+    steps:
+      # Hors cron (push / workflow_dispatch) : build systématique, sans checkout
+      # ni Python — la décision est immédiate.
+      - name: Build systématique (hors cron)
+        id: always
+        if: github.event_name != 'schedule'
+        run: |
+          echo "Déclenchement « ${{ github.event_name }} » : build systématique."
+          echo "should_build=true" >> "$GITHUB_OUTPUT"
+      # Cron : on ne récupère que les deux fichiers nécessaires à la décision
+      # (data/agenda.yaml + le script), pas tout le dépôt.
+      - name: Checkout (cron)
+        if: github.event_name == 'schedule'
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          sparse-checkout: |
+            data/agenda.yaml
+            scripts/agenda_build_needed.py
+          sparse-checkout-cone-mode: false
+      - name: Setup Python (cron)
+        if: github.event_name == 'schedule'
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - name: Décider (cron)
+        id: cron
+        if: github.event_name == 'schedule'
+        run: |
+          pip install --quiet "pyyaml>=6.0,<7"
+          # Le script écrit lui-même should_build dans $GITHUB_OUTPUT ; on tolère
+          # son code de sortie 1 (aucun événement) sans faire échouer le job.
+          python scripts/agenda_build_needed.py || true
+
   # Build job
   build:
+    needs: gate
+    if: needs.gate.outputs.should_build == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
