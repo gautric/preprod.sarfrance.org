@@ -1462,15 +1462,15 @@ events:
     lat: 48.8604
     lon: 2.358
     update: "2026-04-02"
-  - date: "2027-02-05"
-    title: "Assemblée générale de SAR France"
-    type: assemblée
-    description: "Assemblée générale annuelle de la Société. Lieu à confirmer."
-    location: "Palais du Luxembourg, Paris"
-    link: ""
-    lat: 48.8485
-    lon: 2.3378
-    update: "2026-10-03"
+  # - date: "2027-02-05"
+  #   title: "Assemblée générale de SAR France"
+  #   type: assemblée
+  #   description: "Assemblée générale annuelle de la Société. Lieu à confirmer."
+  #   location: "Palais du Luxembourg, Paris"
+  #   link: ""
+  #   lat: 48.8485
+  #   lon: 2.3378
+  #   update: "2026-10-03"
   - date: "2027-07-10/2027-07-15"
     title: "Congrès de la NSSAR à La Nouvelle-Orléans"
     type: nssar
