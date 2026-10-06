@@ -27,19 +27,24 @@ Corrections sur les constats initiaux après cette repasse :
 - [x] **A1.** Agent agenda : lecture de `data/metadata/agenda.yaml` au step 0, plus de liste de types en dur. Recompilation `make aw-compile` : 2 workflows, 0 warning (`8464469` + `ccbc391`).
 - [x] **A2.** Filtre `if: contains(github.event.issue.labels.*.name, 'agenda')` au niveau workflow, `types: [opened, edited, labeled]`, safe-output `noop` et garde-fou dans le prompt (`8464469` + `ccbc391`).
 - [x] **A3.** Incohérence bash corrigée en passant : la règle « AUCUNE commande shell » est carvée pour autoriser `cat`/`ls` sur `data/metadata/agenda.yaml` et `data/agenda.yaml` uniquement (`8464469`).
-- [ ] **A4. CI de PR : chemins surveillés** — `.github/workflows/preview.yml`. Les chemins actuels sont `content`, `data`, `static`, `layouts` (inexistant), `config` et `assets` (inexistant). — S
-  - Décision : [ ] **(recommandé)** aligner sur `deploy.yml` (`themes/**`, `i18n/**`, `scripts/**`) et ajouter `.github/workflows/**`  [ ] supprimer le filtre `paths`
-- [ ] **A5. Sitemap `lastmod`** — `deploy.yml` l. 63 : ajouter `fetch-depth: 0` au checkout (`enableGitInfo: true` est déjà actif). — S
-- [ ] **A6. `og:image` en double** — supprimer les lignes 14–16 de `themes/sarfrance/layouts/partials/head-favicons.html` (`head-meta.html` les émet déjà). — S
+- [x] **A4.** `preview.yml` aligné sur `deploy.yml` : ajout de `scripts/**`, `themes/**`, `i18n/**` et `.github/workflows/**` dans `on.pull_request.paths`.
+- [x] **A5.** `fetch-depth: 0` ajouté au checkout de `deploy.yml` (nécessaire pour `enableGitInfo: true` → `<lastmod>` du sitemap). Commentaire explicatif inline.
+- [x] **A6.** 3 lignes `og:image`/`og:image:width`/`og:image:height` retirées de `head-favicons.html` (émises déjà par `head-meta.html` avec un alt). Vérifié sur 3 pages (`/`, `/en/`, `/activites/agenda-2026/`) : une seule balise par page.
 
 ## Lot B — Données
 
 - [ ] **B1. Agenda, juin 2026** — deux « Conférence de Patrick Villiers » (13 et 14 juin). — S
   - Décision : [ ] doublon, en supprimer une (laquelle : ____)  [ ] deux séances distinctes, il suffit de les remettre dans l'ordre
-- [ ] **B2. Agenda, septembre 2026** — remettre « Commémoration de la Chesapeake » (7 sept.) avant « Conférence de l'amiral Nerzic » (17 sept.). — S
-- [ ] **B3. `count` faux dans les notices** — `data/notices.yaml` indique `count: 156` pour 158 notices, et aucun template ne lit ce champ. Le supprimer. — S
-- [ ] **B4. Export Excel** — `scripts/export_books_excel.py` l. 76 : utiliser `len(books)` au lieu de `data["count"]`, puis supprimer `count` de `data/books.yaml` (aujourd'hui juste). — S
-- [ ] **B5. Événements 2025 incomplets** — compléter `description`/`location`/`link`/`lat`/`lon` sur 6 événements. Il faut des informations que je n'ai pas : je vous en dresserai la liste et vous me fournirez le contenu. — M (contenu)
+- [x] **B2.** « Commémoration de la Chesapeake » (2026-09-07) déplacée avant « Conférence du cercle France-Amériques » (2026-09-14). Ordre chronologique de septembre 2026 restauré.
+- [x] **B3.** `count: 156` supprimé de `data/notices.yaml` (il n'est lu par aucun template ; `revision` conservé).
+- [x] **B4.** `scripts/export_books_excel.py` utilise `len(data["books"])` au lieu de `data["count"]` ; `count: 453` supprimé de `data/books.yaml`. Script relancé, les 14 feuilles sont bien produites.
+- [ ] **B5. Événements 2025 incomplets** — 6 cas identifiés, en attente de contenu éditorial. À compléter (`description`, `location`, `link`, `lat`/`lon`) :
+  - `2025-01-16` — Conférence sur le futur maréchal Berthier (Cincinnati)
+  - `2025-02-11` — Validation des nouveaux statuts de SAR France
+  - `2025-02-24` — Réunion des délégués régionaux de SAR France à Paris
+  - `2025-02-27` — Spring leadership meeting à Louisville (KY)
+  - `2025-05-25` — Memorial Day
+  - `2025-11-26` — Réunion préparatoire du 250e anniversaire de la Déclaration d'Indépendance
 
 ## Lot C — Documentation des agents (dérive) — **traité**
 
@@ -72,17 +77,17 @@ Corrections sur les constats initiaux après cette repasse :
 
 ## Lot F — Hygiène CI
 
-- [ ] **F1. Retirer Dart Sass, Node et `npm ci`** de `deploy.yml` et `preview.yml` (pas de `.scss`, pas de `package.json`). — S
-- [ ] **F2. Permissions minimales** — `preview.yml` : retirer `pull-requests: write`. `deploy.yml` : passer `pages`/`id-token: write` au niveau du job `deploy`. — S
-- [ ] **F3. `concurrency` et `timeout-minutes`** dans `preview.yml`. — S
-- [ ] **F4. Épingler les actions par SHA** (avec la version en commentaire). — S
-- [ ] **F5. Ajouter `.github/dependabot.yml`** (github-actions + pip, mensuel, groupé). — S
-- [ ] **F6. gh-aw** — aligner `copilot-setup-steps.yml` (`setup-cli` v0.76.1) sur la v0.89.21, et `checkout@v6` sur les autres workflows. Purger `actions-lock.json` (`make aw-recompile`). — S
-- [ ] **F7. `ISSUE_TEMPLATE/config.yml`** — ajouter `blank_issues_enabled: false` et un lien de contact. — S
+- [x] **F1.** `deploy.yml` et `preview.yml` : étapes « Install Dart Sass », « Setup Node.js » et « Install Node.js dependencies » retirées ; variable d'env `NODE_VERSION` supprimée.
+- [x] **F2.** `deploy.yml` : permissions baseline en `contents: read`, les droits `pages: write` + `id-token: write` ne portent que sur le job `deploy`. `preview.yml` : `permissions: contents: read` seulement (plus de `pull-requests: write`).
+- [x] **F3.** `preview.yml` : `concurrency: { group: "preview-${{ github.ref }}", cancel-in-progress: true }` + `timeout-minutes` sur les deux jobs. `deploy.yml` : `timeout-minutes` sur `build` et `deploy`.
+- [x] **F4.** Actions épinglées par SHA avec commentaire de version (`fbc6f3992d…` v5 pour `checkout`, `45bfe0192c…` v6 pour `configure-pages`, `ece7cb06ca…` v6 pour `setup-python`, `fc324d3547…` v5 pour `upload-pages-artifact`, `368f825286…` v5 pour `deploy-pages`).
+- [x] **F5.** `.github/dependabot.yml` créé : `github-actions` et `pip` (`/scripts`), mensuel, groupé par écosystème. Exclusion des `github/gh-aw-actions/*` (pilotées par `gh aw`).
+- [x] **F6.** `copilot-setup-steps.yml` : `setup-cli` passée en v0.89.21 (SHA `924af5fdc6…`) et `checkout` passé de `@v6` à `@fbc6f3992d…` (v5). `actions-lock.json` purgé : 2 entrées utiles restantes, plus de containers périmés 0.25.x / mcpg v0.2.6-v0.3.19 / github-mcp-server v0.32.0.
+- [x] **F7.** `.github/ISSUE_TEMPLATE/config.yml` créé : `blank_issues_enabled: false` + 2 `contact_links` (PR directe pour les contributeurs techniques, formulaire de contact du site pour le reste).
 
 ## Lot G — Chantiers de fond (à planifier séparément)
 
-- [ ] **G1. `scripts/check_data.py` + schémas JSON**, appelés en CI et par `make check`. Contrôles : schéma, cohérence metadata ↔ i18n ↔ CSS, ordre de l'agenda, place de `update`, parité fr/en, concordance entre formulaires d'issue et metadata. — M
+- [x] **G1.** `scripts/check_data.py` + 5 schémas `scripts/schemas/*.schema.json` (`agenda`, `books`, `notices`, `chronologie`, `lieux-de-memoire`). 7 vérifications : (1) validation par schéma, (2) clé utilisée ⊆ metadata, (3) metadata ⊆ i18n FR ∩ EN, (4) classe CSS `type-`/`tag-`/`cat-` présente dans `colors.css`, (5) ordre chronologique de l'agenda + place de `update`, (6) parité `content/fr` ↔ `content/en` et clés i18n, (7) options du dropdown `type` dans `add-agenda-event.yml` ↔ `data/metadata/agenda.yaml`. `jsonschema` ajouté à `scripts/requirements.txt`. Nouvelle cible `make check`. Appel câblé dans `preview.yml` (job `validate-content` : setup-python + install deps + exécution, rapport Markdown redirigé vers `$GITHUB_STEP_SUMMARY`). Sur l'état courant, le script remonte **une seule erreur** : la violation chronologique Villiers (= B1), qui restera signalée tant que B1 n'est pas tranché.
 - [ ] **G2. Contrôle des liens** (`lychee` ou `htmltest`) : liens internes à chaque PR, liens externes chaque semaine. — M
 - [ ] **G3. Exploiter `lastUpdate`** — ajouter `frontmatter.lastmod: [lastUpdate, lastmod, ":git", ":fileModTime"]` dans `hugo.yaml` (complète A5). — S
 - [ ] **G4. `AGENTS.md` racine** comme source unique, avec `CLAUDE.md` réduit à des imports `@…`. — M
@@ -93,7 +98,7 @@ Corrections sur les constats initiaux après cette repasse :
 
 ## Lot H — Nettoyage local (hors dépôt, irréversible)
 
-- [ ] **H1. Supprimer `.kiro/tmp/public_audit`** (464 Mo, copie d'un ancien `public/`, non versionnée).
+- [x] **H1.** `.kiro/tmp/public_audit` supprimé (464 Mo libérés). Dossier non versionné (gitignored via `.kiro/tmp/*`), aucun impact sur le dépôt.
 - [ ] **H2. Archiver hors du dépôt** `bordereau-verif-histoire.md` et `courriel-verif-histoire.txt`, et transformer `audit_check.py` en base de G1.
 
 ---
