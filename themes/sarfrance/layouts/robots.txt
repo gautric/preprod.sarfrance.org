@@ -1,4 +1,4 @@
-{{- if or (in .Site.BaseURL "preprod") (in .Site.BaseURL "localhost") -}}
+{{- if or .Site.Params.isPreprod (in .Site.BaseURL "preprod") (in .Site.BaseURL "localhost") -}}
 User-agent: *
 Disallow: /
 {{- else -}}

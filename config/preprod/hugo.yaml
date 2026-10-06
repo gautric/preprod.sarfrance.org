@@ -1,0 +1,16 @@
+# Surcharges pour l'environnement de préprod (CloudFront, sans domaine personnalisé).
+# Fusionné par-dessus config/_default/.
+# Usage : hugo --environment preprod --minify
+baseURL: "https://d2ogcitmhnd2fh.cloudfront.net/"
+
+# Pas d'analytics en préprod
+services:
+  googleAnalytics:
+    ID: ""
+
+# Génère un robots.txt bloquant (voir layouts/robots.txt qui teste ce param)
+enableRobotsTXT: true
+
+params:
+  # Marque l'environnement comme préprod : robots.txt interdit l'indexation
+  isPreprod: true
