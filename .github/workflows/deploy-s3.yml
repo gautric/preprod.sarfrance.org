@@ -1,0 +1,183 @@
+# Build et déploiement du site Hugo sur AWS S3 + CloudFront (préprod)
+#
+# Sécurité — bonnes pratiques appliquées :
+#   • Authentification OIDC : GitHub échange un jeton OIDC éphémère contre des
+#     identifiants AWS temporaires via STS. Aucune clé d'accès AWS longue durée
+#     n'est stockée dans les secrets du dépôt (seul l'ARN du rôle l'est).
+#   • Permissions GITHUB_TOKEN minimales : `contents: read` au niveau du workflow,
+#     `id-token: write` ajouté uniquement au job de déploiement (requis par OIDC).
+#   • Actions tierces épinglées par SHA (et non par tag mobile) contre toute
+#     altération en amont.
+#   • GitHub Environment `preprod` : permet d'exiger une revue manuelle et de
+#     restreindre les secrets/variables à cet environnement.
+#   • Le bucket et la distribution ne sont jamais codés en dur : ils sont résolus
+#     à l'exécution depuis les outputs de la stack CloudFormation.
+#   • Déclenchement manuel uniquement (workflow_dispatch) : le déploiement S3
+#     est délibéré et n'entre pas en conflit avec la prod GitHub Pages.
+#
+# Pré-requis côté AWS (une fois) :
+#   1. Un fournisseur d'identité OIDC GitHub dans IAM
+#      (token.actions.githubusercontent.com).
+#   2. Un rôle IAM assumable par ce dépôt (condition sur `sub`
+#      repo:<owner>/<repo>:*), avec une politique au moindre privilège :
+#      s3:ListBucket + s3:GetObject/PutObject/DeleteObject sur le bucket,
+#      cloudfront:CreateInvalidation sur la distribution,
+#      cloudformation:DescribeStacks sur la stack.
+#   3. La stack `infrastructure/website/template.yaml` déjà déployée (make infra).
+#
+# Configuration côté GitHub :
+#   • Secret   AWS_DEPLOY_ROLE_ARN  → ARN du rôle IAM à assumer (obligatoire).
+#   • Variable AWS_REGION           → région AWS (défaut : us-east-1).
+#   • Variable CFN_STACK_NAME       → nom de la stack (défaut : preprod-sarfrance-website).
+name: "Déploiement — AWS S3 / CloudFront (préprod)"
+
+on:
+  workflow_dispatch:
+    inputs:
+      invalidate:
+        description: "Invalider le cache CloudFront après la synchronisation"
+        type: boolean
+        default: true
+
+# Baseline minimale : lecture seule. Le job de déploiement élargit localement.
+permissions:
+  contents: read
+
+# Un seul déploiement S3 à la fois ; on ne coupe pas un déploiement en cours.
+concurrency:
+  group: "s3-deploy"
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  HUGO_VERSION: 0.166.0
+  PYTHON_VERSION: '3.13'
+  HUGO_ENVIRONMENT: preprod
+  AWS_REGION: ${{ vars.AWS_REGION || 'us-east-1' }}
+  CFN_STACK_NAME: ${{ vars.CFN_STACK_NAME || 'preprod-sarfrance-website' }}
+
+jobs:
+  deploy:
+    name: Build Hugo + synchronisation S3
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    # Rattaché à l'environnement GitHub `preprod` : règles de protection
+    # (revues requises, secrets dédiés) applicables depuis Settings → Environments.
+    environment:
+      name: preprod
+      url: ${{ steps.cfn.outputs.dist_url }}
+    # id-token: write est indispensable à l'échange OIDC ; il reste cantonné à ce job.
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - name: Vérifier la configuration du rôle AWS
+        env:
+          ROLE_ARN: ${{ secrets.AWS_DEPLOY_ROLE_ARN }}
+        run: |
+          if [ -z "$ROLE_ARN" ]; then
+            echo "::error::Secret AWS_DEPLOY_ROLE_ARN manquant. Définissez l'ARN du rôle IAM OIDC dans Settings → Secrets."
+            exit 1
+          fi
+
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+      - name: Checkout
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          # Historique complet requis par Hugo (enableGitInfo: true) pour calculer
+          # <lastmod> dans le sitemap.
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Generate Excel inventory
+        run: |
+          python -m venv .venv
+          source .venv/bin/activate
+          pip install --quiet -r scripts/requirements.txt
+          python scripts/export_books_excel.py
+
+      - name: Build with Hugo
+        env:
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+        run: |
+          hugo --minify --gc --cleanDestinationDir
+
+      - name: Configurer les identifiants AWS (OIDC)
+        uses: aws-actions/configure-aws-credentials@7474bc4690e29a8392af63c5b98e7449536d5c3a # v4.3.1
+        with:
+          role-to-assume: ${{ secrets.AWS_DEPLOY_ROLE_ARN }}
+          role-session-name: gha-sarfrance-s3-deploy
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Résoudre le bucket et la distribution (outputs CloudFormation)
+        id: cfn
+        run: |
+          get_output() {
+            aws cloudformation describe-stacks --stack-name "$CFN_STACK_NAME" \
+              --query "Stacks[0].Outputs[?OutputKey=='$1'].OutputValue" \
+              --output text --no-cli-pager 2>/dev/null
+          }
+          BUCKET="$(get_output BucketNameOutput)"
+          DIST_ID="$(get_output DistributionId)"
+          DIST_DOMAIN="$(get_output DistributionDomainName)"
+          for pair in "bucket:$BUCKET" "distribution:$DIST_ID"; do
+            if [ -z "${pair#*:}" ] || [ "${pair#*:}" = "None" ]; then
+              echo "::error::Impossible de résoudre ${pair%%:*} depuis la stack $CFN_STACK_NAME (déployée ? make infra)."
+              exit 1
+            fi
+          done
+          echo "bucket=$BUCKET" >> "$GITHUB_OUTPUT"
+          echo "dist_id=$DIST_ID" >> "$GITHUB_OUTPUT"
+          echo "dist_url=https://$DIST_DOMAIN/" >> "$GITHUB_OUTPUT"
+          echo "Bucket : $BUCKET · Distribution : $DIST_ID"
+
+      - name: Synchroniser vers S3
+        env:
+          BUCKET: ${{ steps.cfn.outputs.bucket }}
+        run: |
+          # 1) Assets fingerprintés (CSS/JS/images/polices) → cache long immuable.
+          #    Le pipeline Hugo intègre un hash dans le nom : sûr à mettre en cache.
+          aws s3 sync public/ "s3://$BUCKET" --no-progress \
+            --cache-control "public, max-age=31536000, immutable" \
+            --exclude "*.html" --exclude "*.xml" --exclude "*.txt" \
+            --exclude "*.ics" --exclude "*.json"
+          # 2) HTML, flux et fichiers dynamiques → revalidation courte, et purge
+          #    des objets orphelins (--delete). Les assets de l'étape 1, inchangés,
+          #    sont ignorés par sync et conservent leur cache long.
+          aws s3 sync public/ "s3://$BUCKET" --no-progress --delete \
+            --cache-control "public, max-age=300, must-revalidate"
+
+      - name: Invalider le cache CloudFront
+        if: ${{ inputs.invalidate }}
+        env:
+          DIST_ID: ${{ steps.cfn.outputs.dist_id }}
+        run: |
+          ID=$(aws cloudfront create-invalidation \
+            --distribution-id "$DIST_ID" --paths "/*" \
+            --query "Invalidation.Id" --output text --no-cli-pager)
+          echo "Invalidation demandée : $ID"
+
+      - name: Résumé du déploiement
+        if: always()
+        run: |
+          {
+            echo "## 🚀 Déploiement S3 / CloudFront"
+            echo ""
+            echo "- **Environnement Hugo** : \`$HUGO_ENVIRONMENT\`"
+            echo "- **Stack** : \`$CFN_STACK_NAME\` (${AWS_REGION})"
+            echo "- **Bucket** : \`${{ steps.cfn.outputs.bucket }}\`"
+            echo "- **Distribution** : \`${{ steps.cfn.outputs.dist_id }}\`"
+            echo "- **URL** : ${{ steps.cfn.outputs.dist_url }}"
+            echo "- **Invalidation CloudFront** : ${{ inputs.invalidate }}"
+          } >> "$GITHUB_STEP_SUMMARY"

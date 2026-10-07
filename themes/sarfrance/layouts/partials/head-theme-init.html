@@ -1,0 +1,9 @@
+{{- /*
+  head-theme-init.html — render-blocking theme init in <head>.
+  Loaded BEFORE head-css.html so data-theme is set on <html> before
+  the stylesheets apply (no flash of the wrong theme). Plain <script src>
+  (no async/defer) is intentional: it must run before first paint.
+  Mirrors the asset.html pipeline pattern (fingerprint + SRI integrity).
+*/ -}}
+{{- $themeInit := partial "asset.html" "js/theme-init.js" }}
+<script src="{{ $themeInit.RelPermalink }}" integrity="{{ $themeInit.Data.Integrity }}"></script>

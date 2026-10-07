@@ -285,22 +285,121 @@
 }
 
 /* ============================================================
-   DARK MODE — automatic, driven only by the OS/browser setting
-   via @media (prefers-color-scheme: dark). No toggle, no JS.
+   DARK MODE — manual override (data-theme) layered over the OS
+   setting. Two entry points reach the SAME dark palette:
 
-   This is the SINGLE source of dark-mode styling for the whole
-   site: it redefines the color tokens (and a few component
-   details that can't be a plain token swap). Everything else
-   consumes var(--…) and follows automatically. The light theme
-   is untouched — remove or disable this block and the site is
-   byte-for-byte the previous light-only design.
+     1. FORCED DARK  → :root[data-theme="dark"]
+        The visitor explicitly chose Dark in the nav switcher.
+        Applies regardless of the OS preference.
+
+     2. AUTO / SYSTEM → @media (prefers-color-scheme: dark), but
+        gated to :root:not([data-theme="light"]):not([data-theme="dark"])
+        so it fires only when the visitor has NOT forced a theme
+        (no data-theme attribute, or data-theme="system"). If the
+        visitor forced Light, the :not([data-theme="light"]) gate
+        keeps this block from applying even when the OS is dark.
+
+   Forced LIGHT needs no block of its own: the base :root above
+   already holds the light tokens and `color-scheme: light`, and
+   the gate above stops the auto-dark block from overriding them.
+
+   ⚠️ TWO COPIES, KEEP IN SYNC ⚠️
+   Pure vanilla CSS cannot share one declaration block across a
+   @media boundary, so the dark token values and the component
+   overrides are DUPLICATED below: once in the forced-dark root
+   (entry point 1) and once in the gated media block (entry point
+   2). Any change to a dark value MUST be made in BOTH places so
+   the two entry points stay byte-identical.
 
    Palette: soft near-black / dark-slate backgrounds (never pure
    #000), off-white body text (never pure #fff). Images, photos
-   and Leaflet map tiles are NEVER inverted or filtered.
+   and Leaflet map tiles are NEVER inverted or filtered. The light
+   theme is untouched.
    ============================================================ */
+
+/* ---- Entry point 1: FORCED DARK (visitor chose Dark) ----
+   Keep every value in sync with entry point 2 (the gated
+   @media block) below. */
+:root[data-theme="dark"] {
+    /* Theme native widgets (form controls, scrollbars) dark */
+    color-scheme: dark;
+
+    /* Semantic surface / text roles */
+    --bg-body: #15181f;        /* page background */
+    --bg-surface: #1e222b;     /* cards, nav, submenu, dropdowns, pills */
+    --input-bg: #1a1e26;       /* form fields, search box */
+    --text-heading: #eef1f6;   /* headings, nav/card titles, labels */
+    --link: #a9c2e8;           /* default body links (lightened) */
+    --link-hover: #ef8a73;     /* link hover (lightened primary) */
+    --accent: #ef8a73;         /* red accent text (lightened primary) */
+    --accent-strong: #ef8a73;  /* accent hover — same lightened tone over dark */
+
+    /* Body / muted text */
+    --text-dark: #e6e8ec;      /* body copy */
+    --text-light: #b4bac4;     /* muted paragraphs */
+    --text-muted: #9aa3b2;     /* meta / captions */
+
+    /* Primary tint — tinted sections, contact form, submenu hover */
+    --primary-tint-15: #3a2420;
+
+    /* Grays, borders, placeholder */
+    --gray-light: #262b36;     /* event/book card alt surface */
+    --gray-border: #3a4150;
+    --gray-border-light: #2b313c;
+    --gray-border-medium: #3a4150;
+    --gray-border-hover: #556070;
+    --gray-timeline: #3a4150;
+    --gray-placeholder: #70788a;
+
+    /* Shadows & focus ring — deeper on a dark page */
+    --shadow: rgba(0, 0, 0, 0.5);
+    --shadow-subtle: rgba(0, 0, 0, 0.4);
+    --shadow-dark: rgba(0, 0, 0, 0.6);
+    --focus-ring: rgba(239, 138, 115, 0.35);
+
+    /* Category pills — lighten only the darkest four so they
+       don't sink into the dark page (white text stays ≥ 6:1) */
+    --color-navy: #2d5aa0;
+    --color-dark-blue: #2a66ad;
+    --color-brown: #9e6016;
+    --color-slate: #5a7488;
+
+    /* Form-feedback colors */
+    --feedback-error-text: #f3a79b;
+    --feedback-error-bg: #3a1f1d;
+    --feedback-error-border: #5c2b27;
+    --feedback-success-text: #86d49b;
+    --feedback-success-bg: #16301f;
+    --feedback-success-border: #2c5c3a;
+}
+
+/* ---- Component overrides for FORCED DARK (can't be a token swap).
+   Mirror of the overrides in entry point 2 — keep in sync. ---- */
+
+/* Restore full pill vibrancy on a dark page (default 0.85 muddies
+   the saturated tag/type/cat colors over dark). */
+:root[data-theme="dark"] .tag {
+    opacity: 1;
+}
+
+/* The light-mode submenu divider is --cream (a bright line that would
+   glare on a dark submenu). Use the dark border token instead. */
+:root[data-theme="dark"] .submenu li a {
+    border-bottom-color: var(--gray-border-light);
+}
+
+/* Avoid a light-grey flash while Leaflet tiles load. Map tiles and
+   photos keep their real colors — NO filter: invert() anywhere. */
+:root[data-theme="dark"] .leaflet-container {
+    background: var(--bg-surface);
+}
+
+/* ---- Entry point 2: AUTO / SYSTEM dark (OS prefers dark AND the
+   visitor has not forced a theme). Gated with :not([data-theme=…])
+   so a forced Light or Dark choice wins over the OS. Keep every
+   value in sync with entry point 1 (the forced-dark root) above. */
 @media (prefers-color-scheme: dark) {
-    :root {
+    :root:not([data-theme="light"]):not([data-theme="dark"]) {
         /* Theme native widgets (form controls, scrollbars) dark */
         color-scheme: dark;
 
@@ -353,24 +452,81 @@
         --feedback-success-border: #2c5c3a;
     }
 
-    /* ---- Component overrides that can't be a plain token swap ---- */
+    /* ---- Component overrides that can't be a plain token swap.
+       Mirror of the forced-dark overrides above — keep in sync.
+       Each selector carries the same :not([data-theme=…]) gate so a
+       forced choice overrides the OS. ---- */
 
     /* Restore full pill vibrancy on a dark page (default 0.85 muddies
        the saturated tag/type/cat colors over dark). */
-    .tag {
+    :root:not([data-theme="light"]):not([data-theme="dark"]) .tag {
         opacity: 1;
     }
 
     /* The light-mode submenu divider is --cream (a bright line that would
-       glare on a dark submenu). Use the dark border token instead. This
-       rule only applies inside the dark media query. */
-    .submenu li a {
+       glare on a dark submenu). Use the dark border token instead. */
+    :root:not([data-theme="light"]):not([data-theme="dark"]) .submenu li a {
         border-bottom-color: var(--gray-border-light);
     }
 
     /* Avoid a light-grey flash while Leaflet tiles load. Map tiles and
        photos keep their real colors — NO filter: invert() anywhere. */
-    .leaflet-container {
+    :root:not([data-theme="light"]):not([data-theme="dark"]) .leaflet-container {
         background: var(--bg-surface);
     }
+}
+
+/* ============================================================
+   THEME SWITCHER (nav control — light / dark / system)
+   Structured as a dropdown MENU mirroring the language switcher
+   (.lang-switch): a trigger <a> showing the current choice and a
+   <ul class="submenu"> listing the three options. It carries the
+   generic .has-submenu class, so all submenu positioning, borders,
+   hover, open-on-hover and mobile behaviour come straight from
+   style.css — only the icon presentation is defined here. Colors
+   use the semantic tokens so they flip in dark mode automatically.
+   ============================================================ */
+
+/* Current-choice icon shown on the trigger — sized like the lang flag.
+   Only the icon matching the active choice carries .is-shown (set by
+   theme-switcher.js); the others stay hidden. */
+.theme-switch__current {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+/* Size the current-choice icon to fit within the nav text line-box so the
+   theme trigger <a> is the SAME height as the content/lang text links.
+   Otherwise a taller icon would stretch every nav <li> (flex stretch) and
+   open a gap between the shorter links and their submenus. 18px matches the
+   dropdown option icons (.theme-opt-ico) and the lang flag footprint. */
+.theme-switch__ico {
+    display: none;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.theme-switch__ico.is-shown {
+    display: inline-flex;
+}
+
+/* Option icons inside the dropdown — aligned like the submenu flags
+   (.submenu .flag-icon) so the two menus read as siblings. */
+.submenu .theme-opt-ico {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+/* Keyboard/JS open on desktop: focus-within reveals the menu for Tab
+   users, and .is-open is toggled by theme-switcher.js (click / Escape /
+   outside click). Mirrors the hover rule inherited from .has-submenu. */
+.theme-switch:focus-within .submenu,
+.theme-switch.is-open .submenu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
 }

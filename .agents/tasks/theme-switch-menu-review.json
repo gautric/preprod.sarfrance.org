@@ -1,0 +1,8 @@
+{
+  "verdict": "APPROVED",
+  "findings": [
+    "Non-blocking: aria-expanded is not updated on mobile (≤768px) because the trigger handler returns early to let main.js own the .active toggle; stays 'false' even when open. Consistent with the language switcher, which exposes no aria-expanded at all.",
+    "Non-blocking: Space does not open the trigger since it is an <a href=\"#\"> (Enter does). Consistent with the language switcher, which opens on :focus-within rather than key handlers."
+  ],
+  "reviewDoc": "/Users/gautric/Source/web-apps/sarfrance/.agents/tasks/theme-switch-menu-review.md"
+}

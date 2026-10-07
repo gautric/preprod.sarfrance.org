@@ -7,6 +7,9 @@
 {{- /* Site-wide page behaviour */ -}}
 {{- $mainJS := partial "asset.html" "js/pages/main.js" }}
 <script src="{{ $mainJS.RelPermalink }}" integrity="{{ $mainJS.Data.Integrity }}"></script>
+{{- /* Theme switcher (light/dark/system) — needs SAR, so after core.js */ -}}
+{{- $themeSwitchJS := partial "asset.html" "js/pages/theme-switcher.js" }}
+<script src="{{ $themeSwitchJS.RelPermalink }}" integrity="{{ $themeSwitchJS.Data.Integrity }}"></script>
 {{- if .IsHome }}
 {{- $carouselJS := partial "asset.html" "js/pages/carousel.js" }}
 <script src="{{ $carouselJS.RelPermalink }}" integrity="{{ $carouselJS.Data.Integrity }}"></script>

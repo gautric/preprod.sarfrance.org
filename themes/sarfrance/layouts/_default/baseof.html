@@ -4,6 +4,8 @@
     {{- template "_internal/google_analytics.html" . }}
     {{- partial "head-meta.html" . }}
     {{- partial "head-favicons.html" . }}
+    <!-- Theme init (no-FOUC): sets data-theme on <html> before the CSS below -->
+    {{- partial "head-theme-init.html" . }}
     <!-- CSS: colors → style → filters → page-specific -->
     {{- partial "head-css.html" . }}
     <!-- Fonts -->

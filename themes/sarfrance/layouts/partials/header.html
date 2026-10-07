@@ -32,6 +32,20 @@
                         {{ if eq .Lang "en" }}{{ $enURL = .RelPermalink }}{{ end }}
                     {{ end }}
                 {{ end }}
+                <li class="has-submenu theme-switch">
+                    <a href="#" class="theme-switch__trigger" aria-label="{{ i18n "theme_toggle" }}" aria-haspopup="true" aria-expanded="false">
+                        <span class="theme-switch__current" aria-hidden="true">
+                            <svg class="theme-switch__ico" data-theme-icon="light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+                            <svg class="theme-switch__ico" data-theme-icon="dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                            <svg class="theme-switch__ico is-shown" data-theme-icon="system" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><rect x="2" y="3" width="20" height="14" rx="2"></rect><path d="M8 21h8m-4-4v4"></path></svg>
+                        </span>
+                    </a>
+                    <ul class="submenu">
+                        <li><a href="#" class="theme-opt" data-theme-value="light"><svg class="theme-opt-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg> {{ i18n "theme_light" }}</a></li>
+                        <li><a href="#" class="theme-opt" data-theme-value="dark"><svg class="theme-opt-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg> {{ i18n "theme_dark" }}</a></li>
+                        <li class="active"><a href="#" class="theme-opt" data-theme-value="system" aria-current="true"><svg class="theme-opt-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2" y="3" width="20" height="14" rx="2"></rect><path d="M8 21h8m-4-4v4"></path></svg> {{ i18n "theme_system" }}</a></li>
+                    </ul>
+                </li>
                 <li class="has-submenu lang-switch">
                     <a href="#" aria-label="{{ i18n "change_language" }}">{{ if eq .Lang "fr" }}<img src="/images/icons/flag-fr.svg" alt="Français" class="flag-icon" width="20" height="14">{{ else }}<img src="/images/icons/flag-us.svg" alt="English" class="flag-icon" width="20" height="14">{{ end }}</a>
                     <ul class="submenu">

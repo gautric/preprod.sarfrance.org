@@ -318,3 +318,11 @@
   translation: "Navigation principale"
 - id: change_language
   translation: "Changer de langue"
+- id: theme_toggle
+  translation: "Thème"
+- id: theme_light
+  translation: "Clair"
+- id: theme_dark
+  translation: "Sombre"
+- id: theme_system
+  translation: "Système"
