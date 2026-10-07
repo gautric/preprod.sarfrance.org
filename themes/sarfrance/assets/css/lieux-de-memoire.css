@@ -7,7 +7,7 @@
 .hl-card-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; font-size: 0.82rem; color: var(--text-muted); }
 .hl-card-meta:empty { display: none; }
 .hl-card-address { white-space: nowrap; font-weight: 600; }
-.hl-card-link { white-space: nowrap; color: var(--primary); text-decoration: none; font-weight: 600; }
+.hl-card-link { white-space: nowrap; color: var(--accent); text-decoration: none; font-weight: 600; }
 .hl-card-link:hover { text-decoration: underline; }
 
 /* Personnages — small pills */

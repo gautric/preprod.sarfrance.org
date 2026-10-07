@@ -17,7 +17,7 @@
     padding: 4px 12px;
     border: 1px solid var(--gray-border-medium);
     border-radius: 4px;
-    background: var(--white);
+    background: var(--bg-surface);
     color: var(--text-muted);
     font-size: 0.82rem;
     font-weight: 600;
@@ -28,13 +28,13 @@
 
 .book-sort-btn:hover,
 .book-download a:hover {
-    border-color: var(--navy-blue);
-    color: var(--navy-blue);
+    border-color: var(--text-heading);
+    color: var(--text-heading);
 }
 
 .book-sort-btn.active {
-    border-color: var(--primary);
-    color: var(--primary);
+    border-color: var(--accent);
+    color: var(--accent);
 }
 
 .sort-arrow {
@@ -61,7 +61,7 @@
     align-items: center;
     gap: 12px;
     width: 100%;
-    background: var(--white);
+    background: var(--bg-surface);
     padding: 8px 0;
     min-height: 62px;
     border: none;
@@ -89,18 +89,18 @@
 .book-name {
     font-weight: 700;
     font-size: 0.92rem;
-    color: var(--navy-blue);
+    color: var(--text-heading);
 }
 
 .book-name a {
-    color: var(--navy-blue);
+    color: var(--text-heading);
     text-decoration: none;
     border-bottom: 1px dotted var(--gray-border-medium);
 }
 
 .book-name a:hover {
-    color: var(--primary);
-    border-bottom-color: var(--primary);
+    color: var(--accent);
+    border-bottom-color: var(--accent);
 }
 
 .book-sep {

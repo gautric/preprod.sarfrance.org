@@ -6,6 +6,10 @@
    ============================================================ */
 
 :root {
+    /* Native widgets (form controls, scrollbars) follow the light theme by
+       default; the dark @media block at the bottom flips this to `dark`. */
+    color-scheme: light;
+
     /* Charter colors */
     --primary: #ad2c11;           /* C22 M80 J92 N13 */
     --primary-dark: #8b2310;
@@ -55,6 +59,32 @@
 
     /* Text on dark backgrounds */
     --white-85: rgba(255, 255, 255, 0.85);
+
+    /* --------------------------------------------------------
+       Semantic surface / text roles
+       These tokens name a *role* (surface, heading text, link,
+       accent) rather than a raw color. In light mode they
+       resolve to the exact palette values used today, so the
+       light theme is unchanged. The dark @media block at the
+       bottom overrides them — this indirection is what lets a
+       token like --white (used both as a surface AND as white
+       text on dark) flip safely for dark mode.
+       -------------------------------------------------------- */
+    --bg-body: var(--white);          /* page background */
+    --bg-surface: var(--white);       /* cards, nav, submenu, dropdowns, pills */
+    --input-bg: var(--white);         /* form fields, search box */
+    --text-heading: var(--navy-blue); /* headings, nav/card titles, labels */
+    --link: var(--navy-blue);         /* default body links */
+    --link-hover: var(--primary);     /* link hover */
+    --accent: var(--primary);         /* red accent text (h3, read-more, required, bio links) */
+
+    /* Form-feedback colors (consumed by contact.css) */
+    --feedback-error-text: #c0392b;
+    --feedback-error-bg: #fdecea;
+    --feedback-error-border: #f5c6cb;
+    --feedback-success-text: #1e7e34;
+    --feedback-success-bg: #d4edda;
+    --feedback-success-border: #c3e6cb;
 
     /* Badge « nouveau » des événements récemment ajoutés ou mis à jour */
     --event-new-bg: var(--gold);
@@ -251,4 +281,94 @@
 .tl-row[data-filters*="nouveau"]:target .page-card {
     border-color: var(--event-new-bg);
     box-shadow: 0 0 0 1px var(--event-new-bg);
+}
+
+/* ============================================================
+   DARK MODE — automatic, driven only by the OS/browser setting
+   via @media (prefers-color-scheme: dark). No toggle, no JS.
+
+   This is the SINGLE source of dark-mode styling for the whole
+   site: it redefines the color tokens (and a few component
+   details that can't be a plain token swap). Everything else
+   consumes var(--…) and follows automatically. The light theme
+   is untouched — remove or disable this block and the site is
+   byte-for-byte the previous light-only design.
+
+   Palette: soft near-black / dark-slate backgrounds (never pure
+   #000), off-white body text (never pure #fff). Images, photos
+   and Leaflet map tiles are NEVER inverted or filtered.
+   ============================================================ */
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Theme native widgets (form controls, scrollbars) dark */
+        color-scheme: dark;
+
+        /* Semantic surface / text roles */
+        --bg-body: #15181f;        /* page background */
+        --bg-surface: #1e222b;     /* cards, nav, submenu, dropdowns, pills */
+        --input-bg: #1a1e26;       /* form fields, search box */
+        --text-heading: #eef1f6;   /* headings, nav/card titles, labels */
+        --link: #a9c2e8;           /* default body links (lightened) */
+        --link-hover: #ef8a73;     /* link hover (lightened primary) */
+        --accent: #ef8a73;         /* red accent text (lightened primary) */
+
+        /* Body / muted text */
+        --text-dark: #e6e8ec;      /* body copy */
+        --text-light: #b4bac4;     /* muted paragraphs */
+        --text-muted: #9aa3b2;     /* meta / captions */
+
+        /* Primary tint — tinted sections, contact form, submenu hover */
+        --primary-tint-15: #3a2420;
+
+        /* Grays, borders, placeholder */
+        --gray-light: #262b36;     /* event/book card alt surface */
+        --gray-border: #3a4150;
+        --gray-border-light: #2b313c;
+        --gray-border-medium: #3a4150;
+        --gray-border-hover: #556070;
+        --gray-timeline: #3a4150;
+        --gray-placeholder: #70788a;
+
+        /* Shadows & focus ring — deeper on a dark page */
+        --shadow: rgba(0, 0, 0, 0.5);
+        --shadow-subtle: rgba(0, 0, 0, 0.4);
+        --shadow-dark: rgba(0, 0, 0, 0.6);
+        --focus-ring: rgba(239, 138, 115, 0.35);
+
+        /* Category pills — lighten only the darkest four so they
+           don't sink into the dark page (white text stays ≥ 6:1) */
+        --color-navy: #2d5aa0;
+        --color-dark-blue: #2a66ad;
+        --color-brown: #9e6016;
+        --color-slate: #5a7488;
+
+        /* Form-feedback colors */
+        --feedback-error-text: #f3a79b;
+        --feedback-error-bg: #3a1f1d;
+        --feedback-error-border: #5c2b27;
+        --feedback-success-text: #86d49b;
+        --feedback-success-bg: #16301f;
+        --feedback-success-border: #2c5c3a;
+    }
+
+    /* ---- Component overrides that can't be a plain token swap ---- */
+
+    /* Restore full pill vibrancy on a dark page (default 0.85 muddies
+       the saturated tag/type/cat colors over dark). */
+    .tag {
+        opacity: 1;
+    }
+
+    /* The light-mode submenu divider is --cream (a bright line that would
+       glare on a dark submenu). Use the dark border token instead. This
+       rule only applies inside the dark media query. */
+    .submenu li a {
+        border-bottom-color: var(--gray-border-light);
+    }
+
+    /* Avoid a light-grey flash while Leaflet tiles load. Map tiles and
+       photos keep their real colors — NO filter: invert() anywhere. */
+    .leaflet-container {
+        background: var(--bg-surface);
+    }
 }

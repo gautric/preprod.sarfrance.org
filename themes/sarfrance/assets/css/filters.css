@@ -16,16 +16,16 @@
     padding: 6px 16px;
     border: 1px solid var(--gray-border-medium);
     border-radius: 20px;
-    background-color: var(--white);
-    color: var(--navy-blue);
+    background-color: var(--bg-surface);
+    color: var(--text-heading);
     font-size: 0.85rem;
     cursor: pointer;
     transition: all 0.2s ease;
 }
 
 .filter-btn:hover {
-    border-color: var(--navy-blue);
-    color: var(--navy-blue);
+    border-color: var(--text-heading);
+    color: var(--text-heading);
 }
 
 .filter-btn.active {
@@ -124,8 +124,8 @@
     border-radius: 6px;
     font-size: 1rem;
     font-family: inherit;
-    color: var(--navy-blue);
-    background: var(--white);
+    color: var(--text-heading);
+    background: var(--input-bg);
     transition: border-color 0.2s ease;
 }
 
@@ -167,7 +167,7 @@
 
 /* ---- Card ---- */
 .page-card {
-    background: var(--white);
+    background: var(--bg-surface);
     border: 1px solid var(--gray-border-light);
     border-radius: 6px;
     padding: 14px 18px;
@@ -202,7 +202,7 @@
 
 .page-card-title {
     font-size: 0.95rem;
-    color: var(--navy-blue);
+    color: var(--text-heading);
     margin: 0;
     font-family: var(--font-centennial, 'Libre Bodoni'), Georgia, serif;
     font-weight: 600;
@@ -230,7 +230,7 @@
 }
 
 .page-card-link {
-    color: var(--navy-blue);
+    color: var(--text-heading);
     text-decoration: none;
     transition: color 0.2s ease;
 }
@@ -283,7 +283,7 @@
     height: 10px;
     border-radius: 50%;
     background: var(--gray-timeline);
-    border: 2px solid var(--white);
+    border: 2px solid var(--bg-body);
     box-shadow: 0 0 0 1px var(--gray-timeline);
     z-index: 1;
     transition: transform 0.2s ease;
@@ -296,9 +296,9 @@
     top: 50%;
     width: 14px;
     height: 14px;
-    background: var(--navy-blue);
-    border: 3px solid var(--white);
-    box-shadow: 0 0 0 2px var(--navy-blue);
+    background: var(--text-heading);
+    border: 3px solid var(--bg-body);
+    box-shadow: 0 0 0 2px var(--text-heading);
     z-index: 2;
     transform: translate(-50%, -50%);
 }
@@ -312,8 +312,8 @@
     font-family: var(--font-centennial, 'Libre Bodoni'), Georgia, serif;
     font-size: 1.1rem;
     font-weight: 700;
-    color: var(--navy-blue);
-    background: var(--white);
+    color: var(--text-heading);
+    background: var(--bg-body);
     padding: 4px 16px 4px 0;
     display: inline-block;
     position: relative;

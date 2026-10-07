@@ -18,19 +18,19 @@
 }
 
 .form-feedback.feedback-error {
-    color: #c0392b;
+    color: var(--feedback-error-text);
     padding: 0.75rem 1rem;
-    background: #fdecea;
+    background: var(--feedback-error-bg);
     border-radius: 6px;
-    border: 1px solid #f5c6cb;
+    border: 1px solid var(--feedback-error-border);
 }
 
 .form-feedback.feedback-success {
-    color: #1e7e34;
+    color: var(--feedback-success-text);
     padding: 0.75rem 1rem;
-    background: #d4edda;
+    background: var(--feedback-success-bg);
     border-radius: 6px;
-    border: 1px solid #c3e6cb;
+    border: 1px solid var(--feedback-success-border);
 }
 
 .form-submit:disabled {

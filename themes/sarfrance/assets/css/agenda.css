@@ -2,7 +2,7 @@
 
 /* Year navigation */
 .agenda-nav { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; padding: 30px 0 15px; }
-.agenda-nav .filter-btn:hover { border-color: var(--primary); color: var(--primary); }
+.agenda-nav .filter-btn:hover { border-color: var(--accent); color: var(--accent); }
 
 /* Agenda uses .page-filters for type filters — extra top padding */
 .agenda-filters { padding-top: 10px; padding-bottom: 25px; }
@@ -20,10 +20,10 @@
 .agenda-card-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; font-size: 0.82rem; color: var(--text-muted); }
 .agenda-card-meta:empty { display: none; }
 .agenda-card-location { white-space: nowrap; }
-.agenda-card-link { white-space: nowrap; color: var(--primary); text-decoration: none; font-weight: 600; }
+.agenda-card-link { white-space: nowrap; color: var(--accent); text-decoration: none; font-weight: 600; }
 .agenda-card-link:hover { text-decoration: underline; }
 /* Lien vers les photos de l'événement dans la photothèque */
-.agenda-card-photos { white-space: nowrap; color: var(--primary); text-decoration: none; font-weight: 600; }
+.agenda-card-photos { white-space: nowrap; color: var(--accent); text-decoration: none; font-weight: 600; }
 .agenda-card-photos:hover,
 .agenda-card-photos:focus-visible { text-decoration: underline; }
 
