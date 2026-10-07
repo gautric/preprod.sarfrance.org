@@ -116,7 +116,7 @@
 }
 
 .notice-bio-link:hover {
-    color: var(--accent);
+    color: var(--accent-strong);
     text-decoration: underline;
 }
 

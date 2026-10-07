@@ -1,0 +1,12 @@
+{
+  "verdict": "APPROVED",
+  "findings": [
+    {
+      "label": "Hover-shade shift in light mode",
+      "severity": "non-blocking",
+      "confidence": "confirmed",
+      "detail": ".read-more:hover and .notice-bio-link:hover were repointed from --primary-dark (#8b2310) to --accent (= --primary #ad2c11 in light mode), slightly lightening the hover red. Deliberate and documented in the plan; cosmetically negligible. Optional fix: a --accent-strong: var(--primary-dark) token for these two hovers to restore exact light-mode parity."
+    }
+  ],
+  "reviewDoc": "/Users/gautric/Source/web-apps/sarfrance/.agents/tasks/darkmode-review.md"
+}

@@ -817,7 +817,7 @@ a:hover {
 }
 
 .read-more:hover {
-    color: var(--accent);
+    color: var(--accent-strong);
 }
 
 /* ---- Footer ---- */

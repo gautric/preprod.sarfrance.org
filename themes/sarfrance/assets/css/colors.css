@@ -77,6 +77,7 @@
     --link: var(--navy-blue);         /* default body links */
     --link-hover: var(--primary);     /* link hover */
     --accent: var(--primary);         /* red accent text (h3, read-more, required, bio links) */
+    --accent-strong: var(--primary-dark); /* darker red accent hover (read-more, bio links) */
 
     /* Form-feedback colors (consumed by contact.css) */
     --feedback-error-text: #c0392b;
@@ -311,6 +312,7 @@
         --link: #a9c2e8;           /* default body links (lightened) */
         --link-hover: #ef8a73;     /* link hover (lightened primary) */
         --accent: #ef8a73;         /* red accent text (lightened primary) */
+        --accent-strong: #ef8a73;  /* accent hover — same lightened tone over dark */
 
         /* Body / muted text */
         --text-dark: #e6e8ec;      /* body copy */
