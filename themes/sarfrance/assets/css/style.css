@@ -227,7 +227,7 @@ a:hover {
     visibility: hidden;
     transform: translateY(10px);
     transition: all 0.3s ease;
-    border-top: 3px solid var(--primary);
+    border-top: 4px solid var(--primary);
 }
 
 .has-submenu:hover .submenu {
