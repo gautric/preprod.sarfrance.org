@@ -312,9 +312,12 @@
    the two entry points stay byte-identical.
 
    Palette: soft near-black / dark-slate backgrounds (never pure
-   #000), off-white body text (never pure #fff). Images, photos
-   and Leaflet map tiles are NEVER inverted or filtered. The light
-   theme is untouched.
+   #000), off-white body text (never pure #fff). Images and photos
+   are NEVER inverted or filtered. Leaflet map tiles ARE darkened in
+   dark mode via a filter scoped to .leaflet-tile (see below) — there
+   is no free keyless dark basemap, so the standard OSM raster is
+   inverted/hue-rotated instead of swapped. The light theme is
+   untouched.
    ============================================================ */
 
 /* ---- Entry point 1: FORCED DARK (visitor chose Dark) ----
@@ -388,10 +391,16 @@
     border-bottom-color: var(--gray-border-light);
 }
 
-/* Avoid a light-grey flash while Leaflet tiles load. Map tiles and
-   photos keep their real colors — NO filter: invert() anywhere. */
+/* Dark map: the surface background avoids a light-grey flash while
+   tiles load, and the filter darkens the standard OSM raster so the
+   map follows the dark theme. Scoped to .leaflet-tile only, so
+   markers, popups, controls and attribution keep their real colors.
+   Photos elsewhere are never filtered. */
 :root[data-theme="dark"] .leaflet-container {
     background: var(--bg-surface);
+}
+:root[data-theme="dark"] .leaflet-tile {
+    filter: invert(1) hue-rotate(180deg) brightness(0.95) contrast(0.9);
 }
 
 /* ---- Entry point 2: AUTO / SYSTEM dark (OS prefers dark AND the
@@ -469,10 +478,16 @@
         border-bottom-color: var(--gray-border-light);
     }
 
-    /* Avoid a light-grey flash while Leaflet tiles load. Map tiles and
-       photos keep their real colors — NO filter: invert() anywhere. */
+    /* Dark map: the surface background avoids a light-grey flash while
+       tiles load, and the filter darkens the standard OSM raster so the
+       map follows the dark theme. Scoped to .leaflet-tile only, so
+       markers, popups, controls and attribution keep their real colors.
+       Photos elsewhere are never filtered. */
     :root:not([data-theme="light"]):not([data-theme="dark"]) .leaflet-container {
         background: var(--bg-surface);
+    }
+    :root:not([data-theme="light"]):not([data-theme="dark"]) .leaflet-tile {
+        filter: invert(1) hue-rotate(180deg) brightness(0.95) contrast(0.9);
     }
 }
 
