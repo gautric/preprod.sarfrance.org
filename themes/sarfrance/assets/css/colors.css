@@ -521,10 +521,12 @@
     vertical-align: middle;
 }
 
-/* Keyboard/JS open on desktop: focus-within reveals the menu for Tab
-   users, and .is-open is toggled by theme-switcher.js (click / Escape /
+/* Keyboard/JS open on desktop: :has(:focus-visible) reveals the menu for
+   Tab users only — :focus-visible is set for keyboard focus but not after a
+   mouse click, so clicking an option no longer pins the menu open once the
+   pointer leaves. .is-open is toggled by theme-switcher.js (click / Escape /
    outside click). Mirrors the hover rule inherited from .has-submenu. */
-.theme-switch:focus-within .submenu,
+.theme-switch:has(:focus-visible) .submenu,
 .theme-switch.is-open .submenu {
     opacity: 1;
     visibility: visible;
