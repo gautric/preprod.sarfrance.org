@@ -12,11 +12,23 @@
   {{- $title := .title | default $ctx.Title -}}
   {{- $desc  := .desc | default "" -}}
   {{- $extra := .extra | default "" -}}
+  {{- $ics   := .ics | default "" -}}
   <div class="page-header">
     <div class="container">
       <h1>{{ $title }}</h1>
       {{ with $desc }}<p class="page-description">{{ . }}</p>{{ end }}
-      {{ with $ctx }}{{ if .File }}{{- partial "page-contribute.html" . -}}{{ end }}{{ end }}
+      {{- /* page-contribute désactivé — le widget « signaler une erreur » n'est plus rendu */ -}}
+      {{- if $ics -}}
+      <div class="page-header-actions">
+        {{- with $ics -}}
+        <a class="page-header-ics" href="{{ . }}" title="{{ i18n "copy_calendar_link" }} — {{ i18n "ics_hint" }}" aria-label="{{ i18n "copy_calendar_link" }}" data-copied-label="{{ i18n "ics_copied" }}">
+          <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><polyline points="9 15 12 18 15 15"/><line x1="12" y1="12" x2="12" y2="18"/></svg>
+        </a>
+        <span class="page-header-ics-feedback hidden" role="status" aria-live="polite"></span>
+        {{- end -}}
+        {{- /* {{ with $ctx }}{{ if .File }}{{ partial "page-contribute.html" . }}{{ end }}{{ end }} */ -}}
+      </div>
+      {{- end -}}
       {{ with $extra }}{{ . | safeHTML }}{{ end }}
     </div>
   </div>
@@ -25,7 +37,8 @@
     <div class="container">
       <h1>{{ .Title }}</h1>
       {{ with .Description }}<p class="page-description">{{ . }}</p>{{ end }}
-      {{ if .File }}{{- partial "page-contribute.html" . -}}{{ end }}
+      {{- /* page-contribute désactivé — le widget « signaler une erreur » n'est plus rendu */ -}}
+      {{- /* {{ if .File }}<div class="page-header-actions">{{ partial "page-contribute.html" . }}</div>{{ end }} */ -}}
     </div>
   </div>
 {{- end -}}

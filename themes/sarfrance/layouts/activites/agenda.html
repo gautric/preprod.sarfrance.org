@@ -20,7 +20,9 @@
 {{ range $events }}{{ if partial "event-is-new.html" . }}{{ $newCount = add $newCount 1 }}{{ end }}{{ end }}
 {{ $i18nPrefix := "agenda_type_" }}
 <article class="page-content">
-    {{ partial "page-header.html" (dict "ctx" . "title" (printf "%s %s" (i18n "agenda_title") $year) "desc" (i18n "agenda_desc")) }}
+    {{- $ics := "" -}}
+    {{- with .OutputFormats.Get "ics" -}}{{ $ics = .RelPermalink }}{{- end -}}
+    {{ partial "page-header.html" (dict "ctx" . "title" (printf "%s %s" (i18n "agenda_title") $year) "desc" (i18n "agenda_desc") "ics" $ics) }}
     <div class="container">
         {{ with .Content }}<div class="content">{{ . }}</div>{{ end }}
         <nav class="agenda-nav" aria-label="{{ i18n "year_nav" }}">

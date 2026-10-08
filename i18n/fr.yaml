@@ -48,6 +48,10 @@
   translation: "Télécharger le calendrier"
 - id: ics_hint
   translation: "Compatible Google Agenda, Apple Calendar, Outlook"
+- id: copy_calendar_link
+  translation: "Copier le lien du calendrier"
+- id: ics_copied
+  translation: "Lien copié"
 - id: filter_all
   translation: "Tout"
 - id: year_nav
