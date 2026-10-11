@@ -1,0 +1,35 @@
+{{- /*
+    ics-fold.html — Plie une ligne de contenu iCalendar à 75 octets
+    (RFC 5545 § 3.1 : « content line ») en coupant sur frontière de rune.
+
+    Le budget est compté en OCTETS (`len` sur une chaîne renvoie des octets,
+    `len (split … "")` des runes) : 73 octets de contenu + l'espace de
+    continuation restent sous la limite de 75, quel que soit le nombre
+    d'octets de la rune suivante (4 au plus en UTF-8).
+
+    Une coupure peut tomber au milieu d'une séquence échappée (`\,`) : c'est
+    sans conséquence, un lecteur iCalendar déplie les lignes AVANT d'interpréter
+    les échappements.
+
+    Appel :
+      {{ $line := partial "ics-fold.html" (printf "SUMMARY:%s" $summary) }}
+
+    Entrée : une ligne de contenu complète (nom de propriété inclus).
+    Sortie : la ligne, repliée au besoin par « CRLF + espace ».
+*/ -}}
+{{- $line := printf "%v" . -}}
+{{- if le (len $line) 75 -}}
+    {{- return $line -}}
+{{- end -}}
+{{- $out := slice -}}
+{{- $cur := "" -}}
+{{- range (split $line "") -}}
+    {{- if gt (add (len $cur) (len .)) 73 -}}
+        {{- $out = $out | append $cur -}}
+        {{- $cur = . -}}
+    {{- else -}}
+        {{- $cur = printf "%s%s" $cur . -}}
+    {{- end -}}
+{{- end -}}
+{{- $out = $out | append $cur -}}
+{{- return delimit $out "\r\n " -}}

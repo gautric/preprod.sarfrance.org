@@ -1,0 +1,55 @@
+{{- /*
+    event-ics.html — Construit et publie le fichier .ics d'UN événement
+    d'agenda (cible du lien « Apple Calendar » du panneau de la carte).
+
+    Le flux annuel `activites/agenda.ics.ics` n'est pas concerné : il reste tel
+    quel. Ici, chaque événement devient une ressource autonome publiée sous
+    /calendars/<langue>/<slug>.ics.
+
+    L'UID reprend EXACTEMENT l'expression du flux annuel
+    (`title | lower | replaceRE "[^a-z0-9]+" "-"`, donc sans `urlize`) : un
+    client qui a déjà importé le flux met l'événement à jour au lieu de le
+    dupliquer.
+
+    Appel :
+      {{ $res := partial "event-ics.html" (dict
+            "event" . "dates" $d "slug" $slug "lang" $ctx.Lang
+            "url" $absUrl "details" $details) }}
+
+    Renvoie la ressource (utiliser .RelPermalink).
+*/ -}}
+{{- $ev := .event -}}
+{{- $d := .dates -}}
+{{- $lines := slice
+    "BEGIN:VCALENDAR"
+    "VERSION:2.0"
+    "PRODID:-//SAR France//Agenda//FR"
+    "CALSCALE:GREGORIAN"
+    "METHOD:PUBLISH"
+    "BEGIN:VEVENT" -}}
+
+{{- $titleSlug := $ev.title | lower | replaceRE "[^a-z0-9]+" "-" | replaceRE "^-+|-+$" "" -}}
+{{- $lines = $lines | append (printf "UID:%s-%s@sarfrance.org" $d.uidDate $titleSlug) -}}
+{{- $lines = $lines | append (printf "DTSTAMP:%s" (now.UTC.Format "20060102T150405Z")) -}}
+{{- if $d.allDay -}}
+    {{- $lines = $lines | append (printf "DTSTART;VALUE=DATE:%s" $d.icsStart) -}}
+    {{- $lines = $lines | append (printf "DTEND;VALUE=DATE:%s" $d.icsEnd) -}}
+{{- else -}}
+    {{- $lines = $lines | append (printf "DTSTART:%s" $d.icsStart) -}}
+    {{- $lines = $lines | append (printf "DTEND:%s" $d.icsEnd) -}}
+{{- end -}}
+{{- $lines = $lines | append (printf "SUMMARY:%s" (partial "ics-escape.html" $ev.title)) -}}
+{{- $lines = $lines | append (printf "DESCRIPTION:%s" (partial "ics-escape.html" .details)) -}}
+{{- with $ev.location -}}
+    {{- $lines = $lines | append (printf "LOCATION:%s" (partial "ics-escape.html" .)) -}}
+{{- end -}}
+{{- $lines = $lines | append (printf "URL:%s" (partial "ics-escape.html" .url)) -}}
+{{- $lines = $lines | append "END:VEVENT" -}}
+{{- $lines = $lines | append "END:VCALENDAR" -}}
+
+{{- $folded := slice -}}
+{{- range $lines -}}
+    {{- $folded = $folded | append (partial "ics-fold.html" .) -}}
+{{- end -}}
+{{- $content := printf "%s\r\n" (delimit $folded "\r\n") -}}
+{{- return resources.FromString (printf "calendars/%s/%s.ics" .lang .slug) $content -}}

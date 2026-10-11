@@ -1,0 +1,73 @@
+{{- /*
+    event-calendar.html — Bloc « Ajouter au calendrier » d'une carte d'agenda :
+    un bouton (clavier) et un panneau offrant trois destinations (Google
+    Agenda, Outlook, Apple Calendar via un .ics par événement).
+
+    Les trois URL sont construites AU BUILD : `querify` encode titres,
+    descriptions et lieux accentués, et `event-dates.html` est la source unique
+    du calcul des dates. Le module JS `pages/add-to-calendar.js` ne fait
+    qu'ouvrir et fermer le panneau — aucune donnée d'événement n'a donc besoin
+    d'être exposée en `data-*`, et les liens restent valides sans JavaScript.
+
+    Les URL ne sont pas marquées `safeURL` : l'échappement de `&` en `&amp;`
+    dans un attribut HTML est correct et attendu.
+
+    Appel (depuis layouts/activites/agenda.html) :
+      {{ partial "event-calendar.html" (dict "event" . "ctx" $ "id" $eventId) }}
+*/ -}}
+{{- $ev := .event -}}
+{{- $ctx := .ctx -}}
+{{- $id := .id -}}
+{{- $d := partial "event-dates.html" (dict "date" $ev.date) -}}
+
+{{- /* Slug de ressource : date compacte + titre urlizé, re-filtré pour qu'aucun
+       caractère de titre ne puisse introduire de séparateur de chemin. */ -}}
+{{- $slug := printf "%s-%s" $d.uidDate ($ev.title | urlize | replaceRE "[^a-z0-9._-]+" "-" | replaceRE "^-+|-+$" "") -}}
+
+{{- /* Ancre absolue de l'événement sur la page agenda, reprise dans les
+       détails envoyés aux trois destinations et dans la propriété URL du .ics. */ -}}
+{{- $absUrl := printf "%s#%s" $ctx.Permalink $id -}}
+
+{{- $detailLines := slice -}}
+{{- if and $ev.description (ne $ev.description "") -}}
+    {{- $detailLines = $detailLines | append $ev.description -}}
+{{- else -}}
+    {{- $detailLines = $detailLines | append (printf "%s – SAR France" $ev.title) -}}
+{{- end -}}
+{{- $detailLines = $detailLines | append $absUrl -}}
+{{- with $ev.link -}}{{- $detailLines = $detailLines | append . -}}{{- end -}}
+{{- $details := delimit $detailLines "\n" -}}
+
+{{- $location := $ev.location | default "" -}}
+{{- $googleUrl := printf "https://calendar.google.com/calendar/render?%s" (querify
+    "action" "TEMPLATE"
+    "text" $ev.title
+    "dates" $d.gDates
+    "details" $details
+    "location" $location) -}}
+{{- $outlookUrl := printf "https://outlook.live.com/calendar/0/deeplink/compose?%s" (querify
+    "path" "/calendar/action/compose"
+    "rru" "addevent"
+    "subject" $ev.title
+    "startdt" $d.oStart
+    "enddt" $d.oEnd
+    "body" $details
+    "location" $location
+    "allday" $d.oAllDay) -}}
+{{- $icsRes := partial "event-ics.html" (dict
+    "event" $ev
+    "dates" $d
+    "slug" $slug
+    "lang" $ctx.Lang
+    "url" $absUrl
+    "details" $details) -}}
+<div class="agenda-cal">
+    <button type="button" class="agenda-cal-btn" aria-expanded="false" aria-controls="cal-{{ $slug }}" title="{{ i18n "add_to_calendar_title" }}"><span aria-hidden="true">📅</span> {{ i18n "add_to_calendar" }}</button>
+    <div class="agenda-cal-panel hidden" id="cal-{{ $slug }}" role="group" aria-label="{{ i18n "add_to_calendar_panel" }}">
+        <a class="agenda-cal-link agenda-cal-link--google" href="{{ $googleUrl }}" target="_blank" rel="noopener">{{ i18n "cal_google" }}</a>
+        <a class="agenda-cal-link agenda-cal-link--outlook" href="{{ $outlookUrl }}" target="_blank" rel="noopener">{{ i18n "cal_outlook" }}</a>
+        <a class="agenda-cal-link agenda-cal-link--apple" href="{{ $icsRes.RelPermalink }}" download="sar-{{ $slug }}.ics">{{ i18n "cal_apple" }}</a>
+        <button type="button" class="agenda-cal-close" aria-label="{{ i18n "cal_close" }}"><span aria-hidden="true">✕</span></button>
+        <p class="agenda-cal-hint">{{ i18n "cal_hint" }}</p>
+    </div>
+</div>

@@ -91,6 +91,9 @@
                                 <a class="agenda-card-photos" href="{{ $photoPage.RelPermalink }}?event={{ $eventId }}#photo-{{ $first }}" title="{{ i18n "event_photos_title" }}"><span aria-hidden="true">📷</span> {{ i18n "event_photos" }}</a>
                                 {{- end -}}
                                 {{- end }}
+                                {{- /* « Ajouter au calendrier » : bouton + panneau (Google / Outlook / .ics).
+                                       Toujours rendu, donc .agenda-card-meta n'est plus jamais vide. */ -}}
+                                {{ partial "event-calendar.html" (dict "event" . "ctx" $ "id" $eventId) }}
                             </div>
                         </div>
                         {{ if and .lat .lon (ne (printf "%v" .lat) "0") }}
@@ -109,4 +112,6 @@
 <script src="{{ $timelineJS.RelPermalink }}" integrity="{{ $timelineJS.Data.Integrity }}"></script>
 {{- $js := partial "asset.html" "js/pages/agenda.js" }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+{{- $calJS := partial "asset.html" "js/pages/add-to-calendar.js" }}
+<script src="{{ $calJS.RelPermalink }}" integrity="{{ $calJS.Data.Integrity }}"></script>
 {{ end }}

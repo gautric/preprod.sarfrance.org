@@ -1,0 +1,92 @@
+{{- /*
+    event-dates.html — Normalise le champ `date` d'un événement d'agenda pour
+    les liens « Ajouter au calendrier » (Google, Outlook) et le .ics par
+    événement. Source unique du calcul : ne pas le rejouer ailleurs.
+
+    Formats acceptés (ceux de data/agenda.yaml) :
+      "2026-01-17"
+      "2026-02-06T18:00:00"
+      "2026-01-29T18:00:00/2026-01-29T20:00:00"
+      "2026-03-03/2026-03-31"
+      "2026-05-20T09:45/2026-05-20T16:00"   (heure sans secondes)
+
+    Règles :
+      - journée entière (début sans heure) : date de fin EXCLUSIVE (J+1),
+        comme l'attendent Google, Outlook et DTEND;VALUE=DATE ;
+      - heure de début sans fin : +2 h ;
+      - fin donnée en date seule avec un début horaire : fin au J+1 à 00h00 ;
+      - les heures de data/agenda.yaml sont des heures de Paris, converties en
+        UTC (suffixe Z) pour éviter d'avoir à fournir un composant VTIMEZONE.
+
+    Appel :
+      {{ $d := partial "event-dates.html" (dict "date" .date) }}
+
+    Renvoie un dict :
+      allDay   (bool)   vrai si l'événement n'a pas d'heure
+      gDates   (string)  paramètre `dates` de Google Agenda
+      oStart   (string)  paramètre `startdt` d'Outlook (ISO 8601)
+      oEnd     (string)  paramètre `enddt` d'Outlook (ISO 8601)
+      oAllDay  (string)  paramètre `allday` d'Outlook ("true" / "false")
+      icsStart (string)  valeur DTSTART
+      icsEnd   (string)  valeur DTEND
+      uidDate  (string)  date de début en AAAAMMJJ (composant de l'UID)
+*/ -}}
+{{- $raw := printf "%v" .date -}}
+{{- $tz := "Europe/Paris" -}}
+{{- $parts := split $raw "/" -}}
+{{- $startRaw := index $parts 0 -}}
+{{- $hasEnd := gt (len $parts) 1 -}}
+{{- $endRaw := "" -}}
+{{- if $hasEnd -}}{{- $endRaw = index $parts 1 -}}{{- end -}}
+{{- $sp := split $startRaw "T" -}}
+{{- $startDateStr := index $sp 0 -}}
+{{- $allDay := eq (len $sp) 1 -}}
+{{- $out := dict -}}
+
+{{- if $allDay -}}
+    {{- /* Journée(s) entière(s) : on reste en dates nues, fin exclusive. */ -}}
+    {{- $startD := time.AsTime (printf "%sT00:00:00Z" $startDateStr) -}}
+    {{- $endD := $startD.AddDate 0 0 1 -}}
+    {{- if $hasEnd -}}
+        {{- $endDateStr := index (split $endRaw "T") 0 -}}
+        {{- $endD = (time.AsTime (printf "%sT00:00:00Z" $endDateStr)).AddDate 0 0 1 -}}
+    {{- end -}}
+    {{- $s := $startD.Format "20060102" -}}
+    {{- $e := $endD.Format "20060102" -}}
+    {{- $out = dict
+        "allDay" true
+        "gDates" (printf "%s/%s" $s $e)
+        "oStart" ($startD.Format "2006-01-02")
+        "oEnd" ($endD.Format "2006-01-02")
+        "oAllDay" "true"
+        "icsStart" $s
+        "icsEnd" $e
+        "uidDate" $s -}}
+{{- else -}}
+    {{- /* Horaires de Paris → UTC. L'heure peut être donnée sans secondes. */ -}}
+    {{- $tp := index $sp 1 -}}
+    {{- if eq (len (findRE ":" $tp)) 1 -}}{{- $tp = printf "%s:00" $tp -}}{{- end -}}
+    {{- $startT := time.AsTime (printf "%sT%s" $startDateStr $tp) $tz -}}
+    {{- $endT := $startT.Add (time.Duration "h" 2) -}}
+    {{- if $hasEnd -}}
+        {{- $ep := split $endRaw "T" -}}
+        {{- $endDateStr := index $ep 0 -}}
+        {{- if gt (len $ep) 1 -}}
+            {{- $etp := index $ep 1 -}}
+            {{- if eq (len (findRE ":" $etp)) 1 -}}{{- $etp = printf "%s:00" $etp -}}{{- end -}}
+            {{- $endT = time.AsTime (printf "%sT%s" $endDateStr $etp) $tz -}}
+        {{- else -}}
+            {{- $endT = (time.AsTime (printf "%sT00:00:00" $endDateStr) $tz).AddDate 0 0 1 -}}
+        {{- end -}}
+    {{- end -}}
+    {{- $out = dict
+        "allDay" false
+        "gDates" (printf "%s/%s" ($startT.UTC.Format "20060102T150405Z") ($endT.UTC.Format "20060102T150405Z"))
+        "oStart" ($startT.UTC.Format "2006-01-02T15:04:05Z")
+        "oEnd" ($endT.UTC.Format "2006-01-02T15:04:05Z")
+        "oAllDay" "false"
+        "icsStart" ($startT.UTC.Format "20060102T150405Z")
+        "icsEnd" ($endT.UTC.Format "20060102T150405Z")
+        "uidDate" (replace $startDateStr "-" "") -}}
+{{- end -}}
+{{- return $out -}}

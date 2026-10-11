@@ -47,6 +47,95 @@
 .agenda-type.type-400ans-marine-nationale::before,
 .filter-btn.type-400ans-marine-nationale::before { content: "⚓ "; }
 
+/* ============================================================
+   « Ajouter au calendrier » — bouton + panneau sur la carte
+   (partials/event-calendar.html, pages/add-to-calendar.js)
+
+   Le panneau reste DANS LE FLUX : .page-card--has-map porte
+   `overflow: hidden` (filters.css), qui rognerait un popover
+   positionné en absolu. Le bloc occupe toute la largeur de la
+   ligne de méta (flex-basis 100%) pour que le panneau ne puisse
+   pas élargir la carte, y compris à 375 px.
+
+   Masquage par la classe partagée .hidden (filters.css) —
+   ne pas la redéfinir ici. Couleurs : variables de colors.css
+   uniquement, donc le mode sombre suit sans règle dédiée.
+   ============================================================ */
+.agenda-cal { flex: 1 1 100%; min-width: 0; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+
+/* Pastille reprenant l'esprit de .filter-btn, en plus discret et sans
+   dupliquer ses règles (taille, police et états lui sont propres). */
+.agenda-cal-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 12px;
+    border: 1px solid var(--gray-border-medium);
+    border-radius: 20px;
+    background-color: var(--bg-surface);
+    color: var(--text-heading);
+    font-family: inherit;
+    font-size: 0.78rem;
+    font-weight: 600;
+    line-height: 1.4;
+    cursor: pointer;
+    transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.agenda-cal-btn:hover,
+.agenda-cal-btn:focus-visible,
+.agenda-cal-btn[aria-expanded="true"] { border-color: var(--accent); color: var(--accent); }
+
+.agenda-cal-panel {
+    flex: 1 1 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 14px;
+    margin-top: 2px;
+    padding: 10px 12px;
+    border: 1px solid var(--gray-border-light);
+    border-radius: 6px;
+    background-color: var(--bg-surface);
+    box-shadow: 0 2px 8px var(--shadow-subtle);
+}
+
+.agenda-cal-link { color: var(--accent); text-decoration: none; font-weight: 600; white-space: nowrap; }
+.agenda-cal-link:hover,
+.agenda-cal-link:focus-visible { text-decoration: underline; }
+
+/* Icône par destination */
+.agenda-cal-link--google::before  { content: "📆 "; }
+.agenda-cal-link--outlook::before { content: "📧 "; }
+.agenda-cal-link--apple::before   { content: "🍎 "; }
+
+/* Croix de fermeture : bouton nu, poussé en fin de ligne */
+.agenda-cal-close {
+    margin-left: auto;
+    padding: 0 2px;
+    border: 0;
+    background: none;
+    color: var(--text-muted);
+    font-family: inherit;
+    font-size: 0.85rem;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.agenda-cal-close:hover,
+.agenda-cal-close:focus-visible { color: var(--accent); }
+
+.agenda-cal-hint { flex: 1 1 100%; margin: 0; font-size: 0.75rem; color: var(--text-muted); }
+
+@media (prefers-reduced-motion: reduce) {
+    .agenda-cal-btn { transition: none; }
+}
+
 @media (max-width: 768px) {
     .agenda-nav { gap: 5px; }
+    /* Écrans étroits : les trois liens s'empilent plutôt que de déborder,
+       et la croix revient en haut à droite du panneau. */
+    .agenda-cal-panel { gap: 10px; }
+    .agenda-cal-link { flex: 1 1 100%; white-space: normal; }
+    .agenda-cal-close { order: -1; }
 }

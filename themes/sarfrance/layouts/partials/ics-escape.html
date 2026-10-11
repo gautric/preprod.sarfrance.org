@@ -1,0 +1,22 @@
+{{- /*
+    ics-escape.html — Échappe une valeur texte pour une propriété iCalendar
+    (RFC 5545 § 3.3.11 : TEXT).
+
+    Ordre imposé : la barre oblique inverse d'abord, sinon les barres ajoutées
+    pour « ; » et « , » seraient échappées à leur tour.
+
+    Appel :
+      {{ $v := partial "ics-escape.html" .title }}
+
+    Entrée : une chaîne (ou toute valeur, convertie via %v).
+    Sortie : la chaîne échappée (`\` → `\\`, `;` → `\;`, `,` → `\,`,
+             retour à la ligne → `\n` littéral).
+*/ -}}
+{{- $s := printf "%v" . -}}
+{{- $s = replace $s "\\" "\\\\" -}}
+{{- $s = replace $s ";" "\\;" -}}
+{{- $s = replace $s "," "\\," -}}
+{{- $s = replace $s "\r\n" "\\n" -}}
+{{- $s = replace $s "\n" "\\n" -}}
+{{- $s = replace $s "\r" "\\n" -}}
+{{- return $s -}}
