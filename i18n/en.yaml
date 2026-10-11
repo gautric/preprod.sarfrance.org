@@ -213,6 +213,24 @@
 - id: photo_highlight_other
   translation: "{n} photos of this event are highlighted."
 
+# Adding an event to a personal calendar (agenda card)
+- id: add_to_calendar
+  translation: "Add to calendar"
+- id: add_to_calendar_title
+  translation: "Add this event to your calendar (double-click the card)"
+- id: add_to_calendar_panel
+  translation: "Choose a calendar"
+- id: cal_google
+  translation: "Google Calendar"
+- id: cal_outlook
+  translation: "Outlook"
+- id: cal_apple
+  translation: "Apple Calendar (.ics)"
+- id: cal_close
+  translation: "Close"
+- id: cal_hint
+  translation: "Tip: double-click a card to open this menu."
+
 # Agenda types
 - id: agenda_type_conférence
   translation: "Conference"

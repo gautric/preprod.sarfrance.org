@@ -213,6 +213,24 @@
 - id: photo_highlight_other
   translation: "{n} photos de cet événement sont mises en évidence."
 
+# Ajout d'un événement au calendrier personnel (carte d'agenda)
+- id: add_to_calendar
+  translation: "Ajouter au calendrier"
+- id: add_to_calendar_title
+  translation: "Ajouter cet événement à votre calendrier (double-clic sur la carte)"
+- id: add_to_calendar_panel
+  translation: "Choisir un calendrier"
+- id: cal_google
+  translation: "Google Agenda"
+- id: cal_outlook
+  translation: "Outlook"
+- id: cal_apple
+  translation: "Apple Calendar (.ics)"
+- id: cal_close
+  translation: "Fermer"
+- id: cal_hint
+  translation: "Astuce : double-cliquez sur une carte pour ouvrir ce menu."
+
 # Agenda types
 - id: agenda_type_conférence
   translation: "Conférence"
