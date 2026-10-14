@@ -49,7 +49,7 @@ SAR.onReady(function () {
         var hideTimer = null;
 
         // Délai minimal de rétention du menu une fois ouvert (ms).
-        var CAL_RETENTION_MS = 4000;
+        var CAL_RETENTION_MS = 1500;
         // Minuteur unique de fermeture différée : on le `clearTimeout` avant
         // d'en armer un nouveau et à chaque réouverture.
         var retentionTimer = null;

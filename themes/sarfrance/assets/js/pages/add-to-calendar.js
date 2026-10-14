@@ -125,11 +125,11 @@ SAR.onReady(function () {
 
     /* ---- Ouverture au survol avec délai de grâce ----------------------------
        Souris seulement. L'entrée dans le bloc .agenda-cal ouvre le panneau ;
-       la sortie programme sa fermeture après ~200 ms, annulée si le pointeur
+       la sortie programme sa fermeture après ~1500 ms, annulée si le pointeur
        revient (du bouton vers le panneau, par exemple). Un panneau ouvert au
        clic n'est jamais refermé par le survol : seule une ouverture issue du
        survol (data-opened-by-hover) est éligible à la fermeture différée. */
-    var GRACE = 200;
+    var GRACE = 1500;
     if (canHover) {
         SAR.selectAll('.agenda-cal').forEach(function (block) {
             var btn = block.querySelector('.agenda-cal-btn');
