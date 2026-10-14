@@ -39,12 +39,42 @@ SAR.onReady(function () {
         });
     }
 
+    /* ---- Recentrage de la mini-carte à l'ouverture du panneau ---------------
+       L'ouverture du panneau fait passer celui-ci en pleine largeur sous la
+       ligne de méta (`.page-card--has-map`), ce qui décale la mise en page et
+       peut désaligner les tuiles Leaflet. On récupère l'instance exposée par
+       initPageCardMaps (core.js) sur l'élément `.page-card-map` et on la
+       recentre : invalidateSize() pour recalculer la taille du conteneur, puis
+       setView() sur les coordonnées de la carte (zoom courant conservé).
+       On n'agit pas si la carte est absente, non initialisée, ou si l'événement
+       n'a pas de lieu physique (lat/lon à 0/0, carte supprimée). */
+    function recenterCardMap(btn) {
+        var card = btn.closest('.page-card');
+        if (!card) return;
+        var mapEl = card.querySelector('.page-card-map');
+        if (!mapEl) return;
+        var map = mapEl._leafletMap;
+        if (!map) return;
+
+        var lat = parseFloat(mapEl.dataset.lat);
+        var lon = parseFloat(mapEl.dataset.lon);
+        if (!lat && !lon) return;
+
+        // Le panneau vient d'être affiché : on attend la frame suivante pour que
+        // Leaflet mesure le conteneur APRÈS le changement de mise en page.
+        setTimeout(function () {
+            map.invalidateSize();
+            map.setView([lat, lon], map.getZoom());
+        }, 0);
+    }
+
     /** Ouvre un panneau — un seul à la fois. */
     function openPanel(btn) {
         closeAll(btn);
         var panel = panelOf(btn);
         btn.setAttribute('aria-expanded', 'true');
         if (panel) panel.classList.remove('hidden');
+        recenterCardMap(btn);
     }
 
     function isOpen(btn) {

@@ -253,6 +253,10 @@ function initPageCardMaps() {
         });
 
         setTimeout(function () { map.invalidateSize(); }, 200);
+        // On expose l'instance Leaflet sur l'élément DOM pour qu'un autre module
+        // (le panneau « Ajouter au calendrier » d'une carte) puisse recentrer la
+        // carte à l'ouverture, quand la mise en page de la carte change.
+        el._leafletMap = map;
         el.dataset.leafletInit = 'true';
     });
 }
