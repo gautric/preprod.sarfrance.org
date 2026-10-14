@@ -11,6 +11,7 @@
      4. DOM interactions   — SAR.activate
      5. Leaflet helpers    — SAR.map (+ global initPageCardMaps)
                              (no-op until Leaflet's `L` global is present)
+     6. Clipboard helpers  — SAR.copyToClipboard, SAR.flashFeedback
    ============================================================ */
 (function (window) {
     'use strict';
@@ -149,6 +150,76 @@
 
             return map;
         }
+    };
+
+    /* ─── 6. Clipboard helpers ──────────────────────────────────────────── */
+    /* Copie presse-papiers avec repli hors contexte sécurisé, et petit
+       libellé de confirmation éphémère. Mutualisé entre le menu calendrier
+       d'en-tête (pages/agenda.js) et les panneaux par carte
+       (pages/add-to-calendar.js). */
+
+    /**
+     * Repli presse-papiers sans l'API Clipboard (contextes non sécurisés,
+     * p. ex. http://localhost) : <textarea> hors écran + execCommand('copy').
+     * Privé — non exposé sur SAR.
+     * @param {string} text
+     * @returns {boolean} true si la copie a réussi
+     */
+    function legacyCopy(text) {
+        var area = document.createElement('textarea');
+        area.value = text;
+        area.setAttribute('readonly', '');
+        area.style.position = 'absolute';
+        area.style.left = '-9999px';
+        document.body.appendChild(area);
+        area.select();
+        var ok = false;
+        try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+        document.body.removeChild(area);
+        return ok;
+    }
+
+    /**
+     * Copie `text` dans le presse-papiers. Essaie l'API Clipboard quand elle
+     * est présente ; sur rejet (ou en son absence) retombe sur le repli
+     * <textarea>+execCommand. La promesse ne se résout qu'en cas de succès,
+     * de sorte que l'appelant n'affiche sa confirmation que si la copie a
+     * effectivement eu lieu (comportement identique à l'ancien code).
+     * @param {string} text
+     * @returns {Promise<void>} résolue si copié, rejetée si toutes les méthodes échouent
+     */
+    SAR.copyToClipboard = function (text) {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            return navigator.clipboard.writeText(text).catch(function () {
+                if (legacyCopy(text)) return;
+                throw new Error('clipboard copy failed');
+            });
+        }
+        return legacyCopy(text)
+            ? Promise.resolve()
+            : Promise.reject(new Error('clipboard copy failed'));
+    };
+
+    /**
+     * Affiche un libellé de confirmation éphémère dans `el` : écrit `text`,
+     * retire la classe `.hidden`, puis après `ms` (défaut 2000) remet
+     * `.hidden` et vide le texte. Le minuteur est dédupliqué par élément
+     * (handle stocké sur l'élément), si bien que des appels répétés sur le
+     * même `el` réinitialisent le compte à rebours. Sans effet si `el` est nul.
+     * @param {HTMLElement|null} el région de feedback (role="status")
+     * @param {string} text libellé à afficher
+     * @param {number} [ms=2000] durée d'affichage avant masquage
+     */
+    SAR.flashFeedback = function (el, text, ms) {
+        if (!el) return;
+        el.textContent = text;
+        el.classList.remove('hidden');
+        if (el._sarFlashTimer) clearTimeout(el._sarFlashTimer);
+        el._sarFlashTimer = setTimeout(function () {
+            el._sarFlashTimer = null;
+            el.classList.add('hidden');
+            el.textContent = '';
+        }, ms == null ? 2000 : ms);
     };
 })(window);
 

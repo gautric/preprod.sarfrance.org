@@ -77,50 +77,17 @@ SAR.onReady(function () {
     });
 
     /* ---- Copie de l'URL absolue du .ics dans le presse-papiers --------------
-       Même patron que le menu .page-header-cal de pages/agenda.js : essai de
-       l'API Clipboard, repli sur document.execCommand('copy') via un <textarea>
-       temporaire (contextes non sécurisés comme http://localhost). */
+       Mutualisé avec le menu .page-header-cal (pages/agenda.js) via les
+       helpers SAR.copyToClipboard / SAR.flashFeedback (core.js) : essai de
+       l'API Clipboard, repli sur document.execCommand('copy') dans les
+       contextes non sécurisés comme http://localhost. */
     function copyIcsUrl(btn) {
         var panel = btn.closest('.agenda-cal-panel');
         var feedback = panel ? panel.querySelector('.agenda-cal-feedback') : null;
         var absoluteUrl = new URL(btn.dataset.icsUrl, window.location.href).href;
-
-        function done() { showCopied(btn, feedback); }
-
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-            navigator.clipboard.writeText(absoluteUrl).then(done, function () {
-                if (legacyCopy(absoluteUrl)) done();
-            });
-        } else if (legacyCopy(absoluteUrl)) {
-            done();
-        }
-    }
-
-    /** Repli presse-papiers sans API Clipboard. Renvoie true si la copie a réussi. */
-    function legacyCopy(text) {
-        var area = document.createElement('textarea');
-        area.value = text;
-        area.setAttribute('readonly', '');
-        area.style.position = 'absolute';
-        area.style.left = '-9999px';
-        document.body.appendChild(area);
-        area.select();
-        var ok = false;
-        try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
-        document.body.removeChild(area);
-        return ok;
-    }
-
-    /** Affiche « Lien copié ! » ~2 s puis le masque. */
-    function showCopied(btn, feedback) {
-        if (!feedback) return;
-        feedback.textContent = btn.dataset.copiedLabel || '';
-        feedback.classList.remove('hidden');
-        if (feedback.hideTimer) clearTimeout(feedback.hideTimer);
-        feedback.hideTimer = setTimeout(function () {
-            feedback.classList.add('hidden');
-            feedback.textContent = '';
-        }, 2000);
+        SAR.copyToClipboard(absoluteUrl).then(function () {
+            SAR.flashFeedback(feedback, btn.dataset.copiedLabel || '');
+        });
     }
 
     /* ---- Ouverture au survol avec délai de grâce ----------------------------

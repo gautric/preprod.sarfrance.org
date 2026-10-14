@@ -46,7 +46,6 @@ SAR.onReady(function () {
         var toggle = calBlock.querySelector('.page-header-cal-toggle');
         var copyBtn = calBlock.querySelector('.page-header-cal-copy');
         var feedback = calBlock.querySelector('.page-header-cal-feedback');
-        var hideTimer = null;
 
         // Délai minimal de rétention du menu une fois ouvert (ms).
         var CAL_RETENTION_MS = 1500;
@@ -119,43 +118,12 @@ SAR.onReady(function () {
             }
         });
 
-        /** Affiche le libellé de confirmation puis le masque après ~2 s. */
-        function showCopied() {
-            if (!feedback) return;
-            feedback.textContent = (copyBtn && copyBtn.dataset.copiedLabel) || '';
-            feedback.classList.remove('hidden');
-            if (hideTimer) clearTimeout(hideTimer);
-            hideTimer = setTimeout(function () {
-                feedback.classList.add('hidden');
-                feedback.textContent = '';
-            }, 2000);
-        }
-
-        /** Repli presse-papiers sans API Clipboard (contextes non sécurisés). */
-        function legacyCopy(text) {
-            var area = document.createElement('textarea');
-            area.value = text;
-            area.setAttribute('readonly', '');
-            area.style.position = 'absolute';
-            area.style.left = '-9999px';
-            document.body.appendChild(area);
-            area.select();
-            var ok = false;
-            try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
-            document.body.removeChild(area);
-            return ok;
-        }
-
         if (copyBtn) {
             copyBtn.addEventListener('click', function () {
                 var absoluteUrl = new URL(copyBtn.dataset.icsUrl, window.location.href).href;
-                if (navigator.clipboard && navigator.clipboard.writeText) {
-                    navigator.clipboard.writeText(absoluteUrl).then(showCopied, function () {
-                        if (legacyCopy(absoluteUrl)) showCopied();
-                    });
-                } else if (legacyCopy(absoluteUrl)) {
-                    showCopied();
-                }
+                SAR.copyToClipboard(absoluteUrl).then(function () {
+                    SAR.flashFeedback(feedback, (copyBtn && copyBtn.dataset.copiedLabel) || '');
+                });
             });
         }
     }
