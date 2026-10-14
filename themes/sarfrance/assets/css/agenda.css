@@ -51,40 +51,41 @@
    « Ajouter au calendrier » — bouton + panneau sur la carte
    (partials/event-calendar.html, pages/add-to-calendar.js)
 
-   Le panneau reste DANS LE FLUX : .page-card--has-map porte
+   Le déclencheur .agenda-cal-btn est INLINE, au gabarit de 📍 et
+   📷 (même police/interligne), placé juste après la localisation
+   dans la ligne de méta. Le PANNEAU, lui, reste DANS LE FLUX en
+   pleine largeur (flex-basis 100%) : .page-card--has-map porte
    `overflow: hidden` (filters.css), qui rognerait un popover
-   positionné en absolu. Le bloc occupe toute la largeur de la
-   ligne de méta (flex-basis 100%) pour que le panneau ne puisse
-   pas élargir la carte, y compris à 375 px.
+   positionné en absolu, et la pleine largeur empêche le panneau
+   d'élargir la carte, y compris à 375 px.
 
    Masquage par la classe partagée .hidden (filters.css) —
    ne pas la redéfinir ici. Couleurs : variables de colors.css
    uniquement, donc le mode sombre suit sans règle dédiée.
    ============================================================ */
-.agenda-cal { flex: 1 1 100%; min-width: 0; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+/* Le conteneur est inline dans la ligne de méta ; il ne grandit en pleine
+   largeur que pour laisser son panneau s'étaler (via flex-wrap sur .agenda-card-meta). */
+.agenda-cal { display: contents; }
 
-/* Pastille reprenant l'esprit de .filter-btn, en plus discret et sans
-   dupliquer ses règles (taille, police et états lui sont propres). */
+/* Déclencheur au gabarit des éléments inline voisins (📍 / 📷) : même police,
+   même interligne, pas de pleine largeur ni de pastille arrondie encombrante. */
 .agenda-cal-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    padding: 4px 12px;
-    border: 1px solid var(--gray-border-medium);
-    border-radius: 20px;
-    background-color: var(--bg-surface);
-    color: var(--text-heading);
+    display: inline;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--accent);
     font-family: inherit;
-    font-size: 0.78rem;
+    font-size: inherit;
     font-weight: 600;
-    line-height: 1.4;
+    line-height: inherit;
+    white-space: nowrap;
     cursor: pointer;
-    transition: border-color 0.2s ease, color 0.2s ease;
 }
 
 .agenda-cal-btn:hover,
 .agenda-cal-btn:focus-visible,
-.agenda-cal-btn[aria-expanded="true"] { border-color: var(--accent); color: var(--accent); }
+.agenda-cal-btn[aria-expanded="true"] { text-decoration: underline; }
 
 .agenda-cal-panel {
     flex: 1 1 100%;

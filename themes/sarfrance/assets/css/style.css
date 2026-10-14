@@ -1260,7 +1260,19 @@ a:hover {
     position: relative;
 }
 
-.page-header-ics {
+/* ============================================================
+   Menu « Ajouter l'agenda à votre calendrier » (page-header.html)
+   — abonnement au flux ANNUEL. Même patron que .page-contribute :
+   toggle rond 36×36 + dropdown ouvert en CSS pur (:hover /
+   :focus-within). Le JS (pages/agenda.js) ne gère que la copie
+   presse-papiers et le basculement d'aria-expanded au clavier.
+   Couleurs : variables colors.css uniquement (mode sombre suivi).
+   ============================================================ */
+.page-header-cal {
+    position: relative;
+}
+
+.page-header-cal-toggle {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1274,17 +1286,80 @@ a:hover {
     transition: background-color 0.25s ease;
 }
 
-.page-header-ics:hover,
-.page-header-ics:focus-visible {
+.page-header-cal-toggle:hover,
+.page-header-cal-toggle:focus-visible {
     background-color: var(--white);
     color: var(--navy-blue);
     outline: 2px solid var(--gold);
     outline-offset: 2px;
 }
 
+.page-header-cal-dropdown {
+    display: none;
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    min-width: 220px;
+    list-style: none;
+    padding: 6px 0;
+    margin: 0;
+    background-color: var(--bg-surface);
+    border-radius: 6px;
+    box-shadow: 0 4px 16px var(--shadow);
+    z-index: 10;
+}
+
+.page-header-cal:hover .page-header-cal-dropdown,
+.page-header-cal:focus-within .page-header-cal-dropdown {
+    display: block;
+}
+
+.page-header-cal-dropdown li {
+    padding: 0;
+}
+
+.page-header-cal-dropdown li::before {
+    display: none;
+}
+
+/* Entrées : liens ET le bouton « Copier » partagent exactement le même rendu. */
+.page-header-cal-dropdown a,
+.page-header-cal-copy {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    padding: 10px 16px;
+    border: 0;
+    background: none;
+    font-family: var(--font-janson);
+    font-size: 0.9rem;
+    text-align: left;
+    color: var(--text-heading);
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.page-header-cal-dropdown a:hover,
+.page-header-cal-dropdown a:focus-visible,
+.page-header-cal-copy:hover,
+.page-header-cal-copy:focus-visible {
+    background-color: var(--primary-tint-15);
+    color: var(--accent);
+}
+
+.page-header-cal-dropdown a::after {
+    display: none !important;
+}
+
+.page-header-cal-icon {
+    flex: 0 0 auto;
+}
+
 /* Confirmation « Lien copié » : pastille transitoire sous la barre d'actions,
    positionnée en absolu pour ne provoquer aucun décalage de mise en page. */
-.page-header-ics-feedback {
+.page-header-cal-feedback {
     position: absolute;
     top: calc(100% + 8px);
     right: 0;
@@ -1295,13 +1370,14 @@ a:hover {
     font-size: 0.8rem;
     font-weight: 600;
     white-space: nowrap;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 6px var(--shadow);
     opacity: 1;
     transition: opacity 0.25s ease;
+    z-index: 11;
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .page-header-ics-feedback {
+    .page-header-cal-feedback {
         transition: none;
     }
 }

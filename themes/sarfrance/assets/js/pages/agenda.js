@@ -35,18 +35,39 @@ SAR.onReady(function () {
         if (newBtn) newBtn.click();
     }
 
-    // Icône calendrier (.page-header-ics) : au clic, copier dans le presse-papiers
-    // l'URL absolue du .ics plutôt que de le télécharger. Repli gracieux vers la
-    // navigation (href) si l'API Clipboard est indisponible ou échoue.
-    var icsAnchor = document.querySelector('.page-header-ics');
-    if (icsAnchor) {
-        var feedback = document.querySelector('.page-header-ics-feedback');
+    // Menu « Ajouter l'agenda à votre calendrier » (.page-header-cal) : le dropdown
+    // s'ouvre en CSS pur (:hover / :focus-within). Le JS ne fait que (1) basculer
+    // aria-expanded du toggle au clic/clavier, et (2) copier dans le presse-papiers
+    // l'URL absolue du .ics annuel au lieu de naviguer.
+    var calBlock = document.querySelector('.page-header-cal');
+    if (calBlock) {
+        var toggle = calBlock.querySelector('.page-header-cal-toggle');
+        var copyBtn = calBlock.querySelector('.page-header-cal-copy');
+        var feedback = calBlock.querySelector('.page-header-cal-feedback');
         var hideTimer = null;
+
+        // L'ouverture reste pilotée par CSS (:hover / :focus-within) ; on se
+        // contente de refléter l'état « ouvert » pour le clavier via aria-expanded :
+        // true dès qu'un élément du menu a le focus, false quand le focus en sort.
+        if (toggle) {
+            calBlock.addEventListener('focusin', function () {
+                toggle.setAttribute('aria-expanded', 'true');
+            });
+            calBlock.addEventListener('focusout', function () {
+                // Report au tour suivant : document.activeElement n'est à jour
+                // qu'après le focusout.
+                setTimeout(function () {
+                    if (!calBlock.contains(document.activeElement)) {
+                        toggle.setAttribute('aria-expanded', 'false');
+                    }
+                }, 0);
+            });
+        }
 
         /** Affiche le libellé de confirmation puis le masque après ~2 s. */
         function showCopied() {
             if (!feedback) return;
-            feedback.textContent = icsAnchor.dataset.copiedLabel || '';
+            feedback.textContent = (copyBtn && copyBtn.dataset.copiedLabel) || '';
             feedback.classList.remove('hidden');
             if (hideTimer) clearTimeout(hideTimer);
             hideTimer = setTimeout(function () {
@@ -55,17 +76,32 @@ SAR.onReady(function () {
             }, 2000);
         }
 
-        icsAnchor.addEventListener('click', function (event) {
-            if (!(navigator.clipboard && navigator.clipboard.writeText)) {
-                // Pas d'API Clipboard : laisser le navigateur suivre le lien.
-                return;
-            }
-            var absoluteUrl = new URL(icsAnchor.getAttribute('href'), window.location.href).href;
-            event.preventDefault();
-            navigator.clipboard.writeText(absoluteUrl).then(showCopied, function () {
-                // Échec de l'écriture : repli sur la navigation vers le fichier.
-                window.location.href = absoluteUrl;
+        /** Repli presse-papiers sans API Clipboard (contextes non sécurisés). */
+        function legacyCopy(text) {
+            var area = document.createElement('textarea');
+            area.value = text;
+            area.setAttribute('readonly', '');
+            area.style.position = 'absolute';
+            area.style.left = '-9999px';
+            document.body.appendChild(area);
+            area.select();
+            var ok = false;
+            try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+            document.body.removeChild(area);
+            return ok;
+        }
+
+        if (copyBtn) {
+            copyBtn.addEventListener('click', function () {
+                var absoluteUrl = new URL(copyBtn.dataset.icsUrl, window.location.href).href;
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(absoluteUrl).then(showCopied, function () {
+                        if (legacyCopy(absoluteUrl)) showCopied();
+                    });
+                } else if (legacyCopy(absoluteUrl)) {
+                    showCopied();
+                }
             });
-        });
+        }
     }
 });

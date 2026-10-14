@@ -214,6 +214,8 @@
   translation: "{n} photos de cet événement sont mises en évidence."
 
 # Ajout d'un événement au calendrier personnel (carte d'agenda)
+- id: cal_menu_label
+  translation: "Ajouter cet agenda à votre calendrier"
 - id: add_to_calendar
   translation: "Ajouter au calendrier"
 - id: add_to_calendar_title

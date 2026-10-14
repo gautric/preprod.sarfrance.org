@@ -12,21 +12,56 @@
   {{- $title := .title | default $ctx.Title -}}
   {{- $desc  := .desc | default "" -}}
   {{- $extra := .extra | default "" -}}
-  {{- $ics   := .ics | default "" -}}
+  {{- $ics     := .ics | default "" -}}
+  {{- $icsAbs  := .icsAbs | default "" -}}
+  {{- $icsMenu := .icsMenu | default false -}}
+  {{- $year    := .year | default "" -}}
   <div class="page-header">
     <div class="container">
       <h1>{{ $title }}</h1>
       {{ with $desc }}<p class="page-description">{{ . }}</p>{{ end }}
       {{- /* page-contribute désactivé — le widget « signaler une erreur » n'est plus rendu */ -}}
-      {{- if $ics -}}
+      {{- /* Menu « Ajouter l'agenda à votre calendrier » : abonnement au flux ANNUEL.
+             Rendu seulement si un flux .ics est fourni ET si l'année affichée n'est
+             pas antérieure à l'année courante ($icsMenu, calculé dans agenda.html).
+             Ouverture CSS pur (:hover / :focus-within), sur le modèle de page-contribute ;
+             le JS ne sert qu'à la copie et au basculement d'aria-expanded au clavier. */ -}}
+      {{- if and $ics $icsMenu -}}
+      {{- $icsWebcal := replace $icsAbs "https://" "webcal://" -}}
+      {{- $calName := printf "SAR France – Agenda %s" $year -}}
+      {{- $googleUrl := printf "https://calendar.google.com/calendar/r?cid=%s" ($icsWebcal | urlquery) -}}
+      {{- $outlookUrl := printf "https://outlook.live.com/calendar/0/addfromweb?%s" (querify "url" $icsAbs "name" $calName) -}}
       <div class="page-header-actions">
-        {{- with $ics -}}
-        <a class="page-header-ics" href="{{ . }}" title="{{ i18n "copy_calendar_link" }} — {{ i18n "ics_hint" }}" aria-label="{{ i18n "copy_calendar_link" }}" data-copied-label="{{ i18n "ics_copied" }}">
-          <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><polyline points="9 15 12 18 15 15"/><line x1="12" y1="12" x2="12" y2="18"/></svg>
-        </a>
-        <span class="page-header-ics-feedback hidden" role="status" aria-live="polite"></span>
-        {{- end -}}
-        {{- /* {{ with $ctx }}{{ if .File }}{{ partial "page-contribute.html" . }}{{ end }}{{ end }} */ -}}
+        <div class="page-header-cal">
+          <button type="button" class="page-header-cal-toggle" aria-label="{{ i18n "cal_menu_label" }}" aria-expanded="false" aria-haspopup="true">
+            <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><polyline points="9 15 12 18 15 15"/><line x1="12" y1="12" x2="12" y2="18"/></svg>
+          </button>
+          <ul class="page-header-cal-dropdown">
+            <li>
+              <button type="button" class="page-header-cal-copy" data-ics-url="{{ $ics }}" data-copied-label="{{ i18n "ics_copied" }}">
+                <span aria-hidden="true" class="page-header-cal-icon">🔗</span>{{ i18n "copy_calendar_link" }}
+              </button>
+            </li>
+            <li>
+              <a href="{{ $googleUrl }}" target="_blank" rel="noopener">
+                <span aria-hidden="true" class="page-header-cal-icon">📆</span>{{ i18n "cal_google" }}
+              </a>
+            </li>
+            <li>
+              <a href="{{ $outlookUrl }}" target="_blank" rel="noopener">
+                <span aria-hidden="true" class="page-header-cal-icon">📧</span>{{ i18n "cal_outlook" }}
+              </a>
+            </li>
+            <li>
+              {{- /* safeURL : le schéma webcal:// est volontaire (abonnement OS Apple/iCloud) ;
+                     sans ce marquage Hugo le neutralise en #ZgotmplZ. */ -}}
+              <a href="{{ $icsWebcal | safeURL }}" rel="noopener">
+                <span aria-hidden="true" class="page-header-cal-icon">☁️</span>{{ i18n "cal_icloud" }}
+              </a>
+            </li>
+          </ul>
+          <span class="page-header-cal-feedback hidden" role="status" aria-live="polite"></span>
+        </div>
       </div>
       {{- end -}}
       {{ with $extra }}{{ . | safeHTML }}{{ end }}

@@ -9,6 +9,11 @@
 {{- $photoPage := site.GetPage "/activites/phototheque" -}}
 {{- $agendaYear := .Site.Params.currentAgendaYear | default (now.Format "2006") -}}
 {{ $year := .Params.year | default $agendaYear }}
+{{- /* Boutons calendrier masqués pour une année strictement antérieure à l'année
+       courante. Comparaison NUMÉRIQUE : $year vient d'une chaîne de front matter,
+       $agendaYear d'un entier de params — on coerce les deux en int. */ -}}
+{{ $yearIsCurrentOrFuture := ge (int $year) (int $agendaYear) }}
+{{ $today := now.Format "2006-01-02" }}
 {{ $types := hugo.Data.metadata.agenda.types }}
 {{ $events := where hugo.Data.agenda.events "date" "ge" (printf "%s-01-01" $year) }}
 {{ $events = where $events "date" "le" (printf "%s-12-31" $year) }}
@@ -21,8 +26,9 @@
 {{ $i18nPrefix := "agenda_type_" }}
 <article class="page-content">
     {{- $ics := "" -}}
-    {{- with .OutputFormats.Get "ics" -}}{{ $ics = .RelPermalink }}{{- end -}}
-    {{ partial "page-header.html" (dict "ctx" . "title" (printf "%s %s" (i18n "agenda_title") $year) "desc" (i18n "agenda_desc") "ics" $ics) }}
+    {{- $icsAbs := "" -}}
+    {{- with .OutputFormats.Get "ics" -}}{{ $ics = .RelPermalink }}{{ $icsAbs = .Permalink }}{{- end -}}
+    {{ partial "page-header.html" (dict "ctx" . "title" (printf "%s %s" (i18n "agenda_title") $year) "desc" (i18n "agenda_desc") "ics" $ics "icsAbs" $icsAbs "icsMenu" $yearIsCurrentOrFuture "year" $year) }}
     <div class="container">
         {{ with .Content }}<div class="content">{{ . }}</div>{{ end }}
         <nav class="agenda-nav" aria-label="{{ i18n "year_nav" }}">
@@ -75,6 +81,15 @@
                             {{ with .description }}<p class="page-card-desc">{{ . }}</p>{{ end }}
                             <div class="agenda-card-meta">
                                 {{ with .location }}<span class="agenda-card-location">📍 {{ . }}</span>{{ end }}
+                                {{- /* « Ajouter au calendrier » : bouton + panneau, placé juste après 📍 et avant 📷.
+                                       Masqué pour une année antérieure ($yearIsCurrentOrFuture) et pour un événement
+                                       dont la date de fin (non exclusive) est déjà passée — comparaison AU BUILD. */ -}}
+                                {{- if $yearIsCurrentOrFuture -}}
+                                {{- $d := partial "event-dates.html" (dict "date" .date) -}}
+                                {{- if ge $d.endDay $today -}}
+                                {{ partial "event-calendar.html" (dict "event" . "ctx" $ "id" $eventId) }}
+                                {{- end -}}
+                                {{- end -}}
                                 {{- /* Lien 📷 : ?event= met en évidence toutes les photos de l'événement (phototheque.js),
                                        #photo-<première> y fait défiler même sans JavaScript. Rendu seulement si la première photo existe. */ -}}
                                 {{- $ev := . -}}
@@ -91,9 +106,6 @@
                                 <a class="agenda-card-photos" href="{{ $photoPage.RelPermalink }}?event={{ $eventId }}#photo-{{ $first }}" title="{{ i18n "event_photos_title" }}"><span aria-hidden="true">📷</span> {{ i18n "event_photos" }}</a>
                                 {{- end -}}
                                 {{- end }}
-                                {{- /* « Ajouter au calendrier » : bouton + panneau (Google / Outlook / .ics).
-                                       Toujours rendu, donc .agenda-card-meta n'est plus jamais vide. */ -}}
-                                {{ partial "event-calendar.html" (dict "event" . "ctx" $ "id" $eventId) }}
                             </div>
                         </div>
                         {{ if and .lat .lon (ne (printf "%v" .lat) "0") }}

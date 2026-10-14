@@ -30,6 +30,9 @@
       icsStart (string)  valeur DTSTART
       icsEnd   (string)  valeur DTEND
       uidDate  (string)  date de début en AAAAMMJJ (composant de l'UID)
+      startDay (string)  date de début en AAAA-MM-JJ (détection « passé »)
+      endDay   (string)  date de fin en AAAA-MM-JJ, non exclusive (= startDay si
+                         pas d'intervalle) — comparée à now pour masquer le passé
 */ -}}
 {{- $raw := printf "%v" .date -}}
 {{- $tz := "Europe/Paris" -}}
@@ -42,6 +45,11 @@
 {{- $startDateStr := index $sp 0 -}}
 {{- $allDay := eq (len $sp) 1 -}}
 {{- $out := dict -}}
+
+{{- /* Jour de fin NON exclusif en AAAA-MM-JJ (pour la détection « passé ») :
+       partie date de la borne de fin si intervalle, sinon jour de début. */ -}}
+{{- $endDayStr := $startDateStr -}}
+{{- if $hasEnd -}}{{- $endDayStr = index (split $endRaw "T") 0 -}}{{- end -}}
 
 {{- if $allDay -}}
     {{- /* Journée(s) entière(s) : on reste en dates nues, fin exclusive. */ -}}
@@ -61,7 +69,9 @@
         "oAllDay" "true"
         "icsStart" $s
         "icsEnd" $e
-        "uidDate" $s -}}
+        "uidDate" $s
+        "startDay" $startDateStr
+        "endDay" $endDayStr -}}
 {{- else -}}
     {{- /* Horaires de Paris → UTC. L'heure peut être donnée sans secondes. */ -}}
     {{- $tp := index $sp 1 -}}
@@ -87,6 +97,8 @@
         "oAllDay" "false"
         "icsStart" ($startT.UTC.Format "20060102T150405Z")
         "icsEnd" ($endT.UTC.Format "20060102T150405Z")
-        "uidDate" (replace $startDateStr "-" "") -}}
+        "uidDate" (replace $startDateStr "-" "")
+        "startDay" $startDateStr
+        "endDay" $endDayStr -}}
 {{- end -}}
 {{- return $out -}}

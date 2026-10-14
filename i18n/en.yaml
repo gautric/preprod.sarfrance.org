@@ -214,6 +214,8 @@
   translation: "{n} photos of this event are highlighted."
 
 # Adding an event to a personal calendar (agenda card)
+- id: cal_menu_label
+  translation: "Add this agenda to your calendar"
 - id: add_to_calendar
   translation: "Add to calendar"
 - id: add_to_calendar_title

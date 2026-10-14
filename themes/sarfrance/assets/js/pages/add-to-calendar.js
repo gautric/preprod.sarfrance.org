@@ -77,7 +77,7 @@ SAR.onReady(function () {
     });
 
     /* ---- Copie de l'URL absolue du .ics dans le presse-papiers --------------
-       Même patron que l'icône .page-header-ics de pages/agenda.js : essai de
+       Même patron que le menu .page-header-cal de pages/agenda.js : essai de
        l'API Clipboard, repli sur document.execCommand('copy') via un <textarea>
        temporaire (contextes non sécurisés comme http://localhost). */
     function copyIcsUrl(btn) {
@@ -134,24 +134,39 @@ SAR.onReady(function () {
         SAR.selectAll('.agenda-cal').forEach(function (block) {
             var btn = block.querySelector('.agenda-cal-btn');
             if (!btn) return;
+            var panel = panelOf(btn);
             var closeTimer = null;
 
-            block.addEventListener('mouseenter', function () {
+            function cancelClose() {
                 if (closeTimer) { clearTimeout(closeTimer); closeTimer = null; }
+            }
+
+            function enter() {
+                cancelClose();
                 if (!isOpen(btn)) {
                     openPanel(btn);
                     btn.setAttribute('data-opened-by-hover', 'true');
                 }
-            });
+            }
 
-            block.addEventListener('mouseleave', function () {
+            function leave() {
                 if (!isOpen(btn)) return;
                 if (btn.getAttribute('data-opened-by-hover') !== 'true') return;
                 closeTimer = setTimeout(function () {
                     closePanel(btn);
                     closeTimer = null;
                 }, GRACE);
-            });
+            }
+
+            // `.agenda-cal` est en `display: contents` (CSS) : il n'a pas de boîte
+            // propre, donc on écoute le bouton ET le panneau. La période de grâce
+            // partagée laisse le pointeur passer de l'un à l'autre sans fermeture.
+            btn.addEventListener('mouseenter', enter);
+            btn.addEventListener('mouseleave', leave);
+            if (panel) {
+                panel.addEventListener('mouseenter', enter);
+                panel.addEventListener('mouseleave', leave);
+            }
         });
     }
 
