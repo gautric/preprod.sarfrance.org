@@ -1310,7 +1310,8 @@ a:hover {
 }
 
 .page-header-cal:hover .page-header-cal-dropdown,
-.page-header-cal:focus-within .page-header-cal-dropdown {
+.page-header-cal:focus-within .page-header-cal-dropdown,
+.page-header-cal.is-open .page-header-cal-dropdown {
     display: block;
 }
 

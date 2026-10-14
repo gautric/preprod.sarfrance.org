@@ -236,8 +236,6 @@
   translation: "Add to iCloud"
 - id: cal_close
   translation: "Close"
-- id: cal_hint
-  translation: "Tip: double-click a card to open this menu."
 
 # Agenda types
 - id: agenda_type_conférence

@@ -146,7 +146,6 @@
 .agenda-cal-close:hover,
 .agenda-cal-close:focus-visible { color: var(--accent); }
 
-.agenda-cal-hint { flex: 1 1 100%; margin: 0; font-size: 0.75rem; color: var(--text-muted); }
 
 @media (prefers-reduced-motion: reduce) {
     .agenda-cal-btn { transition: none; }
