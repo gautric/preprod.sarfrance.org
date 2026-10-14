@@ -1,13 +1,16 @@
 {{- /*
     event-calendar.html — Bloc « Ajouter au calendrier » d'une carte d'agenda :
-    un bouton (clavier) et un panneau offrant trois destinations (Google
-    Agenda, Outlook, Apple Calendar via un .ics par événement).
+    un bouton (clavier) et un panneau offrant quatre entrées, dans l'ordre :
+    (1) copier l'URL absolue du .ics de l'événement, (2) Google Agenda,
+    (3) Outlook, (4) iCloud (ouverture/téléchargement du .ics par événement).
 
-    Les trois URL sont construites AU BUILD : `querify` encode titres,
-    descriptions et lieux accentués, et `event-dates.html` est la source unique
-    du calcul des dates. Le module JS `pages/add-to-calendar.js` ne fait
-    qu'ouvrir et fermer le panneau — aucune donnée d'événement n'a donc besoin
-    d'être exposée en `data-*`, et les liens restent valides sans JavaScript.
+    Les URL Google et Outlook sont construites AU BUILD : `querify` encode
+    titres, descriptions et lieux accentués, et `event-dates.html` est la source
+    unique du calcul des dates. Le module JS `pages/add-to-calendar.js` ouvre et
+    ferme le panneau (clic, clavier, survol) et copie l'URL du .ics dans le
+    presse-papiers ; il ne recalcule aucune date. L'URL du .ics à copier est
+    exposée en `data-ics-url` (le JS la transforme en URL absolue), les autres
+    liens restent valides sans JavaScript.
 
     Les URL ne sont pas marquées `safeURL` : l'échappement de `&` en `&amp;`
     dans un attribut HTML est correct et attendu.
@@ -64,10 +67,12 @@
 <div class="agenda-cal">
     <button type="button" class="agenda-cal-btn" aria-expanded="false" aria-controls="cal-{{ $slug }}" title="{{ i18n "add_to_calendar_title" }}"><span aria-hidden="true">📅</span> {{ i18n "add_to_calendar" }}</button>
     <div class="agenda-cal-panel hidden" id="cal-{{ $slug }}" role="group" aria-label="{{ i18n "add_to_calendar_panel" }}">
+        <button type="button" class="agenda-cal-copy" data-ics-url="{{ $icsRes.RelPermalink }}" data-copied-label="{{ i18n "cal_copied" }}">{{ i18n "cal_copy" }}</button>
         <a class="agenda-cal-link agenda-cal-link--google" href="{{ $googleUrl }}" target="_blank" rel="noopener">{{ i18n "cal_google" }}</a>
         <a class="agenda-cal-link agenda-cal-link--outlook" href="{{ $outlookUrl }}" target="_blank" rel="noopener">{{ i18n "cal_outlook" }}</a>
-        <a class="agenda-cal-link agenda-cal-link--apple" href="{{ $icsRes.RelPermalink }}" download="sar-{{ $slug }}.ics">{{ i18n "cal_apple" }}</a>
+        <a class="agenda-cal-link agenda-cal-link--icloud" href="{{ $icsRes.RelPermalink }}" download="sar-{{ $slug }}.ics">{{ i18n "cal_icloud" }}</a>
         <button type="button" class="agenda-cal-close" aria-label="{{ i18n "cal_close" }}"><span aria-hidden="true">✕</span></button>
+        <span class="agenda-cal-feedback hidden" role="status" aria-live="polite"></span>
         <p class="agenda-cal-hint">{{ i18n "cal_hint" }}</p>
     </div>
 </div>

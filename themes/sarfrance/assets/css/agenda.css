@@ -104,10 +104,30 @@
 .agenda-cal-link:hover,
 .agenda-cal-link:focus-visible { text-decoration: underline; }
 
+/* Bouton « Copier l'URL du .ics » : même famille visuelle qu'un lien du panneau,
+   mais c'est un <button> (nu) pour ne pas naviguer sans JavaScript. */
+.agenda-cal-copy {
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--accent);
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.agenda-cal-copy:hover,
+.agenda-cal-copy:focus-visible { text-decoration: underline; }
+
 /* Icône par destination */
+.agenda-cal-copy::before          { content: "🔗 "; }
 .agenda-cal-link--google::before  { content: "📆 "; }
 .agenda-cal-link--outlook::before { content: "📧 "; }
-.agenda-cal-link--apple::before   { content: "🍎 "; }
+.agenda-cal-link--icloud::before  { content: "☁️ "; }
+
+/* Retour après copie (aria-live) — plein-largeur, discret */
+.agenda-cal-feedback { flex: 1 1 100%; font-size: 0.75rem; color: var(--text-muted); }
 
 /* Croix de fermeture : bouton nu, poussé en fin de ligne */
 .agenda-cal-close {
@@ -133,9 +153,10 @@
 
 @media (max-width: 768px) {
     .agenda-nav { gap: 5px; }
-    /* Écrans étroits : les trois liens s'empilent plutôt que de déborder,
+    /* Écrans étroits : les quatre entrées s'empilent plutôt que de déborder,
        et la croix revient en haut à droite du panneau. */
     .agenda-cal-panel { gap: 10px; }
-    .agenda-cal-link { flex: 1 1 100%; white-space: normal; }
+    .agenda-cal-link,
+    .agenda-cal-copy { flex: 1 1 100%; white-space: normal; text-align: left; }
     .agenda-cal-close { order: -1; }
 }

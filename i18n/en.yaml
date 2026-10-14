@@ -226,6 +226,12 @@
   translation: "Outlook"
 - id: cal_apple
   translation: "Apple Calendar (.ics)"
+- id: cal_copy
+  translation: "Copy the .ics URL"
+- id: cal_copied
+  translation: "Link copied!"
+- id: cal_icloud
+  translation: "Add to iCloud"
 - id: cal_close
   translation: "Close"
 - id: cal_hint
