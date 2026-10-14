@@ -1,0 +1,76 @@
+{
+  "verdict": "APPROVED",
+  "findings": [
+    {
+      "label": "Ordre de focus mobile",
+      "severity": "minor",
+      "confidence": "confirmed",
+      "file": "themes/sarfrance/assets/css/agenda.css",
+      "detail": "Sous 768 px, `.agenda-cal-close { order: -1 }` place la croix en premier visuellement alors qu'elle reste quatrième dans le DOM (WCAG 2.4.3 / 1.3.2). Supprimer `order: -1` ou déplacer le bouton de fermeture avant les trois liens dans event-calendar.html."
+    },
+    {
+      "label": "Cible de la croix sous 24x24 px",
+      "severity": "minor",
+      "confidence": "confirmed",
+      "file": "themes/sarfrance/assets/css/agenda.css",
+      "detail": "`.agenda-cal-close` (padding 0 2px, font-size 0.85rem, line-height 1) fait environ 14x14 px, sous le seuil WCAG 2.2 SC 2.5.8 ; le gap de 10 px du panneau mobile ne suffit probablement pas à bénéficier de l'exception d'espacement. Ajouter du padding ou une taille minimale."
+    },
+    {
+      "label": "Focus perdu à la fermeture par clic extérieur",
+      "severity": "minor",
+      "confidence": "confirmed",
+      "file": "themes/sarfrance/assets/js/pages/add-to-calendar.js",
+      "detail": "Le handler `click` sur `document` appelle `closeAll(null)` sans rapatrier le focus : si le focus était sur un lien du panneau, il retombe sur `<body>`. Rendre le focus au bouton déclencheur quand le panneau fermé contenait `document.activeElement`."
+    },
+    {
+      "label": "Vérification navigateur non effectuée",
+      "severity": "minor",
+      "confidence": "confirmed",
+      "file": ".agents/tasks/add-to-calendar-plan.md",
+      "detail": "L'étape 10 du plan (ouverture réelle des liens Google / Outlook / Apple sur les trois cas de date), le parcours clavier, le double-clic corps de carte vs zoom Leaflet, le mode sombre et le rendu à 375 px n'ont pas pu être observés (aucun navigateur dans l'environnement). À faire manuellement avant fusion."
+    },
+    {
+      "label": "Collision possible de slug",
+      "severity": "minor",
+      "confidence": "possible",
+      "file": "themes/sarfrance/layouts/partials/event-calendar.html",
+      "detail": "`id=\"cal-<AAAAMMJJ>-<titre urlizé>\"` et le chemin `calendars/<lang>/<slug>.ics` perdent l'heure que `$eventId` conserve : deux événements du même jour au même titre donneraient un id HTML dupliqué et un second `resources.FromString` sur un chemin déjà pris. Vérifié : 169 slugs distincts pour 169 événements, aucune collision aujourd'hui. À documenter comme invariant ou désambiguïser."
+    },
+    {
+      "label": "Journée entière déduite du seul composant de début",
+      "severity": "minor",
+      "confidence": "confirmed",
+      "file": "themes/sarfrance/layouts/partials/event-dates.html",
+      "detail": "`$allDay := eq (len $sp) 1` ne regarde que le début : une plage mixte `2026-03-03/2026-03-31T18:00` serait traitée en journée entière et son heure de fin ignorée. Aucune donnée de ce type aujourd'hui ; soit la refuser via `warnf`, soit la gérer."
+    },
+    {
+      "label": "Outlook limité aux comptes personnels",
+      "severity": "minor",
+      "confidence": "likely",
+      "file": "themes/sarfrance/layouts/partials/event-calendar.html",
+      "detail": "Le lien pointe sur `outlook.live.com` : les utilisateurs Microsoft 365 / professionnels atterrissent sur l'hôte grand public au lieu de `outlook.office.com`. Renommer le libellé en « Outlook.com » ou proposer les deux hôtes."
+    },
+    {
+      "label": "Pliage au milieu d'une séquence échappée",
+      "severity": "minor",
+      "confidence": "confirmed",
+      "file": "themes/sarfrance/layouts/partials/ics-fold.html",
+      "detail": "Le pliage peut couper entre le `\\` et le `n` d'un `\\n` échappé. Légal (RFC 5545 déplie avant d'interpréter) mais fragile avec les lecteurs permissifs : éviter la coupure quand le dernier caractère accumulé est une barre oblique inverse."
+    },
+    {
+      "label": "Pas de SEQUENCE, DTSTAMP mouvant",
+      "severity": "minor",
+      "confidence": "likely",
+      "file": "themes/sarfrance/layouts/partials/event-ics.html",
+      "detail": "L'UID est partagé avec le flux annuel (voulu : mise à jour plutôt que doublon) mais `DTSTAMP` change à chaque build (cron quotidien) et aucun `SEQUENCE` n'est émis ; certains clients ignorent une mise à jour sans incrément de `SEQUENCE`. Ajouter `SEQUENCE:0`."
+    },
+    {
+      "label": "Découvrabilité du raccourci et répétition de l'astuce",
+      "severity": "minor",
+      "confidence": "confirmed",
+      "file": "themes/sarfrance/layouts/partials/event-calendar.html",
+      "detail": "Le double-clic n'est annoncé que par l'attribut `title` du bouton (invisible au clavier et au tactile) et par `cal_hint`, qui n'apparaît qu'une fois le panneau ouvert et est dupliqué 43 fois sur la page 2026. Sortir l'astuce vers l'en-tête de page ou l'alléger."
+    }
+  ],
+  "reviewDoc": "/Users/gautric/Source/web-apps/sarfrance/.worktrees/agenda-add-to-calendar/.agents/tasks/add-to-calendar-review.md"
+}
