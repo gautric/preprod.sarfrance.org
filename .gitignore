@@ -37,3 +37,4 @@ sar1rappeldenosrdvdelarentre.zip
 .claude/settings.local.json
 .claude/worktrees/
 config/preprod/**
+.agents/**
