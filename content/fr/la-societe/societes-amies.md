@@ -77,3 +77,4 @@ La NSSAR compte des sociétés dans plusieurs pays en dehors des États-Unis :
 - [Association des Descendants de Capitaines Corsaires](http://www.descendants-capitainescorsaires.org/)
 - [La Sabretache](http://lasabretache.fr/) — Société d'études d'histoire militaire
 - [Amicale Royal Deux-Ponts](https://www.99et299ri.fr/)
+- [Le Souvenir français USA](https://souvenirfrancaisusa.org/) — Mémoire des combattants français morts pour la France aux États-Unis

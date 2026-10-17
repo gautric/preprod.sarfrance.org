@@ -73,3 +73,4 @@ The NSSAR has societies in several countries outside the United States:
 - [Association of Descendants of Privateer Captains](http://www.descendants-capitainescorsaires.org/)
 - [La Sabretache](http://lasabretache.fr/) — Military history study society
 - [Amicale Royal Deux-Ponts](https://www.99et299ri.fr/)
+- [Le Souvenir français USA](https://souvenirfrancaisusa.org/) — Preserving the memory of French soldiers who died for France in the United States
