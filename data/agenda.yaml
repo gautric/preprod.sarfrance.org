@@ -1444,6 +1444,15 @@ events:
     lat: 48.8429
     lon: 2.4358
     update: "2026-04-02"
+  - date: "2026-11-10T20:30:00"
+    title: "Conférence de F. Devoucoux du Buysson sur le chevalier du Buysson à Millau"
+    type: conférence
+    description: "Conférence « Un destin français dans la guerre d'Indépendance américaine » de François Devoucoux du Buysson, membre de la Société, sur le chevalier du Buysson, dont la vie a inspiré l'album de bande dessinée « Amériques » (éditions Daniel Maghen). Libre participation aux frais, inscription en ligne. Vente et dédicace de l'album."
+    location: "Salle AMIO, bâtiment 2ISA, 32 avenue de la République, 12100 Millau"
+    link: "https://www.explore-millau.com/jy-vais/agenda/tout-lagenda/conference-un-destin-francais-dans-la-guerre-dindependance-americaine-millau-fr-6867089/"
+    lat: 44.1032
+    lon: 3.0767
+    update: "2026-10-29"
   - date: "2026-11-26T18:00:00/2026-11-26T20:00:00"
     title: "Conférence « La genèse de la Force Océanique Stratégique 1945-1972 » et présentation des premiers submersibles à Rochefort"
     type: 400ans-marine-nationale
