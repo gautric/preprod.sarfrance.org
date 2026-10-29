@@ -4,7 +4,7 @@
 # juste au-dessus d'une cible la documentent dans l'aide ; une ligne « ##@ »
 # y ouvre une nouvelle section.
 
-HUGO_VERSION_CI := 0.166.0
+HUGO_VERSION_CI := 0.169.0
 
 # Répertoire jetable pour les builds de vérification (hors public/)
 CHECK_DIR := /tmp/sarfrance-build-check

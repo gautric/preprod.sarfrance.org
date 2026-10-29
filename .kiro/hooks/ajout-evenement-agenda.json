@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Ajout d'un évènement à l'agenda",
+      "trigger": "UserPromptSubmit",
+      "action": {
+        "type": "command",
+        "command": "source .venv/bin/activate && python3 scripts/hooks/ajout_evenement_agenda.py"
+      },
+      "description": "Transposition locale du workflow GitHub agent-agenda : quand un prompt demande l'ajout d'un évènement à l'agenda (texte libre ou issue GitHub « agenda »), injecte la consigne d'appliquer .kiro/steering/ajout-evenement-agenda.md (validation, correction du français, géocodage Nominatim, insertion chronologique dans data/agenda.yaml, champ update).",
+      "enabled": true
+    }
+  ]
+}
