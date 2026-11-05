@@ -1453,6 +1453,15 @@ events:
     lat: 44.1032
     lon: 3.0767
     update: "2026-10-29"
+  - date: "2026-11-16T18:00:00"
+    title: "Conférence sur les mythes fondateurs de l'Amérique"
+    type: conférence
+    description: "Conférence organisée par le cercle France-Amériques, partenaire de la Société, suivie d'un verre amical. Inscription en ligne. Les membres sont invités à signaler aussi leur venue à la Société."
+    location: "Cercle France-Amériques, 75008 Paris"
+    link: "https://franceameriquesass.hello.kendrala.com/Conference-Les-mythes-fondateurs-de-lAme/Mnk0RE03YTh0Y1ZDRU5vd05JYmVBZz09-1-OXJ4b1NSZ2JNV2VUVm01WW14Q2JLTnZ3cUp0ZUVENUpuNUh4WEJPaUZSRT0.html"
+    lat: 48.8659
+    lon: 2.3100
+    update: "2026-11-05"
   - date: "2026-11-26T18:00:00/2026-11-26T20:00:00"
     title: "Conférence « La genèse de la Force Océanique Stratégique 1945-1972 » et présentation des premiers submersibles à Rochefort"
     type: 400ans-marine-nationale
@@ -1462,6 +1471,15 @@ events:
     lat: 48.8622
     lon: 2.2884
     update: "2026-04-02"
+  - date: "2026-12-01T18:00:00"
+    title: "Les navires de la Compagnie des Indes au combat"
+    type: conférence
+    description: "Conférence de Patrick Villiers, organisée par l'Association des Amis de Mahé de La Bourdonnais, partenaire de la Société. Pot de l'amitié à l'issue. Inscription requise."
+    location: "Mairie du 7e, 116 rue de Grenelle, Paris"
+    link: ""
+    lat: 48.8571
+    lon: 2.3205
+    update: "2026-11-05"
   - date: "2026-12-17T18:00:00/2026-12-17T20:00:00"
     title: "Présentation d'archives et conférence « L'enseignement et la formation maritime (XIXe – début XXe siècle) »"
     type: 400ans-marine-nationale
