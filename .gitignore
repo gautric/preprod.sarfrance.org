@@ -38,3 +38,4 @@ sar1rappeldenosrdvdelarentre.zip
 .claude/worktrees/
 config/preprod/**
 .agents/**
+scripts/__pycache__/**
