@@ -4,10 +4,10 @@
             <a href="{{ .Site.Home.RelPermalink }}" class="logo">
                 <img src="/images/icons/sar-logo-nav.png" alt="SAR FRANCE" class="logo-img">
             </a>
-            <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
+            <button class="menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="nav-menu">
                 <span class="hamburger"></span>
             </button>
-            <ul class="nav-menu">
+            <ul class="nav-menu" id="nav-menu">
                 {{ $currentURL := .RelPermalink }}
                 {{ range .Site.Menus.main }}
                     {{ if .HasChildren }}
@@ -16,7 +16,7 @@
                         <ul class="submenu">
                             {{ range .Children }}
                             {{ $childActive := eq .URL $currentURL }}
-                            <li{{ if $childActive }} class="active"{{ end }}><a href="{{ .URL }}">{{ .Name }}</a></li>
+                            <li{{ if $childActive }} class="active"{{ end }}><a href="{{ .URL }}"{{ if $childActive }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
                             {{ end }}
                         </ul>
                     </li>
@@ -47,10 +47,10 @@
                     </ul>
                 </li>
                 <li class="has-submenu lang-switch">
-                    <a href="#" aria-label="{{ i18n "change_language" }}">{{ if eq .Lang "fr" }}<img src="/images/icons/flag-fr.svg" alt="Français" class="flag-icon" width="20" height="14">{{ else }}<img src="/images/icons/flag-us.svg" alt="English" class="flag-icon" width="20" height="14">{{ end }}</a>
+                    <a href="#" aria-label="{{ i18n "change_language" }}" aria-haspopup="true">{{ if eq .Lang "fr" }}<img src="/images/icons/flag-fr.svg" alt="Français" class="flag-icon" width="20" height="14">{{ else }}<img src="/images/icons/flag-us.svg" alt="English" class="flag-icon" width="20" height="14">{{ end }}</a>
                     <ul class="submenu">
-                        <li{{ if eq .Lang "fr" }} class="active"{{ end }}><a href="{{ $frURL }}" lang="fr" hreflang="fr"><img src="/images/icons/flag-fr.svg" alt="Français" class="flag-icon" width="20" height="14"> Français</a></li>
-                        <li{{ if eq .Lang "en" }} class="active"{{ end }}><a href="{{ $enURL }}" lang="en" hreflang="en"><img src="/images/icons/flag-us.svg" alt="English" class="flag-icon" width="20" height="14"> English</a></li>
+                        <li{{ if eq .Lang "fr" }} class="active"{{ end }}><a href="{{ $frURL }}" lang="fr" hreflang="fr"{{ if eq .Lang "fr" }} aria-current="page"{{ end }}><img src="/images/icons/flag-fr.svg" alt="Français" class="flag-icon" width="20" height="14"> Français</a></li>
+                        <li{{ if eq .Lang "en" }} class="active"{{ end }}><a href="{{ $enURL }}" lang="en" hreflang="en"{{ if eq .Lang "en" }} aria-current="page"{{ end }}><img src="/images/icons/flag-us.svg" alt="English" class="flag-icon" width="20" height="14"> English</a></li>
                     </ul>
                 </li>
             </ul>

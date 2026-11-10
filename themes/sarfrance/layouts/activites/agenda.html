@@ -79,7 +79,7 @@
                             <h3 class="page-card-title">{{ with .link }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}{{ .title }}{{ with .link }}</a>{{ end }}</h3>
                             {{ with .description }}<p class="page-card-desc">{{ . }}</p>{{ end }}
                             <div class="agenda-card-meta">
-                                {{ with .location }}<span class="agenda-card-location">📍 {{ . }}</span>{{ end }}
+                                {{ with .location }}<span class="agenda-card-location"><span aria-hidden="true">📍</span> {{ . }}</span>{{ end }}
                                 {{- /* « Ajouter au calendrier » : bouton + panneau, placé juste après 📍 et avant 📷.
                                        Masqué pour une année antérieure ($yearIsCurrentOrFuture) et pour un événement
                                        dont la date de fin (non exclusive) est déjà passée — comparaison AU BUILD. */ -}}

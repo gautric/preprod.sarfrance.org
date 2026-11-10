@@ -50,9 +50,9 @@
                             </div>
                             <p class="page-card-desc">{{ .description }}</p>
                             <div class="hl-card-meta">
-                                <span class="hl-card-address">📍 {{ .adresse }}</span>
+                                <span class="hl-card-address"><span aria-hidden="true">📍</span> {{ .adresse }}</span>
                                 {{ with .url }}
-                                <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="hl-card-link" title="{{ i18n "hauts_lieux_website" }}">🌐 {{ i18n "hauts_lieux_website" }}</a>
+                                <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="hl-card-link" title="{{ i18n "hauts_lieux_website" }}"><span aria-hidden="true">🌐</span> {{ i18n "hauts_lieux_website" }}</a>
                                 {{ end }}
                             </div>
                             {{ if .personnages }}
