@@ -56,15 +56,32 @@
         });
     }
 
-    /** Drop a subtle shadow under the sticky header once the page is scrolled. */
+    /**
+     * Drop a subtle shadow under the sticky header once the page is scrolled.
+     * The scroll handler fires very frequently, so it is throttled with
+     * requestAnimationFrame and only writes the inline style when the
+     * scrolled/not-scrolled state actually flips (no redundant style writes).
+     */
     function initHeaderScrollShadow() {
         var header = document.querySelector('.site-header');
         if (!header) return;
 
+        var SHADOW = '0 2px 10px rgba(0, 0, 0, 0.15)';
+        var ticking = false;
+        var scrolled = null; /* unknown until the first measure */
+
+        function update() {
+            ticking = false;
+            var isScrolled = window.scrollY > 100;
+            if (isScrolled === scrolled) return;
+            scrolled = isScrolled;
+            header.style.boxShadow = isScrolled ? SHADOW : 'none';
+        }
+
         window.addEventListener('scroll', function () {
-            header.style.boxShadow = window.scrollY > 100
-                ? '0 2px 10px rgba(0, 0, 0, 0.15)'
-                : 'none';
+            if (ticking) return;
+            ticking = true;
+            window.requestAnimationFrame(update);
         }, { passive: true });
     }
 })();
