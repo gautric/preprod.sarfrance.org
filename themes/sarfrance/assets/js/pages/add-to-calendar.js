@@ -114,7 +114,7 @@ SAR.onReady(function () {
     function copyIcsUrl(btn) {
         var panel = btn.closest('.agenda-cal-panel');
         var feedback = panel ? panel.querySelector('.agenda-cal-feedback') : null;
-        var absoluteUrl = new URL(btn.dataset.icsUrl, window.location.href).href;
+        var absoluteUrl = SAR.absoluteUrl(btn.dataset.icsUrl);
         SAR.copyToClipboard(absoluteUrl).then(function () {
             SAR.flashFeedback(feedback, btn.dataset.copiedLabel || '');
         });

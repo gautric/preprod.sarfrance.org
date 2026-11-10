@@ -120,9 +120,9 @@ SAR.onReady(function () {
 
         if (copyBtn) {
             copyBtn.addEventListener('click', function () {
-                var absoluteUrl = new URL(copyBtn.dataset.icsUrl, window.location.href).href;
+                var absoluteUrl = SAR.absoluteUrl(copyBtn.dataset.icsUrl);
                 SAR.copyToClipboard(absoluteUrl).then(function () {
-                    SAR.flashFeedback(feedback, (copyBtn && copyBtn.dataset.copiedLabel) || '');
+                    SAR.flashFeedback(feedback, copyBtn.dataset.copiedLabel || '');
                 });
             });
         }
