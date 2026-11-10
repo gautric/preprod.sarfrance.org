@@ -1,0 +1,11 @@
+{{- /*
+  js.html — emit a <script> for a pipeline script.
+  Input: the asset path relative to assets/ (a string), e.g. "js/pages/agenda.js".
+  Runs the asset through asset.html (fingerprint + conditional minify + SRI),
+  then emits the script tag with its integrity hash. Single source of the SRI
+  wiring so every page stays consistent — never hand-write resources.* here.
+
+  Usage: {{ partial "js.html" "js/pages/agenda.js" }}
+*/ -}}
+{{- $r := partial "asset.html" . -}}
+<script src="{{ $r.RelPermalink }}" integrity="{{ $r.Data.Integrity }}"></script>

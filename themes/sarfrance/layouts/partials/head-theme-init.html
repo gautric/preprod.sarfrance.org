@@ -5,5 +5,4 @@
   (no async/defer) is intentional: it must run before first paint.
   Mirrors the asset.html pipeline pattern (fingerprint + SRI integrity).
 */ -}}
-{{- $themeInit := partial "asset.html" "js/theme-init.js" }}
-<script src="{{ $themeInit.RelPermalink }}" integrity="{{ $themeInit.Data.Integrity }}"></script>
+{{ partial "js.html" "js/theme-init.js" }}

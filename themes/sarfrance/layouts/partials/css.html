@@ -1,0 +1,11 @@
+{{- /*
+  css.html — emit a <link> for a pipeline stylesheet.
+  Input: the asset path relative to assets/ (a string), e.g. "css/style.css".
+  Runs the asset through asset.html (fingerprint + conditional minify + SRI),
+  then emits the stylesheet link with its integrity hash. Single source of the
+  SRI wiring so every page stays consistent — never hand-write resources.* here.
+
+  Usage: {{ partial "css.html" "css/agenda.css" }}
+*/ -}}
+{{- $r := partial "asset.html" . -}}
+<link rel="stylesheet" href="{{ $r.RelPermalink }}" integrity="{{ $r.Data.Integrity }}">

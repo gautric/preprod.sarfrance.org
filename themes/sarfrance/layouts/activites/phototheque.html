@@ -1,6 +1,5 @@
 {{ define "head" }}
-{{- $css := partial "asset.html" "css/phototheque.css" }}
-<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{ partial "css.html" "css/phototheque.css" }}
 {{ end }}
 
 {{ define "main" }}
@@ -71,6 +70,5 @@
 {{ end }}
 
 {{ define "scripts" }}
-{{- $js := partial "asset.html" "js/pages/phototheque.js" }}
-<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+{{ partial "js.html" "js/pages/phototheque.js" }}
 {{ end }}
