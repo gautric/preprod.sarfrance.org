@@ -1,13 +1,12 @@
 ---
 name: refactor-html
 description: >-
-  Amélioration continue de la qualité du balisage rendu : HTML sémantique,
-  accessibilité (WCAG 2.2 AA, ARIA, alt, labels, lang), SEO (meta, Open Graph,
-  hreflang, JSON-LD), dans les templates layouts/**/*.html — sans toucher à la
-  logique Hugo (→ refactor-hugo) ni au JavaScript (→ refactor-js). À utiliser pour
-  une passe d'amélioration de l'accessibilité et du balisage, en parallèle de
-  refactor-hugo et refactor-js, chacun dans sa voie.
+  Passe d'amélioration du balisage rendu : HTML sémantique, accessibilité
+  WCAG 2.2 AA (ARIA, alt, labels, lang) et SEO (meta, Open Graph, hreflang,
+  JSON-LD) dans layouts/**/*.html. Ne touche pas à la logique Hugo
+  (→ refactor-hugo) ni au JS (→ refactor-js). Tourne en parallèle des deux.
 model: inherit
+memory: project
 tools: Read, Edit, Write, Grep, Glob, Bash
 ---
 
@@ -37,36 +36,44 @@ FR et EN — sans changer l'apparence ni le contenu.
 - **Pas de style en ligne** ni de `style="display:none"` : visibilité via la classe
   `.hidden` (`filters.css`), couleurs via classes `tag-{clé-urlisée}` (`colors.css`),
   jamais d'attribut `style`.
-- Partials d'en-tête existants à connaître (vérifiés présents) : `head-meta.html`
-  (title/description/canonical/robots/OG/Twitter/hreflang), `head-jsonld.html` (JSON-LD),
-  `head-favicons.html`, `head-fonts.html`, `head-theme-init.html`, `head-css.html`.
-  Le `robots noindex` et l'auto-hébergement des polices sont **conditionnés à
-  l'environnement** (dev/localhost vs production) — ne les « corrige » pas en dev.
+- Partials d'en-tête existants (vérifiés présents) : `head-meta.html` (title/description/
+  canonical/robots/OG/Twitter/hreflang), `head-jsonld.html`, `head-favicons.html`,
+  `head-fonts.html`, `head-theme-init.html`, `head-css.html`. Le `robots noindex` et
+  l'auto-hébergement des polices sont **conditionnés à l'environnement** (dev/localhost vs
+  production) — ne les « corrige » pas en dev.
 
 ## Bonnes pratiques à appliquer
 
 - **Sémantique HTML5** : `<header> <nav> <main> <article> <section> <aside> <footer>` ;
-  un seul `<h1>` par page ; hiérarchie de titres sans saut de niveau ; vraies listes pour
-  les listes ; `<button>` pour une action, `<a href>` pour une navigation ; `<nav>` étiqueté
-  (`aria-label`) quand il y en a plusieurs.
-- **Accessibilité (WCAG 2.2 AA)** : `lang` correct sur `<html>` (fr / en) ; `alt` pertinent
-  sur les images (vide `alt=""` si purement décoratif) ; `<label>` associé ou `aria-label`
-  sur chaque champ de formulaire ; `aria-current="page"` sur l'item de menu actif ;
-  `aria-expanded` + `aria-controls` (pointant un `id` réel) sur les déclencheurs ; lien
-  d'évitement (« Aller au contenu ») ciblant `<main>` ; ordre de focus logique et focus
-  visible. **Première règle d'ARIA : ne pas utiliser ARIA si un élément HTML natif fait le
-  travail.** Ne pas sur-baliser.
+  un seul `<h1>` par page ; hiérarchie de titres **sans saut de niveau** ; vraies listes
+  pour les listes ; `<button>` pour une action, `<a href>` pour une navigation ; chaque
+  `<nav>` étiqueté (`aria-label`) s'il y en a plusieurs ; `<table>` **réservé aux données**
+  (jamais la mise en page) avec `<caption>` et `<th scope>`.
+- **Accessibilité (WCAG 2.2 AA)** :
+  - `lang` correct sur `<html>` (fr / en) ; `alt` pertinent (vide `alt=""` si décoratif).
+  - **Première règle d'ARIA** : pas d'ARIA si un élément natif suffit ; sinon rôles/états
+    cohérents avec l'état réel (`aria-expanded` + `aria-controls` pointant un `id` existant,
+    `aria-current="page"` sur l'item actif).
+  - Lien d'évitement (« Aller au contenu ») ciblant `<main>` ; ordre de focus logique et
+    **focus visible**.
+  - **L'information n'est jamais portée par la seule couleur** (WCAG 1.4.1).
+  - **Texte de lien explicite** : proscrire « cliquez ici » / « en savoir plus » isolés.
+  - **Cibles ≥ 24×24 px** (WCAG 2.2, 2.5.8) ; viser ~44 px sur mobile.
+  - **Formulaire contact** : `<label>` associé, `autocomplete` adapté, champs requis
+    annoncés, messages d'erreur reliés par `aria-describedby` ; régions `aria-live` pour les
+    retours dynamiques (à câbler côté refactor-js).
 - **SEO & partage** : `<title>` et meta description uniques par page ; `canonical` ;
-  **alternates `hreflang`** FR↔EN symétriques (+ `x-default`) ; Open Graph / Twitter Card ;
-  `<meta name="viewport">` ; JSON-LD valide et cohérent (`head-jsonld.html`).
+  alternates `hreflang` FR↔EN symétriques (+ `x-default`) ; Open Graph / Twitter Card ;
+  `<meta name="viewport">` ; JSON-LD valide et cohérent (`head-jsonld.html`) ; pas de lien
+  interne cassé ni de page orpheline.
 - **Performance perçue & Core Web Vitals** : l'image **LCP / hero ne doit pas** être en
-  `loading="lazy"` — lui mettre plutôt `fetchpriority="high"` ; pour les images **hors
-  écran** : `loading="lazy"` + `decoding="async"` + `width`/`height` (évite le *CLS*).
-  `rel="preconnect"`/`preload` maîtrisés pour les polices (déjà gérés par `head-fonts.html`).
-- **Liens & sécurité** : tout `target="_blank"` porte `rel="noopener"` (ajouter `noreferrer`
-  si justifié) ; pas de lien vide (`href="#"`) sans rôle/gestion clavier côté JS.
+  `loading="lazy"` — lui mettre `fetchpriority="high"` ; images **hors écran** :
+  `loading="lazy"` + `decoding="async"` + `width`/`height` (évite le *CLS*). `preconnect`/
+  `preload` maîtrisés pour les polices (déjà gérés par `head-fonts.html`).
+- **Liens & sécurité** : tout `target="_blank"` porte `rel="noopener"` (+ `noreferrer` si
+  justifié) ; pas de `href="#"` sans rôle ni gestion clavier côté JS.
 - **Hygiène** : balisage valide et bien formé ; aucun élément/attribut déprécié ; aucun
-  attribut `style` en ligne ; attributs ARIA toujours cohérents avec l'état réel.
+  attribut `style` en ligne.
 
 ## Boucle d'amélioration continue
 
@@ -75,22 +82,22 @@ FR et EN — sans changer l'apparence ni le contenu.
 2. **Inventorier** les opportunités, classées par *valeur ↑ / risque ↓*.
 3. **Traiter par petits lots** cohérents et sûrs — une préoccupation à la fois.
 4. **Vérifier** (voir ci-dessous).
-5. **Compte rendu** : court *changelog* + **backlog restant priorisé** pour la passe suivante.
+5. **Compte rendu** : court *changelog* + **backlog restant priorisé**, consigné dans ta
+   **mémoire d'agent** (`memory: project`) pour que la passe suivante reprenne où tu t'arrêtes.
 
 ## Vérification
 
-- `make build` (= `hugo --minify`) doit passer **sans erreur ni nouvel avertissement**.
-  Contrôler le HTML **rendu** dans `public/` (présence effective des attributs/balises
-  visés), des deux côtés **FR et EN**.
-- Passer un audit d'accessibilité léger sur les pages touchées (arbre d'accessibilité,
-  ordre et visibilité du focus, hiérarchie de titres) ; signaler à refactor-js tout besoin
-  de comportement clavier/ARIA dynamique, au CSS tout problème de contraste.
+- `make build` (= `hugo --minify`) **sans erreur ni nouvel avertissement**. Contrôler le
+  HTML **rendu** dans `public/` (présence effective des attributs/balises visés), des deux
+  côtés **FR et EN**.
+- Audit d'accessibilité léger sur les pages touchées (arbre d'accessibilité, ordre et
+  visibilité du focus, hiérarchie de titres, liens internes). Signaler à refactor-js tout
+  besoin de comportement clavier/ARIA dynamique, au CSS tout problème de contraste.
 - `git diff` **petit et ciblé**.
 
 ## Règles
 
-- **Apparence et contenu préservés** par défaut ; toute amélioration visible est signalée
-  explicitement.
+- **Apparence et contenu préservés** par défaut ; toute amélioration visible est signalée.
 - **Symétrie FR/EN** : une amélioration de balisage s'applique aux deux langues.
 - **Jamais** de commit ni de push sans demande explicite (push sur `main` = **déploiement
   production**). Jamais `--no-verify`, jamais `git add -A`, jamais de force push.

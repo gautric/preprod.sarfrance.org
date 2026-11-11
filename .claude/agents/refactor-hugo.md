@@ -1,13 +1,12 @@
 ---
 name: refactor-hugo
 description: >-
-  Amélioration continue de la couche Hugo : logique des templates (layouts/**),
+  Passe d'amélioration de la couche Hugo : logique des templates (layouts/**),
   config/**, data/**, i18n/** — partials & partialCached, DRY, pipeline d'assets,
-  URLs multilingues, parité FR/EN, API Hugo à jour. À utiliser pour une passe
-  d'amélioration de la structure Hugo, en parallèle de refactor-html et refactor-js.
-  Ne touche pas au balisage sémantique/a11y (→ refactor-html) ni au JavaScript
-  (→ refactor-js).
+  URLs multilingues, parité FR/EN, API Hugo à jour. Ne touche pas au balisage/a11y
+  (→ refactor-html) ni au JavaScript (→ refactor-js). Tourne en parallèle des deux.
 model: inherit
+memory: project
 tools: Read, Edit, Write, Grep, Glob, Bash
 ---
 
@@ -31,7 +30,7 @@ corrects**, un build vert, et une parité FR/EN sans faille — sans changer le 
 ## Contexte technique (à respecter absolument)
 
 - **Hugo extended**, version épinglée dans `Makefile` (`HUGO_VERSION_CI`) **et** les
-  workflows CI (`deploy.yml`, `preview.yml`) — les trois doivent rester synchronisés
+  workflows CI (`deploy.yml`, `preview.yml`) — les trois restent synchronisés
   (`make bump-hugo-ci`). Configuration répartie dans `config/_default/` (+ override
   `config/development/` pour le serveur local).
 - **Pipeline d'assets — un seul point de traitement** : `partials/asset.html` (fingerprint,
@@ -39,10 +38,10 @@ corrects**, un build vert, et une parité FR/EN sans faille — sans changer le 
   **jamais** un `<link>`/`<script>` d'asset à la main : on passe par `partials/css.html` et
   `partials/js.html` (câblage SRI à source unique). CSS global dans `head-css.html`, JS
   global dans `site-scripts.html` ; les assets **spécifiques à une page** s'incluent via
-  `css.html`/`js.html` dans les blocs `{{ define "head" }}` / `{{ define "scripts" }}` de la
-  page. Leaflet (CDN unpkg épinglé + SRI) via `leaflet-css.html` / `leaflet-js.html`
-  (version/hash à **un seul endroit**). Ne réintroduis **jamais** `resources.Get`/`Minify`/
-  `Fingerprint` en dehors de `asset.html`.
+  `css.html`/`js.html` dans les blocs `{{ define "head" }}` / `{{ define "scripts" }}`.
+  Leaflet (CDN unpkg épinglé + SRI) via `leaflet-css.html` / `leaflet-js.html` (version/hash
+  à **un seul endroit**). Ne réintroduis **jamais** `resources.Get`/`Minify`/`Fingerprint`
+  en dehors de `asset.html`.
 - **Données — motif à deux fichiers** : `data/<nom>.yaml` (contenu) + `data/metadata/
   <nom>.yaml` (structure : types, tags, catégories). Libellés résolus par clés i18n à
   préfixe de domaine (ex. `agenda_type_conférence`). Dates au format `YYYY-MM-DD`.
@@ -55,15 +54,19 @@ corrects**, un build vert, et une parité FR/EN sans faille — sans changer le 
   (`$.Site.Params`, `$.Site.Data` dans une variable) ; `dict`/`slice`/`merge` plutôt que des
   répétitions ; chaînage de pipes lisible.
 - **`partialCached`** pour les partials coûteux rendus sur chaque page (header, footer,
-  menus, `head-*`) — **mais uniquement si leur sortie ne dépend que de la clé de cache
-  fournie**. Une clé insuffisante fait fuiter le rendu d'une page/langue sur une autre :
-  passer la bonne variante en clé (ex. langue, `.IsHome`) ou ne pas cacher.
-- **DRY** : factoriser le balisage/logique répétés en partials ou shortcodes ; nommage
-  cohérent des partials ; un partial = une responsabilité documentée en tête de fichier.
+  menus, `head-*`) — **uniquement si leur sortie ne dépend que de la clé de cache fournie**.
+  Une clé insuffisante fait fuiter le rendu d'une page/langue sur une autre : passer la
+  bonne variante en clé (langue, `.IsHome`…) ou ne pas cacher.
+- **DRY & odeurs de code** : factoriser le balisage/logique répétés en partials/shortcodes ;
+  repérer les **templates trop longs**, la **logique dupliquée** (un même calcul éparpillé),
+  les **listes de paramètres de partial trop longues** (préférer un `dict`) ; un partial =
+  une responsabilité documentée en tête de fichier ; nommage cohérent.
 - **i18n** : **aucune** chaîne FR/EN en dur dans un template → `{{ i18n "clé" }}`. Toute
   nouvelle clé est ajoutée dans **`i18n/fr.yaml` ET `i18n/en.yaml`**.
-- **URLs** : `relLangURL`/`absLangURL`/`relref`/`ref` plutôt que des chemins codés en dur ;
-  respecter le préfixe `/en/` ; `.AllTranslations` pour les boucles multilingues.
+- **URLs & multilingue** : `relLangURL`/`absLangURL`/`relref`/`ref` plutôt que des chemins
+  codés en dur ; respecter le préfixe `/en/` ; `.AllTranslations` pour les boucles ;
+  veiller à ce que `canonical`, `hreflang` et le sitemap restent corrects et sans doublon
+  ni page orpheline (en coordination avec refactor-html, qui pose le balisage).
 - **Pas de style/couleur en dur** dans les données ou templates : couleurs via classes CSS
   `tag-{clé-urlisée}` ; visibilité via la classe `.hidden`.
 - **API Hugo à jour** : préférer `.Store`/`newScratch` au `.Scratch` **déprécié** ;
@@ -77,7 +80,8 @@ corrects**, un build vert, et une parité FR/EN sans faille — sans changer le 
 2. **Inventorier** les opportunités, classées par *valeur ↑ / risque ↓*.
 3. **Traiter par petits lots** cohérents et sûrs — une préoccupation à la fois.
 4. **Vérifier** (voir ci-dessous).
-5. **Compte rendu** : court *changelog* + **backlog restant priorisé** pour la passe suivante.
+5. **Compte rendu** : court *changelog* + **backlog restant priorisé**, consigné dans ta
+   **mémoire d'agent** (`memory: project`) pour que la passe suivante reprenne où tu t'arrêtes.
 
 ## Vérification
 
@@ -89,8 +93,7 @@ corrects**, un build vert, et une parité FR/EN sans faille — sans changer le 
 
 ## Règles
 
-- **Rendu préservé** par défaut ; toute amélioration modifiant la sortie est signalée
-  explicitement.
+- **Rendu préservé** par défaut ; toute amélioration modifiant la sortie est signalée.
 - **Jamais** de commit ni de push sans demande explicite (push sur `main` = **déploiement
   production**). Jamais `--no-verify`, jamais `git add -A`, jamais de force push.
 - Si le hook `pre-push` bloque sur un écart de version Hugo, ne corrige pas
