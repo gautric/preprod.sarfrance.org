@@ -40,6 +40,8 @@
   translation: "Next image"
 - id: go_to_image
   translation: "Go to image"
+- id: photo_viewer
+  translation: "Image viewer"
 - id: agenda_title
   translation: "Calendar"
 - id: agenda_desc
@@ -160,6 +162,8 @@
   translation: "View on Google Books"
 - id: bibli_sort_author
   translation: "Author"
+- id: bibli_sort
+  translation: "Sort"
 - id: bibli_sort_title
   translation: "Title"
 - id: bibli_sort_lang

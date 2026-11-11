@@ -1,16 +1,11 @@
 {{- /* Core helpers — single bundle, loaded first & globally so every module can rely on SAR.* */ -}}
-{{- $coreJS := partial "asset.html" "js/core.js" }}
-<script src="{{ $coreJS.RelPermalink }}" integrity="{{ $coreJS.Data.Integrity }}"></script>
+{{ partial "js.html" "js/core.js" }}
 {{- /* Shared modules */ -}}
-{{- $filterJS := partial "asset.html" "js/shared/filter-engine.js" }}
-<script src="{{ $filterJS.RelPermalink }}" integrity="{{ $filterJS.Data.Integrity }}"></script>
+{{ partial "js.html" "js/shared/filter-engine.js" }}
 {{- /* Site-wide page behaviour */ -}}
-{{- $mainJS := partial "asset.html" "js/pages/main.js" }}
-<script src="{{ $mainJS.RelPermalink }}" integrity="{{ $mainJS.Data.Integrity }}"></script>
+{{ partial "js.html" "js/pages/main.js" }}
 {{- /* Theme switcher (light/dark/system) — needs SAR, so after core.js */ -}}
-{{- $themeSwitchJS := partial "asset.html" "js/pages/theme-switcher.js" }}
-<script src="{{ $themeSwitchJS.RelPermalink }}" integrity="{{ $themeSwitchJS.Data.Integrity }}"></script>
+{{ partial "js.html" "js/pages/theme-switcher.js" }}
 {{- if .IsHome }}
-{{- $carouselJS := partial "asset.html" "js/pages/carousel.js" }}
-<script src="{{ $carouselJS.RelPermalink }}" integrity="{{ $carouselJS.Data.Integrity }}"></script>
+{{ partial "js.html" "js/pages/carousel.js" }}
 {{- end }}

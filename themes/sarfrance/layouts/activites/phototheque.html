@@ -1,6 +1,5 @@
 {{ define "head" }}
-{{- $css := partial "asset.html" "css/phototheque.css" }}
-<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{ partial "css.html" "css/phototheque.css" }}
 {{ end }}
 
 {{ define "main" }}
@@ -61,16 +60,15 @@
 </article>
 
 <!-- Lightbox -->
-<div id="lightbox" class="lightbox" role="dialog" aria-label="Image viewer">
-    <button class="lightbox-close" aria-label="Close">&times;</button>
-    <button class="lightbox-nav lightbox-prev" aria-label="Previous">&#10094;</button>
-    <button class="lightbox-nav lightbox-next" aria-label="Next">&#10095;</button>
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="{{ i18n "photo_viewer" }}">
+    <button type="button" class="lightbox-close" aria-label="{{ i18n "cal_close" }}">&times;</button>
+    <button type="button" class="lightbox-nav lightbox-prev" aria-label="{{ i18n "prev_image" }}">&#10094;</button>
+    <button type="button" class="lightbox-nav lightbox-next" aria-label="{{ i18n "next_image" }}">&#10095;</button>
     <img src="" alt="">
     <p class="lightbox-caption"></p>
 </div>
 {{ end }}
 
 {{ define "scripts" }}
-{{- $js := partial "asset.html" "js/pages/phototheque.js" }}
-<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+{{ partial "js.html" "js/pages/phototheque.js" }}
 {{ end }}

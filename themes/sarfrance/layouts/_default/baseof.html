@@ -3,13 +3,14 @@
 <head>
     {{- template "_internal/google_analytics.html" . }}
     {{- partial "head-meta.html" . }}
-    {{- partial "head-favicons.html" . }}
+    {{- /* Static across the whole site: render once, then reuse. */ -}}
+    {{- partialCached "head-favicons.html" . }}
     <!-- Theme init (no-FOUC): sets data-theme on <html> before the CSS below -->
-    {{- partial "head-theme-init.html" . }}
-    <!-- CSS: colors → style → filters → page-specific -->
-    {{- partial "head-css.html" . }}
-    <!-- Fonts -->
-    {{- partial "head-fonts.html" . }}
+    {{- partialCached "head-theme-init.html" . }}
+    <!-- CSS: colors → style → filters → page-specific (only varies on the home carousel) -->
+    {{- partialCached "head-css.html" . .IsHome }}
+    <!-- Fonts (self-hosting fetch logic runs once per build, not per page) -->
+    {{- partialCached "head-fonts.html" . }}
     {{- block "head" . }}{{- end }}
     <!-- JSON-LD Structured Data -->
     {{- partial "head-jsonld.html" . }}
@@ -20,8 +21,8 @@
     <main id="main-content" class="gold-accent">
         {{- block "main" . }}{{- end }}
     </main>
-    {{- partial "footer.html" . -}}
-    {{- partial "site-scripts.html" . }}
+    {{- partialCached "footer.html" . .Lang -}}
+    {{- partialCached "site-scripts.html" . .IsHome }}
     {{- block "scripts" . }}{{- end }}
 </body>
 </html>

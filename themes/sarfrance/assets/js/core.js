@@ -71,6 +71,17 @@
         return SAR.isEnglish() ? '/en/' : '/';
     };
 
+    /**
+     * Resolve a (possibly relative) URL against the current page into an
+     * absolute URL string. Used to turn build-time .ics paths into the full
+     * URLs copied to the clipboard.
+     * @param {string} path
+     * @returns {string}
+     */
+    SAR.absoluteUrl = function (path) {
+        return new URL(path, window.location.href).href;
+    };
+
     /* ─── 3. Network helpers ────────────────────────────────────────────── */
 
     /**

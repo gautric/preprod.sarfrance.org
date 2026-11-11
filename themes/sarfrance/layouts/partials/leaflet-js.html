@@ -1,0 +1,9 @@
+{{- /*
+  leaflet-js.html — Leaflet script from the unpkg CDN.
+  Single source of truth for the pinned version + Subresource Integrity hash,
+  shared by every map page (agenda, chronologie, lieux-de-memoire, contact).
+  Bump the version/hash here only.
+
+  Usage (inside a page's {{ define "scripts" }} block): {{ partial "leaflet-js.html" . }}
+*/ -}}
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>

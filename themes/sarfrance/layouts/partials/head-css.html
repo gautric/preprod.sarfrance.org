@@ -1,10 +1,6 @@
-{{- $colors := partial "asset.html" "css/colors.css" }}
-{{- $style := partial "asset.html" "css/style.css" }}
-{{- $filters := partial "asset.html" "css/filters.css" }}
-<link rel="stylesheet" href="{{ $colors.RelPermalink }}" integrity="{{ $colors.Data.Integrity }}">
-<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
-<link rel="stylesheet" href="{{ $filters.RelPermalink }}" integrity="{{ $filters.Data.Integrity }}">
+{{ partial "css.html" "css/colors.css" }}
+{{ partial "css.html" "css/style.css" }}
+{{ partial "css.html" "css/filters.css" }}
 {{- if .IsHome }}
-{{- $carousel := partial "asset.html" "css/carousel.css" }}
-<link rel="stylesheet" href="{{ $carousel.RelPermalink }}" integrity="{{ $carousel.Data.Integrity }}">
+{{ partial "css.html" "css/carousel.css" }}
 {{- end }}

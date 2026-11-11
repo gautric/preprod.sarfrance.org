@@ -40,17 +40,17 @@
     <div class="container">
         <div class="features-grid">
             <div class="feature-card">
-                <div class="feature-icon">🌍</div>
+                <div class="feature-icon" aria-hidden="true">🌍</div>
                 <h3>{{ i18n "transatlantic" }}</h3>
                 <p>{{ i18n "transatlantic_desc" }}</p>
             </div>
             <div class="feature-card">
-                <div class="feature-icon">📜</div>
+                <div class="feature-icon" aria-hidden="true">📜</div>
                 <h3>{{ i18n "historical" }}</h3>
                 <p>{{ i18n "historical_desc" }}</p>
             </div>
             <div class="feature-card">
-                <div class="feature-icon">🏛️</div>
+                <div class="feature-icon" aria-hidden="true">🏛️</div>
                 <h3>{{ i18n "cultural" }}</h3>
                 <p>{{ i18n "cultural_desc" }}</p>
             </div>
@@ -80,16 +80,16 @@
             <article class="event-card">
                 {{/* Événement récent : pas de badge, la date prend les couleurs « nouveau » */}}
                 {{ $isNew := partial "event-is-new.html" . }}
-                <div class="event-date{{ if $isNew }} event-date--new{{ end }}"{{ if $isNew }} title="{{ i18n "event_new_title" }}"{{ end }}>
+                <time class="event-date{{ if $isNew }} event-date--new{{ end }}" datetime="{{ $eventDate.Format "2006-01-02" }}"{{ if $isNew }} title="{{ i18n "event_new_title" }}"{{ end }}>
                     <span class="day">{{ $eventDate.Format "2" }}</span>
                     <span class="month">{{ time.Format "Jan" $eventDate }}</span>
-                </div>
+                </time>
                 <div class="event-info">
                     {{/* Lien vers la fiche de l'événement dans la page agenda de son année (même id que dans activites/agenda.html) */}}
                     {{- $agendaPage := site.GetPage (printf "/activites/agenda-%s" (substr .date 0 4)) -}}
                     {{- $eventId := printf "%s-%s" .date (.title | urlize) -}}
                     <h3>{{ with $agendaPage }}<a href="{{ .RelPermalink }}#{{ $eventId }}">{{ end }}{{ .title }}{{ with $agendaPage }}</a>{{ end }}</h3>
-                    {{ with .location }}<span class="event-location">📍 {{ . }}</span>{{ end }}
+                    {{ with .location }}<span class="event-location"><span aria-hidden="true">📍</span> {{ . }}</span>{{ end }}
                 </div>
             </article>
             {{ end }}

@@ -5,7 +5,7 @@ SAR.onReady(function () {
     var track = document.querySelector('.carousel-track');
     if (!track) return;
 
-    var slides = track.querySelectorAll('.carousel-slide');
+    var slides = SAR.selectAll('.carousel-slide', track);
     var dots = SAR.selectAll('.carousel-dot');
     var prev = document.querySelector('.carousel-prev');
     var next = document.querySelector('.carousel-next');
