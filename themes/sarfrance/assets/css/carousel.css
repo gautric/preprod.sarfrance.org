@@ -123,3 +123,49 @@
         padding: 8px 10px;
     }
 }
+
+/* ---- Hero : texte à gauche, carrousel à droite ---- */
+.hero-split {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.hero-split .hero-content {
+    margin: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.hero-split .hero-logo img {
+    width: 150px;
+}
+
+.hero-split h1 {
+    font-size: 3rem;
+}
+
+.hero-split .hero-carousel {
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+    .hero-split {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .hero-split .hero-content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-split h1 {
+        font-size: 2.3rem;
+    }
+}

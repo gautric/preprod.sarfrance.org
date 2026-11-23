@@ -2,6 +2,7 @@
 {{- $prefix := partial "lang-prefix.html" . -}}
 {{- $agendaYear := .Site.Params.currentAgendaYear | default (now.Format "2006") -}}
 <section class="hero">
+<div class="hero-split">
     <div class="hero-content">
         <div class="hero-logo">
             <img src="/images/sar-neo-transparent.png" alt="SAR France">
@@ -34,6 +35,7 @@
         </div>
     </div>
     {{ end }}
+</div>
 </section>
 
 <section class="features">
