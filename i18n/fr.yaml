@@ -350,6 +350,16 @@
   translation: "Navigation principale"
 - id: change_language
   translation: "Changer de langue"
+- id: hero_layout_toggle
+  translation: "Mise en page de l'accueil"
+- id: hero_layout_actuelle
+  translation: "Actuelle"
+- id: hero_layout_a
+  translation: "Option A – deux colonnes"
+- id: hero_layout_b
+  translation: "Option B – images en valeur"
+- id: hero_layout_c
+  translation: "Option C – carrousel en fond"
 - id: theme_toggle
   translation: "Thème"
 - id: theme_light

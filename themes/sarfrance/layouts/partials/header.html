@@ -32,6 +32,24 @@
                         {{ if eq .Lang "en" }}{{ $enURL = .RelPermalink }}{{ end }}
                     {{ end }}
                 {{ end }}
+                {{- /* Proposition : choix de la mise en page du hero (accueil seulement).
+                   Réutilise .theme-switch pour l'ouverture/fermeture du menu ;
+                   le choix est géré par hero-layout-switcher.js. */}}
+                {{ if .IsHome }}
+                <li class="has-submenu theme-switch hero-switch">
+                    <a href="#" class="theme-switch__trigger" aria-label="{{ i18n "hero_layout_toggle" }}" aria-haspopup="true" aria-expanded="false">
+                        <span class="theme-switch__current" aria-hidden="true">
+                            <svg class="hero-switch__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M3 9h18M9 21V9"></path></svg>
+                        </span>
+                    </a>
+                    <ul class="submenu">
+                        <li class="active"><a href="#" class="hero-opt" data-hero-value="actuelle" aria-current="true"><svg class="theme-opt-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="7" rx="1"></rect><rect x="3" y="13" width="18" height="8" rx="1"></rect></svg> {{ i18n "hero_layout_actuelle" }}</a></li>
+                        <li><a href="#" class="hero-opt" data-hero-value="a"><svg class="theme-opt-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="4" width="8" height="16" rx="1"></rect><rect x="13" y="4" width="8" height="16" rx="1"></rect></svg> {{ i18n "hero_layout_a" }}</a></li>
+                        <li><a href="#" class="hero-opt" data-hero-value="b"><svg class="theme-opt-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 5h5M3 9h5M3 13h5M3 17h5"></path><rect x="11" y="4" width="10" height="16" rx="1"></rect></svg> {{ i18n "hero_layout_b" }}</a></li>
+                        <li><a href="#" class="hero-opt" data-hero-value="c"><svg class="theme-opt-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2" y="3" width="20" height="18" rx="1"></rect><rect x="5" y="7" width="8" height="8" rx="1"></rect></svg> {{ i18n "hero_layout_c" }}</a></li>
+                    </ul>
+                </li>
+                {{ end }}
                 <li class="has-submenu theme-switch">
                     <a href="#" class="theme-switch__trigger" aria-label="{{ i18n "theme_toggle" }}" aria-haspopup="true" aria-expanded="false">
                         <span class="theme-switch__current" aria-hidden="true">

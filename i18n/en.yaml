@@ -350,6 +350,16 @@
   translation: "Main navigation"
 - id: change_language
   translation: "Change language"
+- id: hero_layout_toggle
+  translation: "Home page layout"
+- id: hero_layout_actuelle
+  translation: "Current"
+- id: hero_layout_a
+  translation: "Option A – two columns"
+- id: hero_layout_b
+  translation: "Option B – featured images"
+- id: hero_layout_c
+  translation: "Option C – background carousel"
 - id: theme_toggle
   translation: "Theme"
 - id: theme_light

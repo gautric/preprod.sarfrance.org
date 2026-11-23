@@ -123,3 +123,280 @@
         padding: 8px 10px;
     }
 }
+
+/* ============================================================
+   Mise en page du hero — choix par menu (comme le thème)
+   L'attribut data-hero sur <html> (actuelle | a | b | c) est posé
+   avant affichage par theme-init.js puis piloté par
+   hero-layout-switcher.js. Sans attribut : présentation actuelle.
+   ============================================================ */
+
+.hero-split {
+    width: 100%;
+}
+
+/* Icône du menu (classe propre : theme-switcher.js masque les
+   .theme-switch__ico qui ne correspondent pas au thème choisi) */
+.hero-switch__ico {
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+
+/* ---- Option A : deux colonnes égales ---- */
+:root[data-hero="a"] .hero-split {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+:root[data-hero="a"] .hero-split .hero-content {
+    margin: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+:root[data-hero="a"] .hero-split .hero-logo img {
+    width: 150px;
+}
+
+:root[data-hero="a"] .hero-split h1 {
+    font-size: 3rem;
+}
+
+:root[data-hero="a"] .hero-split .hero-carousel {
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+    :root[data-hero="a"] .hero-split {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    :root[data-hero="a"] .hero-split .hero-content {
+        align-items: center;
+        text-align: center;
+    }
+
+    :root[data-hero="a"] .hero-split h1 {
+        font-size: 2.3rem;
+    }
+}
+
+/* ---- Option B : images mises en valeur (40 / 60) ---- */
+:root[data-hero="b"] .hero-split {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 60px;
+    align-items: center;
+}
+
+:root[data-hero="b"] .hero-split .hero-content {
+    margin: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+:root[data-hero="b"] .hero-split .hero-logo img {
+    width: 110px;
+}
+
+:root[data-hero="b"] .hero-split h1 {
+    font-size: 2.8rem;
+}
+
+:root[data-hero="b"] .hero-split .hero-carousel {
+    margin: 0;
+}
+
+:root[data-hero="b"] .hero-split .hero-text {
+    border-left: 4px solid var(--gold);
+    padding-left: 25px;
+}
+
+:root[data-hero="b"] .hero-split .hero-carousel {
+    box-shadow: 0 12px 30px var(--overlay-dark-40);
+}
+
+:root[data-hero="b"] .hero-split .carousel-slide img {
+    height: 460px;
+}
+
+@media (max-width: 992px) {
+    :root[data-hero="b"] .hero-split {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    :root[data-hero="b"] .hero-split .hero-content {
+        align-items: center;
+        text-align: center;
+    }
+
+    :root[data-hero="b"] .hero-split h1 {
+        font-size: 2.3rem;
+    }
+
+    :root[data-hero="b"] .hero-split .hero-text {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    :root[data-hero="b"] .hero-split .carousel-slide img {
+        height: 320px;
+    }
+}
+
+/* ---- Hero : carrousel en arrière-plan, texte sur panneau lisible ---- */
+:root[data-hero="c"] .hero {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    min-height: 600px;
+    justify-content: center;
+}
+
+:root[data-hero="c"] .hero .hero-carousel {
+    position: absolute;
+    inset: 0;
+    max-width: none;
+    margin: 0;
+    border-radius: 0;
+    z-index: 0;
+}
+
+:root[data-hero="c"] .hero .carousel-track,
+:root[data-hero="c"] .hero .carousel-slide {
+    height: 100%;
+}
+
+:root[data-hero="c"] .hero .carousel-slide img {
+    height: 100%;
+}
+
+/* Voile dégradé : assombrit la gauche, sous le texte */
+:root[data-hero="c"] .hero .carousel-slide::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--overlay-hero-fade);
+    pointer-events: none;
+}
+
+:root[data-hero="c"] .hero .carousel-caption {
+    left: auto;
+    right: 0;
+    max-width: 45%;
+    text-align: right;
+    border-top-left-radius: 6px;
+    z-index: 1;
+}
+
+:root[data-hero="c"] .hero .carousel-dots {
+    left: auto;
+    right: 30px;
+    transform: none;
+    bottom: 80px;
+}
+
+:root[data-hero="c"] .hero .hero-content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding: 70px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    pointer-events: none;
+}
+
+:root[data-hero="c"] .hero .hero-logo {
+    display: none;
+}
+
+:root[data-hero="c"] .hero .hero-text {
+    flex: none;
+    max-width: 560px;
+    padding: 35px 40px;
+    background: var(--overlay-hero-panel);
+    border-left: 5px solid var(--gold);
+    border-radius: 6px;
+    backdrop-filter: blur(4px);
+    pointer-events: auto;
+}
+
+:root[data-hero="c"] .hero .hero-desc {
+    color: var(--white);
+}
+
+@media (max-width: 992px) {
+    :root[data-hero="c"] .hero .carousel-prev,
+    :root[data-hero="c"] .hero .carousel-next {
+        top: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    :root[data-hero="c"] .hero {
+        min-height: 0;
+    }
+
+    :root[data-hero="c"] .hero .hero-content {
+        padding: 180px 15px 30px;
+        align-items: stretch;
+        text-align: left;
+    }
+
+    :root[data-hero="c"] .hero .hero-text {
+        padding: 25px;
+    }
+
+    :root[data-hero="c"] .hero .carousel-caption {
+        top: 0;
+        bottom: auto;
+        max-width: 100%;
+        left: 0;
+        text-align: left;
+        border-radius: 0;
+    }
+
+    :root[data-hero="c"] .hero .carousel-dots {
+        top: 150px;
+        bottom: auto;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+    }
+
+    :root[data-hero="c"] .hero .carousel-prev,
+    :root[data-hero="c"] .hero .carousel-next {
+        top: 90px;
+    }
+}
+
+/* Fondu du texte à chaque changement d'image (5 s) */
+:root[data-hero="c"] .hero .hero-text.hero-text--fade {
+    animation: hero-text-fade 5s ease-in both;
+}
+
+@keyframes hero-text-fade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    :root[data-hero="c"] .hero .hero-text.hero-text--fade {
+        animation: none;
+    }
+}

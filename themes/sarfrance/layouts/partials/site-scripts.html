@@ -7,5 +7,6 @@
 {{- /* Theme switcher (light/dark/system) — needs SAR, so after core.js */ -}}
 {{ partial "js.html" "js/pages/theme-switcher.js" }}
 {{- if .IsHome }}
+{{ partial "js.html" "js/pages/hero-layout-switcher.js" }}
 {{ partial "js.html" "js/pages/carousel.js" }}
 {{- end }}

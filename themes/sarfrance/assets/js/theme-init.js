@@ -27,3 +27,19 @@
         root.removeAttribute('data-theme');
     }
 })();
+
+/* Hero layout (home page proposals): 'sar-hero' = a | b | c sets
+   data-hero on <html> before paint; anything else keeps the current
+   layout. Driven afterwards by pages/hero-layout-switcher.js. */
+(function () {
+    'use strict';
+
+    var layout = null;
+    try {
+        layout = window.localStorage.getItem('sar-hero');
+    } catch (e) { /* localStorage unavailable */ }
+
+    if (layout === 'a' || layout === 'b' || layout === 'c') {
+        document.documentElement.setAttribute('data-hero', layout);
+    }
+})();
