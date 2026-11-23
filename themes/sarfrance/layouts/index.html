@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{- $prefix := partial "lang-prefix.html" . -}}
 {{- $agendaYear := .Site.Params.currentAgendaYear | default (now.Format "2006") -}}
-<section class="hero">
+<section class="hero hero--bg">
     <div class="hero-content">
         <div class="hero-logo">
             <img src="/images/sar-neo-transparent.png" alt="SAR France">
@@ -13,7 +13,7 @@
         </div>
     </div>
     {{ with hugo.Data.carousel }}
-    <div class="hero-carousel">
+    <div class="hero-carousel" data-interval="20000">
         <div class="carousel-track">
             {{ range . }}
             <div class="carousel-slide">

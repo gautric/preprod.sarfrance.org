@@ -123,3 +123,146 @@
         padding: 8px 10px;
     }
 }
+
+/* ---- Hero : carrousel en arrière-plan, texte sur panneau lisible ---- */
+.hero--bg {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    min-height: 600px;
+    justify-content: center;
+}
+
+.hero--bg .hero-carousel {
+    position: absolute;
+    inset: 0;
+    max-width: none;
+    margin: 0;
+    border-radius: 0;
+    z-index: 0;
+}
+
+.hero--bg .carousel-track,
+.hero--bg .carousel-slide {
+    height: 100%;
+}
+
+.hero--bg .carousel-slide img {
+    height: 100%;
+}
+
+/* Voile dégradé : assombrit la gauche, sous le texte */
+.hero--bg .carousel-slide::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--overlay-hero-fade);
+    pointer-events: none;
+}
+
+.hero--bg .carousel-caption {
+    left: auto;
+    right: 0;
+    max-width: 45%;
+    text-align: right;
+    border-top-left-radius: 6px;
+    z-index: 1;
+}
+
+.hero--bg .carousel-dots {
+    left: auto;
+    right: 30px;
+    transform: none;
+    bottom: 80px;
+}
+
+.hero--bg .hero-content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding: 70px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    pointer-events: none;
+}
+
+.hero--bg .hero-logo {
+    display: none;
+}
+
+.hero--bg .hero-text {
+    flex: none;
+    max-width: 560px;
+    padding: 35px 40px;
+    background: var(--overlay-hero-panel);
+    border-left: 5px solid var(--gold);
+    border-radius: 6px;
+    backdrop-filter: blur(4px);
+    pointer-events: auto;
+}
+
+.hero--bg .hero-desc {
+    color: var(--white);
+}
+
+@media (max-width: 992px) {
+    .hero--bg .carousel-prev,
+    .hero--bg .carousel-next {
+        top: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero--bg {
+        min-height: 0;
+    }
+
+    .hero--bg .hero-content {
+        padding: 180px 15px 30px;
+        align-items: stretch;
+        text-align: left;
+    }
+
+    .hero--bg .hero-text {
+        padding: 25px;
+    }
+
+    .hero--bg .carousel-caption {
+        top: 0;
+        bottom: auto;
+        max-width: 100%;
+        left: 0;
+        text-align: left;
+        border-radius: 0;
+    }
+
+    .hero--bg .carousel-dots {
+        top: 150px;
+        bottom: auto;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+    }
+
+    .hero--bg .carousel-prev,
+    .hero--bg .carousel-next {
+        top: 90px;
+    }
+}
+
+/* Fondu du texte à chaque changement d'image (5 s) */
+.hero--bg .hero-text.hero-text--fade {
+    animation: hero-text-fade 5s ease-in both;
+}
+
+@keyframes hero-text-fade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hero--bg .hero-text.hero-text--fade {
+        animation: none;
+    }
+}
