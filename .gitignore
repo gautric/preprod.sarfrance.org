@@ -39,3 +39,4 @@ sar1rappeldenosrdvdelarentre.zip
 config/preprod/**
 .agents/**
 scripts/__pycache__/**
+event/*
