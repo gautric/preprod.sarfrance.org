@@ -9,8 +9,19 @@ SAR.onReady(function () {
     var dots = SAR.selectAll('.carousel-dot');
     var prev = document.querySelector('.carousel-prev');
     var next = document.querySelector('.carousel-next');
+    var carousel = track.closest('.hero-carousel');
+    var interval = Number(carousel && carousel.dataset.interval) || 7500;
+    /* Hero en arrière-plan : le texte réapparaît en fondu à chaque image */
+    var heroText = document.querySelector('.hero--bg .hero-text');
     var current = 0;
     var timer;
+
+    function fadeInText() {
+        if (!heroText) return;
+        heroText.classList.remove('hero-text--fade');
+        void heroText.offsetWidth; /* relance l'animation CSS */
+        heroText.classList.add('hero-text--fade');
+    }
 
     function goTo(index) {
         current = (index + slides.length) % slides.length;
@@ -18,10 +29,11 @@ SAR.onReady(function () {
         dots.forEach(function (dot, i) {
             dot.classList.toggle('active', i === current);
         });
+        fadeInText();
     }
 
     function autoPlay() {
-        timer = window.setInterval(function () { goTo(current + 1); }, 7500);
+        timer = window.setInterval(function () { goTo(current + 1); }, interval);
     }
 
     function resetTimer() {
